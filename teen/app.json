@@ -1,0 +1,21 @@
+{
+    "id": "teen",
+    "name": "Teen Trainer",
+    "version": "1.0.0",
+    "build": {
+        "pwaEnabled": true,
+        "usbDistribution": true
+    },
+    "display": {
+        "primaryColor": "#9C27B0",
+        "icon": "/assets/teen-icon.svg"
+    },
+    "terminology": {
+        "level": "Level",
+        "levelPlural": "Levels",
+        "theme": "Topic",
+        "themePlural": "Topics",
+        "exercise": "Exercise",
+        "exercisePlural": "Exercises"
+    }
+}
