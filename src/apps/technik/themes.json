@@ -1,0 +1,112 @@
+[
+    {
+        "id": "werkzeuge",
+        "name": "Werkzeuge",
+        "description": "Hammer, Schraubenzieher und andere Werkzeuge",
+        "areaId": "grundlagen",
+        "difficulty": 1,
+        "icon": "🔧",
+        "color": "#6366f1",
+        "minLevel": 1
+    },
+    {
+        "id": "materialien",
+        "name": "Materialien",
+        "description": "Holz, Papier, Stoff und ihre Eigenschaften",
+        "areaId": "grundlagen",
+        "difficulty": 1,
+        "icon": "🪵",
+        "color": "#8b5cf6",
+        "minLevel": 1
+    },
+    {
+        "id": "bauen",
+        "name": "Bauen",
+        "description": "Mit verschiedenen Materialien bauen",
+        "areaId": "praxis",
+        "difficulty": 1,
+        "icon": "🧱",
+        "color": "#ef4444",
+        "minLevel": 1
+    },
+    {
+        "id": "elektrik",
+        "name": "Elektrik",
+        "description": "Stromkreise und einfache Elektrik",
+        "areaId": "technik",
+        "difficulty": 2,
+        "icon": "💡",
+        "color": "#f59e0b",
+        "minLevel": 2
+    },
+    {
+        "id": "mechanik",
+        "name": "Mechanik",
+        "description": "Räder, Hebel und einfache Maschinen",
+        "areaId": "technik",
+        "difficulty": 2,
+        "icon": "⚙️",
+        "color": "#14b8a6",
+        "minLevel": 2
+    },
+    {
+        "id": "robotik-einfuehrung",
+        "name": "Robotik",
+        "description": "Erste Schritte mit Robotern und Programmierung",
+        "areaId": "digital",
+        "difficulty": 2,
+        "icon": "🤖",
+        "color": "#ec4899",
+        "minLevel": 2
+    },
+    {
+        "id": "computer",
+        "name": "Computer",
+        "description": "Grundlagen am Computer arbeiten",
+        "areaId": "digital",
+        "difficulty": 2,
+        "icon": "💻",
+        "color": "#3b82f6",
+        "minLevel": 2
+    },
+    {
+        "id": "konstruieren",
+        "name": "Konstruieren",
+        "description": "Technische Zeichnungen und Konstruktionen",
+        "areaId": "planung",
+        "difficulty": 3,
+        "icon": "📐",
+        "color": "#22c55e",
+        "minLevel": 3
+    },
+    {
+        "id": "programmierung",
+        "name": "Programmierung",
+        "description": "Erste Programmierkonzepte verstehen",
+        "areaId": "digital",
+        "difficulty": 3,
+        "icon": "⌨️",
+        "color": "#06b6d4",
+        "minLevel": 3
+    },
+    {
+        "id": "energie",
+        "name": "Energie",
+        "description": "Energieformen und sparsamer Umgang",
+        "areaId": "technik",
+        "difficulty": 3,
+        "icon": "🔋",
+        "color": "#84cc16",
+        "minLevel": 3
+    },
+    {
+        "id": "technische-projekte",
+        "name": "Technische Projekte",
+        "description": "Eigene technische Projekte umsetzen",
+        "areaId": "projekte",
+        "difficulty": 3,
+        "icon": "🚀",
+        "color": "#f97316",
+        "minLevel": 3
+    }
+]

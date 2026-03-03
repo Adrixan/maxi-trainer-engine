@@ -1,0 +1,36 @@
+# Example .gitmodules configuration
+# This file shows how projects using this repository as a submodule
+# should configure their .gitmodules file
+
+# Basic configuration
+[submodule ".github/copilot-instructions"]
+	path = .github/copilot-instructions
+	url = https://github.com/yourusername/copilot-instructions.git
+	branch = main
+
+# Alternative: Use your organization's fork
+[submodule ".github/copilot-instructions"]
+	path = .github/copilot-instructions
+	url = https://github.com/yourorg/copilot-instructions.git
+	branch = main
+
+# For shallow clones (faster, less history)
+[submodule ".github/copilot-instructions"]
+	path = .github/copilot-instructions
+	url = https://github.com/yourusername/copilot-instructions.git
+	branch = main
+	shallow = true
+
+# Update strategy: merge changes from remote
+[submodule ".github/copilot-instructions"]
+	path = .github/copilot-instructions
+	url = https://github.com/yourusername/copilot-instructions.git
+	branch = main
+	update = merge
+
+# Update strategy: rebase changes from remote (for custom modifications)
+[submodule ".github/copilot-instructions"]
+	path = .github/copilot-instructions
+	url = https://github.com/yourusername/copilot-instructions.git
+	branch = main
+	update = rebase

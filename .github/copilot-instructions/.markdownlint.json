@@ -1,0 +1,53 @@
+# Markdown linting configuration
+# Used by markdownlint-cli
+# MD036 disabled: instruction files intentionally use **bold** as sub-section labels
+# inside XML-style directive blocks — these are not headings.
+
+{
+  "default": true,
+  "MD003": {
+    "style": "atx"
+  },
+  "MD007": {
+    "indent": 2
+  },
+  "MD013": {
+    "line_length": 120,
+    "code_blocks": false,
+    "tables": false
+  },
+  "MD024": {
+    "siblings_only": true
+  },
+  "MD025": false,
+  "MD036": false,
+  "MD033": {
+    "allowed_elements": [
+      "antml:function_calls", "antml:invoke", "antml:parameter",
+      "accessibility_standards", "agent_profile", "ai_integration_standards",
+      "ansible_standards", "api_versioning", "architecture_principles",
+      "architecture_standards", "article", "aside",
+      "bash_standards", "button",
+      "common_pitfalls",
+      "dialog", "docker_standards",
+      "examples",
+      "footer",
+      "go_standards",
+      "header",
+      "internationalization",
+      "java_standards",
+      "kubernetes_standards",
+      "main", "modularity_architecture",
+      "nav",
+      "observability",
+      "performance_guidelines", "php_standards", "picture",
+      "powershell_standards", "python_standards",
+      "quick_reference",
+      "security_standards", "sql_standards",
+      "technology_standards", "terraform_standards",
+      "testing_protocol", "testing_standards",
+      "validation_checklist"
+    ]
+  },
+  "MD041": false
+}

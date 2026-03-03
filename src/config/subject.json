@@ -1,0 +1,61 @@
+{
+    "id": "generic-trainer",
+    "name": "Generic Trainer",
+    "description": "A configurable trainer for any subject with adaptive learning capabilities",
+    "targetAudience": "Learners of all ages and skill levels",
+    "primarySkillArea": "comprehension",
+    "enabledExerciseTypes": [
+        "fill-blank",
+        "multiple-choice",
+        "matching",
+        "sentence-builder",
+        "sorting",
+        "writing",
+        "conjugation-table",
+        "connector-insert",
+        "word-order",
+        "picture-vocabulary"
+    ],
+    "exerciseTypeConfig": {
+        "fill-blank": {
+            "hintsEnabled": true,
+            "maxAttempts": 3
+        },
+        "multiple-choice": {
+            "hintsEnabled": false,
+            "maxAttempts": 1
+        },
+        "matching": {
+            "hintsEnabled": true,
+            "maxAttempts": 2
+        },
+        "sentence-builder": {
+            "hintsEnabled": true,
+            "maxAttempts": 3
+        },
+        "sorting": {
+            "hintsEnabled": true,
+            "maxAttempts": 2
+        },
+        "writing": {
+            "hintsEnabled": true,
+            "maxAttempts": 3
+        },
+        "conjugation-table": {
+            "hintsEnabled": true,
+            "maxAttempts": 3
+        },
+        "connector-insert": {
+            "hintsEnabled": true,
+            "maxAttempts": 2
+        },
+        "word-order": {
+            "hintsEnabled": true,
+            "maxAttempts": 3
+        },
+        "picture-vocabulary": {
+            "hintsEnabled": true,
+            "maxAttempts": 2
+        }
+    }
+}

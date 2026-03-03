@@ -1,0 +1,108 @@
+{
+    "badges": [
+        {
+            "badge": {
+                "id": "first-steps",
+                "name": "Erste Schritte",
+                "description": "Schließe 5 Übungen ab",
+                "icon": "🌟"
+            },
+            "type": "exercises_completed",
+            "threshold": 5
+        },
+        {
+            "badge": {
+                "id": "number-master",
+                "name": "Zahlenmeister",
+                "description": "Schließe 25 Übungen ab",
+                "icon": "🔢"
+            },
+            "type": "exercises_completed",
+            "threshold": 25
+        },
+        {
+            "badge": {
+                "id": "math-whiz",
+                "name": "Mathe-Ass",
+                "description": "Schließe 50 Übungen ab",
+                "icon": "🧮"
+            },
+            "type": "exercises_completed",
+            "threshold": 50
+        },
+        {
+            "badge": {
+                "id": "perfect-score",
+                "name": "Perfekte Punktzahl",
+                "description": "Löse 10 Aufgaben perfekt",
+                "icon": "💯"
+            },
+            "type": "perfect_exercises",
+            "threshold": 10
+        },
+        {
+            "badge": {
+                "id": "week-streak",
+                "name": "Wochen-Serie",
+                "description": "Übe 7 Tage in Folge",
+                "icon": "🔥"
+            },
+            "type": "streak_days",
+            "threshold": 7
+        }
+    ],
+    "gamification": {
+        "starStrategy": "attempts",
+        "maxStarsPerExercise": 3,
+        "levelThresholds": [
+            {
+                "level": 1,
+                "starsRequired": 0
+            },
+            {
+                "level": 2,
+                "starsRequired": 10
+            },
+            {
+                "level": 3,
+                "starsRequired": 25
+            },
+            {
+                "level": 4,
+                "starsRequired": 45
+            },
+            {
+                "level": 5,
+                "starsRequired": 70
+            },
+            {
+                "level": 6,
+                "starsRequired": 100
+            },
+            {
+                "level": 7,
+                "starsRequired": 140
+            },
+            {
+                "level": 8,
+                "starsRequired": 190
+            },
+            {
+                "level": 9,
+                "starsRequired": 250
+            },
+            {
+                "level": 10,
+                "starsRequired": 320
+            }
+        ],
+        "streakConfig": {
+            "milestones": [
+                3,
+                7,
+                14,
+                30
+            ]
+        }
+    }
+}

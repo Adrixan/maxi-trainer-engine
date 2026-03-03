@@ -1,0 +1,158 @@
+[
+    {
+        "id": "vocabulary",
+        "name": "Vocabulary",
+        "description": "Word meaning and usage",
+        "icon": "book",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Basic Vocabulary",
+                "description": "Everyday words and phrases",
+                "examples": ["Greetings", "Numbers", "Colors"]
+            },
+            {
+                "level": 2,
+                "label": "Expanded Vocabulary",
+                "description": "More word families and topics",
+                "examples": ["Family", "Food", "Animals"]
+            },
+            {
+                "level": 3,
+                "label": "Advanced Vocabulary",
+                "description": "Complex topics and expressions",
+                "examples": ["Emotions", "Descriptions", "Idioms"]
+            }
+        ]
+    },
+    {
+        "id": "grammar",
+        "name": "Grammar",
+        "description": "Language rules and structures",
+        "icon": "grammar",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Basic Structures",
+                "description": "Simple sentences",
+                "examples": ["Subject-Verb", "Questions"]
+            },
+            {
+                "level": 2,
+                "label": "Intermediate Grammar",
+                "description": "Tenses and forms",
+                "examples": ["Present tense", "Plurals"]
+            },
+            {
+                "level": 3,
+                "label": "Advanced Grammar",
+                "description": "Complex structures",
+                "examples": ["Past tense", "Prepositions"]
+            }
+        ]
+    },
+    {
+        "id": "communication",
+        "name": "Communication",
+        "description": "Speaking and understanding",
+        "icon": "message",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Basic Communication",
+                "description": "Simple conversations",
+                "examples": ["Hello/Goodbye", "Please/Thank you"]
+            },
+            {
+                "level": 2,
+                "label": "Everyday Communication",
+                "description": "Daily conversations",
+                "examples": ["Shopping", "Asking for help"]
+            },
+            {
+                "level": 3,
+                "label": "Complex Communication",
+                "description": "Detailed conversations",
+                "examples": ["Descriptions", "Stories"]
+            }
+        ]
+    },
+    {
+        "id": "listening",
+        "name": "Listening",
+        "description": "Understanding spoken English",
+        "icon": "ear",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Basic Understanding",
+                "description": "Simple instructions",
+                "examples": ["Numbers", "Commands"]
+            },
+            {
+                "level": 2,
+                "label": " comprehension",
+                "description": "Short conversations",
+                "examples": ["Dialogues", "Descriptions"]
+            },
+            {
+                "level": 3,
+                "label": "Advanced Listening",
+                "description": "Longer texts",
+                "examples": ["Stories", "Presentations"]
+            }
+        ]
+    },
+    {
+        "id": "reading",
+        "name": "Reading",
+        "description": "Reading and understanding",
+        "icon": "book-open",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Basic Reading",
+                "description": "Simple words and sentences",
+                "examples": ["Labels", "Short sentences"]
+            },
+            {
+                "level": 2,
+                "label": "Intermediate Reading",
+                "description": "Short texts",
+                "examples": ["Stories", "Messages"]
+            },
+            {
+                "level": 3,
+                "label": "Advanced Reading",
+                "description": "Longer texts",
+                "examples": ["Articles", "Stories"]
+            }
+        ]
+    },
+    {
+        "id": "writing",
+        "name": "Writing",
+        "description": "Writing in English",
+        "icon": "pencil",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Basic Writing",
+                "description": "Simple words and sentences",
+                "examples": ["Copying", "Labels"]
+            },
+            {
+                "level": 2,
+                "label": "Intermediate Writing",
+                "description": "Short texts",
+                "examples": ["Messages", "Descriptions"]
+            },
+            {
+                "level": 3,
+                "label": "Advanced Writing",
+                "description": "Longer texts",
+                "examples": ["Letters", "Stories"]
+            }
+        ]
+    }
+]

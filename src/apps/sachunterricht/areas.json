@@ -1,0 +1,158 @@
+[
+    {
+        "id": "menschen",
+        "name": "Menschen",
+        "description": "Ich, meine Familie und die Gemeinschaft",
+        "icon": "users",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Ich und mein Körper",
+                "description": "Körperteile kennen und gesund leben",
+                "examples": ["Körperteile benennen", "Gesunde Gewohnheiten"]
+            },
+            {
+                "level": 2,
+                "label": "Beziehungen",
+                "description": "Familie, Freunde und Schule",
+                "examples": ["Familienmitglieder", "Freundschaft", "Schulregeln"]
+            },
+            {
+                "level": 3,
+                "label": "Gesellschaft",
+                "description": "Gesellschaftliches Zusammenleben",
+                "examples": ["Regeln und Gesetze", "Demokratie"]
+            }
+        ]
+    },
+    {
+        "id": "natur",
+        "name": "Natur",
+        "description": "Tiere, Pflanzen und Umwelt",
+        "icon": "leaf",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Tiere und Pflanzen",
+                "description": "Lebewesen in der Umgebung",
+                "examples": ["Haustiere", "Wildtiere", "Pflanzen im Garten"]
+            },
+            {
+                "level": 2,
+                "label": "Naturerscheinungen",
+                "description": "Wetter, Jahreszeiten und Natur",
+                "examples": ["Wetterbeobachtung", "Jahreszeiten"]
+            },
+            {
+                "level": 3,
+                "label": "Umwelt",
+                "description": "Umweltschutz und Nachhaltigkeit",
+                "examples": ["Recycling", "Energiesparen", "Artenschutz"]
+            }
+        ]
+    },
+    {
+        "id": "raum",
+        "name": "Raum",
+        "description": "Landschaften und Orientierung",
+        "icon": "map",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Orientierung",
+                "description": "Links, rechts, oben, unten",
+                "examples": ["Richtungen", "Schulweg"]
+            },
+            {
+                "level": 2,
+                "label": "Landschaft",
+                "description": "Verschiedene Landschaftsformen",
+                "examples": ["Berge", "Flüsse", "Wald"]
+            },
+            {
+                "level": 3,
+                "label": "Österreich und Europa",
+                "description": "Geografie kennen lernen",
+                "examples": ["Bundesländer", "Nachbarländer"]
+            }
+        ]
+    },
+    {
+        "id": "technik",
+        "name": "Technik",
+        "description": "Technik und Medien",
+        "icon": "cpu",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Technik im Alltag",
+                "description": "Einfache Technik kennen",
+                "examples": ["Haushaltsgeräte", "Spielzeug"]
+            },
+            {
+                "level": 2,
+                "label": "Verkehr",
+                "description": "Verkehrsmittel und Verkehrserziehung",
+                "examples": ["Ampeln", "Verkehrszeichen", "Schulweg"]
+            },
+            {
+                "level": 3,
+                "label": "Medien",
+                "description": "Mediennutzung und -kritik",
+                "examples": ["Fernsehen", "Internet", "Computer"]
+            }
+        ]
+    },
+    {
+        "id": "gesundheit",
+        "name": "Gesundheit",
+        "description": "Ernährung und Körperpflege",
+        "icon": "heart",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Ernährung",
+                "description": "Gesundes Essen",
+                "examples": ["Obst und Gemüse", "Mahlzeiten"]
+            },
+            {
+                "level": 2,
+                "label": "Körperpflege",
+                "description": "Körperpflege und Gesundheit",
+                "examples": ["Hände waschen", "Zähneputzen"]
+            },
+            {
+                "level": 3,
+                "label": "Gesundheit",
+                "description": "Krankheit und Vorbeugung",
+                "examples": ["Erste Hilfe", "Sport und Bewegung"]
+            }
+        ]
+    },
+    {
+        "id": "gesellschaft",
+        "name": "Gesellschaft",
+        "description": "Geschichte und Wirtschaft",
+        "icon": "building",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Zeit",
+                "description": "Zeit verstehen",
+                "examples": ["Jahreszeiten", "Wochentage", "Kalender"]
+            },
+            {
+                "level": 2,
+                "label": "Geschichte",
+                "description": "Vergangene Zeiten",
+                "examples": ["Feste und Traditionen", "Heimat"]
+            },
+            {
+                "level": 3,
+                "label": "Wirtschaft",
+                "description": "Arbeit und Berufe",
+                "examples": ["Berufe", "Geld", "Handel"]
+            }
+        ]
+    }
+]

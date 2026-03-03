@@ -1,0 +1,158 @@
+[
+    {
+        "id": "grundlagen",
+        "name": "Grundlagen",
+        "description": "Werkzeuge und Materialien",
+        "icon": "wrench",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Werkzeuge kennen",
+                "description": "Grundwerkzeuge kennen und benutzen",
+                "examples": ["Hammer", "Schere", "Leim"]
+            },
+            {
+                "level": 2,
+                "label": "Materialien",
+                "description": "Eigenschaften von Materialien",
+                "examples": ["Holz", "Papier", "Stoff"]
+            },
+            {
+                "level": 3,
+                "label": "Werkstoffkunde",
+                "description": "Materialien bewusst auswählen",
+                "examples": ["Eigenschaften vergleichen"]
+            }
+        ]
+    },
+    {
+        "id": "praxis",
+        "name": "Praxis",
+        "description": "Bauen und Konstruieren",
+        "icon": "hammer",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Einfaches Bauen",
+                "description": "Mit Materialien bauen",
+                "examples": ["Stecken", "Kleben"]
+            },
+            {
+                "level": 2,
+                "label": "Konstruieren",
+                "description": "Technisch bauen",
+                "examples": ["Stabilität", "Funktion"]
+            },
+            {
+                "level": 3,
+                "label": "Projekte",
+                "description": "Eigene Projekte umsetzen",
+                "examples": ["Planung", "Bau"]
+            }
+        ]
+    },
+    {
+        "id": "technik",
+        "name": "Technik",
+        "description": "Technische Prinzipien",
+        "icon": "cog",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Einfache Technik",
+                "description": "Alltagstechnik verstehen",
+                "examples": ["Schalter", "Räder"]
+            },
+            {
+                "level": 2,
+                "label": "Mechanik",
+                "description": "Hebel, Getriebe und Kraft",
+                "examples": ["Hebelgesetze", "Zahnräder"]
+            },
+            {
+                "level": 3,
+                "label": "Elektrik",
+                "description": "Strom und Schaltungen",
+                "examples": ["Stromkreis", "Schalter"]
+            }
+        ]
+    },
+    {
+        "id": "digital",
+        "name": "Digital",
+        "description": "Digitale Technik",
+        "icon": "computer",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Computer kennen",
+                "description": "Grundlagen am Computer",
+                "examples": ["Maus", "Tastatur"]
+            },
+            {
+                "level": 2,
+                "label": "Programmieren",
+                "description": "Erste Programmierkonzepte",
+                "examples": ["Befehle", "Schleifen"]
+            },
+            {
+                "level": 3,
+                "label": "Robotik",
+                "description": "Roboter steuern",
+                "examples": ["Sensoren", "Aktoren"]
+            }
+        ]
+    },
+    {
+        "id": "planung",
+        "name": "Planung",
+        "description": "Technisches Planen",
+        "icon": "pen-ruler",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Zeichnen",
+                "description": "Einfache Zeichnungen erstellen",
+                "examples": ["Skizzen"]
+            },
+            {
+                "level": 2,
+                "label": "Technisches Zeichnen",
+                "description": "Maßstäblich zeichnen",
+                "examples": ["Bemaßung"]
+            },
+            {
+                "level": 3,
+                "label": "Konstruieren",
+                "description": "Technisch planen",
+                "examples": ["Werkplan", "Stückliste"]
+            }
+        ]
+    },
+    {
+        "id": "projekte",
+        "name": "Projekte",
+        "description": "Technische Projekte",
+        "icon": "rocket",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Einfache Projekte",
+                "description": "Kleine technische Arbeiten",
+                "examples": ["Papierflieger"]
+            },
+            {
+                "level": 2,
+                "label": "Technische Aufgaben",
+                "description": "Lösungen entwickeln",
+                "examples": ["Brückenbau"]
+            },
+            {
+                "level": 3,
+                "label": "Innovative Projekte",
+                "description": "Eigene Erfindungen",
+                "examples": ["Prototypen"]
+            }
+        ]
+    }
+]

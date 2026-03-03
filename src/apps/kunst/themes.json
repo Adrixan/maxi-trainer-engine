@@ -1,0 +1,122 @@
+[
+    {
+        "id": "farben",
+        "name": "Farben",
+        "description": "Grundfarben, Farben mischen und anwenden",
+        "areaId": "grundlagen",
+        "difficulty": 1,
+        "icon": "🎨",
+        "color": "#ec4899",
+        "minLevel": 1
+    },
+    {
+        "id": "formen-zeichnen",
+        "name": "Formen zeichnen",
+        "description": "Grundformen: Kreis, Quadrat, Dreieck",
+        "areaId": "grundlagen",
+        "difficulty": 1,
+        "icon": "🔵",
+        "color": "#3b82f6",
+        "minLevel": 1
+    },
+    {
+        "id": "malen",
+        "name": "Malen",
+        "description": "Mit verschiedenen Materialien malen",
+        "areaId": "techniken",
+        "difficulty": 1,
+        "icon": "🖌️",
+        "color": "#ef4444",
+        "minLevel": 1
+    },
+    {
+        "id": "basteln",
+        "name": "Basteln",
+        "description": "Papier falten, schneiden und kleben",
+        "areaId": "techniken",
+        "difficulty": 1,
+        "icon": "✂️",
+        "color": "#22c55e",
+        "minLevel": 1
+    },
+    {
+        "id": "natur-abzeichnen",
+        "name": "Natur abzeichnen",
+        "description": "Blätter, Blüten und Naturdinge zeichnen",
+        "areaId": "motivation",
+        "difficulty": 1,
+        "icon": "🍂",
+        "color": "#84cc16",
+        "minLevel": 1
+    },
+    {
+        "id": "menschen-zeichnen",
+        "name": "Menschen zeichnen",
+        "description": "Köpfe, Körper und Figuren darstellen",
+        "areaId": "motivation",
+        "difficulty": 2,
+        "icon": "🧍",
+        "color": "#f59e0b",
+        "minLevel": 2
+    },
+    {
+        "id": "muster-mandala",
+        "name": "Muster und Mandala",
+        "description": "Wiederholungen und Muster gestalten",
+        "areaId": "gestaltung",
+        "difficulty": 2,
+        "icon": "🔮",
+        "color": "#8b5cf6",
+        "minLevel": 2
+    },
+    {
+        "id": "drucken",
+        "name": "Drucken",
+        "description": "Stempeln und Drucktechniken",
+        "areaId": "techniken",
+        "difficulty": 2,
+        "icon": "📮",
+        "color": "#14b8a6",
+        "minLevel": 2
+    },
+    {
+        "id": "werkstatt",
+        "name": "Kunst-Werkstatt",
+        "description": "Kleine Kunstwerke gestalten",
+        "areaId": "projekte",
+        "difficulty": 2,
+        "icon": "🏺",
+        "color": "#f97316",
+        "minLevel": 2
+    },
+    {
+        "id": "kunst-betrachten",
+        "name": "Kunst betrachten",
+        "description": "Bilder ansehen und beschreiben",
+        "areaId": "rezeption",
+        "difficulty": 3,
+        "icon": "🖼️",
+        "color": "#64748b",
+        "minLevel": 3
+    },
+    {
+        "id": "raeumlichkeit",
+        "name": "Räumlichkeit",
+        "description": "Perspektive und räumliches Zeichnen",
+        "areaId": "gestaltung",
+        "difficulty": 3,
+        "icon": "📐",
+        "color": "#6366f1",
+        "minLevel": 3
+    },
+    {
+        "id": "materialien",
+        "name": "Verschiedene Materialien",
+        "description": "Ton, Holz, Stoff und andere Materialien",
+        "areaId": "techniken",
+        "difficulty": 3,
+        "icon": "🧱",
+        "color": "#a16207",
+        "minLevel": 3
+    }
+]

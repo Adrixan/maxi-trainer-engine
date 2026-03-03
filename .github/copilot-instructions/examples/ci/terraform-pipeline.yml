@@ -1,0 +1,511 @@
+# Terraform CI/CD Pipeline Example
+
+Complete GitHub Actions workflow for Terraform with security scanning, testing, and deployment.
+
+---
+
+## Complete Workflow (.github/workflows/terraform.yml)
+
+```yaml
+name: Terraform CI/CD
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'terraform/**'
+      - '.github/workflows/terraform.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'terraform/**'
+
+env:
+  TF_VERSION: '1.6.0'
+  AWS_REGION: 'us-east-1'
+
+permissions:
+  id-token: write  # Required for OIDC
+  contents: read
+  pull-requests: write  # For PR comments
+
+jobs:
+  validate:
+    name: Validate and Lint
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: terraform
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4.1.1
+      
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v3.0.0
+        with:
+          terraform_version: ${{ env.TF_VERSION }}
+      
+      - name: Terraform Format Check
+        id: fmt
+        run: terraform fmt -check -recursive
+        continue-on-error: true
+      
+      - name: Terraform Init
+        run: |
+          terraform init -backend=false
+      
+      - name: Terraform Validate
+        id: validate
+        run: terraform validate -no-color
+      
+      - name: TFLint Setup
+        uses: terraform-linters/setup-tflint@v4.0.0
+        with:
+          tflint_version: v0.50.0
+      
+      - name: Run TFLint
+        run: tflint --format compact
+      
+      - name: Comment PR - Validation Results
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const output = `#### Terraform Format and Style 🖌\`${{ steps.fmt.outcome }}\`
+            #### Terraform Validation 🤖\`${{ steps.validate.outcome }}\`
+            
+            <details><summary>Validation Output</summary>
+            
+            \`\`\`
+            ${{ steps.validate.outputs.stdout }}
+            \`\`\`
+            
+            </details>
+            
+            *Pusher: @${{ github.actor }}, Action: \`${{ github.event_name }}\`, Workflow: \`${{ github.workflow }}\`*`;
+            
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: output
+            })
+
+  security-scan:
+    name: Security Scanning
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: terraform
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4.1.1
+      
+      - name: Run Checkov
+        id: checkov
+        uses: bridgecrewio/checkov-action@v12
+        with:
+          directory: terraform/
+          framework: terraform
+          output_format: sarif
+          output_file_path: reports/
+          soft_fail: false  # Fail on security issues
+          skip_check: CKV_AWS_3  # Skip specific checks if needed
+      
+      - name: Upload Checkov SARIF
+        if: always()
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: reports/results.sarif
+      
+      - name: Run TFSec
+        uses: aquasecurity/tfsec-action@v1.0.3
+        with:
+          working_directory: terraform
+          soft_fail: false
+      
+      - name: Run Terrascan
+        id: terrascan
+        uses: tenable/terrascan-action@v1.4.0
+        with:
+          iac_type: 'terraform'
+          iac_dir: 'terraform/'
+          policy_type: 'aws'
+          sarif_upload: true
+      
+      - name: Comment PR - Security Results
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const output = `#### Security Scanning 🔐
+            - Checkov: \`${{ steps.checkov.outcome }}\`
+            - Terrascan: \`${{ steps.terrascan.outcome }}\`
+            
+            Check the Security tab for detailed results.`;
+            
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: output
+            })
+
+  plan:
+    name: Plan
+    runs-on: ubuntu-latest
+    needs: [validate, security-scan]
+    environment: staging  # Use staging for PR plans
+    defaults:
+      run:
+        working-directory: terraform
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4.1.1
+      
+      - name: Configure AWS credentials (OIDC)
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+          aws-region: ${{ env.AWS_REGION }}
+      
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v3.0.0
+        with:
+          terraform_version: ${{ env.TF_VERSION }}
+      
+      - name: Terraform Init
+        run: |
+          terraform init \
+            -backend-config="bucket=${{ secrets.TF_STATE_BUCKET }}" \
+            -backend-config="key=staging/terraform.tfstate" \
+            -backend-config="region=${{ env.AWS_REGION }}" \
+            -backend-config="dynamodb_table=${{ secrets.TF_STATE_LOCK_TABLE }}"
+      
+      - name: Terraform Plan
+        id: plan
+        run: |
+          terraform plan -no-color -out=tfplan
+          terraform show -no-color tfplan > tfplan.txt
+      
+      - name: Upload Plan Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: tfplan
+          path: terraform/tfplan
+          retention-days: 5
+      
+      - name: Comment PR - Plan
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const plan = fs.readFileSync('terraform/tfplan.txt', 'utf8');
+            const truncatedPlan = plan.length > 65000 ? plan.substring(0, 65000) + '\n\n...(truncated)' : plan;
+            
+            const output = `#### Terraform Plan 📖
+            <details><summary>Show Plan</summary>
+            
+            \`\`\`terraform
+            ${truncatedPlan}
+            \`\`\`
+            
+            </details>
+            
+            *Action: \`${{ github.event_name }}\`, Workflow: \`${{ github.workflow }}\`*`;
+            
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: output
+            })
+
+  apply:
+    name: Apply
+    runs-on: ubuntu-latest
+    needs: [plan]
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    environment: production  # Requires manual approval
+    defaults:
+      run:
+        working-directory: terraform
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4.1.1
+      
+      - name: Configure AWS credentials (OIDC)
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+          aws-region: ${{ env.AWS_REGION }}
+      
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v3.0.0
+        with:
+          terraform_version: ${{ env.TF_VERSION }}
+      
+      - name: Terraform Init
+        run: |
+          terraform init \
+            -backend-config="bucket=${{ secrets.TF_STATE_BUCKET }}" \
+            -backend-config="key=production/terraform.tfstate" \
+            -backend-config="region=${{ env.AWS_REGION }}" \
+            -backend-config="dynamodb_table=${{ secrets.TF_STATE_LOCK_TABLE }}"
+      
+      - name: Download Plan Artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: tfplan
+          path: terraform/
+      
+      - name: Terraform Apply
+        run: terraform apply -auto-approve tfplan
+      
+      - name: Notify Slack on Success
+        if: success()
+        uses: slackapi/slack-github-action@v1
+        with:
+          payload: |
+            {
+              "text": "✅ Terraform deployment successful",
+              "blocks": [
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "✅ *Terraform Apply Successful*\n*Workflow:* ${{ github.workflow }}\n*Branch:* ${{ github.ref_name }}\n*Commit:* <${{ github.event.head_commit.url }}|${{ github.event.head_commit.message }}>"
+                  }
+                }
+              ]
+            }
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+      
+      - name: Notify Slack on Failure
+        if: failure()
+        uses: slackapi/slack-github-action@v1
+        with:
+          payload: |
+            {
+              "text": "❌ Terraform deployment failed",
+              "blocks": [
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "❌ *Terraform Apply Failed*\n*Workflow:* ${{ github.workflow }}\n*Branch:* ${{ github.ref_name }}\n<${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|View workflow run>"
+                  }
+                }
+              ]
+            }
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+```
+
+---
+
+## Required GitHub Secrets
+
+Configure these in your repository settings:
+
+```
+AWS_ROLE_ARN              # ARN of IAM role for OIDC
+TF_STATE_BUCKET           # S3 bucket for Terraform state
+TF_STATE_LOCK_TABLE       # DynamoDB table for state locking
+SLACK_WEBHOOK_URL         # (Optional) For notifications
+```
+
+---
+
+## AWS IAM Role for OIDC
+
+**trust-policy.json**
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Principal": {
+        "Federated": "arn:aws:iam::ACCOUNT_ID:oidc-provider/token.actions.githubusercontent.com"
+      },
+      "Action": "sts:AssumeRoleWithWebIdentity",
+      "Condition": {
+        "StringEquals": {
+          "token.actions.githubusercontent.com:aud": "sts.amazonaws.com"
+        },
+        "StringLike": {
+          "token.actions.githubusercontent.com:sub": "repo:YOUR_ORG/YOUR_REPO:*"
+        }
+      }
+    }
+  ]
+}
+```
+
+**Create the role:**
+```bash
+# Create OIDC provider (once per AWS account)
+aws iam create-open-id-connect-provider \
+  --url https://token.actions.githubusercontent.com \
+  --client-id-list sts.amazonaws.com \
+  --thumbprint-list 6938fd4d98bab03faadb97b34396831e3780aea1
+
+# Create IAM role
+aws iam create-role \
+  --role-name github-actions-terraform \
+  --assume-role-policy-document file://trust-policy.json
+
+# Attach policies
+aws iam attach-role-policy \
+  --role-name github-actions-terraform \
+  --policy-arn arn:aws:iam::aws:policy/PowerUserAccess
+```
+
+---
+
+## Environment Protection Rules
+
+Configure in GitHub Settings → Environments:
+
+### Staging Environment
+- No required reviewers
+- Auto-deploy on PR
+
+### Production Environment
+- ✅ Required reviewers (2+)
+- ✅ Wait timer (10 minutes)
+- ✅ Branch protection (main only)
+
+---
+
+## Alternative: GitLab CI/CD
+
+**.gitlab-ci.yml**
+```yaml
+image: hashicorp/terraform:1.6.0
+
+variables:
+  TF_ROOT: ${CI_PROJECT_DIR}/terraform
+  TF_STATE_NAME: default
+
+cache:
+  paths:
+    - ${TF_ROOT}/.terraform
+
+stages:
+  - validate
+  - plan
+  - apply
+
+before_script:
+  - cd ${TF_ROOT}
+
+validate:
+  stage: validate
+  script:
+    - terraform fmt -check
+    - terraform init -backend=false
+    - terraform validate
+  only:
+    changes:
+      - terraform/**/*
+
+security_scan:
+  stage: validate
+  image: bridgecrew/checkov:latest
+  script:
+    - checkov -d ${TF_ROOT} --framework terraform
+  allow_failure: true
+
+plan:
+  stage: plan
+  script:
+    - terraform init
+    - terraform plan -out=tfplan
+    - terraform show -json tfplan > tfplan.json
+  artifacts:
+    paths:
+      - ${TF_ROOT}/tfplan
+    reports:
+      terraform: ${TF_ROOT}/tfplan.json
+    expire_in: 1 week
+  only:
+    - merge_requests
+    - main
+
+apply:
+  stage: apply
+  script:
+    - terraform init
+    - terraform apply -auto-approve tfplan
+  dependencies:
+    - plan
+  only:
+    - main
+  when: manual  # Requires manual trigger
+  environment:
+    name: production
+```
+
+---
+
+## Pre-commit Hooks
+
+**.pre-commit-config.yaml**
+```yaml
+repos:
+  - repo: https://github.com/antonbabenko/pre-commit-terraform
+    rev: v1.83.0
+    hooks:
+      - id: terraform_fmt
+      - id: terraform_validate
+      - id: terraform_docs
+      - id: terraform_tflint
+      - id: terraform_checkov
+```
+
+**Install:**
+```bash
+pip install pre-commit
+pre-commit install
+```
+
+---
+
+## Best Practices
+
+1. **Separate State per Environment**
+   - Dev: `dev/terraform.tfstate`
+   - Staging: `staging/terraform.tfstate`
+   - Prod: `production/terraform.tfstate`
+
+2. **Manual Approval for Production**
+   - Use GitHub Environments with required reviewers
+   - Never auto-apply to production
+
+3. **Plan Before Apply**
+   - Always generate and review plan
+   - Upload plan as artifact
+   - Apply the exact same plan
+
+4. **Security Scanning**
+   - Run multiple tools (Checkov, TFSec, Terrascan)
+   - Fail the build on critical issues
+   - Upload SARIF reports to GitHub Security
+
+5. **Notifications**
+   - Alert team on apply success/failure
+   - Use Slack, Teams, or email
+   - Include direct links to workflow runs
+
+6. **Secrets Management**
+   - Use OIDC instead of long-lived credentials
+   - Never commit secrets to Git
+   - Use GitHub Secrets or AWS Secrets Manager

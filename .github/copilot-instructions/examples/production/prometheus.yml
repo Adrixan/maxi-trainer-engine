@@ -1,0 +1,251 @@
+# Prometheus Configuration Example
+# Complete monitoring setup for production applications
+
+# Global configuration
+global:
+  scrape_interval: 15s  # How frequently to scrape targets
+  evaluation_interval: 15s  # How frequently to evaluate rules
+  external_labels:
+    cluster: 'production'
+    environment: 'prod'
+
+# Alertmanager configuration
+alerting:
+  alertmanagers:
+    - static_configs:
+        - targets:
+            - 'alertmanager:9093'
+
+# Load rules once and periodically evaluate them
+rule_files:
+  - 'alerts/*.yml'
+  - 'recording_rules/*.yml'
+
+# Scrape configurations
+scrape_configs:
+  # ======================================
+  # Prometheus self-monitoring
+  # ======================================
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090']
+    metrics_path: '/metrics'
+
+  # ======================================
+  # Application metrics (FastAPI/Flask/Spring Boot)
+  # ======================================
+  - job_name: 'application'
+    scrape_interval: 10s
+    scrape_timeout: 5s
+    static_configs:
+      - targets:
+          - 'app-1:8000'
+          - 'app-2:8000'
+          - 'app-3:8000'
+        labels:
+          service: 'user-service'
+          tier: 'backend'
+    # Basic authentication if needed
+    # basic_auth:
+    #   username: 'prometheus'
+    #   password: 'secure-password'
+
+    # Relabeling for service discovery
+    relabel_configs:
+      - source_labels: [__address__]
+        target_label: instance
+      - source_labels: [__address__]
+        regex: '([^:]+):.*'
+        target_label: host
+        replacement: '${1}'
+
+  # ======================================
+  # Node Exporter (System metrics)
+  # ======================================
+  - job_name: 'node-exporter'
+    scrape_interval: 30s
+    static_configs:
+      - targets:
+          - 'node1:9100'
+          - 'node2:9100'
+          - 'node3:9100'
+        labels:
+          region: 'us-east-1'
+
+  # ======================================
+  # PostgreSQL Exporter
+  # ======================================
+  - job_name: 'postgres'
+    scrape_interval: 30s
+    static_configs:
+      - targets:
+          - 'postgres-exporter:9187'
+        labels:
+          database: 'production'
+
+  # ======================================
+  # Redis Exporter
+  # ======================================
+  - job_name: 'redis'
+    scrape_interval: 30s
+    static_configs:
+      - targets:
+          - 'redis-exporter:9121'
+        labels:
+          cache: 'primary'
+
+  # ======================================
+  # Kubernetes service discovery
+  # ======================================
+  - job_name: 'kubernetes-pods'
+    kubernetes_sd_configs:
+      - role: pod
+    relabel_configs:
+      # Only scrape pods with prometheus.io/scrape: "true" annotation
+      - source_labels: [__meta_kubernetes_pod_annotation_prometheus_io_scrape]
+        action: keep
+        regex: true
+      # Use custom scrape path if specified
+      - source_labels: [__meta_kubernetes_pod_annotation_prometheus_io_path]
+        action: replace
+        target_label: __metrics_path__
+        regex: (.+)
+      # Use custom port if specified
+      - source_labels: [__address__, __meta_kubernetes_pod_annotation_prometheus_io_port]
+        action: replace
+        regex: ([^:]+)(?::\d+)?;(\d+)
+        replacement: $1:$2
+        target_label: __address__
+      # Add pod metadata as labels
+      - action: labelmap
+        regex: __meta_kubernetes_pod_label_(.+)
+      - source_labels: [__meta_kubernetes_namespace]
+        target_label: kubernetes_namespace
+      - source_labels: [__meta_kubernetes_pod_name]
+        target_label: kubernetes_pod_name
+
+  # ======================================
+  # Blackbox exporter (HTTP/TCP probes)
+  # ======================================
+  - job_name: 'blackbox-http'
+    metrics_path: /probe
+    params:
+      module: [http_2xx]  # Use HTTP module
+    static_configs:
+      - targets:
+          - https://yourdomain.com
+          - https://api.yourdomain.com/health
+    relabel_configs:
+      - source_labels: [__address__]
+        target_label: __param_target
+      - source_labels: [__param_target]
+        target_label: instance
+      - target_label: __address__
+        replacement: blackbox-exporter:9115
+
+  # ======================================
+  # NGINX metrics
+  # ======================================
+  - job_name: 'nginx'
+    scrape_interval: 30s
+    static_configs:
+      - targets:
+          - 'nginx-exporter:9113'
+        labels:
+          loadbalancer: 'main'
+
+---
+# Alert rules (alerts/application_alerts.yml)
+groups:
+  - name: application_alerts
+    interval: 30s
+    rules:
+      # High error rate
+      - alert: HighErrorRate
+        expr: |
+          rate(http_requests_total{status=~"5.."}[5m]) > 0.05
+        for: 5m
+        labels:
+          severity: critical
+          team: backend
+        annotations:
+          summary: "High error rate detected"
+          description: "Error rate is {{ $value | humanizePercentage }} for {{ $labels.service }}"
+
+      # High response time
+      - alert: HighResponseTime
+        expr: |
+          histogram_quantile(0.95, rate(http_request_duration_seconds_bucket[5m])) > 1.0
+        for: 10m
+        labels:
+          severity: warning
+          team: backend
+        annotations:
+          summary: "High response time detected"
+          description: "95th percentile response time is {{ $value }}s for {{ $labels.service }}"
+
+      # Application down
+      - alert: ApplicationDown
+        expr: up{job="application"} == 0
+        for: 2m
+        labels:
+          severity: critical
+          team: sre
+        annotations:
+          summary: "Application instance down"
+          description: "{{ $labels.instance }} has been down for more than 2 minutes"
+
+      # High memory usage
+      - alert: HighMemoryUsage
+        expr: |
+          (process_resident_memory_bytes / process_virtual_memory_max_bytes) > 0.9
+        for: 10m
+        labels:
+          severity: warning
+          team: backend
+        annotations:
+          summary: "High memory usage"
+          description: "Memory usage is {{ $value | humanizePercentage }} on {{ $labels.instance }}"
+
+      # Database connection pool exhaustion
+      - alert: DatabaseConnectionPoolExhaustion
+        expr: |
+          (database_connections_active / database_connections_max) > 0.8
+        for: 5m
+        labels:
+          severity: warning
+          team: backend
+        annotations:
+          summary: "Database connection pool nearly exhausted"
+          description: "Connection pool is {{ $value | humanizePercentage }} full"
+
+---
+# Recording rules (recording_rules/aggregations.yml)
+groups:
+  - name: aggregation_rules
+    interval: 30s
+    rules:
+      # Request rate per service
+      - record: service:http_requests:rate5m
+        expr: rate(http_requests_total[5m])
+
+      # Error rate per service
+      - record: service:http_errors:rate5m
+        expr: rate(http_requests_total{status=~"5.."}[5m])
+
+      # Average response time per service
+      - record: service:http_duration:mean5m
+        expr: |
+          rate(http_request_duration_seconds_sum[5m])
+          /
+          rate(http_request_duration_seconds_count[5m])
+
+      # 95th percentile response time
+      - record: service:http_duration:p95
+        expr: |
+          histogram_quantile(0.95, rate(http_request_duration_seconds_bucket[5m]))
+
+      # CPU usage per node
+      - record: node:cpu:usage
+        expr: |
+          1 - avg(rate(node_cpu_seconds_total{mode="idle"}[5m])) by (instance)

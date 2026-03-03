@@ -1,0 +1,970 @@
+[
+    {
+        "id": "comprehension",
+        "name": "Comprehension",
+        "category": "Core Skills",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Pre-emergent",
+                "description": "Can understand simple, concrete vocabulary with visual support",
+                "examples": [
+                    "Matches pictures to words",
+                    "Responds to gestures and facial expressions",
+                    "Recognizes common objects when named"
+                ]
+            },
+            {
+                "level": 2,
+                "label": "Beginning",
+                "description": "Can understand basic phrases and short sentences in familiar contexts",
+                "examples": [
+                    "Follows simple two-step instructions",
+                    "Understands common everyday vocabulary",
+                    "Identifies main characters in simple stories"
+                ]
+            },
+            {
+                "level": 3,
+                "label": "Developing",
+                "description": "Can understand main ideas in conversations and texts on familiar topics",
+                "examples": [
+                    "Comprehends short narratives",
+                    "Understands sequence of events",
+                    "Identifies supporting details in texts"
+                ]
+            },
+            {
+                "level": 4,
+                "label": "Expanding",
+                "description": "Can understand detailed information on a range of topics",
+                "examples": [
+                    "Follows multi-step instructions",
+                    "Understands cause and effect relationships",
+                    "Makes inferences from context"
+                ]
+            },
+            {
+                "level": 5,
+                "label": "Bridging",
+                "description": "Can understand complex texts and abstract concepts",
+                "examples": [
+                    "Analyzes author's purpose",
+                    "Understands figurative language",
+                    "Synthesizes information from multiple sources"
+                ]
+            },
+            {
+                "level": 6,
+                "label": "Fluent",
+                "description": "Can understand nuanced language and complex academic content",
+                "examples": [
+                    "Interprets subtle meanings and tone",
+                    "Critically evaluates arguments",
+                    "Understands domain-specific terminology"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "vocabulary",
+        "name": "Vocabulary",
+        "category": "Core Skills",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Pre-emergent",
+                "description": "Uses isolated words and phrases",
+                "examples": [
+                    "Names common objects",
+                    "Uses basic greetings",
+                    "Recognizes environmental print"
+                ]
+            },
+            {
+                "level": 2,
+                "label": "Beginning",
+                "description": "Uses simple words and phrases in routine contexts",
+                "examples": [
+                    "Expresses basic needs",
+                    "Uses common action words",
+                    "Names categories of objects"
+                ]
+            },
+            {
+                "level": 3,
+                "label": "Developing",
+                "description": "Uses expanded vocabulary in familiar contexts",
+                "examples": [
+                    "Uses descriptive adjectives",
+                    "Understands synonyms and antonyms",
+                    "Uses subject-specific vocabulary"
+                ]
+            },
+            {
+                "level": 4,
+                "label": "Expanding",
+                "description": "Uses varied vocabulary with increasing precision",
+                "examples": [
+                    "Uses figurative language",
+                    "Understands multiple meanings",
+                    "Uses academic vocabulary appropriately"
+                ]
+            },
+            {
+                "level": 5,
+                "label": "Bridging",
+                "description": "Uses sophisticated vocabulary across contexts",
+                "examples": [
+                    "Uses abstract nouns",
+                    "Understands connotations",
+                    "Selects words for specific effects"
+                ]
+            },
+            {
+                "level": 6,
+                "label": "Fluent",
+                "description": "Uses nuanced vocabulary with precision",
+                "examples": [
+                    "Uses technical terminology accurately",
+                    "Understands etymology",
+                    "Adapts vocabulary to audience and purpose"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "grammar",
+        "name": "Grammar",
+        "category": "Core Skills",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Pre-emergent",
+                "description": "Uses single words and memorized phrases",
+                "examples": [
+                    "Uses nouns and simple pronouns",
+                    "Relies on gestures for communication",
+                    "Produces telegraphic speech"
+                ]
+            },
+            {
+                "level": 2,
+                "label": "Beginning",
+                "description": "Uses simple sentences with basic structures",
+                "examples": [
+                    "Forms subject-verb-object sentences",
+                    "Uses present tense verbs",
+                    "Applies basic plural forms"
+                ]
+            },
+            {
+                "level": 3,
+                "label": "Developing",
+                "description": "Uses compound sentences and varied tenses",
+                "examples": [
+                    "Uses past and future tenses",
+                    "Forms questions correctly",
+                    "Uses conjunctions to join ideas"
+                ]
+            },
+            {
+                "level": 4,
+                "label": "Expanding",
+                "description": "Uses complex sentences with multiple clauses",
+                "examples": [
+                    "Uses relative clauses",
+                    "Applies conditional structures",
+                    "Uses passive voice appropriately"
+                ]
+            },
+            {
+                "level": 5,
+                "label": "Bridging",
+                "description": "Uses sophisticated grammatical structures",
+                "examples": [
+                    "Uses subjunctive mood",
+                    "Applies complex verb tenses",
+                    "Maintains grammatical consistency"
+                ]
+            },
+            {
+                "level": 6,
+                "label": "Fluent",
+                "description": "Uses grammar with native-like proficiency",
+                "examples": [
+                    "Manipulates structures for effect",
+                    "Uses advanced punctuation",
+                    "Demonstrates stylistic control"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "reading",
+        "name": "Reading",
+        "category": "Literacy",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Pre-emergent",
+                "description": "Recognizes letters and symbols",
+                "examples": [
+                    "Identifies some letters",
+                    "Recognizes own name",
+                    "Understands print directionality"
+                ]
+            },
+            {
+                "level": 2,
+                "label": "Beginning",
+                "description": "Decodes simple words and texts",
+                "examples": [
+                    "Applies phonics knowledge",
+                    "Reads high-frequency words",
+                    "Understands basic text features"
+                ]
+            },
+            {
+                "level": 3,
+                "label": "Developing",
+                "description": "Reads and understands simple texts",
+                "examples": [
+                    "Reads with increasing fluency",
+                    "Identifies main ideas",
+                    "Makes predictions while reading"
+                ]
+            },
+            {
+                "level": 4,
+                "label": "Expanding",
+                "description": "Reads and comprehends varied texts",
+                "examples": [
+                    "Reads for different purposes",
+                    "Summarizes key information",
+                    "Makes connections between texts"
+                ]
+            },
+            {
+                "level": 5,
+                "label": "Bridging",
+                "description": "Reads and analyzes complex texts",
+                "examples": [
+                    "Analyzes text structure",
+                    "Evaluates credibility of sources",
+                    "Interprets literary devices"
+                ]
+            },
+            {
+                "level": 6,
+                "label": "Fluent",
+                "description": "Reads critically across genres",
+                "examples": [
+                    "Synthesizes complex information",
+                    "Critiques author's craft",
+                    "Applies critical literacy skills"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "writing",
+        "name": "Writing",
+        "category": "Literacy",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Pre-emergent",
+                "description": "Produces scribbles and letter-like forms",
+                "examples": [
+                    "Makes marks on paper",
+                    "Copies letters and shapes",
+                    "Understands writing has meaning"
+                ]
+            },
+            {
+                "level": 2,
+                "label": "Beginning",
+                "description": "Writes simple words and phrases",
+                "examples": [
+                    "Writes name and familiar words",
+                    "Uses invented spelling",
+                    "Writes simple sentences"
+                ]
+            },
+            {
+                "level": 3,
+                "label": "Developing",
+                "description": "Writes short paragraphs on familiar topics",
+                "examples": [
+                    "Organizes ideas logically",
+                    "Uses transitional phrases",
+                    "Applies basic punctuation"
+                ]
+            },
+            {
+                "level": 4,
+                "label": "Expanding",
+                "description": "Writes multi-paragraph texts",
+                "examples": [
+                    "Develops ideas with details",
+                    "Uses varied sentence structures",
+                    "Writes for different purposes"
+                ]
+            },
+            {
+                "level": 5,
+                "label": "Bridging",
+                "description": "Writes extended texts with organization",
+                "examples": [
+                    "Structures texts effectively",
+                    "Uses evidence to support claims",
+                    "Revises and edits independently"
+                ]
+            },
+            {
+                "level": 6,
+                "label": "Fluent",
+                "description": "Writes sophisticated texts for various purposes",
+                "examples": [
+                    "Demonstrates voice and style",
+                    "Writes for specific audiences",
+                    "Uses advanced rhetorical strategies"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "speaking",
+        "name": "Speaking",
+        "category": "Communication",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Pre-emergent",
+                "description": "Communicates with single words and gestures",
+                "examples": [
+                    "Names familiar objects",
+                    "Uses non-verbal communication",
+                    "Responds to simple questions"
+                ]
+            },
+            {
+                "level": 2,
+                "label": "Beginning",
+                "description": "Speaks in simple phrases and sentences",
+                "examples": [
+                    "Expresses basic needs",
+                    "Participates in simple dialogues",
+                    "Describes familiar activities"
+                ]
+            },
+            {
+                "level": 3,
+                "label": "Developing",
+                "description": "Speaks in extended sentences on familiar topics",
+                "examples": [
+                    "Retells stories and events",
+                    "Asks and answers questions",
+                    "Participates in group discussions"
+                ]
+            },
+            {
+                "level": 4,
+                "label": "Expanding",
+                "description": "Speaks fluently on a range of topics",
+                "examples": [
+                    "Presents information clearly",
+                    "Expresses opinions with reasons",
+                    "Adapts language to context"
+                ]
+            },
+            {
+                "level": 5,
+                "label": "Bridging",
+                "description": "Speaks effectively in academic contexts",
+                "examples": [
+                    "Delivers organized presentations",
+                    "Engages in debates",
+                    "Uses academic register"
+                ]
+            },
+            {
+                "level": 6,
+                "label": "Fluent",
+                "description": "Speaks with confidence and sophistication",
+                "examples": [
+                    "Adapts speech for various audiences",
+                    "Uses persuasive techniques",
+                    "Demonstrates rhetorical awareness"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "verbformen-person-numerus",
+        "name": "Verbformen: Person und Numerus",
+        "category": "Morphologisch-Syntaktisch",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Undifferenzierte Zuordnung",
+                "description": "Infinitiv/Stammform für alle Personen",
+                "examples": [
+                    "Ich lesen.",
+                    "Er spielen.",
+                    "Wir gehen."
+                ]
+            },
+            {
+                "level": 2,
+                "label": "1. Person Singular korrekt",
+                "description": "1. Person Singular wird korrekt konjugiert",
+                "examples": [
+                    "Ich lese.",
+                    "Ich spiele.",
+                    "Ich gehe."
+                ]
+            },
+            {
+                "level": 3,
+                "label": "3. Person Singular korrekt",
+                "description": "3. Person Singular wird korrekt konjugiert",
+                "examples": [
+                    "Er liest.",
+                    "Sie spielt.",
+                    "Es geht."
+                ]
+            },
+            {
+                "level": 4,
+                "label": "2. Pers. Sg. / 3. Pers. Pl. / 1. Pers. Pl.",
+                "description": "Mindestens eine dieser Formen wird korrekt gebildet",
+                "examples": [
+                    "Du liest.",
+                    "Sie lesen.",
+                    "Wir lesen."
+                ]
+            },
+            {
+                "level": 5,
+                "label": "2. Person Plural korrekt",
+                "description": "2. Person Plural wird korrekt konjugiert",
+                "examples": [
+                    "Ihr lest.",
+                    "Ihr spielt.",
+                    "Ihr geht."
+                ]
+            }
+        ]
+    },
+    {
+        "id": "verbformen-tempus",
+        "name": "Verbformen: Tempus",
+        "category": "Morphologisch-Syntaktisch",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Präsens",
+                "description": "Verwendung der Gegenwartsform",
+                "examples": [
+                    "Ich spiele.",
+                    "Er geht."
+                ]
+            },
+            {
+                "level": 2,
+                "label": "Partizip ohne Hilfsverb",
+                "description": "Partizip II wird ohne Hilfsverb verwendet",
+                "examples": [
+                    "Agam gegangen.",
+                    "Soren gespielt."
+                ]
+            },
+            {
+                "level": 3,
+                "label": "Perfekt mit Hilfsverb",
+                "description": "Perfekt wird mit Hilfsverb (haben/sein) gebildet",
+                "examples": [
+                    "Agam ist gegangen.",
+                    "Ich habe gespielt."
+                ]
+            },
+            {
+                "level": 4,
+                "label": "Präteritum von „sein\"",
+                "description": "Präteritum von „sein\" wird verwendet",
+                "examples": [
+                    "Soren war fröhlich.",
+                    "Ich war in der Schule."
+                ]
+            },
+            {
+                "level": 5,
+                "label": "Futur mit „werden\"",
+                "description": "Futur I mit „werden\" + Infinitiv wird gebildet",
+                "examples": [
+                    "Soren wird weggehen.",
+                    "Ich werde spielen."
+                ]
+            },
+            {
+                "level": 6,
+                "label": "Präteritum",
+                "description": "Präteritum anderer Verben wird verwendet",
+                "examples": [
+                    "Soren ging.",
+                    "Sie spielte.",
+                    "Er las ein Buch."
+                ]
+            }
+        ]
+    },
+    {
+        "id": "verbformen-genus-verbi",
+        "name": "Verbformen: Genus Verbi",
+        "category": "Morphologisch-Syntaktisch",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Aktive Verbformen",
+                "description": "Verben werden im Aktiv verwendet",
+                "examples": [
+                    "Mia schließt die Tür.",
+                    "Der Lehrer erklärt die Aufgabe."
+                ]
+            },
+            {
+                "level": 2,
+                "label": "Zustandspassiv",
+                "description": "sein + Partizip II",
+                "examples": [
+                    "Die Tür ist geschlossen.",
+                    "Das Fenster ist geöffnet."
+                ]
+            },
+            {
+                "level": 3,
+                "label": "Vorgangspassiv",
+                "description": "werden + Partizip II",
+                "examples": [
+                    "Die Tür wird geschlossen.",
+                    "Das Essen wird gekocht."
+                ]
+            }
+        ]
+    },
+    {
+        "id": "verbstellung",
+        "name": "Verbstellung in Aussagesätzen",
+        "category": "Morphologisch-Syntaktisch",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Bruchstücke",
+                "description": "Äußerungen ohne finites Verb",
+                "examples": [
+                    "Schule gut.",
+                    "Mama da."
+                ]
+            },
+            {
+                "level": 2,
+                "label": "V2-Stellung",
+                "description": "Verb an zweiter Stelle",
+                "examples": [
+                    "Konrad geht.",
+                    "Ich spiele."
+                ]
+            },
+            {
+                "level": 3,
+                "label": "Verbklammer I",
+                "description": "Modalverb + Infinitiv, trennbare Verben, Perfekt",
+                "examples": [
+                    "Nilay will spielen.",
+                    "Ich schaue an.",
+                    "Wir sind gegangen."
+                ]
+            },
+            {
+                "level": 4,
+                "label": "Verbendstellung im Nebensatz",
+                "description": "Verb steht im Nebensatz an letzter Stelle",
+                "examples": [
+                    "Tim hofft, dass sie ihn begleitet."
+                ]
+            },
+            {
+                "level": 5,
+                "label": "Verbklammer II",
+                "description": "Konjunktiv, Passiv, Futur",
+                "examples": [
+                    "Ich würde spielen.",
+                    "Der Tisch wird gedeckt."
+                ]
+            },
+            {
+                "level": 6,
+                "label": "Erweitertes Partizipialattribut",
+                "description": "Komplexe Partizipialkonstruktionen vor dem Nomen",
+                "examples": [
+                    "der von Konrad geschriebene Aufsatz"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "nomen",
+        "name": "Nomen: Subjekte und Objekte",
+        "category": "Morphologisch-Syntaktisch",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Kein Artikelgebrauch",
+                "description": "Nomen werden ohne Artikel verwendet",
+                "examples": [
+                    "Stift kaputt.",
+                    "Katze da."
+                ]
+            },
+            {
+                "level": 2,
+                "label": "Undifferenziert der/die",
+                "description": "Artikel werden verwendet, aber ohne korrekte Genus-/Kasuszuordnung",
+                "examples": [
+                    "Der Katze will die Vogel fangen."
+                ]
+            },
+            {
+                "level": 3,
+                "label": "Subjekte korrekt",
+                "description": "Nominativ (Subjekt) mit korrektem Artikel",
+                "examples": [
+                    "Die Katze will die Vogel fangen."
+                ]
+            },
+            {
+                "level": 4,
+                "label": "Akkusativobjekt korrekt",
+                "description": "Akkusativobjekte mit korrektem Artikel",
+                "examples": [
+                    "Die Katze will den Vogel fangen."
+                ]
+            },
+            {
+                "level": 5,
+                "label": "Dativobjekt korrekt",
+                "description": "Dativobjekte mit korrektem Artikel",
+                "examples": [
+                    "Nicole hilft der Freundin.",
+                    "Ich gebe dem Lehrer das Heft."
+                ]
+            },
+            {
+                "level": 6,
+                "label": "Genitivobjekt korrekt",
+                "description": "Genitivobjekte korrekt gebildet",
+                "examples": [
+                    "Livia beschuldigte Milan des Diebstahls."
+                ]
+            }
+        ]
+    },
+    {
+        "id": "aussageverbindungen",
+        "name": "Aussageverbindungen",
+        "category": "Morphologisch-Syntaktisch",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Keine Verbindungen",
+                "description": "Sätze werden aneinandergereiht ohne Verbindungswörter",
+                "examples": [
+                    "Ich gehe. Er spielt. Mama kommt."
+                ]
+            },
+            {
+                "level": 2,
+                "label": "„und\"",
+                "description": "Sätze werden mit „und\" verbunden",
+                "examples": [
+                    "Ich gehe und er spielt."
+                ]
+            },
+            {
+                "level": 3,
+                "label": "„(und) dann\"",
+                "description": "Temporale Verknüpfung mit „dann\"",
+                "examples": [
+                    "Ich esse und dann gehe ich spielen."
+                ]
+            },
+            {
+                "level": 4,
+                "label": "Koordinierende Konjunktionen + weil mit V2",
+                "description": "Weitere koordinierende Konjunktionen; „weil\" noch mit Verb an 2. Stelle",
+                "examples": [
+                    "Ich bin müde, aber ich spiele.",
+                    "Ich bin müde, weil ich bin gelaufen."
+                ]
+            },
+            {
+                "level": 5,
+                "label": "Einfache Subjunktionen mit Verbendstellung",
+                "description": "„dass\", „weil\", „wenn\" mit korrekter Verbendstellung",
+                "examples": [
+                    "Ich bin müde, weil ich gelaufen bin.",
+                    "Ich weiß, dass er kommt."
+                ]
+            },
+            {
+                "level": 6,
+                "label": "Weitere Subjunktionen",
+                "description": "als, bevor, bis, damit, falls, nachdem, ob, obwohl, während…",
+                "examples": [
+                    "Bevor ich esse, wasche ich meine Hände.",
+                    "Obwohl es regnet, gehen wir raus."
+                ]
+            }
+        ]
+    },
+    {
+        "id": "wortschatz",
+        "name": "Wortschatz",
+        "category": "Lexikalisch-Semantisch",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Erste Wörter",
+                "description": "Erste Wörter in der Zweitsprache",
+                "examples": [
+                    "ja",
+                    "nein",
+                    "Mama",
+                    "Schule"
+                ]
+            },
+            {
+                "level": 2,
+                "label": "Alltagsgrundwortschatz",
+                "description": "Grundlegende Wörter des Alltags",
+                "examples": [
+                    "Freund",
+                    "Füllfeder",
+                    "gehen",
+                    "machen",
+                    "rot",
+                    "groß"
+                ]
+            },
+            {
+                "level": 3,
+                "label": "Grundwortschatz",
+                "description": "Erweiterter Grundwortschatz",
+                "examples": [
+                    "Winter",
+                    "Jause",
+                    "fernsehen",
+                    "schön",
+                    "müde"
+                ]
+            },
+            {
+                "level": 4,
+                "label": "Aufbauwortschatz",
+                "description": "Differenzierterer Wortschatz",
+                "examples": [
+                    "Nadelbaum",
+                    "Getreide",
+                    "erzeugen",
+                    "aufmerksam"
+                ]
+            },
+            {
+                "level": 5,
+                "label": "Bildungswortschatz",
+                "description": "Bildungssprachlicher Wortschatz",
+                "examples": [
+                    "Hormone",
+                    "notieren",
+                    "addieren",
+                    "lebendgebärend"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "muendliche-sprachhandlung",
+        "name": "Mündliche Sprachhandlungsfähigkeit",
+        "category": "Pragmatisch",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Mimik und Gestik",
+                "description": "Kommunikation hauptsächlich über Mimik und Gestik",
+                "examples": [
+                    "Zeigt auf Gegenstände",
+                    "Nickt/Schüttelt den Kopf"
+                ]
+            },
+            {
+                "level": 2,
+                "label": "Basale Verständigung",
+                "description": "Einfache Aufforderungen und grundlegende Informationen",
+                "examples": [
+                    "Kann ich bitte?",
+                    "Das ist mein Stift."
+                ]
+            },
+            {
+                "level": 3,
+                "label": "Erzählen, Beschreiben",
+                "description": "Kann erzählen und beschreiben",
+                "examples": [
+                    "Gestern war ich im Park. Da war ein großer Hund."
+                ]
+            },
+            {
+                "level": 4,
+                "label": "Erklären, Instruieren",
+                "description": "Kann erklären und Anweisungen geben",
+                "examples": [
+                    "Zuerst musst du das Papier falten, dann schneidest du hier."
+                ]
+            },
+            {
+                "level": 5,
+                "label": "Argumentieren",
+                "description": "Kann argumentieren und begründen",
+                "examples": [
+                    "Ich finde das nicht fair, weil alle anderen auch länger spielen dürfen."
+                ]
+            }
+        ]
+    },
+    {
+        "id": "strategien",
+        "name": "Strategien",
+        "category": "Pragmatisch",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Selbstkorrekturen",
+                "description": "Korrigiert sich selbst beim Sprechen",
+                "examples": [
+                    "Ich gehe… ich bin gegangen."
+                ]
+            },
+            {
+                "level": 2,
+                "label": "Differenziertes Frageverhalten",
+                "description": "Stellt gezielte Fragen zum Sprachverständnis",
+                "examples": [
+                    "Was heißt „Erdapfel\"?",
+                    "Wie sagt man…?"
+                ]
+            },
+            {
+                "level": 3,
+                "label": "Wortneuschöpfungen",
+                "description": "Bildet kreative neue Wörter",
+                "examples": [
+                    "Parmesanmaschine (für Parmesanreibe)",
+                    "Wasserhaus (für Schwimmbad)"
+                ]
+            },
+            {
+                "level": 4,
+                "label": "Paraphrasen",
+                "description": "Umschreibt Begriffe, die nicht bekannt sind",
+                "examples": [
+                    "Das Ding, wo man Sachen reinlegt (für Schublade)"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "textkompetenz",
+        "name": "Textkompetenz (schriftlich)",
+        "category": "Literal",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Assoziativ",
+                "description": "Lose Verkettung, thematische Brüche",
+                "examples": [
+                    "Schule ist schön. Ich habe einen Hund. Mama kocht."
+                ]
+            },
+            {
+                "level": 2,
+                "label": "Verkettet",
+                "description": "Logisch verknüpft mit „und dann\"",
+                "examples": [
+                    "Ich gehe in die Schule und dann lerne ich und dann esse ich Jause."
+                ]
+            },
+            {
+                "level": 3,
+                "label": "Gegliedert",
+                "description": "Text hat Einleitung, Hauptteil und Schluss",
+                "examples": [
+                    "Am Montag hatte ich einen schönen Tag. Zuerst… Dann… Am Ende…"
+                ]
+            },
+            {
+                "level": 4,
+                "label": "Textfunktional",
+                "description": "Text ist vom Ziel her geplant und strukturiert",
+                "examples": [
+                    "Ein überzeugender Brief mit Argument und Gegenargument"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "orthografie",
+        "name": "Orthografie",
+        "category": "Literal",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Alphabetische Strategie",
+                "description": "Schreibt wie man spricht",
+                "examples": [
+                    "farat (für fährt)",
+                    "hunt (für Hund)"
+                ]
+            },
+            {
+                "level": 2,
+                "label": "Orthografische Strategie",
+                "description": "Erste Regeln erkannt, Übergeneralisierungen",
+                "examples": [
+                    "Fahrrad korrekt",
+                    "Häuser korrekt",
+                    "aber: Sahne → Sahne"
+                ]
+            },
+            {
+                "level": 3,
+                "label": "Morphematische Strategie",
+                "description": "Ableitung vom Wortstamm",
+                "examples": [
+                    "fährt von fahren",
+                    "Häuser von Haus"
+                ]
+            },
+            {
+                "level": 4,
+                "label": "Wortübergreifende Strategie",
+                "description": "Satz- und Textgrammatik wird berücksichtigt",
+                "examples": [
+                    "Korrekte Groß-/Kleinschreibung",
+                    "Kommasetzung"
+                ]
+            }
+        ]
+    }
+]

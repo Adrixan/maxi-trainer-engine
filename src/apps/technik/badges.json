@@ -1,0 +1,189 @@
+{
+    "badges": [
+        {
+            "badge": {
+                "id": "stars_10",
+                "name": "Star Collector",
+                "description": "Earn 10 stars",
+                "icon": "⭐"
+            },
+            "type": "star_milestone",
+            "threshold": 10
+        },
+        {
+            "badge": {
+                "id": "stars_25",
+                "name": "Star Hunter",
+                "description": "Earn 25 stars",
+                "icon": "🌟"
+            },
+            "type": "star_milestone",
+            "threshold": 25
+        },
+        {
+            "badge": {
+                "id": "stars_50",
+                "name": "Star Champion",
+                "description": "Earn 50 stars",
+                "icon": "💫"
+            },
+            "type": "star_milestone",
+            "threshold": 50
+        },
+        {
+            "badge": {
+                "id": "stars_100",
+                "name": "Star Master",
+                "description": "Earn 100 stars",
+                "icon": "✨"
+            },
+            "type": "star_milestone",
+            "threshold": 100
+        },
+        {
+            "badge": {
+                "id": "stars_250",
+                "name": "Star Legend",
+                "description": "Earn 250 stars",
+                "icon": "🌠"
+            },
+            "type": "star_milestone",
+            "threshold": 250
+        },
+        {
+            "badge": {
+                "id": "stars_500",
+                "name": "Star Supernova",
+                "description": "Earn 500 stars",
+                "icon": "🎆"
+            },
+            "type": "star_milestone",
+            "threshold": 500
+        },
+        {
+            "badge": {
+                "id": "streak_3",
+                "name": "Getting Started",
+                "description": "Practice 3 days in a row",
+                "icon": "🔥"
+            },
+            "type": "streak_milestone",
+            "threshold": 3
+        },
+        {
+            "badge": {
+                "id": "streak_7",
+                "name": "Week Warrior",
+                "description": "Practice 7 days in a row",
+                "icon": "💪"
+            },
+            "type": "streak_milestone",
+            "threshold": 7
+        },
+        {
+            "badge": {
+                "id": "streak_14",
+                "name": "Fortnight Fighter",
+                "description": "Practice 14 days in a row",
+                "icon": "⚡"
+            },
+            "type": "streak_milestone",
+            "threshold": 14
+        },
+        {
+            "badge": {
+                "id": "streak_30",
+                "name": "Monthly Master",
+                "description": "Practice 30 days in a row",
+                "icon": "🏆"
+            },
+            "type": "streak_milestone",
+            "threshold": 30
+        },
+        {
+            "badge": {
+                "id": "level_5",
+                "name": "Rising Star",
+                "description": "Reach level 5 in any area",
+                "icon": "📈"
+            },
+            "type": "level_milestone",
+            "threshold": 5
+        },
+        {
+            "badge": {
+                "id": "level_10",
+                "name": "Expert Learner",
+                "description": "Reach level 10 in any area",
+                "icon": "🎓"
+            },
+            "type": "level_milestone",
+            "threshold": 10
+        },
+        {
+            "badge": {
+                "id": "level_20",
+                "name": "Grand Master",
+                "description": "Reach level 20 in any area",
+                "icon": "👑"
+            },
+            "type": "level_milestone",
+            "threshold": 20
+        }
+    ],
+    "gamification": {
+        "starStrategy": "attempts",
+        "maxStarsPerExercise": 3,
+        "starsPerLevel": 10,
+        "levelThresholds": [
+            {
+                "level": 1,
+                "starsRequired": 0
+            },
+            {
+                "level": 2,
+                "starsRequired": 10
+            },
+            {
+                "level": 3,
+                "starsRequired": 20
+            },
+            {
+                "level": 4,
+                "starsRequired": 30
+            },
+            {
+                "level": 5,
+                "starsRequired": 40
+            },
+            {
+                "level": 6,
+                "starsRequired": 50
+            },
+            {
+                "level": 7,
+                "starsRequired": 60
+            },
+            {
+                "level": 8,
+                "starsRequired": 70
+            },
+            {
+                "level": 9,
+                "starsRequired": 80
+            },
+            {
+                "level": 10,
+                "starsRequired": 90
+            }
+        ],
+        "streakConfig": {
+            "milestones": [
+                3,
+                7,
+                14,
+                30
+            ]
+        }
+    }
+}

@@ -1,0 +1,258 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base styles */
+:root {
+    /* Custom CSS variables for theming */
+    --color-primary: 14 165 233;
+    /* sky-500 */
+    --color-secondary: 217 70 239;
+    /* fuchsia-500 */
+    --color-success: 34 197 94;
+    /* green-500 */
+    --color-warning: 245 158 11;
+    /* amber-500 */
+    --color-error: 239 68 68;
+    /* red-500 */
+
+    /* Font size multipliers for accessibility */
+    --font-size-multiplier: 1;
+}
+
+/* ============================================================================
+   Accessibility: Font Size Variants
+   ============================================================================ */
+
+/* Normal font size (default) */
+[data-font-size="normal"] {
+    --font-size-multiplier: 1;
+}
+
+/* Large font size (125% of base) */
+[data-font-size="large"] {
+    --font-size-multiplier: 1.25;
+    font-size: calc(1rem * var(--font-size-multiplier));
+}
+
+/* Extra large font size (150% of base) */
+[data-font-size="extra-large"] {
+    --font-size-multiplier: 1.5;
+    font-size: calc(1rem * var(--font-size-multiplier));
+}
+
+/* ============================================================================
+   Accessibility: High Contrast Mode
+   ============================================================================ */
+
+[data-high-contrast] {
+    /* Increase contrast for text */
+    --text-contrast-filter: contrast(1.2);
+
+    /* Stronger borders */
+    --border-width-multiplier: 1.5;
+}
+
+[data-high-contrast] * {
+    /* Apply contrast filter */
+    filter: var(--text-contrast-filter, none);
+}
+
+[data-high-contrast] button,
+[data-high-contrast] [role="button"],
+[data-high-contrast] a,
+[data-high-contrast] input,
+[data-high-contrast] select,
+[data-high-contrast] textarea {
+    /* Ensure visible borders on interactive elements */
+    border-width: calc(1px * var(--border-width-multiplier, 1));
+    border-style: solid;
+}
+
+[data-high-contrast] .card,
+[data-high-contrast] .btn {
+    /* Stronger shadows for depth perception */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+}
+
+/* High contrast focus indicators */
+[data-high-contrast] :focus-visible {
+    outline: 3px solid currentColor !important;
+    outline-offset: 2px !important;
+}
+
+/* ============================================================================
+   Accessibility: Reduced Motion
+   ============================================================================ */
+
+/* System preference for reduced motion */
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* User preference for reduced motion (via settings) */
+[data-reduce-motion] *,
+[data-reduce-motion] *::before,
+[data-reduce-motion] *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+}
+
+/* ============================================================================
+   Accessibility: Focus Indicators
+   ============================================================================ */
+
+/* Focus visible styles for accessibility */
+@layer base {
+    :focus-visible {
+        @apply outline-none ring-2 ring-primary-500 ring-offset-2;
+    }
+
+    /* Ensure focus is always visible for keyboard users */
+    :focus:not(:focus-visible) {
+        outline: none;
+    }
+
+    /* High visibility focus for interactive elements */
+    button:focus-visible,
+    [role="button"]:focus-visible,
+    a:focus-visible,
+    input:focus-visible,
+    select:focus-visible,
+    textarea:focus-visible,
+    [tabindex]:focus-visible {
+        @apply outline-none ring-2 ring-primary-500 ring-offset-2;
+        outline-offset: 2px;
+    }
+}
+
+/* ============================================================================
+   Accessibility: Skip Link
+   ============================================================================ */
+
+.skip-to-content {
+    position: absolute;
+    left: -9999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.skip-to-content:focus {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    width: auto;
+    height: auto;
+    padding: 0.75rem 1.5rem;
+    z-index: 9999;
+    overflow: visible;
+    clip: auto;
+    white-space: nowrap;
+}
+
+/* ============================================================================
+   Accessibility: Screen Reader Only
+   ============================================================================ */
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+.not-sr-only {
+    position: static;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+    white-space: normal;
+}
+
+/* ============================================================================
+   Custom Component Styles
+   ============================================================================ */
+
+@layer components {
+    .btn {
+        @apply inline-flex items-center justify-center rounded-lg px-4 py-2 font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none;
+    }
+
+    .btn-primary {
+        @apply btn bg-primary-600 text-white hover:bg-primary-700 focus-visible:ring-primary-500;
+    }
+
+    .btn-secondary {
+        @apply btn bg-secondary-600 text-white hover:bg-secondary-700 focus-visible:ring-secondary-500;
+    }
+
+    .btn-outline {
+        @apply btn border-2 border-primary-600 text-primary-600 hover:bg-primary-50 focus-visible:ring-primary-500;
+    }
+
+    .card {
+        @apply bg-white rounded-xl shadow-md p-6;
+    }
+
+    .input {
+        @apply w-full rounded-lg border border-gray-300 px-4 py-2 focus:border-primary-500 focus:ring-2 focus:ring-primary-500 focus:ring-opacity-50;
+    }
+
+    /* Accessible toggle switch */
+    .toggle-switch {
+        @apply relative inline-flex h-7 w-12 items-center rounded-full transition-colors duration-200 ease-in-out focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2;
+    }
+
+    .toggle-switch[aria-checked="true"] {
+        @apply bg-primary-600;
+    }
+
+    .toggle-switch[aria-checked="false"] {
+        @apply bg-gray-300;
+    }
+
+    .toggle-switch-thumb {
+        @apply inline-block h-5 w-5 transform rounded-full bg-white shadow transition-transform duration-200 ease-in-out;
+    }
+
+    .toggle-switch[aria-checked="true"] .toggle-switch-thumb {
+        @apply translate-x-6;
+    }
+
+    .toggle-switch[aria-checked="false"] .toggle-switch-thumb {
+        @apply translate-x-1;
+    }
+}
+
+/* Custom utility classes */
+@layer utilities {
+    .text-balance {
+        text-wrap: balance;
+    }
+
+    /* Minimum touch target size (WCAG 2.1 AA) */
+    .touch-target {
+        min-width: 44px;
+        min-height: 44px;
+    }
+}

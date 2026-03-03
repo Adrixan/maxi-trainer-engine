@@ -1,0 +1,102 @@
+[
+    {
+        "id": "buchstaben",
+        "name": "Buchstaben",
+        "description": "Buchstaben erkennen, schreiben und zuordnen",
+        "areaId": "sprachbewusstsein",
+        "difficulty": 1,
+        "icon": "🔤",
+        "color": "#ef4444",
+        "minLevel": 1
+    },
+    {
+        "id": "woerter",
+        "name": "Wörter",
+        "description": "Wörter lesen, schreiben und verstehen",
+        "areaId": "wortschatz",
+        "difficulty": 1,
+        "icon": "📝",
+        "color": "#f97316",
+        "minLevel": 1
+    },
+    {
+        "id": "saetze",
+        "name": "Sätze",
+        "description": "Sätze bilden und verstehen",
+        "areaId": "grammatik",
+        "difficulty": 1,
+        "icon": "📃",
+        "color": "#eab308",
+        "minLevel": 1
+    },
+    {
+        "id": "lesen-l1",
+        "name": "Lesen lernen",
+        "description": "Erstes Lesen mit Buchstaben-Kenntnissen",
+        "areaId": "lesen",
+        "difficulty": 1,
+        "icon": "📖",
+        "color": "#22c55e",
+        "minLevel": 1
+    },
+    {
+        "id": "lesen-l2",
+        "name": "Flüssig lesen",
+        "description": "Leseflüssigkeit und Textverständnis",
+        "areaId": "lesen",
+        "difficulty": 2,
+        "icon": "📚",
+        "color": "#14b8a6",
+        "minLevel": 2
+    },
+    {
+        "id": "schreiben-l1",
+        "name": "Schreiben lernen",
+        "description": "Erstes Schreiben und Rechtschreibung",
+        "areaId": "schreiben",
+        "difficulty": 1,
+        "icon": "✏️",
+        "color": "#06b6d4",
+        "minLevel": 1
+    },
+    {
+        "id": "schreiben-l2",
+        "name": "Texte schreiben",
+        "description": "Kurze Texte verfassen",
+        "areaId": "schreiben",
+        "difficulty": 2,
+        "icon": "📄",
+        "color": "#3b82f6",
+        "minLevel": 2
+    },
+    {
+        "id": "rechtschreibung",
+        "name": "Rechtschreibung",
+        "description": "Richtig schreiben lernen",
+        "areaId": "rechtschreibung",
+        "difficulty": 2,
+        "icon": "✅",
+        "color": "#8b5cf6",
+        "minLevel": 2
+    },
+    {
+        "id": "sprechen-hoeiren",
+        "name": "Hören und Sprechen",
+        "description": "Zuhören und sprechen üben",
+        "areaId": "sprechen",
+        "difficulty": 1,
+        "icon": "👂",
+        "color": "#ec4899",
+        "minLevel": 1
+    },
+    {
+        "id": "sprachbetrachtung",
+        "name": "Sprachbetrachtung",
+        "description": "Wörter und Sätze untersuchen",
+        "areaId": "grammatik",
+        "difficulty": 3,
+        "icon": "🔍",
+        "color": "#64748b",
+        "minLevel": 3
+    }
+]

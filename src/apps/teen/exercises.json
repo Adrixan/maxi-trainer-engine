@@ -1,0 +1,1676 @@
+{
+  "exercises": [
+    {
+      "id": "gaming-mc-001",
+      "type": "multiple-choice",
+      "areaId": "vocabulary",
+      "themeId": "gaming",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Choose the correct gaming term",
+      "content": {
+        "type": "multiple-choice",
+        "question": "What does 'GG' mean in gaming?",
+        "options": [
+          "Good Game",
+          "Get Going",
+          "Game Over",
+          "Great Goal"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "It's usually said at the end of a match",
+        "It starts with 'Good'"
+      ],
+      "feedbackCorrect": "GG! Good Game is the classic esports phrase!",
+      "feedbackIncorrect": "GG stands for 'Good Game' - a friendly way to end a match!"
+    },
+    {
+      "id": "gaming-mc-002",
+      "type": "multiple-choice",
+      "areaId": "vocabulary",
+      "themeId": "gaming",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Choose the correct gaming term",
+      "content": {
+        "type": "multiple-choice",
+        "question": "What is a 'killstreak' in FPS games?",
+        "options": [
+          "Dying multiple times",
+          "Killing enemies without dying",
+          "A special weapon",
+          "A game mode"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "It involves getting kills in a row",
+        "You stay alive while getting eliminations"
+      ],
+      "feedbackCorrect": "Killstreak! Killing enemies without dying grants special rewards!",
+      "feedbackIncorrect": "A killstreak is when you eliminate multiple enemies without dying yourself!"
+    },
+    {
+      "id": "gaming-fill-001",
+      "type": "fill-blank",
+      "areaId": "vocabulary",
+      "themeId": "gaming",
+      "level": 1,
+      "difficulty": 2,
+      "instruction": "Complete the sentence with the right word",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "In Fortnite, players {{blank}} to be the last one standing.",
+        "correctAnswer": "battle",
+        "acceptableAnswers": [
+          "fight",
+          "compete"
+        ]
+      },
+      "hints": [
+        "It's what all players do in a battle royale",
+        "Synonym for 'fight'"
+      ],
+      "feedbackCorrect": "Battle! Battle Royale is all about being the last player standing!",
+      "feedbackIncorrect": "The answer is 'battle' - the main goal in battle royale games!"
+    },
+    {
+      "id": "gaming-match-001",
+      "type": "matching",
+      "areaId": "vocabulary",
+      "themeId": "gaming",
+      "level": 1,
+      "difficulty": 2,
+      "instruction": "Match the gaming genre with its description",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "FPS",
+            "right": "First Person Shooter"
+          },
+          {
+            "left": "RPG",
+            "right": "Role Playing Game"
+          },
+          {
+            "left": "MOBA",
+            "right": "Multiplayer Online Battle Arena"
+          },
+          {
+            "left": "RTS",
+            "right": "Real Time Strategy"
+          }
+        ]
+      },
+      "hints": [
+        "FPS involves shooting from a first-person view",
+        "RPG lets you play as a character with stats"
+      ],
+      "feedbackCorrect": "You know your gaming genres! GGWP!",
+      "feedbackIncorrect": "FPS = First Person Shooter, RPG = Role Playing Game, MOBA = Multiplayer Online Battle Arena, RTS = Real Time Strategy"
+    },
+    {
+      "id": "music-mc-001",
+      "type": "multiple-choice",
+      "areaId": "vocabulary",
+      "themeId": "music",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Choose the correct music term",
+      "content": {
+        "type": "multiple-choice",
+        "question": "What does 'streaming' mean in music?",
+        "options": [
+          "Downloading music files",
+          "Listening to music online in real-time",
+          "Recording a song",
+          "Writing lyrics"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "It involves playing music directly from the internet",
+        "No download required"
+      ],
+      "feedbackCorrect": "Streaming! Services like Spotify let you stream music instantly!",
+      "feedbackIncorrect": "Streaming means listening to music in real-time from the internet without downloading!"
+    },
+    {
+      "id": "music-mc-002",
+      "type": "multiple-choice",
+      "areaId": "vocabulary",
+      "themeId": "music",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Choose the correct music term",
+      "content": {
+        "type": "multiple-choice",
+        "question": "What is a 'feat.' in a song title?",
+        "options": [
+          "Featured artist",
+          "Final track",
+          "Recorded in",
+          "Song length"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "It usually appears between two artist names",
+        "It means another artist is on the track"
+      ],
+      "feedbackCorrect": "Feat. means featuring - a collaboration between artists!",
+      "feedbackIncorrect": "Feat. stands for 'featuring' - it means another artist is collaborating on the track!"
+    },
+    {
+      "id": "music-fill-001",
+      "type": "fill-blank",
+      "areaId": "vocabulary",
+      "themeId": "music",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Complete the sentence",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "I love to {{blank}} to my favorite songs on my headphones.",
+        "correctAnswer": "jam",
+        "acceptableAnswers": [
+          "listen",
+          "dance"
+        ]
+      },
+      "hints": [
+        "A slang term for enjoying music",
+        "It rhymes with 'ham'"
+      ],
+      "feedbackCorrect": "Jammin'! That's the spirit! \ud83c\udfb5",
+      "feedbackIncorrect": "The answer is 'jam' - slang for enjoying music!"
+    },
+    {
+      "id": "music-match-001",
+      "type": "matching",
+      "areaId": "vocabulary",
+      "themeId": "music",
+      "level": 1,
+      "difficulty": 2,
+      "instruction": "Match the music genre with its description",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Hip Hop",
+            "right": "Rapping and beat-driven"
+          },
+          {
+            "left": "EDM",
+            "right": "Electronic Dance Music"
+          },
+          {
+            "left": "Pop",
+            "right": "Popular mainstream music"
+          },
+          {
+            "left": "Rock",
+            "right": "Guitar-heavy and energetic"
+          }
+        ]
+      },
+      "hints": [
+        "EDM is played in clubs",
+        "Pop is what you hear on the radio"
+      ],
+      "feedbackCorrect": "You're a music expert! \ud83c\udfb6",
+      "feedbackIncorrect": "Hip Hop = rapping, EDM = electronic, Pop = popular, Rock = guitar-driven"
+    },
+    {
+      "id": "social-mc-001",
+      "type": "multiple-choice",
+      "areaId": "vocabulary",
+      "themeId": "social",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Choose the correct social media term",
+      "content": {
+        "type": "multiple-choice",
+        "question": "What does 'DM' stand for on social media?",
+        "options": [
+          "Daily Message",
+          "Direct Message",
+          "Digital Media",
+          "Discussion Mode"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "It's a private conversation",
+        "Starts with 'Direct'"
+      ],
+      "feedbackCorrect": "DM = Direct Message! Slide into those DMs! \ud83d\udcf1",
+      "feedbackIncorrect": "DM stands for 'Direct Message' - a private chat between users!"
+    },
+    {
+      "id": "social-mc-002",
+      "type": "multiple-choice",
+      "areaId": "vocabulary",
+      "themeId": "social",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Choose the correct social media term",
+      "content": {
+        "type": "multiple-choice",
+        "question": "What does 'story' mean on Instagram?",
+        "options": [
+          "A long post",
+          "A 24-hour temporary post",
+          "A direct message",
+          "Your profile bio"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "It disappears after 24 hours",
+        "It's at the top of your profile"
+      ],
+      "feedbackCorrect": "Stories last 24 hours - then vanish! \ud83d\udcf8",
+      "feedbackIncorrect": "A Story is a temporary post that disappears after 24 hours!"
+    },
+    {
+      "id": "social-fill-001",
+      "type": "fill-blank",
+      "areaId": "vocabulary",
+      "themeId": "social",
+      "level": 1,
+      "difficulty": 2,
+      "instruction": "Complete the sentence",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "She has 10K followers - she's basically an {{blank}}!",
+        "correctAnswer": "influencer",
+        "acceptableAnswers": [
+          "star",
+          "celebrity"
+        ]
+      },
+      "hints": [
+        "Someone who influences others online",
+        "Common social media term"
+      ],
+      "feedbackCorrect": "Influencer! The influencer life! \ud83c\udf1f",
+      "feedbackIncorrect": "The answer is 'influencer' - someone who influences their followers online!"
+    },
+    {
+      "id": "social-match-001",
+      "type": "matching",
+      "areaId": "vocabulary",
+      "themeId": "social",
+      "level": 1,
+      "difficulty": 2,
+      "instruction": "Match the social media platform with its icon",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Instagram",
+            "right": "Camera"
+          },
+          {
+            "left": "TikTok",
+            "right": "Music Note"
+          },
+          {
+            "left": "Twitter/X",
+            "right": "Bird"
+          },
+          {
+            "left": "YouTube",
+            "right": "Play Button"
+          }
+        ]
+      },
+      "hints": [
+        "TikTok is all about music and videos",
+        "Twitter was known for the bird logo"
+      ],
+      "feedbackCorrect": "You know your social apps! \ud83d\udcf1",
+      "feedbackIncorrect": "Instagram = camera, TikTok = music note, Twitter/X = bird, YouTube = play button"
+    },
+    {
+      "id": "sports-mc-001",
+      "type": "multiple-choice",
+      "areaId": "vocabulary",
+      "themeId": "sports",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Choose the correct sports term",
+      "content": {
+        "type": "multiple-choice",
+        "question": "What is a 'hat-trick' in soccer?",
+        "options": [
+          "Scoring 3 goals in one game",
+          "A special celebration",
+          "A penalty kick",
+          "A defensive move"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "It's a number - think 'three'",
+        "A very impressive achievement"
+      ],
+      "feedbackCorrect": "Hat-trick! 3 goals in one game - legendary! \u26bd",
+      "feedbackIncorrect": "A hat-trick is scoring 3 goals in a single game!"
+    },
+    {
+      "id": "sports-mc-002",
+      "type": "multiple-choice",
+      "areaId": "vocabulary",
+      "themeId": "sports",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Choose the correct sports term",
+      "content": {
+        "type": "multiple-choice",
+        "question": "What does 'MVP' mean in sports?",
+        "options": [
+          "Most Valuable Player",
+          "Maximum Victory Points",
+          "Main Visual Player",
+          "Most Voted Person"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "It's an award given to the best player",
+        "Starts with 'Most Valuable'"
+      ],
+      "feedbackCorrect": "MVP! The Most Valuable Player! \ud83c\udfc6",
+      "feedbackIncorrect": "MVP stands for 'Most Valuable Player' - the best performer!"
+    },
+    {
+      "id": "sports-fill-001",
+      "type": "fill-blank",
+      "areaId": "vocabulary",
+      "themeId": "sports",
+      "level": 1,
+      "difficulty": 2,
+      "instruction": "Complete the sentence",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "The team needs to {{blank}} harder to win the championship.",
+        "correctAnswer": "train",
+        "acceptableAnswers": [
+          "work",
+          "practice"
+        ]
+      },
+      "hints": [
+        "What athletes do to get better",
+        "Synonym for 'practice'"
+      ],
+      "feedbackCorrect": "Train! Practice makes perfect! \ud83d\udcaa",
+      "feedbackIncorrect": "The answer is 'train' - athletes train to improve!"
+    },
+    {
+      "id": "sports-match-001",
+      "type": "matching",
+      "areaId": "vocabulary",
+      "themeId": "sports",
+      "level": 1,
+      "difficulty": 2,
+      "instruction": "Match the sport with the ball used",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Soccer",
+            "right": "Round ball"
+          },
+          {
+            "left": "Basketball",
+            "right": "Orange ball with lines"
+          },
+          {
+            "left": "Tennis",
+            "right": "Yellow ball"
+          },
+          {
+            "left": "Golf",
+            "right": "Small white ball"
+          }
+        ]
+      },
+      "hints": [
+        "Soccer uses the iconic round ball",
+        "Basketballs are easily recognizable"
+      ],
+      "feedbackCorrect": "You know your sports! \u26bd\ud83c\udfc0\ud83c\udfbe",
+      "feedbackIncorrect": "Soccer = round ball, Basketball = orange ball, Tennis = yellow ball, Golf = small white ball"
+    },
+    {
+      "id": "fashion-mc-001",
+      "type": "multiple-choice",
+      "areaId": "vocabulary",
+      "themeId": "fashion",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Choose the correct fashion term",
+      "content": {
+        "type": "multiple-choice",
+        "question": "What is 'streetwear'?",
+        "options": [
+          "Formal business clothing",
+          "Casual urban clothing style",
+          "Sports equipment",
+          "Traditional folk costume"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "It's a casual style popular in cities",
+        "Think hoodies, sneakers, relaxed fits"
+      ],
+      "feedbackCorrect": "Streetwear! The urban casual style! \ud83d\udc5f",
+      "feedbackIncorrect": "Streetwear is casual urban fashion - hoodies, sneakers, relaxed fits!"
+    },
+    {
+      "id": "fashion-mc-002",
+      "type": "multiple-choice",
+      "areaId": "vocabulary",
+      "themeId": "fashion",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Choose the correct fashion term",
+      "content": {
+        "type": "multiple-choice",
+        "question": "What does 'vintage' mean in fashion?",
+        "options": [
+          "Brand new clothes",
+          "Old or classic style clothing",
+          "Cheap clothes",
+          "Sportswear"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "It's not new - it's from the past",
+        "Think retro or classic looks"
+      ],
+      "feedbackCorrect": "Vintage! Classic style from the past! \ud83d\udc57",
+      "feedbackIncorrect": "Vintage refers to old or classic-style clothing, usually from past decades!"
+    },
+    {
+      "id": "fashion-fill-001",
+      "type": "fill-blank",
+      "areaId": "vocabulary",
+      "themeId": "fashion",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Complete the sentence",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "That outfit is so {{blank}} - everyone loves it!",
+        "correctAnswer": "fire",
+        "acceptableAnswers": [
+          "cool",
+          "trendy"
+        ]
+      },
+      "hints": [
+        "A slang term meaning really good",
+        "Used to describe something amazing"
+      ],
+      "feedbackCorrect": "Fire! That's fire! \ud83d\udd25",
+      "feedbackIncorrect": "The answer is 'fire' - slang for something amazing!"
+    },
+    {
+      "id": "fashion-match-001",
+      "type": "matching",
+      "areaId": "vocabulary",
+      "themeId": "fashion",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Match the fashion item with its category",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Hoodie",
+            "right": "Tops"
+          },
+          {
+            "left": "Sneakers",
+            "right": "Footwear"
+          },
+          {
+            "left": "Cap",
+            "right": "Accessories"
+          },
+          {
+            "left": "Jeans",
+            "right": "Bottoms"
+          }
+        ]
+      },
+      "hints": [
+        "Sneakers go on your feet",
+        "Jeans go on your legs"
+      ],
+      "feedbackCorrect": "You're a fashionista! \ud83d\udc57\ud83d\udc5f",
+      "feedbackIncorrect": "Hoodie = tops, Sneakers = footwear, Cap = accessories, Jeans = bottoms"
+    },
+    {
+      "id": "movies-mc-001",
+      "type": "multiple-choice",
+      "areaId": "vocabulary",
+      "themeId": "movies",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Choose the correct movie term",
+      "content": {
+        "type": "multiple-choice",
+        "question": "What does 'streaming' mean for movies?",
+        "options": [
+          "Watching in a cinema",
+          "Watching online in real-time",
+          "Buying DVDs",
+          "Recording a movie"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "It's watching content directly from the internet",
+        "Netflix, Disney+ etc."
+      ],
+      "feedbackCorrect": "Streaming! Binge-watch your favorites! \ud83c\udfac",
+      "feedbackIncorrect": "Streaming means watching movies/TV online through services like Netflix!"
+    },
+    {
+      "id": "movies-mc-002",
+      "type": "multiple-choice",
+      "areaId": "vocabulary",
+      "themeId": "movies",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Choose the correct movie term",
+      "content": {
+        "type": "multiple-choice",
+        "question": "What is a 'blockbuster'?",
+        "options": [
+          "A small indie film",
+          "A very popular successful movie",
+          "A horror movie",
+          "A documentary"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "It makes a lot of money",
+        "Everyone goes to see it"
+      ],
+      "feedbackCorrect": "Blockbuster! Huge commercial success! \ud83c\udfa5",
+      "feedbackIncorrect": "A blockbuster is a hugely popular and successful movie!"
+    },
+    {
+      "id": "movies-fill-001",
+      "type": "fill-blank",
+      "areaId": "vocabulary",
+      "themeId": "movies",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Complete the sentence",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "The movie was so good - it was a total {{blank}}!",
+        "correctAnswer": "banger",
+        "acceptableAnswers": [
+          "hit",
+          "classic"
+        ]
+      },
+      "hints": [
+        "Slang for something excellent",
+        "Think 'absolute hit'"
+      ],
+      "feedbackCorrect": "Banger! What a movie! \ud83c\udf7f",
+      "feedbackIncorrect": "The answer is 'banger' - slang for something excellent!"
+    },
+    {
+      "id": "movies-match-001",
+      "type": "matching",
+      "areaId": "vocabulary",
+      "themeId": "movies",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Match the movie genre with its description",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Action",
+            "right": "Explosions and stunts"
+          },
+          {
+            "left": "Comedy",
+            "right": "Funny and makes you laugh"
+          },
+          {
+            "left": "Horror",
+            "right": "Scary and suspenseful"
+          },
+          {
+            "left": "Sci-Fi",
+            "right": "Science and futuristic"
+          }
+        ]
+      },
+      "hints": [
+        "Comedy makes you laugh",
+        "Horror scares you"
+      ],
+      "feedbackCorrect": "You know your genres! \ud83c\udfac",
+      "feedbackIncorrect": "Action = explosions, Comedy = funny, Horror = scary, Sci-Fi = futuristic"
+    },
+    {
+      "id": "tech-mc-001",
+      "type": "multiple-choice",
+      "areaId": "vocabulary",
+      "themeId": "tech",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Choose the correct tech term",
+      "content": {
+        "type": "multiple-choice",
+        "question": "What does 'AI' stand for?",
+        "options": [
+          "All Internet",
+          "Artificial Intelligence",
+          "App Interface",
+          "Automatic Input"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "It's about smart computers",
+        "Think robots and smart assistants"
+      ],
+      "feedbackCorrect": "AI! Artificial Intelligence - the future! \ud83e\udd16",
+      "feedbackIncorrect": "AI stands for 'Artificial Intelligence' - smart machines that can learn!"
+    },
+    {
+      "id": "tech-mc-002",
+      "type": "multiple-choice",
+      "areaId": "vocabulary",
+      "themeId": "tech",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Choose the correct tech term",
+      "content": {
+        "type": "multiple-choice",
+        "question": "What does 'upgrade' mean in tech?",
+        "options": [
+          "Breaking your device",
+          "Improving or updating your device",
+          "Selling your device",
+          "Charging your battery"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "It makes something better",
+        "Like getting a newer version"
+      ],
+      "feedbackCorrect": "Upgrade! Get that better version! \ud83d\udcf1",
+      "feedbackIncorrect": "An upgrade is when you improve or get a better version of something!"
+    },
+    {
+      "id": "tech-fill-001",
+      "type": "fill-blank",
+      "areaId": "vocabulary",
+      "themeId": "tech",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Complete the sentence",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "My phone battery is dying - I need to {{blank}} it.",
+        "correctAnswer": "charge",
+        "acceptableAnswers": [
+          "plug",
+          "power"
+        ]
+      },
+      "hints": [
+        "What you do when battery is low",
+        "Connect to power"
+      ],
+      "feedbackCorrect": "Charge it up! \ud83d\udd0b",
+      "feedbackIncorrect": "The answer is 'charge' - charge your phone when battery is low!"
+    },
+    {
+      "id": "tech-match-001",
+      "type": "matching",
+      "areaId": "vocabulary",
+      "themeId": "tech",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Match the device with its main function",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Smartphone",
+            "right": "Communication and apps"
+          },
+          {
+            "left": "Laptop",
+            "right": "Work and productivity"
+          },
+          {
+            "left": "Gaming Console",
+            "right": "Video games"
+          },
+          {
+            "left": "Smart TV",
+            "right": "Streaming and TV"
+          }
+        ]
+      },
+      "hints": [
+        "Smartphones fit in your pocket",
+        "Gaming consoles are for playing games"
+      ],
+      "feedbackCorrect": "Tech savvy! \ud83d\udcbb\ud83c\udfae",
+      "feedbackIncorrect": "Smartphone = communication, Laptop = work, Gaming Console = games, Smart TV = streaming"
+    },
+    {
+      "id": "food-mc-001",
+      "type": "multiple-choice",
+      "areaId": "vocabulary",
+      "themeId": "food",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Choose the correct food term",
+      "content": {
+        "type": "multiple-choice",
+        "question": "What is 'fast food'?",
+        "options": [
+          "Home-cooked meals",
+          "Quick-service pre-prepared food",
+          "Healthy organic food",
+          "Desserts and sweets"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Think McDonald's, Burger King",
+        "Quick to get, not made to order"
+      ],
+      "feedbackCorrect": "Fast food! Quick eats! \ud83c\udf54",
+      "feedbackIncorrect": "Fast food is pre-prepared food that's served quickly - like burgers and fries!"
+    },
+    {
+      "id": "food-mc-002",
+      "type": "multiple-choice",
+      "areaId": "vocabulary",
+      "themeId": "food",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Choose the correct food term",
+      "content": {
+        "type": "multiple-choice",
+        "question": "What does 'vegan' mean?",
+        "options": [
+          "Eating only vegetables",
+          "No animal products at all",
+          "Eating meat occasionally",
+          "Organic food only"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "No meat, no dairy, no eggs",
+        "Plant-based only"
+      ],
+      "feedbackCorrect": "Vegan! Plant-powered! \ud83e\udd57",
+      "feedbackIncorrect": "Vegan means no animal products at all - completely plant-based!"
+    },
+    {
+      "id": "food-fill-001",
+      "type": "fill-blank",
+      "areaId": "vocabulary",
+      "themeId": "food",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Complete the sentence",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Let's get {{blank}} - I'm starving!",
+        "correctAnswer": "food",
+        "acceptableAnswers": [
+          "pizza",
+          "takeout"
+        ]
+      },
+      "hints": [
+        "General term for something to eat",
+        "What you need when hungry"
+      ],
+      "feedbackCorrect": "Food! Time to eat! \ud83c\udf55",
+      "feedbackIncorrect": "The answer is 'food' - the general term for anything edible!"
+    },
+    {
+      "id": "food-match-001",
+      "type": "matching",
+      "areaId": "vocabulary",
+      "themeId": "food",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Match the food with its category",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Burger",
+            "right": "Fast Food"
+          },
+          {
+            "left": "Salad",
+            "right": "Healthy Food"
+          },
+          {
+            "left": "Pizza",
+            "right": "Italian Food"
+          },
+          {
+            "left": "Sushi",
+            "right": "Japanese Food"
+          }
+        ]
+      },
+      "hints": [
+        "Pizza comes from Italy",
+        "Sushi comes from Japan"
+      ],
+      "feedbackCorrect": "Foodie level: Expert! \ud83c\udf54\ud83c\udf63",
+      "feedbackIncorrect": "Burger = fast food, Salad = healthy, Pizza = Italian, Sushi = Japanese"
+    },
+    {
+      "id": "travel-mc-001",
+      "type": "multiple-choice",
+      "areaId": "vocabulary",
+      "themeId": "travel",
+      "level": 3,
+      "difficulty": 1,
+      "instruction": "Choose the correct travel term",
+      "content": {
+        "type": "multiple-choice",
+        "question": "What is a 'backpacker'?",
+        "options": [
+          "Someone who carries bags for others",
+          "Budget traveler with a backpack",
+          "A hiking guide",
+          "A tour bus driver"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Travels light with just a backpack",
+        "Often on a budget"
+      ],
+      "feedbackCorrect": "Backpacker! The budget travel lifestyle! \ud83c\udf92",
+      "feedbackIncorrect": "A backpacker is a budget traveler who travels light with just a backpack!"
+    },
+    {
+      "id": "travel-mc-002",
+      "type": "multiple-choice",
+      "areaId": "vocabulary",
+      "themeId": "travel",
+      "level": 3,
+      "difficulty": 1,
+      "instruction": "Choose the correct travel term",
+      "content": {
+        "type": "multiple-choice",
+        "question": "What does 'itinerary' mean?",
+        "options": [
+          "Travel insurance",
+          "A detailed travel plan",
+          "Airport lounge",
+          "Passport"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "It tells you where to go and when",
+        "Your travel schedule"
+      ],
+      "feedbackCorrect": "Itinerary! Plan your trip! \u2708\ufe0f",
+      "feedbackIncorrect": "An itinerary is your detailed travel plan - where you'll go and when!"
+    },
+    {
+      "id": "travel-fill-001",
+      "type": "fill-blank",
+      "areaId": "vocabulary",
+      "themeId": "travel",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Complete the sentence",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "I need to {{blank}} my passport before the trip.",
+        "correctAnswer": "pack",
+        "acceptableAnswers": [
+          "get",
+          "prepare"
+        ]
+      },
+      "hints": [
+        "What you do with clothes for a trip",
+        "Put things in a suitcase"
+      ],
+      "feedbackCorrect": "Pack! Get ready to go! \ud83e\uddf3",
+      "feedbackIncorrect": "The answer is 'pack' - pack your passport and clothes for the trip!"
+    },
+    {
+      "id": "travel-match-001",
+      "type": "matching",
+      "areaId": "vocabulary",
+      "themeId": "travel",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Match the travel term with its meaning",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Visa",
+            "right": "Entry permit to a country"
+          },
+          {
+            "left": "Flight",
+            "right": "Air travel"
+          },
+          {
+            "left": "Hotel",
+            "right": "Place to stay"
+          },
+          {
+            "left": "Tourist",
+            "right": "Someone visiting a place"
+          }
+        ]
+      },
+      "hints": [
+        "You need a visa to enter some countries",
+        "A hotel is where you sleep while traveling"
+      ],
+      "feedbackCorrect": "Travel pro! \u2708\ufe0f\ud83c\udfe8",
+      "feedbackIncorrect": "Visa = entry permit, Flight = air travel, Hotel = accommodation, Tourist = visitor"
+    },
+    {
+      "id": "science-mc-001",
+      "type": "multiple-choice",
+      "areaId": "vocabulary",
+      "themeId": "science",
+      "level": 3,
+      "difficulty": 1,
+      "instruction": "Choose the correct science term",
+      "content": {
+        "type": "multiple-choice",
+        "question": "What is 'NASA'?",
+        "options": [
+          "A planet",
+          "US space agency",
+          "A type of rocket",
+          "A star"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "They send rockets to space",
+        "American organization"
+      ],
+      "feedbackCorrect": "NASA! Exploring space! \ud83d\ude80",
+      "feedbackIncorrect": "NASA is the US National Aeronautics and Space Administration!"
+    },
+    {
+      "id": "science-mc-002",
+      "type": "multiple-choice",
+      "areaId": "vocabulary",
+      "themeId": "science",
+      "level": 3,
+      "difficulty": 1,
+      "instruction": "Choose the correct science term",
+      "content": {
+        "type": "multiple-choice",
+        "question": "What does 'experiment' mean?",
+        "options": [
+          "A science fiction movie",
+          "A test to discover something",
+          "A chemical element",
+          "A famous scientist"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Scientists do this to test ideas",
+        "Involves testing and observing"
+      ],
+      "feedbackCorrect": "Experiment! The heart of science! \ud83d\udd2c",
+      "feedbackIncorrect": "An experiment is a test to discover or prove something scientifically!"
+    },
+    {
+      "id": "science-fill-001",
+      "type": "fill-blank",
+      "areaId": "vocabulary",
+      "themeId": "science",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Complete the sentence",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "The scientist made a breakthrough {{blank}}!",
+        "correctAnswer": "discovery",
+        "acceptableAnswers": [
+          "find",
+          "invention"
+        ]
+      },
+      "hints": [
+        "Finding something new",
+        "A major scientific finding"
+      ],
+      "feedbackCorrect": "Discovery! Amazing! \ud83e\uddea",
+      "feedbackIncorrect": "The answer is 'discovery' - a major scientific finding!"
+    },
+    {
+      "id": "science-match-001",
+      "type": "matching",
+      "areaId": "vocabulary",
+      "themeId": "science",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Match the scientist with their field",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Einstein",
+            "right": "Physics"
+          },
+          {
+            "left": "Darwin",
+            "right": "Biology"
+          },
+          {
+            "left": "Curie",
+            "right": "Chemistry"
+          },
+          {
+            "left": "Hawking",
+            "right": "Cosmology"
+          }
+        ]
+      },
+      "hints": [
+        "Einstein = relativity",
+        "Darwin = evolution"
+      ],
+      "feedbackCorrect": "Science legend! \ud83c\udf1f",
+      "feedbackIncorrect": "Einstein = physics, Darwin = biology, Curie = chemistry, Hawking = cosmology"
+    },
+    {
+      "id": "nature-mc-001",
+      "type": "multiple-choice",
+      "areaId": "vocabulary",
+      "themeId": "nature",
+      "level": 3,
+      "difficulty": 1,
+      "instruction": "Choose the correct term",
+      "content": {
+        "type": "multiple-choice",
+        "question": "What does 'sustainable' mean?",
+        "options": [
+          "Using resources carefully for the future",
+          "Something that grows fast",
+          "A type of tree",
+          "A chemical product"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "It's about protecting the environment",
+        "Not using up resources"
+      ],
+      "feedbackCorrect": "Sustainable! Save the planet! \ud83c\udf0d",
+      "feedbackIncorrect": "Sustainable means using resources carefully so they're available for the future!"
+    },
+    {
+      "id": "nature-mc-002",
+      "type": "multiple-choice",
+      "areaId": "vocabulary",
+      "themeId": "nature",
+      "level": 3,
+      "difficulty": 1,
+      "instruction": "Choose the correct term",
+      "content": {
+        "type": "multiple-choice",
+        "question": "What is an 'endangered' animal?",
+        "options": [
+          "A pet animal",
+          "An animal at risk of extinction",
+          "A wild animal",
+          "A zoo animal"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "They could disappear forever",
+        "Need protection to survive"
+      ],
+      "feedbackCorrect": "Endangered! We need to protect them! \ud83d\udc3c",
+      "feedbackIncorrect": "Endangered animals are at risk of extinction and need protection!"
+    },
+    {
+      "id": "nature-fill-001",
+      "type": "fill-blank",
+      "areaId": "vocabulary",
+      "themeId": "nature",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Complete the sentence",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "We should {{blank}} our planet for future generations.",
+        "correctAnswer": "protect",
+        "acceptableAnswers": [
+          "save",
+          "care for"
+        ]
+      },
+      "hints": [
+        "Keep something safe",
+        "Look after"
+      ],
+      "feedbackCorrect": "Protect! Save the Earth! \ud83c\udf33",
+      "feedbackIncorrect": "The answer is 'protect' - we must protect our planet!"
+    },
+    {
+      "id": "nature-match-001",
+      "type": "matching",
+      "areaId": "vocabulary",
+      "themeId": "nature",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Match the animal with its type",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Lion",
+            "right": "Mammal"
+          },
+          {
+            "left": "Eagle",
+            "right": "Bird"
+          },
+          {
+            "left": "Shark",
+            "right": "Fish"
+          },
+          {
+            "left": "Frog",
+            "right": "Amphibian"
+          }
+        ]
+      },
+      "hints": [
+        "Lions are warm-blooded vertebrates",
+        "Frogs can live in water and on land"
+      ],
+      "feedbackCorrect": "Animal expert! \ud83e\udd81\ud83e\udd85",
+      "feedbackIncorrect": "Lion = mammal, Eagle = bird, Shark = fish, Frog = amphibian"
+    },
+    {
+      "id": "career-mc-001",
+      "type": "multiple-choice",
+      "areaId": "vocabulary",
+      "themeId": "career",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Choose the correct career term",
+      "content": {
+        "type": "multiple-choice",
+        "question": "What does 'internship' mean?",
+        "options": [
+          "A permanent job",
+          "A temporary work experience for students",
+          "A business degree",
+          "A job interview"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Often for students or graduates",
+        "Learning experience"
+      ],
+      "feedbackCorrect": "Internship! Gain work experience! \ud83d\udcbc",
+      "feedbackIncorrect": "An internship is a temporary work experience, often for students or recent graduates!"
+    },
+    {
+      "id": "career-mc-002",
+      "type": "multiple-choice",
+      "areaId": "vocabulary",
+      "themeId": "career",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Choose the correct career term",
+      "content": {
+        "type": "multiple-choice",
+        "question": "What is a 'resume'?",
+        "options": [
+          "A job offer",
+          "A document summarizing your skills and experience",
+          "A company office",
+          "A job interview"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "You send this when applying for jobs",
+        "Your work history"
+      ],
+      "feedbackCorrect": "Resume! Your ticket to a job! \ud83d\udcc4",
+      "feedbackIncorrect": "A resume is a document summarizing your skills, education, and work experience!"
+    },
+    {
+      "id": "career-fill-001",
+      "type": "fill-blank",
+      "areaId": "vocabulary",
+      "themeId": "career",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Complete the sentence",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "I want to {{blank}} my skills and get a better job.",
+        "correctAnswer": "develop",
+        "acceptableAnswers": [
+          "improve",
+          "upgrade"
+        ]
+      },
+      "hints": [
+        "Make something better",
+        "Grow professionally"
+      ],
+      "feedbackCorrect": "Develop! Level up your career! \ud83d\udcc8",
+      "feedbackIncorrect": "The answer is 'develop' - develop your skills for a better career!"
+    },
+    {
+      "id": "career-match-001",
+      "type": "matching",
+      "areaId": "vocabulary",
+      "themeId": "career",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Match the job with its field",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Doctor",
+            "right": "Healthcare"
+          },
+          {
+            "left": "Engineer",
+            "right": "Technology"
+          },
+          {
+            "left": "Teacher",
+            "right": "Education"
+          },
+          {
+            "left": "Lawyer",
+            "right": "Legal"
+          }
+        ]
+      },
+      "hints": [
+        "Doctors work in hospitals",
+        "Teachers work in schools"
+      ],
+      "feedbackCorrect": "Career ready! \ud83c\udf93",
+      "feedbackIncorrect": "Doctor = healthcare, Engineer = technology, Teacher = education, Lawyer = legal"
+    },
+    {
+      "id": "gaming-word-001",
+      "type": "word-order",
+      "areaId": "grammar",
+      "themeId": "gaming",
+      "level": 1,
+      "difficulty": 2,
+      "instruction": "Arrange the words to form a correct sentence",
+      "content": {
+        "type": "word-order",
+        "correctOrder": [
+          "I",
+          "love",
+          "playing",
+          "games"
+        ],
+        "scrambled": [
+          "games",
+          "I",
+          "playing",
+          "love"
+        ]
+      },
+      "hints": [
+        "Start with 'I'",
+        "Then the verb"
+      ],
+      "feedbackCorrect": "Perfect! You love playing games! \ud83c\udfae",
+      "feedbackIncorrect": "The correct order is: 'I love playing games'"
+    },
+    {
+      "id": "music-word-001",
+      "type": "word-order",
+      "areaId": "grammar",
+      "themeId": "music",
+      "level": 1,
+      "difficulty": 2,
+      "instruction": "Arrange the words to form a correct sentence",
+      "content": {
+        "type": "word-order",
+        "correctOrder": [
+          "This",
+          "song",
+          "is",
+          "awesome"
+        ],
+        "scrambled": [
+          "awesome",
+          "song",
+          "This",
+          "is"
+        ]
+      },
+      "hints": [
+        "Start with 'This'",
+        "Then the noun"
+      ],
+      "feedbackCorrect": "Awesome! \ud83c\udfb5",
+      "feedbackIncorrect": "The correct order is: 'This song is awesome'"
+    },
+    {
+      "id": "social-word-001",
+      "type": "word-order",
+      "areaId": "grammar",
+      "themeId": "social",
+      "level": 1,
+      "difficulty": 2,
+      "instruction": "Arrange the words to form a correct sentence",
+      "content": {
+        "type": "word-order",
+        "correctOrder": [
+          "This",
+          "post",
+          "is",
+          "viral"
+        ],
+        "scrambled": [
+          "viral",
+          "post",
+          "This",
+          "is"
+        ]
+      },
+      "hints": [
+        "Start with 'This'",
+        "Then the noun"
+      ],
+      "feedbackCorrect": "Viral status achieved! \ud83d\udcc8",
+      "feedbackIncorrect": "The correct order is: 'This post is viral'"
+    },
+    {
+      "id": "gaming-write-001",
+      "type": "writing",
+      "areaId": "production",
+      "themeId": "gaming",
+      "level": 2,
+      "difficulty": 3,
+      "instruction": "Write about your favorite game",
+      "content": {
+        "type": "writing",
+        "prompt": "Write 2-3 sentences about your favorite video game. Why do you like it?",
+        "scaffoldLevel": "medium",
+        "scaffoldHints": [
+          "Mention the name of the game",
+          "Explain why it's your favorite"
+        ],
+        "starterWords": [
+          "I",
+          "My",
+          "The"
+        ],
+        "minLength": 20
+      },
+      "hints": [
+        "Mention the name of the game",
+        "Explain why it's your favorite"
+      ],
+      "feedbackCorrect": "Great writing! Keep gaming! \ud83c\udfae",
+      "feedbackIncorrect": "Write about your favorite game and why you enjoy playing it!"
+    },
+    {
+      "id": "music-write-001",
+      "type": "writing",
+      "areaId": "production",
+      "themeId": "music",
+      "level": 2,
+      "difficulty": 3,
+      "instruction": "Write about your favorite song",
+      "content": {
+        "type": "writing",
+        "prompt": "Write 2-3 sentences about your favorite song. What makes it special?",
+        "scaffoldLevel": "medium",
+        "scaffoldHints": [
+          "Mention the song title and artist",
+          "Explain why it's special to you"
+        ],
+        "starterWords": [
+          "I",
+          "My",
+          "The"
+        ],
+        "minLength": 20
+      },
+      "hints": [
+        "Mention the song title and artist",
+        "Explain why it's special to you"
+      ],
+      "feedbackCorrect": "Nice! What a tune! \ud83c\udfb5",
+      "feedbackIncorrect": "Write about your favorite song and what makes it special!"
+    },
+    {
+      "id": "travel-write-001",
+      "type": "writing",
+      "areaId": "production",
+      "themeId": "travel",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Write about your dream destination",
+      "content": {
+        "type": "writing",
+        "prompt": "Write 2-3 sentences about where you would love to travel and why.",
+        "scaffoldLevel": "medium",
+        "scaffoldHints": [
+          "Name your dream destination",
+          "Explain why you want to go there"
+        ],
+        "starterWords": [
+          "I",
+          "My",
+          "The"
+        ],
+        "minLength": 20
+      },
+      "hints": [
+        "Name your dream destination",
+        "Explain why you want to go there"
+      ],
+      "feedbackCorrect": "Adventure awaits! \u2708\ufe0f",
+      "feedbackIncorrect": "Write about your dream travel destination and why you want to visit!"
+    },
+    {
+      "id": "gaming-conjugation-001",
+      "type": "conjugation-table",
+      "areaId": "grammar",
+      "themeId": "gaming",
+      "level": 2,
+      "difficulty": 3,
+      "instruction": "Complete the conjugation table",
+      "content": {
+        "type": "conjugation-table",
+        "verb": "play",
+        "tense": "present",
+        "cells": [
+          {
+            "person": "I",
+            "correctForm": "play"
+          },
+          {
+            "person": "you",
+            "correctForm": "play"
+          },
+          {
+            "person": "he/she/it",
+            "correctForm": "plays"
+          },
+          {
+            "person": "we",
+            "correctForm": "play"
+          },
+          {
+            "person": "you (plural)",
+            "correctForm": "play"
+          },
+          {
+            "person": "they",
+            "correctForm": "play"
+          }
+        ]
+      },
+      "hints": [
+        "Only 'he/she/it' adds 's'",
+        "All others are just 'play'"
+      ],
+      "feedbackCorrect": "Grammar gamer! \ud83c\udfae",
+      "feedbackIncorrect": "Only he/she/it adds 's': plays"
+    },
+    {
+      "id": "music-conjugation-001",
+      "type": "conjugation-table",
+      "areaId": "grammar",
+      "themeId": "music",
+      "level": 2,
+      "difficulty": 3,
+      "instruction": "Complete the conjugation table",
+      "content": {
+        "type": "conjugation-table",
+        "verb": "listen",
+        "tense": "present",
+        "cells": [
+          {
+            "person": "I",
+            "correctForm": "listen"
+          },
+          {
+            "person": "you",
+            "correctForm": "listen"
+          },
+          {
+            "person": "he/she/it",
+            "correctForm": "listens"
+          },
+          {
+            "person": "we",
+            "correctForm": "listen"
+          },
+          {
+            "person": "you (plural)",
+            "correctForm": "listen"
+          },
+          {
+            "person": "they",
+            "correctForm": "listen"
+          }
+        ]
+      },
+      "hints": [
+        "Only 'he/she/it' adds 's'",
+        "Listen to music every day!"
+      ],
+      "feedbackCorrect": "Musical grammar! \ud83c\udfb5",
+      "feedbackIncorrect": "Only he/she/it adds 's': listens"
+    },
+    {
+      "id": "gaming-picture-001",
+      "type": "picture-vocabulary",
+      "areaId": "vocabulary",
+      "themeId": "gaming",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "What gaming item is this?",
+      "content": {
+        "type": "picture-vocabulary",
+        "options": [
+          "Keyboard",
+          "Controller",
+          "Mouse",
+          "Headphones"
+        ],
+        "correctAnswer": "Controller",
+        "acceptableAnswers": [],
+        "picture": "\ud83c\udfae",
+        "pictureAlt": "Gaming controller or headphones"
+      },
+      "hints": [
+        "You hold it to play console games",
+        "Has buttons and joysticks"
+      ],
+      "feedbackCorrect": "Controller! Time to game! \ud83c\udfae",
+      "feedbackIncorrect": "A controller is what you use to play console games!"
+    },
+    {
+      "id": "music-picture-001",
+      "type": "picture-vocabulary",
+      "areaId": "vocabulary",
+      "themeId": "music",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "What music equipment is this?",
+      "content": {
+        "type": "picture-vocabulary",
+        "options": [
+          "Speaker",
+          "Headphones",
+          "Microphone",
+          "Guitar"
+        ],
+        "correctAnswer": "Headphones",
+        "acceptableAnswers": [],
+        "picture": "\ud83c\udfa7",
+        "pictureAlt": "Gaming controller or headphones"
+      },
+      "hints": [
+        "You wear them on your head",
+        "For private listening"
+      ],
+      "feedbackCorrect": "Headphones! Jam out! \ud83c\udfa7",
+      "feedbackIncorrect": "Headphones are what you wear on your ears to listen to music privately!"
+    }
+  ]
+}

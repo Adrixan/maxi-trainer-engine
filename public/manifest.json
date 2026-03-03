@@ -1,0 +1,86 @@
+{
+    "name": "Mini Trainer Engine",
+    "short_name": "MiniTrainer",
+    "description": "A configurable learning platform for educational exercises",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#4F46E5",
+    "orientation": "any",
+    "scope": "/",
+    "lang": "en",
+    "categories": [
+        "education",
+        "kids",
+        "learning"
+    ],
+    "icons": [
+        {
+            "src": "/icon-192.svg",
+            "sizes": "192x192",
+            "type": "image/svg+xml",
+            "purpose": "any"
+        },
+        {
+            "src": "/icon-512.svg",
+            "sizes": "512x512",
+            "type": "image/svg+xml",
+            "purpose": "any"
+        },
+        {
+            "src": "/icon-192.svg",
+            "sizes": "192x192",
+            "type": "image/svg+xml",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/icon-512.svg",
+            "sizes": "512x512",
+            "type": "image/svg+xml",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "screenshots": [],
+    "shortcuts": [
+        {
+            "name": "Start Exercises",
+            "short_name": "Exercises",
+            "description": "Start a new exercise session",
+            "url": "/exercise",
+            "icons": []
+        },
+        {
+            "name": "My Profile",
+            "short_name": "Profile",
+            "description": "View your progress and achievements",
+            "url": "/profile",
+            "icons": []
+        }
+    ],
+    "related_applications": [],
+    "prefer_related_applications": false
+}

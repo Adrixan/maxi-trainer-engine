@@ -1,0 +1,696 @@
+{
+    "exercises": [
+        {
+            "id": "ku-l1-farben-001",
+            "type": "multiple-choice",
+            "areaId": "grundlagen",
+            "themeId": "farben",
+            "level": 1,
+            "difficulty": 1,
+            "instruction": "Welche Farben entstehen, wenn du Rot und Blau mischt?",
+            "content": {
+                "type": "multiple-choice",
+                "question": "🔴 + 🔵 = ?",
+                "options": ["Orange", "Lila/Violett", "Grün", "Braun"],
+                "correctIndex": 1
+            },
+            "hints": ["Rot und Blau ergeben eine dunkle, royale Farbe"],
+            "feedbackCorrect": "Richtig! Lila!",
+            "feedbackIncorrect": "Rot und Blau ergeben Lila!"
+        },
+        {
+            "id": "ku-l1-formen-001",
+            "type": "matching",
+            "areaId": "grundlagen",
+            "themeId": "formen-zeichnen",
+            "level": 1,
+            "difficulty": 1,
+            "instruction": "Verbinde die Form mit ihrem Namen",
+            "content": {
+                "type": "matching",
+                "pairs": [
+                    {"left": "🔴 Kreis", "right": "Keine Ecken"},
+                    {"left": "⬜ Quadrat", "right": "4 gleiche Seiten"},
+                    {"left": "🔺 Dreieck", "right": "3 Ecken"}
+                ]
+            },
+            "hints": ["Wie viele Ecken haben die Formen?"],
+            "feedbackCorrect": "Sehr gut!",
+            "feedbackIncorrect": "Versuche es nochmal!"
+        },
+        {
+            "id": "ku-l1-farben-002",
+            "type": "multiple-choice",
+            "areaId": "grundlagen",
+            "themeId": "farben",
+            "level": 1,
+            "difficulty": 1,
+            "instruction": "Welche ist die Grundfarbe (Primärfarbe)?",
+            "content": {
+                "type": "multiple-choice",
+                "question": "Welche Farbe kannst du nicht durch Mischen herstellen?",
+                "options": ["Rot", "Orange", "Blau", "Gelb"],
+                "correctIndex": 0
+            },
+            "hints": ["Orange kannst du aus Rot und Gelb mischen"],
+            "feedbackCorrect": "Richtig! Rot ist eine Primärfarbe!",
+            "feedbackIncorrect": "Orange kannst du aus Rot und Gelb mischen!"
+        },
+        {
+            "id": "ku-l1-formen-002",
+            "type": "fill-blank",
+            "areaId": "grundlagen",
+            "themeId": "formen-zeichnen",
+            "level": 1,
+            "difficulty": 1,
+            "instruction": "Wie heißt diese Form?",
+            "content": {
+                "type": "fill-blank",
+                "sentence": "Eine Form mit 4 Ecken und 4 gleich langen Seiten heißt {{blank}}",
+                "correctAnswer": "Quadrat",
+                "caseSensitive": false
+            },
+            "hints": ["Es hat 4 Ecken"],
+            "feedbackCorrect": "Genau! Das Quadrat!",
+            "feedbackIncorrect": "Es ist das Quadrat!"
+        },
+        {
+            "id": "ku-l1-malen-001",
+            "type": "multiple-choice",
+            "areaId": "grundlagen",
+            "themeId": "malen",
+            "level": 1,
+            "difficulty": 1,
+            "instruction": "Welche Farbe entsteht aus Gelb und Blau?",
+            "content": {
+                "type": "multiple-choice",
+                "question": "🟡 + 🔵 = ?",
+                "options": ["Orange", "Lila", "Grün", "Braun"],
+                "correctIndex": 2
+            },
+            "hints": ["Denk an eine grüne Wiese bei strahlendem Himmel"],
+            "feedbackCorrect": "Richtig! Grün!",
+            "feedbackIncorrect": "Gelb und Blau ergeben Grün!"
+        },
+        {
+            "id": "ku-l2-farben-001",
+            "type": "multiple-choice",
+            "areaId": "grundlagen",
+            "themeId": "farben",
+            "level": 2,
+            "difficulty": 2,
+            "instruction": "Welche Farben sind WARM (Farben, die uns an Sonne und Wärme erinnern)?",
+            "content": {
+                "type": "multiple-choice",
+                "question": "Wähle die warmen Farben aus:",
+                "options": ["Rot, Orange, Gelb", "Blau, Grün, Lila", "Schwarz, Grau, Weiß", "Braun, Beige, Türkis"],
+                "correctIndex": 0
+            },
+            "hints": ["Warme Farben erinnern an Sonne und Feuer"],
+            "feedbackCorrect": "Sehr gut! Rot, Orange und Gelb sind warme Farben!",
+            "feedbackIncorrect": "Warme Farben sind Rot, Orange und Gelb!"
+        },
+        {
+            "id": "ku-l2-formen-001",
+            "type": "matching",
+            "areaId": "grundlagen",
+            "themeId": "formen-zeichnen",
+            "level": 2,
+            "difficulty": 2,
+            "instruction": "Verbinde die Formen mit ihren Eigenschaften",
+            "content": {
+                "type": "matching",
+                "pairs": [
+                    {"left": "🔴 Rechteck", "right": "4 Ecken, gegenüberliegende Seiten gleich"},
+                    {"left": "⬜ Quadrat", "right": "4 Ecken, alle Seiten gleich"},
+                    {"left": "🔵 Oval", "right": "Keine Ecken, wie ein Ei"},
+                    {"left": "🔺 Dreieck", "right": "3 Ecken, 3 Seiten"}
+                ]
+            },
+            "hints": ["Zähle die Ecken bei jeder Form"],
+            "feedbackCorrect": "Super gemacht!",
+            "feedbackIncorrect": "Zähle nochmal die Ecken!"
+        },
+        {
+            "id": "ku-l2-malen-001",
+            "type": "fill-blank",
+            "areaId": "grundlagen",
+            "themeId": "malen",
+            "level": 2,
+            "difficulty": 2,
+            "instruction": "Welche Technik verwendest du, um weiche Übergänge zwischen Farben zu erzeugen?",
+            "content": {
+                "type": "fill-blank",
+                "sentence": "Um weiche Farbübergänge zu machen, verwendet man die {{blank}} -Technik.",
+                "correctAnswer": "Lasur",
+                "caseSensitive": false
+            },
+            "hints": ["Man wischt die Farbe ineinander"],
+            "feedbackCorrect": "Richtig! Die Lasur- oder Wisch-Technik!",
+            "feedbackIncorrect": "Es ist die Lasur-Technik!"
+        },
+        {
+            "id": "ku-l1-basteln-001",
+            "type": "multiple-choice",
+            "areaId": "grundlagen",
+            "themeId": "basteln",
+            "level": 1,
+            "difficulty": 1,
+            "instruction": "Welches Material kann man gut schneiden?",
+            "content": {
+                "type": "multiple-choice",
+                "question": "Was schneidest du am besten mit einer Schere?",
+                "options": ["Papier", "Metall", "Glas", "Holz"],
+                "correctIndex": 0
+            },
+            "hints": ["Schneide immer nur Papier, nie andere Materialien!"],
+            "feedbackCorrect": "Richtig! Papier!",
+            "feedbackIncorrect": "Man schneidet am besten Papier!"
+        },
+        {
+            "id": "ku-l2-basteln-001",
+            "type": "matching",
+            "areaId": "grundlagen",
+            "themeId": "basteln",
+            "level": 2,
+            "difficulty": 2,
+            "instruction": "Verbinde das Werkzeug mit seiner Verwendung",
+            "content": {
+                "type": "matching",
+                "pairs": [
+                    {"left": "✂️ Schere", "right": "Papier schneiden"},
+                    {"left": "🥢 Leimstift", "right": "Papier kleben"},
+                    {"left": "📏 Lineal", "right": "Gerade Linien ziehen"},
+                    {"left": "🖌️ Pinsel", "right": "Farbe auftragen"}
+                ]
+            },
+            "hints": ["Jedes Werkzeug hat einen bestimmten Zweck"],
+            "feedbackCorrect": "Sehr gut! Alle richtig verbunden!",
+            "feedbackIncorrect": "Überlege nochmal bei jedem Werkzeug!"
+        },
+        {
+            "id": "ku-l1-natur-abzeichnen-001",
+            "type": "multiple-choice",
+            "areaId": "grundlagen",
+            "themeId": "natur-abzeichnen",
+            "level": 1,
+            "difficulty": 1,
+            "instruction": "Was kannst du in der Natur beobachten und zeichnen?",
+            "content": {
+                "type": "multiple-choice",
+                "question": "Was findest du draußen in der Natur zum Zeichnen?",
+                "options": ["Blätter", "Wolken", "Blumen", "Alle Antworten sind richtig"],
+                "correctIndex": 3
+            },
+            "hints": ["Die Natur bietet viele Motive"],
+            "feedbackCorrect": "Richtig! All das kann man in der Natur finden!",
+            "feedbackIncorrect": "In der Natur gibt es viele Motive zum Zeichnen!"
+        },
+        {
+"id": "ku-l2-natur-abzeichnen-001",
+            "type": "fill-blank",
+            "areaId": "grundlagen",
+            "themeId": "natur-abzeichnen",
+            "level": 2,
+            "difficulty": 2,
+            "instruction": "Wie nennt man die Adern auf einem Blatt?",
+            "content": {
+                "type": "fill-blank",
+                "sentence": "Die Aven auf einem Blatt heißen {{blank}}",
+                "correctAnswer": "Blattader",
+                "caseSensitive": false
+            },
+            "hints": ["Sie transportieren Wasser im Blatt"],
+            "feedbackCorrect": "Genau! Blattadern!",
+            "feedbackIncorrect": "Es sind die Blattadern!"
+        },
+        {
+            "id": "ku-l1-menschen-zeichnen-001",
+            "type": "multiple-choice",
+            "areaId": "grundlagen",
+            "themeId": "menschen-zeichnen",
+            "level": 1,
+            "difficulty": 1,
+            "instruction": "Aus welchen Teilen besteht ein einfacher Mensch?",
+            "content": {
+                "type": "multiple-choice",
+                "question": "Wie zeichnest du einen einfachen Menschen?",
+                "options": ["Kopf, Körper, Arme, Beine", "Nur einen Kreis", "Nur ein Quadrat", "Augen und Nase"],
+                "correctIndex": 0
+            },
+            "hints": ["Der Mensch hat einen Körper und Gliedmaßen"],
+            "feedbackCorrect": "Richtig! Kopf, Körper, Arme und Beine!",
+            "feedbackIncorrect": "Ein Mensch hat Kopf, Körper, Arme und Beine!"
+        },
+        {
+            "id": "ku-l2-menschen-zeichnen-001",
+            "type": "fill-blank",
+            "areaId": "grundlagen",
+            "themeId": "menschen-zeichnen",
+            "level": 2,
+            "difficulty": 2,
+            "instruction": "Wo befindet sich das Gesicht im Verhältnis zum Körper?",
+            "content": {
+                "type": "fill-blank",
+                "sentence": "Das Gesicht befindet sich am {{blank}} des Körpers.",
+                "correctAnswer": "Kopf",
+                "caseSensitive": false
+            },
+            "hints": ["Der Kopf ist oben"],
+            "feedbackCorrect": "Richtig! Am Kopf oben!",
+            "feedbackIncorrect": "Das Gesicht ist am Kopf!"
+        },
+        {
+            "id": "ku-l1-muster-mandala-001",
+            "type": "multiple-choice",
+            "areaId": "grundlagen",
+            "themeId": "muster-mandala",
+            "level": 1,
+            "difficulty": 1,
+            "instruction": "Was ist ein Mandala?",
+            "content": {
+                "type": "multiple-choice",
+                "question": "Was ist ein Mandala?",
+                "options": ["Ein kreisförmiges Muster", "Ein Dreieck", "Ein Quadrat", "Ein Tier"],
+                "correctIndex": 0
+            },
+            "hints": ["Mandala bedeutet Kreis auf Sanskrit"],
+            "feedbackCorrect": "Richtig! Ein Mandala ist ein kreisförmiges Muster!",
+            "feedbackIncorrect": "Ein Mandala ist kreisförmig!"
+        },
+        {
+            "id": "ku-l2-muster-mandala-001",
+            "type": "matching",
+            "areaId": "grundlagen",
+            "themeId": "muster-mandala",
+            "level": 2,
+            "difficulty": 2,
+            "instruction": "Verbinde die Musterelemente mit ihrer Beschreibung",
+            "content": {
+                "type": "matching",
+                "pairs": [
+                    {"left": "🔴 Kreis", "right": "Geht um einen Mittelpunkt"},
+                    {"left": "🔺 Dreieck", "right": "Zeigt Richtung und Dynamik"},
+                    {"left": "💜 Spiral", "right": "Windet sich nach außen"},
+                    {"left": "⭐ Stern", "right": "Strahlt vom Mittelpunkt aus"}
+                ]
+            },
+            "hints": ["Achte auf die Form der Elemente"],
+            "feedbackCorrect": "Sehr gut erkannt!",
+            "feedbackIncorrect": "Schau dir die Formen genau an!"
+        },
+        {
+            "id": "ku-l1-drucken-001",
+            "type": "multiple-choice",
+            "areaId": "grundlagen",
+            "themeId": "drucken",
+            "level": 1,
+            "difficulty": 1,
+            "instruction": "Was brauchst du zum Drucken?",
+            "content": {
+                "type": "multiple-choice",
+                "question": "Was verwendest du beim Stempeldruck?",
+                "options": ["Einen Stempel oder Kartoffel", "Einen Computer", "Eine Schere", "Ein Lineal"],
+                "correctIndex": 0
+            },
+            "hints": ["Man drückt etwas auf Papier"],
+            "feedbackCorrect": "Richtig! Einen Stempel!",
+            "feedbackIncorrect": "Man verwendet einen Stempel!"
+        },
+        {
+            "id": "ku-l2-drucken-001",
+            "type": "fill-blank",
+            "areaId": "grundlagen",
+            "themeId": "drucken",
+            "level": 2,
+            "difficulty": 2,
+            "instruction": "Welche Farbe eignet sich besonders gut für Stempeldruck?",
+            "content": {
+                "type": "fill-blank",
+                "sentence": "Für Stempeldruck eignet sich {{blank}} besonders gut.",
+                "correctAnswer": "Stempelfarbe",
+                "caseSensitive": false
+            },
+            "hints": ["Es ist eine spezielle Farbe zum Stempeln"],
+            "feedbackCorrect": "Richtig! Stempelfarbe!",
+            "feedbackIncorrect": "Stempelfarbe oder Fingerfarbe eignet sich gut!"
+        },
+        {
+            "id": "ku-l1-werkstatt-001",
+            "type": "multiple-choice",
+            "areaId": "grundlagen",
+            "themeId": "werkstatt",
+            "level": 1,
+            "difficulty": 1,
+            "instruction": "Was musst du in der Werkstatt beachten?",
+            "content": {
+                "type": "multiple-choice",
+                "question": "Wie bleibst du in der Werkstatt sicher?",
+                "options": ["Vorsichtig arbeiten und Werkzeuge richtig halten", "So schnell wie möglich arbeiten", "Mit den Werkzeugen spielen", "Ohne Aufsicht arbeiten"],
+                "correctIndex": 0
+            },
+            "hints": ["Sicherheit ist sehr wichtig!"],
+            "feedbackCorrect": "Richtig! Vorsichtig arbeiten!",
+            "feedbackIncorrect": "Man muss vorsichtig arbeiten!"
+        },
+        {
+            "id": "ku-l2-werkstatt-001",
+            "type": "matching",
+            "areaId": "grundlagen",
+            "themeId": "werkstatt",
+            "level": 2,
+            "difficulty": 2,
+            "instruction": "Verbinde das Material mit dem richtigen Werkzeug",
+            "content": {
+                "type": "matching",
+                "pairs": [
+                    {"left": "📄 Papier", "right": "Schere"},
+                    {"left": "🪵 Holz", "right": ["Säge", "Holzhammer"]},
+                    {"left": "🎨 Farbe", "right": "Pinsel"},
+                    {"left": "🧱 Ton", "right": "Hände oder Modellierwerkzeug"}
+                ]
+            },
+            "hints": ["Jedes Material braucht das passende Werkzeug"],
+            "feedbackCorrect": "Super! Alle zugeordnet!",
+            "feedbackIncorrect": "Überlege nochmal!"
+        },
+        {
+            "id": "ku-l1-kunst-betrachten-001",
+            "type": "multiple-choice",
+            "areaId": "grundlagen",
+            "themeId": "kunst-betrachten",
+            "level": 1,
+            "difficulty": 1,
+            "instruction": "Was kannst du bei einem Bild beobachten?",
+            "content": {
+                "type": "multiple-choice",
+                "question": "Worauf kannst du bei einem Kunstwerk schauen?",
+                "options": ["Farben und Formen", "Nur die Größe", "Nur den Rahmen", "Nur den Künstler"],
+                "correctIndex": 0
+            },
+            "hints": ["Ein Bild hat viele interessante Teile"],
+            "feedbackCorrect": "Richtig! Farben und Formen!",
+            "feedbackIncorrect": "Man kann Farben und Formen betrachten!"
+        },
+        {
+            "id": "ku-l2-kunst-betrachten-001",
+            "type": "fill-blank",
+            "areaId": "grundlagen",
+            "themeId": "kunst-betrachten",
+            "level": 2,
+            "difficulty": 2,
+            "instruction": "Wie nennt man den Künstler, der ein Bild malt?",
+            "content": {
+                "type": "fill-blank",
+                "sentence": "Der Künstler, der ein Bild malt, heißt {{blank}}",
+                "correctAnswer": "Maler",
+                "caseSensitive": false
+            },
+            "hints": ["Er nutzt Pinsel und Farben"],
+            "feedbackCorrect": "Genau! Der Maler!",
+            "feedbackIncorrect": "Es ist der Maler!"
+        },
+        {
+            "id": "ku-l1-raeumlichkeit-001",
+            "type": "multiple-choice",
+            "areaId": "grundlagen",
+            "themeId": "raeumlichkeit",
+            "level": 1,
+            "difficulty": 1,
+            "instruction": "Was bedeutet es, wenn etwas \"vorne\" ist?",
+            "content": {
+                "type": "multiple-choice",
+                "question": "Was siehst du zuerst - etwas Vorne oder Hinten?",
+                "options": ["Vorne", "Hinten", "Es ist gleich", "Man sieht nichts"],
+                "correctIndex": 0
+            },
+            "hints": ["Vorne ist näher an dir"],
+            "feedbackCorrect": "Richtig! Was vorne ist, sieht man zuerst!",
+            "feedbackIncorrect": "Was vorne ist, sieht man zuerst!"
+        },
+        {
+            "id": "ku-l2-raeumlichkeit-001",
+            "type": "matching",
+            "areaId": "grundlagen",
+            "themeId": "raeumlichkeit",
+            "level": 2,
+            "difficulty": 2,
+            "instruction": "Verbinde die Begriffe mit ihrer Bedeutung",
+            "content": {
+                "type": "matching",
+                "pairs": [
+                    {"left": "⬜ Vorne", "right": "Am nächsten bei dir"},
+                    {"left": "🔲 Hinten", "right": "Am weitesten weg"},
+                    {"left": "🔳 Neben", "right": "Links oder rechts davon"},
+                    {"left": "🔲 Über", "right": "Oberhalb von etwas"}
+                ]
+            },
+            "hints": ["Überlege, wo die Dinge in echt stehen"],
+            "feedbackCorrect": "Sehr gut!",
+            "feedbackIncorrect": "Denk an die räumliche Anordnung!"
+        },
+        {
+            "id": "ku-l1-materialien-001",
+            "type": "multiple-choice",
+            "areaId": "grundlagen",
+            "themeId": "materialien",
+            "level": 1,
+            "difficulty": 1,
+            "instruction": "Welches Material ist weich und lässt sich formen?",
+            "content": {
+                "type": "multiple-choice",
+            "question": "Welches Material kannst du mit den Händen formen?",
+                "options": ["Ton", "Stein", "Glas", "Metall"],
+                "correctIndex": 0
+            },
+            "hints": ["Ton formt man in der Werkstatt"],
+            "feedbackCorrect": "Richtig! Ton!",
+            "feedbackIncorrect": "Ton lässt sich gut formen!"
+        },
+        {
+            "id": "ku-l2-materialien-001",
+            "type": "fill-blank",
+            "areaId": "grundlagen",
+            "themeId": "materialien",
+            "level": 2,
+            "difficulty": 2,
+            "instruction": "Welches Naturmaterial kann man zum Basteln verwenden?",
+            "content": {
+                "type": "fill-blank",
+                "sentence": "{{blank}} sind Naturmaterialien, die man zum Basteln verwenden kann.",
+                "correctAnswer": "Blätter",
+                "caseSensitive": false
+            },
+            "hints": ["Man findet sie draußen in der Natur"],
+            "feedbackCorrect": "Richtig! Blätter, Blüten, Zweige!",
+            "feedbackIncorrect": "Naturmaterialien wie Blätter oder Zweige!"
+        },
+        {
+            "id": "ku-l3-farben-001",
+            "type": "multiple-choice",
+            "areaId": "grundlagen",
+            "themeId": "farben",
+            "level": 3,
+            "difficulty": 3,
+            "instruction": "Welche Farben sind KOMPLEMENTÄR (Gegenfarben)?",
+            "content": {
+                "type": "multiple-choice",
+                "question": "Welche Farben liegen im Farbkreis opposite?",
+                "options": ["Rot und Grün", "Rot und Blau", "Gelb und Orange", "Blau und Lila"],
+                "correctIndex": 0
+            },
+            "hints": ["Sie liegen sich im Farbkreis gegenüber"],
+            "feedbackCorrect": "Richtig! Rot und Grün sind Komplementärfarben!",
+            "feedbackIncorrect": "Komplementärfarben liegen sich gegenüber: Rot und Grün!"
+        },
+        {
+            "id": "ku-l3-formen-001",
+            "type": "fill-blank",
+            "areaId": "grundlagen",
+            "themeId": "formen-zeichnen",
+            "level": 3,
+            "difficulty": 3,
+            "instruction": "Wie nennt man eine geometrische Form mit 5 Ecken?",
+            "content": {
+                "type": "fill-blank",
+                "sentence": "Eine Form mit 5 Ecken heißt {{blank}}",
+                "correctAnswer": "Fünfeck",
+                "caseSensitive": false
+            },
+            "hints": ["Es beginnt mit F und hat 5 Ecken"],
+            "feedbackCorrect": "Genau! Ein Fünfeck (Pentagon)!",
+            "feedbackIncorrect": "Es ist ein Fünfeck!"
+        },
+        {
+            "id": "ku-l3-basteln-001",
+            "type": "matching",
+            "areaId": "grundlagen",
+            "themeId": "basteln",
+            "level": 3,
+            "difficulty": 3,
+            "instruction": "Verbinde die Technik mit ihrer Beschreibung",
+            "content": {
+                "type": "matching",
+                "pairs": [
+                    {"left": "✂️ Ausschneiden", "right": "Mit der Schere Material entfernen"},
+                    {"left": "📄 Falten", "right": "Papier an einer Kante umklappen"},
+                    {"left": "🖇️ Kleben", "right": "Materialien mit Klebstoff verbinden"},
+                    {"left": "🧵 Nähen", "right": "Stoff mit Faden verbinden"}
+                ]
+            },
+            "hints": ["Jede Technik hat einen bestimmten Zweck"],
+            "feedbackCorrect": "Sehr gut! Alle Techniken richtig zugeordnet!",
+            "feedbackIncorrect": "Überlege die Schritte nochmal!"
+        },
+        {
+            "id": "ku-l3-natur-abzeichnen-001",
+            "type": "multiple-choice",
+            "areaId": "grundlagen",
+            "themeId": "natur-abzeichnen",
+            "level": 3,
+            "difficulty": 3,
+            "instruction": "Was bedeutet es, etwas \"abzuzeichnen\"?",
+            "content": {
+                "type": "multiple-choice",
+                "question": "Was machst du beim Abzeichnen?",
+                "options": ["Ein Vorbild genau nachzeichnen", "Etwas ausdenken", "Ein Bild verbessern", "Farben mischen"],
+                "correctIndex": 0
+            },
+            "hints": ["Du siehst etwas und zeichnest es nach"],
+            "feedbackCorrect": "Richtig! Man zeichnet ein Vorbild genau nach!",
+            "feedbackIncorrect": "Abzeichnen bedeutet, etwas genau nachzuzeichnen!"
+        },
+        {
+            "id": "ku-l3-menschen-zeichnen-001",
+            "type": "fill-blank",
+            "areaId": "grundlagen",
+            "themeId": "menschen-zeichnen",
+            "level": 3,
+            "difficulty": 3,
+            "instruction": "Welche Proportionen (Verhältnisse) hat ein erwachsener Mensch?",
+            "content": {
+                "type": "fill-blank",
+                "sentence": "Der Kopf ist etwa {{blank}} mal so groß wie die Hand.",
+                "correctAnswer": "3",
+                "caseSensitive": false
+            },
+            "hints": ["Bei Erwachsenen ist der Kopf größer als bei Kindern"],
+            "feedbackCorrect": "Richtig! Etwa 3-mal!",
+            "feedbackIncorrect": "Der Kopf ist etwa 3-mal so groß wie die Hand!"
+        },
+        {
+            "id": "ku-l3-muster-mandala-001",
+            "type": "multiple-choice",
+            "areaId": "grundlagen",
+            "themeId": "muster-mandala",
+            "level": 3,
+            "difficulty": 3,
+            "instruction": "Was ist typisch für die Gestaltung eines Mandala?",
+            "content": {
+                "type": "multiple-choice",
+                "question": "Wie ist ein Mandala meistens aufgebaut?",
+                "options": ["Symmetrisch um einen Mittelpunkt", "Zufällig und chaotisch", "Nur aus Quadraten", "Nur aus Dreiecken"],
+                "correctIndex": 0
+            },
+            "hints": ["Alles ist gleichmäßig um die Mitte angeordnet"],
+            "feedbackCorrect": "Richtig! Symmetrisch um einen Mittelpunkt!",
+            "feedbackIncorrect": "Ein Mandala ist symmetrisch aufgebaut!"
+        },
+        {
+            "id": "ku-l3-drucken-001",
+            "type": "matching",
+            "areaId": "grundlagen",
+            "themeId": "drucken",
+            "level": 3,
+            "difficulty": 3,
+            "instruction": "Verbinde die Drucktechnik mit dem Material",
+            "content": {
+                "type": "matching",
+                "pairs": [
+                    {"left": "🥔 Kartoffeldruck", "right": "Geschnittene Kartoffel"},
+                    {"left": "🖨️ Stempeldruck", "right": "Gummistempel oder Holzstempel"},
+                    {"left": "🎨 Siebdruck", "right": "Feines Sieb mit Farbe"},
+                    {"left": "📜 Monotypie", "right": "Gedruckte Farbe von einer Platte"}
+                ]
+            },
+            "hints": ["Jede Technik verwendet ein anderes Material"],
+            "feedbackCorrect": "Super! Alle Techniken zugeordnet!",
+            "feedbackIncorrect": "Überlege die Materialien nochmal!"
+        },
+        {
+            "id": "ku-l3-werkstatt-001",
+            "type": "fill-blank",
+            "areaId": "grundlagen",
+            "themeId": "werkstatt",
+            "level": 3,
+            "difficulty": 3,
+            "instruction": "Warum ist es wichtig, die Werkstatt aufzuräumen?",
+            "content": {
+                "type": "fill-blank",
+                "sentence": "Man räumt auf, damit {{blank}} und die Werkstatt sauber bleibt.",
+                "correctAnswer": "niemand",
+                "caseSensitive": false
+            },
+            "hints": ["Es geht um Sicherheit und Sauberkeit"],
+            "feedbackCorrect": "Richtig! Damit niemand verletzt wird!",
+            "feedbackIncorrect": "Damit niemand verletzt wird und alles sauber bleibt!"
+        },
+        {
+            "id": "ku-l3-kunst-betrachten-001",
+            "type": "multiple-choice",
+            "areaId": "grundlagen",
+            "themeId": "kunst-betrachten",
+            "level": 3,
+            "difficulty": 3,
+            "instruction": "Wer hat das Kunstwerk gemacht?",
+            "content": {
+                "type": "multiple-choice",
+                "question": "Wie nennt man die Person, die ein Kunstwerk erschafft?",
+                "options": ["Künstler/Künstlerin", "Lehrer/Lehrerin", "Arzt/Ärztin", "Koch/Köchin"],
+                "correctIndex": 0
+            },
+            "hints": ["Sie erschaffen etwas Kreatives"],
+            "feedbackCorrect": "Richtig! Der Künstler oder die Künstlerin!",
+            "feedbackIncorrect": "Es ist der Künstler oder die Künstlerin!"
+        },
+        {
+            "id": "ku-l3-raeumlichkeit-001",
+            "type": "matching",
+            "areaId": "grundlagen",
+            "themeId": "raeumlichkeit",
+            "level": 3,
+            "difficulty": 3,
+            "instruction": "Verbinde die Kunstbegriffe mit ihrer Bedeutung",
+            "content": {
+                "type": "matching",
+                "pairs": [
+                    {"left": "📐 Perspektive", "right": "So sieht man Dinge in der Tiefe"},
+                    {"left": "⬜ Vordergrund", "right": "Der Teil des Bildes, der am nächsten ist"},
+                    {"left": "🔳 Hintergrund", "right": "Der Teil des Bildes, der am weitesten weg ist"},
+                    {"left": "↔️ Horizont", "right": "Linie, wo Himmel und Erde sich treffen"}
+                ]
+            },
+            "hints": ["Es geht um die Darstellung von Raum in der Kunst"],
+            "feedbackCorrect": "Sehr gut! Alle Begriffe richtig!",
+            "feedbackIncorrect": "Überlege die räumliche Darstellung!"
+        },
+        {
+            "id": "ku-l3-materialien-001",
+            "type": "fill-blank",
+            "areaId": "grundlagen",
+            "themeId": "materialien",
+            "level": 3,
+            "difficulty": 3,
+            "instruction": "Welches Material entsteht aus gepressten Holzfasern?",
+            "content": {
+                "type": "fill-blank",
+                "sentence": "{{blank}} wird aus gepressten Holzfasern hergestellt.",
+                "correctAnswer": "Papier",
+                "caseSensitive": false
+            },
+            "hints": ["Man schreibt und zeichnet darauf"],
+            "feedbackCorrect": "Richtig! Papier!",
+            "feedbackIncorrect": "Es ist Papier!"
+        }
+    ]
+}

@@ -1,0 +1,152 @@
+[
+    {
+        "id": "ich-und-mein-koerper",
+        "name": "Ich und mein Körper",
+        "description": "Körperteile, Gesundheit und persönliche Entwicklung",
+        "areaId": "menschen",
+        "difficulty": 1,
+        "icon": "🧍",
+        "color": "#ef4444",
+        "minLevel": 1
+    },
+    {
+        "id": "familie-freunde",
+        "name": "Familie und Freunde",
+        "description": "Beziehungen, Gemeinschaft und Zusammenleben",
+        "areaId": "menschen",
+        "difficulty": 1,
+        "icon": "👨‍👩‍👧‍👦",
+        "color": "#f97316",
+        "minLevel": 1
+    },
+    {
+        "id": "schule",
+        "name": "Schule und Lernen",
+        "description": "Schulalltag, Regeln und Lernen",
+        "areaId": "menschen",
+        "difficulty": 1,
+        "icon": "🏫",
+        "color": "#eab308",
+        "minLevel": 1
+    },
+    {
+        "id": "zeit",
+        "name": "Zeit und Kalender",
+        "description": "Jahreszeiten, Monate, Tage und Zeitbegriffe",
+        "areaId": "natur",
+        "difficulty": 1,
+        "icon": "📅",
+        "color": "#22c55e",
+        "minLevel": 1
+    },
+    {
+        "id": "tiere",
+        "name": "Tiere",
+        "description": "Heimische Tiere, Haustiere und Wildtiere",
+        "areaId": "natur",
+        "difficulty": 1,
+        "icon": "🐾",
+        "color": "#14b8a6",
+        "minLevel": 1
+    },
+    {
+        "id": "pflanzen",
+        "name": "Pflanzen",
+        "description": "Bäume, Blumen, Garten und Natur",
+        "areaId": "natur",
+        "difficulty": 1,
+        "icon": "🌳",
+        "color": "#06b6d4",
+        "minLevel": 1
+    },
+    {
+        "id": "wetter",
+        "name": "Wetter und Klima",
+        "description": "Wettererscheinungen, Wetterbericht und Klimazonen",
+        "areaId": "natur",
+        "difficulty": 2,
+        "icon": "🌤️",
+        "color": "#3b82f6",
+        "minLevel": 2
+    },
+    {
+        "id": "landschaft",
+        "name": "Landschaft und Raum",
+        "description": "Berge, Flüsse, Seen und Landschaftsformen",
+        "areaId": "raum",
+        "difficulty": 2,
+        "icon": "🏔️",
+        "color": "#8b5cf6",
+        "minLevel": 2
+    },
+    {
+        "id": "verkehr",
+        "name": "Verkehr und Mobilität",
+        "description": "Verkehrsmittel, Straßenverkehr und Schulweg",
+        "areaId": "technik",
+        "difficulty": 2,
+        "icon": "🚦",
+        "color": "#ec4899",
+        "minLevel": 2
+    },
+    {
+        "id": "technik-im-alltag",
+        "name": "Technik im Alltag",
+        "description": "Elektrogeräte, Computer und Medien",
+        "areaId": "technik",
+        "difficulty": 2,
+        "icon": "💡",
+        "color": "#64748b",
+        "minLevel": 2
+    },
+    {
+        "id": "essen-ernaehrung",
+        "name": "Essen und Ernährung",
+        "description": "Gesunde Ernährung, Lebensmittel und Kochen",
+        "areaId": "gesundheit",
+        "difficulty": 1,
+        "icon": "🍎",
+        "color": "#84cc16",
+        "minLevel": 1
+    },
+    {
+        "id": "geschichte",
+        "name": "Geschichte",
+        "description": "Vergangenheit, Traditionen und Feste",
+        "areaId": "gesellschaft",
+        "difficulty": 3,
+        "icon": "🏛️",
+        "color": "#a16207",
+        "minLevel": 3
+    },
+    {
+        "id": "medien",
+        "name": "Medien",
+        "description": "Fernsehen, Internet und Mediennutzung",
+        "areaId": "technik",
+        "difficulty": 3,
+        "icon": "📱",
+        "color": "#0891b2",
+        "minLevel": 3
+    },
+    {
+        "id": "umwelt",
+        "name": "Umwelt und Natur",
+        "description": "Umweltschutz, Recycling und Nachhaltigkeit",
+        "areaId": "natur",
+        "difficulty": 3,
+        "icon": "🌍",
+        "color": "#10b981",
+        "minLevel": 3
+    },
+    {
+        "id": "berufe-arbeitswelt",
+        "name": "Berufe und Arbeitswelt",
+        "description": "Verschiedene Berufe und Arbeitsplätze",
+        "areaId": "gesellschaft",
+        "difficulty": 3,
+        "icon": "💼",
+        "color": "#6366f1",
+        "minLevel": 3
+    }
+]

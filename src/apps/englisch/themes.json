@@ -1,0 +1,152 @@
+[
+    {
+        "id": "greetings",
+        "name": "Greetings",
+        "description": "Hello, goodbye, please and thank you",
+        "areaId": "vocabulary",
+        "difficulty": 1,
+        "icon": "👋",
+        "color": "#14b8a6",
+        "minLevel": 1
+    },
+    {
+        "id": "numbers",
+        "name": "Numbers",
+        "description": "Numbers 1-20 and counting",
+        "areaId": "vocabulary",
+        "difficulty": 1,
+        "icon": "1️⃣",
+        "color": "#ef4444",
+        "minLevel": 1
+    },
+    {
+        "id": "colors",
+        "name": "Colors",
+        "description": "Colours in English",
+        "areaId": "vocabulary",
+        "difficulty": 1,
+        "icon": "🎨",
+        "color": "#ec4899",
+        "minLevel": 1
+    },
+    {
+        "id": "family",
+        "name": "Family",
+        "description": "Family members",
+        "areaId": "vocabulary",
+        "difficulty": 1,
+        "icon": "👨‍👩‍👧‍👦",
+        "color": "#f97316",
+        "minLevel": 1
+    },
+    {
+        "id": "animals",
+        "name": "Animals",
+        "description": "Animals and pets",
+        "areaId": "vocabulary",
+        "difficulty": 1,
+        "icon": "🐶",
+        "color": "#22c55e",
+        "minLevel": 1
+    },
+    {
+        "id": "food",
+        "name": "Food",
+        "description": "Food and drinks",
+        "areaId": "vocabulary",
+        "difficulty": 2,
+        "icon": "🍎",
+        "color": "#f59e0b",
+        "minLevel": 2
+    },
+    {
+        "id": "body",
+        "name": "Body",
+        "description": "Body parts",
+        "areaId": "vocabulary",
+        "difficulty": 2,
+        "icon": "🧍",
+        "color": "#3b82f6",
+        "minLevel": 2
+    },
+    {
+        "id": "clothes",
+        "name": "Clothes",
+        "description": "Clothing items",
+        "areaId": "vocabulary",
+        "difficulty": 2,
+        "icon": "👕",
+        "color": "#8b5cf6",
+        "minLevel": 2
+    },
+    {
+        "id": "school",
+        "name": "School",
+        "description": "School items and subjects",
+        "areaId": "vocabulary",
+        "difficulty": 2,
+        "icon": "🎒",
+        "color": "#06b6d4",
+        "minLevel": 2
+    },
+    {
+        "id": "time",
+        "name": "Time",
+        "description": "Days, months and telling time",
+        "areaId": "grammar",
+        "difficulty": 2,
+        "icon": "🕐",
+        "color": "#64748b",
+        "minLevel": 2
+    },
+    {
+        "id": "places",
+        "name": "Places",
+        "description": "Places in town",
+        "areaId": "vocabulary",
+        "difficulty": 2,
+        "icon": "🏠",
+        "color": "#84cc16",
+        "minLevel": 2
+    },
+    {
+        "id": "questions",
+        "name": "Questions",
+        "description": "Question words and forming questions",
+        "areaId": "grammar",
+        "difficulty": 3,
+        "icon": "❓",
+        "color": "#a16207",
+        "minLevel": 3
+    },
+    {
+        "id": "past-tense",
+        "name": "Past Tense",
+        "description": "Simple past tense",
+        "areaId": "grammar",
+        "difficulty": 3,
+        "icon": "📅",
+        "color": "#6366f1",
+        "minLevel": 3
+    },
+    {
+        "id": "prepositions",
+        "name": "Prepositions",
+        "description": "Position and direction",
+        "areaId": "grammar",
+        "difficulty": 3,
+        "icon": "➡️",
+        "color": "#ec4899",
+        "minLevel": 3
+    },
+    {
+        "id": "daily-routine",
+        "name": "Daily Routine",
+        "description": "Talking about daily activities",
+        "areaId": "communication",
+        "difficulty": 3,
+        "icon": "📅",
+        "color": "#14b8a6",
+        "minLevel": 3
+    }
+]

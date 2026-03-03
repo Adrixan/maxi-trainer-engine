@@ -61,63 +61,6 @@ tests/
 └── e2e/           # End-to-end flows
 ```
 
-## Output Storage
-
-Large outputs (>1KB estimated) should be written to files instead of displayed:
-
-```
-.kilocode/
-├── outputs/       # Generated tool outputs
-│   ├── analysis/  # Analysis results
-│   ├── reports/   # Generated reports
-│   └── api/       # API response dumps
-└── templates/     # Project-specific templates
-```
-
-### Naming Convention
-
-- Use kebab-case: `analysis-user-auth-2024-01-15.md`
-- Include date for time-sensitive outputs
-- Use descriptive prefixes: `report-`, `analysis-`, `response-`
-
-### Output Summary Format
-
-When writing large outputs to files, report:
-
-- File path and size
-- Key findings summary
-- Location for full content
-
-## Context Optimization
-
-Follow the rules in [`rules/context-optimization.md`](rules/context-optimization.md) for:
-
-- **Stable Prefixes**: Keep static content at document start
-- **Append-Only Pattern**: Never modify earlier context
-- **U-Shaped Attention**: Critical content at top/bottom, examples in middle
-- **Response Budgets**: Match response size to task type
-
-## Templates
-
-Use templates from `.kilocode/templates/` for consistent outputs:
-
-| Template | Purpose |
-|----------|---------|
-| [`code-template.md`](templates/code-template.md) | Code implementation structure |
-| [`analysis-template.md`](templates/analysis-template.md) | Analysis and review format |
-| [`document-template.md`](templates/document-template.md) | Documentation structure |
-| [`test-template.md`](templates/test-template.md) | Test case format |
-| [`api-response-template.md`](templates/api-response-template.md) | API response summaries |
-| [`subagent-task-template.md`](templates/subagent-task-template.md) | Delegated task format |
-| [`project-state.md`](templates/project-state.md) | Project state tracking |
-
-### Template Usage Rules
-
-1. Copy template structure exactly
-2. Fill placeholders only (marked as `[placeholder]`)
-3. Don't regenerate template content
-4. Prefer project templates over defaults
-
 ## Security Rules
 
 ### Restricted Files

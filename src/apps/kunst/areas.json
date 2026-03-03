@@ -1,0 +1,158 @@
+[
+    {
+        "id": "grundlagen",
+        "name": "Grundlagen",
+        "description": "Farben, Formen und Materialien",
+        "icon": "palette",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Farben",
+                "description": "Grundfarben erkennen und mischen",
+                "examples": ["Primärfarben", "Farben benennen"]
+            },
+            {
+                "level": 2,
+                "label": "Formen",
+                "description": "Geometrische Formen zeichnen",
+                "examples": ["Kreis", "Quadrat", "Dreieck"]
+            },
+            {
+                "level": 3,
+                "label": "Komposition",
+                "description": "Anordnung und Gestaltung",
+                "examples": ["Bildaufbau", "Proportionen"]
+            }
+        ]
+    },
+    {
+        "id": "techniken",
+        "name": "Techniken",
+        "description": "Verschiedene Techniken anwenden",
+        "icon": "paint-brush",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Malen",
+                "description": "Mit verschiedenen Materialien malen",
+                "examples": ["Wachsmalkreide", "Wasserfarben"]
+            },
+            {
+                "level": 2,
+                "label": "Kreatives Gestalten",
+                "description": "Verschiedene Techniken kombinieren",
+                "examples": ["Kollage", "Drucken"]
+            },
+            {
+                "level": 3,
+                "label": "Fachtechniken",
+                "description": "Spezielle Techniken anwenden",
+                "examples": ["Aquarell", "Tusche"]
+            }
+        ]
+    },
+    {
+        "id": "motivation",
+        "name": "Motivation",
+        "description": "Was wir zeichnen",
+        "icon": "eye",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Natur",
+                "description": "Natur nach dem Vorbild zeichnen",
+                "examples": ["Blätter", "Früchte", "Blumen"]
+            },
+            {
+                "level": 2,
+                "label": "Menschen",
+                "description": "Menschen und Tiere darstellen",
+                "examples": ["Gesichter", "Figuren"]
+            },
+            {
+                "level": 3,
+                "label": "Fantasie",
+                "description": "Aus der Vorstellung zeichnen",
+                "examples": ["Phantasiefiguren", "Szenen"]
+            }
+        ]
+    },
+    {
+        "id": "gestaltung",
+        "name": "Gestaltung",
+        "description": "Kreatives Gestalten",
+        "icon": "shapes",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Muster",
+                "description": "Einfache Muster erstellen",
+                "examples": ["Wiederholungen", "Reihen"]
+            },
+            {
+                "level": 2,
+                "label": "Ornamente",
+                "description": "Dekorative Gestaltung",
+                "examples": ["Mandala", "Randornamente"]
+            },
+            {
+                "level": 3,
+                "label": "Design",
+                "description": "Gestalterisch entwerfen",
+                "examples": ["Plakat", "Logo"]
+            }
+        ]
+    },
+    {
+        "id": "rezeption",
+        "name": "Kunst betrachten",
+        "description": "Kunstwerke analysieren",
+        "icon": "image",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Bilder beschreiben",
+                "description": "Was sehe ich?",
+                "examples": ["Farben", "Formen", "Figuren"]
+            },
+            {
+                "level": 2,
+                "label": "Kunst verstehen",
+                "description": "Über Kunst sprechen",
+                "examples": ["Gefühle", "Stimmung"]
+            },
+            {
+                "level": 3,
+                "label": "Kunst interpretieren",
+                "description": "Bedeutung erschließen",
+                "examples": ["Künstler", "Stil"]
+            }
+        ]
+    },
+    {
+        "id": "projekte",
+        "name": "Projekte",
+        "description": "Größere Kunstprojekte",
+        "icon": "briefcase",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Kleine Projekte",
+                "description": "Einzelne Kunstwerke gestalten",
+                "examples": ["Bildgestaltung"]
+            },
+            {
+                "level": 2,
+                "label": "Gruppenprojekte",
+                "description": "Gemeinsam gestalten",
+                "examples": ["Klassenbuch"]
+            },
+            {
+                "level": 3,
+                "label": "Ausstellung",
+                "description": "Kunst präsentieren",
+                "examples": ["Portfolio", "Ausstellung"]
+            }
+        ]
+    }
+]

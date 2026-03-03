@@ -1,0 +1,21 @@
+{
+    "id": "deutsch",
+    "name": "Deutsch",
+    "version": "1.0.0",
+    "build": {
+        "pwaEnabled": true,
+        "usbDistribution": true
+    },
+    "display": {
+        "primaryColor": "#ef4444",
+        "icon": "/assets/deutsch-icon.svg"
+    },
+    "terminology": {
+        "level": "Schulstufe",
+        "levelPlural": "Schulstufen",
+        "theme": "Thema",
+        "themePlural": "Themen",
+        "exercise": "Aufgabe",
+        "exercisePlural": "Aufgaben"
+    }
+}

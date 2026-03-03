@@ -1,0 +1,192 @@
+[
+    {
+        "id": "numbers-1-10",
+        "name": "Zahlen 1-10",
+        "description": "Erkennen und Zuordnen von Zahlen von 1 bis 10",
+        "areaId": "numbers",
+        "difficulty": 1,
+        "icon": "🔢",
+        "color": "#4CAF50",
+        "minLevel": 1
+    },
+    {
+        "id": "numbers-1-20",
+        "name": "Zahlen 1-20",
+        "description": "Zahlenverständnis im Zahlenraum bis 20",
+        "areaId": "numbers",
+        "difficulty": 2,
+        "icon": "🔢",
+        "color": "#2196F3",
+        "minLevel": 1
+    },
+    {
+        "id": "numbers-1-100",
+        "name": "Zahlen 1-100",
+        "description": "Zahlenverständnis im Zahlenraum bis 100",
+        "areaId": "numbers",
+        "difficulty": 2,
+        "icon": "🔢",
+        "color": "#FF9800",
+        "minLevel": 2
+    },
+    {
+        "id": "numbers-1-1000",
+        "name": "Zahlen 1-1000",
+        "description": "Zahlenverständnis im Zahlenraum bis 1000",
+        "areaId": "numbers",
+        "difficulty": 3,
+        "icon": "🔢",
+        "color": "#9C27B0",
+        "minLevel": 2
+    },
+    {
+        "id": "large-numbers",
+        "name": "Große Zahlen",
+        "description": "Zahlen bis 1.000.000 verstehen und vergleichen",
+        "areaId": "numbers",
+        "difficulty": 3,
+        "icon": "🔢",
+        "color": "#607D8B",
+        "minLevel": 3
+    },
+    {
+        "id": "addition",
+        "name": "Addition",
+        "description": "Grundlegende Additionsaufgaben",
+        "areaId": "numbers",
+        "difficulty": 1,
+        "icon": "➕",
+        "color": "#4CAF50",
+        "minLevel": 1
+    },
+    {
+        "id": "subtraction",
+        "name": "Subtraktion",
+        "description": "Grundlegende Subtraktionsaufgaben",
+        "areaId": "numbers",
+        "difficulty": 1,
+        "icon": "➖",
+        "color": "#F44336",
+        "minLevel": 1
+    },
+    {
+        "id": "multiplication",
+        "name": "Multiplikation",
+        "description": "Einmaleins und schriftliche Multiplikation",
+        "areaId": "numbers",
+        "difficulty": 2,
+        "icon": "✖️",
+        "color": "#2196F3",
+        "minLevel": 2
+    },
+    {
+        "id": "division",
+        "name": "Division",
+        "description": "Teilen und schriftliche Division",
+        "areaId": "numbers",
+        "difficulty": 2,
+        "icon": "➗",
+        "color": "#FF9800",
+        "minLevel": 2
+    },
+    {
+        "id": "fractions",
+        "name": "Brüche",
+        "description": "Einführung in Brüche und Bruchteile",
+        "areaId": "numbers",
+        "difficulty": 3,
+        "icon": "🥧",
+        "color": "#9C27B0",
+        "minLevel": 3
+    },
+    {
+        "id": "shapes",
+        "name": "Formen",
+        "description": "Erkennen und Benennen geometrischer Formen",
+        "areaId": "geometry",
+        "difficulty": 1,
+        "icon": "🔷",
+        "color": "#00BCD4",
+        "minLevel": 1
+    },
+    {
+        "id": "patterns",
+        "name": "Muster",
+        "description": "Fortsetzen und Erkennen von Mustern",
+        "areaId": "geometry",
+        "difficulty": 2,
+        "icon": "🔲",
+        "color": "#E91E63",
+        "minLevel": 2
+    },
+    {
+        "id": "perimeter",
+        "name": "Umfang",
+        "description": "Umfang von Figuren berechnen",
+        "areaId": "geometry",
+        "difficulty": 2,
+        "icon": "📏",
+        "color": "#3F51B5",
+        "minLevel": 2
+    },
+    {
+        "id": "area",
+        "name": "Flächeninhalt",
+        "description": "Flächen von Rechtecken und Quadraten berechnen",
+        "areaId": "geometry",
+        "difficulty": 3,
+        "icon": "📐",
+        "color": "#673AB7",
+        "minLevel": 3
+    },
+    {
+        "id": "length",
+        "name": "Längen",
+        "description": "Vergleichen und Messen von Längen",
+        "areaId": "measurement",
+        "difficulty": 1,
+        "icon": "📏",
+        "color": "#009688",
+        "minLevel": 1
+    },
+    {
+        "id": "weight",
+        "name": "Gewicht",
+        "description": "Gewichte vergleichen und messen",
+        "areaId": "measurement",
+        "difficulty": 2,
+        "icon": "⚖️",
+        "color": "#795548",
+        "minLevel": 2
+    },
+    {
+        "id": "time",
+        "name": "Uhrzeit",
+        "description": "Uhr lesen und Zeit verstehen",
+        "areaId": "measurement",
+        "difficulty": 2,
+        "icon": "🕐",
+        "color": "#FF5722",
+        "minLevel": 2
+    },
+    {
+        "id": "money",
+        "name": "Geld",
+        "description": "Mit Geld rechnen und Beträge vergleichen",
+        "areaId": "measurement",
+        "difficulty": 2,
+        "icon": "💰",
+        "color": "#FFC107",
+        "minLevel": 2
+    },
+    {
+        "id": "word-problems",
+        "name": "Sachaufgaben",
+        "description": "Mathematische Aufgaben aus dem Alltag",
+        "areaId": "numbers",
+        "difficulty": 2,
+        "icon": "📖",
+        "color": "#8BC34A",
+        "minLevel": 2
+    }
+]

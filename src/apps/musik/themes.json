@@ -1,0 +1,102 @@
+[
+    {
+        "id": "lieder-lernen",
+        "name": "Lieder lernen",
+        "description": "Kinderlieder und einfache Lieder singen",
+        "areaId": "singen",
+        "difficulty": 1,
+        "icon": "🎵",
+        "color": "#f59e0b",
+        "minLevel": 1
+    },
+    {
+        "id": "rhythmus",
+        "name": "Rhythmus",
+        "description": "Rhythmus erleben, klatschen und patschen",
+        "areaId": "rhythmus",
+        "difficulty": 1,
+        "icon": "👏",
+        "color": "#ef4444",
+        "minLevel": 1
+    },
+    {
+        "id": "instrumente-kennen",
+        "name": "Instrumente kennen",
+        "description": "Musikinstrumente unterscheiden und erkennen",
+        "areaId": "instrument",
+        "difficulty": 1,
+        "icon": "🎸",
+        "color": "#8b5cf6",
+        "minLevel": 1
+    },
+    {
+        "id": "hoeren-und-unterscheiden",
+        "name": "Hören und unterscheiden",
+        "description": "Töne, Laute und Musik unterscheiden",
+        "areaId": "hoeren",
+        "difficulty": 1,
+        "icon": "👂",
+        "color": "#14b8a6",
+        "minLevel": 1
+    },
+    {
+        "id": "tanz-bewegung",
+        "name": "Tanz und Bewegung",
+        "description": "Musik bewusst erleben durch Bewegung",
+        "areaId": "tanz",
+        "difficulty": 1,
+        "icon": "💃",
+        "color": "#ec4899",
+        "minLevel": 1
+    },
+    {
+        "id": "noten-lesen",
+        "name": "Noten lesen",
+        "description": "Einfache Noten und Notenwerte",
+        "areaId": "theorie",
+        "difficulty": 2,
+        "icon": "🎼",
+        "color": "#3b82f6",
+        "minLevel": 2
+    },
+    {
+        "id": "melodie",
+        "name": "Melodie",
+        "description": "Höher, tiefer, melodische Bewegungen",
+        "areaId": "melodie",
+        "difficulty": 2,
+        "icon": "🎹",
+        "color": "#22c55e",
+        "minLevel": 2
+    },
+    {
+        "id": "musik-der-welt",
+        "name": "Musik der Welt",
+        "description": "Musik aus verschiedenen Ländern und Kulturen",
+        "areaId": "kultur",
+        "difficulty": 2,
+        "icon": "🌍",
+        "color": "#f97316",
+        "minLevel": 2
+    },
+    {
+        "id": "komponisten",
+        "name": "Komponisten",
+        "description": "Berühmte Komponisten und ihre Musik",
+        "areaId": "geschichte",
+        "difficulty": 3,
+        "icon": "🎻",
+        "color": "#64748b",
+        "minLevel": 3
+    },
+    {
+        "id": "musik-geschichte",
+        "name": "Musik-Geschichte",
+        "description": "Musik durch die Zeiten",
+        "areaId": "geschichte",
+        "difficulty": 3,
+        "icon": "📜",
+        "color": "#a16207",
+        "minLevel": 3
+    }
+]

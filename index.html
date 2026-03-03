@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Mini Trainer Engine - A configurable learning platform for educational exercises" />
+
+    <!-- PWA Meta Tags -->
+    <meta name="theme-color" content="#4F46E5" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="MiniTrainer" />
+    <meta name="mobile-web-app-capable" content="yes" />
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- PWA Icons -->
+    <link rel="icon" type="image/svg+xml" href="/icon-192.svg" />
+    <link rel="apple-touch-icon" href="/icon-192.svg" />
+
+    <!-- Preconnect to common origins -->
+    <link rel="preconnect" href="/" />
+
+    <!-- 
+        Dynamic page title is injected by Vite's titleInjectionPlugin.
+        - In development: "Mini Trainer" 
+        - In production build: "Mini Trainer {subjectName}" from subject.json
+    -->
+    <title>Mini Trainer</title>
+
+    <!-- Config data will be loaded as IIFE scripts (order matters: subject -> areas -> themes -> badges) -->
+    <script src="./config/subject.js" defer></script>
+    <script src="./config/areas.js" defer></script>
+    <script src="./config/themes.js" defer></script>
+    <script src="./config/badges.js" defer></script>
+    <!--# sourceMappingURL=subject.js.map -->
+
+    <!-- Exercise data will be loaded as an IIFE script -->
+    <script src="/data/exercises.js" defer></script>
+</head>
+
+<body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+
+    <!-- Service Worker Registration -->
+    <script>
+        // Register service worker for PWA support
+        // Only register when served via HTTP/HTTPS (not file://)
+        if ('serviceWorker' in navigator && window.location.protocol !== 'file:') {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js')
+                    .then((registration) => {
+                        console.log('SW registered:', registration.scope);
+
+                        // Check for updates
+                        registration.addEventListener('updatefound', () => {
+                            const newWorker = registration.installing;
+                            if (newWorker) {
+                                newWorker.addEventListener('statechange', () => {
+                                    if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                                        // New content available, notify user
+                                        console.log('New content available, please refresh.');
+                                    }
+                                });
+                            }
+                        });
+                    })
+                    .catch((error) => {
+                        console.log('SW registration failed:', error);
+                    });
+            });
+        }
+    </script>
+</body>
+
+</html>

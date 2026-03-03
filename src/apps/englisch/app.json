@@ -1,0 +1,21 @@
+{
+    "id": "englisch",
+    "name": "Englisch",
+    "version": "1.0.0",
+    "build": {
+        "pwaEnabled": true,
+        "usbDistribution": true
+    },
+    "display": {
+        "primaryColor": "#14b8a6",
+        "icon": "/assets/englisch-icon.svg"
+    },
+    "terminology": {
+        "level": "Schulstufe",
+        "levelPlural": "Schulstufen",
+        "theme": "Thema",
+        "themePlural": "Themen",
+        "exercise": "Exercise",
+        "exercisePlural": "Exercises"
+    }
+}

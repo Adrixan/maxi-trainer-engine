@@ -1,0 +1,98 @@
+[
+    {
+        "id": "gaming",
+        "name": "Gaming World",
+        "icon": "🎮",
+        "color": "#9C27B0",
+        "description": "Video games, esports, gaming genres and terminology",
+        "minLevel": 1
+    },
+    {
+        "id": "music",
+        "name": "Music & Beats",
+        "icon": "🎵",
+        "color": "#E91E63",
+        "description": "Music genres, artists, instruments and streaming",
+        "minLevel": 1
+    },
+    {
+        "id": "social",
+        "name": "Social Media",
+        "icon": "📱",
+        "color": "#2196F3",
+        "description": "Social platforms, influencers, trends and online communication",
+        "minLevel": 1
+    },
+    {
+        "id": "sports",
+        "name": "Sports & Fitness",
+        "icon": "⚽",
+        "color": "#4CAF50",
+        "description": "Popular sports, training, fitness and healthy lifestyle",
+        "minLevel": 1
+    },
+    {
+        "id": "fashion",
+        "name": "Fashion & Style",
+        "icon": "👕",
+        "color": "#FF9800",
+        "description": "Trends, brands, streetwear and personal style",
+        "minLevel": 2
+    },
+    {
+        "id": "movies",
+        "name": "Movies & TV",
+        "icon": "🎬",
+        "color": "#F44336",
+        "description": "Films, series, streaming and entertainment industry",
+        "minLevel": 2
+    },
+    {
+        "id": "tech",
+        "name": "Tech & Gadgets",
+        "icon": "💻",
+        "color": "#607D8B",
+        "description": "Technology, devices, apps and digital innovation",
+        "minLevel": 2
+    },
+    {
+        "id": "food",
+        "name": "Food & Drinks",
+        "icon": "🍕",
+        "color": "#FF5722",
+        "description": "Fast food, snacks, drinks and food culture",
+        "minLevel": 2
+    },
+    {
+        "id": "travel",
+        "name": "Travel & Adventure",
+        "icon": "✈️",
+        "color": "#00BCD4",
+        "description": "Destinations, backpacking, travel experiences and cultures",
+        "minLevel": 3
+    },
+    {
+        "id": "science",
+        "name": "Science & Space",
+        "icon": "🔬",
+        "color": "#3F51B5",
+        "description": "Discovery, experiments, space exploration and innovation",
+        "minLevel": 3
+    },
+    {
+        "id": "nature",
+        "name": "Nature & Animals",
+        "icon": "🌿",
+        "color": "#8BC34A",
+        "description": "Wildlife, environment, sustainability and outdoor life",
+        "minLevel": 3
+    },
+    {
+        "id": "career",
+        "name": "Future Careers",
+        "icon": "💼",
+        "color": "#795548",
+        "description": "Jobs, skills, universities and career paths",
+        "minLevel": 4
+    }
+]

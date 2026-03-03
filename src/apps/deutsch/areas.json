@@ -1,0 +1,184 @@
+[
+    {
+        "id": "sprachbewusstsein",
+        "name": "Sprachbewusstsein",
+        "description": "Laute, Buchstaben und deren Zusammenhang",
+        "icon": "abc",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Laut-Buchstabe-Verbindung",
+                "description": "Buchstaben erkennen und Laute zuordnen",
+                "examples": ["Buchstaben benennen", "Anlaute erkennen", "Buchstaben schreiben"]
+            },
+            {
+                "level": 2,
+                "label": "Silben und Laute",
+                "description": "Wörter in Silben und Laute zerlegen",
+                "examples": ["Wörter zerlegen", "Silben klatschen", "Laute heraushören"]
+            },
+            {
+                "level": 3,
+                "label": "Lautstruktur analysieren",
+                "description": "Komplexere Lautstrukturen erkennen",
+                "examples": ["Wortbausteine erkennen", "Lautfolgen analysieren"]
+            }
+        ]
+    },
+    {
+        "id": "wortschatz",
+        "name": "Wortschatz",
+        "description": "Wörter lernen und anwenden",
+        "icon": "book",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Grundwortschatz",
+                "description": "Alltagswörter kennen und verwenden",
+                "examples": ["Tiernamen", "Farben", "Gegenstände"]
+            },
+            {
+                "level": 2,
+                "label": "Erweiterter Wortschatz",
+                "description": "Neue Wörter lernen und anwenden",
+                "examples": ["Adjektive", "Verben", "Oberbegriffe"]
+            },
+            {
+                "level": 3,
+                "label": "Bildungssprache",
+                "description": "Komplexere Begriffe und Fachsprache",
+                "examples": ["Fremdwörter", "Sprachliche Wendungen"]
+            }
+        ]
+    },
+    {
+        "id": "lesen",
+        "name": "Lesen",
+        "description": "Lesen lernen und verstehen",
+        "icon": "book-open",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Erstes Lesen",
+                "description": "Buchstabenverbindungen lesen",
+                "examples": ["Ein-Wort-Sätze", "Bild-Wort-Zuordnung", "Lauttreues Lesen"]
+            },
+            {
+                "level": 2,
+                "label": "Flüssig lesen",
+                "description": "Sätze und kurze Texte lesen",
+                "examples": ["Sinnentnehmendes Lesen", "Lesefluss üben"]
+            },
+            {
+                "level": 3,
+                "label": "Textverständnis",
+                "description": "Komplexere Texte verstehen",
+                "examples": ["Fragen zum Text beantworten", "Zusammenfassen"]
+            }
+        ]
+    },
+    {
+        "id": "schreiben",
+        "name": "Schreiben",
+        "description": "Schreiben lernen und anwenden",
+        "icon": "pencil",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Erstes Schreiben",
+                "description": "Buchstaben und Wörter schreiben",
+                "examples": ["Buchstaben nachspuren", "Wörter abschreiben"]
+            },
+            {
+                "level": 2,
+                "label": "Sätze schreiben",
+                "description": "Eigene Sätze bilden und schreiben",
+                "examples": ["Satzschreibung", "Wortschreibung"]
+            },
+            {
+                "level": 3,
+                "label": "Texte schreiben",
+                "description": "Kurze Texte verfassen",
+                "examples": ["Erzählen", "Beschreiben"]
+            }
+        ]
+    },
+    {
+        "id": "grammatik",
+        "name": "Grammatik",
+        "description": "Sprachstrukturen verstehen",
+        "icon": "grammar",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Satzbau",
+                "description": "Einfache Sätze bilden",
+                "examples": ["Subjekt und Prädikat", "Satzschlusszeichen"]
+            },
+            {
+                "level": 2,
+                "label": "Wortarten",
+                "description": "Grundlegende Wortarten kennen",
+                "examples": ["Nomen", "Verben", "Adjektive"]
+            },
+            {
+                "level": 3,
+                "label": "Sprachanalyse",
+                "description": "Sätze und Wörter analysieren",
+                "examples": ["Wortarten bestimmen", "Satzglieder"]
+            }
+        ]
+    },
+    {
+        "id": "sprechen",
+        "name": "Sprechen und Zuhören",
+        "description": "Kommunikation üben",
+        "icon": "message",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Zuhören",
+                "description": "Aufmerksam zuhören",
+                "examples": ["Anweisungen verstehen", "Geschichten hören"]
+            },
+            {
+                "level": 2,
+                "label": "Erzählen",
+                "description": "Erfahrungen erzählen",
+                "examples": ["Vorfälle berichten", "Erlebnisse erzählen"]
+            },
+            {
+                "level": 3,
+                "label": "Diskutieren",
+                "description": "Meinungen äußern",
+                "examples": ["Gesprächsregeln", "Argumente bringen"]
+            }
+        ]
+    },
+    {
+        "id": "rechtschreibung",
+        "name": "Rechtschreibung",
+        "description": "Richtig schreiben",
+        "icon": "check",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Lauttreue Schreibung",
+                "description": "Wörter nach Gehör schreiben",
+                "examples": ["Laut-Buchstabe-Zuordnung"]
+            },
+            {
+                "level": 2,
+                "label": "Rechtschreibregeln",
+                "description": "Grundlegende Regeln anwenden",
+                "examples": ["Dehnung", "Schärfung", "Umlaute"]
+            },
+            {
+                "level": 3,
+                "label": "Rechtschreibung vertiefen",
+                "description": "Komplexere Schreibungen",
+                "examples": ["Grammatische Schreibungen", "Wortfamilien"]
+            }
+        ]
+    }
+]

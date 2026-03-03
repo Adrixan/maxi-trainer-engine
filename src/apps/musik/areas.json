@@ -1,0 +1,158 @@
+[
+    {
+        "id": "singen",
+        "name": "Singen",
+        "description": "Lieder singen und Stimmmelodie",
+        "icon": "music",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Lieder kennen lernen",
+                "description": "Einfache Kinderlieder singen",
+                "examples": ["Kinderlieder", "Bewegungslieder"]
+            },
+            {
+                "level": 2,
+                "label": "Singen üben",
+                "description": "Taktvoll und melodiös singen",
+                "examples": ["Liedtexte merken", "Tonhöhe"]
+            },
+            {
+                "level": 3,
+                "label": "Vortragen",
+                "description": "Lieder vor others vortragen",
+                "examples": ["Solo singen", "Chor"]
+            }
+        ]
+    },
+    {
+        "id": "rhythmus",
+        "name": "Rhythmus",
+        "description": "Rhythmus erleben und erzeugen",
+        "icon": "drum",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Grundrhythmus",
+                "description": "Klatschen und Patschen",
+                "examples": ["Takt klatschen", "Puls spüren"]
+            },
+            {
+                "level": 2,
+                "label": "Rhythmus-Instrumente",
+                "description": "Rhythmus-Instrumente spielen",
+                "examples": ["Trommel", "Rhythmus-Stöcke"]
+            },
+            {
+                "level": 3,
+                "label": "Komplexer Rhythmus",
+                "description": "Schwierigere Rhythmen",
+                "examples": ["Synkopen", "Rhythmus-Diktat"]
+            }
+        ]
+    },
+    {
+        "id": "instrument",
+        "name": "Instrumente",
+        "description": "Musikinstrumente kennen und spielen",
+        "icon": "guitar",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Instrumente kennen",
+                "description": "Instrumentfamilien unterscheiden",
+                "examples": ["Streicher", "Bläser", "Schlagzeug"]
+            },
+            {
+                "level": 2,
+                "label": "Instrumente hören",
+                "description": "Instrumente am Klang erkennen",
+                "examples": ["Hörquiz", "Orchester"]
+            },
+            {
+                "level": 3,
+                "label": "Spielen",
+                "description": "Einfache Instrumente spielen",
+                "examples": ["Blockflöte", "Orff-Instrumente"]
+            }
+        ]
+    },
+    {
+        "id": "hoeren",
+        "name": "Hören",
+        "description": "Musik bewusst hören",
+        "icon": "ear",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Laute unterscheiden",
+                "description": "Töne und Geräusche unterscheiden",
+                "examples": ["Laut und leise", "Hoch und tief"]
+            },
+            {
+                "level": 2,
+                "label": "Musik hören",
+                "description": "Auf Musik achten",
+                "examples": ["Stimmung erkennen", "Tempo wahrnehmen"]
+            },
+            {
+                "level": 3,
+                "label": "Analytisches Hören",
+                "description": "Musik beschreiben",
+                "examples": ["Instrumente erkennen", "Form hören"]
+            }
+        ]
+    },
+    {
+        "id": "tanz",
+        "name": "Tanz und Bewegung",
+        "description": "Bewegung zur Musik",
+        "icon": "dance",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Bewegung zur Musik",
+                "description": "Sich zur Musik bewegen",
+                "examples": ["Mitklatschen", "Freies Tanzen"]
+            },
+            {
+                "level": 2,
+                "label": "Tanzschritte",
+                "description": "Einfache Tänze lernen",
+                "examples": ["Kreistänze", "Partnerarbeit"]
+            },
+            {
+                "level": 3,
+                "label": "Choreografie",
+                "description": "Tanz aufführen",
+                "examples": ["Kurzchoreografien", "Aufführung"]
+            }
+        ]
+    },
+    {
+        "id": "theorie",
+        "name": "Musiktheorie",
+        "description": "Noten und Musikwissen",
+        "icon": "staff",
+        "stages": [
+            {
+                "level": 1,
+                "label": "Noten kennen",
+                "description": "Notenwerte und Pausen",
+                "examples": ["Viertel", "Halbe", "Ganze"]
+            },
+            {
+                "level": 2,
+                "label": "Noten lesen",
+                "description": "Noten lesen lernen",
+                "examples": ["Tonhöhen", "Taktarten"]
+            },
+            {
+                "level": 3,
+                "label": "Musikwissen",
+                "description": "Musikbegriffe und Formen",
+                "examples": ["Dynamik", "Tempo", "Formteile"]
+            }
+        ]
+    }
+]

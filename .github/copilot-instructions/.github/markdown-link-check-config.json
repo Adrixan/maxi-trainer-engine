@@ -1,0 +1,39 @@
+{
+  "ignorePatterns": [
+    {
+      "pattern": "^https?://example\\.com"
+    },
+    {
+      "pattern": "^https?://registry\\.example\\.com"
+    },
+    {
+      "pattern": "^https?://localhost"
+    },
+    {
+      "pattern": "\\$"
+    },
+    {
+      "pattern": "yourusername|yourorg|your-project|original/copilot"
+    },
+    {
+      "pattern": "^https://charts\\.external-secrets\\.io"
+    },
+    {
+      "pattern": "^https://www\\.cisecurity\\.org"
+    }
+  ],
+  "httpHeaders": [
+    {
+      "urls": ["https://"],
+      "headers": {
+        "Accept-Encoding": "gzip, deflate",
+        "User-Agent": "Mozilla/5.0 (compatible; markdown-link-check)"
+      }
+    }
+  ],
+  "timeout": "20s",
+  "retryOn429": true,
+  "retryCount": 3,
+  "fallbackRetryDelay": "5s",
+  "aliveStatusCodes": [200, 206, 301, 302, 303, 403]
+}

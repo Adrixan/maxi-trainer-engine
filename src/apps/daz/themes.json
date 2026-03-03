@@ -1,0 +1,218 @@
+[
+    {
+        "id": "everyday-life",
+        "name": "Alltag",
+        "icon": "🏠",
+        "color": "#4CAF50",
+        "description": "Tägliche Routinen, Haushaltsaktivitäten und alltägliche Situationen",
+        "minLevel": 1
+    },
+    {
+        "id": "school",
+        "name": "Schule & Bildung",
+        "icon": "📚",
+        "color": "#2196F3",
+        "description": "Klassenzimmer-Aktivitäten, Fächer und akademischer Wortschatz",
+        "minLevel": 1
+    },
+    {
+        "id": "food",
+        "name": "Essen & Kochen",
+        "icon": "🍽️",
+        "color": "#FF9800",
+        "description": "Lebensmittel, Mahlzeiten, Rezepte und Essenswortschatz",
+        "minLevel": 1
+    },
+    {
+        "id": "travel",
+        "name": "Reisen & Verkehr",
+        "icon": "✈️",
+        "color": "#00BCD4",
+        "description": "Verkehrsmittel, Richtungen und Reiseerlebnisse",
+        "minLevel": 2
+    },
+    {
+        "id": "nature",
+        "name": "Natur & Umwelt",
+        "icon": "🌿",
+        "color": "#8BC34A",
+        "description": "Wetter, Tiere, Pflanzen und Umweltthemen",
+        "minLevel": 2
+    },
+    {
+        "id": "hobbies",
+        "name": "Hobbys & Freizeit",
+        "icon": "🎮",
+        "color": "#9C27B0",
+        "description": "Sport, Spiele, Unterhaltung und Freizeitaktivitäten",
+        "minLevel": 2
+    },
+    {
+        "id": "health",
+        "name": "Gesundheit & Wohlbefinden",
+        "icon": "💪",
+        "color": "#E91E63",
+        "description": "Körperteile, Gesundheitsprobleme und gesundes Leben",
+        "minLevel": 3
+    },
+    {
+        "id": "work",
+        "name": "Arbeit & Berufe",
+        "icon": "💼",
+        "color": "#607D8B",
+        "description": "Berufe, Arbeitsplatzwortschatz und berufliche Fähigkeiten",
+        "minLevel": 3
+    },
+    {
+        "id": "culture",
+        "name": "Kultur & Traditionen",
+        "icon": "🎭",
+        "color": "#F44336",
+        "description": "Feiertage, Bräuche, Feste und kulturelle Praktiken",
+        "minLevel": 4
+    },
+    {
+        "id": "technology",
+        "name": "Technologie & Medien",
+        "icon": "💻",
+        "color": "#3F51B5",
+        "description": "Digitale Geräte, Internet und Medienkompetenz",
+        "minLevel": 4
+    },
+    {
+        "id": "schule",
+        "name": "Schule",
+        "icon": "🏫",
+        "color": "#4CAF50",
+        "description": "Schulgebäude, Klassenzimmer, Schulsachen und Schulalltag",
+        "minLevel": 1
+    },
+    {
+        "id": "essen",
+        "name": "Essen",
+        "icon": "🍽️",
+        "color": "#FFA726",
+        "description": "Lebensmittel, Mahlzeiten und österreichische Jause",
+        "minLevel": 1
+    },
+    {
+        "id": "verkehr",
+        "name": "Verkehr",
+        "icon": "🚌",
+        "color": "#42A5F5",
+        "description": "Verkehrsmittel, Straßenverkehr und Schulweg",
+        "minLevel": 2
+    },
+    {
+        "id": "familie",
+        "name": "Familie",
+        "icon": "👨‍👩‍👧‍👦",
+        "color": "#FF7043",
+        "description": "Familienmitglieder, Verwandte und Zusammenleben",
+        "minLevel": 1
+    },
+    {
+        "id": "tiere",
+        "name": "Tiere",
+        "icon": "🐾",
+        "color": "#A1887F",
+        "description": "Haustiere, Nutztiere und Wildtiere",
+        "minLevel": 2
+    },
+    {
+        "id": "neue-schule",
+        "name": "Neue Schule",
+        "icon": "🎒",
+        "color": "#66BB6A",
+        "description": "Der erste Tag, neue Freunde, sich zurechtfinden",
+        "minLevel": 1
+    },
+    {
+        "id": "koerper",
+        "name": "Körper",
+        "icon": "🧍",
+        "color": "#AB47BC",
+        "description": "Körperteile, Gesundheit und Arztbesuch",
+        "minLevel": 1
+    },
+    {
+        "id": "wohnen",
+        "name": "Wohnen",
+        "icon": "🏠",
+        "color": "#8D6E63",
+        "description": "Wohnung, Haus, Zimmer und Möbel",
+        "minLevel": 1
+    },
+    {
+        "id": "gefuehle",
+        "name": "Gefühle",
+        "icon": "😊",
+        "color": "#EC407A",
+        "description": "Emotionen ausdrücken und verstehen",
+        "minLevel": 2
+    },
+    {
+        "id": "jahresablauf",
+        "name": "Jahresablauf",
+        "icon": "🌳",
+        "color": "#26A69A",
+        "description": "Jahreszeiten, Monate, Feste und Feiertage",
+        "minLevel": 2
+    },
+    {
+        "id": "bauernhof",
+        "name": "Bauernhof",
+        "icon": "🚜",
+        "color": "#8BC34A",
+        "description": "Bauernhoftiere, Ernte und Landleben",
+        "minLevel": 3
+    },
+    {
+        "id": "arbeitswelt",
+        "name": "Arbeitswelt",
+        "icon": "👷",
+        "color": "#FF8A65",
+        "description": "Berufe, Werkzeuge und Arbeit",
+        "minLevel": 4
+    },
+    {
+        "id": "haushalt",
+        "name": "Haushalt",
+        "icon": "🧹",
+        "color": "#78909C",
+        "description": "Hausarbeit, Ordnung und tägliche Aufgaben",
+        "minLevel": 2
+    },
+    {
+        "id": "pflanzen",
+        "name": "Pflanzen",
+        "icon": "🌻",
+        "color": "#4CAF50",
+        "description": "Blumen, Bäume, Garten und Natur",
+        "minLevel": 3
+    },
+    {
+        "id": "mathematik",
+        "name": "Mathematik",
+        "icon": "🔢",
+        "color": "#29B6F6",
+        "description": "Zahlen, Rechnen und mathematische Begriffe",
+        "minLevel": 3
+    },
+    {
+        "id": "lebensumstaende",
+        "name": "Lebensumstände",
+        "icon": "🌍",
+        "color": "#5C6BC0",
+        "description": "Verschiedene Lebenssituationen und Herkunftsländer",
+        "minLevel": 3
+    },
+    {
+        "id": "interkulturalitaet",
+        "name": "Interkulturalität",
+        "icon": "🤝",
+        "color": "#7E57C2",
+        "description": "Kulturen, Sprachen und Zusammenleben",
+        "minLevel": 3
+    }
+]
