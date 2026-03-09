@@ -356,13 +356,31 @@ async function loadExercisesJson(_appId: string, useFallback = true): Promise<Ex
  * @returns Transformed badge definitions
  */
 function transformBadges(badgesData: {
-    badges: Array<{ badge: BadgeDefinition['badge']; type: string; threshold: number }>;
+    badges: Array<Record<string, unknown>>;
     gamification?: Partial<GamificationConfig>;
 }): BadgeDefinition[] {
-    return badgesData.badges.map((item) => ({
-        badge: item.badge,
-        checkExpression: `${item.type}:${item.threshold}`,
-    }));
+    return badgesData.badges.map((item) => {
+        // Nested format: {badge: {id, name, ...}, type, threshold}
+        if (item.badge && typeof item.badge === 'object') {
+            return {
+                badge: item.badge as BadgeDefinition['badge'],
+                checkExpression: `${item.type}:${item.threshold}`,
+            };
+        }
+        // Flat format: {id, name, description, icon, level, requirement: {type, count}}
+        const requirement = item.requirement as Record<string, unknown> | undefined;
+        return {
+            badge: {
+                id: item.id as string,
+                name: item.name as string,
+                description: (item.description as string) || '',
+                icon: (item.icon as string) || '🏆',
+            },
+            checkExpression: requirement
+                ? `${requirement.type}:${requirement.count}`
+                : `level:${item.level ?? 1}`,
+        };
+    });
 }
 
 // ============================================================================

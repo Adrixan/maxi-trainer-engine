@@ -143,6 +143,8 @@ export function ConfigProvider({
                     .map((e) => `${e.file}: ${e.message}`)
                     .join('\n');
 
+                console.error('[ConfigProvider] Failed to load configuration:\n', errorMessage);
+
                 setState({
                     isLoading: false,
                     isLoaded: false,
@@ -169,6 +171,7 @@ export function ConfigProvider({
             onConfigLoaded?.(result.config);
         } catch (err) {
             const errorMessage = err instanceof Error ? err.message : String(err);
+            console.error('[ConfigProvider] Config loading threw:', errorMessage);
 
             setState({
                 isLoading: false,
@@ -456,7 +459,7 @@ export function useAppConfig(): AppConfig {
     // Return default config while loading or if load fails
     const defaultConfig: AppConfig = {
         id: 'daz',
-        name: 'Mini Trainer',
+        name: 'Maxi Trainer',
         version: '1.0.0',
         build: { pwaEnabled: true, usbDistribution: true },
         display: { primaryColor: '#3b82f6', icon: '/icon.svg' },
