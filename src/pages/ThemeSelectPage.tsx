@@ -2,14 +2,14 @@
  * Theme selection page component.
  * 
  * Displays a grid of themes that users can select to start exercises.
- * Shows locked/unlocked states based on vocabulary level.
+ * Shows locked/unlocked states based on user level.
  */
 
 import { useNavigate, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useState, useEffect, useCallback } from 'react';
 import { ThemeCard } from '@core/components/theme';
-import { useThemes, useConfig } from '@core/config';
+import { useThemes, useConfig, useAppConfig } from '@core/config';
 import {
     useProfileStore,
     selectActiveProfile,
@@ -25,15 +25,15 @@ import type { Theme, ThemeProgress, ExerciseResult } from '@/types';
 // ============================================================================
 
 /**
- * Level indicator dots showing current vocabulary level.
+ * Level indicator dots showing current level.
  */
-function LevelIndicator({ level }: { level: number }) {
+function LevelIndicator({ level, label }: { level: number; label: string }) {
     const { t } = useTranslation();
 
     return (
         <div className="flex items-center gap-2 mb-4">
             <span className="text-sm text-gray-600">
-                {t('theme.vocabularyLevel', 'Vocabulary Level')}:
+                {label}:
             </span>
             <div className="flex gap-1" role="img" aria-label={t('theme.levelLabel', { level, defaultValue: `Level ${level}` })}>
                 {[1, 2, 3, 4].map((lvl) => (
@@ -67,9 +67,10 @@ export function ThemeSelectPage() {
     const navigate = useNavigate();
     const location = useLocation();
 
-    // Get themes and exercises from config
+    // Get themes, exercises, and app config
     const themes = useThemes();
     const { getExercisesByTheme } = useConfig();
+    const appConfig = useAppConfig();
 
     // Get profile data
     const profile = useProfileStore(selectActiveProfile);
@@ -155,7 +156,7 @@ export function ThemeSelectPage() {
                 </h1>
 
                 {/* Level indicator */}
-                <LevelIndicator level={globalLevel} />
+                <LevelIndicator level={globalLevel} label={appConfig.terminology.level} />
 
                 <p className="text-gray-600">
                     {t('theme.subtitle', 'Select a theme to practice. Complete exercises to earn stars and unlock new themes!')}
@@ -179,7 +180,7 @@ export function ThemeSelectPage() {
                                 theme={theme}
                                 progress={progress}
                                 isUnlocked={isUnlocked}
-                                vocabularyLevel={globalLevel}
+                                globalLevel={globalLevel}
                                 onClick={() => handleThemeClick(theme)}
                             />
                         </div>

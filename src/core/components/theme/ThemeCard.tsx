@@ -19,8 +19,8 @@ export interface ThemeCardProps {
     progress?: ThemeProgress;
     /** Whether the theme is unlocked based on user level */
     isUnlocked: boolean;
-    /** Current vocabulary level of the user */
-    vocabularyLevel: number;
+    /** Current global level of the user */
+    globalLevel: number;
     /** Callback when the card is clicked */
     onClick?: () => void;
 }
@@ -37,7 +37,7 @@ export function ThemeCard({
     theme,
     progress,
     isUnlocked,
-    vocabularyLevel: _vocabularyLevel,
+    globalLevel: _globalLevel,
     onClick,
 }: ThemeCardProps) {
     const { t } = useTranslation();

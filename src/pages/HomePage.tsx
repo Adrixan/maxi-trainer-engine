@@ -66,7 +66,7 @@ function Dashboard() {
             if (data) {
                 const date = new Date().toISOString().split('T')[0];
                 const nickname = profile?.nickname ?? 'player';
-                const filename = `daz-spielstand-${nickname}-${date}.json`;
+                const filename = `${appConfig.id}-spielstand-${nickname}-${date}.json`;
                 downloadSaveGame(data, filename);
             }
         } finally {

@@ -16,9 +16,8 @@ import type { LevelProgress } from '@/types/gamification';
 export const DEFAULT_STARS_PER_LEVEL = 10;
 
 /**
- * Level thresholds for vocabulary level progression.
+ * Level thresholds for global level progression.
  * These thresholds are intentionally low for quick progress.
- * Based on original mini-daz-trainer-kids implementation.
  */
 export const VOCABULARY_LEVEL_THRESHOLDS = {
     LEVEL_2: 4,   // >= 4 stars -> Level 2
@@ -36,14 +35,14 @@ export const MAX_THEME_LEVEL = 4;
 // ============================================================================
 
 /**
- * Calculate vocabulary level from total stars.
- * Uses fixed thresholds from the original app:
+ * Calculate global level from total stars.
+ * Uses fixed thresholds:
  * - >= 4 stars -> Level 2
  * - >= 12 stars -> Level 3
  * - >= 20 stars -> Level 4
  * 
  * @param totalStars - Total stars earned
- * @returns Vocabulary level (1-4)
+ * @returns Level (1-4)
  */
 export function levelFromStars(totalStars: number): number {
     if (totalStars >= VOCABULARY_LEVEL_THRESHOLDS.LEVEL_4) return 4;

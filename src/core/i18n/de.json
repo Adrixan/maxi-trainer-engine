@@ -14,7 +14,7 @@
         "or": "oder"
     },
     "app": {
-        "title": "Mini Trainer"
+        "title": "Maxi Trainer"
     },
     "home": {
         "welcome": "Willkommen",
@@ -183,9 +183,9 @@
         "locked": "Noch nicht verdient"
     },
     "theme": {
-        "title": "Thema wählen",
-        "subtitle": "Wähle ein Thema zum Üben. Bearbeite Übungen, um Sterne zu sammeln und neue Themen freizuschalten!",
-        "vocabularyLevel": "Wortschatz-Level",
+        "title": "Mission wählen",
+        "subtitle": "Wähle deine Herausforderung. Meistere Aufgaben, verdiene Sterne und schalte neue Missionen frei!",
+        "vocabularyLevel": "Level",
         "levelLabel": "Level {{level}}",
         "themeList": "Verfügbare Themen",
         "selectTheme": "{{name}} Thema auswählen",
@@ -261,7 +261,10 @@
         "sound": "Sound-Effekte",
         "soundDesc": "Sound-Effekte ein- oder ausschalten",
         "screenReaderNote": "Screenreader-Information",
-        "screenReaderInfo": "Diese Anwendung ist für die Nutzung mit Screenreadern konzipiert. Verwende Tab zum Navigieren zwischen Steuerelementen und Enter oder Leertaste zum Aktivieren von Schaltflächen."
+        "screenReaderInfo": "Diese Anwendung ist für die Nutzung mit Screenreadern konzipiert. Verwende Tab zum Navigieren zwischen Steuerelementen und Enter oder Leertaste zum Aktivieren von Schaltflächen.",
+        "themeDefault": "Hell",
+        "themeNoir": "Noir (Dunkel)",
+        "theme": "Design"
     },
     "levelTitles": {
         "beginner": "Anfänger",

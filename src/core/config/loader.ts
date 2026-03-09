@@ -193,41 +193,6 @@ export async function loadAppConfig(): Promise<AppConfig> {
  * Get default app config for known apps.
  */
 function getDefaultAppConfig(appId: string): AppConfig {
-    if (appId === 'daz') {
-        return {
-            id: 'daz',
-            name: 'Deutsch als Zweitsprache',
-            version: '1.0.0',
-            build: { pwaEnabled: true, usbDistribution: true },
-            display: { primaryColor: '#3b82f6', icon: '/assets/daz-icon.svg' },
-            terminology: {
-                level: 'Wortschatz-Level',
-                levelPlural: 'Wortschatz-Level',
-                theme: 'Thema',
-                themePlural: 'Themen',
-                exercise: 'Übung',
-                exercisePlural: 'Übungen',
-            },
-        };
-    }
-    if (appId === 'mathematik') {
-        return {
-            id: 'mathematik',
-            name: 'Mathematik Grundstufe',
-            version: '1.0.0',
-            build: { pwaEnabled: true, usbDistribution: true },
-            display: { primaryColor: '#10b981', icon: '/assets/mathematik-icon.svg' },
-            terminology: {
-                level: 'Level',
-                levelPlural: 'Level',
-                theme: 'Thema',
-                themePlural: 'Themen',
-                exercise: 'Aufgabe',
-                exercisePlural: 'Aufgaben',
-            },
-        };
-    }
-    // Default fallback
     return {
         id: appId,
         name: 'Maxi Trainer',
@@ -237,10 +202,10 @@ function getDefaultAppConfig(appId: string): AppConfig {
         terminology: {
             level: 'Level',
             levelPlural: 'Level',
-            theme: 'Theme',
-            themePlural: 'Themes',
-            exercise: 'Exercise',
-            exercisePlural: 'Exercises',
+            theme: 'Thema',
+            themePlural: 'Themen',
+            exercise: 'Übung',
+            exercisePlural: 'Übungen',
         },
     };
 }
@@ -271,11 +236,25 @@ async function loadConfigJson<T>(filename: string, _appId: string, useFallback =
         'badges.json': '__TRAINER_BADGES__',
     };
 
+    // JSON files wrap arrays in objects (e.g., { "areas": [...] }). Unwrap when needed.
+    const unwrapKeyMap: Record<string, string> = {
+        'areas.json': 'areas',
+        'themes.json': 'themes',
+    };
+
+    const unwrapIfNeeded = (data: unknown): T => {
+        const unwrapKey = unwrapKeyMap[filename];
+        if (unwrapKey && data && typeof data === 'object' && !Array.isArray(data) && unwrapKey in data) {
+            return (data as Record<string, unknown>)[unwrapKey] as T;
+        }
+        return data as T;
+    };
+
     // Priority 1: Check window globals (most reliable — set by <script> tags in index.html)
     const windowObj = window as unknown as Record<string, unknown>;
     const windowKey = windowKeyMap[filename];
     if (windowKey && windowObj[windowKey]) {
-        return windowObj[windowKey] as T;
+        return unwrapIfNeeded(windowObj[windowKey]);
     }
 
     // Priority 2: Try to fetch JSON config (works in PWA mode where .json files exist)
@@ -283,7 +262,8 @@ async function loadConfigJson<T>(filename: string, _appId: string, useFallback =
     try {
         const response = await fetch(appPath);
         if (response.ok) {
-            return await response.json() as T;
+            const data = await response.json();
+            return unwrapIfNeeded(data);
         }
     } catch {
         // Fetch failed, continue to fallback
@@ -295,7 +275,8 @@ async function loadConfigJson<T>(filename: string, _appId: string, useFallback =
         try {
             const response = await fetch(defaultConfigPath);
             if (response.ok) {
-                return await response.json() as T;
+                const data = await response.json();
+                return unwrapIfNeeded(data);
             }
         } catch {
             // Ignore
@@ -550,11 +531,17 @@ async function loadAndCacheAllConfig(): Promise<{
     // Load exercises
     const exercises = await loadExercisesJson(appId);
 
+    // Normalize themes: derive minLevel from levels array if not set
+    const normalizedThemes = themesJson.map((theme: Theme) => ({
+        ...theme,
+        minLevel: theme.minLevel ?? (theme.levels && theme.levels.length > 0 ? Math.min(...theme.levels) : 1),
+    }));
+
     // Update cache
     configCache = {
         subject: subjectJson,
         areas: areasJson,
-        themes: themesJson,
+        themes: normalizedThemes,
         badges,
         gamification,
         exercises,
@@ -564,7 +551,7 @@ async function loadAndCacheAllConfig(): Promise<{
     return {
         subject: subjectJson,
         areas: areasJson,
-        themes: themesJson,
+        themes: normalizedThemes,
         badges,
         gamification,
         exercises,

@@ -99,10 +99,14 @@ export interface ObservationArea {
     id: ObservationAreaId;
     /** Display name */
     name: string;
-    /** Category this area belongs to */
-    category: ObservationCategory;
-    /** Developmental stages within this area */
-    stages: ObservationStage[];
+    /** Category this area belongs to (optional for subject apps) */
+    category?: ObservationCategory;
+    /** Description of the area */
+    description?: string;
+    /** Display color (CSS color value) */
+    color?: string;
+    /** Developmental stages within this area (optional for subject apps) */
+    stages?: ObservationStage[];
 }
 
 // ============================================================================
@@ -119,11 +123,15 @@ export interface Theme {
     /** Display name */
     name: string;
     /** Icon identifier (emoji or icon name) */
-    icon: string;
+    icon?: string;
     /** Theme color (CSS color value) */
-    color: string;
+    color?: string;
     /** Description of the theme content */
-    description: string;
+    description?: string;
+    /** Area this theme belongs to */
+    areaId?: string;
+    /** Available levels for this theme */
+    levels?: number[];
     /** Minimum level required to access this theme */
     minLevel: number;
 }

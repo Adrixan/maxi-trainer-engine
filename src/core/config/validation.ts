@@ -193,10 +193,10 @@ export function validateAreas(areas: unknown): ValidationResult {
             warnings.push(warning('MISSING_CATEGORY', `Area ${area.id ?? index} is missing category`, `${path}.category`));
         }
 
-        // Stages validation
-        if (!isArray(area.stages)) {
-            errors.push(error('MISSING_STAGES', `Area ${area.id ?? index} must have stages array`, `${path}.stages`));
-        } else {
+        // Stages validation (optional — newer app configs may not include stages)
+        if (area.stages !== undefined && !isArray(area.stages)) {
+            errors.push(error('INVALID_STAGES', `Area ${area.id ?? index} has stages but it is not an array`, `${path}.stages`));
+        } else if (isArray(area.stages)) {
             const levelSet = new Set<number>();
 
             area.stages.forEach((stage, stageIndex) => {

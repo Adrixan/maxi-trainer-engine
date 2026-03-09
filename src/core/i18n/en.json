@@ -13,7 +13,7 @@
         "or": "or"
     },
     "app": {
-        "title": "Mini Trainer"
+        "title": "Maxi Trainer"
     },
     "home": {
         "welcome": "Welcome",
@@ -186,7 +186,7 @@
     "theme": {
         "title": "Choose a Theme",
         "subtitle": "Select a theme to practice. Complete exercises to earn stars and unlock new themes!",
-        "vocabularyLevel": "Vocabulary Level",
+        "vocabularyLevel": "Level",
         "levelLabel": "Level {{level}}",
         "themeList": "Available themes",
         "selectTheme": "Select {{name}} theme",
@@ -262,7 +262,10 @@
         "sound": "Sound Effects",
         "soundDesc": "Enable or disable sound effects",
         "screenReaderNote": "Screen Reader Information",
-        "screenReaderInfo": "This application is designed for use with screen readers. Use Tab to navigate between controls and Enter or Space to activate buttons."
+        "screenReaderInfo": "This application is designed for use with screen readers. Use Tab to navigate between controls and Enter or Space to activate buttons.",
+        "themeDefault": "Light",
+        "themeNoir": "Noir (Dark)",
+        "theme": "Theme"
     },
     "levelTitles": {
         "beginner": "Beginner",
