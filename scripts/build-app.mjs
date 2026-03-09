@@ -143,6 +143,7 @@ function validateApp(appId) {
         return {
             id: appId,
             name: appId.charAt(0).toUpperCase() + appId.slice(1),
+            fullName: appId.charAt(0).toUpperCase() + appId.slice(1),
             version: '0.0.0',
             buildConfig: {
                 baseHref: `/${appId}/`,
@@ -354,6 +355,7 @@ function copyConfigFiles(appId, pwa = false) {
 
     // Config files to process: map JSON name to window global name
     const configFiles = [
+        { json: 'app.json', js: 'app.js', global: '__TRAINER_APP__' },
         { json: 'subject.json', js: 'subject.js', global: '__TRAINER_SUBJECT__' },
         { json: 'areas.json', js: 'areas.js', global: '__TRAINER_AREAS__' },
         { json: 'themes.json', js: 'themes.js', global: '__TRAINER_THEMES__' },
@@ -421,9 +423,11 @@ function copyFonts(appId, isPwa = false) {
  * Copy exercise data to dist.
  * Copies to data/exercises.js (not data/{appId}/exercises.js) because
  * the HTML loads ./data/exercises.js regardless of app ID.
+ * For PWA mode, also generates a JSON file for fetch-based loading.
  */
 function copyExerciseData(appId, isPwa = false) {
     const dataSource = join(rootDir, 'public', 'data', appId, 'exercises.js');
+    const jsonSource = join(rootDir, 'src', 'apps', appId, 'exercises.json');
     const distDir = getDistDir(appId, isPwa);
     const dataDir = join(distDir, 'data');
 
@@ -436,9 +440,15 @@ function copyExerciseData(appId, isPwa = false) {
 
     if (existsSync(dataSource)) {
         log.info('Copying exercise data...');
-        // Copy to data/exercises.js - the HTML loads this path
+        // Copy to data/exercises.js - the HTML loads this path via script tag
         cpSync(dataSource, join(dataDir, 'exercises.js'));
-        log.success('Exercise data copied');
+        log.success('Exercise data copied (JS)');
+    }
+
+    // For PWA: also provide JSON for fetch-based loading
+    if (isPwa && existsSync(jsonSource)) {
+        cpSync(jsonSource, join(dataDir, 'exercises.json'));
+        log.success('Exercise data copied (JSON for PWA fetch)');
     }
 }
 

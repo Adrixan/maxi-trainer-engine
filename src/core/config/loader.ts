@@ -62,10 +62,10 @@ export interface AppConfig {
 
 /**
  * Get the current app ID from environment variable.
- * Defaults to 'daz' if not set.
+ * Defaults to 'ahs-deutsch' if not set.
  */
 function getAppId(): string {
-    return import.meta.env.VITE_APP_ID || 'daz';
+    return import.meta.env.VITE_APP_ID || 'ahs-deutsch';
 }
 
 // ============================================================================
@@ -230,7 +230,7 @@ function getDefaultAppConfig(appId: string): AppConfig {
     // Default fallback
     return {
         id: appId,
-        name: 'Mini Trainer',
+        name: 'Maxi Trainer',
         version: '1.0.0',
         build: { pwaEnabled: true, usbDistribution: true },
         display: { primaryColor: '#3b82f6', icon: '/icon.svg' },
@@ -263,7 +263,7 @@ function getDefaultAppConfig(appId: string): AppConfig {
  * @returns The loaded JSON data
  */
 async function loadConfigJson<T>(filename: string, _appId: string, useFallback = true): Promise<T> {
-    // Map filename to window key for USB/offline mode
+    // Map filename to window key for USB/offline and dev mode (set via script tags)
     const windowKeyMap: Record<string, string> = {
         'subject.json': '__TRAINER_SUBJECT__',
         'areas.json': '__TRAINER_AREAS__',
@@ -271,43 +271,38 @@ async function loadConfigJson<T>(filename: string, _appId: string, useFallback =
         'badges.json': '__TRAINER_BADGES__',
     };
 
-    // Check window object first for USB/offline mode (script tag loading)
+    // Priority 1: Check window globals (most reliable — set by <script> tags in index.html)
     const windowObj = window as unknown as Record<string, unknown>;
     const windowKey = windowKeyMap[filename];
     if (windowKey && windowObj[windowKey]) {
         return windowObj[windowKey] as T;
     }
 
-    // Fall back to fetch for HTTP/PWA mode
-    // In production, config files are copied to /config/ directory
-    // Try app-specific path first (works in both dev and production)
+    // Priority 2: Try to fetch JSON config (works in PWA mode where .json files exist)
     const appPath = `./config/${filename}`;
-
-    // Skip file:// protocol check since we now check window first
-    // If window data wasn't available, try fetch anyway (might work with local server)
-
     try {
         const response = await fetch(appPath);
-        if (!response.ok) {
-            throw new Error(`HTTP ${response.status}`);
+        if (response.ok) {
+            return await response.json() as T;
         }
-        return await response.json() as T;
     } catch {
-        // If app-specific doesn't exist and fallback is enabled, try default path
-        if (useFallback) {
-            const defaultPath = `./config/${filename}`;
-            try {
-                const response = await fetch(defaultPath);
-                if (!response.ok) {
-                    throw new Error(`HTTP ${response.status}`);
-                }
-                return await response.json() as T;
-            } catch {
-                throw new Error(`Failed to load ${filename} from both app-specific and default paths`);
-            }
-        }
-        throw new Error(`Failed to load ${filename} from app-specific path: ${appPath}`);
+        // Fetch failed, continue to fallback
     }
+
+    // Priority 3: Try default config directory
+    if (useFallback) {
+        const defaultConfigPath = `./config/defaults/${filename}`;
+        try {
+            const response = await fetch(defaultConfigPath);
+            if (response.ok) {
+                return await response.json() as T;
+            }
+        } catch {
+            // Ignore
+        }
+    }
+
+    throw new Error(`Failed to load ${filename} for app: ${_appId}`);
 }
 
 /**
@@ -322,49 +317,51 @@ async function loadConfigJson<T>(filename: string, _appId: string, useFallback =
  * @returns The loaded exercises data
  */
 async function loadExercisesJson(_appId: string, useFallback = true): Promise<Exercise[]> {
-    // Check window object first for USB/offline mode (script tag loading)
+    // Priority 1: Check window global (most reliable — set by <script> tag in index.html)
+    // In both dev and production, the exercises.js script tag sets this before React loads.
     const windowObj = window as unknown as Record<string, unknown>;
     if (windowObj.__TRAINER_EXERCISES__) {
         const exercisesData = windowObj.__TRAINER_EXERCISES__;
         if (Array.isArray(exercisesData)) {
             return exercisesData as Exercise[];
         }
-        // Handle object format { exercises: [...] }
         if (exercisesData && typeof exercisesData === 'object' && 'exercises' in exercisesData) {
-            return (exercisesData as { exercises: Exercise[] }).exercises || [];
-        }
-    }
-
-    // Fall back to fetch for HTTP/PWA mode
-    // In production, exercises are loaded via script tag (window.__TRAINER_EXERCISES__)
-    // This function is for loading exercises via fetch if needed
-    // Try app-specific path first
-    const appPath = `./data/exercises.js`;
-
-    try {
-        const response = await fetch(appPath);
-        if (!response.ok) {
-            throw new Error(`HTTP ${response.status}`);
-        }
-        const data = await response.json();
-        return data.exercises || [];
-    } catch {
-        // If app-specific doesn't exist and fallback is enabled, try default path
-        if (useFallback) {
-            const defaultPath = `./data/exercises.js`;
-            try {
-                const response = await fetch(defaultPath);
-                if (!response.ok) {
-                    throw new Error(`HTTP ${response.status}`);
-                }
-                const data = await response.json();
-                return data.exercises || [];
-            } catch {
-                throw new Error('Failed to load exercises from all possible paths');
+            const data = exercisesData as { exercises: Exercise[]; metadata?: { appId?: string } };
+            if (data.metadata?.appId && data.metadata.appId !== _appId) {
+                // Mismatched app ID — warn but still use if no better source available
+                console.warn(
+                    `Exercise data is for app "${data.metadata.appId}" but current app is "${_appId}". ` +
+                    'Run: node scripts/generate-dev-config.mjs --app ' + _appId
+                );
             }
+            return data.exercises || [];
         }
-        throw new Error(`Failed to load exercises from app-specific path: ${appPath}`);
     }
+
+    // Priority 2: Try fetching JSON (works in PWA mode where .json files are generated)
+    const jsonPaths = [
+        `./data/${_appId}/exercises.json`,
+        useFallback ? './data/exercises.json' : null,
+    ].filter(Boolean) as string[];
+
+    for (const path of jsonPaths) {
+        try {
+            const response = await fetch(path);
+            if (response.ok) {
+                const data = await response.json();
+                if (data.exercises && Array.isArray(data.exercises)) {
+                    return data.exercises;
+                }
+                if (Array.isArray(data)) {
+                    return data as Exercise[];
+                }
+            }
+        } catch {
+            // Fetch failed, try next path
+        }
+    }
+
+    throw new Error(`Failed to load exercises for app: ${_appId}`);
 }
 
 // ============================================================================

@@ -50,12 +50,10 @@ function titleInjectionPlugin(): Plugin {
         transformIndexHtml(html) {
             // Get subject name from environment variable (set during build)
             const subjectName = process.env.VITE_SUBJECT_NAME || '';
-            const defaultTitle = 'Mini Trainer';
+            const defaultTitle = 'Maxi Trainer';
 
             // Set the full title
-            const fullTitle = subjectName.trim()
-                ? `${defaultTitle} ${subjectName}`
-                : defaultTitle;
+            const fullTitle = subjectName.trim() || defaultTitle;
 
             // Replace the title in HTML
             return html.replace(
@@ -72,7 +70,7 @@ export default defineConfig({
     // Define compile-time constants for VITE_APP_ID
     // This allows the app to know its ID at build time without runtime config
     define: {
-        'import.meta.env.VITE_APP_ID': JSON.stringify(process.env.VITE_APP_ID || ''),
+        'import.meta.env.VITE_APP_ID': JSON.stringify(process.env.VITE_APP_ID || 'ahs-deutsch'),
     },
     resolve: {
         alias: {
