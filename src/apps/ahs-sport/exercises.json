@@ -3628,7 +3628,7 @@
       "areaId": "leichtathletik",
       "themeId": "laufen",
       "level": 1,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -3653,7 +3653,7 @@
       "areaId": "leichtathletik",
       "themeId": "laufen",
       "level": 1,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -3678,7 +3678,7 @@
       "areaId": "leichtathletik",
       "themeId": "laufen",
       "level": 2,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -3703,7 +3703,7 @@
       "areaId": "leichtathletik",
       "themeId": "laufen",
       "level": 2,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -3728,7 +3728,7 @@
       "areaId": "leichtathletik",
       "themeId": "laufen",
       "level": 3,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -3753,7 +3753,7 @@
       "areaId": "leichtathletik",
       "themeId": "laufen",
       "level": 3,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -3778,7 +3778,7 @@
       "areaId": "leichtathletik",
       "themeId": "laufen",
       "level": 4,
-      "difficulty": "schwer",
+      "difficulty": 3,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -3803,7 +3803,7 @@
       "areaId": "leichtathletik",
       "themeId": "laufen",
       "level": 4,
-      "difficulty": "schwer",
+      "difficulty": 3,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -3828,7 +3828,7 @@
       "areaId": "leichtathletik",
       "themeId": "laufen",
       "level": 1,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Ergänze das fehlende Wort.",
       "content": {
         "type": "fill-blank",
@@ -3847,7 +3847,7 @@
       "areaId": "leichtathletik",
       "themeId": "laufen",
       "level": 2,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Ergänze das fehlende Wort.",
       "content": {
         "type": "fill-blank",
@@ -3866,7 +3866,7 @@
       "areaId": "leichtathletik",
       "themeId": "laufen",
       "level": 2,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Ergänze das fehlende Wort.",
       "content": {
         "type": "fill-blank",
@@ -3885,7 +3885,7 @@
       "areaId": "leichtathletik",
       "themeId": "laufen",
       "level": 3,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Ergänze das fehlende Wort.",
       "content": {
         "type": "fill-blank",
@@ -3904,7 +3904,7 @@
       "areaId": "leichtathletik",
       "themeId": "springen",
       "level": 1,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -3929,7 +3929,7 @@
       "areaId": "leichtathletik",
       "themeId": "springen",
       "level": 1,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -3954,7 +3954,7 @@
       "areaId": "leichtathletik",
       "themeId": "springen",
       "level": 3,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -3979,7 +3979,7 @@
       "areaId": "leichtathletik",
       "themeId": "springen",
       "level": 4,
-      "difficulty": "schwer",
+      "difficulty": 3,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -4004,7 +4004,7 @@
       "areaId": "leichtathletik",
       "themeId": "springen",
       "level": 1,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -4029,7 +4029,7 @@
       "areaId": "leichtathletik",
       "themeId": "springen",
       "level": 2,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -4054,7 +4054,7 @@
       "areaId": "leichtathletik",
       "themeId": "springen",
       "level": 2,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -4079,7 +4079,7 @@
       "areaId": "leichtathletik",
       "themeId": "springen",
       "level": 3,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -4104,7 +4104,7 @@
       "areaId": "leichtathletik",
       "themeId": "springen",
       "level": 1,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Ergänze das fehlende Wort.",
       "content": {
         "type": "fill-blank",
@@ -4123,7 +4123,7 @@
       "areaId": "leichtathletik",
       "themeId": "springen",
       "level": 3,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Ergänze das fehlende Wort.",
       "content": {
         "type": "fill-blank",
@@ -4142,7 +4142,7 @@
       "areaId": "leichtathletik",
       "themeId": "springen",
       "level": 2,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Ergänze das fehlende Wort.",
       "content": {
         "type": "fill-blank",
@@ -4161,7 +4161,7 @@
       "areaId": "leichtathletik",
       "themeId": "werfen",
       "level": 2,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -4186,7 +4186,7 @@
       "areaId": "leichtathletik",
       "themeId": "werfen",
       "level": 2,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -4211,7 +4211,7 @@
       "areaId": "leichtathletik",
       "themeId": "werfen",
       "level": 3,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -4236,7 +4236,7 @@
       "areaId": "leichtathletik",
       "themeId": "werfen",
       "level": 3,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -4261,7 +4261,7 @@
       "areaId": "leichtathletik",
       "themeId": "werfen",
       "level": 4,
-      "difficulty": "schwer",
+      "difficulty": 3,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -4286,7 +4286,7 @@
       "areaId": "leichtathletik",
       "themeId": "werfen",
       "level": 2,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -4311,7 +4311,7 @@
       "areaId": "leichtathletik",
       "themeId": "werfen",
       "level": 2,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Ergänze das fehlende Wort.",
       "content": {
         "type": "fill-blank",
@@ -4330,7 +4330,7 @@
       "areaId": "leichtathletik",
       "themeId": "werfen",
       "level": 3,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Ergänze das fehlende Wort.",
       "content": {
         "type": "fill-blank",
@@ -4349,7 +4349,7 @@
       "areaId": "leichtathletik",
       "themeId": "werfen",
       "level": 2,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Ergänze das fehlende Wort.",
       "content": {
         "type": "fill-blank",
@@ -4368,7 +4368,7 @@
       "areaId": "spiele",
       "themeId": "fussball",
       "level": 1,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -4393,7 +4393,7 @@
       "areaId": "spiele",
       "themeId": "fussball",
       "level": 1,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -4418,7 +4418,7 @@
       "areaId": "spiele",
       "themeId": "fussball",
       "level": 2,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -4443,7 +4443,7 @@
       "areaId": "spiele",
       "themeId": "fussball",
       "level": 1,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -4468,7 +4468,7 @@
       "areaId": "spiele",
       "themeId": "fussball",
       "level": 2,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -4493,7 +4493,7 @@
       "areaId": "spiele",
       "themeId": "fussball",
       "level": 2,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -4518,7 +4518,7 @@
       "areaId": "spiele",
       "themeId": "fussball",
       "level": 3,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -4543,7 +4543,7 @@
       "areaId": "spiele",
       "themeId": "fussball",
       "level": 4,
-      "difficulty": "schwer",
+      "difficulty": 3,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -4568,7 +4568,7 @@
       "areaId": "spiele",
       "themeId": "fussball",
       "level": 1,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Ergänze das fehlende Wort.",
       "content": {
         "type": "fill-blank",
@@ -4587,7 +4587,7 @@
       "areaId": "spiele",
       "themeId": "fussball",
       "level": 1,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Ergänze das fehlende Wort.",
       "content": {
         "type": "fill-blank",
@@ -4606,7 +4606,7 @@
       "areaId": "spiele",
       "themeId": "fussball",
       "level": 2,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Ergänze das fehlende Wort.",
       "content": {
         "type": "fill-blank",
@@ -4625,7 +4625,7 @@
       "areaId": "spiele",
       "themeId": "fussball",
       "level": 2,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Ergänze das fehlende Wort.",
       "content": {
         "type": "fill-blank",
@@ -4644,7 +4644,7 @@
       "areaId": "spiele",
       "themeId": "volleyball",
       "level": 2,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -4669,7 +4669,7 @@
       "areaId": "spiele",
       "themeId": "volleyball",
       "level": 2,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -4694,7 +4694,7 @@
       "areaId": "spiele",
       "themeId": "volleyball",
       "level": 3,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -4719,7 +4719,7 @@
       "areaId": "spiele",
       "themeId": "volleyball",
       "level": 2,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -4744,7 +4744,7 @@
       "areaId": "spiele",
       "themeId": "volleyball",
       "level": 4,
-      "difficulty": "schwer",
+      "difficulty": 3,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -4769,7 +4769,7 @@
       "areaId": "spiele",
       "themeId": "volleyball",
       "level": 3,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -4794,7 +4794,7 @@
       "areaId": "spiele",
       "themeId": "volleyball",
       "level": 2,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Ergänze das fehlende Wort.",
       "content": {
         "type": "fill-blank",
@@ -4813,7 +4813,7 @@
       "areaId": "spiele",
       "themeId": "volleyball",
       "level": 2,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Ergänze das fehlende Wort.",
       "content": {
         "type": "fill-blank",
@@ -4832,7 +4832,7 @@
       "areaId": "spiele",
       "themeId": "volleyball",
       "level": 4,
-      "difficulty": "schwer",
+      "difficulty": 3,
       "instruction": "Ergänze das fehlende Wort.",
       "content": {
         "type": "fill-blank",
@@ -4851,7 +4851,7 @@
       "areaId": "spiele",
       "themeId": "basketball",
       "level": 2,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -4876,7 +4876,7 @@
       "areaId": "spiele",
       "themeId": "basketball",
       "level": 2,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -4901,7 +4901,7 @@
       "areaId": "spiele",
       "themeId": "basketball",
       "level": 2,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -4926,7 +4926,7 @@
       "areaId": "spiele",
       "themeId": "basketball",
       "level": 3,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -4951,7 +4951,7 @@
       "areaId": "spiele",
       "themeId": "basketball",
       "level": 3,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -4976,7 +4976,7 @@
       "areaId": "spiele",
       "themeId": "basketball",
       "level": 4,
-      "difficulty": "schwer",
+      "difficulty": 3,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -5001,7 +5001,7 @@
       "areaId": "spiele",
       "themeId": "basketball",
       "level": 2,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Ergänze das fehlende Wort.",
       "content": {
         "type": "fill-blank",
@@ -5020,7 +5020,7 @@
       "areaId": "spiele",
       "themeId": "basketball",
       "level": 2,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Ergänze das fehlende Wort.",
       "content": {
         "type": "fill-blank",
@@ -5039,7 +5039,7 @@
       "areaId": "spiele",
       "themeId": "basketball",
       "level": 3,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Ergänze das fehlende Wort.",
       "content": {
         "type": "fill-blank",
@@ -5058,7 +5058,7 @@
       "areaId": "gymnastik",
       "themeId": "turnen",
       "level": 1,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -5083,7 +5083,7 @@
       "areaId": "gymnastik",
       "themeId": "turnen",
       "level": 1,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -5108,7 +5108,7 @@
       "areaId": "gymnastik",
       "themeId": "turnen",
       "level": 2,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -5133,7 +5133,7 @@
       "areaId": "gymnastik",
       "themeId": "turnen",
       "level": 2,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -5158,7 +5158,7 @@
       "areaId": "gymnastik",
       "themeId": "turnen",
       "level": 3,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -5183,7 +5183,7 @@
       "areaId": "gymnastik",
       "themeId": "turnen",
       "level": 4,
-      "difficulty": "schwer",
+      "difficulty": 3,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -5208,7 +5208,7 @@
       "areaId": "gymnastik",
       "themeId": "turnen",
       "level": 4,
-      "difficulty": "schwer",
+      "difficulty": 3,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -5233,7 +5233,7 @@
       "areaId": "gymnastik",
       "themeId": "turnen",
       "level": 1,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Ergänze das fehlende Wort.",
       "content": {
         "type": "fill-blank",
@@ -5252,7 +5252,7 @@
       "areaId": "gymnastik",
       "themeId": "turnen",
       "level": 1,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Ergänze das fehlende Wort.",
       "content": {
         "type": "fill-blank",
@@ -5271,7 +5271,7 @@
       "areaId": "gymnastik",
       "themeId": "turnen",
       "level": 2,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Ergänze das fehlende Wort.",
       "content": {
         "type": "fill-blank",
@@ -5290,7 +5290,7 @@
       "areaId": "gymnastik",
       "themeId": "turnen",
       "level": 2,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Ergänze das fehlende Wort.",
       "content": {
         "type": "fill-blank",
@@ -5309,7 +5309,7 @@
       "areaId": "gymnastik",
       "themeId": "schwimmen",
       "level": 1,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -5334,7 +5334,7 @@
       "areaId": "gymnastik",
       "themeId": "schwimmen",
       "level": 1,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -5359,7 +5359,7 @@
       "areaId": "gymnastik",
       "themeId": "schwimmen",
       "level": 2,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -5384,7 +5384,7 @@
       "areaId": "gymnastik",
       "themeId": "schwimmen",
       "level": 3,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -5409,7 +5409,7 @@
       "areaId": "gymnastik",
       "themeId": "schwimmen",
       "level": 2,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -5434,7 +5434,7 @@
       "areaId": "gymnastik",
       "themeId": "schwimmen",
       "level": 4,
-      "difficulty": "schwer",
+      "difficulty": 3,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -5459,7 +5459,7 @@
       "areaId": "gymnastik",
       "themeId": "schwimmen",
       "level": 3,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -5484,7 +5484,7 @@
       "areaId": "gymnastik",
       "themeId": "schwimmen",
       "level": 2,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Ergänze das fehlende Wort.",
       "content": {
         "type": "fill-blank",
@@ -5503,7 +5503,7 @@
       "areaId": "gymnastik",
       "themeId": "schwimmen",
       "level": 1,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Ergänze das fehlende Wort.",
       "content": {
         "type": "fill-blank",
@@ -5522,7 +5522,7 @@
       "areaId": "gymnastik",
       "themeId": "schwimmen",
       "level": 2,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Ergänze das fehlende Wort.",
       "content": {
         "type": "fill-blank",
@@ -5541,7 +5541,7 @@
       "areaId": "gymnastik",
       "themeId": "schwimmen",
       "level": 1,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Ergänze das fehlende Wort.",
       "content": {
         "type": "fill-blank",
@@ -5560,7 +5560,7 @@
       "areaId": "gesundheit",
       "themeId": "ernaehrung",
       "level": 2,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -5585,7 +5585,7 @@
       "areaId": "gesundheit",
       "themeId": "ernaehrung",
       "level": 2,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -5610,7 +5610,7 @@
       "areaId": "gesundheit",
       "themeId": "ernaehrung",
       "level": 3,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -5635,7 +5635,7 @@
       "areaId": "gesundheit",
       "themeId": "ernaehrung",
       "level": 2,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -5660,7 +5660,7 @@
       "areaId": "gesundheit",
       "themeId": "ernaehrung",
       "level": 3,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -5685,7 +5685,7 @@
       "areaId": "gesundheit",
       "themeId": "ernaehrung",
       "level": 4,
-      "difficulty": "schwer",
+      "difficulty": 3,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -5710,7 +5710,7 @@
       "areaId": "gesundheit",
       "themeId": "ernaehrung",
       "level": 2,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Ergänze das fehlende Wort.",
       "content": {
         "type": "fill-blank",
@@ -5729,7 +5729,7 @@
       "areaId": "gesundheit",
       "themeId": "ernaehrung",
       "level": 2,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Ergänze das fehlende Wort.",
       "content": {
         "type": "fill-blank",
@@ -5748,7 +5748,7 @@
       "areaId": "gesundheit",
       "themeId": "ernaehrung",
       "level": 3,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Ergänze das fehlende Wort.",
       "content": {
         "type": "fill-blank",
@@ -5767,7 +5767,7 @@
       "areaId": "gesundheit",
       "themeId": "regeln",
       "level": 1,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -5792,7 +5792,7 @@
       "areaId": "gesundheit",
       "themeId": "regeln",
       "level": 1,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -5817,7 +5817,7 @@
       "areaId": "gesundheit",
       "themeId": "regeln",
       "level": 2,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -5842,7 +5842,7 @@
       "areaId": "gesundheit",
       "themeId": "regeln",
       "level": 1,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -5867,7 +5867,7 @@
       "areaId": "gesundheit",
       "themeId": "regeln",
       "level": 3,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -5892,7 +5892,7 @@
       "areaId": "gesundheit",
       "themeId": "regeln",
       "level": 4,
-      "difficulty": "schwer",
+      "difficulty": 3,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -5917,7 +5917,7 @@
       "areaId": "gesundheit",
       "themeId": "regeln",
       "level": 3,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -5942,7 +5942,7 @@
       "areaId": "gesundheit",
       "themeId": "regeln",
       "level": 1,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Wähle die richtige Antwort.",
       "content": {
         "type": "multiple-choice",
@@ -5967,7 +5967,7 @@
       "areaId": "gesundheit",
       "themeId": "regeln",
       "level": 1,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Ergänze das fehlende Wort.",
       "content": {
         "type": "fill-blank",
@@ -5986,7 +5986,7 @@
       "areaId": "gesundheit",
       "themeId": "regeln",
       "level": 1,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Ergänze das fehlende Wort.",
       "content": {
         "type": "fill-blank",
@@ -6005,7 +6005,7 @@
       "areaId": "gesundheit",
       "themeId": "regeln",
       "level": 3,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Ergänze das fehlende Wort.",
       "content": {
         "type": "fill-blank",
@@ -6024,7 +6024,7 @@
       "areaId": "gesundheit",
       "themeId": "regeln",
       "level": 1,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Ergänze das fehlende Wort.",
       "content": {
         "type": "fill-blank",
@@ -6043,7 +6043,7 @@
       "areaId": "leichtathletik",
       "themeId": "laufen",
       "level": 2,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Ordne die Begriffe richtig zu.",
       "content": {
         "type": "matching",
@@ -6078,7 +6078,7 @@
       "areaId": "leichtathletik",
       "themeId": "springen",
       "level": 2,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Ordne die Begriffe richtig zu.",
       "content": {
         "type": "matching",
@@ -6113,7 +6113,7 @@
       "areaId": "spiele",
       "themeId": "fussball",
       "level": 2,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Ordne die Begriffe richtig zu.",
       "content": {
         "type": "matching",
@@ -6148,7 +6148,7 @@
       "areaId": "spiele",
       "themeId": "volleyball",
       "level": 3,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Ordne die Begriffe richtig zu.",
       "content": {
         "type": "matching",
@@ -6183,7 +6183,7 @@
       "areaId": "spiele",
       "themeId": "basketball",
       "level": 3,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Ordne die Begriffe richtig zu.",
       "content": {
         "type": "matching",
@@ -6218,7 +6218,7 @@
       "areaId": "gymnastik",
       "themeId": "turnen",
       "level": 2,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Ordne die Geräte richtig zu.",
       "content": {
         "type": "matching",
@@ -6253,7 +6253,7 @@
       "areaId": "gymnastik",
       "themeId": "schwimmen",
       "level": 2,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Ordne die Schwimmstile richtig zu.",
       "content": {
         "type": "matching",
@@ -6288,7 +6288,7 @@
       "areaId": "gesundheit",
       "themeId": "ernaehrung",
       "level": 3,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Ordne die Nährstoffe richtig zu.",
       "content": {
         "type": "matching",
@@ -6323,7 +6323,7 @@
       "areaId": "gesundheit",
       "themeId": "regeln",
       "level": 2,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Ordne die Begriffe richtig zu.",
       "content": {
         "type": "matching",
@@ -6358,31 +6358,31 @@
       "areaId": "leichtathletik",
       "themeId": "laufen",
       "level": 3,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Sortiere die Laufdistanzen von kurz nach lang.",
       "content": {
         "type": "sorting",
         "categories": [
           {
-            "name": "Kurz",
             "items": [
               "100m Sprint",
               "200m Sprint"
-            ]
+            ],
+            "label": "Kurz"
           },
           {
-            "name": "Mittel",
             "items": [
               "800m Lauf",
               "1500m Lauf"
-            ]
+            ],
+            "label": "Mittel"
           },
           {
-            "name": "Lang",
             "items": [
               "5000m Lauf",
               "Marathon"
-            ]
+            ],
+            "label": "Lang"
           }
         ]
       },
@@ -6398,26 +6398,26 @@
       "areaId": "spiele",
       "themeId": "fussball",
       "level": 2,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Sortiere die Spielaktionen richtig ein.",
       "content": {
         "type": "sorting",
         "categories": [
           {
-            "name": "Angriff",
             "items": [
               "Torschuss",
               "Flanke",
               "Dribbling"
-            ]
+            ],
+            "label": "Angriff"
           },
           {
-            "name": "Abwehr",
             "items": [
               "Tackling",
               "Kopfball klären",
               "Torwartparade"
-            ]
+            ],
+            "label": "Abwehr"
           }
         ]
       },
@@ -6433,29 +6433,29 @@
       "areaId": "gymnastik",
       "themeId": "schwimmen",
       "level": 3,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Sortiere die Schwimmstile nach Geschwindigkeit.",
       "content": {
         "type": "sorting",
         "categories": [
           {
-            "name": "Schnell",
             "items": [
               "Kraulschwimmen",
               "Schmetterling"
-            ]
+            ],
+            "label": "Schnell"
           },
           {
-            "name": "Mittel",
             "items": [
               "Rückenschwimmen"
-            ]
+            ],
+            "label": "Mittel"
           },
           {
-            "name": "Langsam",
             "items": [
               "Brustschwimmen"
-            ]
+            ],
+            "label": "Langsam"
           }
         ]
       },
@@ -6471,34 +6471,34 @@
       "areaId": "gesundheit",
       "themeId": "ernaehrung",
       "level": 3,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Sortiere die Lebensmittel richtig ein.",
       "content": {
         "type": "sorting",
         "categories": [
           {
-            "name": "Kohlenhydrate",
             "items": [
               "Nudeln",
               "Reis",
               "Brot"
-            ]
+            ],
+            "label": "Kohlenhydrate"
           },
           {
-            "name": "Eiweiß",
             "items": [
               "Hühnchen",
               "Eier",
               "Fisch"
-            ]
+            ],
+            "label": "Eiweiß"
           },
           {
-            "name": "Vitamine",
             "items": [
               "Äpfel",
               "Karotten",
               "Orangen"
-            ]
+            ],
+            "label": "Vitamine"
           }
         ]
       },
@@ -6514,30 +6514,30 @@
       "areaId": "gesundheit",
       "themeId": "regeln",
       "level": 2,
-      "difficulty": "leicht",
+      "difficulty": 1,
       "instruction": "Sortiere die Schritte beim Aufwärmen.",
       "content": {
         "type": "sorting",
         "categories": [
           {
-            "name": "Zuerst",
             "items": [
               "Leichtes Joggen",
               "Gelenke kreisen"
-            ]
+            ],
+            "label": "Zuerst"
           },
           {
-            "name": "Dann",
             "items": [
               "Dehnübungen",
               "Leichte Sprünge"
-            ]
+            ],
+            "label": "Dann"
           },
           {
-            "name": "Zuletzt",
             "items": [
               "Sportartspezifische Übungen"
-            ]
+            ],
+            "label": "Zuletzt"
           }
         ]
       },
@@ -6553,31 +6553,31 @@
       "areaId": "gymnastik",
       "themeId": "turnen",
       "level": 3,
-      "difficulty": "mittel",
+      "difficulty": 2,
       "instruction": "Sortiere die Übungen nach Schwierigkeit.",
       "content": {
         "type": "sorting",
         "categories": [
           {
-            "name": "Einfach",
             "items": [
               "Rolle vorwärts",
               "Purzelbaum"
-            ]
+            ],
+            "label": "Einfach"
           },
           {
-            "name": "Mittel",
             "items": [
               "Rad",
               "Handstand"
-            ]
+            ],
+            "label": "Mittel"
           },
           {
-            "name": "Schwer",
             "items": [
               "Flickflack",
               "Salto"
-            ]
+            ],
+            "label": "Schwer"
           }
         ]
       },

@@ -1275,10 +1275,15 @@
         "type": "sorting",
         "categories": [
           {
-            "label": "Algorithmus: Nudeln kochen",
+            "label": "Vorbereitung",
             "items": [
               "Wasser in Topf füllen",
-              "Wasser zum Kochen bringen",
+              "Wasser zum Kochen bringen"
+            ]
+          },
+          {
+            "label": "Kochen",
+            "items": [
               "Nudeln hinzufügen",
               "Nudeln abgießen"
             ]
@@ -2310,9 +2315,14 @@
         "type": "sorting",
         "categories": [
           {
-            "label": "URL-Bestandteile in Reihenfolge",
+            "label": "Protokoll",
             "items": [
-              "https://",
+              "https://"
+            ]
+          },
+          {
+            "label": "Adresse",
+            "items": [
               "www.",
               "beispiel",
               ".at"
