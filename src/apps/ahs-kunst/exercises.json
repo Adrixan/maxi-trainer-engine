@@ -228,6 +228,3085 @@
       ],
       "feedbackCorrect": "Richtig! Farben!",
       "feedbackIncorrect": "Farben, Formen, Komposition, Stil sind wichtig."
+    },
+    {
+      "id": "ahs-kunst-k1-farb-002",
+      "type": "fill-blank",
+      "areaId": "grundlagen",
+      "themeId": "farben",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Welche Farbe entsteht beim Mischen von Rot und Gelb?",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Wenn man Rot und Gelb mischt, entsteht {{blank}}.",
+        "correctAnswer": "Orange",
+        "acceptableAnswers": [
+          "orange"
+        ]
+      },
+      "hints": [
+        "Denke an eine Frucht"
+      ],
+      "feedbackCorrect": "Richtig! Orange entsteht aus Rot und Gelb!",
+      "feedbackIncorrect": "Rot + Gelb = Orange."
+    },
+    {
+      "id": "ahs-kunst-k1-farb-003",
+      "type": "multiple-choice",
+      "areaId": "grundlagen",
+      "themeId": "farben",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Welche Farbe entsteht aus Rot und Blau?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Rot + Blau ergibt:",
+        "options": [
+          "Grün",
+          "Orange",
+          "Violett",
+          "Braun"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Denke an eine dunkle Mischfarbe"
+      ],
+      "feedbackCorrect": "Richtig! Violett!",
+      "feedbackIncorrect": "Rot und Blau ergeben Violett."
+    },
+    {
+      "id": "ahs-kunst-k1-farb-004",
+      "type": "matching",
+      "areaId": "grundlagen",
+      "themeId": "farben",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ordne die Farbmischungen richtig zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Rot + Gelb",
+            "right": "Orange"
+          },
+          {
+            "left": "Rot + Blau",
+            "right": "Violett"
+          },
+          {
+            "left": "Gelb + Blau",
+            "right": "Grün"
+          }
+        ]
+      },
+      "hints": [
+        "Primärfarben mischen"
+      ],
+      "feedbackCorrect": "Sehr gut! Alle Mischungen stimmen!",
+      "feedbackIncorrect": "Rot+Gelb=Orange, Rot+Blau=Violett, Gelb+Blau=Grün."
+    },
+    {
+      "id": "ahs-kunst-k1-farb-005",
+      "type": "sorting",
+      "areaId": "grundlagen",
+      "themeId": "farben",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Sortiere die Farben in warme und kalte Farben.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Warme Farben",
+            "items": [
+              "Rot",
+              "Orange",
+              "Gelb"
+            ]
+          },
+          {
+            "label": "Kalte Farben",
+            "items": [
+              "Blau",
+              "Grün",
+              "Violett"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Feuer ist warm, Eis ist kalt"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Warm: Rot, Orange, Gelb. Kalt: Blau, Grün, Violett."
+    },
+    {
+      "id": "ahs-kunst-k1-farb-006",
+      "type": "fill-blank",
+      "areaId": "grundlagen",
+      "themeId": "farben",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Welche Farbe entsteht beim Mischen von Gelb und Blau?",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Gelb und Blau ergeben die Farbe {{blank}}.",
+        "correctAnswer": "Grün",
+        "acceptableAnswers": [
+          "grün"
+        ]
+      },
+      "hints": [
+        "Denke an die Natur"
+      ],
+      "feedbackCorrect": "Richtig! Grün!",
+      "feedbackIncorrect": "Gelb + Blau = Grün."
+    },
+    {
+      "id": "ahs-kunst-k1-farb-007",
+      "type": "multiple-choice",
+      "areaId": "grundlagen",
+      "themeId": "farben",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Wie viele Primärfarben gibt es?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Anzahl der Primärfarben:",
+        "options": [
+          "Zwei",
+          "Drei",
+          "Vier",
+          "Fünf"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Rot, Gelb und ..."
+      ],
+      "feedbackCorrect": "Richtig! Es gibt drei Primärfarben!",
+      "feedbackIncorrect": "Es gibt drei Primärfarben: Rot, Gelb, Blau."
+    },
+    {
+      "id": "ahs-kunst-k2-farb-001",
+      "type": "multiple-choice",
+      "areaId": "grundlagen",
+      "themeId": "farben",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Was sind Komplementärfarben?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Komplementärfarben sind:",
+        "options": [
+          "Farben, die nebeneinander im Farbkreis liegen",
+          "Farben, die sich im Farbkreis gegenüberliegen",
+          "Farben, die gleich aussehen",
+          "Farben, die nur aus Schwarz und Weiß bestehen"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Sie liegen sich gegenüber"
+      ],
+      "feedbackCorrect": "Richtig! Komplementärfarben liegen sich im Farbkreis gegenüber!",
+      "feedbackIncorrect": "Komplementärfarben liegen sich im Farbkreis gegenüber (z.B. Rot–Grün)."
+    },
+    {
+      "id": "ahs-kunst-k2-farb-002",
+      "type": "matching",
+      "areaId": "grundlagen",
+      "themeId": "farben",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die Komplementärfarben einander zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Rot",
+            "right": "Grün"
+          },
+          {
+            "left": "Blau",
+            "right": "Orange"
+          },
+          {
+            "left": "Gelb",
+            "right": "Violett"
+          }
+        ]
+      },
+      "hints": [
+        "Im Farbkreis gegenüber"
+      ],
+      "feedbackCorrect": "Richtig! Alle Komplementärpaare stimmen!",
+      "feedbackIncorrect": "Rot–Grün, Blau–Orange, Gelb–Violett."
+    },
+    {
+      "id": "ahs-kunst-k2-farb-003",
+      "type": "fill-blank",
+      "areaId": "grundlagen",
+      "themeId": "farben",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Ergänze den Satz über den Farbkreis.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Im Farbkreis stehen sich {{blank}} gegenüber.",
+        "correctAnswer": "Komplementärfarben",
+        "acceptableAnswers": [
+          "komplementärfarben"
+        ]
+      },
+      "hints": [
+        "Gegensätzliche Farben"
+      ],
+      "feedbackCorrect": "Richtig! Komplementärfarben!",
+      "feedbackIncorrect": "Im Farbkreis stehen sich Komplementärfarben gegenüber."
+    },
+    {
+      "id": "ahs-kunst-k2-farb-004",
+      "type": "sorting",
+      "areaId": "grundlagen",
+      "themeId": "farben",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Sortiere die Farben in Primär- und Sekundärfarben.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Primärfarben",
+            "items": [
+              "Rot",
+              "Gelb",
+              "Blau"
+            ]
+          },
+          {
+            "label": "Sekundärfarben",
+            "items": [
+              "Orange",
+              "Grün",
+              "Violett"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Primärfarben kann man nicht mischen"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Primär: Rot, Gelb, Blau. Sekundär: Orange, Grün, Violett."
+    },
+    {
+      "id": "ahs-kunst-k2-farb-005",
+      "type": "multiple-choice",
+      "areaId": "grundlagen",
+      "themeId": "farben",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Welche Wirkung haben warme Farben?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Warme Farben wirken:",
+        "options": [
+          "Beruhigend und kühl",
+          "Anregend und einladend",
+          "Traurig und düster",
+          "Neutral und unauffällig"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Denke an Feuer und Sonne"
+      ],
+      "feedbackCorrect": "Richtig! Warme Farben wirken anregend und einladend!",
+      "feedbackIncorrect": "Warme Farben (Rot, Orange, Gelb) wirken anregend und einladend."
+    },
+    {
+      "id": "ahs-kunst-k2-farb-006",
+      "type": "fill-blank",
+      "areaId": "grundlagen",
+      "themeId": "farben",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Welche Farbe ist die Komplementärfarbe von Rot?",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die Komplementärfarbe von Rot ist {{blank}}.",
+        "correctAnswer": "Grün",
+        "acceptableAnswers": [
+          "grün"
+        ]
+      },
+      "hints": [
+        "Im Farbkreis gegenüber von Rot"
+      ],
+      "feedbackCorrect": "Richtig! Grün!",
+      "feedbackIncorrect": "Die Komplementärfarbe von Rot ist Grün."
+    },
+    {
+      "id": "ahs-kunst-k1-form-002",
+      "type": "multiple-choice",
+      "areaId": "grundlagen",
+      "themeId": "formen",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Wie viele Ecken hat ein Dreieck?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Ecken eines Dreiecks:",
+        "options": [
+          "Zwei",
+          "Drei",
+          "Vier",
+          "Fünf"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Der Name verrät es"
+      ],
+      "feedbackCorrect": "Richtig! Ein Dreieck hat drei Ecken!",
+      "feedbackIncorrect": "Ein Dreieck hat drei Ecken."
+    },
+    {
+      "id": "ahs-kunst-k1-form-003",
+      "type": "fill-blank",
+      "areaId": "grundlagen",
+      "themeId": "formen",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ergänze den Satz über das Quadrat.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Ein Quadrat hat {{blank}} gleich lange Seiten.",
+        "correctAnswer": "vier",
+        "acceptableAnswers": [
+          "4"
+        ]
+      },
+      "hints": [
+        "Alle Seiten sind gleich lang"
+      ],
+      "feedbackCorrect": "Richtig! Vier gleich lange Seiten!",
+      "feedbackIncorrect": "Ein Quadrat hat vier gleich lange Seiten."
+    },
+    {
+      "id": "ahs-kunst-k1-form-004",
+      "type": "sorting",
+      "areaId": "grundlagen",
+      "themeId": "formen",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Sortiere die Formen in Formen mit Ecken und Formen ohne Ecken.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Mit Ecken",
+            "items": [
+              "Dreieck",
+              "Quadrat",
+              "Rechteck"
+            ]
+          },
+          {
+            "label": "Ohne Ecken",
+            "items": [
+              "Kreis",
+              "Oval"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Runde Formen haben keine Ecken"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Kreis und Oval haben keine Ecken, Dreieck, Quadrat und Rechteck schon."
+    },
+    {
+      "id": "ahs-kunst-k1-form-005",
+      "type": "multiple-choice",
+      "areaId": "grundlagen",
+      "themeId": "formen",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Welche Form hat keine Ecken?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Ohne Ecken:",
+        "options": [
+          "Quadrat",
+          "Dreieck",
+          "Kreis",
+          "Rechteck"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Rund und gleichmäßig"
+      ],
+      "feedbackCorrect": "Richtig! Der Kreis hat keine Ecken!",
+      "feedbackIncorrect": "Ein Kreis ist rund und hat keine Ecken."
+    },
+    {
+      "id": "ahs-kunst-k1-form-006",
+      "type": "matching",
+      "areaId": "grundlagen",
+      "themeId": "formen",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ordne die Formen der richtigen Anzahl an Ecken zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Dreieck",
+            "right": "3 Ecken"
+          },
+          {
+            "left": "Quadrat",
+            "right": "4 Ecken"
+          },
+          {
+            "left": "Fünfeck",
+            "right": "5 Ecken"
+          }
+        ]
+      },
+      "hints": [
+        "Zähle die Ecken"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Dreieck=3, Quadrat=4, Fünfeck=5 Ecken."
+    },
+    {
+      "id": "ahs-kunst-k2-form-001",
+      "type": "multiple-choice",
+      "areaId": "grundlagen",
+      "themeId": "formen",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Welche 3D-Form entsteht aus einem Kreis?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "3D-Form aus einem Kreis:",
+        "options": [
+          "Würfel",
+          "Zylinder",
+          "Kugel",
+          "Kegel"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Rund in alle Richtungen"
+      ],
+      "feedbackCorrect": "Richtig! Eine Kugel ist die 3D-Form eines Kreises!",
+      "feedbackIncorrect": "Die Kugel ist die dreidimensionale Form eines Kreises."
+    },
+    {
+      "id": "ahs-kunst-k2-form-002",
+      "type": "matching",
+      "areaId": "grundlagen",
+      "themeId": "formen",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die 2D-Formen ihren 3D-Entsprechungen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Kreis",
+            "right": "Kugel"
+          },
+          {
+            "left": "Quadrat",
+            "right": "Würfel"
+          },
+          {
+            "left": "Dreieck",
+            "right": "Pyramide"
+          },
+          {
+            "left": "Rechteck",
+            "right": "Quader"
+          }
+        ]
+      },
+      "hints": [
+        "Stelle dir vor, die Form wird räumlich"
+      ],
+      "feedbackCorrect": "Richtig! Alle Zuordnungen stimmen!",
+      "feedbackIncorrect": "Kreis→Kugel, Quadrat→Würfel, Dreieck→Pyramide, Rechteck→Quader."
+    },
+    {
+      "id": "ahs-kunst-k2-form-003",
+      "type": "fill-blank",
+      "areaId": "grundlagen",
+      "themeId": "formen",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Was bedeutet Symmetrie?",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Bei einer {{blank}} Figur sind beide Hälften spiegelgleich.",
+        "correctAnswer": "symmetrischen",
+        "acceptableAnswers": [
+          "symmetrisch"
+        ]
+      },
+      "hints": [
+        "Spiegelachse"
+      ],
+      "feedbackCorrect": "Richtig! Symmetrisch bedeutet spiegelgleich!",
+      "feedbackIncorrect": "Bei einer symmetrischen Figur sind beide Hälften spiegelgleich."
+    },
+    {
+      "id": "ahs-kunst-k2-form-004",
+      "type": "sorting",
+      "areaId": "grundlagen",
+      "themeId": "formen",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Sortiere die Formen in geometrische und organische Formen.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Geometrisch",
+            "items": [
+              "Quadrat",
+              "Dreieck",
+              "Kreis"
+            ]
+          },
+          {
+            "label": "Organisch",
+            "items": [
+              "Blattform",
+              "Wolkenform",
+              "Baumkrone"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Regelmäßig vs. natürlich"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Geometrisch: regelmäßig (Quadrat, Dreieck). Organisch: natürlich (Blatt, Wolke)."
+    },
+    {
+      "id": "ahs-kunst-k2-form-005",
+      "type": "multiple-choice",
+      "areaId": "grundlagen",
+      "themeId": "formen",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Was bedeutet Symmetrie in der Kunst?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Symmetrie bedeutet:",
+        "options": [
+          "Ungleichmäßige Verteilung",
+          "Spiegelgleichheit entlang einer Achse",
+          "Nur runde Formen",
+          "Verschiedene Farben verwenden"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Denke an einen Spiegel"
+      ],
+      "feedbackCorrect": "Richtig! Symmetrie bedeutet Spiegelgleichheit!",
+      "feedbackIncorrect": "Symmetrie: Beide Hälften einer Form sind spiegelgleich."
+    },
+    {
+      "id": "ahs-kunst-k2-form-006",
+      "type": "fill-blank",
+      "areaId": "grundlagen",
+      "themeId": "formen",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Benenne die 3D-Form eines Kreises.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die dreidimensionale Form eines Kreises heißt {{blank}}.",
+        "correctAnswer": "Kugel",
+        "acceptableAnswers": [
+          "kugel"
+        ]
+      },
+      "hints": [
+        "Rund wie ein Ball"
+      ],
+      "feedbackCorrect": "Richtig! Die Kugel!",
+      "feedbackIncorrect": "Die 3D-Form eines Kreises ist die Kugel."
+    },
+    {
+      "id": "ahs-kunst-k2-form-007",
+      "type": "matching",
+      "areaId": "grundlagen",
+      "themeId": "formen",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die 3D-Formen ihren Beschreibungen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Würfel",
+            "right": "Sechs gleiche quadratische Flächen"
+          },
+          {
+            "left": "Zylinder",
+            "right": "Zwei kreisförmige Grundflächen"
+          },
+          {
+            "left": "Kegel",
+            "right": "Eine Spitze und eine runde Grundfläche"
+          },
+          {
+            "left": "Kugel",
+            "right": "Überall gleich rund"
+          }
+        ]
+      },
+      "hints": [
+        "Denke an die Form im Raum"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Würfel=6 Quadrate, Zylinder=2 Kreise, Kegel=Spitze+Kreis, Kugel=rund."
+    },
+    {
+      "id": "ahs-kunst-k1-zeich-002",
+      "type": "fill-blank",
+      "areaId": "techniken",
+      "themeId": "zeichnen",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ergänze den Satz über Bleistifte.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Ein {{blank}} Bleistift (z.B. 6B) erzeugt dunklere Linien.",
+        "correctAnswer": "weicher",
+        "acceptableAnswers": [
+          "Weicher"
+        ]
+      },
+      "hints": [
+        "Hart vs. weich"
+      ],
+      "feedbackCorrect": "Richtig! Weiche Bleistifte zeichnen dunkler!",
+      "feedbackIncorrect": "Weiche Bleistifte (B-Reihe) erzeugen dunklere Linien."
+    },
+    {
+      "id": "ahs-kunst-k1-zeich-003",
+      "type": "matching",
+      "areaId": "techniken",
+      "themeId": "zeichnen",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ordne die Bleistifthärten den Eigenschaften zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "H-Bleistifte",
+            "right": "Hart, helle Linien"
+          },
+          {
+            "left": "B-Bleistifte",
+            "right": "Weich, dunkle Linien"
+          },
+          {
+            "left": "HB-Bleistift",
+            "right": "Mittelhart"
+          }
+        ]
+      },
+      "hints": [
+        "H=Hard, B=Black"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "H=hart/hell, B=weich/dunkel, HB=mittel."
+    },
+    {
+      "id": "ahs-kunst-k1-zeich-004",
+      "type": "sorting",
+      "areaId": "techniken",
+      "themeId": "zeichnen",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Sortiere die Bleistifte nach Härtegrad.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Hart (helle Linien)",
+            "items": [
+              "2H",
+              "H"
+            ]
+          },
+          {
+            "label": "Mittel",
+            "items": [
+              "HB"
+            ]
+          },
+          {
+            "label": "Weich (dunkle Linien)",
+            "items": [
+              "2B",
+              "6B"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "H = hart, B = weich"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "2H, H = hart; HB = mittel; 2B, 6B = weich."
+    },
+    {
+      "id": "ahs-kunst-k1-zeich-005",
+      "type": "multiple-choice",
+      "areaId": "techniken",
+      "themeId": "zeichnen",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Wofür steht das B bei Bleistiften?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "B steht für:",
+        "options": [
+          "Bright",
+          "Black",
+          "Blue",
+          "Brown"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Weiche Bleistifte zeichnen dunkel"
+      ],
+      "feedbackCorrect": "Richtig! B steht für Black!",
+      "feedbackIncorrect": "B steht für Black (schwarz) und bedeutet weich."
+    },
+    {
+      "id": "ahs-kunst-k2-zeich-001",
+      "type": "multiple-choice",
+      "areaId": "techniken",
+      "themeId": "zeichnen",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Was ist eine Schraffur?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Schraffur:",
+        "options": [
+          "Ein Farbverlauf",
+          "Parallele Linien zur Darstellung von Schatten",
+          "Ein Muster aus Punkten",
+          "Eine Maltechnik mit Pinsel"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Parallele Striche"
+      ],
+      "feedbackCorrect": "Richtig! Schraffur besteht aus parallelen Linien!",
+      "feedbackIncorrect": "Bei einer Schraffur werden parallele Linien gezeichnet, um Schatten darzustellen."
+    },
+    {
+      "id": "ahs-kunst-k2-zeich-002",
+      "type": "fill-blank",
+      "areaId": "techniken",
+      "themeId": "zeichnen",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Was ist eine Kreuzschraffur?",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Bei einer {{blank}} kreuzen sich zwei Schraffurrichtungen.",
+        "correctAnswer": "Kreuzschraffur",
+        "acceptableAnswers": [
+          "kreuzschraffur"
+        ]
+      },
+      "hints": [
+        "Zwei Richtungen übereinander"
+      ],
+      "feedbackCorrect": "Richtig! Kreuzschraffur!",
+      "feedbackIncorrect": "Bei der Kreuzschraffur werden zwei Schraffuren übereinandergelegt."
+    },
+    {
+      "id": "ahs-kunst-k2-zeich-003",
+      "type": "matching",
+      "areaId": "techniken",
+      "themeId": "zeichnen",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die Zeichentechniken den Beschreibungen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Schraffur",
+            "right": "Parallele Linien"
+          },
+          {
+            "left": "Kreuzschraffur",
+            "right": "Gekreuzte Linien"
+          },
+          {
+            "left": "Verwischen",
+            "right": "Weiche Übergänge"
+          },
+          {
+            "left": "Punktierung",
+            "right": "Viele kleine Punkte"
+          }
+        ]
+      },
+      "hints": [
+        "Verschiedene Techniken für Schattierung"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Schraffur=parallel, Kreuzschraffur=gekreuzt, Verwischen=weich, Punktierung=Punkte."
+    },
+    {
+      "id": "ahs-kunst-k2-zeich-004",
+      "type": "sorting",
+      "areaId": "techniken",
+      "themeId": "zeichnen",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Sortiere die Materialien in Zeichenmaterialien und Malmaterialien.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Zeichenmaterialien",
+            "items": [
+              "Bleistift",
+              "Kohle",
+              "Graphit"
+            ]
+          },
+          {
+            "label": "Malmaterialien",
+            "items": [
+              "Aquarell",
+              "Ölfarbe",
+              "Acrylfarbe"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Trocken vs. nass"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Zeichnen: Bleistift, Kohle, Graphit. Malen: Aquarell, Ölfarbe, Acryl."
+    },
+    {
+      "id": "ahs-kunst-k3-zeich-001",
+      "type": "multiple-choice",
+      "areaId": "techniken",
+      "themeId": "zeichnen",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Was ist ein Fluchtpunkt in der Perspektive?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Fluchtpunkt:",
+        "options": [
+          "Der hellste Punkt im Bild",
+          "Der Punkt, an dem parallele Linien zusammenlaufen",
+          "Der Mittelpunkt des Blattes",
+          "Der Punkt, an dem man anfängt zu zeichnen"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Perspektive und Tiefe"
+      ],
+      "feedbackCorrect": "Richtig! Am Fluchtpunkt laufen parallele Linien zusammen!",
+      "feedbackIncorrect": "Der Fluchtpunkt ist der Punkt, an dem parallele Linien optisch zusammenlaufen."
+    },
+    {
+      "id": "ahs-kunst-k3-zeich-002",
+      "type": "fill-blank",
+      "areaId": "techniken",
+      "themeId": "zeichnen",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Ergänze den Satz über Proportionen.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "In der Zeichnung bezeichnet man das Größenverhältnis von Teilen zueinander als {{blank}}.",
+        "correctAnswer": "Proportion",
+        "acceptableAnswers": [
+          "Proportionen",
+          "proportion"
+        ]
+      },
+      "hints": [
+        "Verhältnis der Größen"
+      ],
+      "feedbackCorrect": "Richtig! Proportion!",
+      "feedbackIncorrect": "Proportion beschreibt das Größenverhältnis von Teilen zueinander."
+    },
+    {
+      "id": "ahs-kunst-k3-zeich-003",
+      "type": "matching",
+      "areaId": "techniken",
+      "themeId": "zeichnen",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Ordne die Perspektivarten den Beschreibungen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Zentralperspektive",
+            "right": "Ein Fluchtpunkt"
+          },
+          {
+            "left": "Zweipunktperspektive",
+            "right": "Zwei Fluchtpunkte"
+          },
+          {
+            "left": "Vogelperspektive",
+            "right": "Blick von oben"
+          },
+          {
+            "left": "Froschperspektive",
+            "right": "Blick von unten"
+          }
+        ]
+      },
+      "hints": [
+        "Verschiedene Blickwinkel"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Zentralperspektive=1 FP, Zweipunkt=2 FP, Vogel=oben, Frosch=unten."
+    },
+    {
+      "id": "ahs-kunst-k3-zeich-004",
+      "type": "sorting",
+      "areaId": "techniken",
+      "themeId": "zeichnen",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Sortiere die Zeichenschritte in die richtige Reihenfolge.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "1. Grundformen",
+            "items": [
+              "Grundform skizzieren",
+              "Proportionen festlegen"
+            ]
+          },
+          {
+            "label": "2. Details",
+            "items": [
+              "Feine Linien zeichnen",
+              "Schraffuren hinzufügen"
+            ]
+          },
+          {
+            "label": "3. Ausarbeitung",
+            "items": [
+              "Kontraste verstärken",
+              "Letzte Details ergänzen"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Vom Groben zum Feinen"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Erst Grundformen, dann Details, zuletzt Ausarbeitung."
+    },
+    {
+      "id": "ahs-kunst-k2-malen-002",
+      "type": "fill-blank",
+      "areaId": "techniken",
+      "themeId": "malen",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Ergänze den Satz über Ölmalerei.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Bei der Ölmalerei werden Pigmente mit {{blank}} als Bindemittel gemischt.",
+        "correctAnswer": "Öl",
+        "acceptableAnswers": [
+          "öl",
+          "Leinöl"
+        ]
+      },
+      "hints": [
+        "Das Bindemittel gibt der Technik ihren Namen"
+      ],
+      "feedbackCorrect": "Richtig! Öl ist das Bindemittel!",
+      "feedbackIncorrect": "Bei der Ölmalerei wird Öl (meist Leinöl) als Bindemittel verwendet."
+    },
+    {
+      "id": "ahs-kunst-k2-malen-003",
+      "type": "matching",
+      "areaId": "techniken",
+      "themeId": "malen",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die Maltechniken den Eigenschaften zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Aquarell",
+            "right": "Wasserlöslich, transparent"
+          },
+          {
+            "left": "Ölfarbe",
+            "right": "Langsam trocknend, deckend"
+          },
+          {
+            "left": "Acrylfarbe",
+            "right": "Schnell trocknend, vielseitig"
+          },
+          {
+            "left": "Gouache",
+            "right": "Wasserlöslich, deckend"
+          }
+        ]
+      },
+      "hints": [
+        "Jede Technik hat besondere Eigenschaften"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Aquarell=transparent, Öl=langsam, Acryl=schnell, Gouache=deckend."
+    },
+    {
+      "id": "ahs-kunst-k2-malen-004",
+      "type": "sorting",
+      "areaId": "techniken",
+      "themeId": "malen",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Sortiere die Farben nach ihrem Bindemittel.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Wasserbasiert",
+            "items": [
+              "Aquarell",
+              "Gouache",
+              "Acrylfarbe"
+            ]
+          },
+          {
+            "label": "Ölbasiert",
+            "items": [
+              "Ölfarbe",
+              "Ölpastell"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Wasser oder Öl als Lösungsmittel"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Wasserbasiert: Aquarell, Gouache, Acryl. Ölbasiert: Ölfarbe, Ölpastell."
+    },
+    {
+      "id": "ahs-kunst-k2-malen-005",
+      "type": "multiple-choice",
+      "areaId": "techniken",
+      "themeId": "malen",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Was ist Acrylfarbe?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Acrylfarbe ist:",
+        "options": [
+          "Eine nur mit Öl lösbare Farbe",
+          "Eine schnell trocknende, wasserbasierte Farbe",
+          "Eine Farbe nur für Papier",
+          "Eine natürliche Erdfarbe"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Schnell trocknend"
+      ],
+      "feedbackCorrect": "Richtig! Acrylfarbe trocknet schnell und ist wasserbasiert!",
+      "feedbackIncorrect": "Acrylfarbe ist wasserbasiert und trocknet schnell."
+    },
+    {
+      "id": "ahs-kunst-k2-malen-006",
+      "type": "fill-blank",
+      "areaId": "techniken",
+      "themeId": "malen",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ergänze den Satz über Gouache.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "{{blank}} ist eine deckende, wasserlösliche Farbe.",
+        "correctAnswer": "Gouache",
+        "acceptableAnswers": [
+          "gouache"
+        ]
+      },
+      "hints": [
+        "Deckend und wasserlöslich"
+      ],
+      "feedbackCorrect": "Richtig! Gouache!",
+      "feedbackIncorrect": "Gouache ist eine deckende, wasserlösliche Farbe."
+    },
+    {
+      "id": "ahs-kunst-k3-malen-001",
+      "type": "multiple-choice",
+      "areaId": "techniken",
+      "themeId": "malen",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Was bedeutet die Nass-in-Nass-Technik?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Nass-in-Nass:",
+        "options": [
+          "Man malt auf trockenes Papier",
+          "Man malt nasse Farbe auf noch nasse Farbe",
+          "Man mischt Farben nur auf der Palette",
+          "Man benutzt nur Wasserfarben"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Nass auf nass"
+      ],
+      "feedbackCorrect": "Richtig! Nasse Farbe wird auf noch nasse Farbe aufgetragen!",
+      "feedbackIncorrect": "Bei Nass-in-Nass wird nasse Farbe auf noch nasse Farbe gemalt."
+    },
+    {
+      "id": "ahs-kunst-k3-malen-002",
+      "type": "fill-blank",
+      "areaId": "techniken",
+      "themeId": "malen",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Ergänze den Satz über die Lasurtechnik.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Bei der {{blank}} werden dünne, transparente Farbschichten übereinandergelegt.",
+        "correctAnswer": "Lasurtechnik",
+        "acceptableAnswers": [
+          "Lasur",
+          "lasurtechnik"
+        ]
+      },
+      "hints": [
+        "Transparente Schichten"
+      ],
+      "feedbackCorrect": "Richtig! Die Lasurtechnik!",
+      "feedbackIncorrect": "Bei der Lasurtechnik werden transparente Farbschichten übereinandergelegt."
+    },
+    {
+      "id": "ahs-kunst-k3-malen-003",
+      "type": "matching",
+      "areaId": "techniken",
+      "themeId": "malen",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Ordne die Pinselarten ihren Verwendungen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Rundpinsel",
+            "right": "Details und feine Linien"
+          },
+          {
+            "left": "Flachpinsel",
+            "right": "Große Flächen und Striche"
+          },
+          {
+            "left": "Fächerpinsel",
+            "right": "Weiche Übergänge und Texturen"
+          },
+          {
+            "left": "Katzenzungenpinsel",
+            "right": "Sowohl Flächen als auch Details"
+          }
+        ]
+      },
+      "hints": [
+        "Verschiedene Pinsel für verschiedene Zwecke"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Rund=Details, Flach=Flächen, Fächer=Übergänge, Katzenzunge=vielseitig."
+    },
+    {
+      "id": "ahs-kunst-k3-malen-004",
+      "type": "sorting",
+      "areaId": "techniken",
+      "themeId": "malen",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Sortiere die Farben nach ihrer Trocknungszeit.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Schnell trocknend",
+            "items": [
+              "Acrylfarbe",
+              "Gouache"
+            ]
+          },
+          {
+            "label": "Mittel",
+            "items": [
+              "Aquarell",
+              "Tempera"
+            ]
+          },
+          {
+            "label": "Langsam trocknend",
+            "items": [
+              "Ölfarbe"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Öl trocknet am langsamsten"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Acryl trocknet schnell, Aquarell mittel, Ölfarbe sehr langsam."
+    },
+    {
+      "id": "ahs-kunst-k3-malen-005",
+      "type": "multiple-choice",
+      "areaId": "techniken",
+      "themeId": "malen",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Was ist Tempera-Malerei?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Tempera:",
+        "options": [
+          "Farbe mit Ei als Bindemittel",
+          "Farbe nur aus Wasser",
+          "Farbe aus Kunstharz",
+          "Farbe aus Wachs"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Ein tierisches Produkt als Bindemittel"
+      ],
+      "feedbackCorrect": "Richtig! Tempera verwendet Ei als Bindemittel!",
+      "feedbackIncorrect": "Bei Tempera wird Eigelb oder Vollei als Bindemittel verwendet."
+    },
+    {
+      "id": "ahs-kunst-k3-malen-006",
+      "type": "fill-blank",
+      "areaId": "techniken",
+      "themeId": "malen",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Wie heißt die Technik, bei der Farbe dick aufgetragen wird?",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Beim {{blank}} wird Farbe in dicken Schichten mit dem Spachtel oder Pinsel aufgetragen.",
+        "correctAnswer": "Impasto",
+        "acceptableAnswers": [
+          "impasto"
+        ]
+      },
+      "hints": [
+        "Dick und pastös"
+      ],
+      "feedbackCorrect": "Richtig! Impasto!",
+      "feedbackIncorrect": "Impasto ist eine Technik, bei der Farbe sehr dick aufgetragen wird."
+    },
+    {
+      "id": "ahs-kunst-k3-malen-007",
+      "type": "matching",
+      "areaId": "techniken",
+      "themeId": "malen",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Ordne die Farbtypen ihren Bindemitteln zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Aquarell",
+            "right": "Gummi arabicum"
+          },
+          {
+            "left": "Ölfarbe",
+            "right": "Leinöl"
+          },
+          {
+            "left": "Tempera",
+            "right": "Eigelb"
+          },
+          {
+            "left": "Acrylfarbe",
+            "right": "Kunststoffdispersion"
+          }
+        ]
+      },
+      "hints": [
+        "Jede Farbe hat ein anderes Bindemittel"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Aquarell=Gummi arabicum, Öl=Leinöl, Tempera=Ei, Acryl=Kunststoff."
+    },
+    {
+      "id": "ahs-kunst-k2-antik-002",
+      "type": "fill-blank",
+      "areaId": "geschichte",
+      "themeId": "antik",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Wie heißt der berühmte griechische Tempel auf der Akropolis?",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Der berühmteste Tempel auf der Akropolis in Athen heißt {{blank}}.",
+        "correctAnswer": "Parthenon",
+        "acceptableAnswers": [
+          "parthenon"
+        ]
+      },
+      "hints": [
+        "Auf der Akropolis in Athen"
+      ],
+      "feedbackCorrect": "Richtig! Der Parthenon!",
+      "feedbackIncorrect": "Der Parthenon ist der berühmteste Tempel auf der Akropolis in Athen."
+    },
+    {
+      "id": "ahs-kunst-k2-antik-003",
+      "type": "matching",
+      "areaId": "geschichte",
+      "themeId": "antik",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die antiken Kulturen ihren Kunstwerken zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Ägypten",
+            "right": "Pyramiden und Sphinx"
+          },
+          {
+            "left": "Griechenland",
+            "right": "Tempel und Skulpturen"
+          },
+          {
+            "left": "Rom",
+            "right": "Kolosseum und Triumphbögen"
+          }
+        ]
+      },
+      "hints": [
+        "Verschiedene Hochkulturen"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Ägypten=Pyramiden, Griechenland=Tempel, Rom=Kolosseum."
+    },
+    {
+      "id": "ahs-kunst-k2-antik-004",
+      "type": "sorting",
+      "areaId": "geschichte",
+      "themeId": "antik",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Sortiere die Bauwerke nach griechisch oder römisch.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Griechisch",
+            "items": [
+              "Parthenon",
+              "Olympia-Tempel"
+            ]
+          },
+          {
+            "label": "Römisch",
+            "items": [
+              "Kolosseum",
+              "Pantheon",
+              "Triumphbogen"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Griechenland und Rom"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Griechisch: Parthenon, Olympia. Römisch: Kolosseum, Pantheon, Triumphbogen."
+    },
+    {
+      "id": "ahs-kunst-k2-antik-005",
+      "type": "multiple-choice",
+      "areaId": "geschichte",
+      "themeId": "antik",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Was ist ein Mosaik?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Ein Mosaik ist:",
+        "options": [
+          "Ein großes Gemälde an der Wand",
+          "Ein Bild aus kleinen Steinen oder Glasstücken",
+          "Eine Skulptur aus Bronze",
+          "Ein gewebter Teppich"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Kleine Teile ergeben ein Bild"
+      ],
+      "feedbackCorrect": "Richtig! Ein Mosaik besteht aus kleinen Steinen oder Glasstücken!",
+      "feedbackIncorrect": "Ein Mosaik ist ein Bild aus vielen kleinen Steinen oder Glasstücken."
+    },
+    {
+      "id": "ahs-kunst-k2-antik-006",
+      "type": "fill-blank",
+      "areaId": "geschichte",
+      "themeId": "antik",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Nenne die drei griechischen Säulenordnungen.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die drei griechischen Säulenordnungen sind dorisch, ionisch und {{blank}}.",
+        "correctAnswer": "korinthisch",
+        "acceptableAnswers": [
+          "Korinthisch"
+        ]
+      },
+      "hints": [
+        "Die prächtigste Säulenordnung"
+      ],
+      "feedbackCorrect": "Richtig! Korinthisch!",
+      "feedbackIncorrect": "Die drei Säulenordnungen sind: dorisch, ionisch, korinthisch."
+    },
+    {
+      "id": "ahs-kunst-k3-antik-001",
+      "type": "multiple-choice",
+      "areaId": "geschichte",
+      "themeId": "antik",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Welche Säulenordnung hat ein glattes Kapitell ohne Verzierung?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Glatte Säule:",
+        "options": [
+          "Ionisch",
+          "Korinthisch",
+          "Dorisch",
+          "Toskanisch"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Die einfachste Ordnung"
+      ],
+      "feedbackCorrect": "Richtig! Die dorische Säule ist schlicht und ohne Verzierung!",
+      "feedbackIncorrect": "Die dorische Säulenordnung ist die einfachste mit glattem Kapitell."
+    },
+    {
+      "id": "ahs-kunst-k3-antik-002",
+      "type": "fill-blank",
+      "areaId": "geschichte",
+      "themeId": "antik",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Wie heißt die berühmte griechische Skulptur einer Göttin ohne Arme?",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die berühmte armlose Skulptur heißt {{blank}}.",
+        "correctAnswer": "Venus von Milo",
+        "acceptableAnswers": [
+          "Venus von Melos"
+        ]
+      },
+      "hints": [
+        "Eine Göttin, gefunden auf einer griechischen Insel"
+      ],
+      "feedbackCorrect": "Richtig! Die Venus von Milo!",
+      "feedbackIncorrect": "Die Venus von Milo ist eine berühmte griechische Skulptur im Louvre."
+    },
+    {
+      "id": "ahs-kunst-k3-antik-003",
+      "type": "matching",
+      "areaId": "geschichte",
+      "themeId": "antik",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Ordne die Säulenordnungen ihren Merkmalen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Dorisch",
+            "right": "Schlicht, ohne Basis"
+          },
+          {
+            "left": "Ionisch",
+            "right": "Schneckenförmige Voluten"
+          },
+          {
+            "left": "Korinthisch",
+            "right": "Blattförmige Kapitelle"
+          }
+        ]
+      },
+      "hints": [
+        "Einfach, mittel, prächtig"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Dorisch=schlicht, Ionisch=Voluten, Korinthisch=Blätter."
+    },
+    {
+      "id": "ahs-kunst-k3-antik-004",
+      "type": "sorting",
+      "areaId": "geschichte",
+      "themeId": "antik",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Sortiere die antiken Kunstepochen chronologisch.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Früheste Epoche",
+            "items": [
+              "Ägyptische Kunst"
+            ]
+          },
+          {
+            "label": "Mittlere Epoche",
+            "items": [
+              "Griechische Kunst"
+            ]
+          },
+          {
+            "label": "Späteste Epoche",
+            "items": [
+              "Römische Kunst"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Von der ältesten zur jüngsten"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Chronologisch: Ägypten → Griechenland → Rom."
+    },
+    {
+      "id": "ahs-kunst-k3-antik-005",
+      "type": "multiple-choice",
+      "areaId": "geschichte",
+      "themeId": "antik",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Was ist ein Amphitheater?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Amphitheater:",
+        "options": [
+          "Ein runder Tempel",
+          "Ein ovales Freilufttheater für Veranstaltungen",
+          "Ein unterirdisches Grabmal",
+          "Ein öffentliches Bad"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Das Kolosseum ist das bekannteste"
+      ],
+      "feedbackCorrect": "Richtig! Ein Amphitheater ist ein ovales Freilufttheater!",
+      "feedbackIncorrect": "Ein Amphitheater ist ein ovales, offenes Bauwerk für Veranstaltungen."
+    },
+    {
+      "id": "ahs-kunst-k3-antik-006",
+      "type": "fill-blank",
+      "areaId": "geschichte",
+      "themeId": "antik",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Ergänze den Satz über ägyptische Kunst.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "In der ägyptischen Kunst wurden Menschen immer im {{blank}} dargestellt.",
+        "correctAnswer": "Profil",
+        "acceptableAnswers": [
+          "profil",
+          "Seitenprofil"
+        ]
+      },
+      "hints": [
+        "Seitliche Darstellung"
+      ],
+      "feedbackCorrect": "Richtig! Im Profil!",
+      "feedbackIncorrect": "In der ägyptischen Kunst wurden Menschen immer im Profil dargestellt."
+    },
+    {
+      "id": "ahs-kunst-k3-antik-007",
+      "type": "matching",
+      "areaId": "geschichte",
+      "themeId": "antik",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Ordne die antiken Kunstwerke den Kulturen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Sphinx",
+            "right": "Ägypten"
+          },
+          {
+            "left": "Parthenon",
+            "right": "Griechenland"
+          },
+          {
+            "left": "Kolosseum",
+            "right": "Rom"
+          },
+          {
+            "left": "Laokoon-Gruppe",
+            "right": "Griechenland"
+          }
+        ]
+      },
+      "hints": [
+        "Welche Kultur hat was gebaut?"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Sphinx=Ägypten, Parthenon=Griechenland, Kolosseum=Rom."
+    },
+    {
+      "id": "ahs-kunst-k2-mitte-001",
+      "type": "multiple-choice",
+      "areaId": "geschichte",
+      "themeId": "mittelalter",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Was ist Gotik in der Architektur?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Gotik:",
+        "options": [
+          "Ein Baustil mit flachen Dächern",
+          "Ein Baustil mit Spitzbögen und hohen Fenstern",
+          "Ein moderner Baustil",
+          "Ein Baustil nur aus Holz"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Hohe Kirchen, spitze Bögen"
+      ],
+      "feedbackCorrect": "Richtig! Die Gotik ist bekannt für Spitzbögen und hohe Fenster!",
+      "feedbackIncorrect": "Die Gotik zeichnet sich durch Spitzbögen, Kreuzrippengewölbe und hohe Fenster aus."
+    },
+    {
+      "id": "ahs-kunst-k2-mitte-002",
+      "type": "fill-blank",
+      "areaId": "geschichte",
+      "themeId": "mittelalter",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Ergänze den Satz über die Romanik.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die {{blank}} ist ein Baustil mit dicken Mauern und Rundbögen.",
+        "correctAnswer": "Romanik",
+        "acceptableAnswers": [
+          "romanik"
+        ]
+      },
+      "hints": [
+        "Vor der Gotik"
+      ],
+      "feedbackCorrect": "Richtig! Die Romanik!",
+      "feedbackIncorrect": "Die Romanik zeichnet sich durch dicke Mauern und Rundbögen aus."
+    },
+    {
+      "id": "ahs-kunst-k2-mitte-003",
+      "type": "matching",
+      "areaId": "geschichte",
+      "themeId": "mittelalter",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die Baustile den Merkmalen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Romanik",
+            "right": "Rundbögen und dicke Mauern"
+          },
+          {
+            "left": "Gotik",
+            "right": "Spitzbögen und Strebepfeiler"
+          }
+        ]
+      },
+      "hints": [
+        "Zwei mittelalterliche Baustile"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Romanik=Rundbögen, Gotik=Spitzbögen."
+    },
+    {
+      "id": "ahs-kunst-k2-mitte-004",
+      "type": "sorting",
+      "areaId": "geschichte",
+      "themeId": "mittelalter",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Sortiere die Merkmale nach Romanik oder Gotik.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Romanik",
+            "items": [
+              "Rundbögen",
+              "Dicke Mauern",
+              "Kleine Fenster"
+            ]
+          },
+          {
+            "label": "Gotik",
+            "items": [
+              "Spitzbögen",
+              "Große Fenster",
+              "Strebepfeiler"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Romanik ist schwer, Gotik ist leicht"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Romanik: schwer, Rundbögen. Gotik: leicht, Spitzbögen."
+    },
+    {
+      "id": "ahs-kunst-k2-mitte-005",
+      "type": "multiple-choice",
+      "areaId": "geschichte",
+      "themeId": "mittelalter",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Woraus bestehen gotische Kirchenfenster?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Gotische Kirchenfenster:",
+        "options": [
+          "Aus durchsichtigem Glas",
+          "Aus buntem Buntglas (Glasmalerei)",
+          "Aus bemaltem Holz",
+          "Aus Marmor"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Bunt und leuchtend"
+      ],
+      "feedbackCorrect": "Richtig! Gotische Kirchenfenster bestehen aus buntem Buntglas!",
+      "feedbackIncorrect": "Gotische Kirchenfenster sind aus buntem Glas (Glasmalerei) gefertigt."
+    },
+    {
+      "id": "ahs-kunst-k2-mitte-006",
+      "type": "fill-blank",
+      "areaId": "geschichte",
+      "themeId": "mittelalter",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ergänze den Satz über die Freskotechnik.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Ein {{blank}} ist ein Wandgemälde, das auf feuchten Putz gemalt wird.",
+        "correctAnswer": "Fresko",
+        "acceptableAnswers": [
+          "fresko",
+          "Fresco"
+        ]
+      },
+      "hints": [
+        "Gemalt auf die Wand"
+      ],
+      "feedbackCorrect": "Richtig! Ein Fresko!",
+      "feedbackIncorrect": "Ein Fresko wird auf frischen, feuchten Putz gemalt."
+    },
+    {
+      "id": "ahs-kunst-k3-mitte-001",
+      "type": "multiple-choice",
+      "areaId": "geschichte",
+      "themeId": "mittelalter",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Was ist Buchmalerei?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Buchmalerei:",
+        "options": [
+          "Bücher über Malerei",
+          "Handgemalte Illustrationen in mittelalterlichen Büchern",
+          "Moderne Buchcover-Gestaltung",
+          "Gedruckte Bilder in Büchern"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Handschriften und Klöster"
+      ],
+      "feedbackCorrect": "Richtig! Buchmalerei sind handgemalte Illustrationen in Handschriften!",
+      "feedbackIncorrect": "Buchmalerei (Illumination) sind handgemalte Bilder in mittelalterlichen Handschriften."
+    },
+    {
+      "id": "ahs-kunst-k3-mitte-002",
+      "type": "fill-blank",
+      "areaId": "geschichte",
+      "themeId": "mittelalter",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Wie heißt der typische Bogen der Gotik?",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Der typische Bogen der Gotik ist der {{blank}}.",
+        "correctAnswer": "Spitzbogen",
+        "acceptableAnswers": [
+          "spitzbogen"
+        ]
+      },
+      "hints": [
+        "Spitz nach oben"
+      ],
+      "feedbackCorrect": "Richtig! Der Spitzbogen!",
+      "feedbackIncorrect": "Der Spitzbogen ist das wichtigste Merkmal der gotischen Architektur."
+    },
+    {
+      "id": "ahs-kunst-k3-mitte-003",
+      "type": "matching",
+      "areaId": "geschichte",
+      "themeId": "mittelalter",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Ordne die mittelalterlichen Kunstformen den Beschreibungen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Buchmalerei",
+            "right": "Illustrationen in Handschriften"
+          },
+          {
+            "left": "Glasmalerei",
+            "right": "Bunte Kirchenfenster"
+          },
+          {
+            "left": "Fresko",
+            "right": "Wandmalerei auf nassem Putz"
+          },
+          {
+            "left": "Ikonenmalerei",
+            "right": "Religiöse Tafelbilder"
+          }
+        ]
+      },
+      "hints": [
+        "Verschiedene Kunstformen des Mittelalters"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Buchmalerei=Handschriften, Glasmalerei=Fenster, Fresko=Wand, Ikone=Tafelbild."
+    },
+    {
+      "id": "ahs-kunst-k3-mitte-004",
+      "type": "sorting",
+      "areaId": "geschichte",
+      "themeId": "mittelalter",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Sortiere die Epochen chronologisch.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Frühmittelalter",
+            "items": [
+              "Völkerwanderung",
+              "Karolingische Kunst"
+            ]
+          },
+          {
+            "label": "Hochmittelalter",
+            "items": [
+              "Romanik",
+              "Frühe Gotik"
+            ]
+          },
+          {
+            "label": "Spätmittelalter",
+            "items": [
+              "Hochgotik",
+              "Spätgotik"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Von früh bis spät"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Früh: Völkerwanderung, Mitte: Romanik, Spät: Hochgotik."
+    },
+    {
+      "id": "ahs-kunst-k3-mitte-005",
+      "type": "multiple-choice",
+      "areaId": "geschichte",
+      "themeId": "mittelalter",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Was sind Ikonen?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Ikonen:",
+        "options": [
+          "Skulpturen aus Stein",
+          "Religiöse Bilder auf Holztafeln",
+          "Wandmalereien in Höhlen",
+          "Bunte Glasfenster"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Östliche Kirche, religiöse Bilder"
+      ],
+      "feedbackCorrect": "Richtig! Ikonen sind religiöse Bilder auf Holztafeln!",
+      "feedbackIncorrect": "Ikonen sind religiöse Tafelbilder, besonders in der orthodoxen Kirche."
+    },
+    {
+      "id": "ahs-kunst-k3-mitte-006",
+      "type": "fill-blank",
+      "areaId": "geschichte",
+      "themeId": "mittelalter",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Wie heißt der berühmte mittelalterliche Bildteppich, der die normannische Eroberung zeigt?",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Der {{blank}} zeigt die Eroberung Englands durch Wilhelm den Eroberer im Jahr 1066.",
+        "correctAnswer": "Teppich von Bayeux",
+        "acceptableAnswers": [
+          "Bayeux-Teppich"
+        ]
+      },
+      "hints": [
+        "Ein berühmter Teppich aus der Normandie"
+      ],
+      "feedbackCorrect": "Richtig! Der Teppich von Bayeux!",
+      "feedbackIncorrect": "Der Teppich von Bayeux zeigt die normannische Eroberung Englands 1066."
+    },
+    {
+      "id": "ahs-kunst-k3-mitte-007",
+      "type": "matching",
+      "areaId": "geschichte",
+      "themeId": "mittelalter",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Ordne die Begriffe den richtigen Beschreibungen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Kreuzrippengewölbe",
+            "right": "Gotisches Deckenkonstruktion"
+          },
+          {
+            "left": "Rosettenfenster",
+            "right": "Rundes, verziertes Kirchenfenster"
+          },
+          {
+            "left": "Strebepfeiler",
+            "right": "Äußere Mauerstütze der Gotik"
+          }
+        ]
+      },
+      "hints": [
+        "Bauteile gotischer Kirchen"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Kreuzrippen=Decke, Rosette=rundes Fenster, Strebepfeiler=Mauerstütze."
+    },
+    {
+      "id": "ahs-kunst-k3-rena-002",
+      "type": "fill-blank",
+      "areaId": "geschichte",
+      "themeId": "renaissance",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Wer bemalte die Decke der Sixtinischen Kapelle?",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die Decke der Sixtinischen Kapelle wurde von {{blank}} bemalt.",
+        "correctAnswer": "Michelangelo",
+        "acceptableAnswers": [
+          "michelangelo"
+        ]
+      },
+      "hints": [
+        "Ein berühmter italienischer Bildhauer und Maler"
+      ],
+      "feedbackCorrect": "Richtig! Michelangelo!",
+      "feedbackIncorrect": "Michelangelo bemalte die Decke der Sixtinischen Kapelle (1508–1512)."
+    },
+    {
+      "id": "ahs-kunst-k3-rena-003",
+      "type": "matching",
+      "areaId": "geschichte",
+      "themeId": "renaissance",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Ordne die Renaissance-Künstler ihren berühmten Werken zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Leonardo da Vinci",
+            "right": "Mona Lisa"
+          },
+          {
+            "left": "Michelangelo",
+            "right": "David-Skulptur"
+          },
+          {
+            "left": "Raffael",
+            "right": "Die Schule von Athen"
+          },
+          {
+            "left": "Botticelli",
+            "right": "Die Geburt der Venus"
+          }
+        ]
+      },
+      "hints": [
+        "Berühmte Meisterwerke"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Leonardo=Mona Lisa, Michelangelo=David, Raffael=Schule von Athen, Botticelli=Venus."
+    },
+    {
+      "id": "ahs-kunst-k3-rena-004",
+      "type": "sorting",
+      "areaId": "geschichte",
+      "themeId": "renaissance",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Sortiere die Künstler nach Frührenaissance und Hochrenaissance.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Frührenaissance",
+            "items": [
+              "Botticelli",
+              "Masaccio"
+            ]
+          },
+          {
+            "label": "Hochrenaissance",
+            "items": [
+              "Leonardo da Vinci",
+              "Michelangelo",
+              "Raffael"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Früh: 15. Jh., Hoch: um 1500"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Früh: Botticelli, Masaccio. Hoch: Leonardo, Michelangelo, Raffael."
+    },
+    {
+      "id": "ahs-kunst-k3-rena-005",
+      "type": "multiple-choice",
+      "areaId": "geschichte",
+      "themeId": "renaissance",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Welches Gemälde stammt von Botticelli?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Botticelli malte:",
+        "options": [
+          "Das letzte Abendmahl",
+          "Die Geburt der Venus",
+          "Die Erschaffung Adams",
+          "Die Schule von Athen"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Eine Göttin aus dem Meer"
+      ],
+      "feedbackCorrect": "Richtig! Die Geburt der Venus!",
+      "feedbackIncorrect": "Botticelli malte Die Geburt der Venus (ca. 1485)."
+    },
+    {
+      "id": "ahs-kunst-k3-rena-006",
+      "type": "fill-blank",
+      "areaId": "geschichte",
+      "themeId": "renaissance",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Welche Darstellungstechnik wurde in der Renaissance erfunden?",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die {{blank}} ermöglichte erstmals eine realistische Raumdarstellung in Bildern.",
+        "correctAnswer": "Zentralperspektive",
+        "acceptableAnswers": [
+          "Perspektive",
+          "zentralperspektive"
+        ]
+      },
+      "hints": [
+        "Raumtiefe im Bild"
+      ],
+      "feedbackCorrect": "Richtig! Die Zentralperspektive!",
+      "feedbackIncorrect": "Die Zentralperspektive wurde in der Renaissance von Brunelleschi entwickelt."
+    },
+    {
+      "id": "ahs-kunst-k4-rena-001",
+      "type": "multiple-choice",
+      "areaId": "geschichte",
+      "themeId": "renaissance",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Welcher deutsche Künstler war ein bedeutender Vertreter der Nordrenaissance?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Nordrenaissance-Künstler:",
+        "options": [
+          "Caravaggio",
+          "El Greco",
+          "Albrecht Dürer",
+          "Tizian"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Ein Nürnberger Künstler"
+      ],
+      "feedbackCorrect": "Richtig! Albrecht Dürer war ein Meister der Nordrenaissance!",
+      "feedbackIncorrect": "Albrecht Dürer (1471–1528) war der bedeutendste Künstler der deutschen Renaissance."
+    },
+    {
+      "id": "ahs-kunst-k4-rena-002",
+      "type": "fill-blank",
+      "areaId": "geschichte",
+      "themeId": "renaissance",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Ergänze den Satz über den Humanismus.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Der {{blank}} stellte den Menschen in den Mittelpunkt des Denkens und der Kunst.",
+        "correctAnswer": "Humanismus",
+        "acceptableAnswers": [
+          "humanismus"
+        ]
+      },
+      "hints": [
+        "Der Mensch im Mittelpunkt"
+      ],
+      "feedbackCorrect": "Richtig! Der Humanismus!",
+      "feedbackIncorrect": "Der Humanismus stellte den Menschen und seine Fähigkeiten in den Mittelpunkt."
+    },
+    {
+      "id": "ahs-kunst-k4-rena-003",
+      "type": "matching",
+      "areaId": "geschichte",
+      "themeId": "renaissance",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Ordne die Renaissance-Techniken den Beschreibungen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Sfumato",
+            "right": "Weiche, rauchige Übergänge"
+          },
+          {
+            "left": "Chiaroscuro",
+            "right": "Starker Hell-Dunkel-Kontrast"
+          },
+          {
+            "left": "Zentralperspektive",
+            "right": "Ein Fluchtpunkt für Raumtiefe"
+          },
+          {
+            "left": "Contrapposto",
+            "right": "Gewichtsverlagerung in Skulpturen"
+          }
+        ]
+      },
+      "hints": [
+        "Neue künstlerische Techniken"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Sfumato=weich, Chiaroscuro=Kontrast, Perspektive=Raum, Contrapposto=Stand."
+    },
+    {
+      "id": "ahs-kunst-k4-rena-004",
+      "type": "sorting",
+      "areaId": "geschichte",
+      "themeId": "renaissance",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Sortiere die Künstler nach ihrer Herkunft.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Italien",
+            "items": [
+              "Leonardo da Vinci",
+              "Michelangelo",
+              "Raffael"
+            ]
+          },
+          {
+            "label": "Nördlich der Alpen",
+            "items": [
+              "Albrecht Dürer",
+              "Jan van Eyck",
+              "Hieronymus Bosch"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Italienische und nordeuropäische Renaissance"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Italien: Leonardo, Michelangelo, Raffael. Norden: Dürer, van Eyck, Bosch."
+    },
+    {
+      "id": "ahs-kunst-k4-rena-005",
+      "type": "multiple-choice",
+      "areaId": "geschichte",
+      "themeId": "renaissance",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Warum studierten Renaissance-Künstler die menschliche Anatomie?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Anatomie-Studien dienten:",
+        "options": [
+          "Der Herstellung von Medikamenten",
+          "Der realistischen Darstellung des menschlichen Körpers",
+          "Der Entwicklung neuer Farben",
+          "Der Planung von Städten"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Realismus in der Darstellung"
+      ],
+      "feedbackCorrect": "Richtig! Anatomie-Studien ermöglichten realistische Körperdarstellungen!",
+      "feedbackIncorrect": "Anatomie-Studien ermöglichten eine naturgetreue Darstellung des Körpers in der Kunst."
+    },
+    {
+      "id": "ahs-kunst-k4-rena-006",
+      "type": "fill-blank",
+      "areaId": "geschichte",
+      "themeId": "renaissance",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Wie heißt die Maltechnik Leonardo da Vincis mit weichen Übergängen?",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Leonardos berühmte Technik mit weichen, rauchigen Übergängen heißt {{blank}}.",
+        "correctAnswer": "Sfumato",
+        "acceptableAnswers": [
+          "sfumato"
+        ]
+      },
+      "hints": [
+        "Rauchig, verschwommen"
+      ],
+      "feedbackCorrect": "Richtig! Sfumato!",
+      "feedbackIncorrect": "Sfumato (ital. 'verraucht') ist Leonardos Technik für weiche Übergänge."
+    },
+    {
+      "id": "ahs-kunst-k4-rena-007",
+      "type": "matching",
+      "areaId": "geschichte",
+      "themeId": "renaissance",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Ordne die Werke den richtigen Künstlern zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Das letzte Abendmahl",
+            "right": "Leonardo da Vinci"
+          },
+          {
+            "left": "Die Pietà",
+            "right": "Michelangelo"
+          },
+          {
+            "left": "Die Sixtinische Madonna",
+            "right": "Raffael"
+          },
+          {
+            "left": "Der Betende Hase",
+            "right": "Albrecht Dürer"
+          }
+        ]
+      },
+      "hints": [
+        "Berühmte Renaissance-Werke"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Abendmahl=Leonardo, Pietà=Michelangelo, Sixtinische Madonna=Raffael, Hase=Dürer."
+    },
+    {
+      "id": "ahs-kunst-k3-moder-002",
+      "type": "fill-blank",
+      "areaId": "geschichte",
+      "themeId": "moderne",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Wie heißt die Stilrichtung, die starke Gefühle durch verzerrte Formen ausdrückt?",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Der {{blank}} drückt innere Gefühle durch verzerrte Formen und kräftige Farben aus.",
+        "correctAnswer": "Expressionismus",
+        "acceptableAnswers": [
+          "expressionismus"
+        ]
+      },
+      "hints": [
+        "Ausdruck starker Emotionen"
+      ],
+      "feedbackCorrect": "Richtig! Der Expressionismus!",
+      "feedbackIncorrect": "Der Expressionismus drückt Gefühle durch verzerrte Formen und Farben aus."
+    },
+    {
+      "id": "ahs-kunst-k3-moder-003",
+      "type": "matching",
+      "areaId": "geschichte",
+      "themeId": "moderne",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Ordne die Stilrichtungen ihren Vertretern zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Impressionismus",
+            "right": "Claude Monet"
+          },
+          {
+            "left": "Expressionismus",
+            "right": "Ernst Ludwig Kirchner"
+          },
+          {
+            "left": "Kubismus",
+            "right": "Pablo Picasso"
+          },
+          {
+            "left": "Surrealismus",
+            "right": "Salvador Dalí"
+          }
+        ]
+      },
+      "hints": [
+        "Berühmte Kunstrichtungen und Künstler"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Impressionismus=Monet, Expressionismus=Kirchner, Kubismus=Picasso, Surrealismus=Dalí."
+    },
+    {
+      "id": "ahs-kunst-k3-moder-004",
+      "type": "sorting",
+      "areaId": "geschichte",
+      "themeId": "moderne",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Sortiere die Stilrichtungen chronologisch.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "19. Jahrhundert",
+            "items": [
+              "Impressionismus",
+              "Post-Impressionismus"
+            ]
+          },
+          {
+            "label": "Frühes 20. Jahrhundert",
+            "items": [
+              "Expressionismus",
+              "Kubismus"
+            ]
+          },
+          {
+            "label": "Mitte 20. Jahrhundert",
+            "items": [
+              "Surrealismus",
+              "Abstrakter Expressionismus"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Von der ältesten zur neuesten Bewegung"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "19.Jh: Impressionismus, frühes 20.Jh: Expressionismus/Kubismus, Mitte 20.Jh: Surrealismus."
+    },
+    {
+      "id": "ahs-kunst-k3-moder-005",
+      "type": "multiple-choice",
+      "areaId": "geschichte",
+      "themeId": "moderne",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Was ist Kubismus?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Kubismus:",
+        "options": [
+          "Malerei mit nur einer Farbe",
+          "Darstellung von Objekten aus mehreren Blickwinkeln gleichzeitig",
+          "Malerei nur mit Punkten",
+          "Kunst nur aus natürlichen Materialien"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Picasso und Braque"
+      ],
+      "feedbackCorrect": "Richtig! Kubismus zeigt Objekte aus mehreren Blickwinkeln!",
+      "feedbackIncorrect": "Im Kubismus werden Objekte in geometrische Formen zerlegt und aus mehreren Perspektiven dargestellt."
+    },
+    {
+      "id": "ahs-kunst-k3-moder-006",
+      "type": "fill-blank",
+      "areaId": "geschichte",
+      "themeId": "moderne",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Welche Kunstrichtung zeigt Traumbilder und das Unbewusste?",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Der {{blank}} zeigt traumhafte, oft irrationale Bildwelten.",
+        "correctAnswer": "Surrealismus",
+        "acceptableAnswers": [
+          "surrealismus"
+        ]
+      },
+      "hints": [
+        "Dalí, Magritte, Traumbilder"
+      ],
+      "feedbackCorrect": "Richtig! Der Surrealismus!",
+      "feedbackIncorrect": "Der Surrealismus zeigt Traumbilder und das Unbewusste (Dalí, Magritte)."
+    },
+    {
+      "id": "ahs-kunst-k4-moder-001",
+      "type": "multiple-choice",
+      "areaId": "geschichte",
+      "themeId": "moderne",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was ist Pop Art?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Pop Art:",
+        "options": [
+          "Kunst aus der Antike",
+          "Kunst, die Alltagsgegenstände und Populärkultur thematisiert",
+          "Kunst nur aus geometrischen Formen",
+          "Kunst nur in Schwarz-Weiß"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Andy Warhol, Alltagskultur"
+      ],
+      "feedbackCorrect": "Richtig! Pop Art thematisiert Alltag und Populärkultur!",
+      "feedbackIncorrect": "Pop Art (Andy Warhol, Roy Lichtenstein) thematisiert Alltag und Massenkultur."
+    },
+    {
+      "id": "ahs-kunst-k4-moder-002",
+      "type": "fill-blank",
+      "areaId": "geschichte",
+      "themeId": "moderne",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Wie heißt die Kunstschule, die 1919 in Weimar gegründet wurde?",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Das {{blank}} war eine einflussreiche Kunstschule für Design und Architektur.",
+        "correctAnswer": "Bauhaus",
+        "acceptableAnswers": [
+          "bauhaus"
+        ]
+      },
+      "hints": [
+        "Gegründet von Walter Gropius"
+      ],
+      "feedbackCorrect": "Richtig! Das Bauhaus!",
+      "feedbackIncorrect": "Das Bauhaus (1919–1933) revolutionierte Kunst, Design und Architektur."
+    },
+    {
+      "id": "ahs-kunst-k4-moder-003",
+      "type": "matching",
+      "areaId": "geschichte",
+      "themeId": "moderne",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Ordne die Kunstwerke den Künstlern zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Seerosen-Serie",
+            "right": "Claude Monet"
+          },
+          {
+            "left": "Der Schrei",
+            "right": "Edvard Munch"
+          },
+          {
+            "left": "Guernica",
+            "right": "Pablo Picasso"
+          },
+          {
+            "left": "Campbell's Suppendosen",
+            "right": "Andy Warhol"
+          }
+        ]
+      },
+      "hints": [
+        "Berühmte Werke der Moderne"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Seerosen=Monet, Der Schrei=Munch, Guernica=Picasso, Suppendosen=Warhol."
+    },
+    {
+      "id": "ahs-kunst-k4-moder-004",
+      "type": "sorting",
+      "areaId": "geschichte",
+      "themeId": "moderne",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Sortiere die Kunstbewegungen nach ihrem Entstehungszeitraum.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "1860er–1880er",
+            "items": [
+              "Impressionismus"
+            ]
+          },
+          {
+            "label": "1900er–1920er",
+            "items": [
+              "Expressionismus",
+              "Kubismus"
+            ]
+          },
+          {
+            "label": "1920er–1940er",
+            "items": [
+              "Surrealismus",
+              "Bauhaus"
+            ]
+          },
+          {
+            "label": "1950er–1970er",
+            "items": [
+              "Pop Art",
+              "Abstrakter Expressionismus"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Chronologische Reihenfolge"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Impressionismus → Expressionismus/Kubismus → Surrealismus → Pop Art."
+    },
+    {
+      "id": "ahs-kunst-k4-moder-005",
+      "type": "multiple-choice",
+      "areaId": "geschichte",
+      "themeId": "moderne",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was malte Wassily Kandinsky?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Kandinsky ist bekannt für:",
+        "options": [
+          "Fotorealistische Porträts",
+          "Abstrakte Kompositionen mit Formen und Farben",
+          "Landschaftsmalerei im Stil der Romantik",
+          "Religiöse Ikonenmalerei"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Abstrakte Kunst, geometrische Formen"
+      ],
+      "feedbackCorrect": "Richtig! Kandinsky ist ein Pionier der abstrakten Kunst!",
+      "feedbackIncorrect": "Kandinsky gilt als Begründer der abstrakten Malerei."
+    },
+    {
+      "id": "ahs-kunst-k4-moder-006",
+      "type": "fill-blank",
+      "areaId": "geschichte",
+      "themeId": "moderne",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Wie heißt das berühmte Gemälde von Edvard Munch?",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Das berühmte expressionistische Gemälde von Edvard Munch heißt {{blank}}.",
+        "correctAnswer": "Der Schrei",
+        "acceptableAnswers": [
+          "der schrei"
+        ]
+      },
+      "hints": [
+        "Ein Mensch, der schreit, auf einer Brücke"
+      ],
+      "feedbackCorrect": "Richtig! Der Schrei!",
+      "feedbackIncorrect": "Der Schrei (1893) von Edvard Munch ist ein Hauptwerk des Expressionismus."
+    },
+    {
+      "id": "ahs-kunst-k4-moder-007",
+      "type": "matching",
+      "areaId": "geschichte",
+      "themeId": "moderne",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Ordne die Stilrichtungen ihren Merkmalen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Impressionismus",
+            "right": "Licht- und Farbwirkung im Freien"
+          },
+          {
+            "left": "Expressionismus",
+            "right": "Verzerrte Formen, starke Emotionen"
+          },
+          {
+            "left": "Kubismus",
+            "right": "Geometrische Zerlegung der Form"
+          },
+          {
+            "left": "Pop Art",
+            "right": "Alltagsgegenstände als Kunstmotiv"
+          }
+        ]
+      },
+      "hints": [
+        "Merkmale der Kunstbewegungen"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Impressionismus=Licht, Expressionismus=Emotion, Kubismus=Geometrie, Pop Art=Alltag."
+    },
+    {
+      "id": "ahs-kunst-k3-analy-001",
+      "type": "multiple-choice",
+      "areaId": "analyse",
+      "themeId": "beschreiben",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Was versteht man unter Komposition in der Kunst?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Komposition:",
+        "options": [
+          "Die Farbwahl eines Bildes",
+          "Die Anordnung aller Elemente im Bild",
+          "Der Name des Künstlers",
+          "Die Größe des Bildes"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Wie ist das Bild aufgebaut?"
+      ],
+      "feedbackCorrect": "Richtig! Komposition ist die Anordnung aller Elemente!",
+      "feedbackIncorrect": "Komposition beschreibt, wie alle Elemente im Bild angeordnet sind."
+    },
+    {
+      "id": "ahs-kunst-k3-analy-002",
+      "type": "fill-blank",
+      "areaId": "analyse",
+      "themeId": "beschreiben",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Ergänze den Satz über die Bildanalyse.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Der {{blank}} ist der Teil des Bildes, der dem Betrachter am nächsten erscheint.",
+        "correctAnswer": "Vordergrund",
+        "acceptableAnswers": [
+          "vordergrund"
+        ]
+      },
+      "hints": [
+        "Nah am Betrachter"
+      ],
+      "feedbackCorrect": "Richtig! Der Vordergrund!",
+      "feedbackIncorrect": "Der Vordergrund ist der vordere, dem Betrachter nächste Bereich des Bildes."
+    },
+    {
+      "id": "ahs-kunst-k3-analy-003",
+      "type": "matching",
+      "areaId": "analyse",
+      "themeId": "beschreiben",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Ordne die Analysebegriffe den Beschreibungen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Vordergrund",
+            "right": "Vorderer Bildbereich"
+          },
+          {
+            "left": "Hintergrund",
+            "right": "Hinterer Bildbereich"
+          },
+          {
+            "left": "Komposition",
+            "right": "Anordnung der Bildelemente"
+          },
+          {
+            "left": "Kolorit",
+            "right": "Gesamtwirkung der Farben"
+          }
+        ]
+      },
+      "hints": [
+        "Fachbegriffe der Bildanalyse"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Vordergrund=vorne, Hintergrund=hinten, Komposition=Anordnung, Kolorit=Farbwirkung."
+    },
+    {
+      "id": "ahs-kunst-k3-analy-004",
+      "type": "sorting",
+      "areaId": "analyse",
+      "themeId": "beschreiben",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Sortiere die Schritte einer Bildanalyse in die richtige Reihenfolge.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "1. Beschreibung",
+            "items": [
+              "Was ist zu sehen?",
+              "Motiv benennen"
+            ]
+          },
+          {
+            "label": "2. Analyse",
+            "items": [
+              "Komposition untersuchen",
+              "Farben analysieren"
+            ]
+          },
+          {
+            "label": "3. Interpretation",
+            "items": [
+              "Bedeutung deuten",
+              "Aussage formulieren"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Vom Sehen zum Deuten"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Erst Beschreibung, dann Analyse, zuletzt Interpretation."
+    },
+    {
+      "id": "ahs-kunst-k3-analy-005",
+      "type": "multiple-choice",
+      "areaId": "analyse",
+      "themeId": "beschreiben",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Was beschreibt die Stimmung eines Bildes?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Stimmung:",
+        "options": [
+          "Die Größe der Figuren",
+          "Das Gefühl oder die Atmosphäre, die ein Bild vermittelt",
+          "Die Technik des Künstlers",
+          "Den Preis des Kunstwerks"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Gefühl und Atmosphäre"
+      ],
+      "feedbackCorrect": "Richtig! Die Stimmung beschreibt die Atmosphäre des Bildes!",
+      "feedbackIncorrect": "Die Stimmung eines Bildes beschreibt das Gefühl und die Atmosphäre."
+    },
+    {
+      "id": "ahs-kunst-k3-analy-006",
+      "type": "fill-blank",
+      "areaId": "analyse",
+      "themeId": "beschreiben",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Ergänze den Satz über Symbolik in der Kunst.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Wenn ein Gegenstand im Bild eine übertragene Bedeutung hat, spricht man von {{blank}}.",
+        "correctAnswer": "Symbolik",
+        "acceptableAnswers": [
+          "symbolik",
+          "Symbol",
+          "Symbolen"
+        ]
+      },
+      "hints": [
+        "Übertragene Bedeutung"
+      ],
+      "feedbackCorrect": "Richtig! Symbolik!",
+      "feedbackIncorrect": "Symbolik bedeutet, dass Gegenstände im Bild eine übertragene Bedeutung haben."
+    },
+    {
+      "id": "ahs-kunst-k4-analy-003",
+      "type": "multiple-choice",
+      "areaId": "analyse",
+      "themeId": "beschreiben",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Welcher Schritt folgt in der Bildanalyse nach der Beschreibung?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Nach der Beschreibung folgt:",
+        "options": [
+          "Die Bewertung",
+          "Die formale Analyse",
+          "Das Kopieren",
+          "Die Restaurierung"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Beschreibung → ? → Interpretation"
+      ],
+      "feedbackCorrect": "Richtig! Nach der Beschreibung folgt die formale Analyse!",
+      "feedbackIncorrect": "Reihenfolge: Beschreibung → formale Analyse → Interpretation."
+    },
+    {
+      "id": "ahs-kunst-k4-analy-004",
+      "type": "fill-blank",
+      "areaId": "analyse",
+      "themeId": "beschreiben",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Ergänze den Satz über die Interpretation.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Bei der {{blank}} deutet man die Bedeutung und Aussage eines Kunstwerks.",
+        "correctAnswer": "Interpretation",
+        "acceptableAnswers": [
+          "interpretation"
+        ]
+      },
+      "hints": [
+        "Bedeutung und Aussage deuten"
+      ],
+      "feedbackCorrect": "Richtig! Bei der Interpretation!",
+      "feedbackIncorrect": "Die Interpretation ist der letzte Schritt der Bildanalyse."
+    },
+    {
+      "id": "ahs-kunst-k4-analy-005",
+      "type": "matching",
+      "areaId": "analyse",
+      "themeId": "beschreiben",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Ordne die Fachbegriffe den richtigen Bedeutungen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Bildformat",
+            "right": "Hoch- oder Querformat"
+          },
+          {
+            "left": "Bildausschnitt",
+            "right": "Gewählter Ausschnitt der Szene"
+          },
+          {
+            "left": "Blickführung",
+            "right": "Weg des Auges durch das Bild"
+          },
+          {
+            "left": "Bildraum",
+            "right": "Räumliche Tiefe im Bild"
+          }
+        ]
+      },
+      "hints": [
+        "Fachbegriffe der Kunstanalyse"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Format=Hoch/Quer, Ausschnitt=Szene, Blickführung=Augenweg, Bildraum=Tiefe."
+    },
+    {
+      "id": "ahs-kunst-k4-analy-006",
+      "type": "sorting",
+      "areaId": "analyse",
+      "themeId": "beschreiben",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Sortiere die Analyseebenen eines Kunstwerks.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Inhaltliche Ebene",
+            "items": [
+              "Motiv",
+              "Thema",
+              "Symbolik"
+            ]
+          },
+          {
+            "label": "Formale Ebene",
+            "items": [
+              "Komposition",
+              "Farbe",
+              "Linie"
+            ]
+          },
+          {
+            "label": "Kontextuelle Ebene",
+            "items": [
+              "Entstehungszeit",
+              "Künstlerbiografie"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Verschiedene Betrachtungsebenen"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Inhalt: Motiv/Thema, Form: Komposition/Farbe, Kontext: Zeit/Biografie."
+    },
+    {
+      "id": "ahs-kunst-k4-analy-007",
+      "type": "multiple-choice",
+      "areaId": "analyse",
+      "themeId": "beschreiben",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was untersucht man bei der Perspektivanalyse eines Bildes?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Perspektivanalyse:",
+        "options": [
+          "Die Farbwahl des Künstlers",
+          "Die Darstellung von räumlicher Tiefe",
+          "Die Signatur des Künstlers",
+          "Das Rahmenmaterial"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Raum und Tiefe"
+      ],
+      "feedbackCorrect": "Richtig! Die Perspektivanalyse untersucht die räumliche Tiefe!",
+      "feedbackIncorrect": "Bei der Perspektivanalyse untersucht man, wie Raumtiefe dargestellt wird."
+    },
+    {
+      "id": "ahs-kunst-k4-analy-008",
+      "type": "fill-blank",
+      "areaId": "analyse",
+      "themeId": "beschreiben",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Ergänze den Satz über die Stilanalyse.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Bei der {{blank}} untersucht man die typischen Merkmale einer Kunstepoche.",
+        "correctAnswer": "Stilanalyse",
+        "acceptableAnswers": [
+          "stilanalyse"
+        ]
+      },
+      "hints": [
+        "Merkmale einer Epoche"
+      ],
+      "feedbackCorrect": "Richtig! Bei der Stilanalyse!",
+      "feedbackIncorrect": "Die Stilanalyse untersucht epochentypische Merkmale eines Kunstwerks."
     }
   ]
 }

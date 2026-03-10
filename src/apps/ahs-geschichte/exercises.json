@@ -499,6 +499,3243 @@
       ],
       "feedbackCorrect": "Richtig! 1995!",
       "feedbackIncorrect": "Österreich wurde am 1. Januar 1995 EU-Mitglied."
+    },
+    {
+      "id": "ahs-gesch-k1-eisz-001",
+      "type": "multiple-choice",
+      "areaId": "urgeschichte",
+      "themeId": "eiszeit",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Wie lebten die Menschen in der Eiszeit?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Die Menschen der Eiszeit lebten als:",
+        "options": [
+          "Bauern",
+          "Jäger und Sammler",
+          "Handwerker",
+          "Händler"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Sie bauten noch kein Getreide an."
+      ],
+      "feedbackCorrect": "Richtig! Die Menschen waren Jäger und Sammler.",
+      "feedbackIncorrect": "In der Eiszeit lebten die Menschen als Jäger und Sammler."
+    },
+    {
+      "id": "ahs-gesch-k1-eisz-002",
+      "type": "multiple-choice",
+      "areaId": "urgeschichte",
+      "themeId": "eiszeit",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Welches Tier lebte in der Eiszeit?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Welches Tier lebte während der Eiszeit?",
+        "options": [
+          "Dinosaurier",
+          "Mammut",
+          "Giraffe",
+          "Papagei"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Ein großes Tier mit Fell und Stoßzähnen."
+      ],
+      "feedbackCorrect": "Richtig! Das Mammut!",
+      "feedbackIncorrect": "Das Mammut war ein typisches Tier der Eiszeit."
+    },
+    {
+      "id": "ahs-gesch-k1-eisz-003",
+      "type": "fill-blank",
+      "areaId": "urgeschichte",
+      "themeId": "eiszeit",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ergänze den Satz über Werkzeuge der Steinzeit.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die Menschen der Steinzeit stellten Werkzeuge aus {{blank}} her.",
+        "correctAnswer": "Stein",
+        "acceptableAnswers": [
+          "Steinen",
+          "Feuerstein"
+        ]
+      },
+      "hints": [
+        "Das Material gibt der Epoche ihren Namen."
+      ],
+      "feedbackCorrect": "Richtig! Aus Stein!",
+      "feedbackIncorrect": "Die Steinzeit ist nach dem Werkstoff Stein benannt."
+    },
+    {
+      "id": "ahs-gesch-k1-eisz-004",
+      "type": "multiple-choice",
+      "areaId": "urgeschichte",
+      "themeId": "eiszeit",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Wo lebten die Menschen der Eiszeit?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Viele Menschen der Eiszeit wohnten in:",
+        "options": [
+          "Hochhäusern",
+          "Zelten und Höhlen",
+          "Schlössern",
+          "Holzhäusern"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Natürliche Unterkünfte in Felsen."
+      ],
+      "feedbackCorrect": "Richtig! In Zelten und Höhlen!",
+      "feedbackIncorrect": "Die Menschen nutzten Höhlen und einfache Zelte als Unterschlupf."
+    },
+    {
+      "id": "ahs-gesch-k1-eisz-005",
+      "type": "matching",
+      "areaId": "urgeschichte",
+      "themeId": "eiszeit",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ordne die Begriffe der Eiszeit richtig zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Mammut",
+            "right": "Großes Tier mit Fell"
+          },
+          {
+            "left": "Faustkeil",
+            "right": "Steinwerkzeug"
+          },
+          {
+            "left": "Höhlenmalerei",
+            "right": "Kunst an Felswänden"
+          },
+          {
+            "left": "Feuer",
+            "right": "Wärmequelle und Schutz"
+          }
+        ]
+      },
+      "hints": [
+        "Denke an das Leben in der Steinzeit."
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Mammut = großes Tier, Faustkeil = Werkzeug, Höhlenmalerei = Kunst, Feuer = Wärme."
+    },
+    {
+      "id": "ahs-gesch-k1-eisz-006",
+      "type": "multiple-choice",
+      "areaId": "urgeschichte",
+      "themeId": "eiszeit",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Was malten die Menschen an Höhlenwände?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Die Höhlenmalereien zeigen meistens:",
+        "options": [
+          "Landkarten",
+          "Tiere und Jagdszenen",
+          "Buchstaben",
+          "Häuser"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Was war für das Überleben wichtig?"
+      ],
+      "feedbackCorrect": "Richtig! Tiere und Jagdszenen!",
+      "feedbackIncorrect": "Höhlenmalereien zeigen oft Tiere wie Bisons, Pferde und Mammuts."
+    },
+    {
+      "id": "ahs-gesch-k1-eisz-007",
+      "type": "fill-blank",
+      "areaId": "urgeschichte",
+      "themeId": "eiszeit",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ergänze den Satz über die Entdeckung des Feuers.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Eine der wichtigsten Entdeckungen der Steinzeit war das {{blank}}.",
+        "correctAnswer": "Feuer",
+        "acceptableAnswers": []
+      },
+      "hints": [
+        "Es gibt Wärme und Licht."
+      ],
+      "feedbackCorrect": "Richtig! Das Feuer!",
+      "feedbackIncorrect": "Die Beherrschung des Feuers war ein Meilenstein der Menschheit."
+    },
+    {
+      "id": "ahs-gesch-k1-eisz-008",
+      "type": "multiple-choice",
+      "areaId": "urgeschichte",
+      "themeId": "eiszeit",
+      "level": 1,
+      "difficulty": 2,
+      "instruction": "Wann endete die letzte Eiszeit ungefähr?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Die letzte Eiszeit endete vor etwa:",
+        "options": [
+          "1.000 Jahren",
+          "10.000 Jahren",
+          "100.000 Jahren",
+          "1 Million Jahren"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Nach dem Ende wurde es wärmer."
+      ],
+      "feedbackCorrect": "Richtig! Vor etwa 10.000 Jahren!",
+      "feedbackIncorrect": "Die letzte Eiszeit endete vor etwa 10.000 bis 12.000 Jahren."
+    },
+    {
+      "id": "ahs-gesch-k1-eisz-009",
+      "type": "sorting",
+      "areaId": "urgeschichte",
+      "themeId": "eiszeit",
+      "level": 1,
+      "difficulty": 2,
+      "instruction": "Ordne die Begriffe den Zeitabschnitten zu.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Altsteinzeit",
+            "items": [
+              "Jäger und Sammler",
+              "Faustkeile",
+              "Höhlenmalerei"
+            ]
+          },
+          {
+            "label": "Jungsteinzeit",
+            "items": [
+              "Ackerbau",
+              "Viehzucht",
+              "Sesshaftigkeit"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Wann wurden die Menschen sesshaft?"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "In der Altsteinzeit waren Menschen Nomaden, in der Jungsteinzeit wurden sie sesshaft."
+    },
+    {
+      "id": "ahs-gesch-k1-eisz-010",
+      "type": "multiple-choice",
+      "areaId": "urgeschichte",
+      "themeId": "eiszeit",
+      "level": 1,
+      "difficulty": 2,
+      "instruction": "Was bedeutet 'Neolithische Revolution'?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Die Neolithische Revolution beschreibt:",
+        "options": [
+          "Eine politische Umwälzung",
+          "Den Übergang zu Ackerbau und Viehzucht",
+          "Die Erfindung des Rades",
+          "Den Beginn der Eiszeit"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Es geht um eine neue Art zu leben."
+      ],
+      "feedbackCorrect": "Richtig! Den Übergang zu Ackerbau und Viehzucht!",
+      "feedbackIncorrect": "Die Neolithische Revolution war der Übergang von Jagen und Sammeln zu Ackerbau."
+    },
+    {
+      "id": "ahs-gesch-k1-aegy-003",
+      "type": "fill-blank",
+      "areaId": "urgeschichte",
+      "themeId": "aegypten",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ergänze den Satz über den wichtigsten Fluss Ägyptens.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die ägyptische Hochkultur entstand am Fluss {{blank}}.",
+        "correctAnswer": "Nil",
+        "acceptableAnswers": []
+      },
+      "hints": [
+        "Der längste Fluss Afrikas."
+      ],
+      "feedbackCorrect": "Richtig! Am Nil!",
+      "feedbackIncorrect": "Der Nil war die Lebensader des alten Ägyptens."
+    },
+    {
+      "id": "ahs-gesch-k1-aegy-004",
+      "type": "multiple-choice",
+      "areaId": "urgeschichte",
+      "themeId": "aegypten",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Wie hießen die Herrscher Ägyptens?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Die Herrscher des alten Ägyptens hießen:",
+        "options": [
+          "Könige",
+          "Kaiser",
+          "Pharaonen",
+          "Präsidenten"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Ein besonderer Titel für ägyptische Herrscher."
+      ],
+      "feedbackCorrect": "Richtig! Pharaonen!",
+      "feedbackIncorrect": "Die ägyptischen Herrscher trugen den Titel Pharao."
+    },
+    {
+      "id": "ahs-gesch-k1-aegy-005",
+      "type": "matching",
+      "areaId": "urgeschichte",
+      "themeId": "aegypten",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ordne die Begriffe des alten Ägyptens zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Pharao",
+            "right": "Herrscher Ägyptens"
+          },
+          {
+            "left": "Pyramide",
+            "right": "Grabmal"
+          },
+          {
+            "left": "Hieroglyphen",
+            "right": "Schriftzeichen"
+          },
+          {
+            "left": "Mumie",
+            "right": "Einbalsamierter Toter"
+          }
+        ]
+      },
+      "hints": [
+        "Denke an das alte Ägypten."
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Pharao = Herrscher, Pyramide = Grab, Hieroglyphen = Schrift, Mumie = Einbalsamierung."
+    },
+    {
+      "id": "ahs-gesch-k1-aegy-006",
+      "type": "multiple-choice",
+      "areaId": "urgeschichte",
+      "themeId": "aegypten",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Was sind Hieroglyphen?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Hieroglyphen sind:",
+        "options": [
+          "Ägyptische Waffen",
+          "Ägyptische Schriftzeichen",
+          "Ägyptische Tänze",
+          "Ägyptische Speisen"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Eine Form der Kommunikation."
+      ],
+      "feedbackCorrect": "Richtig! Ägyptische Schriftzeichen!",
+      "feedbackIncorrect": "Hieroglyphen waren die Bilderschrift der alten Ägypter."
+    },
+    {
+      "id": "ahs-gesch-k1-aegy-007",
+      "type": "fill-blank",
+      "areaId": "urgeschichte",
+      "themeId": "aegypten",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ergänze den Satz über die ägyptische Schrift.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die Bilderschrift der Ägypter heißt {{blank}}.",
+        "correctAnswer": "Hieroglyphen",
+        "acceptableAnswers": [
+          "Hieroglyphenschrift"
+        ]
+      },
+      "hints": [
+        "Bilder als Buchstaben."
+      ],
+      "feedbackCorrect": "Richtig! Hieroglyphen!",
+      "feedbackIncorrect": "Die ägyptische Bilderschrift wird Hieroglyphen genannt."
+    },
+    {
+      "id": "ahs-gesch-k1-aegy-008",
+      "type": "multiple-choice",
+      "areaId": "urgeschichte",
+      "themeId": "aegypten",
+      "level": 1,
+      "difficulty": 2,
+      "instruction": "Warum war der Nil so wichtig für Ägypten?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Der Nil war wichtig, weil:",
+        "options": [
+          "Er Gold transportierte",
+          "Seine Überschwemmungen fruchtbaren Boden brachten",
+          "Er das Meer verband",
+          "Er die Feinde fernhielt"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Das Wasser brachte etwas Nützliches."
+      ],
+      "feedbackCorrect": "Richtig! Die Überschwemmungen brachten fruchtbaren Boden!",
+      "feedbackIncorrect": "Die jährlichen Nilüberschwemmungen hinterließen fruchtbaren Schlamm."
+    },
+    {
+      "id": "ahs-gesch-k1-aegy-009",
+      "type": "sorting",
+      "areaId": "urgeschichte",
+      "themeId": "aegypten",
+      "level": 1,
+      "difficulty": 2,
+      "instruction": "Ordne die Begriffe den Kategorien zu.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Ägyptische Bauwerke",
+            "items": [
+              "Pyramiden",
+              "Sphinx",
+              "Tempel"
+            ]
+          },
+          {
+            "label": "Ägyptische Kultur",
+            "items": [
+              "Hieroglyphen",
+              "Mumifizierung",
+              "Totenbuch"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Was wurde gebaut, was gehört zur Kultur?"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Pyramiden, Sphinx und Tempel sind Bauwerke; Hieroglyphen, Mumien und Totenbuch gehören zur Kultur."
+    },
+    {
+      "id": "ahs-gesch-k1-aegy-010",
+      "type": "multiple-choice",
+      "areaId": "urgeschichte",
+      "themeId": "aegypten",
+      "level": 1,
+      "difficulty": 2,
+      "instruction": "Wer war Tutanchamun?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Tutanchamun war:",
+        "options": [
+          "Ein griechischer Philosoph",
+          "Ein junger Pharao",
+          "Ein römischer Kaiser",
+          "Ein Priester"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Er wurde als Jugendlicher Herrscher."
+      ],
+      "feedbackCorrect": "Richtig! Ein junger Pharao!",
+      "feedbackIncorrect": "Tutanchamun wurde mit etwa 9 Jahren Pharao und starb mit etwa 19 Jahren."
+    },
+    {
+      "id": "ahs-gesch-k1-grie-003",
+      "type": "fill-blank",
+      "areaId": "antike",
+      "themeId": "griechen",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ergänze den Satz über die griechische Staatsform.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die Griechen in Athen erfanden die {{blank}}.",
+        "correctAnswer": "Demokratie",
+        "acceptableAnswers": []
+      },
+      "hints": [
+        "Volksherrschaft."
+      ],
+      "feedbackCorrect": "Richtig! Die Demokratie!",
+      "feedbackIncorrect": "Demokratie bedeutet 'Herrschaft des Volkes'."
+    },
+    {
+      "id": "ahs-gesch-k1-grie-004",
+      "type": "multiple-choice",
+      "areaId": "antike",
+      "themeId": "griechen",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Welche Sportveranstaltung kommt aus Griechenland?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Die antiken Griechen veranstalteten:",
+        "options": [
+          "Die Fußball-WM",
+          "Die Olympischen Spiele",
+          "Die Tour de France",
+          "Das Wimbledon-Turnier"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Sie finden bis heute statt."
+      ],
+      "feedbackCorrect": "Richtig! Die Olympischen Spiele!",
+      "feedbackIncorrect": "Die Olympischen Spiele wurden 776 v. Chr. in Olympia erstmals abgehalten."
+    },
+    {
+      "id": "ahs-gesch-k1-grie-005",
+      "type": "matching",
+      "areaId": "antike",
+      "themeId": "griechen",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ordne die griechischen Götter ihren Bereichen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Zeus",
+            "right": "Göttervater"
+          },
+          {
+            "left": "Poseidon",
+            "right": "Gott des Meeres"
+          },
+          {
+            "left": "Athene",
+            "right": "Göttin der Weisheit"
+          },
+          {
+            "left": "Ares",
+            "right": "Gott des Krieges"
+          }
+        ]
+      },
+      "hints": [
+        "Griechische Mythologie."
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Zeus = Göttervater, Poseidon = Meer, Athene = Weisheit, Ares = Krieg."
+    },
+    {
+      "id": "ahs-gesch-k2-grie-006",
+      "type": "multiple-choice",
+      "areaId": "antike",
+      "themeId": "griechen",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Welche zwei griechischen Stadtstaaten waren Rivalen?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Die berühmtesten Rivalen waren:",
+        "options": [
+          "Athen und Sparta",
+          "Korinth und Theben",
+          "Delphi und Olympia",
+          "Troja und Mykene"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Demokratie gegen Militärstaat."
+      ],
+      "feedbackCorrect": "Richtig! Athen und Sparta!",
+      "feedbackIncorrect": "Athen (Demokratie) und Sparta (Militärstaat) waren die mächtigsten Stadtstaaten."
+    },
+    {
+      "id": "ahs-gesch-k2-grie-007",
+      "type": "fill-blank",
+      "areaId": "antike",
+      "themeId": "griechen",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ergänze den Namen des berühmten griechischen Philosophen.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Der berühmte Philosoph {{blank}} war Lehrer von Platon.",
+        "correctAnswer": "Sokrates",
+        "acceptableAnswers": []
+      },
+      "hints": [
+        "Er wurde zum Tode verurteilt."
+      ],
+      "feedbackCorrect": "Richtig! Sokrates!",
+      "feedbackIncorrect": "Sokrates war einer der bedeutendsten Philosophen der Antike."
+    },
+    {
+      "id": "ahs-gesch-k2-grie-008",
+      "type": "sorting",
+      "areaId": "antike",
+      "themeId": "griechen",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die Personen den Stadtstaaten zu.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Athen",
+            "items": [
+              "Perikles",
+              "Sokrates",
+              "Platon"
+            ]
+          },
+          {
+            "label": "Sparta",
+            "items": [
+              "Leonidas",
+              "Lykurg"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Demokratie oder Militär?"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Perikles, Sokrates und Platon wirkten in Athen; Leonidas und Lykurg in Sparta."
+    },
+    {
+      "id": "ahs-gesch-k2-grie-009",
+      "type": "multiple-choice",
+      "areaId": "antike",
+      "themeId": "griechen",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Wer war Alexander der Große?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Alexander der Große war:",
+        "options": [
+          "Ein spartanischer König",
+          "Ein makedonischer König und Eroberer",
+          "Ein römischer Kaiser",
+          "Ein persischer Herrscher"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Er eroberte ein riesiges Reich."
+      ],
+      "feedbackCorrect": "Richtig! Ein makedonischer König!",
+      "feedbackIncorrect": "Alexander der Große (356–323 v. Chr.) eroberte ein Weltreich von Griechenland bis Indien."
+    },
+    {
+      "id": "ahs-gesch-k2-grie-010",
+      "type": "matching",
+      "areaId": "antike",
+      "themeId": "griechen",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die griechischen Errungenschaften zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Theater",
+            "right": "Tragödien und Komödien"
+          },
+          {
+            "left": "Philosophie",
+            "right": "Liebe zur Weisheit"
+          },
+          {
+            "left": "Olympische Spiele",
+            "right": "Sportlicher Wettkampf"
+          },
+          {
+            "left": "Demokratie",
+            "right": "Volksherrschaft"
+          }
+        ]
+      },
+      "hints": [
+        "Kulturelle Leistungen der Griechen."
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Die Griechen prägten Theater, Philosophie, Sport und Demokratie."
+    },
+    {
+      "id": "ahs-gesch-k1-roem-003",
+      "type": "fill-blank",
+      "areaId": "antike",
+      "themeId": "roemer",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ergänze den Namen der Hauptstadt des Römischen Reiches.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die Hauptstadt des Römischen Reiches war {{blank}}.",
+        "correctAnswer": "Rom",
+        "acceptableAnswers": []
+      },
+      "hints": [
+        "Die 'Ewige Stadt'."
+      ],
+      "feedbackCorrect": "Richtig! Rom!",
+      "feedbackIncorrect": "Rom war das Zentrum des Römischen Reiches."
+    },
+    {
+      "id": "ahs-gesch-k1-roem-004",
+      "type": "multiple-choice",
+      "areaId": "antike",
+      "themeId": "roemer",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Wie hieß die Sprache der Römer?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Die Römer sprachen:",
+        "options": [
+          "Griechisch",
+          "Latein",
+          "Deutsch",
+          "Italienisch"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Viele Fremdwörter stammen davon ab."
+      ],
+      "feedbackCorrect": "Richtig! Latein!",
+      "feedbackIncorrect": "Latein war die Amtssprache des Römischen Reiches."
+    },
+    {
+      "id": "ahs-gesch-k1-roem-005",
+      "type": "matching",
+      "areaId": "antike",
+      "themeId": "roemer",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ordne die römischen Begriffe zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Kolosseum",
+            "right": "Amphitheater in Rom"
+          },
+          {
+            "left": "Forum Romanum",
+            "right": "Marktplatz"
+          },
+          {
+            "left": "Legionär",
+            "right": "Römischer Soldat"
+          },
+          {
+            "left": "Aquädukt",
+            "right": "Wasserleitung"
+          }
+        ]
+      },
+      "hints": [
+        "Wichtige Dinge im Römischen Reich."
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Kolosseum = Amphitheater, Forum = Marktplatz, Legionär = Soldat, Aquädukt = Wasserleitung."
+    },
+    {
+      "id": "ahs-gesch-k2-roem-006",
+      "type": "multiple-choice",
+      "areaId": "antike",
+      "themeId": "roemer",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Welches Gebiet gehörte zum Römischen Reich?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Zum Römischen Reich gehörte auch:",
+        "options": [
+          "China",
+          "Australien",
+          "Teile von Österreich (Noricum)",
+          "Japan"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Denke an die Provinzen in Europa."
+      ],
+      "feedbackCorrect": "Richtig! Teile von Österreich (Noricum)!",
+      "feedbackIncorrect": "Die römische Provinz Noricum umfasste Teile des heutigen Österreichs."
+    },
+    {
+      "id": "ahs-gesch-k2-roem-007",
+      "type": "fill-blank",
+      "areaId": "antike",
+      "themeId": "roemer",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ergänze den Satz über die römische Staatsform.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Bevor Rom ein Kaiserreich wurde, war es eine {{blank}}.",
+        "correctAnswer": "Republik",
+        "acceptableAnswers": []
+      },
+      "hints": [
+        "Die Bürger wählten ihre Vertreter."
+      ],
+      "feedbackCorrect": "Richtig! Eine Republik!",
+      "feedbackIncorrect": "Die Römische Republik bestand von 509 bis 27 v. Chr."
+    },
+    {
+      "id": "ahs-gesch-k2-roem-008",
+      "type": "multiple-choice",
+      "areaId": "antike",
+      "themeId": "roemer",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Was geschah am 15. März 44 v. Chr.?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Am 15. März 44 v. Chr. wurde ermordet:",
+        "options": [
+          "Augustus",
+          "Nero",
+          "Julius Cäsar",
+          "Marc Anton"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Die Iden des März."
+      ],
+      "feedbackCorrect": "Richtig! Julius Cäsar!",
+      "feedbackIncorrect": "Julius Cäsar wurde am 15. März 44 v. Chr. von Senatoren ermordet."
+    },
+    {
+      "id": "ahs-gesch-k2-roem-009",
+      "type": "sorting",
+      "areaId": "antike",
+      "themeId": "roemer",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die Begriffe den Kategorien zu.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Römische Bauwerke",
+            "items": [
+              "Kolosseum",
+              "Aquädukt",
+              "Triumphbogen"
+            ]
+          },
+          {
+            "label": "Römisches Militär",
+            "items": [
+              "Legion",
+              "Gladius",
+              "Zenturio"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Was wurde gebaut, was gehört zum Heer?"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Kolosseum, Aquädukt, Triumphbogen = Bauwerke; Legion, Gladius, Zenturio = Militär."
+    },
+    {
+      "id": "ahs-gesch-k2-roem-010",
+      "type": "matching",
+      "areaId": "antike",
+      "themeId": "roemer",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die römischen Persönlichkeiten zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Julius Cäsar",
+            "right": "Feldherr und Diktator"
+          },
+          {
+            "left": "Augustus",
+            "right": "Erster Kaiser"
+          },
+          {
+            "left": "Nero",
+            "right": "Berüchtigter Kaiser"
+          },
+          {
+            "left": "Hannibal",
+            "right": "Karthagischer Feldherr"
+          }
+        ]
+      },
+      "hints": [
+        "Berühmte Personen der römischen Geschichte."
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Cäsar = Feldherr, Augustus = erster Kaiser, Nero = berüchtigt, Hannibal = Karthago."
+    },
+    {
+      "id": "ahs-gesch-k2-mittel-002",
+      "type": "fill-blank",
+      "areaId": "mittelalter",
+      "themeId": "mittelalter",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Ergänze den Satz über das mittelalterliche System.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Im Mittelalter gab der König Land an Adelige, dieses System heißt {{blank}}.",
+        "correctAnswer": "Lehenswesen",
+        "acceptableAnswers": [
+          "Feudalismus",
+          "Lehnswesen"
+        ]
+      },
+      "hints": [
+        "Land gegen Treue und Dienst."
+      ],
+      "feedbackCorrect": "Richtig! Das Lehenswesen!",
+      "feedbackIncorrect": "Im Lehenswesen erhielten Adelige Land vom König gegen Treue und Militärdienst."
+    },
+    {
+      "id": "ahs-gesch-k2-mittel-003",
+      "type": "multiple-choice",
+      "areaId": "mittelalter",
+      "themeId": "mittelalter",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Wer stand an der Spitze der mittelalterlichen Gesellschaft?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "An der Spitze der Ständeordnung stand:",
+        "options": [
+          "Der Bürger",
+          "Der Bauer",
+          "Der König",
+          "Der Handwerker"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Der höchste weltliche Herrscher."
+      ],
+      "feedbackCorrect": "Richtig! Der König!",
+      "feedbackIncorrect": "Der König stand an der Spitze der Feudalgesellschaft."
+    },
+    {
+      "id": "ahs-gesch-k2-mittel-004",
+      "type": "matching",
+      "areaId": "mittelalter",
+      "themeId": "mittelalter",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die Stände des Mittelalters zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Erster Stand",
+            "right": "Klerus (Geistliche)"
+          },
+          {
+            "left": "Zweiter Stand",
+            "right": "Adel"
+          },
+          {
+            "left": "Dritter Stand",
+            "right": "Bauern und Bürger"
+          }
+        ]
+      },
+      "hints": [
+        "Die Gesellschaft war in drei Stände geteilt."
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "1. Stand = Klerus, 2. Stand = Adel, 3. Stand = Bauern und Bürger."
+    },
+    {
+      "id": "ahs-gesch-k2-mittel-005",
+      "type": "multiple-choice",
+      "areaId": "mittelalter",
+      "themeId": "mittelalter",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Was war eine Burg im Mittelalter?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Burgen dienten im Mittelalter vor allem als:",
+        "options": [
+          "Fabriken",
+          "Wohn- und Verteidigungsanlage",
+          "Kirchen",
+          "Schulen"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Ein befestigter Ort."
+      ],
+      "feedbackCorrect": "Richtig! Wohn- und Verteidigungsanlage!",
+      "feedbackIncorrect": "Burgen waren befestigte Wohnsitze des Adels und dienten der Verteidigung."
+    },
+    {
+      "id": "ahs-gesch-k2-mittel-006",
+      "type": "fill-blank",
+      "areaId": "mittelalter",
+      "themeId": "mittelalter",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ergänze den Satz über Karl den Großen.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "{{blank}} wurde im Jahr 800 vom Papst zum Kaiser gekrönt.",
+        "correctAnswer": "Karl der Große",
+        "acceptableAnswers": [
+          "Karl"
+        ]
+      },
+      "hints": [
+        "Ein fränkischer Herrscher."
+      ],
+      "feedbackCorrect": "Richtig! Karl der Große!",
+      "feedbackIncorrect": "Karl der Große wurde 800 n. Chr. vom Papst in Rom zum Kaiser gekrönt."
+    },
+    {
+      "id": "ahs-gesch-k2-mittel-007",
+      "type": "multiple-choice",
+      "areaId": "mittelalter",
+      "themeId": "mittelalter",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Was war ein Ritter im Mittelalter?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Ein Ritter war:",
+        "options": [
+          "Ein Bauer",
+          "Ein bewaffneter Reiter im Dienst eines Herrn",
+          "Ein Mönch",
+          "Ein Händler"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Er trug eine Rüstung."
+      ],
+      "feedbackCorrect": "Richtig! Ein bewaffneter Reiter!",
+      "feedbackIncorrect": "Ritter waren Krieger zu Pferd, die einem Lehnsherrn dienten."
+    },
+    {
+      "id": "ahs-gesch-k2-mittel-008",
+      "type": "sorting",
+      "areaId": "mittelalter",
+      "themeId": "mittelalter",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die Begriffe den Lebensbereichen zu.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Leben auf der Burg",
+            "items": [
+              "Ritter",
+              "Turnier",
+              "Zugbrücke"
+            ]
+          },
+          {
+            "label": "Leben im Kloster",
+            "items": [
+              "Mönch",
+              "Gebet",
+              "Handschriften"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Wo lebte wer?"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Ritter, Turniere und Zugbrücken gehören zur Burg; Mönche, Gebet und Handschriften zum Kloster."
+    },
+    {
+      "id": "ahs-gesch-k2-mittel-009",
+      "type": "multiple-choice",
+      "areaId": "mittelalter",
+      "themeId": "mittelalter",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "In welchem Jahrhundert begann das Mittelalter ungefähr?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Das Mittelalter begann ungefähr im:",
+        "options": [
+          "3. Jahrhundert",
+          "5. Jahrhundert",
+          "10. Jahrhundert",
+          "15. Jahrhundert"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Nach dem Fall des Weströmischen Reiches."
+      ],
+      "feedbackCorrect": "Richtig! Im 5. Jahrhundert!",
+      "feedbackIncorrect": "Das Mittelalter begann mit dem Untergang des Weströmischen Reiches 476 n. Chr."
+    },
+    {
+      "id": "ahs-gesch-k2-mittel-010",
+      "type": "matching",
+      "areaId": "mittelalter",
+      "themeId": "mittelalter",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die mittelalterlichen Berufe den Beschreibungen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Schmied",
+            "right": "Bearbeitete Metall"
+          },
+          {
+            "left": "Gerber",
+            "right": "Verarbeitete Tierhäute"
+          },
+          {
+            "left": "Bader",
+            "right": "Heilte Kranke und rasierte"
+          },
+          {
+            "left": "Minnesänger",
+            "right": "Dichtete und sang Lieder"
+          }
+        ]
+      },
+      "hints": [
+        "Typische Berufe im Mittelalter."
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Schmied = Metall, Gerber = Leder, Bader = Heiler, Minnesänger = Dichter."
+    },
+    {
+      "id": "ahs-gesch-k2-kreuz-002",
+      "type": "fill-blank",
+      "areaId": "mittelalter",
+      "themeId": "kreuzzuege",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ergänze den Satz über das Ziel der Kreuzzüge.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Das Ziel der Kreuzzüge war die Eroberung von {{blank}}.",
+        "correctAnswer": "Jerusalem",
+        "acceptableAnswers": []
+      },
+      "hints": [
+        "Die heilige Stadt."
+      ],
+      "feedbackCorrect": "Richtig! Jerusalem!",
+      "feedbackIncorrect": "Jerusalem war das Hauptziel der Kreuzzüge."
+    },
+    {
+      "id": "ahs-gesch-k2-kreuz-003",
+      "type": "multiple-choice",
+      "areaId": "mittelalter",
+      "themeId": "kreuzzuege",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Wer rief den ersten Kreuzzug aus?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Den ersten Kreuzzug rief aus:",
+        "options": [
+          "Kaiser Friedrich",
+          "Papst Urban II.",
+          "König Richard",
+          "Sultan Saladin"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Ein kirchlicher Würdenträger."
+      ],
+      "feedbackCorrect": "Richtig! Papst Urban II.!",
+      "feedbackIncorrect": "Papst Urban II. rief 1095 auf dem Konzil von Clermont zum Kreuzzug auf."
+    },
+    {
+      "id": "ahs-gesch-k2-kreuz-004",
+      "type": "multiple-choice",
+      "areaId": "mittelalter",
+      "themeId": "kreuzzuege",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Wann fand der erste Kreuzzug statt?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Der erste Kreuzzug begann im Jahr:",
+        "options": [
+          "1096",
+          "1204",
+          "1291",
+          "1000"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Ende des 11. Jahrhunderts."
+      ],
+      "feedbackCorrect": "Richtig! 1096!",
+      "feedbackIncorrect": "Der erste Kreuzzug begann 1096 und endete 1099 mit der Eroberung Jerusalems."
+    },
+    {
+      "id": "ahs-gesch-k2-kreuz-005",
+      "type": "matching",
+      "areaId": "mittelalter",
+      "themeId": "kreuzzuege",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die Personen den Kreuzzügen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Papst Urban II.",
+            "right": "Aufruf zum 1. Kreuzzug"
+          },
+          {
+            "left": "Saladin",
+            "right": "Muslimischer Feldherr"
+          },
+          {
+            "left": "Richard Löwenherz",
+            "right": "Englischer König im 3. Kreuzzug"
+          },
+          {
+            "left": "Friedrich Barbarossa",
+            "right": "Deutscher Kaiser im 3. Kreuzzug"
+          }
+        ]
+      },
+      "hints": [
+        "Wichtige Personen der Kreuzzugszeit."
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Urban II. rief auf, Saladin verteidigte, Richard und Friedrich zogen in den 3. Kreuzzug."
+    },
+    {
+      "id": "ahs-gesch-k2-kreuz-006",
+      "type": "multiple-choice",
+      "areaId": "mittelalter",
+      "themeId": "kreuzzuege",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Was waren die Ritterorden?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Die Ritterorden waren:",
+        "options": [
+          "Handelsgilden",
+          "Religiöse Militärgemeinschaften",
+          "Bauernverbände",
+          "Universitäten"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Kombination aus Mönch und Krieger."
+      ],
+      "feedbackCorrect": "Richtig! Religiöse Militärgemeinschaften!",
+      "feedbackIncorrect": "Ritterorden wie Templer und Johanniter waren religiöse Kriegergemeinschaften."
+    },
+    {
+      "id": "ahs-gesch-k2-kreuz-007",
+      "type": "fill-blank",
+      "areaId": "mittelalter",
+      "themeId": "kreuzzuege",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ergänze den Satz über die Kreuzzüge.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die Kreuzfahrer trugen als Erkennungszeichen ein {{blank}} auf ihrer Kleidung.",
+        "correctAnswer": "Kreuz",
+        "acceptableAnswers": []
+      },
+      "hints": [
+        "Das Symbol des Christentums."
+      ],
+      "feedbackCorrect": "Richtig! Ein Kreuz!",
+      "feedbackIncorrect": "Das Kreuz war das Symbol der Kreuzfahrer."
+    },
+    {
+      "id": "ahs-gesch-k2-kreuz-008",
+      "type": "sorting",
+      "areaId": "mittelalter",
+      "themeId": "kreuzzuege",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die Begriffe den Seiten zu.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Kreuzfahrer",
+            "items": [
+              "Papst Urban II.",
+              "Richard Löwenherz",
+              "Templer"
+            ]
+          },
+          {
+            "label": "Gegenseite",
+            "items": [
+              "Saladin",
+              "Mamluken",
+              "Seldschuken"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Wer kämpfte auf welcher Seite?"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Papst, Richard und Templer auf christlicher Seite; Saladin, Mamluken und Seldschuken auf muslimischer."
+    },
+    {
+      "id": "ahs-gesch-k2-kreuz-009",
+      "type": "multiple-choice",
+      "areaId": "mittelalter",
+      "themeId": "kreuzzuege",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Was brachten die Kreuzzüge nach Europa?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Durch die Kreuzzüge kamen nach Europa:",
+        "options": [
+          "Nichts Neues",
+          "Neue Gewürze, Stoffe und Wissen",
+          "Neue Religionen",
+          "Neue Tiere"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Kulturaustausch zwischen Ost und West."
+      ],
+      "feedbackCorrect": "Richtig! Neue Gewürze, Stoffe und Wissen!",
+      "feedbackIncorrect": "Die Kreuzzüge führten zu einem Kulturaustausch mit dem Orient."
+    },
+    {
+      "id": "ahs-gesch-k2-kreuz-010",
+      "type": "multiple-choice",
+      "areaId": "mittelalter",
+      "themeId": "kreuzzuege",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Wann endeten die Kreuzzüge?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Die Kreuzzugszeit endete mit dem Fall von Akkon im Jahr:",
+        "options": [
+          "1099",
+          "1187",
+          "1291",
+          "1453"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Ende des 13. Jahrhunderts."
+      ],
+      "feedbackCorrect": "Richtig! 1291!",
+      "feedbackIncorrect": "Mit dem Fall von Akkon 1291 endete die Kreuzfahrerherrschaft im Heiligen Land."
+    },
+    {
+      "id": "ahs-gesch-k2-ren-002",
+      "type": "fill-blank",
+      "areaId": "mittelalter",
+      "themeId": "renaissance",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ergänze den Satz über die Renaissance.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die Renaissance begann im 14. Jahrhundert in {{blank}}.",
+        "correctAnswer": "Italien",
+        "acceptableAnswers": []
+      },
+      "hints": [
+        "Ein Land in Südeuropa."
+      ],
+      "feedbackCorrect": "Richtig! In Italien!",
+      "feedbackIncorrect": "Die Renaissance nahm ihren Anfang in den italienischen Stadtstaaten."
+    },
+    {
+      "id": "ahs-gesch-k2-ren-003",
+      "type": "multiple-choice",
+      "areaId": "mittelalter",
+      "themeId": "renaissance",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Wer malte die Mona Lisa?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Die Mona Lisa wurde gemalt von:",
+        "options": [
+          "Michelangelo",
+          "Raphael",
+          "Leonardo da Vinci",
+          "Botticelli"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Ein vielseitiges Genie."
+      ],
+      "feedbackCorrect": "Richtig! Leonardo da Vinci!",
+      "feedbackIncorrect": "Leonardo da Vinci malte die Mona Lisa im frühen 16. Jahrhundert."
+    },
+    {
+      "id": "ahs-gesch-k2-ren-004",
+      "type": "matching",
+      "areaId": "mittelalter",
+      "themeId": "renaissance",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die Künstler ihren Werken zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Leonardo da Vinci",
+            "right": "Mona Lisa"
+          },
+          {
+            "left": "Michelangelo",
+            "right": "Decke der Sixtinischen Kapelle"
+          },
+          {
+            "left": "Gutenberg",
+            "right": "Buchdruck mit beweglichen Lettern"
+          },
+          {
+            "left": "Kopernikus",
+            "right": "Heliozentrisches Weltbild"
+          }
+        ]
+      },
+      "hints": [
+        "Berühmte Persönlichkeiten der Renaissance."
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Da Vinci = Mona Lisa, Michelangelo = Sixtina, Gutenberg = Buchdruck, Kopernikus = Sonnensystem."
+    },
+    {
+      "id": "ahs-gesch-k2-ren-005",
+      "type": "multiple-choice",
+      "areaId": "mittelalter",
+      "themeId": "renaissance",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Was erfand Johannes Gutenberg?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Johannes Gutenberg erfand um 1450:",
+        "options": [
+          "Das Telefon",
+          "Den Buchdruck mit beweglichen Lettern",
+          "Die Dampfmaschine",
+          "Das Teleskop"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Eine Revolution der Verbreitung von Wissen."
+      ],
+      "feedbackCorrect": "Richtig! Den Buchdruck mit beweglichen Lettern!",
+      "feedbackIncorrect": "Gutenbergs Buchdruck revolutionierte die Verbreitung von Wissen in Europa."
+    },
+    {
+      "id": "ahs-gesch-k2-ren-006",
+      "type": "fill-blank",
+      "areaId": "mittelalter",
+      "themeId": "renaissance",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ergänze den Satz über Michelangelo.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Michelangelo schuf die berühmte Deckenmalerei der {{blank}} Kapelle in Rom.",
+        "correctAnswer": "Sixtinischen",
+        "acceptableAnswers": [
+          "sixtinischen"
+        ]
+      },
+      "hints": [
+        "Eine berühmte Kapelle im Vatikan."
+      ],
+      "feedbackCorrect": "Richtig! Der Sixtinischen Kapelle!",
+      "feedbackIncorrect": "Michelangelo malte die Decke der Sixtinischen Kapelle zwischen 1508 und 1512."
+    },
+    {
+      "id": "ahs-gesch-k2-ren-007",
+      "type": "multiple-choice",
+      "areaId": "mittelalter",
+      "themeId": "renaissance",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Was war der Humanismus?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Der Humanismus war:",
+        "options": [
+          "Eine Kriegsstrategie",
+          "Eine geistige Bewegung, die den Menschen in den Mittelpunkt stellte",
+          "Eine Handelsorganisation",
+          "Eine religiöse Sekte"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Der Mensch als Maß aller Dinge."
+      ],
+      "feedbackCorrect": "Richtig! Eine geistige Bewegung!",
+      "feedbackIncorrect": "Der Humanismus stellte den Menschen und seine Fähigkeiten in den Mittelpunkt."
+    },
+    {
+      "id": "ahs-gesch-k2-ren-008",
+      "type": "sorting",
+      "areaId": "mittelalter",
+      "themeId": "renaissance",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die Errungenschaften den Epochen zu.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Mittelalter",
+            "items": [
+              "Lehenswesen",
+              "Kreuzzüge",
+              "Gotische Kathedralen"
+            ]
+          },
+          {
+            "label": "Renaissance",
+            "items": [
+              "Buchdruck",
+              "Perspektivmalerei",
+              "Humanismus"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Was gehört in welche Zeit?"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Lehenswesen, Kreuzzüge und Gotik gehören zum Mittelalter; Buchdruck, Perspektive und Humanismus zur Renaissance."
+    },
+    {
+      "id": "ahs-gesch-k2-ren-009",
+      "type": "multiple-choice",
+      "areaId": "mittelalter",
+      "themeId": "renaissance",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Was entdeckte Nikolaus Kopernikus?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Kopernikus stellte fest, dass:",
+        "options": [
+          "Die Erde eine Scheibe ist",
+          "Die Sonne sich um die Erde dreht",
+          "Die Erde sich um die Sonne dreht",
+          "Der Mond aus Käse besteht"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Ein neues Weltbild."
+      ],
+      "feedbackCorrect": "Richtig! Die Erde dreht sich um die Sonne!",
+      "feedbackIncorrect": "Kopernikus begründete das heliozentrische Weltbild."
+    },
+    {
+      "id": "ahs-gesch-k2-ren-010",
+      "type": "matching",
+      "areaId": "mittelalter",
+      "themeId": "renaissance",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die Städte ihren Bedeutungen in der Renaissance zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Florenz",
+            "right": "Zentrum der Kunst und Kultur"
+          },
+          {
+            "left": "Rom",
+            "right": "Sitz des Papstes"
+          },
+          {
+            "left": "Venedig",
+            "right": "Handelsrepublik"
+          },
+          {
+            "left": "Mainz",
+            "right": "Gutenbergs Druckerpresse"
+          }
+        ]
+      },
+      "hints": [
+        "Wichtige Städte der Renaissance."
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Florenz = Kunst, Rom = Papst, Venedig = Handel, Mainz = Buchdruck."
+    },
+    {
+      "id": "ahs-gesch-k2-ref-002",
+      "type": "fill-blank",
+      "areaId": "neuzeit",
+      "themeId": "reformation",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ergänze den Satz über die Reformation.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Martin Luther schlug seine 95 Thesen im Jahr {{blank}} an die Kirchentür.",
+        "correctAnswer": "1517",
+        "acceptableAnswers": []
+      },
+      "hints": [
+        "Im frühen 16. Jahrhundert."
+      ],
+      "feedbackCorrect": "Richtig! 1517!",
+      "feedbackIncorrect": "Am 31. Oktober 1517 veröffentlichte Luther seine 95 Thesen in Wittenberg."
+    },
+    {
+      "id": "ahs-gesch-k2-ref-003",
+      "type": "multiple-choice",
+      "areaId": "neuzeit",
+      "themeId": "reformation",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Wogegen protestierte Martin Luther?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Martin Luther protestierte gegen:",
+        "options": [
+          "Die Monarchie",
+          "Den Ablasshandel der Kirche",
+          "Die Wissenschaft",
+          "Den Buchdruck"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Der Verkauf von Sündenvergebung."
+      ],
+      "feedbackCorrect": "Richtig! Den Ablasshandel!",
+      "feedbackIncorrect": "Luther kritisierte den Verkauf von Ablassbriefen durch die katholische Kirche."
+    },
+    {
+      "id": "ahs-gesch-k2-ref-004",
+      "type": "matching",
+      "areaId": "neuzeit",
+      "themeId": "reformation",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die Reformatoren ihren Ländern zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Martin Luther",
+            "right": "Deutschland"
+          },
+          {
+            "left": "Huldrych Zwingli",
+            "right": "Schweiz"
+          },
+          {
+            "left": "Johannes Calvin",
+            "right": "Genf/Frankreich"
+          },
+          {
+            "left": "Heinrich VIII.",
+            "right": "England"
+          }
+        ]
+      },
+      "hints": [
+        "Verschiedene Reformatoren in Europa."
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Luther = Deutschland, Zwingli = Schweiz, Calvin = Genf, Heinrich VIII. = England."
+    },
+    {
+      "id": "ahs-gesch-k3-ref-005",
+      "type": "multiple-choice",
+      "areaId": "neuzeit",
+      "themeId": "reformation",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Was war der Augsburger Religionsfrieden?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Der Augsburger Religionsfrieden von 1555 bestimmte:",
+        "options": [
+          "Das Ende aller Kriege",
+          "Wessen Land, dessen Religion",
+          "Die Abschaffung des Papsttums",
+          "Die Einführung des Islam"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Cuius regio, eius religio."
+      ],
+      "feedbackCorrect": "Richtig! Wessen Land, dessen Religion!",
+      "feedbackIncorrect": "Der Grundsatz 'Cuius regio, eius religio' ließ den Landesherrn die Religion bestimmen."
+    },
+    {
+      "id": "ahs-gesch-k3-ref-006",
+      "type": "fill-blank",
+      "areaId": "neuzeit",
+      "themeId": "reformation",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Ergänze den Satz über den Dreißigjährigen Krieg.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Der Dreißigjährige Krieg endete mit dem Westfälischen Frieden im Jahr {{blank}}.",
+        "correctAnswer": "1648",
+        "acceptableAnswers": []
+      },
+      "hints": [
+        "Mitte des 17. Jahrhunderts."
+      ],
+      "feedbackCorrect": "Richtig! 1648!",
+      "feedbackIncorrect": "Der Westfälische Frieden von 1648 beendete den Dreißigjährigen Krieg."
+    },
+    {
+      "id": "ahs-gesch-k3-ref-007",
+      "type": "multiple-choice",
+      "areaId": "neuzeit",
+      "themeId": "reformation",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Was war die Gegenreformation?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Die Gegenreformation war:",
+        "options": [
+          "Luthers zweite Reform",
+          "Die Reaktion der katholischen Kirche auf die Reformation",
+          "Eine neue Religion",
+          "Ein Handelsabkommen"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Die Antwort der katholischen Kirche."
+      ],
+      "feedbackCorrect": "Richtig! Die Reaktion der katholischen Kirche!",
+      "feedbackIncorrect": "Die Gegenreformation war die Erneuerungsbewegung der katholischen Kirche."
+    },
+    {
+      "id": "ahs-gesch-k3-ref-008",
+      "type": "sorting",
+      "areaId": "neuzeit",
+      "themeId": "reformation",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Ordne die Ereignisse den Konfessionen zu.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Protestantisch",
+            "items": [
+              "95 Thesen",
+              "Bibelübersetzung",
+              "Predigtgottesdienst"
+            ]
+          },
+          {
+            "label": "Katholisch",
+            "items": [
+              "Konzil von Trient",
+              "Jesuitenorden",
+              "Gegenreformation"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Was gehört zu welcher Seite?"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Thesen und Bibelübersetzung = protestantisch; Konzil von Trient und Jesuiten = katholisch."
+    },
+    {
+      "id": "ahs-gesch-k3-ref-009",
+      "type": "multiple-choice",
+      "areaId": "neuzeit",
+      "themeId": "reformation",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Welchen wichtigen Text übersetzte Luther?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Martin Luther übersetzte:",
+        "options": [
+          "Griechische Philosophie",
+          "Die Bibel ins Deutsche",
+          "Römische Gesetze",
+          "Arabische Märchen"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Das wichtigste Buch des Christentums."
+      ],
+      "feedbackCorrect": "Richtig! Die Bibel ins Deutsche!",
+      "feedbackIncorrect": "Luther übersetzte die Bibel ins Deutsche und prägte damit die deutsche Sprache."
+    },
+    {
+      "id": "ahs-gesch-k3-ref-010",
+      "type": "matching",
+      "areaId": "neuzeit",
+      "themeId": "reformation",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Ordne die Ereignisse der Reformation chronologisch zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "1517",
+            "right": "Luthers 95 Thesen"
+          },
+          {
+            "left": "1555",
+            "right": "Augsburger Religionsfrieden"
+          },
+          {
+            "left": "1618",
+            "right": "Beginn des Dreißigjährigen Krieges"
+          },
+          {
+            "left": "1648",
+            "right": "Westfälischer Frieden"
+          }
+        ]
+      },
+      "hints": [
+        "Vom Beginn bis zum Ende der Religionskriege."
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "1517 Thesen, 1555 Augsburger Frieden, 1618 Kriegsbeginn, 1648 Westfälischer Frieden."
+    },
+    {
+      "id": "ahs-gesch-k3-rev-003",
+      "type": "fill-blank",
+      "areaId": "neuzeit",
+      "themeId": "revolution",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Ergänze das Motto der Französischen Revolution.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Das Motto der Revolution war: Freiheit, Gleichheit, {{blank}}.",
+        "correctAnswer": "Brüderlichkeit",
+        "acceptableAnswers": []
+      },
+      "hints": [
+        "Drei Ideale."
+      ],
+      "feedbackCorrect": "Richtig! Brüderlichkeit!",
+      "feedbackIncorrect": "Liberté, Égalité, Fraternité war das Motto der Revolution."
+    },
+    {
+      "id": "ahs-gesch-k3-rev-004",
+      "type": "multiple-choice",
+      "areaId": "neuzeit",
+      "themeId": "revolution",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Was geschah am 14. Juli 1789?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Am 14. Juli 1789 geschah:",
+        "options": [
+          "Die Krönung des Königs",
+          "Der Sturm auf die Bastille",
+          "Die Hinrichtung des Königs",
+          "Napoleon wurde Kaiser"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Ein Gefängnis wurde gestürmt."
+      ],
+      "feedbackCorrect": "Richtig! Der Sturm auf die Bastille!",
+      "feedbackIncorrect": "Der Sturm auf die Bastille gilt als Beginn der Französischen Revolution."
+    },
+    {
+      "id": "ahs-gesch-k3-rev-005",
+      "type": "matching",
+      "areaId": "neuzeit",
+      "themeId": "revolution",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Ordne die Ereignisse der Französischen Revolution zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "1789",
+            "right": "Sturm auf die Bastille"
+          },
+          {
+            "left": "1792",
+            "right": "Abschaffung der Monarchie"
+          },
+          {
+            "left": "1793",
+            "right": "Hinrichtung Ludwigs XVI."
+          },
+          {
+            "left": "1799",
+            "right": "Napoleon ergreift die Macht"
+          }
+        ]
+      },
+      "hints": [
+        "Wichtige Daten der Revolution."
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "1789 Bastille, 1792 Republik, 1793 Hinrichtung, 1799 Napoleon."
+    },
+    {
+      "id": "ahs-gesch-k3-rev-006",
+      "type": "multiple-choice",
+      "areaId": "neuzeit",
+      "themeId": "revolution",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Was war die Schreckensherrschaft (Terreur)?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Die Schreckensherrschaft war:",
+        "options": [
+          "Eine friedliche Phase",
+          "Die Zeit der Massenhinrichtungen unter Robespierre",
+          "Ein Wirtschaftswunder",
+          "Ein Friedensvertrag"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Viele Menschen starben durch die Guillotine."
+      ],
+      "feedbackCorrect": "Richtig! Die Zeit der Massenhinrichtungen!",
+      "feedbackIncorrect": "Unter Robespierre wurden 1793–1794 tausende Menschen hingerichtet."
+    },
+    {
+      "id": "ahs-gesch-k3-rev-007",
+      "type": "fill-blank",
+      "areaId": "neuzeit",
+      "themeId": "revolution",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Ergänze den Satz über Napoleon.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "{{blank}} krönte sich 1804 selbst zum Kaiser der Franzosen.",
+        "correctAnswer": "Napoleon",
+        "acceptableAnswers": [
+          "Napoleon Bonaparte"
+        ]
+      },
+      "hints": [
+        "Ein berühmter französischer Feldherr."
+      ],
+      "feedbackCorrect": "Richtig! Napoleon!",
+      "feedbackIncorrect": "Napoleon Bonaparte krönte sich 1804 in Paris selbst zum Kaiser."
+    },
+    {
+      "id": "ahs-gesch-k3-rev-008",
+      "type": "multiple-choice",
+      "areaId": "neuzeit",
+      "themeId": "revolution",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Welches Ereignis beendete Napoleons Herrschaft endgültig?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Napoleons endgültige Niederlage war:",
+        "options": [
+          "Die Schlacht bei Austerlitz",
+          "Die Schlacht bei Waterloo",
+          "Die Schlacht bei Trafalgar",
+          "Der Wiener Kongress"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Eine Stadt in Belgien."
+      ],
+      "feedbackCorrect": "Richtig! Die Schlacht bei Waterloo!",
+      "feedbackIncorrect": "Napoleon wurde 1815 bei Waterloo besiegt und nach St. Helena verbannt."
+    },
+    {
+      "id": "ahs-gesch-k3-rev-009",
+      "type": "sorting",
+      "areaId": "neuzeit",
+      "themeId": "revolution",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Ordne die Ereignisse chronologisch.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Vor Napoleon",
+            "items": [
+              "Sturm auf die Bastille",
+              "Erklärung der Menschenrechte",
+              "Hinrichtung Ludwigs XVI."
+            ]
+          },
+          {
+            "label": "Napoleons Zeit",
+            "items": [
+              "Krönung zum Kaiser",
+              "Feldzug gegen Russland",
+              "Schlacht bei Waterloo"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Was war vor und was während Napoleons Herrschaft?"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Bastille, Menschenrechte und Hinrichtung vor Napoleon; Krönung, Russland und Waterloo unter Napoleon."
+    },
+    {
+      "id": "ahs-gesch-k3-rev-010",
+      "type": "multiple-choice",
+      "areaId": "neuzeit",
+      "themeId": "revolution",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Was beschloss der Wiener Kongress 1814/15?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Der Wiener Kongress beschloss:",
+        "options": [
+          "Die Gründung der EU",
+          "Die Neuordnung Europas nach Napoleon",
+          "Die Demokratisierung Europas",
+          "Die Abschaffung der Monarchie"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Eine Konferenz in Wien."
+      ],
+      "feedbackCorrect": "Richtig! Die Neuordnung Europas nach Napoleon!",
+      "feedbackIncorrect": "Der Wiener Kongress ordnete Europa nach den Napoleonischen Kriegen neu."
+    },
+    {
+      "id": "ahs-gesch-k3-ind-002",
+      "type": "fill-blank",
+      "areaId": "neuzeit",
+      "themeId": "industrialisierung",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Ergänze den Satz über die Dampfmaschine.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "James Watt verbesserte die {{blank}} entscheidend.",
+        "correctAnswer": "Dampfmaschine",
+        "acceptableAnswers": []
+      },
+      "hints": [
+        "Eine Maschine, die mit Wasserdampf arbeitet."
+      ],
+      "feedbackCorrect": "Richtig! Die Dampfmaschine!",
+      "feedbackIncorrect": "James Watt verbesserte die Dampfmaschine und trieb die Industrialisierung voran."
+    },
+    {
+      "id": "ahs-gesch-k3-ind-003",
+      "type": "multiple-choice",
+      "areaId": "neuzeit",
+      "themeId": "industrialisierung",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Was veränderte sich durch die Industrialisierung?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Durch die Industrialisierung entstand:",
+        "options": [
+          "Weniger Bevölkerung",
+          "Massenproduktion in Fabriken",
+          "Weniger Städte",
+          "Mehr Landwirtschaft"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Maschinen ersetzten Handarbeit."
+      ],
+      "feedbackCorrect": "Richtig! Massenproduktion in Fabriken!",
+      "feedbackIncorrect": "Die Industrialisierung brachte die Verlagerung von Handarbeit zu Maschinenarbeit."
+    },
+    {
+      "id": "ahs-gesch-k3-ind-004",
+      "type": "matching",
+      "areaId": "neuzeit",
+      "themeId": "industrialisierung",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Ordne die Erfindungen ihren Erfindern zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "James Watt",
+            "right": "Dampfmaschine"
+          },
+          {
+            "left": "George Stephenson",
+            "right": "Eisenbahn (Lokomotive)"
+          },
+          {
+            "left": "Eli Whitney",
+            "right": "Baumwollentkörnungsmaschine"
+          },
+          {
+            "left": "Edmund Cartwright",
+            "right": "Mechanischer Webstuhl"
+          }
+        ]
+      },
+      "hints": [
+        "Wichtige Erfinder der Industrialisierung."
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Watt = Dampfmaschine, Stephenson = Eisenbahn, Whitney = Baumwolle, Cartwright = Webstuhl."
+    },
+    {
+      "id": "ahs-gesch-k3-ind-005",
+      "type": "multiple-choice",
+      "areaId": "neuzeit",
+      "themeId": "industrialisierung",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Was war die 'Soziale Frage'?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Die Soziale Frage betraf:",
+        "options": [
+          "Die Bildung der Könige",
+          "Die Lebensbedingungen der Arbeiter",
+          "Die Landwirtschaft",
+          "Den Handel mit Asien"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Probleme der arbeitenden Bevölkerung."
+      ],
+      "feedbackCorrect": "Richtig! Die Lebensbedingungen der Arbeiter!",
+      "feedbackIncorrect": "Die Soziale Frage beschrieb die schlechten Lebens- und Arbeitsbedingungen der Arbeiterklasse."
+    },
+    {
+      "id": "ahs-gesch-k3-ind-006",
+      "type": "fill-blank",
+      "areaId": "neuzeit",
+      "themeId": "industrialisierung",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Ergänze den Satz über die Arbeiterbewegung.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Karl Marx und Friedrich Engels verfassten das Kommunistische {{blank}}.",
+        "correctAnswer": "Manifest",
+        "acceptableAnswers": []
+      },
+      "hints": [
+        "Eine wichtige politische Schrift."
+      ],
+      "feedbackCorrect": "Richtig! Das Kommunistische Manifest!",
+      "feedbackIncorrect": "Marx und Engels veröffentlichten 1848 das Kommunistische Manifest."
+    },
+    {
+      "id": "ahs-gesch-k3-ind-007",
+      "type": "sorting",
+      "areaId": "neuzeit",
+      "themeId": "industrialisierung",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Ordne die Begriffe den Bereichen zu.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Technische Erfindungen",
+            "items": [
+              "Dampfmaschine",
+              "Eisenbahn",
+              "Spinnmaschine"
+            ]
+          },
+          {
+            "label": "Soziale Folgen",
+            "items": [
+              "Kinderarbeit",
+              "Landflucht",
+              "Gewerkschaften"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Technik oder Gesellschaft?"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Dampfmaschine, Eisenbahn und Spinnmaschine = Technik; Kinderarbeit, Landflucht und Gewerkschaften = Soziales."
+    },
+    {
+      "id": "ahs-gesch-k3-ind-008",
+      "type": "multiple-choice",
+      "areaId": "neuzeit",
+      "themeId": "industrialisierung",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Was war die Eisenbahn für die Industrialisierung?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Die Eisenbahn war:",
+        "options": [
+          "Unwichtig",
+          "Ein entscheidender Motor für Wirtschaft und Transport",
+          "Nur für den Personenverkehr",
+          "Nur in Amerika verbreitet"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Schneller Transport von Waren und Menschen."
+      ],
+      "feedbackCorrect": "Richtig! Ein entscheidender Motor!",
+      "feedbackIncorrect": "Die Eisenbahn revolutionierte den Transport und beschleunigte die Industrialisierung."
+    },
+    {
+      "id": "ahs-gesch-k3-ind-009",
+      "type": "matching",
+      "areaId": "neuzeit",
+      "themeId": "industrialisierung",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Ordne die sozialen Bewegungen ihren Zielen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Gewerkschaften",
+            "right": "Bessere Arbeitsbedingungen"
+          },
+          {
+            "left": "Sozialismus",
+            "right": "Gemeinschaftliches Eigentum"
+          },
+          {
+            "left": "Liberalismus",
+            "right": "Freiheitsrechte und Marktwirtschaft"
+          }
+        ]
+      },
+      "hints": [
+        "Politische Strömungen im 19. Jahrhundert."
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Gewerkschaften = Arbeitsbedingungen, Sozialismus = Gemeineigentum, Liberalismus = Freiheit."
+    },
+    {
+      "id": "ahs-gesch-k3-ind-010",
+      "type": "multiple-choice",
+      "areaId": "neuzeit",
+      "themeId": "industrialisierung",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Wann begann die Industrialisierung in Österreich?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Die Industrialisierung in Österreich begann verstärkt:",
+        "options": [
+          "Im 16. Jahrhundert",
+          "Im frühen 19. Jahrhundert",
+          "Im 20. Jahrhundert",
+          "Im Mittelalter"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Etwas später als in England."
+      ],
+      "feedbackCorrect": "Richtig! Im frühen 19. Jahrhundert!",
+      "feedbackIncorrect": "Die Industrialisierung erreichte Österreich im frühen 19. Jahrhundert, später als England."
+    },
+    {
+      "id": "ahs-gesch-k3-wk1-003",
+      "type": "fill-blank",
+      "areaId": "gegenwart",
+      "themeId": "weltkrieg1",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Ergänze den Satz über den Auslöser des Ersten Weltkriegs.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Der Erste Weltkrieg wurde ausgelöst durch das Attentat auf Erzherzog {{blank}} in Sarajevo.",
+        "correctAnswer": "Franz Ferdinand",
+        "acceptableAnswers": [
+          "Franz-Ferdinand"
+        ]
+      },
+      "hints": [
+        "Ein österreichischer Thronfolger."
+      ],
+      "feedbackCorrect": "Richtig! Franz Ferdinand!",
+      "feedbackIncorrect": "Erzherzog Franz Ferdinand wurde am 28. Juni 1914 in Sarajevo ermordet."
+    },
+    {
+      "id": "ahs-gesch-k3-wk1-004",
+      "type": "multiple-choice",
+      "areaId": "gegenwart",
+      "themeId": "weltkrieg1",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Wie lange dauerte der Erste Weltkrieg?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Der Erste Weltkrieg dauerte:",
+        "options": [
+          "2 Jahre (1914–1916)",
+          "4 Jahre (1914–1918)",
+          "6 Jahre (1914–1920)",
+          "1 Jahr (1914–1915)"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Von 1914 bis ..."
+      ],
+      "feedbackCorrect": "Richtig! 4 Jahre!",
+      "feedbackIncorrect": "Der Erste Weltkrieg dauerte von 1914 bis 1918."
+    },
+    {
+      "id": "ahs-gesch-k3-wk1-005",
+      "type": "matching",
+      "areaId": "gegenwart",
+      "themeId": "weltkrieg1",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Ordne die Länder den Bündnissen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Deutschland",
+            "right": "Zentralmächte"
+          },
+          {
+            "left": "Frankreich",
+            "right": "Entente"
+          },
+          {
+            "left": "Österreich-Ungarn",
+            "right": "Zentralmächte"
+          },
+          {
+            "left": "Großbritannien",
+            "right": "Entente"
+          }
+        ]
+      },
+      "hints": [
+        "Wer kämpfte auf welcher Seite?"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Deutschland und Österreich-Ungarn = Zentralmächte; Frankreich und Großbritannien = Entente."
+    },
+    {
+      "id": "ahs-gesch-k3-wk1-006",
+      "type": "multiple-choice",
+      "areaId": "gegenwart",
+      "themeId": "weltkrieg1",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Was war der Stellungskrieg?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Der Stellungskrieg an der Westfront war geprägt durch:",
+        "options": [
+          "Schnelle Bewegungen",
+          "Lange Grabenkämpfe ohne große Gebietsgewinne",
+          "Seekrieg",
+          "Luftangriffe"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Gräben und kaum Fortschritt."
+      ],
+      "feedbackCorrect": "Richtig! Grabenkämpfe ohne große Gebietsgewinne!",
+      "feedbackIncorrect": "Der Stellungskrieg war ein zermürbender Grabenkrieg mit hohen Verlusten."
+    },
+    {
+      "id": "ahs-gesch-k3-wk1-007",
+      "type": "fill-blank",
+      "areaId": "gegenwart",
+      "themeId": "weltkrieg1",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Ergänze den Satz über das Ende des Krieges.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Der Erste Weltkrieg endete am 11. November {{blank}} mit einem Waffenstillstand.",
+        "correctAnswer": "1918",
+        "acceptableAnswers": []
+      },
+      "hints": [
+        "Das letzte Kriegsjahr."
+      ],
+      "feedbackCorrect": "Richtig! 1918!",
+      "feedbackIncorrect": "Der Waffenstillstand trat am 11. November 1918 in Kraft."
+    },
+    {
+      "id": "ahs-gesch-k3-wk1-008",
+      "type": "multiple-choice",
+      "areaId": "gegenwart",
+      "themeId": "weltkrieg1",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Was geschah mit Österreich-Ungarn nach dem Krieg?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Nach dem Ersten Weltkrieg:",
+        "options": [
+          "Blieb Österreich-Ungarn bestehen",
+          "Wurde Österreich-Ungarn aufgelöst",
+          "Wurde Österreich-Ungarn größer",
+          "Wurde Österreich-Ungarn eine Republik in alter Größe"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Das Vielvölkerreich zerfiel."
+      ],
+      "feedbackCorrect": "Richtig! Österreich-Ungarn wurde aufgelöst!",
+      "feedbackIncorrect": "Österreich-Ungarn zerfiel 1918 in mehrere Nachfolgestaaten."
+    },
+    {
+      "id": "ahs-gesch-k3-wk1-009",
+      "type": "sorting",
+      "areaId": "gegenwart",
+      "themeId": "weltkrieg1",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Ordne die Folgen dem Ersten Weltkrieg zu.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Politische Folgen",
+            "items": [
+              "Zerfall Österreich-Ungarns",
+              "Ende des Deutschen Kaiserreichs",
+              "Vertrag von Versailles"
+            ]
+          },
+          {
+            "label": "Gesellschaftliche Folgen",
+            "items": [
+              "Millionen Tote",
+              "Hunger und Armut",
+              "Spanische Grippe"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Welche Folgen waren politisch, welche gesellschaftlich?"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Zerfall und Versailles = politisch; Tote, Hunger und Grippe = gesellschaftlich."
+    },
+    {
+      "id": "ahs-gesch-k3-wk1-010",
+      "type": "multiple-choice",
+      "areaId": "gegenwart",
+      "themeId": "weltkrieg1",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Was bestimmte der Vertrag von Versailles?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Der Vertrag von Versailles 1919:",
+        "options": [
+          "Belohnte Deutschland",
+          "Legte Deutschland hohe Reparationen und Gebietsabtretungen auf",
+          "Gründete die EU",
+          "Vereinigte Deutschland und Österreich"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Ein harter Friedensvertrag."
+      ],
+      "feedbackCorrect": "Richtig! Hohe Reparationen und Gebietsabtretungen!",
+      "feedbackIncorrect": "Der Vertrag von Versailles legte Deutschland harte Bedingungen auf."
+    },
+    {
+      "id": "ahs-gesch-k3-wk2-003",
+      "type": "fill-blank",
+      "areaId": "gegenwart",
+      "themeId": "weltkrieg2",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Ergänze den Satz über den Beginn des Zweiten Weltkriegs.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Der Zweite Weltkrieg begann mit dem Überfall auf {{blank}} am 1. September 1939.",
+        "correctAnswer": "Polen",
+        "acceptableAnswers": []
+      },
+      "hints": [
+        "Ein Land östlich von Deutschland."
+      ],
+      "feedbackCorrect": "Richtig! Polen!",
+      "feedbackIncorrect": "Deutschland überfiel am 1. September 1939 Polen."
+    },
+    {
+      "id": "ahs-gesch-k3-wk2-004",
+      "type": "multiple-choice",
+      "areaId": "gegenwart",
+      "themeId": "weltkrieg2",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Was war der 'Anschluss' 1938?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Der 'Anschluss' 1938 war:",
+        "options": [
+          "Ein Handelsabkommen",
+          "Die Eingliederung Österreichs in das Deutsche Reich",
+          "Ein Friedensvertrag",
+          "Die Gründung der UNO"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Österreich und Deutschland."
+      ],
+      "feedbackCorrect": "Richtig! Die Eingliederung Österreichs!",
+      "feedbackIncorrect": "Im März 1938 wurde Österreich an das nationalsozialistische Deutschland angeschlossen."
+    },
+    {
+      "id": "ahs-gesch-k3-wk2-005",
+      "type": "matching",
+      "areaId": "gegenwart",
+      "themeId": "weltkrieg2",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Ordne die Ereignisse den Jahren zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "1938",
+            "right": "Anschluss Österreichs"
+          },
+          {
+            "left": "1939",
+            "right": "Beginn des Zweiten Weltkriegs"
+          },
+          {
+            "left": "1941",
+            "right": "Angriff auf die Sowjetunion"
+          },
+          {
+            "left": "1945",
+            "right": "Ende des Zweiten Weltkriegs"
+          }
+        ]
+      },
+      "hints": [
+        "Wichtige Daten des Zweiten Weltkriegs."
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "1938 Anschluss, 1939 Kriegsbeginn, 1941 Angriff auf UdSSR, 1945 Kriegsende."
+    },
+    {
+      "id": "ahs-gesch-k4-wk2-006",
+      "type": "multiple-choice",
+      "areaId": "gegenwart",
+      "themeId": "weltkrieg2",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was war die Nürnberger Rassengesetzgebung?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Die Nürnberger Gesetze von 1935:",
+        "options": [
+          "Förderten die Gleichheit",
+          "Diskriminierten jüdische Bürger gesetzlich",
+          "Schützten Minderheiten",
+          "Förderten die Demokratie"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Antisemitische Gesetze."
+      ],
+      "feedbackCorrect": "Richtig! Sie diskriminierten jüdische Bürger!",
+      "feedbackIncorrect": "Die Nürnberger Gesetze entzogen jüdischen Bürgern grundlegende Rechte."
+    },
+    {
+      "id": "ahs-gesch-k4-wk2-007",
+      "type": "fill-blank",
+      "areaId": "gegenwart",
+      "themeId": "weltkrieg2",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Ergänze den Satz über das Kriegsende.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Deutschland kapitulierte bedingungslos am 8. Mai {{blank}}.",
+        "correctAnswer": "1945",
+        "acceptableAnswers": []
+      },
+      "hints": [
+        "Das letzte Kriegsjahr."
+      ],
+      "feedbackCorrect": "Richtig! 1945!",
+      "feedbackIncorrect": "Am 8. Mai 1945 kapitulierte Deutschland bedingungslos."
+    },
+    {
+      "id": "ahs-gesch-k4-wk2-008",
+      "type": "sorting",
+      "areaId": "gegenwart",
+      "themeId": "weltkrieg2",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Ordne die Begriffe den Alliierten und Achsenmächten zu.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Alliierte",
+            "items": [
+              "USA",
+              "Großbritannien",
+              "Sowjetunion"
+            ]
+          },
+          {
+            "label": "Achsenmächte",
+            "items": [
+              "Deutschland",
+              "Italien",
+              "Japan"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Wer kämpfte auf welcher Seite?"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "USA, GB und UdSSR = Alliierte; Deutschland, Italien und Japan = Achsenmächte."
+    },
+    {
+      "id": "ahs-gesch-k4-wk2-009",
+      "type": "multiple-choice",
+      "areaId": "gegenwart",
+      "themeId": "weltkrieg2",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was war der D-Day?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Der D-Day am 6. Juni 1944 war:",
+        "options": [
+          "Der Angriff auf Pearl Harbor",
+          "Die Landung der Alliierten in der Normandie",
+          "Die Kapitulation Deutschlands",
+          "Der Abwurf der Atombombe"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Eine große Landungsoperation in Frankreich."
+      ],
+      "feedbackCorrect": "Richtig! Die Landung in der Normandie!",
+      "feedbackIncorrect": "Am D-Day landeten die Alliierten in der Normandie und eröffneten eine zweite Front."
+    },
+    {
+      "id": "ahs-gesch-k4-wk2-010",
+      "type": "matching",
+      "areaId": "gegenwart",
+      "themeId": "weltkrieg2",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Ordne die Personen ihren Rollen im Zweiten Weltkrieg zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Adolf Hitler",
+            "right": "Diktator Deutschlands"
+          },
+          {
+            "left": "Winston Churchill",
+            "right": "Premierminister Großbritanniens"
+          },
+          {
+            "left": "Franklin D. Roosevelt",
+            "right": "Präsident der USA"
+          },
+          {
+            "left": "Josef Stalin",
+            "right": "Führer der Sowjetunion"
+          }
+        ]
+      },
+      "hints": [
+        "Staatsoberhäupter im Zweiten Weltkrieg."
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Hitler = Deutschland, Churchill = GB, Roosevelt = USA, Stalin = UdSSR."
+    },
+    {
+      "id": "ahs-gesch-k4-kalt-002",
+      "type": "fill-blank",
+      "areaId": "gegenwart",
+      "themeId": "kaltekrieg",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Ergänze den Satz über die Berliner Mauer.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die Berliner Mauer wurde im Jahr {{blank}} gebaut.",
+        "correctAnswer": "1961",
+        "acceptableAnswers": []
+      },
+      "hints": [
+        "In den 1960er Jahren."
+      ],
+      "feedbackCorrect": "Richtig! 1961!",
+      "feedbackIncorrect": "Die Berliner Mauer wurde am 13. August 1961 errichtet."
+    },
+    {
+      "id": "ahs-gesch-k4-kalt-003",
+      "type": "multiple-choice",
+      "areaId": "gegenwart",
+      "themeId": "kaltekrieg",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Was waren die zwei Militärbündnisse im Kalten Krieg?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Die Militärbündnisse waren:",
+        "options": [
+          "EU und ASEAN",
+          "NATO und Warschauer Pakt",
+          "UNO und Völkerbund",
+          "OPEC und G7"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "West gegen Ost."
+      ],
+      "feedbackCorrect": "Richtig! NATO und Warschauer Pakt!",
+      "feedbackIncorrect": "Die NATO (Westen) stand dem Warschauer Pakt (Osten) gegenüber."
+    },
+    {
+      "id": "ahs-gesch-k4-kalt-004",
+      "type": "matching",
+      "areaId": "gegenwart",
+      "themeId": "kaltekrieg",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Ordne die Begriffe des Kalten Krieges zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Eiserner Vorhang",
+            "right": "Grenze zwischen Ost und West"
+          },
+          {
+            "left": "NATO",
+            "right": "Westliches Militärbündnis"
+          },
+          {
+            "left": "Warschauer Pakt",
+            "right": "Östliches Militärbündnis"
+          },
+          {
+            "left": "Berliner Mauer",
+            "right": "Teilung Berlins"
+          }
+        ]
+      },
+      "hints": [
+        "Symbole des Kalten Krieges."
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Eiserner Vorhang = Grenze, NATO = Westen, Warschauer Pakt = Osten, Mauer = Berlin."
+    },
+    {
+      "id": "ahs-gesch-k4-kalt-005",
+      "type": "multiple-choice",
+      "areaId": "gegenwart",
+      "themeId": "kaltekrieg",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was war die Kubakrise 1962?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Die Kubakrise war:",
+        "options": [
+          "Ein Handelsstreit",
+          "Eine nukleare Konfrontation zwischen USA und UdSSR",
+          "Ein Bürgerkrieg",
+          "Eine Naturkatastrophe"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Die Welt stand am Rand eines Atomkriegs."
+      ],
+      "feedbackCorrect": "Richtig! Eine nukleare Konfrontation!",
+      "feedbackIncorrect": "Die Kubakrise 1962 brachte die Welt an den Rand eines Atomkriegs."
+    },
+    {
+      "id": "ahs-gesch-k4-kalt-006",
+      "type": "fill-blank",
+      "areaId": "gegenwart",
+      "themeId": "kaltekrieg",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Ergänze den Satz über den Fall der Mauer.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die Berliner Mauer fiel am 9. November {{blank}}.",
+        "correctAnswer": "1989",
+        "acceptableAnswers": []
+      },
+      "hints": [
+        "Ende der 1980er Jahre."
+      ],
+      "feedbackCorrect": "Richtig! 1989!",
+      "feedbackIncorrect": "Am 9. November 1989 fiel die Berliner Mauer."
+    },
+    {
+      "id": "ahs-gesch-k4-kalt-007",
+      "type": "multiple-choice",
+      "areaId": "gegenwart",
+      "themeId": "kaltekrieg",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was war Österreichs Rolle im Kalten Krieg?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Österreich war im Kalten Krieg:",
+        "options": [
+          "NATO-Mitglied",
+          "Mitglied des Warschauer Pakts",
+          "Ein neutraler Staat",
+          "Teil der Sowjetunion"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Seit dem Staatsvertrag 1955."
+      ],
+      "feedbackCorrect": "Richtig! Ein neutraler Staat!",
+      "feedbackIncorrect": "Österreich erklärte 1955 seine immerwährende Neutralität."
+    },
+    {
+      "id": "ahs-gesch-k4-kalt-008",
+      "type": "sorting",
+      "areaId": "gegenwart",
+      "themeId": "kaltekrieg",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Ordne die Länder den Blöcken zu.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Westblock (NATO)",
+            "items": [
+              "USA",
+              "Großbritannien",
+              "Frankreich"
+            ]
+          },
+          {
+            "label": "Ostblock (Warschauer Pakt)",
+            "items": [
+              "Sowjetunion",
+              "DDR",
+              "Polen"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "West oder Ost?"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "USA, GB und Frankreich = Westen; UdSSR, DDR und Polen = Osten."
+    },
+    {
+      "id": "ahs-gesch-k4-kalt-009",
+      "type": "multiple-choice",
+      "areaId": "gegenwart",
+      "themeId": "kaltekrieg",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Wann wurde der Österreichische Staatsvertrag unterzeichnet?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Der Österreichische Staatsvertrag wurde unterzeichnet:",
+        "options": [
+          "1945",
+          "1955",
+          "1961",
+          "1989"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Zehn Jahre nach Kriegsende."
+      ],
+      "feedbackCorrect": "Richtig! 1955!",
+      "feedbackIncorrect": "Der Staatsvertrag wurde am 15. Mai 1955 im Belvedere unterzeichnet."
+    },
+    {
+      "id": "ahs-gesch-k4-kalt-010",
+      "type": "matching",
+      "areaId": "gegenwart",
+      "themeId": "kaltekrieg",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Ordne die Ereignisse den Jahren zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "1955",
+            "right": "Österreichischer Staatsvertrag"
+          },
+          {
+            "left": "1961",
+            "right": "Bau der Berliner Mauer"
+          },
+          {
+            "left": "1962",
+            "right": "Kubakrise"
+          },
+          {
+            "left": "1989",
+            "right": "Fall der Berliner Mauer"
+          }
+        ]
+      },
+      "hints": [
+        "Wichtige Daten des Kalten Krieges."
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "1955 Staatsvertrag, 1961 Mauerbau, 1962 Kubakrise, 1989 Mauerfall."
+    },
+    {
+      "id": "ahs-gesch-k4-eu-003",
+      "type": "fill-blank",
+      "areaId": "gegenwart",
+      "themeId": "europa",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Ergänze den Satz über die Vorläufer der EU.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die Vorläuferorganisation der EU war die Europäische Wirtschaftsgemeinschaft, kurz {{blank}}.",
+        "correctAnswer": "EWG",
+        "acceptableAnswers": []
+      },
+      "hints": [
+        "Eine Abkürzung mit drei Buchstaben."
+      ],
+      "feedbackCorrect": "Richtig! Die EWG!",
+      "feedbackIncorrect": "Die Europäische Wirtschaftsgemeinschaft (EWG) wurde 1957 gegründet."
+    },
+    {
+      "id": "ahs-gesch-k4-eu-004",
+      "type": "multiple-choice",
+      "areaId": "gegenwart",
+      "themeId": "europa",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Wie viele Gründungsmitglieder hatte die EWG?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Die EWG hatte bei ihrer Gründung 1957:",
+        "options": [
+          "3 Mitglieder",
+          "6 Mitglieder",
+          "12 Mitglieder",
+          "15 Mitglieder"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Römische Verträge, sechs Staaten."
+      ],
+      "feedbackCorrect": "Richtig! 6 Mitglieder!",
+      "feedbackIncorrect": "Die EWG wurde 1957 von Frankreich, Deutschland, Italien, Belgien, Niederlande und Luxemburg gegründet."
+    },
+    {
+      "id": "ahs-gesch-k4-eu-005",
+      "type": "matching",
+      "areaId": "gegenwart",
+      "themeId": "europa",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Ordne die EU-Institutionen ihren Aufgaben zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Europäisches Parlament",
+            "right": "Volksvertretung"
+          },
+          {
+            "left": "Europäischer Rat",
+            "right": "Staats- und Regierungschefs"
+          },
+          {
+            "left": "Europäische Kommission",
+            "right": "Gesetzesvorschläge"
+          },
+          {
+            "left": "EuGH",
+            "right": "Rechtsprechung"
+          }
+        ]
+      },
+      "hints": [
+        "Die wichtigsten EU-Organe."
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Parlament = Vertretung, Rat = Regierungschefs, Kommission = Vorschläge, EuGH = Recht."
+    },
+    {
+      "id": "ahs-gesch-k4-eu-006",
+      "type": "multiple-choice",
+      "areaId": "gegenwart",
+      "themeId": "europa",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Was ist der Euro?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Der Euro ist:",
+        "options": [
+          "Die Währung Großbritanniens",
+          "Die gemeinsame Währung vieler EU-Staaten",
+          "Die Währung der USA",
+          "Eine Kryptowährung"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Seit 2002 als Bargeld."
+      ],
+      "feedbackCorrect": "Richtig! Die gemeinsame Währung vieler EU-Staaten!",
+      "feedbackIncorrect": "Der Euro wurde 2002 als Bargeld eingeführt und ist die Währung der Eurozone."
+    },
+    {
+      "id": "ahs-gesch-k4-eu-007",
+      "type": "fill-blank",
+      "areaId": "gegenwart",
+      "themeId": "europa",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Ergänze den Satz über den wichtigen EU-Vertrag.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Der Vertrag von {{blank}} gründete 1993 die Europäische Union.",
+        "correctAnswer": "Maastricht",
+        "acceptableAnswers": []
+      },
+      "hints": [
+        "Eine Stadt in den Niederlanden."
+      ],
+      "feedbackCorrect": "Richtig! Maastricht!",
+      "feedbackIncorrect": "Der Vertrag von Maastricht (1992/1993) begründete die Europäische Union."
+    },
+    {
+      "id": "ahs-gesch-k4-eu-008",
+      "type": "sorting",
+      "areaId": "gegenwart",
+      "themeId": "europa",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Ordne die Länder ihrem EU-Beitrittszeitraum zu.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Gründungsmitglieder (1957)",
+            "items": [
+              "Frankreich",
+              "Deutschland",
+              "Italien"
+            ]
+          },
+          {
+            "label": "Beitritt 1995",
+            "items": [
+              "Österreich",
+              "Schweden",
+              "Finnland"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Wer war früh dabei, wer kam 1995?"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Frankreich, Deutschland und Italien = 1957; Österreich, Schweden und Finnland = 1995."
+    },
+    {
+      "id": "ahs-gesch-k4-eu-009",
+      "type": "multiple-choice",
+      "areaId": "gegenwart",
+      "themeId": "europa",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was bedeutet der Schengen-Raum?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Der Schengen-Raum bedeutet:",
+        "options": [
+          "Gemeinsame Armee",
+          "Reisen ohne Grenzkontrollen zwischen Mitgliedstaaten",
+          "Gemeinsame Sprache",
+          "Einheitliche Steuern"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Freies Reisen in Europa."
+      ],
+      "feedbackCorrect": "Richtig! Reisen ohne Grenzkontrollen!",
+      "feedbackIncorrect": "Im Schengen-Raum können Menschen ohne Passkontrollen zwischen Ländern reisen."
+    },
+    {
+      "id": "ahs-gesch-k4-eu-010",
+      "type": "matching",
+      "areaId": "gegenwart",
+      "themeId": "europa",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Ordne die EU-Meilensteine den Jahren zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "1957",
+            "right": "Römische Verträge (EWG)"
+          },
+          {
+            "left": "1993",
+            "right": "Vertrag von Maastricht (EU)"
+          },
+          {
+            "left": "1995",
+            "right": "Österreichs EU-Beitritt"
+          },
+          {
+            "left": "2002",
+            "right": "Euro-Bargeldeinführung"
+          }
+        ]
+      },
+      "hints": [
+        "Wichtige Daten der europäischen Integration."
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "1957 EWG, 1993 EU, 1995 Österreich, 2002 Euro."
     }
   ]
 }

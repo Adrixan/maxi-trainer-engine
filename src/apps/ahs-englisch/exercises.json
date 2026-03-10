@@ -643,6 +643,3449 @@
       ],
       "feedbackCorrect": "Correct!",
       "feedbackIncorrect": "In conclusion = formal closing"
+    },
+    {
+      "id": "ahs-eng-k1-every-003",
+      "type": "matching",
+      "areaId": "vocabulary",
+      "themeId": "everyday",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ordne die englischen Wörter den deutschen Übersetzungen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "table",
+            "right": "Tisch"
+          },
+          {
+            "left": "chair",
+            "right": "Stuhl"
+          },
+          {
+            "left": "window",
+            "right": "Fenster"
+          },
+          {
+            "left": "door",
+            "right": "Tür"
+          }
+        ]
+      },
+      "hints": [
+        "Möbel im Haus"
+      ],
+      "feedbackCorrect": "Sehr gut! Alle Paare stimmen!",
+      "feedbackIncorrect": "Versuche es noch einmal. Achte auf die Bedeutungen."
+    },
+    {
+      "id": "ahs-eng-k1-every-004",
+      "type": "matching",
+      "areaId": "vocabulary",
+      "themeId": "everyday",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ordne die Farben richtig zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "red",
+            "right": "rot"
+          },
+          {
+            "left": "blue",
+            "right": "blau"
+          },
+          {
+            "left": "green",
+            "right": "grün"
+          },
+          {
+            "left": "yellow",
+            "right": "gelb"
+          }
+        ]
+      },
+      "hints": [
+        "Farben auf Englisch"
+      ],
+      "feedbackCorrect": "Super! Du kennst die Farben!",
+      "feedbackIncorrect": "Die richtige Zuordnung: red=rot, blue=blau, green=grün, yellow=gelb."
+    },
+    {
+      "id": "ahs-eng-k1-every-005",
+      "type": "fill-blank",
+      "areaId": "vocabulary",
+      "themeId": "everyday",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Setze das richtige Wort ein.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "I drink a glass of {{blank}} every morning.",
+        "correctAnswer": "water",
+        "acceptableAnswers": [
+          "milk",
+          "juice"
+        ]
+      },
+      "hints": [
+        "Ein Getränk zum Frühstück"
+      ],
+      "feedbackCorrect": "Richtig! Water ist korrekt!",
+      "feedbackIncorrect": "Die Antwort ist 'water' (Wasser)."
+    },
+    {
+      "id": "ahs-eng-k1-every-006",
+      "type": "multiple-choice",
+      "areaId": "vocabulary",
+      "themeId": "everyday",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Was bedeutet 'breakfast' auf Deutsch?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "breakfast",
+        "options": [
+          "Mittagessen",
+          "Frühstück",
+          "Abendessen",
+          "Jause"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Die erste Mahlzeit am Tag"
+      ],
+      "feedbackCorrect": "Richtig! Breakfast = Frühstück!",
+      "feedbackIncorrect": "Breakfast bedeutet Frühstück."
+    },
+    {
+      "id": "ahs-eng-k2-every-007",
+      "type": "matching",
+      "areaId": "vocabulary",
+      "themeId": "everyday",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Ordne die Kleidungsstücke richtig zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "shirt",
+            "right": "Hemd"
+          },
+          {
+            "left": "trousers",
+            "right": "Hose"
+          },
+          {
+            "left": "shoes",
+            "right": "Schuhe"
+          },
+          {
+            "left": "jacket",
+            "right": "Jacke"
+          },
+          {
+            "left": "hat",
+            "right": "Hut"
+          }
+        ]
+      },
+      "hints": [
+        "Kleidung auf Englisch"
+      ],
+      "feedbackCorrect": "Perfekt! Alle Kleidungsstücke stimmen!",
+      "feedbackIncorrect": "Überprüfe die Zuordnungen noch einmal."
+    },
+    {
+      "id": "ahs-eng-k2-every-008",
+      "type": "fill-blank",
+      "areaId": "vocabulary",
+      "themeId": "everyday",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Setze das passende Wort ein.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Please turn off the {{blank}} before you go to bed.",
+        "correctAnswer": "light",
+        "acceptableAnswers": [
+          "lamp"
+        ]
+      },
+      "hints": [
+        "Was schaltet man vor dem Schlafen aus?"
+      ],
+      "feedbackCorrect": "Richtig! Light ist korrekt!",
+      "feedbackIncorrect": "Die Antwort ist 'light' (Licht)."
+    },
+    {
+      "id": "ahs-eng-k2-every-009",
+      "type": "sorting",
+      "areaId": "vocabulary",
+      "themeId": "everyday",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Sortiere die Wörter in die richtige Kategorie.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Food",
+            "items": [
+              "bread",
+              "apple",
+              "cheese",
+              "rice"
+            ]
+          },
+          {
+            "label": "Drinks",
+            "items": [
+              "water",
+              "tea",
+              "coffee",
+              "juice"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Essen oder Trinken?"
+      ],
+      "feedbackCorrect": "Super! Alles richtig sortiert!",
+      "feedbackIncorrect": "Brot, Apfel, Käse, Reis sind Essen. Wasser, Tee, Kaffee, Saft sind Getränke."
+    },
+    {
+      "id": "ahs-eng-k1-every-010",
+      "type": "multiple-choice",
+      "areaId": "vocabulary",
+      "themeId": "everyday",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Was bedeutet 'clock' auf Deutsch?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "clock",
+        "options": [
+          "Glocke",
+          "Uhr",
+          "Schlüssel",
+          "Wolke"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Ein Gegenstand, der die Zeit anzeigt"
+      ],
+      "feedbackCorrect": "Richtig! Clock = Uhr!",
+      "feedbackIncorrect": "Clock bedeutet Uhr."
+    },
+    {
+      "id": "ahs-eng-k2-every-011",
+      "type": "fill-blank",
+      "areaId": "vocabulary",
+      "themeId": "everyday",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Setze das richtige Wort ein.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "We use a {{blank}} to cut bread.",
+        "correctAnswer": "knife",
+        "acceptableAnswers": [
+          "blade"
+        ]
+      },
+      "hints": [
+        "Ein Küchengerät zum Schneiden"
+      ],
+      "feedbackCorrect": "Richtig! Knife ist korrekt!",
+      "feedbackIncorrect": "Die Antwort ist 'knife' (Messer)."
+    },
+    {
+      "id": "ahs-eng-k1-every-012",
+      "type": "matching",
+      "areaId": "vocabulary",
+      "themeId": "everyday",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ordne die Körperteile richtig zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "head",
+            "right": "Kopf"
+          },
+          {
+            "left": "hand",
+            "right": "Hand"
+          },
+          {
+            "left": "foot",
+            "right": "Fuß"
+          },
+          {
+            "left": "eye",
+            "right": "Auge"
+          }
+        ]
+      },
+      "hints": [
+        "Teile des Körpers"
+      ],
+      "feedbackCorrect": "Sehr gut! Alle Körperteile stimmen!",
+      "feedbackIncorrect": "Die richtige Zuordnung: head=Kopf, hand=Hand, foot=Fuß, eye=Auge."
+    },
+    {
+      "id": "ahs-eng-k1-school-004",
+      "type": "matching",
+      "areaId": "vocabulary",
+      "themeId": "school",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ordne die Schulgegenstände richtig zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "book",
+            "right": "Buch"
+          },
+          {
+            "left": "pen",
+            "right": "Kugelschreiber"
+          },
+          {
+            "left": "pencil",
+            "right": "Bleistift"
+          },
+          {
+            "left": "ruler",
+            "right": "Lineal"
+          }
+        ]
+      },
+      "hints": [
+        "Dinge, die du in der Schule brauchst"
+      ],
+      "feedbackCorrect": "Super! Alle Schulsachen stimmen!",
+      "feedbackIncorrect": "Überprüfe die Zuordnungen."
+    },
+    {
+      "id": "ahs-eng-k1-school-005",
+      "type": "multiple-choice",
+      "areaId": "vocabulary",
+      "themeId": "school",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Was bedeutet 'classroom' auf Deutsch?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "classroom",
+        "options": [
+          "Turnhalle",
+          "Klassenzimmer",
+          "Bibliothek",
+          "Schulhof"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Der Raum, in dem du lernst"
+      ],
+      "feedbackCorrect": "Richtig! Classroom = Klassenzimmer!",
+      "feedbackIncorrect": "Classroom bedeutet Klassenzimmer."
+    },
+    {
+      "id": "ahs-eng-k1-school-006",
+      "type": "fill-blank",
+      "areaId": "vocabulary",
+      "themeId": "school",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Setze das richtige Wort ein.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "The {{blank}} writes on the blackboard.",
+        "correctAnswer": "teacher",
+        "acceptableAnswers": [
+          "professor"
+        ]
+      },
+      "hints": [
+        "Wer unterrichtet in der Klasse?"
+      ],
+      "feedbackCorrect": "Richtig! Teacher ist korrekt!",
+      "feedbackIncorrect": "Die Antwort ist 'teacher' (Lehrer/Lehrerin)."
+    },
+    {
+      "id": "ahs-eng-k1-school-007",
+      "type": "matching",
+      "areaId": "vocabulary",
+      "themeId": "school",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ordne die Schulfächer richtig zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "maths",
+            "right": "Mathematik"
+          },
+          {
+            "left": "English",
+            "right": "Englisch"
+          },
+          {
+            "left": "music",
+            "right": "Musik"
+          },
+          {
+            "left": "art",
+            "right": "Kunst"
+          },
+          {
+            "left": "science",
+            "right": "Naturwissenschaften"
+          }
+        ]
+      },
+      "hints": [
+        "Unterrichtsfächer"
+      ],
+      "feedbackCorrect": "Perfekt! Alle Fächer stimmen!",
+      "feedbackIncorrect": "Die richtige Zuordnung der Schulfächer."
+    },
+    {
+      "id": "ahs-eng-k2-school-008",
+      "type": "fill-blank",
+      "areaId": "vocabulary",
+      "themeId": "school",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Setze das passende Wort ein.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "We have a {{blank}} at 10 o'clock. We can eat our snack then.",
+        "correctAnswer": "break",
+        "acceptableAnswers": [
+          "pause"
+        ]
+      },
+      "hints": [
+        "Eine Unterbrechung im Unterricht"
+      ],
+      "feedbackCorrect": "Richtig! Break ist korrekt!",
+      "feedbackIncorrect": "Die Antwort ist 'break' (Pause)."
+    },
+    {
+      "id": "ahs-eng-k2-school-009",
+      "type": "multiple-choice",
+      "areaId": "vocabulary",
+      "themeId": "school",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Was bedeutet 'homework' auf Deutsch?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "homework",
+        "options": [
+          "Schularbeit",
+          "Hausübung",
+          "Prüfung",
+          "Referat"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Aufgaben, die du zu Hause machst"
+      ],
+      "feedbackCorrect": "Richtig! Homework = Hausübung!",
+      "feedbackIncorrect": "Homework bedeutet Hausübung."
+    },
+    {
+      "id": "ahs-eng-k2-school-010",
+      "type": "sorting",
+      "areaId": "vocabulary",
+      "themeId": "school",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Sortiere die Wörter in die richtige Kategorie.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "School Subjects",
+            "items": [
+              "maths",
+              "history",
+              "biology",
+              "geography"
+            ]
+          },
+          {
+            "label": "School Supplies",
+            "items": [
+              "notebook",
+              "eraser",
+              "scissors",
+              "glue"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Schulfächer oder Schulsachen?"
+      ],
+      "feedbackCorrect": "Super sortiert!",
+      "feedbackIncorrect": "Maths, History, Biology, Geography sind Fächer. Notebook, Eraser, Scissors, Glue sind Schulsachen."
+    },
+    {
+      "id": "ahs-eng-k1-school-011",
+      "type": "multiple-choice",
+      "areaId": "vocabulary",
+      "themeId": "school",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Wähle die richtige Übersetzung für 'pupil'.",
+      "content": {
+        "type": "multiple-choice",
+        "question": "pupil",
+        "options": [
+          "Lehrer",
+          "Schüler",
+          "Direktor",
+          "Hausmeister"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Ein Kind in der Schule"
+      ],
+      "feedbackCorrect": "Richtig! Pupil = Schüler!",
+      "feedbackIncorrect": "Pupil bedeutet Schüler/Schülerin."
+    },
+    {
+      "id": "ahs-eng-k2-school-012",
+      "type": "fill-blank",
+      "areaId": "vocabulary",
+      "themeId": "school",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Setze das richtige Wort ein.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "The students are reading books in the {{blank}}.",
+        "correctAnswer": "library"
+      },
+      "hints": [
+        "Ein Raum mit vielen Büchern"
+      ],
+      "feedbackCorrect": "Richtig! Library ist korrekt!",
+      "feedbackIncorrect": "Die Antwort ist 'library' (Bibliothek)."
+    },
+    {
+      "id": "ahs-eng-k1-school-013",
+      "type": "matching",
+      "areaId": "vocabulary",
+      "themeId": "school",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ordne die Räume in der Schule richtig zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "gym",
+            "right": "Turnhalle"
+          },
+          {
+            "left": "library",
+            "right": "Bibliothek"
+          },
+          {
+            "left": "canteen",
+            "right": "Kantine"
+          },
+          {
+            "left": "playground",
+            "right": "Schulhof"
+          }
+        ]
+      },
+      "hints": [
+        "Orte in der Schule"
+      ],
+      "feedbackCorrect": "Sehr gut!",
+      "feedbackIncorrect": "Gym=Turnhalle, Library=Bibliothek, Canteen=Kantine, Playground=Schulhof."
+    },
+    {
+      "id": "ahs-eng-k1-family-003",
+      "type": "matching",
+      "areaId": "vocabulary",
+      "themeId": "family",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ordne die Familienmitglieder richtig zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "mother",
+            "right": "Mutter"
+          },
+          {
+            "left": "father",
+            "right": "Vater"
+          },
+          {
+            "left": "brother",
+            "right": "Bruder"
+          },
+          {
+            "left": "sister",
+            "right": "Schwester"
+          }
+        ]
+      },
+      "hints": [
+        "Die engste Familie"
+      ],
+      "feedbackCorrect": "Super! Alle Familienmitglieder stimmen!",
+      "feedbackIncorrect": "Mother=Mutter, Father=Vater, Brother=Bruder, Sister=Schwester."
+    },
+    {
+      "id": "ahs-eng-k1-family-004",
+      "type": "multiple-choice",
+      "areaId": "vocabulary",
+      "themeId": "family",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Was bedeutet 'grandmother' auf Deutsch?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "grandmother",
+        "options": [
+          "Tante",
+          "Großmutter",
+          "Cousine",
+          "Schwester"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Die Mutter deiner Mutter oder deines Vaters"
+      ],
+      "feedbackCorrect": "Richtig! Grandmother = Großmutter!",
+      "feedbackIncorrect": "Grandmother bedeutet Großmutter/Oma."
+    },
+    {
+      "id": "ahs-eng-k1-family-005",
+      "type": "fill-blank",
+      "areaId": "vocabulary",
+      "themeId": "family",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Setze das richtige Wort ein.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "My mother's sister is my {{blank}}.",
+        "correctAnswer": "aunt",
+        "acceptableAnswers": [
+          "auntie"
+        ]
+      },
+      "hints": [
+        "Die Schwester deiner Mutter"
+      ],
+      "feedbackCorrect": "Richtig! Aunt ist korrekt!",
+      "feedbackIncorrect": "Die Antwort ist 'aunt' (Tante)."
+    },
+    {
+      "id": "ahs-eng-k2-family-006",
+      "type": "matching",
+      "areaId": "vocabulary",
+      "themeId": "family",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die erweiterten Familienmitglieder zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "uncle",
+            "right": "Onkel"
+          },
+          {
+            "left": "aunt",
+            "right": "Tante"
+          },
+          {
+            "left": "cousin",
+            "right": "Cousin/Cousine"
+          },
+          {
+            "left": "nephew",
+            "right": "Neffe"
+          },
+          {
+            "left": "niece",
+            "right": "Nichte"
+          }
+        ]
+      },
+      "hints": [
+        "Erweiterte Familie"
+      ],
+      "feedbackCorrect": "Sehr gut!",
+      "feedbackIncorrect": "Uncle=Onkel, Aunt=Tante, Cousin=Cousin/Cousine, Nephew=Neffe, Niece=Nichte."
+    },
+    {
+      "id": "ahs-eng-k2-family-007",
+      "type": "fill-blank",
+      "areaId": "vocabulary",
+      "themeId": "family",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Setze das richtige Wort ein.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "My father's brother is my {{blank}}.",
+        "correctAnswer": "uncle"
+      },
+      "hints": [
+        "Der Bruder deines Vaters"
+      ],
+      "feedbackCorrect": "Richtig! Uncle ist korrekt!",
+      "feedbackIncorrect": "Die Antwort ist 'uncle' (Onkel)."
+    },
+    {
+      "id": "ahs-eng-k2-family-008",
+      "type": "sorting",
+      "areaId": "vocabulary",
+      "themeId": "family",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Sortiere die Wörter in die richtige Kategorie.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Male",
+            "items": [
+              "father",
+              "brother",
+              "uncle",
+              "grandfather"
+            ]
+          },
+          {
+            "label": "Female",
+            "items": [
+              "mother",
+              "sister",
+              "aunt",
+              "grandmother"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Männlich oder weiblich?"
+      ],
+      "feedbackCorrect": "Perfekt sortiert!",
+      "feedbackIncorrect": "Father, Brother, Uncle, Grandfather sind männlich. Mother, Sister, Aunt, Grandmother sind weiblich."
+    },
+    {
+      "id": "ahs-eng-k2-family-009",
+      "type": "multiple-choice",
+      "areaId": "vocabulary",
+      "themeId": "family",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Was bedeutet 'stepmother' auf Deutsch?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "stepmother",
+        "options": [
+          "Schwiegermutter",
+          "Stiefmutter",
+          "Patentante",
+          "Großmutter"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Die neue Frau deines Vaters"
+      ],
+      "feedbackCorrect": "Richtig! Stepmother = Stiefmutter!",
+      "feedbackIncorrect": "Stepmother bedeutet Stiefmutter."
+    },
+    {
+      "id": "ahs-eng-k3-family-010",
+      "type": "fill-blank",
+      "areaId": "vocabulary",
+      "themeId": "family",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Setze das passende Wort ein.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "My parents got divorced, so now I have a {{blank}} in my father's new family.",
+        "correctAnswer": "stepbrother",
+        "acceptableAnswers": [
+          "half-brother"
+        ]
+      },
+      "hints": [
+        "Ein neuer Bruder durch die neue Familie"
+      ],
+      "feedbackCorrect": "Richtig!",
+      "feedbackIncorrect": "Die Antwort ist 'stepbrother' (Stiefbruder)."
+    },
+    {
+      "id": "ahs-eng-k3-family-011",
+      "type": "multiple-choice",
+      "areaId": "vocabulary",
+      "themeId": "family",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Was bedeutet 'to be related to someone'?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "to be related to someone",
+        "options": [
+          "jemanden kennen",
+          "mit jemandem verwandt sein",
+          "jemanden besuchen",
+          "jemanden mögen"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Eine familiäre Verbindung haben"
+      ],
+      "feedbackCorrect": "Richtig! To be related = verwandt sein!",
+      "feedbackIncorrect": "To be related to someone bedeutet 'mit jemandem verwandt sein'."
+    },
+    {
+      "id": "ahs-eng-k3-family-012",
+      "type": "matching",
+      "areaId": "vocabulary",
+      "themeId": "family",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Ordne die Beziehungsbegriffe richtig zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "siblings",
+            "right": "Geschwister"
+          },
+          {
+            "left": "twins",
+            "right": "Zwillinge"
+          },
+          {
+            "left": "spouse",
+            "right": "Ehepartner"
+          },
+          {
+            "left": "in-laws",
+            "right": "Schwiegereltern"
+          }
+        ]
+      },
+      "hints": [
+        "Fortgeschrittene Familienbegriffe"
+      ],
+      "feedbackCorrect": "Sehr gut!",
+      "feedbackIncorrect": "Siblings=Geschwister, Twins=Zwillinge, Spouse=Ehepartner, In-laws=Schwiegereltern."
+    },
+    {
+      "id": "ahs-eng-k2-travel-003",
+      "type": "matching",
+      "areaId": "vocabulary",
+      "themeId": "travel",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die Verkehrsmittel richtig zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "train",
+            "right": "Zug"
+          },
+          {
+            "left": "bus",
+            "right": "Bus"
+          },
+          {
+            "left": "plane",
+            "right": "Flugzeug"
+          },
+          {
+            "left": "ship",
+            "right": "Schiff"
+          },
+          {
+            "left": "bicycle",
+            "right": "Fahrrad"
+          }
+        ]
+      },
+      "hints": [
+        "Fortbewegungsmittel"
+      ],
+      "feedbackCorrect": "Super! Alle Verkehrsmittel stimmen!",
+      "feedbackIncorrect": "Train=Zug, Bus=Bus, Plane=Flugzeug, Ship=Schiff, Bicycle=Fahrrad."
+    },
+    {
+      "id": "ahs-eng-k2-travel-004",
+      "type": "fill-blank",
+      "areaId": "vocabulary",
+      "themeId": "travel",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Setze das richtige Wort ein.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "We need to buy a {{blank}} before we get on the train.",
+        "correctAnswer": "ticket"
+      },
+      "hints": [
+        "Was braucht man, um mit dem Zug zu fahren?"
+      ],
+      "feedbackCorrect": "Richtig! Ticket ist korrekt!",
+      "feedbackIncorrect": "Die Antwort ist 'ticket' (Fahrkarte)."
+    },
+    {
+      "id": "ahs-eng-k2-travel-005",
+      "type": "multiple-choice",
+      "areaId": "vocabulary",
+      "themeId": "travel",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Was bedeutet 'suitcase' auf Deutsch?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "suitcase",
+        "options": [
+          "Rucksack",
+          "Koffer",
+          "Handtasche",
+          "Geldbörse"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Damit transportiert man Kleidung auf Reisen"
+      ],
+      "feedbackCorrect": "Richtig! Suitcase = Koffer!",
+      "feedbackIncorrect": "Suitcase bedeutet Koffer."
+    },
+    {
+      "id": "ahs-eng-k3-travel-006",
+      "type": "matching",
+      "areaId": "vocabulary",
+      "themeId": "travel",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Ordne die Reisebegriffe richtig zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "departure",
+            "right": "Abfahrt/Abflug"
+          },
+          {
+            "left": "arrival",
+            "right": "Ankunft"
+          },
+          {
+            "left": "boarding pass",
+            "right": "Bordkarte"
+          },
+          {
+            "left": "customs",
+            "right": "Zoll"
+          },
+          {
+            "left": "luggage",
+            "right": "Gepäck"
+          }
+        ]
+      },
+      "hints": [
+        "Wörter am Flughafen"
+      ],
+      "feedbackCorrect": "Perfekt!",
+      "feedbackIncorrect": "Departure=Abfahrt, Arrival=Ankunft, Boarding pass=Bordkarte, Customs=Zoll, Luggage=Gepäck."
+    },
+    {
+      "id": "ahs-eng-k3-travel-007",
+      "type": "fill-blank",
+      "areaId": "vocabulary",
+      "themeId": "travel",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Setze das passende Wort ein.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Excuse me, where is the nearest {{blank}} station?",
+        "correctAnswer": "underground",
+        "acceptableAnswers": [
+          "subway",
+          "metro",
+          "tube"
+        ]
+      },
+      "hints": [
+        "Öffentliches Verkehrsmittel unter der Erde"
+      ],
+      "feedbackCorrect": "Richtig!",
+      "feedbackIncorrect": "Die Antwort ist 'underground' (U-Bahn)."
+    },
+    {
+      "id": "ahs-eng-k3-travel-008",
+      "type": "multiple-choice",
+      "areaId": "vocabulary",
+      "themeId": "travel",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Was bedeutet 'to book a hotel room'?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "to book a hotel room",
+        "options": [
+          "ein Buch kaufen",
+          "ein Hotelzimmer reservieren",
+          "ein Hotel bauen",
+          "ein Zimmer putzen"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Was macht man vor einer Reise?"
+      ],
+      "feedbackCorrect": "Richtig! To book = reservieren!",
+      "feedbackIncorrect": "To book a hotel room bedeutet 'ein Hotelzimmer reservieren'."
+    },
+    {
+      "id": "ahs-eng-k3-travel-009",
+      "type": "fill-blank",
+      "areaId": "vocabulary",
+      "themeId": "travel",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Setze das richtige Wort ein.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "The flight was {{blank}} by two hours because of bad weather.",
+        "correctAnswer": "delayed",
+        "acceptableAnswers": [
+          "postponed"
+        ]
+      },
+      "hints": [
+        "Die Abfahrt/der Abflug ist später als geplant"
+      ],
+      "feedbackCorrect": "Richtig! Delayed ist korrekt!",
+      "feedbackIncorrect": "Die Antwort ist 'delayed' (verspätet)."
+    },
+    {
+      "id": "ahs-eng-k4-travel-010",
+      "type": "sorting",
+      "areaId": "vocabulary",
+      "themeId": "travel",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Sortiere die Ausdrücke in die richtige Kategorie.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "At the airport",
+            "items": [
+              "check-in",
+              "boarding gate",
+              "runway",
+              "terminal"
+            ]
+          },
+          {
+            "label": "At the hotel",
+            "items": [
+              "reception",
+              "room service",
+              "check-out",
+              "lobby"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Flughafen oder Hotel?"
+      ],
+      "feedbackCorrect": "Perfekt sortiert!",
+      "feedbackIncorrect": "Check-in, Boarding gate, Runway, Terminal gehören zum Flughafen. Reception, Room service, Check-out, Lobby gehören zum Hotel."
+    },
+    {
+      "id": "ahs-eng-k4-travel-011",
+      "type": "fill-blank",
+      "areaId": "vocabulary",
+      "themeId": "travel",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Setze das passende Wort ein.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "The tourists went on a guided {{blank}} through the old city.",
+        "correctAnswer": "tour",
+        "acceptableAnswers": [
+          "excursion"
+        ]
+      },
+      "hints": [
+        "Eine geführte Besichtigung"
+      ],
+      "feedbackCorrect": "Richtig! Tour ist korrekt!",
+      "feedbackIncorrect": "Die Antwort ist 'tour' (Rundgang/Besichtigung)."
+    },
+    {
+      "id": "ahs-eng-k4-travel-012",
+      "type": "multiple-choice",
+      "areaId": "vocabulary",
+      "themeId": "travel",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was bedeutet 'to miss a flight'?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "to miss a flight",
+        "options": [
+          "einen Flug buchen",
+          "einen Flug verpassen",
+          "einen Flug genießen",
+          "einen Flug stornieren"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Wenn man zu spät zum Flughafen kommt"
+      ],
+      "feedbackCorrect": "Richtig! To miss a flight = einen Flug verpassen!",
+      "feedbackIncorrect": "To miss a flight bedeutet 'einen Flug verpassen'."
+    },
+    {
+      "id": "ahs-eng-k1-pre-004",
+      "type": "word-order",
+      "areaId": "grammar",
+      "themeId": "present",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Bringe die Wörter in die richtige Reihenfolge.",
+      "content": {
+        "type": "word-order",
+        "correctOrder": [
+          "She",
+          "likes",
+          "chocolate"
+        ],
+        "alternateOrders": [],
+        "scrambled": [
+          "chocolate",
+          "She",
+          "likes"
+        ]
+      },
+      "hints": [
+        "Subjekt + Verb + Objekt"
+      ],
+      "feedbackCorrect": "Richtig! She likes chocolate.",
+      "feedbackIncorrect": "Die richtige Reihenfolge ist: She likes chocolate."
+    },
+    {
+      "id": "ahs-eng-k1-pre-005",
+      "type": "sentence-builder",
+      "areaId": "grammar",
+      "themeId": "present",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Baue korrekte Sätze im Simple Present.",
+      "content": {
+        "type": "sentence-builder",
+        "columns": [
+          {
+            "label": "Subject",
+            "words": [
+              "I",
+              "He",
+              "They"
+            ]
+          },
+          {
+            "label": "Verb",
+            "words": [
+              "play",
+              "plays"
+            ]
+          },
+          {
+            "label": "Object",
+            "words": [
+              "football",
+              "tennis"
+            ]
+          }
+        ],
+        "targetSentences": [
+          "I play football",
+          "I play tennis",
+          "He plays football",
+          "He plays tennis",
+          "They play football",
+          "They play tennis"
+        ]
+      },
+      "hints": [
+        "Achte auf die 3. Person Singular"
+      ],
+      "feedbackCorrect": "Super! Der Satz ist korrekt!",
+      "feedbackIncorrect": "Achte auf: He/She/It → plays (mit -s)."
+    },
+    {
+      "id": "ahs-eng-k1-pre-006",
+      "type": "fill-blank",
+      "areaId": "grammar",
+      "themeId": "present",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Setze die richtige Verbform ein.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "My cat {{blank}} (sleep) on the sofa every afternoon.",
+        "correctAnswer": "sleeps"
+      },
+      "hints": [
+        "3. Person Singular im Simple Present"
+      ],
+      "feedbackCorrect": "Richtig! Sleeps mit -s!",
+      "feedbackIncorrect": "Die Antwort ist 'sleeps' (3. Person Singular)."
+    },
+    {
+      "id": "ahs-eng-k2-pre-007",
+      "type": "fill-blank",
+      "areaId": "grammar",
+      "themeId": "present",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Vervollständige den Satz mit do oder does.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "{{blank}} your sister like pizza?",
+        "correctAnswer": "Does"
+      },
+      "hints": [
+        "Fragen im Simple Present: do/does"
+      ],
+      "feedbackCorrect": "Richtig! Does für die 3. Person Singular!",
+      "feedbackIncorrect": "Die Antwort ist 'Does' (3. Person Singular)."
+    },
+    {
+      "id": "ahs-eng-k2-pre-008",
+      "type": "multiple-choice",
+      "areaId": "grammar",
+      "themeId": "present",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Wähle die richtige Form.",
+      "content": {
+        "type": "multiple-choice",
+        "question": "We _____ (not/watch) TV in the morning.",
+        "options": [
+          "don't watch",
+          "doesn't watch",
+          "not watch",
+          "aren't watch"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Verneinung im Simple Present"
+      ],
+      "feedbackCorrect": "Richtig! Don't watch!",
+      "feedbackIncorrect": "We don't watch – Verneinung mit do + not."
+    },
+    {
+      "id": "ahs-eng-k2-pre-009",
+      "type": "word-order",
+      "areaId": "grammar",
+      "themeId": "present",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Bringe die Wörter in die richtige Reihenfolge.",
+      "content": {
+        "type": "word-order",
+        "correctOrder": [
+          "Do",
+          "you",
+          "always",
+          "eat",
+          "breakfast",
+          "?"
+        ],
+        "alternateOrders": [],
+        "scrambled": [
+          "breakfast",
+          "always",
+          "Do",
+          "eat",
+          "you",
+          "?"
+        ]
+      },
+      "hints": [
+        "Frage im Simple Present mit Häufigkeitsadverb"
+      ],
+      "feedbackCorrect": "Richtig! Do you always eat breakfast?",
+      "feedbackIncorrect": "Die richtige Reihenfolge: Do you always eat breakfast?"
+    },
+    {
+      "id": "ahs-eng-k1-pre-010",
+      "type": "fill-blank",
+      "areaId": "grammar",
+      "themeId": "present",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Setze die richtige Verbform ein.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "He {{blank}} (have) a big dog.",
+        "correctAnswer": "has"
+      },
+      "hints": [
+        "3. Person Singular von 'have'"
+      ],
+      "feedbackCorrect": "Richtig! Has!",
+      "feedbackIncorrect": "He has – unregelmäßige Form der 3. Person Singular."
+    },
+    {
+      "id": "ahs-eng-k2-pre-011",
+      "type": "sentence-builder",
+      "areaId": "grammar",
+      "themeId": "present",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Baue korrekte Sätze im Present Continuous.",
+      "content": {
+        "type": "sentence-builder",
+        "columns": [
+          {
+            "label": "Subject",
+            "words": [
+              "I am",
+              "She is",
+              "They are"
+            ]
+          },
+          {
+            "label": "Verb+ing",
+            "words": [
+              "reading",
+              "writing"
+            ]
+          },
+          {
+            "label": "Object",
+            "words": [
+              "a book",
+              "a letter"
+            ]
+          }
+        ],
+        "targetSentences": [
+          "I am reading a book",
+          "I am reading a letter",
+          "I am writing a book",
+          "I am writing a letter",
+          "She is reading a book",
+          "She is reading a letter",
+          "She is writing a book",
+          "She is writing a letter",
+          "They are reading a book",
+          "They are reading a letter",
+          "They are writing a book",
+          "They are writing a letter"
+        ]
+      },
+      "hints": [
+        "Subjekt + am/is/are + Verb-ing"
+      ],
+      "feedbackCorrect": "Super! Satz korrekt!",
+      "feedbackIncorrect": "Achte auf: I am, She is, They are + Verb-ing."
+    },
+    {
+      "id": "ahs-eng-k2-pre-012",
+      "type": "multiple-choice",
+      "areaId": "grammar",
+      "themeId": "present",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Wähle das richtige Häufigkeitsadverb.",
+      "content": {
+        "type": "multiple-choice",
+        "question": "I _____ go swimming on Saturdays. (= jedes Mal)",
+        "options": [
+          "never",
+          "sometimes",
+          "always",
+          "rarely"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Jedes Mal = immer"
+      ],
+      "feedbackCorrect": "Richtig! Always = immer!",
+      "feedbackIncorrect": "Always bedeutet 'immer' – jedes Mal."
+    },
+    {
+      "id": "ahs-eng-k1-past-004",
+      "type": "fill-blank",
+      "areaId": "grammar",
+      "themeId": "past",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Setze die richtige Vergangenheitsform ein.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "She {{blank}} (walk) to school yesterday.",
+        "correctAnswer": "walked"
+      },
+      "hints": [
+        "Regelmäßiges Verb + -ed"
+      ],
+      "feedbackCorrect": "Richtig! Walked!",
+      "feedbackIncorrect": "Walked – regelmäßige Vergangenheitsform."
+    },
+    {
+      "id": "ahs-eng-k1-past-005",
+      "type": "multiple-choice",
+      "areaId": "grammar",
+      "themeId": "past",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Wähle die richtige Vergangenheitsform von 'be' (I).",
+      "content": {
+        "type": "multiple-choice",
+        "question": "I _____ tired last night.",
+        "options": [
+          "was",
+          "were",
+          "am",
+          "is"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "I + was/were?"
+      ],
+      "feedbackCorrect": "Richtig! I was!",
+      "feedbackIncorrect": "I was – Vergangenheit von 'be' (Singular)."
+    },
+    {
+      "id": "ahs-eng-k2-past-006",
+      "type": "word-order",
+      "areaId": "grammar",
+      "themeId": "past",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Bringe die Wörter in die richtige Reihenfolge.",
+      "content": {
+        "type": "word-order",
+        "correctOrder": [
+          "Did",
+          "you",
+          "see",
+          "the",
+          "movie",
+          "?"
+        ],
+        "alternateOrders": [],
+        "scrambled": [
+          "the",
+          "Did",
+          "movie",
+          "see",
+          "you",
+          "?"
+        ]
+      },
+      "hints": [
+        "Frage im Simple Past mit 'did'"
+      ],
+      "feedbackCorrect": "Richtig! Did you see the movie?",
+      "feedbackIncorrect": "Fragen im Past Simple: Did + Subjekt + Verb (Grundform)."
+    },
+    {
+      "id": "ahs-eng-k2-past-007",
+      "type": "fill-blank",
+      "areaId": "grammar",
+      "themeId": "past",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Setze die richtige Vergangenheitsform ein.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "We {{blank}} (not/play) football because it rained.",
+        "correctAnswer": "didn't play",
+        "acceptableAnswers": [
+          "did not play"
+        ]
+      },
+      "hints": [
+        "Verneinung im Simple Past"
+      ],
+      "feedbackCorrect": "Richtig! Didn't play!",
+      "feedbackIncorrect": "Verneinung: didn't + Grundform des Verbs."
+    },
+    {
+      "id": "ahs-eng-k2-past-008",
+      "type": "multiple-choice",
+      "areaId": "grammar",
+      "themeId": "past",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Wähle die richtige Vergangenheitsform von 'have'.",
+      "content": {
+        "type": "multiple-choice",
+        "question": "She _____ a great birthday party last week.",
+        "options": [
+          "has",
+          "have",
+          "had",
+          "having"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Vergangenheit von 'have'"
+      ],
+      "feedbackCorrect": "Richtig! Had!",
+      "feedbackIncorrect": "Had ist die Vergangenheitsform von 'have'."
+    },
+    {
+      "id": "ahs-eng-k3-past-009",
+      "type": "fill-blank",
+      "areaId": "grammar",
+      "themeId": "past",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Setze die richtige Form ein: Simple Past oder Past Continuous.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "While I {{blank}} (read), the phone rang.",
+        "correctAnswer": "was reading"
+      },
+      "hints": [
+        "Gleichzeitige Handlung in der Vergangenheit: was/were + -ing"
+      ],
+      "feedbackCorrect": "Richtig! Was reading!",
+      "feedbackIncorrect": "While + Past Continuous (was reading), Past Simple (rang)."
+    },
+    {
+      "id": "ahs-eng-k3-past-010",
+      "type": "multiple-choice",
+      "areaId": "grammar",
+      "themeId": "past",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Wähle die richtige Form.",
+      "content": {
+        "type": "multiple-choice",
+        "question": "They _____ (play) when it started to rain.",
+        "options": [
+          "played",
+          "were playing",
+          "have played",
+          "are playing"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Handlung, die unterbrochen wurde"
+      ],
+      "feedbackCorrect": "Richtig! Were playing!",
+      "feedbackIncorrect": "Were playing – Past Continuous für eine andauernde Handlung."
+    },
+    {
+      "id": "ahs-eng-k3-past-011",
+      "type": "word-order",
+      "areaId": "grammar",
+      "themeId": "past",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Bringe die Wörter in die richtige Reihenfolge.",
+      "content": {
+        "type": "word-order",
+        "correctOrder": [
+          "She",
+          "was",
+          "cooking",
+          "when",
+          "the",
+          "doorbell",
+          "rang",
+          "."
+        ],
+        "alternateOrders": [],
+        "scrambled": [
+          "rang",
+          "cooking",
+          "She",
+          "the",
+          "doorbell",
+          "was",
+          "when",
+          "."
+        ]
+      },
+      "hints": [
+        "Past Continuous + Past Simple"
+      ],
+      "feedbackCorrect": "Richtig! She was cooking when the doorbell rang.",
+      "feedbackIncorrect": "Past Continuous (was cooking) + when + Past Simple (rang)."
+    },
+    {
+      "id": "ahs-eng-k1-past-012",
+      "type": "sentence-builder",
+      "areaId": "grammar",
+      "themeId": "past",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Baue korrekte Sätze in der Vergangenheit.",
+      "content": {
+        "type": "sentence-builder",
+        "columns": [
+          {
+            "label": "Subject",
+            "words": [
+              "I",
+              "She",
+              "They"
+            ]
+          },
+          {
+            "label": "Verb",
+            "words": [
+              "played",
+              "watched"
+            ]
+          },
+          {
+            "label": "Object",
+            "words": [
+              "a game",
+              "a film"
+            ]
+          }
+        ],
+        "targetSentences": [
+          "I played a game",
+          "I played a film",
+          "I watched a game",
+          "I watched a film",
+          "She played a game",
+          "She played a film",
+          "She watched a game",
+          "She watched a film",
+          "They played a game",
+          "They played a film",
+          "They watched a game",
+          "They watched a film"
+        ]
+      },
+      "hints": [
+        "Regelmäßige Verben im Simple Past"
+      ],
+      "feedbackCorrect": "Super!",
+      "feedbackIncorrect": "Subjekt + Verb (-ed) + Objekt."
+    },
+    {
+      "id": "ahs-eng-k2-fut-002",
+      "type": "fill-blank",
+      "areaId": "grammar",
+      "themeId": "future",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Vervollständige den Satz mit 'will'.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "I think it {{blank}} (rain) tomorrow.",
+        "correctAnswer": "will rain"
+      },
+      "hints": [
+        "Vorhersage mit will"
+      ],
+      "feedbackCorrect": "Richtig! Will rain!",
+      "feedbackIncorrect": "Will + Verb für Vorhersagen."
+    },
+    {
+      "id": "ahs-eng-k2-fut-003",
+      "type": "multiple-choice",
+      "areaId": "grammar",
+      "themeId": "future",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Wähle die richtige Zukunftsform.",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Look at the clouds! It _____ rain.",
+        "options": [
+          "is going to",
+          "will",
+          "is",
+          "does"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Sichtbare Anzeichen → going to"
+      ],
+      "feedbackCorrect": "Richtig! Is going to!",
+      "feedbackIncorrect": "Going to für Vorhersagen mit sichtbaren Anzeichen."
+    },
+    {
+      "id": "ahs-eng-k2-fut-004",
+      "type": "word-order",
+      "areaId": "grammar",
+      "themeId": "future",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Bringe die Wörter in die richtige Reihenfolge.",
+      "content": {
+        "type": "word-order",
+        "correctOrder": [
+          "I",
+          "am",
+          "going",
+          "to",
+          "visit",
+          "my",
+          "friend",
+          "."
+        ],
+        "alternateOrders": [],
+        "scrambled": [
+          "friend",
+          ".",
+          "visit",
+          "I",
+          "going",
+          "my",
+          "am",
+          "to"
+        ]
+      },
+      "hints": [
+        "Going-to-Future"
+      ],
+      "feedbackCorrect": "Richtig! I am going to visit my friend.",
+      "feedbackIncorrect": "Subjekt + am/is/are + going to + Verb."
+    },
+    {
+      "id": "ahs-eng-k2-fut-005",
+      "type": "sentence-builder",
+      "areaId": "grammar",
+      "themeId": "future",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Baue korrekte Sätze mit 'will'.",
+      "content": {
+        "type": "sentence-builder",
+        "columns": [
+          {
+            "label": "Subject",
+            "words": [
+              "I",
+              "She",
+              "We"
+            ]
+          },
+          {
+            "label": "will",
+            "words": [
+              "will"
+            ]
+          },
+          {
+            "label": "Verb",
+            "words": [
+              "travel",
+              "study"
+            ]
+          },
+          {
+            "label": "Place",
+            "words": [
+              "to London",
+              "at home"
+            ]
+          }
+        ],
+        "targetSentences": [
+          "I will travel to London",
+          "I will travel at home",
+          "I will study to London",
+          "I will study at home",
+          "She will travel to London",
+          "She will travel at home",
+          "She will study to London",
+          "She will study at home",
+          "We will travel to London",
+          "We will travel at home",
+          "We will study to London",
+          "We will study at home"
+        ]
+      },
+      "hints": [
+        "Will-Future: Subjekt + will + Verb"
+      ],
+      "feedbackCorrect": "Super! Satz korrekt!",
+      "feedbackIncorrect": "Subjekt + will + Verb + Ergänzung."
+    },
+    {
+      "id": "ahs-eng-k3-fut-006",
+      "type": "fill-blank",
+      "areaId": "grammar",
+      "themeId": "future",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Vervollständige den Satz.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "She {{blank}} (meet) her friends at 5 o'clock. It's already planned.",
+        "correctAnswer": "is meeting",
+        "acceptableAnswers": [
+          "is going to meet"
+        ]
+      },
+      "hints": [
+        "Geplante Zukunft: Present Continuous oder going to"
+      ],
+      "feedbackCorrect": "Richtig!",
+      "feedbackIncorrect": "Is meeting / Is going to meet – für geplante Handlungen."
+    },
+    {
+      "id": "ahs-eng-k3-fut-007",
+      "type": "multiple-choice",
+      "areaId": "grammar",
+      "themeId": "future",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Wähle die richtige Zukunftsform.",
+      "content": {
+        "type": "multiple-choice",
+        "question": "I promise I _____ help you with your homework.",
+        "options": [
+          "am going to",
+          "will",
+          "am",
+          "going"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Versprechen → will"
+      ],
+      "feedbackCorrect": "Richtig! Will!",
+      "feedbackIncorrect": "Will für spontane Entscheidungen und Versprechen."
+    },
+    {
+      "id": "ahs-eng-k3-fut-008",
+      "type": "fill-blank",
+      "areaId": "grammar",
+      "themeId": "future",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Vervollständige den Satz mit der richtigen Zukunftsform.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Be careful! You {{blank}} (fall)!",
+        "correctAnswer": "are going to fall"
+      },
+      "hints": [
+        "Warnung basierend auf sichtbaren Anzeichen"
+      ],
+      "feedbackCorrect": "Richtig! Are going to fall!",
+      "feedbackIncorrect": "Going to für Vorhersagen mit Anzeichen."
+    },
+    {
+      "id": "ahs-eng-k3-fut-009",
+      "type": "word-order",
+      "areaId": "grammar",
+      "themeId": "future",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Bringe die Wörter in die richtige Reihenfolge.",
+      "content": {
+        "type": "word-order",
+        "correctOrder": [
+          "Will",
+          "you",
+          "come",
+          "to",
+          "the",
+          "party",
+          "?"
+        ],
+        "alternateOrders": [],
+        "scrambled": [
+          "party",
+          "to",
+          "you",
+          "?",
+          "the",
+          "come",
+          "Will"
+        ]
+      },
+      "hints": [
+        "Frage im Will-Future"
+      ],
+      "feedbackCorrect": "Richtig! Will you come to the party?",
+      "feedbackIncorrect": "Fragen: Will + Subjekt + Verb?"
+    },
+    {
+      "id": "ahs-eng-k2-fut-010",
+      "type": "fill-blank",
+      "areaId": "grammar",
+      "themeId": "future",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Setze 'will' oder 'won't' ein.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Don't worry, I {{blank}} forget your birthday.",
+        "correctAnswer": "won't",
+        "acceptableAnswers": [
+          "will not"
+        ]
+      },
+      "hints": [
+        "Verneinung mit will"
+      ],
+      "feedbackCorrect": "Richtig! Won't = will not!",
+      "feedbackIncorrect": "Won't ist die Kurzform von will not."
+    },
+    {
+      "id": "ahs-eng-k3-fut-011",
+      "type": "multiple-choice",
+      "areaId": "grammar",
+      "themeId": "future",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Wann benutzt man 'going to' statt 'will'?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Which sentence uses 'going to' correctly?",
+        "options": [
+          "I'm going to sneeze – I can feel it!",
+          "I'm going to help you – I just decided.",
+          "I'm going to be 15 next year.",
+          "I'm going to probably rain."
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Going to: Anzeichen oder fester Plan"
+      ],
+      "feedbackCorrect": "Richtig! Sichtbare Anzeichen!",
+      "feedbackIncorrect": "Going to für Pläne oder wenn man Anzeichen sieht."
+    },
+    {
+      "id": "ahs-eng-k3-perf-004",
+      "type": "fill-blank",
+      "areaId": "grammar",
+      "themeId": "perfect",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Setze 'since' oder 'for' ein.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "I have lived in Vienna {{blank}} 2015.",
+        "correctAnswer": "since"
+      },
+      "hints": [
+        "Zeitpunkt → since, Zeitraum → for"
+      ],
+      "feedbackCorrect": "Richtig! Since für einen Zeitpunkt!",
+      "feedbackIncorrect": "Since 2015 – 'since' für einen bestimmten Zeitpunkt."
+    },
+    {
+      "id": "ahs-eng-k3-perf-005",
+      "type": "fill-blank",
+      "areaId": "grammar",
+      "themeId": "perfect",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Setze 'since' oder 'for' ein.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "She has been a teacher {{blank}} ten years.",
+        "correctAnswer": "for"
+      },
+      "hints": [
+        "Zeitraum → for"
+      ],
+      "feedbackCorrect": "Richtig! For für einen Zeitraum!",
+      "feedbackIncorrect": "For ten years – 'for' für einen Zeitraum."
+    },
+    {
+      "id": "ahs-eng-k3-perf-006",
+      "type": "word-order",
+      "areaId": "grammar",
+      "themeId": "perfect",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Bringe die Wörter in die richtige Reihenfolge.",
+      "content": {
+        "type": "word-order",
+        "correctOrder": [
+          "I",
+          "have",
+          "never",
+          "been",
+          "to",
+          "Australia",
+          "."
+        ],
+        "alternateOrders": [],
+        "scrambled": [
+          "to",
+          "never",
+          "been",
+          "I",
+          ".",
+          "have",
+          "Australia"
+        ]
+      },
+      "hints": [
+        "Present Perfect mit 'never'"
+      ],
+      "feedbackCorrect": "Richtig! I have never been to Australia.",
+      "feedbackIncorrect": "Subjekt + have/has + never + Past Participle."
+    },
+    {
+      "id": "ahs-eng-k3-perf-007",
+      "type": "multiple-choice",
+      "areaId": "grammar",
+      "themeId": "perfect",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Wähle die richtige Form.",
+      "content": {
+        "type": "multiple-choice",
+        "question": "She has _____ (write) three emails today.",
+        "options": [
+          "wrote",
+          "written",
+          "writing",
+          "write"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Past Participle von 'write'"
+      ],
+      "feedbackCorrect": "Richtig! Written!",
+      "feedbackIncorrect": "Written ist das Past Participle von 'write'."
+    },
+    {
+      "id": "ahs-eng-k4-perf-008",
+      "type": "fill-blank",
+      "areaId": "grammar",
+      "themeId": "perfect",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Setze 'yet', 'already' oder 'just' ein.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "I have {{blank}} finished my homework. I completed it a minute ago.",
+        "correctAnswer": "just"
+      },
+      "hints": [
+        "Vor kurzem → just"
+      ],
+      "feedbackCorrect": "Richtig! Just = gerade eben!",
+      "feedbackIncorrect": "Just für Handlungen, die gerade eben passiert sind."
+    },
+    {
+      "id": "ahs-eng-k4-perf-009",
+      "type": "multiple-choice",
+      "areaId": "grammar",
+      "themeId": "perfect",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Wähle die richtige Form.",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Have you done your homework _____?",
+        "options": [
+          "yet",
+          "already",
+          "just",
+          "since"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "In Fragen: yet"
+      ],
+      "feedbackCorrect": "Richtig! Yet in Fragen!",
+      "feedbackIncorrect": "Yet wird in Fragen und Verneinungen verwendet."
+    },
+    {
+      "id": "ahs-eng-k4-perf-010",
+      "type": "fill-blank",
+      "areaId": "grammar",
+      "themeId": "perfect",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Vervollständige mit Present Perfect.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "They {{blank}} (not/arrive) yet.",
+        "correctAnswer": "haven't arrived",
+        "acceptableAnswers": [
+          "have not arrived"
+        ]
+      },
+      "hints": [
+        "Verneinung im Present Perfect + yet"
+      ],
+      "feedbackCorrect": "Richtig! Haven't arrived yet!",
+      "feedbackIncorrect": "Haven't + Past Participle + yet."
+    },
+    {
+      "id": "ahs-eng-k4-perf-011",
+      "type": "word-order",
+      "areaId": "grammar",
+      "themeId": "perfect",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Bringe die Wörter in die richtige Reihenfolge.",
+      "content": {
+        "type": "word-order",
+        "correctOrder": [
+          "Has",
+          "she",
+          "already",
+          "read",
+          "that",
+          "book",
+          "?"
+        ],
+        "alternateOrders": [],
+        "scrambled": [
+          "that",
+          "already",
+          "Has",
+          "read",
+          "book",
+          "she",
+          "?"
+        ]
+      },
+      "hints": [
+        "Frage im Present Perfect mit 'already'"
+      ],
+      "feedbackCorrect": "Richtig! Has she already read that book?",
+      "feedbackIncorrect": "Has/Have + Subjekt + already + Past Participle?"
+    },
+    {
+      "id": "ahs-eng-k4-perf-012",
+      "type": "sentence-builder",
+      "areaId": "grammar",
+      "themeId": "perfect",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Baue korrekte Sätze im Present Perfect.",
+      "content": {
+        "type": "sentence-builder",
+        "columns": [
+          {
+            "label": "Subject",
+            "words": [
+              "I have",
+              "She has"
+            ]
+          },
+          {
+            "label": "Adverb",
+            "words": [
+              "already",
+              "never"
+            ]
+          },
+          {
+            "label": "Past Participle",
+            "words": [
+              "visited",
+              "eaten"
+            ]
+          },
+          {
+            "label": "Object",
+            "words": [
+              "Paris",
+              "sushi"
+            ]
+          }
+        ],
+        "targetSentences": [
+          "I have already visited Paris",
+          "I have already eaten sushi",
+          "I have never visited Paris",
+          "I have never eaten sushi",
+          "She has already visited Paris",
+          "She has already eaten sushi",
+          "She has never visited Paris",
+          "She has never eaten sushi"
+        ]
+      },
+      "hints": [
+        "Subjekt + have/has + Adverb + Past Participle + Objekt"
+      ],
+      "feedbackCorrect": "Super! Satz korrekt!",
+      "feedbackIncorrect": "Present Perfect: have/has + (already/never) + Past Participle."
+    },
+    {
+      "id": "ahs-eng-k4-cond-004",
+      "type": "fill-blank",
+      "areaId": "grammar",
+      "themeId": "conditionals",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Vervollständige den Konditionalsatz (Typ I).",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "If you {{blank}} (study) hard, you will pass the test.",
+        "correctAnswer": "study"
+      },
+      "hints": [
+        "If + Present Simple, will + Verb"
+      ],
+      "feedbackCorrect": "Richtig! Study im Present Simple!",
+      "feedbackIncorrect": "Typ I: If + Present Simple, will + Verb."
+    },
+    {
+      "id": "ahs-eng-k4-cond-005",
+      "type": "multiple-choice",
+      "areaId": "grammar",
+      "themeId": "conditionals",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Wähle die richtige Form für den 2. Konditional.",
+      "content": {
+        "type": "multiple-choice",
+        "question": "If I had more time, I _____ learn Japanese.",
+        "options": [
+          "will",
+          "would",
+          "can",
+          "do"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "2. Konditional: would + Verb"
+      ],
+      "feedbackCorrect": "Richtig! Would!",
+      "feedbackIncorrect": "Typ II: If + Past Simple, would + Verb."
+    },
+    {
+      "id": "ahs-eng-k4-cond-006",
+      "type": "fill-blank",
+      "areaId": "grammar",
+      "themeId": "conditionals",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Vervollständige den Konditionalsatz (Typ II).",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "If she {{blank}} (know) the answer, she would tell us.",
+        "correctAnswer": "knew"
+      },
+      "hints": [
+        "If + Past Simple (Typ II)"
+      ],
+      "feedbackCorrect": "Richtig! Knew!",
+      "feedbackIncorrect": "Typ II: If + Past Simple (knew), would + Verb."
+    },
+    {
+      "id": "ahs-eng-k4-cond-007",
+      "type": "word-order",
+      "areaId": "grammar",
+      "themeId": "conditionals",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Bringe die Wörter in die richtige Reihenfolge.",
+      "content": {
+        "type": "word-order",
+        "correctOrder": [
+          "If",
+          "I",
+          "were",
+          "you",
+          ",",
+          "I",
+          "would",
+          "apologize",
+          "."
+        ],
+        "alternateOrders": [],
+        "scrambled": [
+          "apologize",
+          "were",
+          "I",
+          ",",
+          "would",
+          ".",
+          "If",
+          "I",
+          "you"
+        ]
+      },
+      "hints": [
+        "Typ II: If I were you..."
+      ],
+      "feedbackCorrect": "Richtig! If I were you, I would apologize.",
+      "feedbackIncorrect": "If I were you, I would + Verb."
+    },
+    {
+      "id": "ahs-eng-k4-cond-008",
+      "type": "multiple-choice",
+      "areaId": "grammar",
+      "themeId": "conditionals",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Wähle die richtige Form für den 3. Konditional.",
+      "content": {
+        "type": "multiple-choice",
+        "question": "If they had left earlier, they _____ the train.",
+        "options": [
+          "would catch",
+          "would have caught",
+          "will catch",
+          "had caught"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "3. Konditional: would have + Past Participle"
+      ],
+      "feedbackCorrect": "Richtig! Would have caught!",
+      "feedbackIncorrect": "Typ III: If + Past Perfect, would have + Past Participle."
+    },
+    {
+      "id": "ahs-eng-k4-cond-009",
+      "type": "fill-blank",
+      "areaId": "grammar",
+      "themeId": "conditionals",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Vervollständige den Konditionalsatz (Typ III).",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "If I {{blank}} (see) him, I would have said hello.",
+        "correctAnswer": "had seen"
+      },
+      "hints": [
+        "If + Past Perfect (Typ III)"
+      ],
+      "feedbackCorrect": "Richtig! Had seen!",
+      "feedbackIncorrect": "Typ III: If + Past Perfect (had seen)."
+    },
+    {
+      "id": "ahs-eng-k4-cond-010",
+      "type": "sentence-builder",
+      "areaId": "grammar",
+      "themeId": "conditionals",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Baue korrekte Konditionalsätze (Typ I).",
+      "content": {
+        "type": "sentence-builder",
+        "columns": [
+          {
+            "label": "If-clause",
+            "words": [
+              "If it rains,",
+              "If you hurry,"
+            ]
+          },
+          {
+            "label": "Main clause",
+            "words": [
+              "I will stay home.",
+              "you will catch the bus."
+            ]
+          }
+        ],
+        "targetSentences": [
+          "If it rains, I will stay home.",
+          "If it rains, you will catch the bus.",
+          "If you hurry, I will stay home.",
+          "If you hurry, you will catch the bus."
+        ]
+      },
+      "hints": [
+        "Typ I: If + Present Simple, will + Verb"
+      ],
+      "feedbackCorrect": "Super! Konditionalsatz korrekt!",
+      "feedbackIncorrect": "If-Satz + Hauptsatz."
+    },
+    {
+      "id": "ahs-eng-k4-cond-011",
+      "type": "sorting",
+      "areaId": "grammar",
+      "themeId": "conditionals",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Sortiere die Sätze nach Konditional-Typ.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Type I (real)",
+            "items": [
+              "If it rains, I will stay home.",
+              "If you study, you will pass."
+            ]
+          },
+          {
+            "label": "Type II (unreal)",
+            "items": [
+              "If I were rich, I would travel.",
+              "If she had time, she would come."
+            ]
+          },
+          {
+            "label": "Type III (past unreal)",
+            "items": [
+              "If I had known, I would have helped.",
+              "If they had left earlier, they would have arrived."
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Typ I = real, Typ II = irreal, Typ III = Vergangenheit"
+      ],
+      "feedbackCorrect": "Perfekt sortiert!",
+      "feedbackIncorrect": "Typ I: real, Typ II: irreal/Gegenwart, Typ III: irreal/Vergangenheit."
+    },
+    {
+      "id": "ahs-eng-k1-read-002",
+      "type": "multiple-choice",
+      "areaId": "reading",
+      "themeId": "texts",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Lies den Text und beantworte die Frage.",
+      "content": {
+        "type": "multiple-choice",
+        "question": "I have a cat. Her name is Luna. She is black and white. She likes to sleep on my bed.\n\nWhat colour is Luna?",
+        "options": [
+          "brown",
+          "black and white",
+          "only black",
+          "grey"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Suche die Farbe im Text"
+      ],
+      "feedbackCorrect": "Richtig! Schwarz und weiß!",
+      "feedbackIncorrect": "Im Text steht: She is black and white."
+    },
+    {
+      "id": "ahs-eng-k1-read-003",
+      "type": "multiple-choice",
+      "areaId": "reading",
+      "themeId": "texts",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Lies den Text und beantworte die Frage.",
+      "content": {
+        "type": "multiple-choice",
+        "question": "My name is Anna. I am from Austria. I live in Salzburg. I go to school by bus.\n\nHow does Anna get to school?",
+        "options": [
+          "by car",
+          "on foot",
+          "by bus",
+          "by train"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Wie kommt Anna zur Schule?"
+      ],
+      "feedbackCorrect": "Richtig! Mit dem Bus!",
+      "feedbackIncorrect": "Im Text steht: I go to school by bus."
+    },
+    {
+      "id": "ahs-eng-k2-read-002",
+      "type": "multiple-choice",
+      "areaId": "reading",
+      "themeId": "texts",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Lies den Text und beantworte die Frage.",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Last weekend, Tim and his family went to the zoo. They saw lions, elephants, and penguins. Tim's favourite animal was the penguin because it looked funny.\n\nWhat was Tim's favourite animal?",
+        "options": [
+          "the lion",
+          "the elephant",
+          "the penguin",
+          "the monkey"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Welches Tier mochte Tim am liebsten?"
+      ],
+      "feedbackCorrect": "Richtig! Der Pinguin!",
+      "feedbackIncorrect": "Im Text steht: Tim's favourite animal was the penguin."
+    },
+    {
+      "id": "ahs-eng-k2-read-003",
+      "type": "multiple-choice",
+      "areaId": "reading",
+      "themeId": "texts",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Lies den Text und beantworte die Frage.",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Sarah loves cooking. Every Saturday she makes pancakes for her family. She uses eggs, flour, milk, and sugar. Her brother always wants extra syrup.\n\nWhat does Sarah make on Saturdays?",
+        "options": [
+          "pizza",
+          "cookies",
+          "pancakes",
+          "sandwiches"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Was kocht Sarah?"
+      ],
+      "feedbackCorrect": "Richtig! Pfannkuchen!",
+      "feedbackIncorrect": "Im Text steht: she makes pancakes."
+    },
+    {
+      "id": "ahs-eng-k3-read-002",
+      "type": "multiple-choice",
+      "areaId": "reading",
+      "themeId": "texts",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Lies den Text und beantworte die Frage.",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Social media has changed the way we communicate. While it helps people stay in touch, many experts worry about its effects on teenagers. Studies show that spending too much time online can lead to sleep problems.\n\nWhat is one negative effect of social media mentioned in the text?",
+        "options": [
+          "better communication",
+          "more friends",
+          "sleep problems",
+          "improved grades"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Was ist ein negativer Effekt?"
+      ],
+      "feedbackCorrect": "Richtig! Schlafprobleme!",
+      "feedbackIncorrect": "Im Text steht: spending too much time online can lead to sleep problems."
+    },
+    {
+      "id": "ahs-eng-k3-read-003",
+      "type": "multiple-choice",
+      "areaId": "reading",
+      "themeId": "texts",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Lies den Text und beantworte die Frage.",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Vienna is the capital of Austria and one of the most livable cities in the world. It is famous for its music, architecture, and coffee houses. Mozart and Beethoven both lived and worked in Vienna.\n\nWhy is Vienna famous?",
+        "options": [
+          "for its beaches",
+          "for its music, architecture, and coffee houses",
+          "for its mountains",
+          "for its football teams"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Wofür ist Wien bekannt?"
+      ],
+      "feedbackCorrect": "Richtig!",
+      "feedbackIncorrect": "Wien ist bekannt für Musik, Architektur und Kaffeehäuser."
+    },
+    {
+      "id": "ahs-eng-k4-read-002",
+      "type": "multiple-choice",
+      "areaId": "reading",
+      "themeId": "texts",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Lies den Text und beantworte die Frage.",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Climate change is one of the greatest challenges of our time. Rising temperatures are causing glaciers to melt, sea levels to rise, and weather patterns to become more extreme. Scientists agree that reducing carbon emissions is essential to slow down these changes.\n\nAccording to the text, what is essential to slow down climate change?",
+        "options": [
+          "building more cities",
+          "reducing carbon emissions",
+          "increasing travel",
+          "using more plastic"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Was ist laut dem Text nötig?"
+      ],
+      "feedbackCorrect": "Richtig! CO₂-Emissionen reduzieren!",
+      "feedbackIncorrect": "Reducing carbon emissions ist laut Text essenziell."
+    },
+    {
+      "id": "ahs-eng-k4-read-003",
+      "type": "multiple-choice",
+      "areaId": "reading",
+      "themeId": "texts",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Lies den Text und beantworte die Frage.",
+      "content": {
+        "type": "multiple-choice",
+        "question": "The invention of the printing press by Johannes Gutenberg in the 15th century revolutionized the spread of knowledge. Before that, books were copied by hand, making them expensive and rare. The printing press made books affordable and accessible to a wider audience.\n\nWhat was the main effect of the printing press?",
+        "options": [
+          "Books became more expensive.",
+          "Books became affordable and accessible.",
+          "People stopped reading.",
+          "Only rich people could buy books."
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Was war die Hauptwirkung?"
+      ],
+      "feedbackCorrect": "Richtig! Bücher wurden leistbar und zugänglich!",
+      "feedbackIncorrect": "Books became affordable and accessible to a wider audience."
+    },
+    {
+      "id": "ahs-eng-k1-conv-002",
+      "type": "multiple-choice",
+      "areaId": "listening",
+      "themeId": "conversation",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Wähle die passende Antwort.",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Someone says: 'How are you?' – What do you answer?",
+        "options": [
+          "I'm 12 years old.",
+          "I'm fine, thank you.",
+          "My name is Tom.",
+          "I'm from Austria."
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Eine übliche Begrüßungsantwort"
+      ],
+      "feedbackCorrect": "Richtig! I'm fine, thank you!",
+      "feedbackIncorrect": "Auf 'How are you?' antwortet man 'I'm fine, thank you.'"
+    },
+    {
+      "id": "ahs-eng-k1-conv-003",
+      "type": "multiple-choice",
+      "areaId": "listening",
+      "themeId": "conversation",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Wähle die passende Antwort.",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Someone says: 'What's your name?' – What do you answer?",
+        "options": [
+          "I'm fine.",
+          "I'm from Vienna.",
+          "My name is Anna.",
+          "I'm 11."
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Nach dem Namen gefragt"
+      ],
+      "feedbackCorrect": "Richtig! My name is Anna!",
+      "feedbackIncorrect": "Auf 'What's your name?' sagt man seinen Namen."
+    },
+    {
+      "id": "ahs-eng-k1-conv-004",
+      "type": "fill-blank",
+      "areaId": "listening",
+      "themeId": "conversation",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Vervollständige den Dialog.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "A: Hello! B: {{blank}}!",
+        "correctAnswer": "Hello",
+        "acceptableAnswers": [
+          "Hi"
+        ]
+      },
+      "hints": [
+        "Eine einfache Begrüßung"
+      ],
+      "feedbackCorrect": "Richtig! Hello!",
+      "feedbackIncorrect": "Man antwortet auf eine Begrüßung mit einer Begrüßung."
+    },
+    {
+      "id": "ahs-eng-k2-conv-005",
+      "type": "multiple-choice",
+      "areaId": "listening",
+      "themeId": "conversation",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Wähle die passende Antwort im Dialog.",
+      "content": {
+        "type": "multiple-choice",
+        "question": "A: Would you like some tea?\nB: _____",
+        "options": [
+          "Yes, please.",
+          "I'm Tom.",
+          "It's Monday.",
+          "I'm from Graz."
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Eine höfliche Annahme eines Angebots"
+      ],
+      "feedbackCorrect": "Richtig! Yes, please!",
+      "feedbackIncorrect": "Auf ein Angebot antwortet man 'Yes, please.' oder 'No, thank you.'"
+    },
+    {
+      "id": "ahs-eng-k2-conv-006",
+      "type": "fill-blank",
+      "areaId": "listening",
+      "themeId": "conversation",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Vervollständige den Dialog.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "A: Excuse me, where is the library?\nB: Go straight and turn {{blank}}.",
+        "correctAnswer": "left",
+        "acceptableAnswers": [
+          "right"
+        ]
+      },
+      "hints": [
+        "Wegbeschreibung"
+      ],
+      "feedbackCorrect": "Richtig!",
+      "feedbackIncorrect": "Turn left/right für Wegbeschreibungen."
+    },
+    {
+      "id": "ahs-eng-k2-conv-007",
+      "type": "multiple-choice",
+      "areaId": "listening",
+      "themeId": "conversation",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Wähle die passende Reaktion.",
+      "content": {
+        "type": "multiple-choice",
+        "question": "A: Thank you very much!\nB: _____",
+        "options": [
+          "You're welcome.",
+          "I'm sorry.",
+          "See you later.",
+          "How are you?"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Antwort auf 'Thank you'"
+      ],
+      "feedbackCorrect": "Richtig! You're welcome!",
+      "feedbackIncorrect": "Auf 'Thank you' antwortet man 'You're welcome.'"
+    },
+    {
+      "id": "ahs-eng-k3-conv-008",
+      "type": "multiple-choice",
+      "areaId": "listening",
+      "themeId": "conversation",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Wähle die passende Reaktion.",
+      "content": {
+        "type": "multiple-choice",
+        "question": "A: I'm not feeling well today.\nB: _____",
+        "options": [
+          "That's great!",
+          "Oh no, I'm sorry to hear that.",
+          "Congratulations!",
+          "How old are you?"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Mitgefühl zeigen"
+      ],
+      "feedbackCorrect": "Richtig! I'm sorry to hear that!",
+      "feedbackIncorrect": "Man zeigt Mitgefühl mit 'I'm sorry to hear that.'"
+    },
+    {
+      "id": "ahs-eng-k3-conv-009",
+      "type": "fill-blank",
+      "areaId": "listening",
+      "themeId": "conversation",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Vervollständige den Dialog.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "A: Could you help me with my homework?\nB: Of {{blank}}, I'd be happy to help.",
+        "correctAnswer": "course"
+      },
+      "hints": [
+        "Eine höfliche Zusage"
+      ],
+      "feedbackCorrect": "Richtig! Of course!",
+      "feedbackIncorrect": "Of course = Natürlich / Selbstverständlich."
+    },
+    {
+      "id": "ahs-eng-k3-conv-010",
+      "type": "sorting",
+      "areaId": "listening",
+      "themeId": "conversation",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Sortiere die Ausdrücke in die richtige Kategorie.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Agreeing",
+            "items": [
+              "I agree.",
+              "That's right.",
+              "Exactly!",
+              "Absolutely!"
+            ]
+          },
+          {
+            "label": "Disagreeing",
+            "items": [
+              "I don't think so.",
+              "I'm afraid I disagree.",
+              "Not really.",
+              "I see it differently."
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Zustimmen oder widersprechen?"
+      ],
+      "feedbackCorrect": "Perfekt sortiert!",
+      "feedbackIncorrect": "Agreeing: zustimmen, Disagreeing: widersprechen."
+    },
+    {
+      "id": "ahs-eng-k4-conv-011",
+      "type": "multiple-choice",
+      "areaId": "listening",
+      "themeId": "conversation",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Wähle die passende Antwort in einem formellen Gespräch.",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Interviewer: Could you tell me about your strengths?\nApplicant: _____",
+        "options": [
+          "I dunno.",
+          "I'm really good at teamwork and problem-solving.",
+          "Nah, not really.",
+          "Whatever."
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Formelles Vorstellungsgespräch"
+      ],
+      "feedbackCorrect": "Richtig! Eine professionelle Antwort!",
+      "feedbackIncorrect": "In Vorstellungsgesprächen antwortet man professionell."
+    },
+    {
+      "id": "ahs-eng-k4-conv-012",
+      "type": "fill-blank",
+      "areaId": "listening",
+      "themeId": "conversation",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Vervollständige den höflichen Dialog.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "A: I was wondering if you could {{blank}} me a favour.\nB: Sure, what do you need?",
+        "correctAnswer": "do"
+      },
+      "hints": [
+        "Eine höfliche Bitte"
+      ],
+      "feedbackCorrect": "Richtig! Do me a favour!",
+      "feedbackIncorrect": "Could you do me a favour? = Könntest du mir einen Gefallen tun?"
+    },
+    {
+      "id": "ahs-eng-k4-conv-013",
+      "type": "multiple-choice",
+      "areaId": "listening",
+      "themeId": "conversation",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Wähle den passenden Ausdruck.",
+      "content": {
+        "type": "multiple-choice",
+        "question": "You want to politely interrupt someone in a meeting. What do you say?",
+        "options": [
+          "Shut up!",
+          "Excuse me, may I add something?",
+          "Hey, listen to me!",
+          "Stop talking!"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Höflich unterbrechen"
+      ],
+      "feedbackCorrect": "Richtig! Excuse me, may I add something?",
+      "feedbackIncorrect": "Höfliches Unterbrechen: Excuse me, may I add something?"
+    },
+    {
+      "id": "ahs-eng-k2-inform-002",
+      "type": "fill-blank",
+      "areaId": "writing",
+      "themeId": "informal",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Vervollständige die informelle E-Mail.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Hi Sarah,\n\nHow are you? I'm writing to tell you about my {{blank}}.",
+        "correctAnswer": "holiday",
+        "acceptableAnswers": [
+          "vacation",
+          "weekend",
+          "trip"
+        ]
+      },
+      "hints": [
+        "Ein informeller E-Mail-Anfang"
+      ],
+      "feedbackCorrect": "Richtig!",
+      "feedbackIncorrect": "In informellen E-Mails schreibt man über persönliche Themen."
+    },
+    {
+      "id": "ahs-eng-k2-inform-003",
+      "type": "multiple-choice",
+      "areaId": "writing",
+      "themeId": "informal",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Welcher Schluss passt zu einer informellen E-Mail?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "How do you end an email to a friend?",
+        "options": [
+          "Yours faithfully,",
+          "With kind regards,",
+          "See you soon!",
+          "I remain, respectfully,"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Informeller Abschluss"
+      ],
+      "feedbackCorrect": "Richtig! See you soon!",
+      "feedbackIncorrect": "See you soon! ist ein informeller E-Mail-Abschluss."
+    },
+    {
+      "id": "ahs-eng-k2-inform-004",
+      "type": "sorting",
+      "areaId": "writing",
+      "themeId": "informal",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Sortiere die Ausdrücke: informell oder formell?",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Informal",
+            "items": [
+              "Hi!",
+              "What's up?",
+              "See ya!",
+              "Thanks a lot!"
+            ]
+          },
+          {
+            "label": "Formal",
+            "items": [
+              "Dear Sir or Madam,",
+              "I am writing to inquire...",
+              "Yours sincerely,",
+              "I look forward to hearing from you."
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Informell oder formell?"
+      ],
+      "feedbackCorrect": "Perfekt sortiert!",
+      "feedbackIncorrect": "Hi, What's up sind informell. Dear Sir, I am writing... sind formell."
+    },
+    {
+      "id": "ahs-eng-k2-inform-005",
+      "type": "fill-blank",
+      "areaId": "writing",
+      "themeId": "informal",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Vervollständige die Nachricht an einen Freund.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Hey Tom! Do you want to {{blank}} to the cinema with me on Saturday?",
+        "correctAnswer": "come",
+        "acceptableAnswers": [
+          "go"
+        ]
+      },
+      "hints": [
+        "Eine Einladung an einen Freund"
+      ],
+      "feedbackCorrect": "Richtig!",
+      "feedbackIncorrect": "Do you want to come/go – eine informelle Einladung."
+    },
+    {
+      "id": "ahs-eng-k2-inform-006",
+      "type": "word-order",
+      "areaId": "writing",
+      "themeId": "informal",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Bringe die Wörter in die richtige Reihenfolge für eine informelle Nachricht.",
+      "content": {
+        "type": "word-order",
+        "correctOrder": [
+          "Hope",
+          "to",
+          "see",
+          "you",
+          "soon",
+          "!"
+        ],
+        "alternateOrders": [],
+        "scrambled": [
+          "soon",
+          "Hope",
+          "you",
+          "!",
+          "see",
+          "to"
+        ]
+      },
+      "hints": [
+        "Ein typischer informeller Abschluss"
+      ],
+      "feedbackCorrect": "Richtig! Hope to see you soon!",
+      "feedbackIncorrect": "Hope to see you soon! = Ich hoffe, dich bald zu sehen!"
+    },
+    {
+      "id": "ahs-eng-k3-inform-007",
+      "type": "fill-blank",
+      "areaId": "writing",
+      "themeId": "informal",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Vervollständige die informelle E-Mail.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "I'm really {{blank}} forward to the school trip next week!",
+        "correctAnswer": "looking"
+      },
+      "hints": [
+        "Sich auf etwas freuen: look forward to"
+      ],
+      "feedbackCorrect": "Richtig! Looking forward to!",
+      "feedbackIncorrect": "To look forward to = sich freuen auf."
+    },
+    {
+      "id": "ahs-eng-k3-inform-008",
+      "type": "multiple-choice",
+      "areaId": "writing",
+      "themeId": "informal",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Welcher Satz passt in eine informelle E-Mail?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "You want to suggest meeting up. Which sentence is appropriate?",
+        "options": [
+          "I would like to propose a meeting.",
+          "Let's hang out this weekend!",
+          "I hereby request your presence.",
+          "Please confirm your attendance."
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Informeller Vorschlag"
+      ],
+      "feedbackCorrect": "Richtig! Let's hang out!",
+      "feedbackIncorrect": "Let's hang out this weekend! ist informell und freundlich."
+    },
+    {
+      "id": "ahs-eng-k3-inform-009",
+      "type": "fill-blank",
+      "areaId": "writing",
+      "themeId": "informal",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Vervollständige den Satz in einer informellen Nachricht.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Guess {{blank}}? I got tickets for the concert!",
+        "correctAnswer": "what"
+      },
+      "hints": [
+        "Ein aufgeregter Anfang einer Nachricht"
+      ],
+      "feedbackCorrect": "Richtig! Guess what?",
+      "feedbackIncorrect": "Guess what? = Rate mal! / Stell dir vor!"
+    },
+    {
+      "id": "ahs-eng-k3-inform-010",
+      "type": "word-order",
+      "areaId": "writing",
+      "themeId": "informal",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Bringe die Wörter in die richtige Reihenfolge.",
+      "content": {
+        "type": "word-order",
+        "correctOrder": [
+          "Can't",
+          "wait",
+          "to",
+          "hear",
+          "from",
+          "you",
+          "!"
+        ],
+        "alternateOrders": [],
+        "scrambled": [
+          "hear",
+          "Can't",
+          "you",
+          "from",
+          "!",
+          "to",
+          "wait"
+        ]
+      },
+      "hints": [
+        "Ein typischer informeller E-Mail-Schluss"
+      ],
+      "feedbackCorrect": "Richtig! Can't wait to hear from you!",
+      "feedbackIncorrect": "Can't wait to hear from you! = freundlicher Abschluss."
+    },
+    {
+      "id": "ahs-eng-k2-inform-011",
+      "type": "multiple-choice",
+      "areaId": "writing",
+      "themeId": "informal",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Wähle die richtige informelle Anrede.",
+      "content": {
+        "type": "multiple-choice",
+        "question": "You are writing to your friend Max. How do you start?",
+        "options": [
+          "Dear Mr. Max,",
+          "To whom it may concern,",
+          "Hey Max!",
+          "Respected Max,"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Informelle Anrede"
+      ],
+      "feedbackCorrect": "Richtig! Hey Max!",
+      "feedbackIncorrect": "Hey Max! ist eine typische informelle Anrede."
+    },
+    {
+      "id": "ahs-eng-k3-form-002",
+      "type": "fill-blank",
+      "areaId": "writing",
+      "themeId": "formal",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Vervollständige den formellen Brief.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Dear {{blank}} or Madam,\n\nI am writing to apply for the position of...",
+        "correctAnswer": "Sir"
+      },
+      "hints": [
+        "Formelle Anrede, wenn man den Namen nicht kennt"
+      ],
+      "feedbackCorrect": "Richtig! Dear Sir or Madam!",
+      "feedbackIncorrect": "Dear Sir or Madam – formelle Anrede."
+    },
+    {
+      "id": "ahs-eng-k3-form-003",
+      "type": "multiple-choice",
+      "areaId": "writing",
+      "themeId": "formal",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Welcher Satz passt in einen formellen Brief?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "You want to ask for information. Which is formal?",
+        "options": [
+          "Hey, can you tell me about...?",
+          "I would like to inquire about...",
+          "What's the deal with...?",
+          "Just wondering about..."
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Formelle Anfrage"
+      ],
+      "feedbackCorrect": "Richtig! I would like to inquire about...!",
+      "feedbackIncorrect": "I would like to inquire about... = formelle Anfrage."
+    },
+    {
+      "id": "ahs-eng-k3-form-004",
+      "type": "sorting",
+      "areaId": "writing",
+      "themeId": "formal",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Sortiere die Briefschlüsse: formell oder informell?",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Formal endings",
+            "items": [
+              "Yours sincerely,",
+              "Yours faithfully,",
+              "Kind regards,",
+              "I look forward to your reply."
+            ]
+          },
+          {
+            "label": "Informal endings",
+            "items": [
+              "Cheers!",
+              "Talk soon!",
+              "Love,",
+              "XOXO"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Formeller oder informeller Briefschluss?"
+      ],
+      "feedbackCorrect": "Perfekt sortiert!",
+      "feedbackIncorrect": "Yours sincerely/faithfully sind formell. Cheers, Love sind informell."
+    },
+    {
+      "id": "ahs-eng-k4-form-005",
+      "type": "fill-blank",
+      "areaId": "writing",
+      "themeId": "formal",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Vervollständige den formellen Aufsatz.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "{{blank}} conclusion, it is clear that education plays a vital role in society.",
+        "correctAnswer": "In"
+      },
+      "hints": [
+        "Einleitung einer formellen Schlussfolgerung"
+      ],
+      "feedbackCorrect": "Richtig! In conclusion!",
+      "feedbackIncorrect": "In conclusion = Zusammenfassend / Abschließend."
+    },
+    {
+      "id": "ahs-eng-k4-form-006",
+      "type": "multiple-choice",
+      "areaId": "writing",
+      "themeId": "formal",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Welcher Ausdruck ist für einen formellen Aufsatz geeignet?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "You want to say 'many people think'. Which is most formal?",
+        "options": [
+          "Lots of folks reckon",
+          "Many people think",
+          "It is widely believed that",
+          "Everyone says"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Formelle akademische Sprache"
+      ],
+      "feedbackCorrect": "Richtig! It is widely believed that!",
+      "feedbackIncorrect": "It is widely believed that – akademische/formelle Sprache."
+    },
+    {
+      "id": "ahs-eng-k4-form-007",
+      "type": "fill-blank",
+      "areaId": "writing",
+      "themeId": "formal",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Vervollständige den formellen Satz.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "I am writing to {{blank}} about the noise levels in our neighbourhood.",
+        "correctAnswer": "complain"
+      },
+      "hints": [
+        "Formelle Beschwerde"
+      ],
+      "feedbackCorrect": "Richtig! To complain = sich beschweren!",
+      "feedbackIncorrect": "I am writing to complain – formelle Beschwerde."
+    },
+    {
+      "id": "ahs-eng-k4-form-008",
+      "type": "word-order",
+      "areaId": "writing",
+      "themeId": "formal",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Bringe die Wörter in die richtige Reihenfolge für einen formellen Brief.",
+      "content": {
+        "type": "word-order",
+        "correctOrder": [
+          "I",
+          "look",
+          "forward",
+          "to",
+          "hearing",
+          "from",
+          "you",
+          "."
+        ],
+        "alternateOrders": [],
+        "scrambled": [
+          "hearing",
+          "forward",
+          "you",
+          "I",
+          ".",
+          "from",
+          "look",
+          "to"
+        ]
+      },
+      "hints": [
+        "Formeller Briefschluss"
+      ],
+      "feedbackCorrect": "Richtig! I look forward to hearing from you.",
+      "feedbackIncorrect": "I look forward to hearing from you – formeller Briefschluss."
+    },
+    {
+      "id": "ahs-eng-k3-form-009",
+      "type": "multiple-choice",
+      "areaId": "writing",
+      "themeId": "formal",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Wann schreibt man 'Yours sincerely' und wann 'Yours faithfully'?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "You start a letter with 'Dear Mr. Smith,'. How do you end it?",
+        "options": [
+          "Yours faithfully,",
+          "Yours sincerely,",
+          "Best wishes,",
+          "Cheers,"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Wenn man den Namen kennt → sincerely"
+      ],
+      "feedbackCorrect": "Richtig! Yours sincerely!",
+      "feedbackIncorrect": "Dear Mr./Mrs. + Name → Yours sincerely. Dear Sir/Madam → Yours faithfully."
+    },
+    {
+      "id": "ahs-eng-k4-form-010",
+      "type": "fill-blank",
+      "areaId": "writing",
+      "themeId": "formal",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Vervollständige den formellen Satz.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "I would be {{blank}} if you could send me further information.",
+        "correctAnswer": "grateful",
+        "acceptableAnswers": [
+          "thankful"
+        ]
+      },
+      "hints": [
+        "Höfliche formelle Bitte"
+      ],
+      "feedbackCorrect": "Richtig! Grateful!",
+      "feedbackIncorrect": "I would be grateful – höfliche formelle Bitte."
     }
   ]
 }

@@ -111,7 +111,8 @@
       "content": {
         "type": "fill-blank",
         "sentence": "100m in 10s = {{blank}} m/s",
-        "correctAnswer": "10"
+        "correctAnswer": "10",
+        "acceptableAnswers": []
       },
       "hints": [
         "v = s/t"
@@ -130,7 +131,8 @@
       "content": {
         "type": "fill-blank",
         "sentence": "m=10kg, a=5m/s² → F = {{blank}} N",
-        "correctAnswer": "50"
+        "correctAnswer": "50",
+        "acceptableAnswers": []
       },
       "hints": [
         "F = m × a"
@@ -149,7 +151,8 @@
       "content": {
         "type": "fill-blank",
         "sentence": "U=230V, I=2A → P = {{blank}} W",
-        "correctAnswer": "460"
+        "correctAnswer": "460",
+        "acceptableAnswers": []
       },
       "hints": [
         "P = U × I"
@@ -231,6 +234,3197 @@
       ],
       "feedbackCorrect": "Richtig! Mechanische Wellen!",
       "feedbackIncorrect": "Schall ist eine mechanische Welle, die sich in Luft, Wasser oder Festkörpern ausbreitet."
+    },
+    {
+      "id": "ahs-phys-k2-bew-002",
+      "type": "multiple-choice",
+      "areaId": "mechanik",
+      "themeId": "bewegung",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Welche Einheit hat die Geschwindigkeit?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Einheit der Geschwindigkeit:",
+        "options": [
+          "kg",
+          "m/s",
+          "N",
+          "J"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Weg geteilt durch Zeit"
+      ],
+      "feedbackCorrect": "Richtig! Meter pro Sekunde (m/s)!",
+      "feedbackIncorrect": "Die Einheit der Geschwindigkeit ist m/s (Meter pro Sekunde)."
+    },
+    {
+      "id": "ahs-phys-k2-bew-003",
+      "type": "multiple-choice",
+      "areaId": "mechanik",
+      "themeId": "bewegung",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Was bedeutet Beschleunigung?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Beschleunigung ist:",
+        "options": [
+          "Änderung der Geschwindigkeit pro Zeit",
+          "Weg pro Zeit",
+          "Kraft pro Masse",
+          "Energie pro Zeit"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Wie schnell sich die Geschwindigkeit ändert"
+      ],
+      "feedbackCorrect": "Richtig! Änderung der Geschwindigkeit pro Zeit!",
+      "feedbackIncorrect": "Beschleunigung = Änderung der Geschwindigkeit / Zeit (m/s²)."
+    },
+    {
+      "id": "ahs-phys-k2-bew-004",
+      "type": "multiple-choice",
+      "areaId": "mechanik",
+      "themeId": "bewegung",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Wann bewegt sich ein Körper gleichförmig?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Gleichförmige Bewegung bedeutet:",
+        "options": [
+          "Konstante Geschwindigkeit",
+          "Zunehmende Geschwindigkeit",
+          "Abnehmende Geschwindigkeit",
+          "Keine Bewegung"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Die Geschwindigkeit bleibt gleich"
+      ],
+      "feedbackCorrect": "Richtig! Konstante Geschwindigkeit!",
+      "feedbackIncorrect": "Bei einer gleichförmigen Bewegung bleibt die Geschwindigkeit konstant."
+    },
+    {
+      "id": "ahs-phys-k2-bew-005",
+      "type": "fill-blank",
+      "areaId": "mechanik",
+      "themeId": "bewegung",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Berechne die Geschwindigkeit.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Ein Auto fährt 200 m in 10 s. Die Geschwindigkeit beträgt {{blank}} m/s.",
+        "correctAnswer": "20",
+        "acceptableAnswers": [
+          "20,0"
+        ]
+      },
+      "hints": [
+        "v = s / t"
+      ],
+      "feedbackCorrect": "Richtig! 20 m/s!",
+      "feedbackIncorrect": "v = 200 m / 10 s = 20 m/s."
+    },
+    {
+      "id": "ahs-phys-k3-bew-002",
+      "type": "fill-blank",
+      "areaId": "mechanik",
+      "themeId": "bewegung",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Berechne den zurückgelegten Weg.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Ein Radfahrer fährt mit 5 m/s für 60 s. Der Weg beträgt {{blank}} m.",
+        "correctAnswer": "300",
+        "acceptableAnswers": [
+          "300,0"
+        ]
+      },
+      "hints": [
+        "s = v × t"
+      ],
+      "feedbackCorrect": "Richtig! 300 m!",
+      "feedbackIncorrect": "s = 5 m/s × 60 s = 300 m."
+    },
+    {
+      "id": "ahs-phys-k3-bew-003",
+      "type": "fill-blank",
+      "areaId": "mechanik",
+      "themeId": "bewegung",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Berechne die Beschleunigung.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Ein Auto beschleunigt von 0 auf 20 m/s in 10 s. Die Beschleunigung beträgt {{blank}} m/s².",
+        "correctAnswer": "2",
+        "acceptableAnswers": [
+          "2,0"
+        ]
+      },
+      "hints": [
+        "a = Δv / t"
+      ],
+      "feedbackCorrect": "Richtig! 2 m/s²!",
+      "feedbackIncorrect": "a = (20 - 0) m/s / 10 s = 2 m/s²."
+    },
+    {
+      "id": "ahs-phys-k3-bew-004",
+      "type": "fill-blank",
+      "areaId": "mechanik",
+      "themeId": "bewegung",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Berechne die Zeit.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Ein Zug fährt 900 m mit 30 m/s. Die Zeit beträgt {{blank}} s.",
+        "correctAnswer": "30",
+        "acceptableAnswers": [
+          "30,0"
+        ]
+      },
+      "hints": [
+        "t = s / v"
+      ],
+      "feedbackCorrect": "Richtig! 30 s!",
+      "feedbackIncorrect": "t = 900 m / 30 m/s = 30 s."
+    },
+    {
+      "id": "ahs-phys-k2-bew-006",
+      "type": "matching",
+      "areaId": "mechanik",
+      "themeId": "bewegung",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die Bewegungsgrößen ihren Einheiten zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Geschwindigkeit",
+            "right": "m/s"
+          },
+          {
+            "left": "Beschleunigung",
+            "right": "m/s²"
+          },
+          {
+            "left": "Weg",
+            "right": "m"
+          },
+          {
+            "left": "Zeit",
+            "right": "s"
+          }
+        ]
+      },
+      "hints": [
+        "Denke an die Formeln"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Geschwindigkeit → m/s, Beschleunigung → m/s², Weg → m, Zeit → s."
+    },
+    {
+      "id": "ahs-phys-k2-bew-007",
+      "type": "sorting",
+      "areaId": "mechanik",
+      "themeId": "bewegung",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Sortiere die folgenden Geschwindigkeiten in die richtige Kategorie.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Langsam (< 10 m/s)",
+            "items": [
+              "Fußgänger (1,5 m/s)",
+              "Radfahrer (5 m/s)"
+            ]
+          },
+          {
+            "label": "Schnell (> 10 m/s)",
+            "items": [
+              "Auto auf Autobahn (36 m/s)",
+              "Schallgeschwindigkeit (343 m/s)"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Vergleiche die Zahlenwerte"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Fußgänger und Radfahrer sind langsam, Auto und Schall sind schnell."
+    },
+    {
+      "id": "ahs-phys-k3-bew-005",
+      "type": "multiple-choice",
+      "areaId": "mechanik",
+      "themeId": "bewegung",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Was beschreibt das s-t-Diagramm einer gleichförmigen Bewegung?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Im s-t-Diagramm ist eine gleichförmige Bewegung:",
+        "options": [
+          "Eine Gerade durch den Ursprung",
+          "Eine Parabel",
+          "Eine Kurve",
+          "Ein horizontaler Strich"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Linearer Zusammenhang"
+      ],
+      "feedbackCorrect": "Richtig! Eine Gerade durch den Ursprung!",
+      "feedbackIncorrect": "Bei gleichförmiger Bewegung ist s = v·t, also eine Gerade."
+    },
+    {
+      "id": "ahs-phys-k3-bew-006",
+      "type": "fill-blank",
+      "areaId": "mechanik",
+      "themeId": "bewegung",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Wandle die Geschwindigkeit um.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "72 km/h entsprechen {{blank}} m/s.",
+        "correctAnswer": "20",
+        "acceptableAnswers": [
+          "20,0"
+        ]
+      },
+      "hints": [
+        "Teile durch 3,6"
+      ],
+      "feedbackCorrect": "Richtig! 20 m/s!",
+      "feedbackIncorrect": "72 km/h ÷ 3,6 = 20 m/s."
+    },
+    {
+      "id": "ahs-phys-k3-bew-007",
+      "type": "multiple-choice",
+      "areaId": "mechanik",
+      "themeId": "bewegung",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Was passiert bei einer negativen Beschleunigung?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Negative Beschleunigung bedeutet:",
+        "options": [
+          "Der Körper wird schneller",
+          "Der Körper wird langsamer",
+          "Der Körper steht still",
+          "Der Körper ändert die Richtung"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Bremsen"
+      ],
+      "feedbackCorrect": "Richtig! Der Körper wird langsamer!",
+      "feedbackIncorrect": "Negative Beschleunigung (Verzögerung) bedeutet Abbremsen."
+    },
+    {
+      "id": "ahs-phys-k2-kraft-002",
+      "type": "multiple-choice",
+      "areaId": "mechanik",
+      "themeId": "kraft",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Welches Gerät misst die Kraft?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Kraft wird gemessen mit:",
+        "options": [
+          "Thermometer",
+          "Federkraftmesser",
+          "Voltmeter",
+          "Waage"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Es hat eine Feder"
+      ],
+      "feedbackCorrect": "Richtig! Federkraftmesser!",
+      "feedbackIncorrect": "Ein Federkraftmesser (Dynamometer) misst die Kraft in Newton."
+    },
+    {
+      "id": "ahs-phys-k2-kraft-002b",
+      "type": "multiple-choice",
+      "areaId": "mechanik",
+      "themeId": "kraft",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Was besagt das 1. Newtonsche Gesetz (Trägheitsgesetz)?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Trägheitsgesetz:",
+        "options": [
+          "Ein Körper bleibt in Ruhe oder gleichförmiger Bewegung, wenn keine Kraft wirkt",
+          "Kraft = Masse × Beschleunigung",
+          "Actio = Reactio",
+          "Energie bleibt erhalten"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Was passiert ohne Kraft?"
+      ],
+      "feedbackCorrect": "Richtig! Ohne Kraft bleibt der Bewegungszustand erhalten!",
+      "feedbackIncorrect": "1. Newtonsches Gesetz: Ohne Kraft bleibt ein Körper in Ruhe oder bewegt sich gleichförmig."
+    },
+    {
+      "id": "ahs-phys-k2-kraft-003",
+      "type": "multiple-choice",
+      "areaId": "mechanik",
+      "themeId": "kraft",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Was besagt das 3. Newtonsche Gesetz?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Actio = Reactio bedeutet:",
+        "options": [
+          "Jede Kraft hat eine gleich große Gegenkraft",
+          "Kraft = Masse × Beschleunigung",
+          "Ohne Kraft keine Bewegungsänderung",
+          "Energie geht nie verloren"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Wechselwirkungsgesetz"
+      ],
+      "feedbackCorrect": "Richtig! Jede Kraft hat eine gleich große Gegenkraft!",
+      "feedbackIncorrect": "Actio = Reactio: Zu jeder Kraft gibt es eine gleich große, entgegengesetzte Kraft."
+    },
+    {
+      "id": "ahs-phys-k3-kraft-002",
+      "type": "fill-blank",
+      "areaId": "mechanik",
+      "themeId": "kraft",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Berechne die Masse.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Eine Kraft von 100 N beschleunigt einen Körper mit 5 m/s². Die Masse beträgt {{blank}} kg.",
+        "correctAnswer": "20",
+        "acceptableAnswers": [
+          "20,0"
+        ]
+      },
+      "hints": [
+        "m = F / a"
+      ],
+      "feedbackCorrect": "Richtig! 20 kg!",
+      "feedbackIncorrect": "m = F / a = 100 N / 5 m/s² = 20 kg."
+    },
+    {
+      "id": "ahs-phys-k3-kraft-003",
+      "type": "fill-blank",
+      "areaId": "mechanik",
+      "themeId": "kraft",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Berechne die Gewichtskraft.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Ein Gegenstand hat eine Masse von 8 kg. Seine Gewichtskraft beträgt {{blank}} N. (g = 10 m/s²)",
+        "correctAnswer": "80",
+        "acceptableAnswers": [
+          "80,0"
+        ]
+      },
+      "hints": [
+        "F_G = m × g"
+      ],
+      "feedbackCorrect": "Richtig! 80 N!",
+      "feedbackIncorrect": "F_G = m × g = 8 kg × 10 m/s² = 80 N."
+    },
+    {
+      "id": "ahs-phys-k3-kraft-004",
+      "type": "fill-blank",
+      "areaId": "mechanik",
+      "themeId": "kraft",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Berechne die Beschleunigung.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Auf einen Körper von 25 kg wirkt eine Kraft von 75 N. Die Beschleunigung beträgt {{blank}} m/s².",
+        "correctAnswer": "3",
+        "acceptableAnswers": [
+          "3,0"
+        ]
+      },
+      "hints": [
+        "a = F / m"
+      ],
+      "feedbackCorrect": "Richtig! 3 m/s²!",
+      "feedbackIncorrect": "a = F / m = 75 N / 25 kg = 3 m/s²."
+    },
+    {
+      "id": "ahs-phys-k2-kraft-004",
+      "type": "matching",
+      "areaId": "mechanik",
+      "themeId": "kraft",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die Newtonschen Gesetze richtig zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "1. Gesetz",
+            "right": "Trägheitsgesetz"
+          },
+          {
+            "left": "2. Gesetz",
+            "right": "F = m × a"
+          },
+          {
+            "left": "3. Gesetz",
+            "right": "Actio = Reactio"
+          }
+        ]
+      },
+      "hints": [
+        "Drei Gesetze von Newton"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "1. Trägheit, 2. F=m·a, 3. Actio=Reactio."
+    },
+    {
+      "id": "ahs-phys-k2-kraft-005",
+      "type": "sorting",
+      "areaId": "mechanik",
+      "themeId": "kraft",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Sortiere die Kräfte in die richtige Kategorie.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Kontaktkräfte",
+            "items": [
+              "Reibungskraft",
+              "Federkraft",
+              "Normalkraft"
+            ]
+          },
+          {
+            "label": "Fernwirkungskräfte",
+            "items": [
+              "Gravitationskraft",
+              "Magnetkraft",
+              "Elektrische Kraft"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Berührung nötig oder nicht?"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Kontaktkräfte brauchen Berührung, Fernwirkungskräfte nicht."
+    },
+    {
+      "id": "ahs-phys-k3-kraft-005",
+      "type": "multiple-choice",
+      "areaId": "mechanik",
+      "themeId": "kraft",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Welche Kraft wirkt auf einen Körper in Ruhe auf einer schiefen Ebene nach unten?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Hangabtriebskraft:",
+        "options": [
+          "F_H = m·g·sin(α)",
+          "F_H = m·g·cos(α)",
+          "F_H = m·g",
+          "F_H = m·a"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Komponente der Gewichtskraft parallel zur Ebene"
+      ],
+      "feedbackCorrect": "Richtig! F_H = m·g·sin(α)!",
+      "feedbackIncorrect": "Die Hangabtriebskraft ist die Komponente der Gewichtskraft entlang der schiefen Ebene: F_H = m·g·sin(α)."
+    },
+    {
+      "id": "ahs-phys-k3-kraft-006",
+      "type": "fill-blank",
+      "areaId": "mechanik",
+      "themeId": "kraft",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Berechne die resultierende Kraft.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Zwei Kräfte wirken in die gleiche Richtung: F₁ = 15 N und F₂ = 25 N. Die resultierende Kraft beträgt {{blank}} N.",
+        "correctAnswer": "40",
+        "acceptableAnswers": [
+          "40,0"
+        ]
+      },
+      "hints": [
+        "Addiere die Kräfte"
+      ],
+      "feedbackCorrect": "Richtig! 40 N!",
+      "feedbackIncorrect": "F_res = F₁ + F₂ = 15 N + 25 N = 40 N."
+    },
+    {
+      "id": "ahs-phys-k2-kraft-006",
+      "type": "multiple-choice",
+      "areaId": "mechanik",
+      "themeId": "kraft",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Wovon hängt die Reibungskraft ab?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Die Reibungskraft hängt ab von:",
+        "options": [
+          "Farbe und Temperatur",
+          "Normalkraft und Oberfläche",
+          "Geschwindigkeit und Masse",
+          "Volumen und Dichte"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Wie stark drückt der Körper und wie rau ist die Fläche?"
+      ],
+      "feedbackCorrect": "Richtig! Normalkraft und Oberfläche!",
+      "feedbackIncorrect": "Die Reibungskraft hängt von der Normalkraft und der Beschaffenheit der Oberfläche ab."
+    },
+    {
+      "id": "ahs-phys-k3-kraft-007",
+      "type": "multiple-choice",
+      "areaId": "mechanik",
+      "themeId": "kraft",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Was passiert mit der Gewichtskraft auf dem Mond?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Auf dem Mond (g ≈ 1,6 m/s²) ist die Gewichtskraft eines 60-kg-Menschen:",
+        "options": [
+          "600 N",
+          "96 N",
+          "60 N",
+          "10 N"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "F = m × g_Mond"
+      ],
+      "feedbackCorrect": "Richtig! 96 N!",
+      "feedbackIncorrect": "F = 60 kg × 1,6 m/s² = 96 N."
+    },
+    {
+      "id": "ahs-phys-k3-arb-001",
+      "type": "multiple-choice",
+      "areaId": "mechanik",
+      "themeId": "arbeit",
+      "level": 3,
+      "difficulty": 1,
+      "instruction": "Was ist die Formel für mechanische Arbeit?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Mechanische Arbeit W:",
+        "options": [
+          "W = m × g",
+          "W = F × s",
+          "W = P × t",
+          "W = ½ × m × v²"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Kraft mal Weg"
+      ],
+      "feedbackCorrect": "Richtig! W = F × s!",
+      "feedbackIncorrect": "Mechanische Arbeit = Kraft × Weg (W = F·s)."
+    },
+    {
+      "id": "ahs-phys-k3-arb-002",
+      "type": "multiple-choice",
+      "areaId": "mechanik",
+      "themeId": "arbeit",
+      "level": 3,
+      "difficulty": 1,
+      "instruction": "Welche Einheit hat die Energie?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Einheit der Energie:",
+        "options": [
+          "Newton",
+          "Watt",
+          "Joule",
+          "Pascal"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Benannt nach einem englischen Physiker"
+      ],
+      "feedbackCorrect": "Richtig! Joule!",
+      "feedbackIncorrect": "Die Einheit der Energie ist Joule (J)."
+    },
+    {
+      "id": "ahs-phys-k3-arb-003",
+      "type": "fill-blank",
+      "areaId": "mechanik",
+      "themeId": "arbeit",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Berechne die mechanische Arbeit.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Eine Kraft von 50 N verschiebt einen Körper um 4 m. Die Arbeit beträgt {{blank}} J.",
+        "correctAnswer": "200",
+        "acceptableAnswers": [
+          "200,0"
+        ]
+      },
+      "hints": [
+        "W = F × s"
+      ],
+      "feedbackCorrect": "Richtig! 200 J!",
+      "feedbackIncorrect": "W = F × s = 50 N × 4 m = 200 J."
+    },
+    {
+      "id": "ahs-phys-k3-arb-004",
+      "type": "fill-blank",
+      "areaId": "mechanik",
+      "themeId": "arbeit",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Berechne die kinetische Energie.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Ein Auto (m = 1000 kg) fährt mit v = 10 m/s. Die kinetische Energie beträgt {{blank}} J.",
+        "correctAnswer": "50000",
+        "acceptableAnswers": [
+          "50.000"
+        ]
+      },
+      "hints": [
+        "E_kin = ½ × m × v²"
+      ],
+      "feedbackCorrect": "Richtig! 50.000 J!",
+      "feedbackIncorrect": "E_kin = ½ × 1000 kg × (10 m/s)² = 50.000 J."
+    },
+    {
+      "id": "ahs-phys-k3-arb-005",
+      "type": "fill-blank",
+      "areaId": "mechanik",
+      "themeId": "arbeit",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Berechne die potenzielle Energie.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Ein Stein (m = 2 kg) liegt auf 15 m Höhe. Die potenzielle Energie beträgt {{blank}} J. (g = 10 m/s²)",
+        "correctAnswer": "300",
+        "acceptableAnswers": [
+          "300,0"
+        ]
+      },
+      "hints": [
+        "E_pot = m × g × h"
+      ],
+      "feedbackCorrect": "Richtig! 300 J!",
+      "feedbackIncorrect": "E_pot = m × g × h = 2 kg × 10 m/s² × 15 m = 300 J."
+    },
+    {
+      "id": "ahs-phys-k3-arb-006",
+      "type": "multiple-choice",
+      "areaId": "mechanik",
+      "themeId": "arbeit",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Was besagt der Energieerhaltungssatz?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Energieerhaltung:",
+        "options": [
+          "Energie kann erzeugt werden",
+          "Energie kann vernichtet werden",
+          "Energie kann nur umgewandelt, nicht erzeugt oder vernichtet werden",
+          "Energie nimmt immer zu"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Energie geht nie verloren"
+      ],
+      "feedbackCorrect": "Richtig! Energie wird nur umgewandelt!",
+      "feedbackIncorrect": "Energie kann nicht erzeugt oder vernichtet werden, nur von einer Form in eine andere umgewandelt."
+    },
+    {
+      "id": "ahs-phys-k4-arb-001",
+      "type": "fill-blank",
+      "areaId": "mechanik",
+      "themeId": "arbeit",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Berechne die Leistung.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Ein Kran hebt eine Last und verrichtet 6000 J Arbeit in 30 s. Die Leistung beträgt {{blank}} W.",
+        "correctAnswer": "200",
+        "acceptableAnswers": [
+          "200,0"
+        ]
+      },
+      "hints": [
+        "P = W / t"
+      ],
+      "feedbackCorrect": "Richtig! 200 W!",
+      "feedbackIncorrect": "P = W / t = 6000 J / 30 s = 200 W."
+    },
+    {
+      "id": "ahs-phys-k4-arb-002",
+      "type": "multiple-choice",
+      "areaId": "mechanik",
+      "themeId": "arbeit",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Welche Einheit hat die Leistung?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Einheit der Leistung:",
+        "options": [
+          "Joule",
+          "Newton",
+          "Watt",
+          "Ampere"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Arbeit pro Zeit"
+      ],
+      "feedbackCorrect": "Richtig! Watt!",
+      "feedbackIncorrect": "Die Einheit der Leistung ist Watt (W) = Joule / Sekunde."
+    },
+    {
+      "id": "ahs-phys-k3-arb-007",
+      "type": "matching",
+      "areaId": "mechanik",
+      "themeId": "arbeit",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Ordne die Energieformen den Beispielen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Kinetische Energie",
+            "right": "Fahrendes Auto"
+          },
+          {
+            "left": "Potenzielle Energie",
+            "right": "Stein auf einem Berg"
+          },
+          {
+            "left": "Thermische Energie",
+            "right": "Heißes Wasser"
+          },
+          {
+            "left": "Elektrische Energie",
+            "right": "Batterie"
+          }
+        ]
+      },
+      "hints": [
+        "Bewegung, Lage, Wärme, Strom"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Kinetisch=Bewegung, Potentiell=Lage, Thermisch=Wärme, Elektrisch=Batterie."
+    },
+    {
+      "id": "ahs-phys-k3-arb-008",
+      "type": "sorting",
+      "areaId": "mechanik",
+      "themeId": "arbeit",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Sortiere die Energieumwandlungen richtig.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Energieumwandlung bei Wasserkraft",
+            "items": [
+              "Potenzielle → Kinetische Energie",
+              "Kinetische → Elektrische Energie"
+            ]
+          },
+          {
+            "label": "Energieumwandlung beim Auto",
+            "items": [
+              "Chemische → Thermische Energie",
+              "Thermische → Kinetische Energie"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Denke an die Umwandlungskette"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Wasserkraft: pot.→kin.→elektr. | Auto: chem.→therm.→kin."
+    },
+    {
+      "id": "ahs-phys-k4-arb-003",
+      "type": "fill-blank",
+      "areaId": "mechanik",
+      "themeId": "arbeit",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Berechne die Hubarbeit.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Ein Aufzug hebt eine Person (70 kg) um 20 m. Die Hubarbeit beträgt {{blank}} J. (g = 10 m/s²)",
+        "correctAnswer": "14000",
+        "acceptableAnswers": [
+          "14.000"
+        ]
+      },
+      "hints": [
+        "W = m × g × h"
+      ],
+      "feedbackCorrect": "Richtig! 14.000 J!",
+      "feedbackIncorrect": "W = m × g × h = 70 kg × 10 m/s² × 20 m = 14.000 J."
+    },
+    {
+      "id": "ahs-phys-k4-arb-004",
+      "type": "fill-blank",
+      "areaId": "mechanik",
+      "themeId": "arbeit",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Berechne die Geschwindigkeit aus der kinetischen Energie.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Ein Körper (m = 8 kg) hat eine kinetische Energie von 100 J. Die Geschwindigkeit beträgt {{blank}} m/s.",
+        "correctAnswer": "5",
+        "acceptableAnswers": [
+          "5,0"
+        ]
+      },
+      "hints": [
+        "v = √(2·E_kin / m)"
+      ],
+      "feedbackCorrect": "Richtig! 5 m/s!",
+      "feedbackIncorrect": "v = √(2 × 100 J / 8 kg) = √25 = 5 m/s."
+    },
+    {
+      "id": "ahs-phys-k4-arb-005",
+      "type": "multiple-choice",
+      "areaId": "mechanik",
+      "themeId": "arbeit",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Was ist der Wirkungsgrad?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Wirkungsgrad η:",
+        "options": [
+          "η = Nutzenergie / zugeführte Energie",
+          "η = zugeführte Energie / Nutzenergie",
+          "η = Kraft × Weg",
+          "η = Leistung × Zeit"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Wie viel der zugeführten Energie wird genutzt?"
+      ],
+      "feedbackCorrect": "Richtig! η = Nutzenergie / zugeführte Energie!",
+      "feedbackIncorrect": "Der Wirkungsgrad gibt an, welcher Anteil der zugeführten Energie in nutzbare Energie umgewandelt wird."
+    },
+    {
+      "id": "ahs-phys-k2-temp-001",
+      "type": "multiple-choice",
+      "areaId": "waerme",
+      "themeId": "temperatur",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Welche Temperaturskala wird in Österreich verwendet?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "In Österreich misst man Temperatur in:",
+        "options": [
+          "Fahrenheit",
+          "Kelvin",
+          "Celsius",
+          "Réaumur"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "°C"
+      ],
+      "feedbackCorrect": "Richtig! Celsius!",
+      "feedbackIncorrect": "In Österreich (und ganz Europa) wird die Celsius-Skala verwendet."
+    },
+    {
+      "id": "ahs-phys-k2-temp-002",
+      "type": "multiple-choice",
+      "areaId": "waerme",
+      "themeId": "temperatur",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Bei welcher Temperatur gefriert Wasser?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Gefrierpunkt von Wasser:",
+        "options": [
+          "−10 °C",
+          "0 °C",
+          "50 °C",
+          "100 °C"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Eis"
+      ],
+      "feedbackCorrect": "Richtig! 0 °C!",
+      "feedbackIncorrect": "Wasser gefriert bei 0 °C (unter Normaldruck)."
+    },
+    {
+      "id": "ahs-phys-k2-temp-003",
+      "type": "multiple-choice",
+      "areaId": "waerme",
+      "themeId": "temperatur",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Bei welcher Temperatur siedet Wasser?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Siedepunkt von Wasser:",
+        "options": [
+          "50 °C",
+          "80 °C",
+          "100 °C",
+          "150 °C"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Kochendes Wasser"
+      ],
+      "feedbackCorrect": "Richtig! 100 °C!",
+      "feedbackIncorrect": "Wasser siedet bei 100 °C (unter Normaldruck)."
+    },
+    {
+      "id": "ahs-phys-k2-temp-004",
+      "type": "fill-blank",
+      "areaId": "waerme",
+      "themeId": "temperatur",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Wandle Celsius in Kelvin um.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "25 °C entsprechen {{blank}} K.",
+        "correctAnswer": "298",
+        "acceptableAnswers": [
+          "298,15"
+        ]
+      },
+      "hints": [
+        "T(K) = T(°C) + 273"
+      ],
+      "feedbackCorrect": "Richtig! 298 K!",
+      "feedbackIncorrect": "T = 25 + 273 = 298 K."
+    },
+    {
+      "id": "ahs-phys-k2-temp-005",
+      "type": "fill-blank",
+      "areaId": "waerme",
+      "themeId": "temperatur",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Wandle Kelvin in Celsius um.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "373 K entsprechen {{blank}} °C.",
+        "correctAnswer": "100",
+        "acceptableAnswers": [
+          "100,0"
+        ]
+      },
+      "hints": [
+        "T(°C) = T(K) − 273"
+      ],
+      "feedbackCorrect": "Richtig! 100 °C!",
+      "feedbackIncorrect": "T = 373 − 273 = 100 °C."
+    },
+    {
+      "id": "ahs-phys-k2-temp-006",
+      "type": "multiple-choice",
+      "areaId": "waerme",
+      "themeId": "temperatur",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Was ist der absolute Nullpunkt?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Der absolute Nullpunkt liegt bei:",
+        "options": [
+          "0 °C",
+          "−100 °C",
+          "−273 °C",
+          "−373 °C"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Kälter geht es nicht"
+      ],
+      "feedbackCorrect": "Richtig! −273 °C (0 K)!",
+      "feedbackIncorrect": "Der absolute Nullpunkt liegt bei −273,15 °C = 0 K."
+    },
+    {
+      "id": "ahs-phys-k2-temp-007",
+      "type": "matching",
+      "areaId": "waerme",
+      "themeId": "temperatur",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die Temperaturen den Zuständen von Wasser zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "−10 °C",
+            "right": "Eis (fest)"
+          },
+          {
+            "left": "20 °C",
+            "right": "Wasser (flüssig)"
+          },
+          {
+            "left": "110 °C",
+            "right": "Dampf (gasförmig)"
+          }
+        ]
+      },
+      "hints": [
+        "Aggregatzustände"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Unter 0 °C: Eis, 0–100 °C: flüssig, über 100 °C: Dampf."
+    },
+    {
+      "id": "ahs-phys-k2-temp-008",
+      "type": "sorting",
+      "areaId": "waerme",
+      "themeId": "temperatur",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Sortiere die Temperaturen in die richtige Kategorie.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Unter Gefrierpunkt",
+            "items": [
+              "−20 °C",
+              "−5 °C"
+            ]
+          },
+          {
+            "label": "Über Gefrierpunkt",
+            "items": [
+              "10 °C",
+              "37 °C"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Gefrierpunkt = 0 °C"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Unter 0 °C: −20 °C, −5 °C. Über 0 °C: 10 °C, 37 °C."
+    },
+    {
+      "id": "ahs-phys-k3-temp-001",
+      "type": "fill-blank",
+      "areaId": "waerme",
+      "themeId": "temperatur",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Berechne die Wärmemenge.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "2 kg Wasser werden um 10 °C erwärmt. Q = {{blank}} J. (c = 4200 J/(kg·°C))",
+        "correctAnswer": "84000",
+        "acceptableAnswers": [
+          "84.000"
+        ]
+      },
+      "hints": [
+        "Q = m × c × ΔT"
+      ],
+      "feedbackCorrect": "Richtig! 84.000 J!",
+      "feedbackIncorrect": "Q = m × c × ΔT = 2 kg × 4200 J/(kg·°C) × 10 °C = 84.000 J."
+    },
+    {
+      "id": "ahs-phys-k3-temp-002",
+      "type": "fill-blank",
+      "areaId": "waerme",
+      "themeId": "temperatur",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Berechne die Temperaturänderung.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "5 kg Wasser erhalten 105.000 J Wärme. Die Temperaturerhöhung beträgt {{blank}} °C. (c = 4200 J/(kg·°C))",
+        "correctAnswer": "5",
+        "acceptableAnswers": [
+          "5,0"
+        ]
+      },
+      "hints": [
+        "ΔT = Q / (m × c)"
+      ],
+      "feedbackCorrect": "Richtig! 5 °C!",
+      "feedbackIncorrect": "ΔT = Q / (m·c) = 105.000 / (5 × 4200) = 5 °C."
+    },
+    {
+      "id": "ahs-phys-k3-temp-003",
+      "type": "multiple-choice",
+      "areaId": "waerme",
+      "themeId": "temperatur",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Was versteht man unter spezifischer Wärmekapazität?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Spezifische Wärmekapazität c:",
+        "options": [
+          "Energie pro Grad und Kilogramm",
+          "Temperatur pro Joule",
+          "Masse pro Grad",
+          "Wärme pro Volumen"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Wie viel Energie braucht 1 kg um 1 °C wärmer zu werden?"
+      ],
+      "feedbackCorrect": "Richtig! Energie pro Grad und Kilogramm!",
+      "feedbackIncorrect": "c gibt an, wie viel Energie nötig ist, um 1 kg eines Stoffes um 1 °C zu erwärmen."
+    },
+    {
+      "id": "ahs-phys-k2-temp-009",
+      "type": "multiple-choice",
+      "areaId": "waerme",
+      "themeId": "temperatur",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Welches Gerät misst die Temperatur?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Temperatur wird gemessen mit:",
+        "options": [
+          "Barometer",
+          "Thermometer",
+          "Hygrometer",
+          "Manometer"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Thermo = Wärme"
+      ],
+      "feedbackCorrect": "Richtig! Thermometer!",
+      "feedbackIncorrect": "Ein Thermometer misst die Temperatur."
+    },
+    {
+      "id": "ahs-phys-k3-temp-004",
+      "type": "multiple-choice",
+      "areaId": "waerme",
+      "themeId": "temperatur",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Welcher Stoff hat die höchste spezifische Wärmekapazität?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Höchste spezifische Wärmekapazität:",
+        "options": [
+          "Eisen",
+          "Kupfer",
+          "Wasser",
+          "Aluminium"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "c_Wasser = 4200 J/(kg·°C)"
+      ],
+      "feedbackCorrect": "Richtig! Wasser!",
+      "feedbackIncorrect": "Wasser hat mit 4200 J/(kg·°C) eine sehr hohe spezifische Wärmekapazität."
+    },
+    {
+      "id": "ahs-phys-k3-waerm-001",
+      "type": "multiple-choice",
+      "areaId": "waerme",
+      "themeId": "waermeleitung",
+      "level": 3,
+      "difficulty": 1,
+      "instruction": "Was ist Wärmeleitung?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Wärmeleitung:",
+        "options": [
+          "Wärmeübertragung durch direkten Kontakt",
+          "Wärmeübertragung durch Strömung",
+          "Wärmeübertragung durch Strahlung",
+          "Wärmeübertragung durch Licht"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Berührung"
+      ],
+      "feedbackCorrect": "Richtig! Durch direkten Kontakt!",
+      "feedbackIncorrect": "Wärmeleitung ist die Wärmeübertragung durch direkten Kontakt von Teilchen."
+    },
+    {
+      "id": "ahs-phys-k3-waerm-002",
+      "type": "multiple-choice",
+      "areaId": "waerme",
+      "themeId": "waermeleitung",
+      "level": 3,
+      "difficulty": 1,
+      "instruction": "Was ist Konvektion?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Konvektion ist:",
+        "options": [
+          "Wärmeübertragung durch Strahlung",
+          "Wärmeübertragung durch Strömung",
+          "Wärmeübertragung durch Leitung",
+          "Wärmeübertragung im Vakuum"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Flüssigkeiten und Gase strömen"
+      ],
+      "feedbackCorrect": "Richtig! Wärmeübertragung durch Strömung!",
+      "feedbackIncorrect": "Konvektion ist Wärmeübertragung durch Strömung in Flüssigkeiten oder Gasen."
+    },
+    {
+      "id": "ahs-phys-k3-waerm-003",
+      "type": "multiple-choice",
+      "areaId": "waerme",
+      "themeId": "waermeleitung",
+      "level": 3,
+      "difficulty": 1,
+      "instruction": "Was ist Wärmestrahlung?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Wärmestrahlung:",
+        "options": [
+          "Braucht ein Medium",
+          "Funktioniert nur in Wasser",
+          "Funktioniert auch im Vakuum",
+          "Braucht direkten Kontakt"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Sonne zur Erde"
+      ],
+      "feedbackCorrect": "Richtig! Funktioniert auch im Vakuum!",
+      "feedbackIncorrect": "Wärmestrahlung überträgt Wärme auch durch das Vakuum (z.B. von der Sonne zur Erde)."
+    },
+    {
+      "id": "ahs-phys-k3-waerm-004",
+      "type": "matching",
+      "areaId": "waerme",
+      "themeId": "waermeleitung",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Ordne die Wärmeübertragungsarten den Beispielen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Wärmeleitung",
+            "right": "Heißer Löffel in der Suppe"
+          },
+          {
+            "left": "Konvektion",
+            "right": "Warmluft steigt auf"
+          },
+          {
+            "left": "Wärmestrahlung",
+            "right": "Sonnenlicht erwärmt die Erde"
+          }
+        ]
+      },
+      "hints": [
+        "Kontakt, Strömung oder Strahlung?"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Leitung = Kontakt, Konvektion = Strömung, Strahlung = elektromagn. Wellen."
+    },
+    {
+      "id": "ahs-phys-k3-waerm-005",
+      "type": "multiple-choice",
+      "areaId": "waerme",
+      "themeId": "waermeleitung",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Welches Material leitet Wärme am besten?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Bester Wärmeleiter:",
+        "options": [
+          "Holz",
+          "Kupfer",
+          "Luft",
+          "Styropor"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Metalle leiten gut"
+      ],
+      "feedbackCorrect": "Richtig! Kupfer!",
+      "feedbackIncorrect": "Kupfer ist ein sehr guter Wärmeleiter (Metalle leiten Wärme gut)."
+    },
+    {
+      "id": "ahs-phys-k3-waerm-006",
+      "type": "sorting",
+      "areaId": "waerme",
+      "themeId": "waermeleitung",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Sortiere die Materialien nach Wärmeleitfähigkeit.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Gute Wärmeleiter",
+            "items": [
+              "Kupfer",
+              "Aluminium",
+              "Eisen"
+            ]
+          },
+          {
+            "label": "Schlechte Wärmeleiter (Isolatoren)",
+            "items": [
+              "Holz",
+              "Styropor",
+              "Luft"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Metalle vs. Nichtmetalle"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Metalle leiten Wärme gut, Holz/Styropor/Luft sind Isolatoren."
+    },
+    {
+      "id": "ahs-phys-k3-waerm-007",
+      "type": "multiple-choice",
+      "areaId": "waerme",
+      "themeId": "waermeleitung",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Warum tragen wir im Winter warme Kleidung?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Warme Kleidung:",
+        "options": [
+          "Erzeugt Wärme",
+          "Verhindert Wärmeabgabe durch Isolation",
+          "Absorbiert Sonnenstrahlung",
+          "Leitet Wärme von außen zum Körper"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Luft in der Kleidung"
+      ],
+      "feedbackCorrect": "Richtig! Isolation verhindert Wärmeabgabe!",
+      "feedbackIncorrect": "Kleidung isoliert durch eingeschlossene Luft und verhindert so den Wärmeverlust."
+    },
+    {
+      "id": "ahs-phys-k3-waerm-008",
+      "type": "multiple-choice",
+      "areaId": "waerme",
+      "themeId": "waermeleitung",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "In welche Richtung fließt Wärme?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Wärme fließt:",
+        "options": [
+          "Von kalt nach warm",
+          "Von warm nach kalt",
+          "In beide Richtungen gleich",
+          "Nur nach oben"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Thermodynamik"
+      ],
+      "feedbackCorrect": "Richtig! Von warm nach kalt!",
+      "feedbackIncorrect": "Wärme fließt immer von Bereichen höherer Temperatur zu niedrigerer Temperatur."
+    },
+    {
+      "id": "ahs-phys-k3-waerm-009",
+      "type": "fill-blank",
+      "areaId": "waerme",
+      "themeId": "waermeleitung",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Ergänze den Fachbegriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die Wärmeübertragung durch Strömung in Flüssigkeiten und Gasen heißt {{blank}}.",
+        "correctAnswer": "Konvektion",
+        "acceptableAnswers": [
+          "konvektion",
+          "Wärmeströmung"
+        ]
+      },
+      "hints": [
+        "Strömung"
+      ],
+      "feedbackCorrect": "Richtig! Konvektion!",
+      "feedbackIncorrect": "Konvektion = Wärmeübertragung durch Strömung."
+    },
+    {
+      "id": "ahs-phys-k3-waerm-010",
+      "type": "multiple-choice",
+      "areaId": "waerme",
+      "themeId": "waermeleitung",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Warum werden Kochtöpfe oft aus Metall, aber mit Kunststoffgriffen hergestellt?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Metalltopf mit Kunststoffgriff:",
+        "options": [
+          "Metall leitet Wärme gut zum Kochen, Kunststoff isoliert den Griff",
+          "Kunststoff ist billiger",
+          "Metall sieht besser aus",
+          "Kunststoff leitet Wärme besser"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Wärmeleitung und Isolation"
+      ],
+      "feedbackCorrect": "Richtig! Metall leitet, Kunststoff isoliert!",
+      "feedbackIncorrect": "Metall leitet die Wärme gut zum Kochen, der Kunststoffgriff schützt die Hand als Isolator."
+    },
+    {
+      "id": "ahs-phys-k3-waerm-011",
+      "type": "matching",
+      "areaId": "waerme",
+      "themeId": "waermeleitung",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Ordne die Phänomene der Wärmeübertragungsart zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Heizung erwärmt ein Zimmer",
+            "right": "Konvektion"
+          },
+          {
+            "left": "Metalllöffel wird heiß",
+            "right": "Wärmeleitung"
+          },
+          {
+            "left": "Wärmelampe im Bad",
+            "right": "Wärmestrahlung"
+          }
+        ]
+      },
+      "hints": [
+        "Strömung, Kontakt oder Strahlung?"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Heizung: Konvektion, Löffel: Leitung, Lampe: Strahlung."
+    },
+    {
+      "id": "ahs-phys-k3-waerm-012",
+      "type": "multiple-choice",
+      "areaId": "waerme",
+      "themeId": "waermeleitung",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Was ist ein Wärmeisolator?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Wärmeisolator:",
+        "options": [
+          "Ein Material, das Wärme gut leitet",
+          "Ein Material, das Wärme schlecht leitet",
+          "Ein Material, das Wärme erzeugt",
+          "Ein Material, das Wärme speichert"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Schlecht leiten = isolieren"
+      ],
+      "feedbackCorrect": "Richtig! Leitet Wärme schlecht!",
+      "feedbackIncorrect": "Ein Wärmeisolator ist ein Material mit geringer Wärmeleitfähigkeit."
+    },
+    {
+      "id": "ahs-phys-k3-waerm-013",
+      "type": "fill-blank",
+      "areaId": "waerme",
+      "themeId": "waermeleitung",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Ergänze den Fachbegriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die Übertragung von Wärme durch elektromagnetische Wellen nennt man {{blank}}.",
+        "correctAnswer": "Wärmestrahlung",
+        "acceptableAnswers": [
+          "wärmestrahlung",
+          "Strahlung",
+          "Infrarotstrahlung"
+        ]
+      },
+      "hints": [
+        "Funktioniert im Vakuum"
+      ],
+      "feedbackCorrect": "Richtig! Wärmestrahlung!",
+      "feedbackIncorrect": "Wärmestrahlung = Wärmeübertragung durch elektromagnetische Wellen (Infrarot)."
+    },
+    {
+      "id": "ahs-phys-k2-strom-002",
+      "type": "multiple-choice",
+      "areaId": "elektrik",
+      "themeId": "strom",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Welche Einheit hat die elektrische Spannung?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Einheit der Spannung:",
+        "options": [
+          "Ampere",
+          "Volt",
+          "Ohm",
+          "Watt"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "V"
+      ],
+      "feedbackCorrect": "Richtig! Volt!",
+      "feedbackIncorrect": "Die Einheit der elektrischen Spannung ist Volt (V)."
+    },
+    {
+      "id": "ahs-phys-k2-strom-003",
+      "type": "multiple-choice",
+      "areaId": "elektrik",
+      "themeId": "strom",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Welche Einheit hat der elektrische Widerstand?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Einheit des Widerstands:",
+        "options": [
+          "Ampere",
+          "Volt",
+          "Ohm",
+          "Watt"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Ω"
+      ],
+      "feedbackCorrect": "Richtig! Ohm!",
+      "feedbackIncorrect": "Die Einheit des elektrischen Widerstands ist Ohm (Ω)."
+    },
+    {
+      "id": "ahs-phys-k2-strom-004",
+      "type": "multiple-choice",
+      "areaId": "elektrik",
+      "themeId": "strom",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Was braucht ein einfacher Stromkreis?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Einfacher Stromkreis:",
+        "options": [
+          "Nur eine Batterie",
+          "Batterie, Leitung und Verbraucher",
+          "Nur einen Schalter",
+          "Nur eine Glühbirne"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Drei Teile mindestens"
+      ],
+      "feedbackCorrect": "Richtig! Batterie, Leitung und Verbraucher!",
+      "feedbackIncorrect": "Ein einfacher Stromkreis braucht eine Spannungsquelle, Leitungen und einen Verbraucher."
+    },
+    {
+      "id": "ahs-phys-k3-strom-002",
+      "type": "fill-blank",
+      "areaId": "elektrik",
+      "themeId": "strom",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Berechne die Stromstärke mit dem Ohmschen Gesetz.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "U = 12 V, R = 4 Ω → I = {{blank}} A.",
+        "correctAnswer": "3",
+        "acceptableAnswers": [
+          "3,0"
+        ]
+      },
+      "hints": [
+        "I = U / R"
+      ],
+      "feedbackCorrect": "Richtig! 3 A!",
+      "feedbackIncorrect": "I = U / R = 12 V / 4 Ω = 3 A."
+    },
+    {
+      "id": "ahs-phys-k3-strom-003",
+      "type": "fill-blank",
+      "areaId": "elektrik",
+      "themeId": "strom",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Berechne den Widerstand.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "U = 230 V, I = 10 A → R = {{blank}} Ω.",
+        "correctAnswer": "23",
+        "acceptableAnswers": [
+          "23,0"
+        ]
+      },
+      "hints": [
+        "R = U / I"
+      ],
+      "feedbackCorrect": "Richtig! 23 Ω!",
+      "feedbackIncorrect": "R = U / I = 230 V / 10 A = 23 Ω."
+    },
+    {
+      "id": "ahs-phys-k3-strom-004",
+      "type": "fill-blank",
+      "areaId": "elektrik",
+      "themeId": "strom",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Berechne die Spannung.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "I = 5 A, R = 20 Ω → U = {{blank}} V.",
+        "correctAnswer": "100",
+        "acceptableAnswers": [
+          "100,0"
+        ]
+      },
+      "hints": [
+        "U = R × I"
+      ],
+      "feedbackCorrect": "Richtig! 100 V!",
+      "feedbackIncorrect": "U = R × I = 20 Ω × 5 A = 100 V."
+    },
+    {
+      "id": "ahs-phys-k2-strom-005",
+      "type": "matching",
+      "areaId": "elektrik",
+      "themeId": "strom",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die elektrischen Größen ihren Einheiten zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Spannung",
+            "right": "Volt (V)"
+          },
+          {
+            "left": "Stromstärke",
+            "right": "Ampere (A)"
+          },
+          {
+            "left": "Widerstand",
+            "right": "Ohm (Ω)"
+          },
+          {
+            "left": "Leistung",
+            "right": "Watt (W)"
+          }
+        ]
+      },
+      "hints": [
+        "U, I, R, P"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Spannung → V, Strom → A, Widerstand → Ω, Leistung → W."
+    },
+    {
+      "id": "ahs-phys-k2-strom-006",
+      "type": "sorting",
+      "areaId": "elektrik",
+      "themeId": "strom",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Sortiere die Materialien in Leiter und Isolatoren.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Leiter",
+            "items": [
+              "Kupfer",
+              "Aluminium",
+              "Eisen"
+            ]
+          },
+          {
+            "label": "Isolatoren",
+            "items": [
+              "Gummi",
+              "Glas",
+              "Kunststoff"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Metalle vs. Nichtmetalle"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Metalle leiten Strom, Gummi/Glas/Kunststoff isolieren."
+    },
+    {
+      "id": "ahs-phys-k3-strom-005",
+      "type": "multiple-choice",
+      "areaId": "elektrik",
+      "themeId": "strom",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Was passiert mit dem Strom in einer Reihenschaltung?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Reihenschaltung – Strom:",
+        "options": [
+          "Strom ist überall gleich",
+          "Strom teilt sich auf",
+          "Strom verdoppelt sich",
+          "Strom verschwindet"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Ein Weg für den Strom"
+      ],
+      "feedbackCorrect": "Richtig! Strom ist überall gleich!",
+      "feedbackIncorrect": "In einer Reihenschaltung fließt überall der gleiche Strom."
+    },
+    {
+      "id": "ahs-phys-k3-strom-006",
+      "type": "multiple-choice",
+      "areaId": "elektrik",
+      "themeId": "strom",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Was passiert mit der Spannung in einer Parallelschaltung?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Parallelschaltung – Spannung:",
+        "options": [
+          "Spannung teilt sich auf",
+          "Spannung verdoppelt sich",
+          "Spannung ist an allen Zweigen gleich",
+          "Spannung ist null"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Gleiche Anschlusspunkte"
+      ],
+      "feedbackCorrect": "Richtig! Spannung ist überall gleich!",
+      "feedbackIncorrect": "In einer Parallelschaltung liegt an jedem Zweig die gleiche Spannung an."
+    },
+    {
+      "id": "ahs-phys-k3-strom-007",
+      "type": "fill-blank",
+      "areaId": "elektrik",
+      "themeId": "strom",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Berechne den Gesamtwiderstand der Reihenschaltung.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "R₁ = 10 Ω, R₂ = 15 Ω, R₃ = 5 Ω in Reihe → R_ges = {{blank}} Ω.",
+        "correctAnswer": "30",
+        "acceptableAnswers": [
+          "30,0"
+        ]
+      },
+      "hints": [
+        "R_ges = R₁ + R₂ + R₃"
+      ],
+      "feedbackCorrect": "Richtig! 30 Ω!",
+      "feedbackIncorrect": "R_ges = R₁ + R₂ + R₃ = 10 + 15 + 5 = 30 Ω."
+    },
+    {
+      "id": "ahs-phys-k3-strom-008",
+      "type": "fill-blank",
+      "areaId": "elektrik",
+      "themeId": "strom",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Berechne die elektrische Energie.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Ein Gerät mit P = 2000 W läuft 3 Stunden. Der Energieverbrauch beträgt {{blank}} kWh.",
+        "correctAnswer": "6",
+        "acceptableAnswers": [
+          "6,0"
+        ]
+      },
+      "hints": [
+        "E = P × t"
+      ],
+      "feedbackCorrect": "Richtig! 6 kWh!",
+      "feedbackIncorrect": "E = P × t = 2 kW × 3 h = 6 kWh."
+    },
+    {
+      "id": "ahs-phys-k2-magnet-002",
+      "type": "multiple-choice",
+      "areaId": "elektrik",
+      "themeId": "magnet",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Welche Materialien sind magnetisch?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Magnetische Materialien:",
+        "options": [
+          "Kupfer und Aluminium",
+          "Eisen, Kobalt und Nickel",
+          "Gold und Silber",
+          "Holz und Glas"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Ferromagnetische Stoffe"
+      ],
+      "feedbackCorrect": "Richtig! Eisen, Kobalt und Nickel!",
+      "feedbackIncorrect": "Ferromagnetische Materialien sind Eisen, Kobalt und Nickel."
+    },
+    {
+      "id": "ahs-phys-k2-magnet-003",
+      "type": "multiple-choice",
+      "areaId": "elektrik",
+      "themeId": "magnet",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Wie viele Pole hat ein Magnet?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Pole eines Magneten:",
+        "options": [
+          "Einen",
+          "Zwei",
+          "Drei",
+          "Vier"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Nord und Süd"
+      ],
+      "feedbackCorrect": "Richtig! Zwei Pole!",
+      "feedbackIncorrect": "Jeder Magnet hat einen Nordpol und einen Südpol."
+    },
+    {
+      "id": "ahs-phys-k2-magnet-004",
+      "type": "multiple-choice",
+      "areaId": "elektrik",
+      "themeId": "magnet",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Was passiert, wenn man einen Magneten zerteilt?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Zerteilen eines Magneten:",
+        "options": [
+          "Ein Pol verschwindet",
+          "Jedes Stück hat wieder zwei Pole",
+          "Die Teile sind nicht mehr magnetisch",
+          "Es entsteht ein Monopol"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Magnete haben immer zwei Pole"
+      ],
+      "feedbackCorrect": "Richtig! Jedes Stück hat wieder Nord- und Südpol!",
+      "feedbackIncorrect": "Magnete lassen sich nicht in Monopole teilen, jedes Stück hat wieder zwei Pole."
+    },
+    {
+      "id": "ahs-phys-k2-magnet-005",
+      "type": "multiple-choice",
+      "areaId": "elektrik",
+      "themeId": "magnet",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Was ist ein Elektromagnet?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Elektromagnet:",
+        "options": [
+          "Ein natürlicher Magnet",
+          "Eine stromdurchflossene Spule mit Eisenkern",
+          "Ein Permanentmagnet",
+          "Ein Kompass"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Strom + Spule + Eisenkern"
+      ],
+      "feedbackCorrect": "Richtig! Stromdurchflossene Spule mit Eisenkern!",
+      "feedbackIncorrect": "Ein Elektromagnet besteht aus einer stromdurchflossenen Spule, oft mit Eisenkern."
+    },
+    {
+      "id": "ahs-phys-k2-magnet-006",
+      "type": "matching",
+      "areaId": "elektrik",
+      "themeId": "magnet",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die Begriffe richtig zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Gleichnamige Pole",
+            "right": "Stoßen sich ab"
+          },
+          {
+            "left": "Ungleichnamige Pole",
+            "right": "Ziehen sich an"
+          },
+          {
+            "left": "Magnetfeld",
+            "right": "Umgibt jeden Magneten"
+          },
+          {
+            "left": "Kompassnadel",
+            "right": "Zeigt nach Norden"
+          }
+        ]
+      },
+      "hints": [
+        "Anziehung und Abstoßung"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Gleiche Pole stoßen ab, verschiedene ziehen an, Feld umgibt Magneten, Kompass zeigt N."
+    },
+    {
+      "id": "ahs-phys-k2-magnet-007",
+      "type": "sorting",
+      "areaId": "elektrik",
+      "themeId": "magnet",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Sortiere die Materialien: magnetisch oder nicht-magnetisch?",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Magnetisch",
+            "items": [
+              "Eisen",
+              "Nickel",
+              "Kobalt"
+            ]
+          },
+          {
+            "label": "Nicht-magnetisch",
+            "items": [
+              "Kupfer",
+              "Aluminium",
+              "Holz"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Ferromagnetisch?"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Eisen, Nickel, Kobalt sind magnetisch. Kupfer, Aluminium, Holz nicht."
+    },
+    {
+      "id": "ahs-phys-k3-magnet-001",
+      "type": "multiple-choice",
+      "areaId": "elektrik",
+      "themeId": "magnet",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Wie kann man ein Magnetfeld sichtbar machen?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Magnetfeld sichtbar machen:",
+        "options": [
+          "Mit einer Lupe",
+          "Mit Eisenfeilspänen",
+          "Mit einem Prisma",
+          "Mit Wasser"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Kleine Eisenteile richten sich aus"
+      ],
+      "feedbackCorrect": "Richtig! Mit Eisenfeilspänen!",
+      "feedbackIncorrect": "Eisenfeilspäne ordnen sich entlang der Feldlinien an und machen das Feld sichtbar."
+    },
+    {
+      "id": "ahs-phys-k3-magnet-002",
+      "type": "multiple-choice",
+      "areaId": "elektrik",
+      "themeId": "magnet",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Wo verlaufen die Feldlinien eines Stabmagneten?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Feldlinien:",
+        "options": [
+          "Von Süd nach Nord (außen)",
+          "Von Nord nach Süd (außen)",
+          "Nur im Inneren",
+          "Es gibt keine Feldlinien"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Außen: N→S, Innen: S→N"
+      ],
+      "feedbackCorrect": "Richtig! Von Nord nach Süd (außen)!",
+      "feedbackIncorrect": "Außerhalb des Magneten verlaufen die Feldlinien vom Nordpol zum Südpol."
+    },
+    {
+      "id": "ahs-phys-k3-magnet-003",
+      "type": "multiple-choice",
+      "areaId": "elektrik",
+      "themeId": "magnet",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Was ist die Rechte-Hand-Regel?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Rechte-Hand-Regel:",
+        "options": [
+          "Bestimmt die Richtung des Magnetfeldes um einen stromdurchflossenen Leiter",
+          "Bestimmt die Reibungskraft",
+          "Bestimmt die Lichtbrechung",
+          "Bestimmt den Widerstand"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Daumen = Stromrichtung"
+      ],
+      "feedbackCorrect": "Richtig! Sie bestimmt die Magnetfeldrichtung um einen Leiter!",
+      "feedbackIncorrect": "Daumen in Stromrichtung → Finger zeigen die Richtung des Magnetfeldes an."
+    },
+    {
+      "id": "ahs-phys-k3-magnet-004",
+      "type": "fill-blank",
+      "areaId": "elektrik",
+      "themeId": "magnet",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Ergänze den Fachbegriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die Erscheinung, dass durch elektrischen Strom ein Magnetfeld erzeugt wird, heißt {{blank}}.",
+        "correctAnswer": "Elektromagnetismus",
+        "acceptableAnswers": [
+          "elektromagnetismus"
+        ]
+      },
+      "hints": [
+        "Strom erzeugt Magnetfeld"
+      ],
+      "feedbackCorrect": "Richtig! Elektromagnetismus!",
+      "feedbackIncorrect": "Elektromagnetismus beschreibt den Zusammenhang zwischen Strom und Magnetfeld."
+    },
+    {
+      "id": "ahs-phys-k3-magnet-005",
+      "type": "multiple-choice",
+      "areaId": "elektrik",
+      "themeId": "magnet",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Wo werden Elektromagnete eingesetzt?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Anwendung von Elektromagneten:",
+        "options": [
+          "Nur in Schulen",
+          "In Lautsprechern, Relais und Elektromotoren",
+          "Nur in Kompassen",
+          "Nur in Kühlschränken"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Technische Geräte"
+      ],
+      "feedbackCorrect": "Richtig! Lautsprecher, Relais, Elektromotoren!",
+      "feedbackIncorrect": "Elektromagnete werden in Lautsprechern, Relais, Motoren und vielen weiteren Geräten eingesetzt."
+    },
+    {
+      "id": "ahs-phys-k3-magnet-006",
+      "type": "multiple-choice",
+      "areaId": "elektrik",
+      "themeId": "magnet",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Was ist elektromagnetische Induktion?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Induktion:",
+        "options": [
+          "Strom erzeugt Licht",
+          "Bewegung im Magnetfeld erzeugt Spannung",
+          "Magnete erzeugen Wärme",
+          "Widerstand erzeugt Spannung"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Faraday"
+      ],
+      "feedbackCorrect": "Richtig! Bewegung im Magnetfeld erzeugt Spannung!",
+      "feedbackIncorrect": "Elektromagnetische Induktion: Eine Änderung des Magnetfeldes erzeugt eine elektrische Spannung."
+    },
+    {
+      "id": "ahs-phys-k3-licht-002",
+      "type": "multiple-choice",
+      "areaId": "optik",
+      "themeId": "licht",
+      "level": 3,
+      "difficulty": 1,
+      "instruction": "Welche Farben hat weißes Licht?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Weißes Licht besteht aus:",
+        "options": [
+          "Nur einer Farbe",
+          "Allen Farben des Spektrums",
+          "Nur Rot und Blau",
+          "Nur Schwarz und Weiß"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Prisma zerlegt weißes Licht"
+      ],
+      "feedbackCorrect": "Richtig! Allen Farben des Spektrums!",
+      "feedbackIncorrect": "Weißes Licht enthält alle Farben des sichtbaren Spektrums."
+    },
+    {
+      "id": "ahs-phys-k3-licht-003",
+      "type": "multiple-choice",
+      "areaId": "optik",
+      "themeId": "licht",
+      "level": 3,
+      "difficulty": 1,
+      "instruction": "Was ist das Reflexionsgesetz?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Reflexionsgesetz:",
+        "options": [
+          "Einfallswinkel = Ausfallswinkel",
+          "Einfallswinkel > Ausfallswinkel",
+          "Einfallswinkel < Ausfallswinkel",
+          "Es gibt kein Gesetz"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Gleichheit der Winkel"
+      ],
+      "feedbackCorrect": "Richtig! Einfallswinkel = Ausfallswinkel!",
+      "feedbackIncorrect": "Das Reflexionsgesetz besagt: Einfallswinkel = Reflexionswinkel (α = α')."
+    },
+    {
+      "id": "ahs-phys-k3-licht-004",
+      "type": "multiple-choice",
+      "areaId": "optik",
+      "themeId": "licht",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Was passiert bei der Brechung von Licht?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Lichtbrechung:",
+        "options": [
+          "Licht wird reflektiert",
+          "Licht ändert seine Richtung beim Übergang zwischen Medien",
+          "Licht wird absorbiert",
+          "Licht wird verstärkt"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Übergang z.B. von Luft in Wasser"
+      ],
+      "feedbackCorrect": "Richtig! Richtungsänderung beim Medienübergang!",
+      "feedbackIncorrect": "Beim Übergang zwischen zwei Medien ändert Licht seine Ausbreitungsrichtung (Brechung)."
+    },
+    {
+      "id": "ahs-phys-k3-licht-005",
+      "type": "fill-blank",
+      "areaId": "optik",
+      "themeId": "licht",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Ergänze den Fachbegriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Licht, das auf einen Spiegel trifft, wird nach dem {{blank}} reflektiert.",
+        "correctAnswer": "Reflexionsgesetz",
+        "acceptableAnswers": [
+          "reflexionsgesetz"
+        ]
+      },
+      "hints": [
+        "Einfallswinkel = Ausfallswinkel"
+      ],
+      "feedbackCorrect": "Richtig! Reflexionsgesetz!",
+      "feedbackIncorrect": "Das Reflexionsgesetz beschreibt die Reflexion: Einfallswinkel = Ausfallswinkel."
+    },
+    {
+      "id": "ahs-phys-k3-licht-006",
+      "type": "matching",
+      "areaId": "optik",
+      "themeId": "licht",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Ordne die optischen Phänomene den Beispielen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Reflexion",
+            "right": "Spiegelbild"
+          },
+          {
+            "left": "Brechung",
+            "right": "Strohhalm im Wasserglas"
+          },
+          {
+            "left": "Absorption",
+            "right": "Schwarzes T-Shirt in der Sonne"
+          },
+          {
+            "left": "Streuung",
+            "right": "Blauer Himmel"
+          }
+        ]
+      },
+      "hints": [
+        "Zurückwerfen, Richtungsänderung, Aufnahme, Verteilung"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Reflexion=Spiegel, Brechung=Strohhalm, Absorption=schwarz, Streuung=Himmel."
+    },
+    {
+      "id": "ahs-phys-k3-licht-007",
+      "type": "sorting",
+      "areaId": "optik",
+      "themeId": "licht",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Sortiere die elektromagnetischen Wellen nach Wellenlänge.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Kurze Wellenlänge",
+            "items": [
+              "Röntgenstrahlung",
+              "Ultraviolett",
+              "Blau"
+            ]
+          },
+          {
+            "label": "Lange Wellenlänge",
+            "items": [
+              "Rot",
+              "Infrarot",
+              "Radiowellen"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Energiereich = kurz"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Kurz: Röntgen, UV, Blau → Lang: Rot, IR, Radio."
+    },
+    {
+      "id": "ahs-phys-k3-licht-008",
+      "type": "multiple-choice",
+      "areaId": "optik",
+      "themeId": "licht",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Mit welcher Geschwindigkeit breitet sich Licht im Vakuum aus?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Lichtgeschwindigkeit:",
+        "options": [
+          "340 m/s",
+          "3000 m/s",
+          "300.000 km/s",
+          "1.000.000 km/s"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "c ≈ 3 × 10⁸ m/s"
+      ],
+      "feedbackCorrect": "Richtig! Etwa 300.000 km/s!",
+      "feedbackIncorrect": "Die Lichtgeschwindigkeit im Vakuum beträgt ca. 300.000 km/s (3 × 10⁸ m/s)."
+    },
+    {
+      "id": "ahs-phys-k4-licht-001",
+      "type": "multiple-choice",
+      "areaId": "optik",
+      "themeId": "licht",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Was ist Totalreflexion?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Totalreflexion tritt auf, wenn:",
+        "options": [
+          "Licht von einem optisch dichteren in ein dünneres Medium übergeht und der Grenzwinkel überschritten wird",
+          "Licht auf einen Spiegel trifft",
+          "Licht absorbiert wird",
+          "Licht gebeugt wird"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Grenzwinkel der Totalreflexion"
+      ],
+      "feedbackCorrect": "Richtig! Beim Übergang dicht→dünn über dem Grenzwinkel!",
+      "feedbackIncorrect": "Totalreflexion: Licht wird vollständig reflektiert, wenn der Einfallswinkel den Grenzwinkel übersteigt."
+    },
+    {
+      "id": "ahs-phys-k4-licht-002",
+      "type": "multiple-choice",
+      "areaId": "optik",
+      "themeId": "licht",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Wo wird Totalreflexion genutzt?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Anwendung der Totalreflexion:",
+        "options": [
+          "Glasfaserkabel",
+          "Glühbirne",
+          "Solarzelle",
+          "Thermometer"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Internet, Datenübertragung"
+      ],
+      "feedbackCorrect": "Richtig! Glasfaserkabel!",
+      "feedbackIncorrect": "In Glasfaserkabeln wird Licht durch Totalreflexion verlustarm transportiert."
+    },
+    {
+      "id": "ahs-phys-k4-licht-003",
+      "type": "fill-blank",
+      "areaId": "optik",
+      "themeId": "licht",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Ergänze die Wellenlänge.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Sichtbares Licht hat Wellenlängen von ca. 380 nm bis {{blank}} nm.",
+        "correctAnswer": "780",
+        "acceptableAnswers": [
+          "750",
+          "760",
+          "770",
+          "780",
+          "700"
+        ]
+      },
+      "hints": [
+        "Rot hat die längste sichtbare Wellenlänge"
+      ],
+      "feedbackCorrect": "Richtig! Etwa 780 nm!",
+      "feedbackIncorrect": "Sichtbares Licht reicht von ca. 380 nm (violett) bis 780 nm (rot)."
+    },
+    {
+      "id": "ahs-phys-k3-licht-009",
+      "type": "multiple-choice",
+      "areaId": "optik",
+      "themeId": "licht",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Was passiert, wenn weißes Licht durch ein Prisma fällt?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Prisma und weißes Licht:",
+        "options": [
+          "Licht wird absorbiert",
+          "Licht wird in Spektralfarben zerlegt",
+          "Licht wird verstärkt",
+          "Licht wird schwächer"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Dispersion"
+      ],
+      "feedbackCorrect": "Richtig! Es wird in Spektralfarben zerlegt!",
+      "feedbackIncorrect": "Ein Prisma zerlegt weißes Licht durch Dispersion in seine Spektralfarben."
+    },
+    {
+      "id": "ahs-phys-k4-licht-004",
+      "type": "multiple-choice",
+      "areaId": "optik",
+      "themeId": "licht",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was ist der Unterschied zwischen Reflexion und Brechung?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Reflexion vs. Brechung:",
+        "options": [
+          "Reflexion: Licht wird zurückgeworfen; Brechung: Licht ändert die Richtung beim Medienübergang",
+          "Es gibt keinen Unterschied",
+          "Reflexion braucht ein Prisma",
+          "Brechung tritt nur im Vakuum auf"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Zurückwerfen vs. Richtungsänderung"
+      ],
+      "feedbackCorrect": "Richtig!",
+      "feedbackIncorrect": "Reflexion: Zurückwerfen an einer Grenzfläche. Brechung: Richtungsänderung beim Übergang in ein anderes Medium."
+    },
+    {
+      "id": "ahs-phys-k4-linse-002",
+      "type": "multiple-choice",
+      "areaId": "optik",
+      "themeId": "linse",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Was macht eine Zerstreuungslinse?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Zerstreuungslinse:",
+        "options": [
+          "Sammelt Licht in einem Punkt",
+          "Streut Lichtstrahlen auseinander",
+          "Reflektiert Licht",
+          "Absorbiert Licht"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Konkav"
+      ],
+      "feedbackCorrect": "Richtig! Streut Lichtstrahlen auseinander!",
+      "feedbackIncorrect": "Eine Zerstreuungslinse (konkav) lenkt Lichtstrahlen so, dass sie auseinanderlaufen."
+    },
+    {
+      "id": "ahs-phys-k4-linse-003",
+      "type": "multiple-choice",
+      "areaId": "optik",
+      "themeId": "linse",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Welche Linse wird bei Kurzsichtigkeit verwendet?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Kurzsichtigkeit:",
+        "options": [
+          "Sammellinse",
+          "Zerstreuungslinse",
+          "Zylinderlinse",
+          "Prisma"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Das Bild entsteht vor der Netzhaut"
+      ],
+      "feedbackCorrect": "Richtig! Zerstreuungslinse!",
+      "feedbackIncorrect": "Bei Kurzsichtigkeit wird eine Zerstreuungslinse (konkav) verwendet, um das Bild auf die Netzhaut zu verschieben."
+    },
+    {
+      "id": "ahs-phys-k4-linse-004",
+      "type": "multiple-choice",
+      "areaId": "optik",
+      "themeId": "linse",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Welche Linse wird bei Weitsichtigkeit verwendet?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Weitsichtigkeit:",
+        "options": [
+          "Zerstreuungslinse",
+          "Sammellinse",
+          "Zylinderlinse",
+          "Prisma"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Das Bild entsteht hinter der Netzhaut"
+      ],
+      "feedbackCorrect": "Richtig! Sammellinse!",
+      "feedbackIncorrect": "Bei Weitsichtigkeit wird eine Sammellinse (konvex) verwendet."
+    },
+    {
+      "id": "ahs-phys-k4-linse-005",
+      "type": "fill-blank",
+      "areaId": "optik",
+      "themeId": "linse",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Berechne die Brechkraft.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Eine Linse hat eine Brennweite von 0,5 m. Die Brechkraft beträgt {{blank}} dpt.",
+        "correctAnswer": "2",
+        "acceptableAnswers": [
+          "2,0"
+        ]
+      },
+      "hints": [
+        "D = 1/f"
+      ],
+      "feedbackCorrect": "Richtig! 2 Dioptrien!",
+      "feedbackIncorrect": "D = 1/f = 1/0,5 m = 2 dpt."
+    },
+    {
+      "id": "ahs-phys-k4-linse-006",
+      "type": "fill-blank",
+      "areaId": "optik",
+      "themeId": "linse",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Berechne die Brennweite.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Eine Linse hat eine Brechkraft von 4 dpt. Die Brennweite beträgt {{blank}} m.",
+        "correctAnswer": "0,25",
+        "acceptableAnswers": [
+          "0.25"
+        ]
+      },
+      "hints": [
+        "f = 1/D"
+      ],
+      "feedbackCorrect": "Richtig! 0,25 m!",
+      "feedbackIncorrect": "f = 1/D = 1/4 dpt = 0,25 m."
+    },
+    {
+      "id": "ahs-phys-k4-linse-007",
+      "type": "matching",
+      "areaId": "optik",
+      "themeId": "linse",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Ordne die Linsentypen den Eigenschaften zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Sammellinse (konvex)",
+            "right": "Bündelt paralleles Licht im Brennpunkt"
+          },
+          {
+            "left": "Zerstreuungslinse (konkav)",
+            "right": "Erzeugt einen virtuellen Brennpunkt"
+          },
+          {
+            "left": "Brennweite f",
+            "right": "Abstand Linse – Brennpunkt"
+          },
+          {
+            "left": "Brechkraft D",
+            "right": "D = 1/f in Dioptrien"
+          }
+        ]
+      },
+      "hints": [
+        "Konvex vs. konkav"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Sammellinse bündelt, Zerstreuungslinse zerstreut, f = Abstand, D = 1/f."
+    },
+    {
+      "id": "ahs-phys-k4-linse-008",
+      "type": "multiple-choice",
+      "areaId": "optik",
+      "themeId": "linse",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Wo wird eine Sammellinse in der Technik eingesetzt?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Sammellinse in der Technik:",
+        "options": [
+          "Lupe und Fotoapparat",
+          "Thermometer",
+          "Voltmeter",
+          "Barometer"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Vergrößerung"
+      ],
+      "feedbackCorrect": "Richtig! Lupe und Fotoapparat!",
+      "feedbackIncorrect": "Sammellinsen werden in Lupen, Fotoapparaten, Projektoren und Mikroskopen eingesetzt."
+    },
+    {
+      "id": "ahs-phys-k4-linse-009",
+      "type": "sorting",
+      "areaId": "optik",
+      "themeId": "linse",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Sortiere die optischen Geräte nach Linsentyp.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Verwendet Sammellinse",
+            "items": [
+              "Lupe",
+              "Fotoapparat",
+              "Mikroskop"
+            ]
+          },
+          {
+            "label": "Verwendet Zerstreuungslinse",
+            "items": [
+              "Brille bei Kurzsichtigkeit",
+              "Türspion"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Konvex vs. konkav"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Lupe/Kamera/Mikroskop: Sammellinse. Kurzsichtigkeitsbrille/Türspion: Zerstreuungslinse."
+    },
+    {
+      "id": "ahs-phys-k4-linse-010",
+      "type": "multiple-choice",
+      "areaId": "optik",
+      "themeId": "linse",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was entsteht, wenn ein Gegenstand weiter als die doppelte Brennweite entfernt ist?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Gegenstand bei g > 2f (Sammellinse):",
+        "options": [
+          "Vergrößertes, aufrechtes Bild",
+          "Verkleinertes, umgekehrtes, reelles Bild",
+          "Gleichgroßes Bild",
+          "Kein Bild"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Linsengleichung"
+      ],
+      "feedbackCorrect": "Richtig! Verkleinertes, umgekehrtes, reelles Bild!",
+      "feedbackIncorrect": "Bei g > 2f entsteht ein verkleinertes, umgekehrtes, reelles Bild zwischen f und 2f."
+    },
+    {
+      "id": "ahs-phys-k4-linse-011",
+      "type": "fill-blank",
+      "areaId": "optik",
+      "themeId": "linse",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Berechne die Bildweite mit der Linsengleichung.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "f = 10 cm, g = 30 cm → b = {{blank}} cm. (1/f = 1/g + 1/b)",
+        "correctAnswer": "15",
+        "acceptableAnswers": [
+          "15,0"
+        ]
+      },
+      "hints": [
+        "1/b = 1/f − 1/g"
+      ],
+      "feedbackCorrect": "Richtig! 15 cm!",
+      "feedbackIncorrect": "1/b = 1/10 − 1/30 = 3/30 − 1/30 = 2/30, also b = 15 cm."
+    },
+    {
+      "id": "ahs-phys-k4-linse-012",
+      "type": "multiple-choice",
+      "areaId": "optik",
+      "themeId": "linse",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Was ist die Einheit der Brechkraft?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Einheit der Brechkraft:",
+        "options": [
+          "Meter",
+          "Joule",
+          "Dioptrie",
+          "Newton"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "dpt"
+      ],
+      "feedbackCorrect": "Richtig! Dioptrie (dpt)!",
+      "feedbackIncorrect": "Die Brechkraft wird in Dioptrien (dpt) angegeben: D = 1/f."
+    },
+    {
+      "id": "ahs-phys-k4-linse-013",
+      "type": "multiple-choice",
+      "areaId": "optik",
+      "themeId": "linse",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was passiert, wenn ein Gegenstand genau im Brennpunkt einer Sammellinse steht?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Gegenstand im Brennpunkt:",
+        "options": [
+          "Ein verkleinertes Bild entsteht",
+          "Ein vergrößertes Bild entsteht",
+          "Parallele Strahlen verlassen die Linse – kein Bild",
+          "Das Licht wird absorbiert"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Brennpunkt → parallele Strahlen"
+      ],
+      "feedbackCorrect": "Richtig! Parallele Strahlen, kein Bild!",
+      "feedbackIncorrect": "Steht der Gegenstand im Brennpunkt, verlaufen die Strahlen danach parallel – es entsteht kein Bild."
+    },
+    {
+      "id": "ahs-phys-k3-schall-001",
+      "type": "multiple-choice",
+      "areaId": "wellen",
+      "themeId": "schall",
+      "level": 3,
+      "difficulty": 1,
+      "instruction": "Was ist die Einheit der Frequenz?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Einheit der Frequenz:",
+        "options": [
+          "Meter",
+          "Hertz",
+          "Newton",
+          "Dezibel"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Hz"
+      ],
+      "feedbackCorrect": "Richtig! Hertz (Hz)!",
+      "feedbackIncorrect": "Die Einheit der Frequenz ist Hertz (Hz) = 1/s."
+    },
+    {
+      "id": "ahs-phys-k3-schall-002",
+      "type": "multiple-choice",
+      "areaId": "wellen",
+      "themeId": "schall",
+      "level": 3,
+      "difficulty": 1,
+      "instruction": "Wie schnell ist Schall in Luft (ungefähr)?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Schallgeschwindigkeit in Luft:",
+        "options": [
+          "34 m/s",
+          "340 m/s",
+          "3400 m/s",
+          "300.000 km/s"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Etwa ein Drittel km/s"
+      ],
+      "feedbackCorrect": "Richtig! Etwa 340 m/s!",
+      "feedbackIncorrect": "Schallgeschwindigkeit in Luft bei 20 °C beträgt ca. 343 m/s."
+    },
+    {
+      "id": "ahs-phys-k3-schall-003",
+      "type": "multiple-choice",
+      "areaId": "wellen",
+      "themeId": "schall",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Kann Schall sich im Vakuum ausbreiten?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Schall im Vakuum:",
+        "options": [
+          "Ja, gut",
+          "Ja, aber langsamer",
+          "Nein, Schall braucht ein Medium",
+          "Nur bei hoher Frequenz"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Mechanische Welle"
+      ],
+      "feedbackCorrect": "Richtig! Nein, Schall braucht ein Medium!",
+      "feedbackIncorrect": "Schall ist eine mechanische Welle und braucht ein Medium (Luft, Wasser, Festkörper)."
+    },
+    {
+      "id": "ahs-phys-k3-schall-004",
+      "type": "fill-blank",
+      "areaId": "wellen",
+      "themeId": "schall",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Berechne die Wellenlänge.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "f = 680 Hz, v = 340 m/s → λ = {{blank}} m.",
+        "correctAnswer": "0,5",
+        "acceptableAnswers": [
+          "0.5",
+          "0,50"
+        ]
+      },
+      "hints": [
+        "λ = v / f"
+      ],
+      "feedbackCorrect": "Richtig! 0,5 m!",
+      "feedbackIncorrect": "λ = v / f = 340 m/s / 680 Hz = 0,5 m."
+    },
+    {
+      "id": "ahs-phys-k3-schall-005",
+      "type": "fill-blank",
+      "areaId": "wellen",
+      "themeId": "schall",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Berechne die Frequenz.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "v = 340 m/s, λ = 2 m → f = {{blank}} Hz.",
+        "correctAnswer": "170",
+        "acceptableAnswers": [
+          "170,0"
+        ]
+      },
+      "hints": [
+        "f = v / λ"
+      ],
+      "feedbackCorrect": "Richtig! 170 Hz!",
+      "feedbackIncorrect": "f = v / λ = 340 m/s / 2 m = 170 Hz."
+    },
+    {
+      "id": "ahs-phys-k3-schall-006",
+      "type": "matching",
+      "areaId": "wellen",
+      "themeId": "schall",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Ordne die Begriffe richtig zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Frequenz",
+            "right": "Tonhöhe"
+          },
+          {
+            "left": "Amplitude",
+            "right": "Lautstärke"
+          },
+          {
+            "left": "Wellenlänge",
+            "right": "Abstand zwischen zwei Wellenbergen"
+          }
+        ]
+      },
+      "hints": [
+        "Was bestimmt Höhe, was Lautstärke?"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Frequenz→Tonhöhe, Amplitude→Lautstärke, Wellenlänge→Abstand."
+    },
+    {
+      "id": "ahs-phys-k3-schall-007",
+      "type": "sorting",
+      "areaId": "wellen",
+      "themeId": "schall",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Sortiere die Frequenzbereiche.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Infraschall (< 20 Hz)",
+            "items": [
+              "Erdbeben (0,1 Hz)",
+              "Elefanten-Kommunikation (15 Hz)"
+            ]
+          },
+          {
+            "label": "Hörbarer Schall (20 Hz – 20 kHz)",
+            "items": [
+              "Menschliche Stimme (300 Hz)",
+              "Violine (1000 Hz)"
+            ]
+          },
+          {
+            "label": "Ultraschall (> 20 kHz)",
+            "items": [
+              "Fledermaus (50 kHz)",
+              "Medizinisches Ultraschall (5 MHz)"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Unter 20 Hz, 20–20.000 Hz, über 20.000 Hz"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Infraschall < 20 Hz, hörbarer Bereich 20–20.000 Hz, Ultraschall > 20.000 Hz."
+    },
+    {
+      "id": "ahs-phys-k3-schall-008",
+      "type": "multiple-choice",
+      "areaId": "wellen",
+      "themeId": "schall",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Was bestimmt die Tonhöhe?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Tonhöhe wird bestimmt durch:",
+        "options": [
+          "Amplitude",
+          "Frequenz",
+          "Wellenlänge",
+          "Geschwindigkeit"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Schwingungen pro Sekunde"
+      ],
+      "feedbackCorrect": "Richtig! Die Frequenz!",
+      "feedbackIncorrect": "Die Tonhöhe wird durch die Frequenz bestimmt: hohe Frequenz = hoher Ton."
+    },
+    {
+      "id": "ahs-phys-k4-schall-002",
+      "type": "multiple-choice",
+      "areaId": "wellen",
+      "themeId": "schall",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "In welchem Medium ist Schall am schnellsten?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Schall ist am schnellsten in:",
+        "options": [
+          "Luft",
+          "Wasser",
+          "Stahl",
+          "Vakuum"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Festkörper > Flüssigkeit > Gas"
+      ],
+      "feedbackCorrect": "Richtig! In Stahl (Festkörpern)!",
+      "feedbackIncorrect": "Schall breitet sich in Festkörpern am schnellsten aus (Stahl: ca. 5000 m/s)."
+    },
+    {
+      "id": "ahs-phys-k4-schall-003",
+      "type": "fill-blank",
+      "areaId": "wellen",
+      "themeId": "schall",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Berechne die Entfernung eines Gewitters.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Zwischen Blitz und Donner vergehen 6 s. Das Gewitter ist {{blank}} km entfernt. (v = 340 m/s)",
+        "correctAnswer": "2,04",
+        "acceptableAnswers": [
+          "2,0",
+          "2",
+          "2.04",
+          "2.0"
+        ]
+      },
+      "hints": [
+        "s = v × t, dann in km"
+      ],
+      "feedbackCorrect": "Richtig! Etwa 2 km!",
+      "feedbackIncorrect": "s = 340 m/s × 6 s = 2040 m ≈ 2,04 km."
+    },
+    {
+      "id": "ahs-phys-k4-schall-004",
+      "type": "multiple-choice",
+      "areaId": "wellen",
+      "themeId": "schall",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Was ist ein Echo?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Echo:",
+        "options": [
+          "Schallabsorption",
+          "Schallreflexion an einer Wand oder Fläche",
+          "Schallbrechung",
+          "Schallbeugung"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Schall prallt zurück"
+      ],
+      "feedbackCorrect": "Richtig! Schallreflexion!",
+      "feedbackIncorrect": "Ein Echo entsteht durch Reflexion von Schallwellen an einer Fläche."
+    },
+    {
+      "id": "ahs-phys-k4-schall-005",
+      "type": "fill-blank",
+      "areaId": "wellen",
+      "themeId": "schall",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Berechne die Mindestentfernung für ein Echo.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Ein Echo ist hörbar, wenn der Schall nach mind. 0,1 s zurückkehrt. Die Wand muss mindestens {{blank}} m entfernt sein. (v = 340 m/s)",
+        "correctAnswer": "17",
+        "acceptableAnswers": [
+          "17,0"
+        ]
+      },
+      "hints": [
+        "Hin- und Rückweg: s = v × t / 2"
+      ],
+      "feedbackCorrect": "Richtig! 17 m!",
+      "feedbackIncorrect": "s = v × t / 2 = 340 m/s × 0,1 s / 2 = 17 m."
+    },
+    {
+      "id": "ahs-phys-k4-schall-006",
+      "type": "multiple-choice",
+      "areaId": "wellen",
+      "themeId": "schall",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was ist der Dopplereffekt?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Dopplereffekt:",
+        "options": [
+          "Schall wird lauter",
+          "Die wahrgenommene Frequenz ändert sich bei Relativbewegung von Quelle und Beobachter",
+          "Schall wird im Vakuum schneller",
+          "Schall wird reflektiert"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Annäherndes Fahrzeug klingt höher"
+      ],
+      "feedbackCorrect": "Richtig! Frequenzänderung bei Relativbewegung!",
+      "feedbackIncorrect": "Beim Dopplereffekt verändert sich die wahrgenommene Frequenz bei Bewegung zwischen Quelle und Empfänger."
     }
   ]
 }

@@ -249,6 +249,2984 @@
       ],
       "feedbackCorrect": "Richtig! Säure + Base = Salz + Wasser!",
       "feedbackIncorrect": "Bei Neutralisation entsteht Salz und Wasser."
+    },
+    {
+      "id": "ahs-chem-k4-stoff-002",
+      "type": "multiple-choice",
+      "areaId": "stoffe",
+      "themeId": "eigenschaften",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Welcher Aggregatzustand hat Wasser bei Raumtemperatur?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Wasser bei 20 °C ist:",
+        "options": [
+          "fest",
+          "flüssig",
+          "gasförmig",
+          "überkritisch"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Denke an normales Trinkwasser."
+      ],
+      "feedbackCorrect": "Richtig! Wasser ist bei Raumtemperatur flüssig.",
+      "feedbackIncorrect": "Bei Raumtemperatur liegt Wasser im flüssigen Zustand vor."
+    },
+    {
+      "id": "ahs-chem-k4-stoff-003",
+      "type": "multiple-choice",
+      "areaId": "stoffe",
+      "themeId": "eigenschaften",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Welcher Vorgang beschreibt den Übergang von fest zu flüssig?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Fest → flüssig heißt:",
+        "options": [
+          "Verdampfen",
+          "Schmelzen",
+          "Sublimieren",
+          "Kondensieren"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Eis in der Sonne."
+      ],
+      "feedbackCorrect": "Richtig! Schmelzen!",
+      "feedbackIncorrect": "Der Übergang von fest zu flüssig heißt Schmelzen."
+    },
+    {
+      "id": "ahs-chem-k4-stoff-004",
+      "type": "multiple-choice",
+      "areaId": "stoffe",
+      "themeId": "eigenschaften",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Wie nennt man den Übergang von flüssig zu gasförmig?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Flüssig → gasförmig:",
+        "options": [
+          "Kondensieren",
+          "Erstarren",
+          "Verdampfen",
+          "Sublimieren"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Wasser im Kochtopf."
+      ],
+      "feedbackCorrect": "Richtig! Verdampfen!",
+      "feedbackIncorrect": "Der Übergang von flüssig zu gasförmig heißt Verdampfen."
+    },
+    {
+      "id": "ahs-chem-k4-stoff-005",
+      "type": "multiple-choice",
+      "areaId": "stoffe",
+      "themeId": "eigenschaften",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Was ist Sublimation?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Sublimation ist der Übergang von:",
+        "options": [
+          "flüssig zu gasförmig",
+          "fest zu gasförmig",
+          "gasförmig zu fest",
+          "fest zu flüssig"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Trockeneis verschwindet ohne Pfütze."
+      ],
+      "feedbackCorrect": "Richtig! Fest direkt zu gasförmig!",
+      "feedbackIncorrect": "Sublimation ist der direkte Übergang von fest zu gasförmig."
+    },
+    {
+      "id": "ahs-chem-k4-stoff-006",
+      "type": "multiple-choice",
+      "areaId": "stoffe",
+      "themeId": "eigenschaften",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Was ist eine homogene Mischung?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Homogene Mischung:",
+        "options": [
+          "Bestandteile sind sichtbar getrennt",
+          "Bestandteile sind gleichmäßig verteilt",
+          "Nur Feststoffe",
+          "Nur Gase"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Salzwasser sieht einheitlich aus."
+      ],
+      "feedbackCorrect": "Richtig! Die Bestandteile sind gleichmäßig verteilt.",
+      "feedbackIncorrect": "In einer homogenen Mischung sind die Bestandteile gleichmäßig verteilt und nicht unterscheidbar."
+    },
+    {
+      "id": "ahs-chem-k4-stoff-007",
+      "type": "fill-blank",
+      "areaId": "stoffe",
+      "themeId": "eigenschaften",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Ergänze den fehlenden Aggregatzustand.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die drei Aggregatzustände sind fest, flüssig und {{blank}}.",
+        "correctAnswer": "gasförmig",
+        "acceptableAnswers": [
+          "Gasförmig",
+          "gasfoermig"
+        ]
+      },
+      "hints": [
+        "Der dritte Zustand – denke an Dampf."
+      ],
+      "feedbackCorrect": "Richtig! Gasförmig!",
+      "feedbackIncorrect": "Die drei Aggregatzustände sind fest, flüssig und gasförmig."
+    },
+    {
+      "id": "ahs-chem-k4-stoff-008",
+      "type": "fill-blank",
+      "areaId": "stoffe",
+      "themeId": "eigenschaften",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Wie heißt der Übergang von gasförmig zu flüssig?",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Der Übergang von gasförmig zu flüssig heißt {{blank}}.",
+        "correctAnswer": "Kondensieren",
+        "acceptableAnswers": [
+          "kondensieren",
+          "Kondensation",
+          "kondensation"
+        ]
+      },
+      "hints": [
+        "Wassertropfen am Fenster im Winter."
+      ],
+      "feedbackCorrect": "Richtig! Kondensieren!",
+      "feedbackIncorrect": "Der Übergang von gasförmig zu flüssig heißt Kondensieren."
+    },
+    {
+      "id": "ahs-chem-k4-stoff-009",
+      "type": "fill-blank",
+      "areaId": "stoffe",
+      "themeId": "eigenschaften",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Wie heißt der Übergang von gasförmig direkt zu fest?",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Der direkte Übergang von gasförmig zu fest heißt {{blank}}.",
+        "correctAnswer": "Resublimieren",
+        "acceptableAnswers": [
+          "resublimieren",
+          "Resublimation",
+          "resublimation",
+          "Deposition"
+        ]
+      },
+      "hints": [
+        "Das Gegenteil von Sublimieren."
+      ],
+      "feedbackCorrect": "Richtig! Resublimieren!",
+      "feedbackIncorrect": "Der direkte Übergang von gasförmig zu fest heißt Resublimieren (Resublimation)."
+    },
+    {
+      "id": "ahs-chem-k4-stoff-010",
+      "type": "matching",
+      "areaId": "stoffe",
+      "themeId": "eigenschaften",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Ordne die Phasenübergänge den richtigen Bezeichnungen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "fest → flüssig",
+            "right": "Schmelzen"
+          },
+          {
+            "left": "flüssig → gasförmig",
+            "right": "Verdampfen"
+          },
+          {
+            "left": "gasförmig → flüssig",
+            "right": "Kondensieren"
+          },
+          {
+            "left": "flüssig → fest",
+            "right": "Erstarren"
+          }
+        ]
+      },
+      "hints": [
+        "Denke an Alltagsbeispiele für jeden Übergang."
+      ],
+      "feedbackCorrect": "Richtig! Alle Phasenübergänge korrekt zugeordnet!",
+      "feedbackIncorrect": "Schmelzen (fest→flüssig), Verdampfen (flüssig→gasförmig), Kondensieren (gasförmig→flüssig), Erstarren (flüssig→fest)."
+    },
+    {
+      "id": "ahs-chem-k4-stoff-011",
+      "type": "sorting",
+      "areaId": "stoffe",
+      "themeId": "eigenschaften",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Ordne die Stoffe dem richtigen Aggregatzustand bei Raumtemperatur zu.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "fest",
+            "items": [
+              "Eisen",
+              "Zucker",
+              "Kochsalz"
+            ]
+          },
+          {
+            "label": "flüssig",
+            "items": [
+              "Wasser",
+              "Ethanol",
+              "Quecksilber"
+            ]
+          },
+          {
+            "label": "gasförmig",
+            "items": [
+              "Sauerstoff",
+              "Stickstoff",
+              "Helium"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Denke an den Zustand bei ca. 20 °C."
+      ],
+      "feedbackCorrect": "Richtig! Alle Stoffe korrekt zugeordnet!",
+      "feedbackIncorrect": "Eisen, Zucker und Kochsalz sind fest; Wasser, Ethanol und Quecksilber flüssig; Sauerstoff, Stickstoff und Helium gasförmig."
+    },
+    {
+      "id": "ahs-chem-k4-stoff-012",
+      "type": "sorting",
+      "areaId": "stoffe",
+      "themeId": "eigenschaften",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Ordne die Beispiele den Mischungsarten zu.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "homogene Mischung",
+            "items": [
+              "Salzwasser",
+              "Luft",
+              "Legierung"
+            ]
+          },
+          {
+            "label": "heterogene Mischung",
+            "items": [
+              "Granit",
+              "Milch",
+              "Schlamm"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Homogen = einheitlich, heterogen = uneinheitlich."
+      ],
+      "feedbackCorrect": "Richtig! Alle korrekt zugeordnet!",
+      "feedbackIncorrect": "Homogene Mischungen (gleichmäßig): Salzwasser, Luft, Legierung. Heterogene Mischungen (uneinheitlich): Granit, Milch, Schlamm."
+    },
+    {
+      "id": "ahs-chem-k4-stoff-013",
+      "type": "multiple-choice",
+      "areaId": "stoffe",
+      "themeId": "eigenschaften",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Was ist eine Suspension?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Suspension:",
+        "options": [
+          "Gas in Flüssigkeit",
+          "Feststoff in Flüssigkeit",
+          "Flüssigkeit in Gas",
+          "Gas in Feststoff"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Denke an aufgewirbelten Sand im Wasser."
+      ],
+      "feedbackCorrect": "Richtig! Feststoff in Flüssigkeit!",
+      "feedbackIncorrect": "Eine Suspension ist ein Gemisch aus einem Feststoff und einer Flüssigkeit."
+    },
+    {
+      "id": "ahs-chem-k4-stoff-014",
+      "type": "multiple-choice",
+      "areaId": "stoffe",
+      "themeId": "eigenschaften",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Was ist eine Emulsion?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Emulsion:",
+        "options": [
+          "Feststoff in Flüssigkeit",
+          "Gas in Flüssigkeit",
+          "Flüssigkeit in Flüssigkeit",
+          "Feststoff in Gas"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Öl und Wasser mit Emulgator."
+      ],
+      "feedbackCorrect": "Richtig! Flüssigkeit in Flüssigkeit!",
+      "feedbackIncorrect": "Eine Emulsion ist ein Gemisch aus zwei nicht mischbaren Flüssigkeiten, z. B. Milch."
+    },
+    {
+      "id": "ahs-chem-k4-stoff-015",
+      "type": "multiple-choice",
+      "areaId": "stoffe",
+      "themeId": "eigenschaften",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Welches Trennverfahren nutzt unterschiedliche Siedepunkte?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Trennung nach Siedepunkt:",
+        "options": [
+          "Filtration",
+          "Destillation",
+          "Chromatographie",
+          "Sedimentation"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Alkohol und Wasser trennen."
+      ],
+      "feedbackCorrect": "Richtig! Destillation!",
+      "feedbackIncorrect": "Bei der Destillation werden Gemische anhand unterschiedlicher Siedepunkte getrennt."
+    },
+    {
+      "id": "ahs-chem-k4-stoff-016",
+      "type": "matching",
+      "areaId": "stoffe",
+      "themeId": "eigenschaften",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Ordne die Trennverfahren den genutzten Stoffeigenschaften zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Filtration",
+            "right": "Teilchengröße"
+          },
+          {
+            "left": "Destillation",
+            "right": "Siedepunkt"
+          },
+          {
+            "left": "Magnetscheidung",
+            "right": "Magnetisierbarkeit"
+          },
+          {
+            "left": "Eindampfen",
+            "right": "Flüchtigkeit"
+          }
+        ]
+      },
+      "hints": [
+        "Welche Eigenschaft wird jeweils ausgenutzt?"
+      ],
+      "feedbackCorrect": "Richtig! Alle Trennverfahren korrekt zugeordnet!",
+      "feedbackIncorrect": "Filtration nutzt Teilchengröße, Destillation den Siedepunkt, Magnetscheidung die Magnetisierbarkeit, Eindampfen die Flüchtigkeit."
+    },
+    {
+      "id": "ahs-chem-k4-stoff-017",
+      "type": "fill-blank",
+      "areaId": "stoffe",
+      "themeId": "eigenschaften",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Ergänze den fehlenden Begriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Stoffe, die aus nur einer Sorte von Atomen bestehen, heißen {{blank}}.",
+        "correctAnswer": "Elemente",
+        "acceptableAnswers": [
+          "elemente",
+          "Element",
+          "element",
+          "Reinelemente"
+        ]
+      },
+      "hints": [
+        "Gold besteht nur aus Goldatomen."
+      ],
+      "feedbackCorrect": "Richtig! Elemente!",
+      "feedbackIncorrect": "Stoffe, die aus nur einer Atomsorte bestehen, nennt man Elemente."
+    },
+    {
+      "id": "ahs-chem-k4-atom-003",
+      "type": "multiple-choice",
+      "areaId": "atombau",
+      "themeId": "atome",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Welche Ladung hat ein Proton?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Ladung eines Protons:",
+        "options": [
+          "negativ",
+          "positiv",
+          "neutral",
+          "variabel"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Gegenteil eines Elektrons."
+      ],
+      "feedbackCorrect": "Richtig! Positiv!",
+      "feedbackIncorrect": "Protonen tragen eine positive Ladung (+1)."
+    },
+    {
+      "id": "ahs-chem-k4-atom-004",
+      "type": "multiple-choice",
+      "areaId": "atombau",
+      "themeId": "atome",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Welche Ladung hat ein Elektron?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Ladung eines Elektrons:",
+        "options": [
+          "positiv",
+          "neutral",
+          "negativ",
+          "doppelt positiv"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Gegenteil eines Protons."
+      ],
+      "feedbackCorrect": "Richtig! Negativ!",
+      "feedbackIncorrect": "Elektronen tragen eine negative Ladung (−1)."
+    },
+    {
+      "id": "ahs-chem-k4-atom-005",
+      "type": "multiple-choice",
+      "areaId": "atombau",
+      "themeId": "atome",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Wo befinden sich die Elektronen im Atom?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Elektronen befinden sich:",
+        "options": [
+          "im Kern",
+          "in der Elektronenhülle",
+          "zwischen den Atomen",
+          "im Neutron"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Sie kreisen um den Kern."
+      ],
+      "feedbackCorrect": "Richtig! In der Elektronenhülle!",
+      "feedbackIncorrect": "Elektronen bewegen sich in der Elektronenhülle um den Atomkern."
+    },
+    {
+      "id": "ahs-chem-k4-atom-006",
+      "type": "multiple-choice",
+      "areaId": "atombau",
+      "themeId": "atome",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Wie viele Elektronen passen maximal auf die erste Schale?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Maximale Elektronenzahl 1. Schale:",
+        "options": [
+          "1",
+          "2",
+          "8",
+          "18"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "2n², wobei n = 1."
+      ],
+      "feedbackCorrect": "Richtig! 2 Elektronen!",
+      "feedbackIncorrect": "Auf die erste Schale (K-Schale) passen maximal 2 Elektronen."
+    },
+    {
+      "id": "ahs-chem-k4-atom-007",
+      "type": "multiple-choice",
+      "areaId": "atombau",
+      "themeId": "atome",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Wie viele Elektronen passen maximal auf die zweite Schale?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Maximale Elektronenzahl 2. Schale:",
+        "options": [
+          "2",
+          "6",
+          "8",
+          "18"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "2n², wobei n = 2."
+      ],
+      "feedbackCorrect": "Richtig! 8 Elektronen!",
+      "feedbackIncorrect": "Auf die zweite Schale (L-Schale) passen maximal 8 Elektronen."
+    },
+    {
+      "id": "ahs-chem-k4-atom-008",
+      "type": "fill-blank",
+      "areaId": "atombau",
+      "themeId": "atome",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Ergänze das fehlende Teilchen.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Der Atomkern besteht aus Protonen und {{blank}}.",
+        "correctAnswer": "Neutronen",
+        "acceptableAnswers": [
+          "neutronen",
+          "Neutron",
+          "neutron"
+        ]
+      },
+      "hints": [
+        "Elektrisch neutral im Kern."
+      ],
+      "feedbackCorrect": "Richtig! Neutronen!",
+      "feedbackIncorrect": "Der Atomkern besteht aus Protonen und Neutronen."
+    },
+    {
+      "id": "ahs-chem-k4-atom-009",
+      "type": "fill-blank",
+      "areaId": "atombau",
+      "themeId": "atome",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Wie heißt die Massenzahl?",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die Summe aus Protonen und Neutronen ergibt die {{blank}}.",
+        "correctAnswer": "Massenzahl",
+        "acceptableAnswers": [
+          "massenzahl",
+          "Nukleonenzahl",
+          "nukleonenzahl"
+        ]
+      },
+      "hints": [
+        "Sie steht im Periodensystem oben am Element."
+      ],
+      "feedbackCorrect": "Richtig! Die Massenzahl!",
+      "feedbackIncorrect": "Die Massenzahl ist die Summe aus Protonen und Neutronen im Kern."
+    },
+    {
+      "id": "ahs-chem-k4-atom-010",
+      "type": "fill-blank",
+      "areaId": "atombau",
+      "themeId": "atome",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Wie heißen Atome desselben Elements mit unterschiedlicher Neutronenzahl?",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Atome desselben Elements mit unterschiedlicher Neutronenzahl nennt man {{blank}}.",
+        "correctAnswer": "Isotope",
+        "acceptableAnswers": [
+          "isotope",
+          "Isotop",
+          "isotop"
+        ]
+      },
+      "hints": [
+        "Kohlenstoff-12 und Kohlenstoff-14 sind Beispiele."
+      ],
+      "feedbackCorrect": "Richtig! Isotope!",
+      "feedbackIncorrect": "Isotope sind Atome desselben Elements mit gleicher Protonenzahl, aber unterschiedlicher Neutronenzahl."
+    },
+    {
+      "id": "ahs-chem-k4-atom-011",
+      "type": "matching",
+      "areaId": "atombau",
+      "themeId": "atome",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Ordne die Elementarteilchen ihren Eigenschaften zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Proton",
+            "right": "positiv geladen, im Kern"
+          },
+          {
+            "left": "Neutron",
+            "right": "neutral, im Kern"
+          },
+          {
+            "left": "Elektron",
+            "right": "negativ geladen, in der Hülle"
+          }
+        ]
+      },
+      "hints": [
+        "Drei Teilchen, drei verschiedene Eigenschaften."
+      ],
+      "feedbackCorrect": "Richtig! Alle Teilchen korrekt zugeordnet!",
+      "feedbackIncorrect": "Proton: positiv, im Kern. Neutron: neutral, im Kern. Elektron: negativ, in der Hülle."
+    },
+    {
+      "id": "ahs-chem-k4-atom-012",
+      "type": "matching",
+      "areaId": "atombau",
+      "themeId": "atome",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Ordne die Elektronenschalen ihrer maximalen Elektronenzahl zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "K-Schale (n=1)",
+            "right": "2"
+          },
+          {
+            "left": "L-Schale (n=2)",
+            "right": "8"
+          },
+          {
+            "left": "M-Schale (n=3)",
+            "right": "18"
+          }
+        ]
+      },
+      "hints": [
+        "Formel: 2n²."
+      ],
+      "feedbackCorrect": "Richtig! Alle Schalen korrekt zugeordnet!",
+      "feedbackIncorrect": "K-Schale: max. 2, L-Schale: max. 8, M-Schale: max. 18 Elektronen (2n²)."
+    },
+    {
+      "id": "ahs-chem-k4-atom-013",
+      "type": "sorting",
+      "areaId": "atombau",
+      "themeId": "atome",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Ordne die Teilchen nach ihrem Ort im Atom.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Atomkern",
+            "items": [
+              "Proton",
+              "Neutron"
+            ]
+          },
+          {
+            "label": "Elektronenhülle",
+            "items": [
+              "Elektron"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Wo sind die Teilchen im Atom?"
+      ],
+      "feedbackCorrect": "Richtig! Protonen und Neutronen im Kern, Elektronen in der Hülle!",
+      "feedbackIncorrect": "Protonen und Neutronen befinden sich im Kern, Elektronen in der Hülle."
+    },
+    {
+      "id": "ahs-chem-k4-atom-014",
+      "type": "multiple-choice",
+      "areaId": "atombau",
+      "themeId": "atome",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was bestimmt die chemischen Eigenschaften eines Elements?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Chemische Eigenschaften werden bestimmt durch:",
+        "options": [
+          "Neutronenzahl",
+          "Massenzahl",
+          "Anzahl der Valenzelektronen",
+          "Kernladung"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Es geht um die äußerste Schale."
+      ],
+      "feedbackCorrect": "Richtig! Die Valenzelektronen!",
+      "feedbackIncorrect": "Die Valenzelektronen (Elektronen der äußersten Schale) bestimmen die chemischen Eigenschaften."
+    },
+    {
+      "id": "ahs-chem-k4-atom-015",
+      "type": "multiple-choice",
+      "areaId": "atombau",
+      "themeId": "atome",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Wie viele Valenzelektronen hat Sauerstoff (O, Ordnungszahl 8)?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Valenzelektronen von O:",
+        "options": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Elektronenkonfiguration: 2, 6."
+      ],
+      "feedbackCorrect": "Richtig! 6 Valenzelektronen!",
+      "feedbackIncorrect": "Sauerstoff hat die Elektronenkonfiguration 2, 6 – also 6 Valenzelektronen."
+    },
+    {
+      "id": "ahs-chem-k4-atom-016",
+      "type": "multiple-choice",
+      "areaId": "atombau",
+      "themeId": "atome",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Was ist ein Ion?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Ein Ion ist:",
+        "options": [
+          "ein ungeladenes Atom",
+          "ein Atom mit Ladung",
+          "ein Molekül",
+          "ein Neutron"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Wenn Elektronen aufgenommen oder abgegeben werden."
+      ],
+      "feedbackCorrect": "Richtig! Ein Atom mit elektrischer Ladung!",
+      "feedbackIncorrect": "Ein Ion entsteht, wenn ein Atom Elektronen aufnimmt oder abgibt und dadurch eine Ladung erhält."
+    },
+    {
+      "id": "ahs-chem-k4-atom-017",
+      "type": "fill-blank",
+      "areaId": "atombau",
+      "themeId": "atome",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Ergänze den richtigen Begriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Ein positiv geladenes Ion nennt man {{blank}}.",
+        "correctAnswer": "Kation",
+        "acceptableAnswers": [
+          "kation",
+          "Kationen"
+        ]
+      },
+      "hints": [
+        "Positiv – denke an das + in Kat+ion."
+      ],
+      "feedbackCorrect": "Richtig! Kation!",
+      "feedbackIncorrect": "Positiv geladene Ionen heißen Kationen."
+    },
+    {
+      "id": "ahs-chem-k4-atom-018",
+      "type": "fill-blank",
+      "areaId": "atombau",
+      "themeId": "atome",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Ergänze den richtigen Begriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Ein negativ geladenes Ion nennt man {{blank}}.",
+        "correctAnswer": "Anion",
+        "acceptableAnswers": [
+          "anion",
+          "Anionen"
+        ]
+      },
+      "hints": [
+        "Negativ geladen – das A in Anion erinnert an Minus."
+      ],
+      "feedbackCorrect": "Richtig! Anion!",
+      "feedbackIncorrect": "Negativ geladene Ionen heißen Anionen."
+    },
+    {
+      "id": "ahs-chem-k4-ps-003",
+      "type": "multiple-choice",
+      "areaId": "periodensystem",
+      "themeId": "elemente",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Welches chemische Symbol steht für Kohlenstoff?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Kohlenstoff:",
+        "options": [
+          "Co",
+          "C",
+          "Ca",
+          "K"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Der lateinische Name ist Carboneum."
+      ],
+      "feedbackCorrect": "Richtig! C steht für Kohlenstoff!",
+      "feedbackIncorrect": "Das chemische Symbol für Kohlenstoff (Carboneum) ist C."
+    },
+    {
+      "id": "ahs-chem-k4-ps-004",
+      "type": "multiple-choice",
+      "areaId": "periodensystem",
+      "themeId": "elemente",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Welches Element hat das Symbol Na?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Na steht für:",
+        "options": [
+          "Stickstoff",
+          "Neon",
+          "Natrium",
+          "Nickel"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Lateinischer Name: Natrium."
+      ],
+      "feedbackCorrect": "Richtig! Natrium!",
+      "feedbackIncorrect": "Na ist das Symbol für Natrium."
+    },
+    {
+      "id": "ahs-chem-k4-ps-005",
+      "type": "multiple-choice",
+      "areaId": "periodensystem",
+      "themeId": "elemente",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Welches Element hat das Symbol Fe?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Fe steht für:",
+        "options": [
+          "Fluor",
+          "Francium",
+          "Eisen",
+          "Fermium"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Lateinischer Name: Ferrum."
+      ],
+      "feedbackCorrect": "Richtig! Eisen!",
+      "feedbackIncorrect": "Fe ist das Symbol für Eisen (lat. Ferrum)."
+    },
+    {
+      "id": "ahs-chem-k4-ps-006",
+      "type": "multiple-choice",
+      "areaId": "periodensystem",
+      "themeId": "elemente",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Zu welcher Hauptgruppe gehören die Edelgase?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Edelgase – Hauptgruppe:",
+        "options": [
+          "I",
+          "IV",
+          "VII",
+          "VIII"
+        ],
+        "correctIndex": 3
+      },
+      "hints": [
+        "Sie stehen ganz rechts im Periodensystem."
+      ],
+      "feedbackCorrect": "Richtig! VIII. Hauptgruppe!",
+      "feedbackIncorrect": "Die Edelgase (He, Ne, Ar, Kr, Xe, Rn) stehen in der VIII. Hauptgruppe."
+    },
+    {
+      "id": "ahs-chem-k4-ps-007",
+      "type": "multiple-choice",
+      "areaId": "periodensystem",
+      "themeId": "elemente",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Welche Eigenschaft haben Edelgase gemeinsam?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Edelgase sind:",
+        "options": [
+          "sehr reaktiv",
+          "chemisch sehr stabil",
+          "alle fest",
+          "radioaktiv"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Volle Außenschale."
+      ],
+      "feedbackCorrect": "Richtig! Edelgase sind chemisch sehr stabil!",
+      "feedbackIncorrect": "Edelgase haben eine voll besetzte Außenschale und sind daher sehr reaktionsträge."
+    },
+    {
+      "id": "ahs-chem-k4-ps-008",
+      "type": "multiple-choice",
+      "areaId": "periodensystem",
+      "themeId": "elemente",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Die Alkalimetalle stehen in welcher Hauptgruppe?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Alkalimetalle – Hauptgruppe:",
+        "options": [
+          "I",
+          "II",
+          "III",
+          "VII"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Ganz links im Periodensystem."
+      ],
+      "feedbackCorrect": "Richtig! I. Hauptgruppe!",
+      "feedbackIncorrect": "Die Alkalimetalle (Li, Na, K, Rb, Cs, Fr) stehen in der I. Hauptgruppe."
+    },
+    {
+      "id": "ahs-chem-k4-ps-009",
+      "type": "fill-blank",
+      "areaId": "periodensystem",
+      "themeId": "elemente",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Ergänze das chemische Symbol.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Das chemische Symbol für Gold ist {{blank}}.",
+        "correctAnswer": "Au",
+        "acceptableAnswers": [
+          "au",
+          "AU"
+        ]
+      },
+      "hints": [
+        "Lateinischer Name: Aurum."
+      ],
+      "feedbackCorrect": "Richtig! Au!",
+      "feedbackIncorrect": "Das chemische Symbol für Gold ist Au (lat. Aurum)."
+    },
+    {
+      "id": "ahs-chem-k4-ps-010",
+      "type": "fill-blank",
+      "areaId": "periodensystem",
+      "themeId": "elemente",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Ergänze das chemische Symbol.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Das chemische Symbol für Silber ist {{blank}}.",
+        "correctAnswer": "Ag",
+        "acceptableAnswers": [
+          "ag",
+          "AG"
+        ]
+      },
+      "hints": [
+        "Lateinischer Name: Argentum."
+      ],
+      "feedbackCorrect": "Richtig! Ag!",
+      "feedbackIncorrect": "Das chemische Symbol für Silber ist Ag (lat. Argentum)."
+    },
+    {
+      "id": "ahs-chem-k4-ps-011",
+      "type": "fill-blank",
+      "areaId": "periodensystem",
+      "themeId": "elemente",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Ergänze den Begriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Im Periodensystem stehen Elemente mit gleicher Anzahl von Schalen in der gleichen {{blank}}.",
+        "correctAnswer": "Periode",
+        "acceptableAnswers": [
+          "periode"
+        ]
+      },
+      "hints": [
+        "Horizontale Reihen im PSE."
+      ],
+      "feedbackCorrect": "Richtig! Periode!",
+      "feedbackIncorrect": "Elemente derselben Periode haben die gleiche Anzahl von Elektronenschalen."
+    },
+    {
+      "id": "ahs-chem-k4-ps-012",
+      "type": "fill-blank",
+      "areaId": "periodensystem",
+      "themeId": "elemente",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Ergänze den Begriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Elemente derselben Gruppe im Periodensystem haben die gleiche Anzahl an {{blank}}.",
+        "correctAnswer": "Valenzelektronen",
+        "acceptableAnswers": [
+          "valenzelektronen",
+          "Außenelektronen",
+          "außenelektronen"
+        ]
+      },
+      "hints": [
+        "Es geht um die äußere Schale."
+      ],
+      "feedbackCorrect": "Richtig! Valenzelektronen!",
+      "feedbackIncorrect": "Elemente derselben Hauptgruppe haben die gleiche Anzahl an Valenzelektronen."
+    },
+    {
+      "id": "ahs-chem-k4-ps-013",
+      "type": "matching",
+      "areaId": "periodensystem",
+      "themeId": "elemente",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Ordne die chemischen Symbole den Elementnamen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "H",
+            "right": "Wasserstoff"
+          },
+          {
+            "left": "N",
+            "right": "Stickstoff"
+          },
+          {
+            "left": "Ca",
+            "right": "Calcium"
+          },
+          {
+            "left": "Cl",
+            "right": "Chlor"
+          }
+        ]
+      },
+      "hints": [
+        "Denke an die lateinischen und deutschen Namen."
+      ],
+      "feedbackCorrect": "Richtig! Alle Symbole korrekt zugeordnet!",
+      "feedbackIncorrect": "H = Wasserstoff, N = Stickstoff, Ca = Calcium, Cl = Chlor."
+    },
+    {
+      "id": "ahs-chem-k4-ps-014",
+      "type": "matching",
+      "areaId": "periodensystem",
+      "themeId": "elemente",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Ordne die Elemente den richtigen Hauptgruppen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Natrium (Na)",
+            "right": "I. Hauptgruppe"
+          },
+          {
+            "left": "Magnesium (Mg)",
+            "right": "II. Hauptgruppe"
+          },
+          {
+            "left": "Chlor (Cl)",
+            "right": "VII. Hauptgruppe"
+          },
+          {
+            "left": "Neon (Ne)",
+            "right": "VIII. Hauptgruppe"
+          }
+        ]
+      },
+      "hints": [
+        "Die Hauptgruppe entspricht der Valenzelektronenzahl."
+      ],
+      "feedbackCorrect": "Richtig! Alle Elemente korrekt zugeordnet!",
+      "feedbackIncorrect": "Na → I, Mg → II, Cl → VII, Ne → VIII. Hauptgruppe."
+    },
+    {
+      "id": "ahs-chem-k4-ps-015",
+      "type": "sorting",
+      "areaId": "periodensystem",
+      "themeId": "elemente",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Ordne die Elemente in Metalle und Nichtmetalle.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Metalle",
+            "items": [
+              "Eisen",
+              "Kupfer",
+              "Aluminium",
+              "Gold"
+            ]
+          },
+          {
+            "label": "Nichtmetalle",
+            "items": [
+              "Sauerstoff",
+              "Stickstoff",
+              "Schwefel",
+              "Chlor"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Metalle leiten Strom und Wärme."
+      ],
+      "feedbackCorrect": "Richtig! Alle Elemente korrekt zugeordnet!",
+      "feedbackIncorrect": "Eisen, Kupfer, Aluminium, Gold sind Metalle. Sauerstoff, Stickstoff, Schwefel, Chlor sind Nichtmetalle."
+    },
+    {
+      "id": "ahs-chem-k4-ps-016",
+      "type": "sorting",
+      "areaId": "periodensystem",
+      "themeId": "elemente",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Ordne die Elemente den Elementfamilien zu.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Alkalimetalle",
+            "items": [
+              "Lithium",
+              "Natrium",
+              "Kalium"
+            ]
+          },
+          {
+            "label": "Halogene",
+            "items": [
+              "Fluor",
+              "Chlor",
+              "Brom"
+            ]
+          },
+          {
+            "label": "Edelgase",
+            "items": [
+              "Helium",
+              "Neon",
+              "Argon"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Denke an die Gruppen im Periodensystem."
+      ],
+      "feedbackCorrect": "Richtig! Alle Elementfamilien korrekt!",
+      "feedbackIncorrect": "Alkalimetalle: Li, Na, K. Halogene: F, Cl, Br. Edelgase: He, Ne, Ar."
+    },
+    {
+      "id": "ahs-chem-k4-ps-017",
+      "type": "multiple-choice",
+      "areaId": "periodensystem",
+      "themeId": "elemente",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Welche Aussage über die Elektronegativität im Periodensystem ist richtig?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Elektronegativität nimmt zu:",
+        "options": [
+          "von rechts nach links und von oben nach unten",
+          "von links nach rechts und von unten nach oben",
+          "nur von links nach rechts",
+          "nur von oben nach unten"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Fluor hat die höchste Elektronegativität."
+      ],
+      "feedbackCorrect": "Richtig! Von links nach rechts und von unten nach oben!",
+      "feedbackIncorrect": "Die Elektronegativität nimmt im PSE von links nach rechts und von unten nach oben zu (Fluor hat den höchsten Wert)."
+    },
+    {
+      "id": "ahs-chem-k4-ps-018",
+      "type": "multiple-choice",
+      "areaId": "periodensystem",
+      "themeId": "elemente",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Welches Element hat das Symbol Cu?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Cu steht für:",
+        "options": [
+          "Kupfer",
+          "Cobalt",
+          "Cäsium",
+          "Curium"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Lateinischer Name: Cuprum."
+      ],
+      "feedbackCorrect": "Richtig! Kupfer!",
+      "feedbackIncorrect": "Cu ist das Symbol für Kupfer (lat. Cuprum)."
+    },
+    {
+      "id": "ahs-chem-k4-bind-001",
+      "type": "multiple-choice",
+      "areaId": "atombau",
+      "themeId": "bindungen",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Was ist eine Ionenbindung?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Ionenbindung:",
+        "options": [
+          "Anziehung zwischen gegensätzlich geladenen Ionen",
+          "Teilen von Elektronenpaaren",
+          "Anziehung zwischen Metallionen und Elektronengas",
+          "Van-der-Waals-Kräfte"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Kochsalz (NaCl) ist ein Beispiel."
+      ],
+      "feedbackCorrect": "Richtig! Anziehung zwischen gegensätzlich geladenen Ionen!",
+      "feedbackIncorrect": "Bei der Ionenbindung ziehen sich positiv und negativ geladene Ionen gegenseitig an."
+    },
+    {
+      "id": "ahs-chem-k4-bind-002",
+      "type": "multiple-choice",
+      "areaId": "atombau",
+      "themeId": "bindungen",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Was ist eine kovalente Bindung (Atombindung)?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Kovalente Bindung:",
+        "options": [
+          "Übertragung von Elektronen",
+          "Gemeinsame Nutzung von Elektronenpaaren",
+          "Metallische Bindung",
+          "Ionenbindung"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Zwei Nichtmetalle teilen sich Elektronen."
+      ],
+      "feedbackCorrect": "Richtig! Gemeinsame Nutzung von Elektronenpaaren!",
+      "feedbackIncorrect": "Bei der kovalenten Bindung teilen sich zwei Atome ein oder mehrere Elektronenpaare."
+    },
+    {
+      "id": "ahs-chem-k4-bind-003",
+      "type": "multiple-choice",
+      "areaId": "atombau",
+      "themeId": "bindungen",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Was ist die metallische Bindung?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Metallische Bindung:",
+        "options": [
+          "Ionen im Gitter",
+          "Teilen von Elektronenpaaren",
+          "Metallionen in einem Elektronengas",
+          "Wasserstoffbrückenbindung"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Denke an ein Metall, das Strom leitet."
+      ],
+      "feedbackCorrect": "Richtig! Metallionen in einem Elektronengas!",
+      "feedbackIncorrect": "Bei der metallischen Bindung bilden Metallionen ein Gitter, umgeben von frei beweglichen Elektronen (Elektronengas)."
+    },
+    {
+      "id": "ahs-chem-k4-bind-004",
+      "type": "multiple-choice",
+      "areaId": "atombau",
+      "themeId": "bindungen",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Welcher Bindungstyp entsteht zwischen Natrium und Chlor?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Na + Cl:",
+        "options": [
+          "kovalente Bindung",
+          "metallische Bindung",
+          "Ionenbindung",
+          "Van-der-Waals-Bindung"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Metall + Nichtmetall."
+      ],
+      "feedbackCorrect": "Richtig! Ionenbindung!",
+      "feedbackIncorrect": "Zwischen Natrium (Metall) und Chlor (Nichtmetall) entsteht eine Ionenbindung (NaCl)."
+    },
+    {
+      "id": "ahs-chem-k4-bind-005",
+      "type": "multiple-choice",
+      "areaId": "atombau",
+      "themeId": "bindungen",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Welcher Bindungstyp liegt im Wassermolekül (H₂O) vor?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "H₂O:",
+        "options": [
+          "Ionenbindung",
+          "metallische Bindung",
+          "kovalente Bindung",
+          "keine Bindung"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Nichtmetall + Nichtmetall."
+      ],
+      "feedbackCorrect": "Richtig! Kovalente Bindung!",
+      "feedbackIncorrect": "Im Wassermolekül liegen kovalente Bindungen (Atombindungen) zwischen H und O vor."
+    },
+    {
+      "id": "ahs-chem-k4-bind-006",
+      "type": "multiple-choice",
+      "areaId": "atombau",
+      "themeId": "bindungen",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Was strebt ein Atom bei einer chemischen Bindung an?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Ziel einer Bindung:",
+        "options": [
+          "Instabilität",
+          "volle Außenschale (Edelgaskonfiguration)",
+          "maximale Ladung",
+          "möglichst viele Neutronen"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Oktettregel."
+      ],
+      "feedbackCorrect": "Richtig! Die Edelgaskonfiguration!",
+      "feedbackIncorrect": "Atome streben durch Bindungen eine voll besetzte Außenschale an (Edelgaskonfiguration/Oktettregel)."
+    },
+    {
+      "id": "ahs-chem-k4-bind-007",
+      "type": "fill-blank",
+      "areaId": "atombau",
+      "themeId": "bindungen",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Ergänze den Bindungstyp.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die Bindung zwischen zwei Nichtmetallen durch gemeinsame Elektronenpaare heißt {{blank}}.",
+        "correctAnswer": "kovalente Bindung",
+        "acceptableAnswers": [
+          "Kovalente Bindung",
+          "Atombindung",
+          "atombindung",
+          "Elektronenpaarbindung"
+        ]
+      },
+      "hints": [
+        "Man teilt sich die Elektronen."
+      ],
+      "feedbackCorrect": "Richtig! Kovalente Bindung (Atombindung)!",
+      "feedbackIncorrect": "Die Bindung zwischen Nichtmetallen durch gemeinsame Elektronenpaare heißt kovalente Bindung."
+    },
+    {
+      "id": "ahs-chem-k4-bind-008",
+      "type": "fill-blank",
+      "areaId": "atombau",
+      "themeId": "bindungen",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Ergänze den richtigen Begriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die Regel, dass Atome eine Außenschale mit 8 Elektronen anstreben, heißt {{blank}}.",
+        "correctAnswer": "Oktettregel",
+        "acceptableAnswers": [
+          "oktettregel",
+          "Oktett-Regel"
+        ]
+      },
+      "hints": [
+        "8 Elektronen auf der äußersten Schale."
+      ],
+      "feedbackCorrect": "Richtig! Oktettregel!",
+      "feedbackIncorrect": "Die Oktettregel besagt, dass Atome 8 Elektronen auf der Außenschale anstreben."
+    },
+    {
+      "id": "ahs-chem-k4-bind-009",
+      "type": "fill-blank",
+      "areaId": "atombau",
+      "themeId": "bindungen",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Ergänze den fehlenden Begriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Wenn ein Atom ein Elektron an ein anderes abgibt, entsteht eine {{blank}}.",
+        "correctAnswer": "Ionenbindung",
+        "acceptableAnswers": [
+          "ionenbindung"
+        ]
+      },
+      "hints": [
+        "Metall gibt, Nichtmetall nimmt."
+      ],
+      "feedbackCorrect": "Richtig! Ionenbindung!",
+      "feedbackIncorrect": "Durch Elektronenübertragung entstehen Ionen, die sich anziehen – eine Ionenbindung."
+    },
+    {
+      "id": "ahs-chem-k4-bind-010",
+      "type": "matching",
+      "areaId": "atombau",
+      "themeId": "bindungen",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Ordne die Bindungstypen den Beispielsubstanzen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Ionenbindung",
+            "right": "Kochsalz (NaCl)"
+          },
+          {
+            "left": "Kovalente Bindung",
+            "right": "Wasser (H₂O)"
+          },
+          {
+            "left": "Metallische Bindung",
+            "right": "Eisen (Fe)"
+          }
+        ]
+      },
+      "hints": [
+        "Denke an Metall/Nichtmetall-Kombinationen."
+      ],
+      "feedbackCorrect": "Richtig! Alle Bindungstypen korrekt zugeordnet!",
+      "feedbackIncorrect": "NaCl: Ionenbindung, H₂O: kovalente Bindung, Fe: metallische Bindung."
+    },
+    {
+      "id": "ahs-chem-k4-bind-011",
+      "type": "matching",
+      "areaId": "atombau",
+      "themeId": "bindungen",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Ordne die Bindungstypen den Eigenschaften zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Ionenbindung",
+            "right": "hoher Schmelzpunkt, spröde"
+          },
+          {
+            "left": "Kovalente Bindung",
+            "right": "gerichtete Bindung, Moleküle"
+          },
+          {
+            "left": "Metallische Bindung",
+            "right": "elektrisch leitfähig, verformbar"
+          }
+        ]
+      },
+      "hints": [
+        "Welche typischen Eigenschaften gehören zu welcher Bindung?"
+      ],
+      "feedbackCorrect": "Richtig! Alle Eigenschaften korrekt zugeordnet!",
+      "feedbackIncorrect": "Ionenbindung: hoher Schmelzpunkt. Kovalent: Moleküle. Metallisch: leitfähig, verformbar."
+    },
+    {
+      "id": "ahs-chem-k4-bind-012",
+      "type": "sorting",
+      "areaId": "atombau",
+      "themeId": "bindungen",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Ordne die Stoffe dem vorherrschenden Bindungstyp zu.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Ionenbindung",
+            "items": [
+              "NaCl",
+              "MgO",
+              "CaF₂"
+            ]
+          },
+          {
+            "label": "Kovalente Bindung",
+            "items": [
+              "H₂O",
+              "CO₂",
+              "CH₄"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Metall + Nichtmetall = ionisch; Nichtmetall + Nichtmetall = kovalent."
+      ],
+      "feedbackCorrect": "Richtig! Alle Stoffe korrekt zugeordnet!",
+      "feedbackIncorrect": "NaCl, MgO, CaF₂: Ionenbindung. H₂O, CO₂, CH₄: kovalente Bindung."
+    },
+    {
+      "id": "ahs-chem-k4-bind-013",
+      "type": "multiple-choice",
+      "areaId": "atombau",
+      "themeId": "bindungen",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was ist eine polare kovalente Bindung?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Polare kovalente Bindung:",
+        "options": [
+          "Gleichmäßige Elektronenverteilung",
+          "Ungleichmäßige Elektronenverteilung durch unterschiedliche EN",
+          "Reine Ionenbindung",
+          "Metallische Bindung"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "H–Cl als Beispiel: Cl zieht Elektronen stärker an."
+      ],
+      "feedbackCorrect": "Richtig! Ungleichmäßige Elektronenverteilung!",
+      "feedbackIncorrect": "Bei polaren kovalenten Bindungen sind die Bindungselektronen ungleichmäßig verteilt, weil ein Atom eine höhere Elektronegativität hat."
+    },
+    {
+      "id": "ahs-chem-k4-bind-014",
+      "type": "multiple-choice",
+      "areaId": "atombau",
+      "themeId": "bindungen",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was sind Wasserstoffbrückenbindungen?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Wasserstoffbrückenbindungen sind:",
+        "options": [
+          "starke kovalente Bindungen",
+          "schwache zwischenmolekulare Wechselwirkungen",
+          "Ionenbindungen",
+          "metallische Bindungen"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Wasser hat einen hohen Siedepunkt durch diese Kräfte."
+      ],
+      "feedbackCorrect": "Richtig! Schwache zwischenmolekulare Wechselwirkungen!",
+      "feedbackIncorrect": "Wasserstoffbrückenbindungen sind schwache Wechselwirkungen zwischen Molekülen und erklären z. B. den hohen Siedepunkt von Wasser."
+    },
+    {
+      "id": "ahs-chem-k4-bind-015",
+      "type": "sorting",
+      "areaId": "atombau",
+      "themeId": "bindungen",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Ordne die Bindungstypen nach Stärke (aufsteigend).",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "schwach",
+            "items": [
+              "Van-der-Waals-Kräfte",
+              "Wasserstoffbrücken"
+            ]
+          },
+          {
+            "label": "stark",
+            "items": [
+              "kovalente Bindung",
+              "Ionenbindung"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Zwischenmolekulare Kräfte sind schwächer als chemische Bindungen."
+      ],
+      "feedbackCorrect": "Richtig! Korrekte Zuordnung!",
+      "feedbackIncorrect": "Van-der-Waals-Kräfte und Wasserstoffbrücken sind schwache zwischenmolekulare Kräfte; kovalente und ionische Bindungen sind starke chemische Bindungen."
+    },
+    {
+      "id": "ahs-chem-k4-bind-016",
+      "type": "multiple-choice",
+      "areaId": "atombau",
+      "themeId": "bindungen",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Warum leiten Metalle Strom?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Metallische Leitfähigkeit durch:",
+        "options": [
+          "Ionenwanderung",
+          "frei bewegliche Elektronen",
+          "kovalente Bindungen",
+          "Wasserstoffbrücken"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Elektronengas."
+      ],
+      "feedbackCorrect": "Richtig! Frei bewegliche Elektronen!",
+      "feedbackIncorrect": "Metalle leiten Strom, weil die Valenzelektronen im Metallgitter frei beweglich sind (Elektronengas)."
+    },
+    {
+      "id": "ahs-chem-k4-reak-003",
+      "type": "multiple-choice",
+      "areaId": "chemische-reaktionen",
+      "themeId": "reaktionen",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Was muss bei einer chemischen Gleichung ausgeglichen sein?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "In einer Gleichung sind ausgeglichen:",
+        "options": [
+          "die Farben",
+          "die Anzahl der Atome auf beiden Seiten",
+          "die Aggregatzustände",
+          "die Temperaturen"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Massenerhaltung."
+      ],
+      "feedbackCorrect": "Richtig! Die Anzahl der Atome auf beiden Seiten!",
+      "feedbackIncorrect": "In einer chemischen Gleichung muss die Anzahl der Atome auf beiden Seiten gleich sein (Gesetz der Massenerhaltung)."
+    },
+    {
+      "id": "ahs-chem-k4-reak-004",
+      "type": "multiple-choice",
+      "areaId": "chemische-reaktionen",
+      "themeId": "reaktionen",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Was ist ein Katalysator?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Ein Katalysator:",
+        "options": [
+          "wird bei der Reaktion verbraucht",
+          "beschleunigt eine Reaktion, ohne selbst verbraucht zu werden",
+          "liefert Energie",
+          "ist immer ein Metall"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Er wird am Ende nicht verbraucht."
+      ],
+      "feedbackCorrect": "Richtig! Beschleunigt die Reaktion ohne verbraucht zu werden!",
+      "feedbackIncorrect": "Ein Katalysator beschleunigt eine chemische Reaktion, wird dabei aber selbst nicht verbraucht."
+    },
+    {
+      "id": "ahs-chem-k4-reak-005",
+      "type": "multiple-choice",
+      "areaId": "chemische-reaktionen",
+      "themeId": "reaktionen",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Was ist eine exotherme Reaktion?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Exotherm:",
+        "options": [
+          "Es wird Energie aufgenommen",
+          "Es wird Energie freigesetzt",
+          "Es passiert nichts",
+          "Die Temperatur sinkt"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Exo = heraus, therm = Wärme."
+      ],
+      "feedbackCorrect": "Richtig! Energie wird freigesetzt!",
+      "feedbackIncorrect": "Bei exothermen Reaktionen wird Energie in Form von Wärme an die Umgebung abgegeben."
+    },
+    {
+      "id": "ahs-chem-k4-reak-006",
+      "type": "multiple-choice",
+      "areaId": "chemische-reaktionen",
+      "themeId": "reaktionen",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Was ist eine endotherme Reaktion?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Endotherm:",
+        "options": [
+          "Energie wird freigesetzt",
+          "Energie wird aufgenommen",
+          "Keine Energieänderung",
+          "Nur bei Gasen möglich"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Endo = hinein."
+      ],
+      "feedbackCorrect": "Richtig! Energie wird aufgenommen!",
+      "feedbackIncorrect": "Bei endothermen Reaktionen wird Energie aus der Umgebung aufgenommen."
+    },
+    {
+      "id": "ahs-chem-k4-reak-007",
+      "type": "multiple-choice",
+      "areaId": "chemische-reaktionen",
+      "themeId": "reaktionen",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Was entsteht bei der Verbrennung von Kohlenstoff in Sauerstoff?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "C + O₂ →",
+        "options": [
+          "CO",
+          "CO₂",
+          "C₂O",
+          "H₂O"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Kohlenstoffdioxid."
+      ],
+      "feedbackCorrect": "Richtig! CO₂ (Kohlenstoffdioxid)!",
+      "feedbackIncorrect": "Bei der vollständigen Verbrennung von Kohlenstoff entsteht CO₂."
+    },
+    {
+      "id": "ahs-chem-k4-reak-008",
+      "type": "fill-blank",
+      "areaId": "chemische-reaktionen",
+      "themeId": "reaktionen",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Ergänze den Begriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Das Gesetz der Erhaltung der Masse besagt, dass bei chemischen Reaktionen keine Masse verloren geht oder entsteht – es gilt die {{blank}}.",
+        "correctAnswer": "Massenerhaltung",
+        "acceptableAnswers": [
+          "massenerhaltung",
+          "Massenerhaltungsgesetz"
+        ]
+      },
+      "hints": [
+        "Lavoisier hat es formuliert."
+      ],
+      "feedbackCorrect": "Richtig! Massenerhaltung!",
+      "feedbackIncorrect": "Das Gesetz der Massenerhaltung besagt, dass die Gesamtmasse bei einer chemischen Reaktion konstant bleibt."
+    },
+    {
+      "id": "ahs-chem-k4-reak-009",
+      "type": "fill-blank",
+      "areaId": "chemische-reaktionen",
+      "themeId": "reaktionen",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Ergänze den Begriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die Mindestenergie, die zur Auslösung einer chemischen Reaktion benötigt wird, heißt {{blank}}.",
+        "correctAnswer": "Aktivierungsenergie",
+        "acceptableAnswers": [
+          "aktivierungsenergie"
+        ]
+      },
+      "hints": [
+        "Ein Streichholz braucht Reibung."
+      ],
+      "feedbackCorrect": "Richtig! Aktivierungsenergie!",
+      "feedbackIncorrect": "Die Aktivierungsenergie ist die Energie, die nötig ist, um eine Reaktion in Gang zu setzen."
+    },
+    {
+      "id": "ahs-chem-k4-reak-010",
+      "type": "fill-blank",
+      "areaId": "chemische-reaktionen",
+      "themeId": "reaktionen",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Ergänze den korrekten Koeffizienten.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die ausgeglichene Gleichung lautet: {{blank}} H₂ + O₂ → 2 H₂O.",
+        "correctAnswer": "2",
+        "acceptableAnswers": []
+      },
+      "hints": [
+        "Zähle die H-Atome auf beiden Seiten."
+      ],
+      "feedbackCorrect": "Richtig! 2 H₂ + O₂ → 2 H₂O!",
+      "feedbackIncorrect": "2 H₂ + O₂ → 2 H₂O ist die ausgeglichene Gleichung für die Knallgasreaktion."
+    },
+    {
+      "id": "ahs-chem-k4-reak-011",
+      "type": "matching",
+      "areaId": "chemische-reaktionen",
+      "themeId": "reaktionen",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Ordne die Reaktionstypen den Beschreibungen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Synthese",
+            "right": "Zwei Stoffe verbinden sich zu einem"
+          },
+          {
+            "left": "Analyse (Zersetzung)",
+            "right": "Ein Stoff zerfällt in mehrere"
+          },
+          {
+            "left": "Austauschreaktion",
+            "right": "Bestandteile werden ausgetauscht"
+          }
+        ]
+      },
+      "hints": [
+        "Vereinen, Zerlegen, Tauschen."
+      ],
+      "feedbackCorrect": "Richtig! Alle Reaktionstypen korrekt zugeordnet!",
+      "feedbackIncorrect": "Synthese: Vereinigung. Analyse: Zerlegung. Austausch: Partner tauschen."
+    },
+    {
+      "id": "ahs-chem-k4-reak-012",
+      "type": "matching",
+      "areaId": "chemische-reaktionen",
+      "themeId": "reaktionen",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Ordne die Begriffe den Reaktionen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Oxidation",
+            "right": "Elektronenabgabe"
+          },
+          {
+            "left": "Reduktion",
+            "right": "Elektronenaufnahme"
+          },
+          {
+            "left": "Redoxreaktion",
+            "right": "Kombination aus beiden"
+          }
+        ]
+      },
+      "hints": [
+        "Ox = Abgabe, Red = Aufnahme."
+      ],
+      "feedbackCorrect": "Richtig! Alle Begriffe korrekt zugeordnet!",
+      "feedbackIncorrect": "Oxidation: Elektronenabgabe, Reduktion: Elektronenaufnahme, Redox: beides zusammen."
+    },
+    {
+      "id": "ahs-chem-k4-reak-013",
+      "type": "sorting",
+      "areaId": "chemische-reaktionen",
+      "themeId": "reaktionen",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Ordne die Reaktionen als exotherm oder endotherm ein.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "exotherm",
+            "items": [
+              "Verbrennung von Holz",
+              "Rosten von Eisen",
+              "Neutralisation"
+            ]
+          },
+          {
+            "label": "endotherm",
+            "items": [
+              "Fotosynthese",
+              "Kalkbrennen",
+              "Elektrolyse"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Exotherm gibt Wärme ab, endotherm nimmt Wärme auf."
+      ],
+      "feedbackCorrect": "Richtig! Alle korrekt zugeordnet!",
+      "feedbackIncorrect": "Exotherm: Verbrennung, Rosten, Neutralisation. Endotherm: Fotosynthese, Kalkbrennen, Elektrolyse."
+    },
+    {
+      "id": "ahs-chem-k4-reak-014",
+      "type": "multiple-choice",
+      "areaId": "chemische-reaktionen",
+      "themeId": "reaktionen",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was passiert bei der Elektrolyse von Wasser?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Elektrolyse von H₂O:",
+        "options": [
+          "Wasser entsteht",
+          "Wasser wird in H₂ und O₂ zerlegt",
+          "NaCl entsteht",
+          "CO₂ entsteht"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Strom zerlegt Wasser."
+      ],
+      "feedbackCorrect": "Richtig! Wasser wird in Wasserstoff und Sauerstoff zerlegt!",
+      "feedbackIncorrect": "Bei der Elektrolyse von Wasser wird H₂O durch elektrischen Strom in H₂ und O₂ zerlegt."
+    },
+    {
+      "id": "ahs-chem-k4-reak-015",
+      "type": "multiple-choice",
+      "areaId": "chemische-reaktionen",
+      "themeId": "reaktionen",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Was sind die Ausgangsstoffe einer Reaktion?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Ausgangsstoffe heißen:",
+        "options": [
+          "Produkte",
+          "Edukte",
+          "Katalysatoren",
+          "Lösungsmittel"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Sie stehen links in der Gleichung."
+      ],
+      "feedbackCorrect": "Richtig! Edukte!",
+      "feedbackIncorrect": "Die Ausgangsstoffe einer chemischen Reaktion werden Edukte genannt."
+    },
+    {
+      "id": "ahs-chem-k4-reak-016",
+      "type": "multiple-choice",
+      "areaId": "chemische-reaktionen",
+      "themeId": "reaktionen",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Was sind die Endstoffe einer Reaktion?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Endstoffe heißen:",
+        "options": [
+          "Edukte",
+          "Katalysatoren",
+          "Produkte",
+          "Reagenzien"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Sie stehen rechts in der Gleichung."
+      ],
+      "feedbackCorrect": "Richtig! Produkte!",
+      "feedbackIncorrect": "Die Endstoffe einer chemischen Reaktion werden Produkte genannt."
+    },
+    {
+      "id": "ahs-chem-k4-reak-017",
+      "type": "fill-blank",
+      "areaId": "chemische-reaktionen",
+      "themeId": "reaktionen",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Ergänze das Produkt.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Bei der Verbrennung von Magnesium in Sauerstoff entsteht {{blank}}.",
+        "correctAnswer": "Magnesiumoxid",
+        "acceptableAnswers": [
+          "magnesiumoxid",
+          "MgO"
+        ]
+      },
+      "hints": [
+        "Mg + O₂ → ?"
+      ],
+      "feedbackCorrect": "Richtig! Magnesiumoxid (MgO)!",
+      "feedbackIncorrect": "2 Mg + O₂ → 2 MgO. Es entsteht Magnesiumoxid."
+    },
+    {
+      "id": "ahs-chem-k4-reak-018",
+      "type": "sorting",
+      "areaId": "chemische-reaktionen",
+      "themeId": "reaktionen",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Ordne die folgenden Begriffe der richtigen Seite einer Reaktionsgleichung zu.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "linke Seite (Edukte)",
+            "items": [
+              "Ausgangsstoffe",
+              "Reaktanten"
+            ]
+          },
+          {
+            "label": "rechte Seite (Produkte)",
+            "items": [
+              "Endstoffe",
+              "Reaktionsprodukte"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Links = vorher, Rechts = nachher."
+      ],
+      "feedbackCorrect": "Richtig! Edukte links, Produkte rechts!",
+      "feedbackIncorrect": "Edukte (Ausgangsstoffe/Reaktanten) stehen links, Produkte (Endstoffe/Reaktionsprodukte) rechts."
+    },
+    {
+      "id": "ahs-chem-k4-saeur-002",
+      "type": "multiple-choice",
+      "areaId": "saeuren-basen",
+      "themeId": "saeuren",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Was ist der pH-Wert von reinem Wasser?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "pH-Wert von Wasser:",
+        "options": [
+          "0",
+          "3",
+          "7",
+          "14"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Neutral."
+      ],
+      "feedbackCorrect": "Richtig! pH 7!",
+      "feedbackIncorrect": "Reines Wasser hat einen pH-Wert von 7 (neutral)."
+    },
+    {
+      "id": "ahs-chem-k4-saeur-003",
+      "type": "multiple-choice",
+      "areaId": "saeuren-basen",
+      "themeId": "saeuren",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Welchen pH-Bereich haben Säuren?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "pH-Wert von Säuren:",
+        "options": [
+          "über 7",
+          "genau 7",
+          "unter 7",
+          "über 14"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Sauer = niedrig."
+      ],
+      "feedbackCorrect": "Richtig! Unter 7!",
+      "feedbackIncorrect": "Säuren haben pH-Werte unter 7."
+    },
+    {
+      "id": "ahs-chem-k4-saeur-004",
+      "type": "multiple-choice",
+      "areaId": "saeuren-basen",
+      "themeId": "saeuren",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Welche Säure hat die chemische Formel HCl?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "HCl:",
+        "options": [
+          "Schwefelsäure",
+          "Salzsäure",
+          "Salpetersäure",
+          "Kohlensäure"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Chlor + Wasserstoff."
+      ],
+      "feedbackCorrect": "Richtig! Salzsäure!",
+      "feedbackIncorrect": "HCl ist die chemische Formel für Salzsäure (Chlorwasserstoffsäure)."
+    },
+    {
+      "id": "ahs-chem-k4-saeur-005",
+      "type": "multiple-choice",
+      "areaId": "saeuren-basen",
+      "themeId": "saeuren",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Welche Säure hat die chemische Formel H₂SO₄?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "H₂SO₄:",
+        "options": [
+          "Salzsäure",
+          "Salpetersäure",
+          "Schwefelsäure",
+          "Phosphorsäure"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Schwefel und Sauerstoff."
+      ],
+      "feedbackCorrect": "Richtig! Schwefelsäure!",
+      "feedbackIncorrect": "H₂SO₄ ist die chemische Formel für Schwefelsäure."
+    },
+    {
+      "id": "ahs-chem-k4-saeur-006",
+      "type": "multiple-choice",
+      "areaId": "saeuren-basen",
+      "themeId": "saeuren",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Was geben Säuren nach Brønsted ab?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Säuren nach Brønsted:",
+        "options": [
+          "Elektronen",
+          "Protonen (H⁺)",
+          "Neutronen",
+          "Hydroxidionen"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Protonendonator."
+      ],
+      "feedbackCorrect": "Richtig! Protonen (H⁺)!",
+      "feedbackIncorrect": "Nach Brønsted sind Säuren Protonendonatoren – sie geben H⁺-Ionen ab."
+    },
+    {
+      "id": "ahs-chem-k4-saeur-007",
+      "type": "fill-blank",
+      "areaId": "saeuren-basen",
+      "themeId": "saeuren",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Ergänze den pH-Wert.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Säuren haben einen pH-Wert {{blank}} 7.",
+        "correctAnswer": "unter",
+        "acceptableAnswers": [
+          "kleiner als",
+          "< ",
+          "kleiner",
+          "weniger als"
+        ]
+      },
+      "hints": [
+        "Sauer = niedrig."
+      ],
+      "feedbackCorrect": "Richtig! Unter 7!",
+      "feedbackIncorrect": "Säuren haben pH-Werte kleiner als 7."
+    },
+    {
+      "id": "ahs-chem-k4-saeur-008",
+      "type": "fill-blank",
+      "areaId": "saeuren-basen",
+      "themeId": "saeuren",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Ergänze die Formel.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die chemische Formel für Salpetersäure ist {{blank}}.",
+        "correctAnswer": "HNO₃",
+        "acceptableAnswers": [
+          "HNO3",
+          "hno3"
+        ]
+      },
+      "hints": [
+        "Stickstoff und Sauerstoff."
+      ],
+      "feedbackCorrect": "Richtig! HNO₃!",
+      "feedbackIncorrect": "Die chemische Formel für Salpetersäure ist HNO₃."
+    },
+    {
+      "id": "ahs-chem-k4-saeur-009",
+      "type": "fill-blank",
+      "areaId": "saeuren-basen",
+      "themeId": "saeuren",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Ergänze den Fachbegriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Nach Brønsted ist eine Säure ein {{blank}}.",
+        "correctAnswer": "Protonendonator",
+        "acceptableAnswers": [
+          "protonendonator",
+          "Protonenspender"
+        ]
+      },
+      "hints": [
+        "Sie gibt H⁺ ab."
+      ],
+      "feedbackCorrect": "Richtig! Protonendonator!",
+      "feedbackIncorrect": "Nach Brønsted ist eine Säure ein Protonendonator (gibt H⁺-Ionen ab)."
+    },
+    {
+      "id": "ahs-chem-k4-saeur-010",
+      "type": "matching",
+      "areaId": "saeuren-basen",
+      "themeId": "saeuren",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Ordne die Säuren ihren chemischen Formeln zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Salzsäure",
+            "right": "HCl"
+          },
+          {
+            "left": "Schwefelsäure",
+            "right": "H₂SO₄"
+          },
+          {
+            "left": "Salpetersäure",
+            "right": "HNO₃"
+          },
+          {
+            "left": "Kohlensäure",
+            "right": "H₂CO₃"
+          }
+        ]
+      },
+      "hints": [
+        "Denke an die enthaltenen Elemente."
+      ],
+      "feedbackCorrect": "Richtig! Alle Säuren korrekt zugeordnet!",
+      "feedbackIncorrect": "HCl = Salzsäure, H₂SO₄ = Schwefelsäure, HNO₃ = Salpetersäure, H₂CO₃ = Kohlensäure."
+    },
+    {
+      "id": "ahs-chem-k4-saeur-011",
+      "type": "matching",
+      "areaId": "saeuren-basen",
+      "themeId": "saeuren",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Ordne die Alltagsprodukte dem richtigen pH-Bereich zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Zitronensaft",
+            "right": "pH ≈ 2"
+          },
+          {
+            "left": "Essig",
+            "right": "pH ≈ 3"
+          },
+          {
+            "left": "Kaffee",
+            "right": "pH ≈ 5"
+          },
+          {
+            "left": "Reines Wasser",
+            "right": "pH = 7"
+          }
+        ]
+      },
+      "hints": [
+        "Je saurer, desto niedriger der pH-Wert."
+      ],
+      "feedbackCorrect": "Richtig! Alle korrekt zugeordnet!",
+      "feedbackIncorrect": "Zitronensaft: pH ≈ 2, Essig: pH ≈ 3, Kaffee: pH ≈ 5, Wasser: pH = 7."
+    },
+    {
+      "id": "ahs-chem-k4-saeur-012",
+      "type": "sorting",
+      "areaId": "saeuren-basen",
+      "themeId": "saeuren",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Ordne die Stoffe als Säure oder neutral ein.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Säure",
+            "items": [
+              "Salzsäure",
+              "Schwefelsäure",
+              "Essigsäure"
+            ]
+          },
+          {
+            "label": "neutral",
+            "items": [
+              "Wasser",
+              "Kochsalzlösung"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "pH-Wert unter 7 = Säure, pH 7 = neutral."
+      ],
+      "feedbackCorrect": "Richtig! Korrekt zugeordnet!",
+      "feedbackIncorrect": "Salzsäure, Schwefelsäure, Essigsäure sind Säuren. Wasser und Kochsalzlösung sind annähernd neutral."
+    },
+    {
+      "id": "ahs-chem-k4-saeur-013",
+      "type": "multiple-choice",
+      "areaId": "saeuren-basen",
+      "themeId": "saeuren",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was passiert, wenn Säure mit einem unedlen Metall reagiert?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Säure + unedles Metall:",
+        "options": [
+          "Nichts",
+          "Es entsteht ein Salz und Wasserstoff",
+          "Es entsteht eine Base",
+          "Das Metall löst sich ohne Gasbildung"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Denke an Zink in Salzsäure."
+      ],
+      "feedbackCorrect": "Richtig! Es entsteht ein Salz und Wasserstoff!",
+      "feedbackIncorrect": "Unedle Metalle reagieren mit Säuren zu einem Salz und Wasserstoffgas (H₂)."
+    },
+    {
+      "id": "ahs-chem-k4-saeur-014",
+      "type": "multiple-choice",
+      "areaId": "saeuren-basen",
+      "themeId": "saeuren",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was ist eine starke Säure?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Starke Säure:",
+        "options": [
+          "hat einen hohen pH-Wert",
+          "dissoziiert vollständig in Wasser",
+          "dissoziiert nur teilweise",
+          "ist immer organisch"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "HCl in Wasser: praktisch alle Moleküle zerfallen."
+      ],
+      "feedbackCorrect": "Richtig! Vollständige Dissoziation!",
+      "feedbackIncorrect": "Starke Säuren dissoziieren in Wasser vollständig in ihre Ionen."
+    },
+    {
+      "id": "ahs-chem-k4-saeur-015",
+      "type": "fill-blank",
+      "areaId": "saeuren-basen",
+      "themeId": "saeuren",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Ergänze den Fachbegriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die Spaltung einer Säure in Ionen in Wasser nennt man {{blank}}.",
+        "correctAnswer": "Dissoziation",
+        "acceptableAnswers": [
+          "dissoziation",
+          "Protolyse",
+          "protolyse"
+        ]
+      },
+      "hints": [
+        "Die Säure zerfällt in H⁺ und das Säurerestanion."
+      ],
+      "feedbackCorrect": "Richtig! Dissoziation (Protolyse)!",
+      "feedbackIncorrect": "Die Aufspaltung einer Säure in Ionen in Wasser heißt Dissoziation bzw. Protolyse."
+    },
+    {
+      "id": "ahs-chem-k4-saeur-016",
+      "type": "multiple-choice",
+      "areaId": "saeuren-basen",
+      "themeId": "saeuren",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Wie färbt sich Lackmus-Papier in einer Säure?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Lackmus in Säure:",
+        "options": [
+          "blau",
+          "rot",
+          "grün",
+          "gelb"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Die typische Farbe für sauer."
+      ],
+      "feedbackCorrect": "Richtig! Rot!",
+      "feedbackIncorrect": "Lackmus-Papier färbt sich in saurer Lösung rot."
+    },
+    {
+      "id": "ahs-chem-k4-base-002",
+      "type": "multiple-choice",
+      "areaId": "saeuren-basen",
+      "themeId": "basen",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Was ist eine Base nach Brønsted?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Base nach Brønsted:",
+        "options": [
+          "Protonendonator",
+          "Protonenakzeptor",
+          "Elektronendonator",
+          "Neutronenakzeptor"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Sie nimmt H⁺ auf."
+      ],
+      "feedbackCorrect": "Richtig! Protonenakzeptor!",
+      "feedbackIncorrect": "Nach Brønsted sind Basen Protonenakzeptoren – sie nehmen H⁺-Ionen auf."
+    },
+    {
+      "id": "ahs-chem-k4-base-003",
+      "type": "multiple-choice",
+      "areaId": "saeuren-basen",
+      "themeId": "basen",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Welchen pH-Bereich haben Basen?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "pH-Wert von Basen:",
+        "options": [
+          "unter 7",
+          "genau 7",
+          "über 7",
+          "0"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Basisch = hoch."
+      ],
+      "feedbackCorrect": "Richtig! Über 7!",
+      "feedbackIncorrect": "Basen haben pH-Werte über 7."
+    },
+    {
+      "id": "ahs-chem-k4-base-004",
+      "type": "multiple-choice",
+      "areaId": "saeuren-basen",
+      "themeId": "basen",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Welche Base hat die chemische Formel NaOH?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "NaOH:",
+        "options": [
+          "Kalilauge",
+          "Natronlauge",
+          "Kalkwasser",
+          "Ammoniaklösung"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Natrium + Hydroxid."
+      ],
+      "feedbackCorrect": "Richtig! Natronlauge!",
+      "feedbackIncorrect": "NaOH ist Natriumhydroxid, auch Natronlauge genannt."
+    },
+    {
+      "id": "ahs-chem-k4-base-005",
+      "type": "multiple-choice",
+      "areaId": "saeuren-basen",
+      "themeId": "basen",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Welches Ion ist typisch für Basen in wässriger Lösung?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Typisches Ion für Basen:",
+        "options": [
+          "H⁺",
+          "Cl⁻",
+          "OH⁻",
+          "Na⁺"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Hydroxid."
+      ],
+      "feedbackCorrect": "Richtig! OH⁻ (Hydroxidion)!",
+      "feedbackIncorrect": "Basen setzen in Wasser OH⁻-Ionen (Hydroxidionen) frei."
+    },
+    {
+      "id": "ahs-chem-k4-base-006",
+      "type": "multiple-choice",
+      "areaId": "saeuren-basen",
+      "themeId": "basen",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Was entsteht bei der Neutralisation von NaOH und HCl?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "NaOH + HCl →",
+        "options": [
+          "Na₂O + H₂",
+          "NaCl + H₂O",
+          "NaH + ClO",
+          "Na + Cl₂ + H₂O"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Salz und Wasser."
+      ],
+      "feedbackCorrect": "Richtig! NaCl + H₂O!",
+      "feedbackIncorrect": "NaOH + HCl → NaCl + H₂O (Natriumchlorid und Wasser)."
+    },
+    {
+      "id": "ahs-chem-k4-base-007",
+      "type": "fill-blank",
+      "areaId": "saeuren-basen",
+      "themeId": "basen",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Ergänze den pH-Bereich.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Basen haben einen pH-Wert {{blank}} 7.",
+        "correctAnswer": "über",
+        "acceptableAnswers": [
+          "größer als",
+          "> ",
+          "größer",
+          "mehr als"
+        ]
+      },
+      "hints": [
+        "Basisch = hoch."
+      ],
+      "feedbackCorrect": "Richtig! Über 7!",
+      "feedbackIncorrect": "Basen haben pH-Werte größer als 7."
+    },
+    {
+      "id": "ahs-chem-k4-base-008",
+      "type": "fill-blank",
+      "areaId": "saeuren-basen",
+      "themeId": "basen",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Ergänze die Formel.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die chemische Formel für Kaliumhydroxid ist {{blank}}.",
+        "correctAnswer": "KOH",
+        "acceptableAnswers": [
+          "koh"
+        ]
+      },
+      "hints": [
+        "Kalium + Hydroxid."
+      ],
+      "feedbackCorrect": "Richtig! KOH!",
+      "feedbackIncorrect": "Die chemische Formel für Kaliumhydroxid (Kalilauge) ist KOH."
+    },
+    {
+      "id": "ahs-chem-k4-base-009",
+      "type": "fill-blank",
+      "areaId": "saeuren-basen",
+      "themeId": "basen",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Ergänze den Fachbegriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Nach Brønsted ist eine Base ein {{blank}}.",
+        "correctAnswer": "Protonenakzeptor",
+        "acceptableAnswers": [
+          "protonenakzeptor",
+          "Protonenempfänger"
+        ]
+      },
+      "hints": [
+        "Sie nimmt H⁺ auf."
+      ],
+      "feedbackCorrect": "Richtig! Protonenakzeptor!",
+      "feedbackIncorrect": "Nach Brønsted ist eine Base ein Protonenakzeptor (nimmt H⁺-Ionen auf)."
+    },
+    {
+      "id": "ahs-chem-k4-base-010",
+      "type": "fill-blank",
+      "areaId": "saeuren-basen",
+      "themeId": "basen",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Ergänze das Produkt.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Bei einer Neutralisation reagieren Säure und Base zu Salz und {{blank}}.",
+        "correctAnswer": "Wasser",
+        "acceptableAnswers": [
+          "wasser",
+          "H₂O",
+          "H2O"
+        ]
+      },
+      "hints": [
+        "Das zweite Produkt neben dem Salz."
+      ],
+      "feedbackCorrect": "Richtig! Wasser!",
+      "feedbackIncorrect": "Säure + Base → Salz + Wasser."
+    },
+    {
+      "id": "ahs-chem-k4-base-011",
+      "type": "matching",
+      "areaId": "saeuren-basen",
+      "themeId": "basen",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Ordne die Basen ihren chemischen Formeln zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Natronlauge",
+            "right": "NaOH"
+          },
+          {
+            "left": "Kalilauge",
+            "right": "KOH"
+          },
+          {
+            "left": "Kalkwasser",
+            "right": "Ca(OH)₂"
+          },
+          {
+            "left": "Ammoniak",
+            "right": "NH₃"
+          }
+        ]
+      },
+      "hints": [
+        "Denke an die Metallionen und Hydroxid."
+      ],
+      "feedbackCorrect": "Richtig! Alle Basen korrekt zugeordnet!",
+      "feedbackIncorrect": "NaOH = Natronlauge, KOH = Kalilauge, Ca(OH)₂ = Kalkwasser, NH₃ = Ammoniak."
+    },
+    {
+      "id": "ahs-chem-k4-base-012",
+      "type": "matching",
+      "areaId": "saeuren-basen",
+      "themeId": "basen",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Ordne die Alltagsprodukte dem richtigen pH-Bereich zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Seife",
+            "right": "pH ≈ 9–10"
+          },
+          {
+            "left": "Backpulver-Lösung",
+            "right": "pH ≈ 8"
+          },
+          {
+            "left": "Bleichmittel",
+            "right": "pH ≈ 12–13"
+          },
+          {
+            "left": "Reines Wasser",
+            "right": "pH = 7"
+          }
+        ]
+      },
+      "hints": [
+        "Je basischer, desto höher der pH-Wert."
+      ],
+      "feedbackCorrect": "Richtig! Alle korrekt zugeordnet!",
+      "feedbackIncorrect": "Seife: pH 9–10, Backpulver: pH 8, Bleichmittel: pH 12–13, Wasser: pH 7."
+    },
+    {
+      "id": "ahs-chem-k4-base-013",
+      "type": "sorting",
+      "areaId": "saeuren-basen",
+      "themeId": "basen",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Ordne die Stoffe als basisch oder neutral ein.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "basisch",
+            "items": [
+              "Natronlauge",
+              "Seife",
+              "Ammoniak"
+            ]
+          },
+          {
+            "label": "neutral",
+            "items": [
+              "destilliertes Wasser",
+              "Kochsalzlösung"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "pH-Wert über 7 = basisch, pH 7 = neutral."
+      ],
+      "feedbackCorrect": "Richtig! Korrekt zugeordnet!",
+      "feedbackIncorrect": "Natronlauge, Seife, Ammoniak sind basisch. Destilliertes Wasser und Kochsalzlösung sind annähernd neutral."
+    },
+    {
+      "id": "ahs-chem-k4-base-014",
+      "type": "sorting",
+      "areaId": "saeuren-basen",
+      "themeId": "basen",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Ordne die Stoffe dem richtigen pH-Bereich zu.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "sauer (pH < 7)",
+            "items": [
+              "Essig",
+              "Magensäure"
+            ]
+          },
+          {
+            "label": "neutral (pH = 7)",
+            "items": [
+              "Wasser"
+            ]
+          },
+          {
+            "label": "basisch (pH > 7)",
+            "items": [
+              "Seife",
+              "Natronlauge"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Sauer, neutral oder basisch?"
+      ],
+      "feedbackCorrect": "Richtig! Korrekt zugeordnet!",
+      "feedbackIncorrect": "Essig und Magensäure: sauer. Wasser: neutral. Seife und Natronlauge: basisch."
+    },
+    {
+      "id": "ahs-chem-k4-base-015",
+      "type": "multiple-choice",
+      "areaId": "saeuren-basen",
+      "themeId": "basen",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was ist eine starke Base?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Starke Base:",
+        "options": [
+          "dissoziiert teilweise",
+          "dissoziiert vollständig in Wasser",
+          "hat pH < 7",
+          "ist immer fest"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "NaOH in Wasser: zerfällt praktisch vollständig."
+      ],
+      "feedbackCorrect": "Richtig! Vollständige Dissoziation!",
+      "feedbackIncorrect": "Starke Basen dissoziieren in Wasser vollständig in ihre Ionen."
+    },
+    {
+      "id": "ahs-chem-k4-base-016",
+      "type": "multiple-choice",
+      "areaId": "saeuren-basen",
+      "themeId": "basen",
+      "level": 4,
+      "difficulty": 1,
+      "instruction": "Wie färbt sich Lackmus-Papier in einer Base?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Lackmus in Base:",
+        "options": [
+          "rot",
+          "blau",
+          "grün",
+          "gelb"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Die typische Farbe für basisch."
+      ],
+      "feedbackCorrect": "Richtig! Blau!",
+      "feedbackIncorrect": "Lackmus-Papier färbt sich in basischer Lösung blau."
+    },
+    {
+      "id": "ahs-chem-k4-base-017",
+      "type": "multiple-choice",
+      "areaId": "saeuren-basen",
+      "themeId": "basen",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was ist ein Indikator?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Ein Indikator ist:",
+        "options": [
+          "ein Katalysator",
+          "ein Stoff, der den pH-Wert ändert",
+          "ein Stoff, der den pH-Wert durch Farbänderung anzeigt",
+          "eine Base"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Lackmus, Phenolphthalein, Universalindikator."
+      ],
+      "feedbackCorrect": "Richtig! Ein Stoff, der den pH-Wert durch Farbänderung anzeigt!",
+      "feedbackIncorrect": "Ein Indikator zeigt den pH-Wert einer Lösung durch eine Farbänderung an."
     }
   ]
 }

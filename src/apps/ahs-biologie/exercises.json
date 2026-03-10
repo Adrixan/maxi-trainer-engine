@@ -299,6 +299,3299 @@
       ],
       "feedbackCorrect": "Richtig! Das Erbmolekül!",
       "feedbackIncorrect": "DNA (Desoxyribonukleinsäure) ist das Erbmolekül."
+    },
+    {
+      "id": "ahs-bio-k1-koerper-002",
+      "type": "multiple-choice",
+      "areaId": "menschen",
+      "themeId": "koerper",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Wie viele Knochen hat ein erwachsener Mensch ungefähr?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Anzahl Knochen:",
+        "options": [
+          "106",
+          "206",
+          "306",
+          "406"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Mehr als 200"
+      ],
+      "feedbackCorrect": "Richtig! Etwa 206 Knochen!",
+      "feedbackIncorrect": "Ein erwachsener Mensch hat etwa 206 Knochen."
+    },
+    {
+      "id": "ahs-bio-k1-koerper-003",
+      "type": "multiple-choice",
+      "areaId": "menschen",
+      "themeId": "koerper",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Welches Organ ist für die Atmung zuständig?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Atmungsorgan:",
+        "options": [
+          "Magen",
+          "Lunge",
+          "Niere",
+          "Leber"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Befindet sich im Brustkorb"
+      ],
+      "feedbackCorrect": "Richtig! Die Lunge!",
+      "feedbackIncorrect": "Die Lunge ist das Atmungsorgan des Menschen."
+    },
+    {
+      "id": "ahs-bio-k1-koerper-004",
+      "type": "fill-blank",
+      "areaId": "menschen",
+      "themeId": "koerper",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ergänze den fehlenden Begriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Das {{blank}} ist das größte Organ des Menschen.",
+        "correctAnswer": "Haut",
+        "acceptableAnswers": [
+          "Die Haut"
+        ]
+      },
+      "hints": [
+        "Es bedeckt den gesamten Körper"
+      ],
+      "feedbackCorrect": "Richtig! Die Haut!",
+      "feedbackIncorrect": "Die Haut ist mit etwa 2 m² das größte Organ des Menschen."
+    },
+    {
+      "id": "ahs-bio-k1-koerper-005",
+      "type": "matching",
+      "areaId": "menschen",
+      "themeId": "koerper",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ordne die Organe ihrer Funktion zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Herz",
+            "right": "Blut pumpen"
+          },
+          {
+            "left": "Lunge",
+            "right": "Atmung"
+          },
+          {
+            "left": "Magen",
+            "right": "Verdauung"
+          },
+          {
+            "left": "Gehirn",
+            "right": "Denken"
+          }
+        ]
+      },
+      "hints": [
+        "Überlege, was jedes Organ hauptsächlich tut"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Herz = Blut pumpen, Lunge = Atmung, Magen = Verdauung, Gehirn = Denken."
+    },
+    {
+      "id": "ahs-bio-k1-koerper-006",
+      "type": "sorting",
+      "areaId": "menschen",
+      "themeId": "koerper",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Sortiere die Körperteile in die richtige Kategorie.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Oberkörper",
+            "items": [
+              "Herz",
+              "Lunge",
+              "Magen"
+            ]
+          },
+          {
+            "label": "Kopf",
+            "items": [
+              "Gehirn",
+              "Augen",
+              "Ohren"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Wo befinden sich diese Organe?"
+      ],
+      "feedbackCorrect": "Super sortiert!",
+      "feedbackIncorrect": "Herz, Lunge und Magen sind im Oberkörper; Gehirn, Augen und Ohren im Kopf."
+    },
+    {
+      "id": "ahs-bio-k1-koerper-007",
+      "type": "multiple-choice",
+      "areaId": "menschen",
+      "themeId": "koerper",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Welcher Muskel arbeitet unwillkürlich?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Unwillkürlicher Muskel:",
+        "options": [
+          "Bizeps",
+          "Herzmuskel",
+          "Trizeps",
+          "Wadenmuskel"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Dieser Muskel schlägt von alleine"
+      ],
+      "feedbackCorrect": "Richtig! Der Herzmuskel!",
+      "feedbackIncorrect": "Der Herzmuskel arbeitet automatisch und unwillkürlich."
+    },
+    {
+      "id": "ahs-bio-k1-koerper-008",
+      "type": "fill-blank",
+      "areaId": "menschen",
+      "themeId": "koerper",
+      "level": 1,
+      "difficulty": 2,
+      "instruction": "Ergänze den fehlenden Begriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die roten {{blank}} transportieren Sauerstoff im Blut.",
+        "correctAnswer": "Blutkörperchen",
+        "acceptableAnswers": [
+          "Erythrozyten",
+          "Blutzellen"
+        ]
+      },
+      "hints": [
+        "Sie machen das Blut rot"
+      ],
+      "feedbackCorrect": "Richtig! Rote Blutkörperchen!",
+      "feedbackIncorrect": "Rote Blutkörperchen (Erythrozyten) transportieren Sauerstoff."
+    },
+    {
+      "id": "ahs-bio-k2-koerper-001",
+      "type": "multiple-choice",
+      "areaId": "menschen",
+      "themeId": "koerper",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Wo wird die Nahrung hauptsächlich verdaut?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Hauptverdauungsort:",
+        "options": [
+          "Mund",
+          "Speiseröhre",
+          "Dünndarm",
+          "Dickdarm"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Die meisten Nährstoffe werden hier aufgenommen"
+      ],
+      "feedbackCorrect": "Richtig! Im Dünndarm!",
+      "feedbackIncorrect": "Im Dünndarm werden die meisten Nährstoffe aufgenommen."
+    },
+    {
+      "id": "ahs-bio-k2-koerper-002",
+      "type": "multiple-choice",
+      "areaId": "menschen",
+      "themeId": "koerper",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Welchen Blutkreislauf gibt es NICHT beim Menschen?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Nicht existierender Kreislauf:",
+        "options": [
+          "Lungenkreislauf",
+          "Körperkreislauf",
+          "Armkreislauf",
+          "Beide existieren"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Es gibt nur zwei Kreisläufe"
+      ],
+      "feedbackCorrect": "Richtig! Es gibt keinen eigenen Armkreislauf!",
+      "feedbackIncorrect": "Der Mensch hat einen Lungen- und einen Körperkreislauf."
+    },
+    {
+      "id": "ahs-bio-k2-koerper-003",
+      "type": "matching",
+      "areaId": "menschen",
+      "themeId": "koerper",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die Bestandteile des Blutes ihrer Funktion zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Rote Blutkörperchen",
+            "right": "Sauerstofftransport"
+          },
+          {
+            "left": "Weiße Blutkörperchen",
+            "right": "Immunabwehr"
+          },
+          {
+            "left": "Blutplättchen",
+            "right": "Blutgerinnung"
+          },
+          {
+            "left": "Blutplasma",
+            "right": "Nährstofftransport"
+          }
+        ]
+      },
+      "hints": [
+        "Jeder Bestandteil hat eine spezielle Aufgabe"
+      ],
+      "feedbackCorrect": "Perfekt zugeordnet!",
+      "feedbackIncorrect": "Rote BK = Sauerstoff, Weiße BK = Abwehr, Plättchen = Gerinnung, Plasma = Transport."
+    },
+    {
+      "id": "ahs-bio-k2-koerper-004",
+      "type": "fill-blank",
+      "areaId": "menschen",
+      "themeId": "koerper",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ergänze den fehlenden Begriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die {{blank}} ist die Schaltzentrale des Nervensystems.",
+        "correctAnswer": "Gehirn",
+        "acceptableAnswers": [
+          "Das Gehirn"
+        ]
+      },
+      "hints": [
+        "Es befindet sich im Schädel"
+      ],
+      "feedbackCorrect": "Richtig! Das Gehirn!",
+      "feedbackIncorrect": "Das Gehirn steuert alle wichtigen Körperfunktionen."
+    },
+    {
+      "id": "ahs-bio-k2-koerper-005",
+      "type": "sorting",
+      "areaId": "menschen",
+      "themeId": "koerper",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Sortiere die Organe nach Organsystemen.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Verdauungssystem",
+            "items": [
+              "Magen",
+              "Dünndarm",
+              "Leber"
+            ]
+          },
+          {
+            "label": "Atmungssystem",
+            "items": [
+              "Lunge",
+              "Luftröhre",
+              "Bronchien"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Welche Organe gehören zur Verdauung, welche zur Atmung?"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Magen, Dünndarm, Leber = Verdauung; Lunge, Luftröhre, Bronchien = Atmung."
+    },
+    {
+      "id": "ahs-bio-k1-ern-002",
+      "type": "multiple-choice",
+      "areaId": "menschen",
+      "themeId": "ernaehrung",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Welcher Nährstoff liefert dem Körper schnell Energie?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Schneller Energielieferant:",
+        "options": [
+          "Eiweiß",
+          "Fett",
+          "Kohlenhydrate",
+          "Vitamine"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Brot und Nudeln enthalten viel davon"
+      ],
+      "feedbackCorrect": "Richtig! Kohlenhydrate!",
+      "feedbackIncorrect": "Kohlenhydrate sind der wichtigste schnelle Energielieferant."
+    },
+    {
+      "id": "ahs-bio-k1-ern-003",
+      "type": "fill-blank",
+      "areaId": "menschen",
+      "themeId": "ernaehrung",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ergänze den fehlenden Begriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Der Mensch sollte täglich mindestens 1,5 Liter {{blank}} trinken.",
+        "correctAnswer": "Wasser",
+        "acceptableAnswers": [
+          "Flüssigkeit"
+        ]
+      },
+      "hints": [
+        "Es ist durchsichtig und hat keinen Geschmack"
+      ],
+      "feedbackCorrect": "Richtig! Wasser!",
+      "feedbackIncorrect": "Ausreichend Wasser trinken ist sehr wichtig für die Gesundheit."
+    },
+    {
+      "id": "ahs-bio-k1-ern-004",
+      "type": "matching",
+      "areaId": "menschen",
+      "themeId": "ernaehrung",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ordne die Lebensmittel den Nährstoffgruppen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Brot",
+            "right": "Kohlenhydrate"
+          },
+          {
+            "left": "Butter",
+            "right": "Fette"
+          },
+          {
+            "left": "Fleisch",
+            "right": "Eiweiß"
+          },
+          {
+            "left": "Orange",
+            "right": "Vitamine"
+          }
+        ]
+      },
+      "hints": [
+        "Überlege, welcher Hauptnährstoff in jedem Lebensmittel steckt"
+      ],
+      "feedbackCorrect": "Prima zugeordnet!",
+      "feedbackIncorrect": "Brot = Kohlenhydrate, Butter = Fette, Fleisch = Eiweiß, Orange = Vitamine."
+    },
+    {
+      "id": "ahs-bio-k1-ern-005",
+      "type": "sorting",
+      "areaId": "menschen",
+      "themeId": "ernaehrung",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Sortiere die Lebensmittel in gesund und weniger gesund.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Gesund",
+            "items": [
+              "Apfel",
+              "Vollkornbrot",
+              "Karotte"
+            ]
+          },
+          {
+            "label": "Weniger gesund",
+            "items": [
+              "Chips",
+              "Limonade",
+              "Schokoriegel"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Frisches Obst und Gemüse sind immer eine gute Wahl"
+      ],
+      "feedbackCorrect": "Gut sortiert!",
+      "feedbackIncorrect": "Obst, Gemüse und Vollkornprodukte sind gesünder als Süßigkeiten und Chips."
+    },
+    {
+      "id": "ahs-bio-k1-ern-006",
+      "type": "multiple-choice",
+      "areaId": "menschen",
+      "themeId": "ernaehrung",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Was ist die Aufgabe von Ballaststoffen?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Ballaststoffe:",
+        "options": [
+          "Muskeln aufbauen",
+          "Verdauung fördern",
+          "Knochen stärken",
+          "Blut bilden"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Sie helfen dem Darm"
+      ],
+      "feedbackCorrect": "Richtig! Ballaststoffe fördern die Verdauung!",
+      "feedbackIncorrect": "Ballaststoffe regen die Darmtätigkeit an und fördern die Verdauung."
+    },
+    {
+      "id": "ahs-bio-k1-ern-007",
+      "type": "multiple-choice",
+      "areaId": "menschen",
+      "themeId": "ernaehrung",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Welches Mineral stärkt die Knochen?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Knochenstärkendes Mineral:",
+        "options": [
+          "Eisen",
+          "Kalzium",
+          "Natrium",
+          "Kalium"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Es ist viel in Milch enthalten"
+      ],
+      "feedbackCorrect": "Richtig! Kalzium!",
+      "feedbackIncorrect": "Kalzium ist wichtig für starke Knochen und Zähne."
+    },
+    {
+      "id": "ahs-bio-k1-ern-008",
+      "type": "fill-blank",
+      "areaId": "menschen",
+      "themeId": "ernaehrung",
+      "level": 1,
+      "difficulty": 2,
+      "instruction": "Ergänze den fehlenden Begriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Vitamin {{blank}} stärkt das Immunsystem und ist in Zitrusfrüchten enthalten.",
+        "correctAnswer": "C",
+        "acceptableAnswers": [
+          "Vitamin C"
+        ]
+      },
+      "hints": [
+        "Orangen und Zitronen enthalten viel davon"
+      ],
+      "feedbackCorrect": "Richtig! Vitamin C!",
+      "feedbackIncorrect": "Vitamin C ist wichtig für die Abwehrkräfte und kommt in Obst und Gemüse vor."
+    },
+    {
+      "id": "ahs-bio-k2-ern-001",
+      "type": "multiple-choice",
+      "areaId": "menschen",
+      "themeId": "ernaehrung",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Was passiert mit Kohlenhydraten bei der Verdauung?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Kohlenhydrate werden:",
+        "options": [
+          "In Fett umgewandelt",
+          "In Einfachzucker zerlegt",
+          "Ausgeschieden",
+          "Zu Wasser"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Sie werden in kleinere Einheiten gespalten"
+      ],
+      "feedbackCorrect": "Richtig! In Einfachzucker zerlegt!",
+      "feedbackIncorrect": "Kohlenhydrate werden durch Enzyme in Einfachzucker (Glucose) gespalten."
+    },
+    {
+      "id": "ahs-bio-k2-ern-002",
+      "type": "matching",
+      "areaId": "menschen",
+      "themeId": "ernaehrung",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die Vitamine ihren Funktionen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Vitamin A",
+            "right": "Sehkraft"
+          },
+          {
+            "left": "Vitamin C",
+            "right": "Immunsystem"
+          },
+          {
+            "left": "Vitamin D",
+            "right": "Knochenaufbau"
+          },
+          {
+            "left": "Vitamin K",
+            "right": "Blutgerinnung"
+          }
+        ]
+      },
+      "hints": [
+        "Jedes Vitamin hat eine besondere Aufgabe im Körper"
+      ],
+      "feedbackCorrect": "Toll zugeordnet!",
+      "feedbackIncorrect": "Vitamin A = Sehkraft, C = Immunsystem, D = Knochen, K = Blutgerinnung."
+    },
+    {
+      "id": "ahs-bio-k2-ern-003",
+      "type": "sorting",
+      "areaId": "menschen",
+      "themeId": "ernaehrung",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Sortiere die Nährstoffe nach ihrer Energiedichte.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Hohe Energiedichte",
+            "items": [
+              "Fette",
+              "Öle",
+              "Nüsse"
+            ]
+          },
+          {
+            "label": "Niedrige Energiedichte",
+            "items": [
+              "Gemüse",
+              "Obst",
+              "Salat"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Fett hat pro Gramm die meisten Kalorien"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Fette und Öle haben die höchste Energiedichte, Gemüse und Obst die niedrigste."
+    },
+    {
+      "id": "ahs-bio-k2-ern-004",
+      "type": "multiple-choice",
+      "areaId": "menschen",
+      "themeId": "ernaehrung",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Welches Enzym spaltet Stärke im Mund?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Stärkespaltendes Enzym:",
+        "options": [
+          "Pepsin",
+          "Amylase",
+          "Lipase",
+          "Trypsin"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Es befindet sich im Speichel"
+      ],
+      "feedbackCorrect": "Richtig! Amylase!",
+      "feedbackIncorrect": "Die Amylase im Speichel beginnt die Spaltung von Stärke bereits im Mund."
+    },
+    {
+      "id": "ahs-bio-k2-ern-005",
+      "type": "fill-blank",
+      "areaId": "menschen",
+      "themeId": "ernaehrung",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ergänze den fehlenden Begriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die Ernährungspyramide zeigt, dass man viel {{blank}} und Obst essen soll.",
+        "correctAnswer": "Gemüse",
+        "acceptableAnswers": [
+          "Salat"
+        ]
+      },
+      "hints": [
+        "Es bildet zusammen mit Obst die Basis einer gesunden Ernährung"
+      ],
+      "feedbackCorrect": "Richtig! Gemüse!",
+      "feedbackIncorrect": "Gemüse und Obst bilden eine wichtige Basis der Ernährungspyramide."
+    },
+    {
+      "id": "ahs-bio-k2-ges-002",
+      "type": "multiple-choice",
+      "areaId": "menschen",
+      "themeId": "gesundheit",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Warum ist regelmäßige Bewegung wichtig?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Bewegung:",
+        "options": [
+          "Macht müde",
+          "Stärkt Herz und Muskeln",
+          "Ist unwichtig",
+          "Schadet den Knochen"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Sport hält fit"
+      ],
+      "feedbackCorrect": "Richtig! Bewegung stärkt Herz und Muskeln!",
+      "feedbackIncorrect": "Regelmäßige Bewegung stärkt das Herz-Kreislauf-System und die Muskulatur."
+    },
+    {
+      "id": "ahs-bio-k2-ges-003",
+      "type": "fill-blank",
+      "areaId": "menschen",
+      "themeId": "gesundheit",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Ergänze den fehlenden Begriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Beim {{blank}} werden Krankheitserreger durch abgeschwächte Erreger bekämpft.",
+        "correctAnswer": "Impfen",
+        "acceptableAnswers": [
+          "Impfung",
+          "der Impfung"
+        ]
+      },
+      "hints": [
+        "Es ist eine Schutzmaßnahme beim Arzt"
+      ],
+      "feedbackCorrect": "Richtig! Beim Impfen!",
+      "feedbackIncorrect": "Impfungen trainieren das Immunsystem mit abgeschwächten oder abgetöteten Erregern."
+    },
+    {
+      "id": "ahs-bio-k2-ges-004",
+      "type": "matching",
+      "areaId": "menschen",
+      "themeId": "gesundheit",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die Krankheitserreger den Krankheiten zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Viren",
+            "right": "Grippe"
+          },
+          {
+            "left": "Bakterien",
+            "right": "Scharlach"
+          },
+          {
+            "left": "Pilze",
+            "right": "Fußpilz"
+          }
+        ]
+      },
+      "hints": [
+        "Verschiedene Erreger verursachen verschiedene Krankheiten"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Grippe wird durch Viren, Scharlach durch Bakterien und Fußpilz durch Pilze verursacht."
+    },
+    {
+      "id": "ahs-bio-k2-ges-005",
+      "type": "sorting",
+      "areaId": "menschen",
+      "themeId": "gesundheit",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Sortiere die Maßnahmen: Vorbeugung oder Behandlung?",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Vorbeugung",
+            "items": [
+              "Händewaschen",
+              "Impfung",
+              "Gesunde Ernährung"
+            ]
+          },
+          {
+            "label": "Behandlung",
+            "items": [
+              "Antibiotika",
+              "Fiebermittel",
+              "Bettruhe"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Was tut man VOR einer Krankheit, was WÄHREND?"
+      ],
+      "feedbackCorrect": "Super sortiert!",
+      "feedbackIncorrect": "Händewaschen, Impfung, gesunde Ernährung = Vorbeugung; Antibiotika, Fiebermittel, Bettruhe = Behandlung."
+    },
+    {
+      "id": "ahs-bio-k2-ges-006",
+      "type": "multiple-choice",
+      "areaId": "menschen",
+      "themeId": "gesundheit",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Was sind Antibiotika?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Antibiotika:",
+        "options": [
+          "Vitamine",
+          "Medikamente gegen Bakterien",
+          "Impfstoffe",
+          "Schmerzmittel"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Sie wirken nicht gegen Viren"
+      ],
+      "feedbackCorrect": "Richtig! Medikamente gegen Bakterien!",
+      "feedbackIncorrect": "Antibiotika töten Bakterien ab oder hemmen ihr Wachstum. Gegen Viren helfen sie nicht."
+    },
+    {
+      "id": "ahs-bio-k3-ges-002",
+      "type": "multiple-choice",
+      "areaId": "menschen",
+      "themeId": "gesundheit",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Was sind Antikörper?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Antikörper:",
+        "options": [
+          "Rote Blutkörperchen",
+          "Proteine zur Erregerbekämpfung",
+          "Vitamine",
+          "Hormone"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Sie werden vom Immunsystem produziert"
+      ],
+      "feedbackCorrect": "Richtig! Proteine zur Erregerbekämpfung!",
+      "feedbackIncorrect": "Antikörper sind Proteine, die Krankheitserreger erkennen und markieren."
+    },
+    {
+      "id": "ahs-bio-k3-ges-003",
+      "type": "fill-blank",
+      "areaId": "menschen",
+      "themeId": "gesundheit",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Ergänze den fehlenden Begriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die weißen {{blank}} sind Teil des Immunsystems und bekämpfen Erreger.",
+        "correctAnswer": "Blutkörperchen",
+        "acceptableAnswers": [
+          "Leukozyten",
+          "Blutzellen"
+        ]
+      },
+      "hints": [
+        "Sie sind Teil des Blutes"
+      ],
+      "feedbackCorrect": "Richtig! Weiße Blutkörperchen!",
+      "feedbackIncorrect": "Weiße Blutkörperchen (Leukozyten) sind die Abwehrzellen des Immunsystems."
+    },
+    {
+      "id": "ahs-bio-k3-ges-004",
+      "type": "matching",
+      "areaId": "menschen",
+      "themeId": "gesundheit",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Ordne die Abwehrmechanismen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Haut",
+            "right": "Mechanische Barriere"
+          },
+          {
+            "left": "Magensäure",
+            "right": "Chemische Abwehr"
+          },
+          {
+            "left": "Fieber",
+            "right": "Unspezifische Abwehr"
+          },
+          {
+            "left": "Antikörper",
+            "right": "Spezifische Abwehr"
+          }
+        ]
+      },
+      "hints": [
+        "Der Körper hat verschiedene Abwehrmechanismen"
+      ],
+      "feedbackCorrect": "Perfekt zugeordnet!",
+      "feedbackIncorrect": "Haut = mechanische Barriere, Magensäure = chemisch, Fieber = unspezifisch, Antikörper = spezifisch."
+    },
+    {
+      "id": "ahs-bio-k3-ges-005",
+      "type": "multiple-choice",
+      "areaId": "menschen",
+      "themeId": "gesundheit",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Was versteht man unter einer Autoimmunerkrankung?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Autoimmunerkrankung:",
+        "options": [
+          "Allergie gegen Tiere",
+          "Immunsystem greift eigene Zellen an",
+          "Schwaches Immunsystem",
+          "Infektion mit Viren"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Das Immunsystem macht einen Fehler"
+      ],
+      "feedbackCorrect": "Richtig! Das Immunsystem greift eigene Zellen an!",
+      "feedbackIncorrect": "Bei Autoimmunerkrankungen richtet sich das Immunsystem fälschlicherweise gegen körpereigene Zellen."
+    },
+    {
+      "id": "ahs-bio-k3-ges-006",
+      "type": "sorting",
+      "areaId": "menschen",
+      "themeId": "gesundheit",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Sortiere die Erreger nach Art.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Viren",
+            "items": [
+              "Grippe",
+              "Masern",
+              "COVID-19"
+            ]
+          },
+          {
+            "label": "Bakterien",
+            "items": [
+              "Tuberkulose",
+              "Tetanus",
+              "Borreliose"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Viren sind kleiner als Bakterien"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Grippe, Masern, COVID-19 = Viren; Tuberkulose, Tetanus, Borreliose = Bakterien."
+    },
+    {
+      "id": "ahs-bio-k3-ges-007",
+      "type": "fill-blank",
+      "areaId": "menschen",
+      "themeId": "gesundheit",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Ergänze den fehlenden Begriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Eine {{blank}} ist eine überschießende Reaktion des Immunsystems auf harmlose Stoffe.",
+        "correctAnswer": "Allergie",
+        "acceptableAnswers": [
+          "allergische Reaktion"
+        ]
+      },
+      "hints": [
+        "Heuschnupfen ist ein Beispiel"
+      ],
+      "feedbackCorrect": "Richtig! Eine Allergie!",
+      "feedbackIncorrect": "Bei einer Allergie reagiert das Immunsystem übermäßig auf an sich harmlose Substanzen."
+    },
+    {
+      "id": "ahs-bio-k3-ges-008",
+      "type": "multiple-choice",
+      "areaId": "menschen",
+      "themeId": "gesundheit",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Was ist passive Immunisierung?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Passive Immunisierung:",
+        "options": [
+          "Impfung mit abgeschwächten Erregern",
+          "Gabe fertiger Antikörper",
+          "Natürliche Infektion",
+          "Einnahme von Vitaminen"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Die Antikörper werden nicht selbst gebildet"
+      ],
+      "feedbackCorrect": "Richtig! Gabe fertiger Antikörper!",
+      "feedbackIncorrect": "Bei der passiven Immunisierung werden dem Körper fertige Antikörper zugeführt."
+    },
+    {
+      "id": "ahs-bio-k2-sinn-002",
+      "type": "multiple-choice",
+      "areaId": "menschen",
+      "themeId": "sinne",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Wie viele Sinne hat der Mensch klassischerweise?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Anzahl Sinne:",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Sehen, Hören, Riechen, Schmecken und ..."
+      ],
+      "feedbackCorrect": "Richtig! 5 Sinne!",
+      "feedbackIncorrect": "Die fünf Sinne sind Sehen, Hören, Riechen, Schmecken und Tasten."
+    },
+    {
+      "id": "ahs-bio-k2-sinn-003",
+      "type": "fill-blank",
+      "areaId": "menschen",
+      "themeId": "sinne",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Ergänze den fehlenden Begriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Das {{blank}} ist das Sinnesorgan für das Hören.",
+        "correctAnswer": "Ohr",
+        "acceptableAnswers": [
+          "Das Ohr"
+        ]
+      },
+      "hints": [
+        "Es sitzt seitlich am Kopf"
+      ],
+      "feedbackCorrect": "Richtig! Das Ohr!",
+      "feedbackIncorrect": "Das Ohr nimmt Schallwellen auf und leitet sie an das Gehirn weiter."
+    },
+    {
+      "id": "ahs-bio-k2-sinn-004",
+      "type": "matching",
+      "areaId": "menschen",
+      "themeId": "sinne",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Ordne die Sinnesorgane dem richtigen Sinn zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Auge",
+            "right": "Sehen"
+          },
+          {
+            "left": "Ohr",
+            "right": "Hören"
+          },
+          {
+            "left": "Nase",
+            "right": "Riechen"
+          },
+          {
+            "left": "Zunge",
+            "right": "Schmecken"
+          },
+          {
+            "left": "Haut",
+            "right": "Tasten"
+          }
+        ]
+      },
+      "hints": [
+        "Jedes Sinnesorgan hat eine bestimmte Aufgabe"
+      ],
+      "feedbackCorrect": "Perfekt zugeordnet!",
+      "feedbackIncorrect": "Auge = Sehen, Ohr = Hören, Nase = Riechen, Zunge = Schmecken, Haut = Tasten."
+    },
+    {
+      "id": "ahs-bio-k2-sinn-005",
+      "type": "multiple-choice",
+      "areaId": "menschen",
+      "themeId": "sinne",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Welcher Teil des Auges steuert den Lichteinfall?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Lichtsteuerung im Auge:",
+        "options": [
+          "Netzhaut",
+          "Iris",
+          "Linse",
+          "Sehnerv"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Sie bestimmt auch die Augenfarbe"
+      ],
+      "feedbackCorrect": "Richtig! Die Iris!",
+      "feedbackIncorrect": "Die Iris (Regenbogenhaut) reguliert durch die Pupille den Lichteinfall ins Auge."
+    },
+    {
+      "id": "ahs-bio-k2-sinn-006",
+      "type": "fill-blank",
+      "areaId": "menschen",
+      "themeId": "sinne",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ergänze den fehlenden Begriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die {{blank}} im Innenohr ist für das Gleichgewicht zuständig.",
+        "correctAnswer": "Schnecke",
+        "acceptableAnswers": [
+          "Cochlea"
+        ]
+      },
+      "hints": [
+        "Dieses Organ hat eine spiralförmige Form"
+      ],
+      "feedbackCorrect": "Richtig!",
+      "feedbackIncorrect": "Die Schnecke (Cochlea) im Innenohr wandelt Schall in Nervenimpulse um. Das Gleichgewichtsorgan befindet sich ebenfalls im Innenohr."
+    },
+    {
+      "id": "ahs-bio-k2-sinn-007",
+      "type": "multiple-choice",
+      "areaId": "menschen",
+      "themeId": "sinne",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Welche Geschmacksrichtungen kann die Zunge wahrnehmen?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Geschmacksrichtungen:",
+        "options": [
+          "Nur süß und sauer",
+          "Süß, sauer, salzig, bitter, umami",
+          "Nur salzig und bitter",
+          "Nur süß"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Es sind fünf verschiedene"
+      ],
+      "feedbackCorrect": "Richtig! Süß, sauer, salzig, bitter und umami!",
+      "feedbackIncorrect": "Die Zunge unterscheidet fünf Geschmacksrichtungen: süß, sauer, salzig, bitter und umami."
+    },
+    {
+      "id": "ahs-bio-k2-sinn-008",
+      "type": "sorting",
+      "areaId": "menschen",
+      "themeId": "sinne",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Sortiere die Reize nach dem zuständigen Sinn.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Sehen",
+            "items": [
+              "Licht",
+              "Farben",
+              "Formen"
+            ]
+          },
+          {
+            "label": "Hören",
+            "items": [
+              "Musik",
+              "Sprache",
+              "Geräusche"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Welche Reize nimmt das Auge wahr, welche das Ohr?"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Licht, Farben, Formen = Sehen; Musik, Sprache, Geräusche = Hören."
+    },
+    {
+      "id": "ahs-bio-k2-sinn-009",
+      "type": "multiple-choice",
+      "areaId": "menschen",
+      "themeId": "sinne",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Was ist ein Reflex?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Reflex:",
+        "options": [
+          "Bewusste Reaktion",
+          "Unwillkürliche schnelle Reaktion",
+          "Langsame Bewegung",
+          "Gedanke"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Zum Beispiel das Zurückziehen der Hand von einer heißen Herdplatte"
+      ],
+      "feedbackCorrect": "Richtig! Eine unwillkürliche schnelle Reaktion!",
+      "feedbackIncorrect": "Reflexe sind automatische, schnelle Reaktionen des Körpers auf einen Reiz."
+    },
+    {
+      "id": "ahs-bio-k2-sinn-010",
+      "type": "fill-blank",
+      "areaId": "menschen",
+      "themeId": "sinne",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ergänze den fehlenden Begriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die {{blank}} im Auge bündelt das Licht auf der Netzhaut.",
+        "correctAnswer": "Linse",
+        "acceptableAnswers": [
+          "Augenlinse"
+        ]
+      },
+      "hints": [
+        "Sie kann ihre Form verändern, um scharf zu sehen"
+      ],
+      "feedbackCorrect": "Richtig! Die Linse!",
+      "feedbackIncorrect": "Die Augenlinse fokussiert das einfallende Licht auf die Netzhaut."
+    },
+    {
+      "id": "ahs-bio-k2-sinn-011",
+      "type": "matching",
+      "areaId": "menschen",
+      "themeId": "sinne",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die Teile des Auges ihren Funktionen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Pupille",
+            "right": "Lichteinlass"
+          },
+          {
+            "left": "Linse",
+            "right": "Fokussierung"
+          },
+          {
+            "left": "Netzhaut",
+            "right": "Bildempfang"
+          },
+          {
+            "left": "Sehnerv",
+            "right": "Signalweiterleitung"
+          }
+        ]
+      },
+      "hints": [
+        "Das Auge hat verschiedene Teile mit je einer Aufgabe"
+      ],
+      "feedbackCorrect": "Super zugeordnet!",
+      "feedbackIncorrect": "Pupille = Lichteinlass, Linse = Fokussierung, Netzhaut = Bildempfang, Sehnerv = Signalweiterleitung."
+    },
+    {
+      "id": "ahs-bio-k2-sinn-012",
+      "type": "multiple-choice",
+      "areaId": "menschen",
+      "themeId": "sinne",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Welches Sinnesorgan hat die größte Oberfläche?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Größtes Sinnesorgan:",
+        "options": [
+          "Auge",
+          "Nase",
+          "Ohr",
+          "Haut"
+        ],
+        "correctIndex": 3
+      },
+      "hints": [
+        "Es bedeckt den ganzen Körper"
+      ],
+      "feedbackCorrect": "Richtig! Die Haut!",
+      "feedbackIncorrect": "Die Haut ist das größte Sinnesorgan und nimmt Druck, Temperatur und Schmerz wahr."
+    },
+    {
+      "id": "ahs-bio-k2-sinn-013",
+      "type": "multiple-choice",
+      "areaId": "menschen",
+      "themeId": "sinne",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Was passiert bei Kurzsichtigkeit?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Kurzsichtigkeit:",
+        "options": [
+          "Das Bild entsteht hinter der Netzhaut",
+          "Das Bild entsteht vor der Netzhaut",
+          "Die Linse fehlt",
+          "Das Auge ist zu klein"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Nahe Objekte sieht man gut, ferne schlecht"
+      ],
+      "feedbackCorrect": "Richtig! Das Bild entsteht vor der Netzhaut!",
+      "feedbackIncorrect": "Bei Kurzsichtigkeit ist der Augapfel zu lang und das Bild entsteht vor der Netzhaut."
+    },
+    {
+      "id": "ahs-bio-k1-tier-002",
+      "type": "multiple-choice",
+      "areaId": "tiere",
+      "themeId": "tiergruppen",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Welches Tier ist ein Reptil?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Reptil:",
+        "options": [
+          "Frosch",
+          "Eidechse",
+          "Forelle",
+          "Amsel"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Es hat trockene Schuppen"
+      ],
+      "feedbackCorrect": "Richtig! Die Eidechse!",
+      "feedbackIncorrect": "Eidechsen gehören zu den Reptilien und haben trockene, schuppige Haut."
+    },
+    {
+      "id": "ahs-bio-k1-tier-003",
+      "type": "fill-blank",
+      "areaId": "tiere",
+      "themeId": "tiergruppen",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ergänze den fehlenden Begriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Tiere mit einer Wirbelsäule nennt man {{blank}}.",
+        "correctAnswer": "Wirbeltiere",
+        "acceptableAnswers": [
+          "Vertebraten"
+        ]
+      },
+      "hints": [
+        "Sie haben ein inneres Skelett mit Wirbeln"
+      ],
+      "feedbackCorrect": "Richtig! Wirbeltiere!",
+      "feedbackIncorrect": "Wirbeltiere besitzen eine Wirbelsäule als Teil ihres Innenskeletts."
+    },
+    {
+      "id": "ahs-bio-k1-tier-004",
+      "type": "matching",
+      "areaId": "tiere",
+      "themeId": "tiergruppen",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ordne die Tiere der richtigen Gruppe zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Hund",
+            "right": "Säugetier"
+          },
+          {
+            "left": "Adler",
+            "right": "Vogel"
+          },
+          {
+            "left": "Karpfen",
+            "right": "Fisch"
+          },
+          {
+            "left": "Frosch",
+            "right": "Amphibie"
+          }
+        ]
+      },
+      "hints": [
+        "Überlege, wie sich diese Tiere fortpflanzen und wo sie leben"
+      ],
+      "feedbackCorrect": "Prima zugeordnet!",
+      "feedbackIncorrect": "Hund = Säugetier, Adler = Vogel, Karpfen = Fisch, Frosch = Amphibie."
+    },
+    {
+      "id": "ahs-bio-k1-tier-005",
+      "type": "sorting",
+      "areaId": "tiere",
+      "themeId": "tiergruppen",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Sortiere die Tiere: Wirbeltiere oder Wirbellose?",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Wirbeltiere",
+            "items": [
+              "Katze",
+              "Lachs",
+              "Schlange"
+            ]
+          },
+          {
+            "label": "Wirbellose",
+            "items": [
+              "Regenwurm",
+              "Biene",
+              "Schnecke"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Wirbeltiere haben eine Wirbelsäule"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Katze, Lachs, Schlange = Wirbeltiere; Regenwurm, Biene, Schnecke = Wirbellose."
+    },
+    {
+      "id": "ahs-bio-k1-tier-006",
+      "type": "multiple-choice",
+      "areaId": "tiere",
+      "themeId": "tiergruppen",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Was unterscheidet Amphibien von Reptilien?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Amphibien:",
+        "options": [
+          "Haben Federn",
+          "Leben im Wasser und an Land, feuchte Haut",
+          "Haben Schuppen",
+          "Können fliegen"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Frösche und Molche gehören dazu"
+      ],
+      "feedbackCorrect": "Richtig! Amphibien leben im Wasser und an Land!",
+      "feedbackIncorrect": "Amphibien haben eine feuchte Haut und durchlaufen eine Metamorphose."
+    },
+    {
+      "id": "ahs-bio-k1-tier-007",
+      "type": "multiple-choice",
+      "areaId": "tiere",
+      "themeId": "tiergruppen",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Welches Merkmal haben alle Vögel gemeinsam?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Alle Vögel haben:",
+        "options": [
+          "Zähne",
+          "Federn",
+          "Fell",
+          "Schuppen"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Es hält sie warm und ermöglicht vielen das Fliegen"
+      ],
+      "feedbackCorrect": "Richtig! Federn!",
+      "feedbackIncorrect": "Alle Vögel haben Federn, auch flugunfähige Arten wie der Pinguin."
+    },
+    {
+      "id": "ahs-bio-k1-tier-008",
+      "type": "fill-blank",
+      "areaId": "tiere",
+      "themeId": "tiergruppen",
+      "level": 1,
+      "difficulty": 2,
+      "instruction": "Ergänze den fehlenden Begriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Insekten haben immer {{blank}} Beine.",
+        "correctAnswer": "sechs",
+        "acceptableAnswers": [
+          "6"
+        ]
+      },
+      "hints": [
+        "Es sind mehr als vier, aber weniger als acht"
+      ],
+      "feedbackCorrect": "Richtig! Sechs Beine!",
+      "feedbackIncorrect": "Alle Insekten haben genau sechs Beine."
+    },
+    {
+      "id": "ahs-bio-k2-tier-001",
+      "type": "multiple-choice",
+      "areaId": "tiere",
+      "themeId": "tiergruppen",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Was ist Metamorphose?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Metamorphose:",
+        "options": [
+          "Fortpflanzung",
+          "Gestaltwandlung während der Entwicklung",
+          "Winterschlaf",
+          "Wanderung"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Ein Frosch durchlebt dies von der Kaulquappe zum erwachsenen Tier"
+      ],
+      "feedbackCorrect": "Richtig! Gestaltwandlung!",
+      "feedbackIncorrect": "Metamorphose ist die Verwandlung eines Tieres während seiner Entwicklung, z. B. Kaulquappe zu Frosch."
+    },
+    {
+      "id": "ahs-bio-k2-tier-002",
+      "type": "matching",
+      "areaId": "tiere",
+      "themeId": "tiergruppen",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die Merkmale den Tiergruppen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Federn und Schnabel",
+            "right": "Vögel"
+          },
+          {
+            "left": "Schuppen und wechselwarm",
+            "right": "Reptilien"
+          },
+          {
+            "left": "Feuchte Haut und Metamorphose",
+            "right": "Amphibien"
+          },
+          {
+            "left": "Fell und Milch",
+            "right": "Säugetiere"
+          }
+        ]
+      },
+      "hints": [
+        "Jede Tiergruppe hat typische Merkmale"
+      ],
+      "feedbackCorrect": "Perfekt zugeordnet!",
+      "feedbackIncorrect": "Federn = Vögel, Schuppen = Reptilien, feuchte Haut = Amphibien, Fell = Säugetiere."
+    },
+    {
+      "id": "ahs-bio-k2-tier-003",
+      "type": "sorting",
+      "areaId": "tiere",
+      "themeId": "tiergruppen",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Sortiere die Tiere nach ihrer Körpertemperaturregulierung.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Gleichwarm",
+            "items": [
+              "Hund",
+              "Amsel",
+              "Wal"
+            ]
+          },
+          {
+            "label": "Wechselwarm",
+            "items": [
+              "Eidechse",
+              "Frosch",
+              "Forelle"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Säugetiere und Vögel sind gleichwarm"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Hund, Amsel, Wal = gleichwarm; Eidechse, Frosch, Forelle = wechselwarm."
+    },
+    {
+      "id": "ahs-bio-k2-tier-004",
+      "type": "fill-blank",
+      "areaId": "tiere",
+      "themeId": "tiergruppen",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ergänze den fehlenden Begriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Fische atmen mit {{blank}} und nehmen so Sauerstoff aus dem Wasser auf.",
+        "correctAnswer": "Kiemen",
+        "acceptableAnswers": [
+          "den Kiemen"
+        ]
+      },
+      "hints": [
+        "Es sind keine Lungen"
+      ],
+      "feedbackCorrect": "Richtig! Kiemen!",
+      "feedbackIncorrect": "Kiemen sind die Atmungsorgane der Fische und filtern Sauerstoff aus dem Wasser."
+    },
+    {
+      "id": "ahs-bio-k2-tier-005",
+      "type": "multiple-choice",
+      "areaId": "tiere",
+      "themeId": "tiergruppen",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Welche Tiergruppe gehört zu den Wirbellosen?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Wirbellose:",
+        "options": [
+          "Säugetiere",
+          "Vögel",
+          "Insekten",
+          "Fische"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Diese Tiere haben kein Innenskelett mit Wirbelsäule"
+      ],
+      "feedbackCorrect": "Richtig! Insekten!",
+      "feedbackIncorrect": "Insekten sind wirbellose Tiere. Sie haben ein Außenskelett aus Chitin."
+    },
+    {
+      "id": "ahs-bio-k1-pfl-002",
+      "type": "multiple-choice",
+      "areaId": "pflanzen",
+      "themeId": "pflgruppen",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Welcher Pflanzenteil nimmt Wasser aus dem Boden auf?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Wasseraufnahme:",
+        "options": [
+          "Blatt",
+          "Stamm",
+          "Wurzel",
+          "Blüte"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Er befindet sich unter der Erde"
+      ],
+      "feedbackCorrect": "Richtig! Die Wurzel!",
+      "feedbackIncorrect": "Die Wurzel verankert die Pflanze im Boden und nimmt Wasser und Nährstoffe auf."
+    },
+    {
+      "id": "ahs-bio-k1-pfl-003",
+      "type": "fill-blank",
+      "areaId": "pflanzen",
+      "themeId": "pflgruppen",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ergänze den fehlenden Begriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die {{blank}} einer Pflanze betreibt Photosynthese.",
+        "correctAnswer": "Blatt",
+        "acceptableAnswers": [
+          "Das Blatt",
+          "Blätter"
+        ]
+      },
+      "hints": [
+        "Dieser Teil ist meist grün"
+      ],
+      "feedbackCorrect": "Richtig! Das Blatt!",
+      "feedbackIncorrect": "In den Blättern findet die Photosynthese statt."
+    },
+    {
+      "id": "ahs-bio-k1-pfl-004",
+      "type": "matching",
+      "areaId": "pflanzen",
+      "themeId": "pflgruppen",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ordne die Pflanzenteile ihren Funktionen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Wurzel",
+            "right": "Wasser aufnehmen"
+          },
+          {
+            "left": "Stamm",
+            "right": "Wasser transportieren"
+          },
+          {
+            "left": "Blatt",
+            "right": "Photosynthese"
+          },
+          {
+            "left": "Blüte",
+            "right": "Fortpflanzung"
+          }
+        ]
+      },
+      "hints": [
+        "Jeder Pflanzenteil hat eine wichtige Aufgabe"
+      ],
+      "feedbackCorrect": "Prima zugeordnet!",
+      "feedbackIncorrect": "Wurzel = Wasser, Stamm = Transport, Blatt = Photosynthese, Blüte = Fortpflanzung."
+    },
+    {
+      "id": "ahs-bio-k1-pfl-005",
+      "type": "sorting",
+      "areaId": "pflanzen",
+      "themeId": "pflgruppen",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Sortiere: Laubbaum oder Nadelbaum?",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Laubbäume",
+            "items": [
+              "Eiche",
+              "Buche",
+              "Ahorn"
+            ]
+          },
+          {
+            "label": "Nadelbäume",
+            "items": [
+              "Fichte",
+              "Tanne",
+              "Kiefer"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Laubbäume haben breite Blätter, Nadelbäume haben Nadeln"
+      ],
+      "feedbackCorrect": "Gut sortiert!",
+      "feedbackIncorrect": "Eiche, Buche, Ahorn = Laubbäume; Fichte, Tanne, Kiefer = Nadelbäume."
+    },
+    {
+      "id": "ahs-bio-k1-pfl-006",
+      "type": "multiple-choice",
+      "areaId": "pflanzen",
+      "themeId": "pflgruppen",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Was entsteht aus einer befruchteten Blüte?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Aus der Blüte entsteht:",
+        "options": [
+          "Ein Blatt",
+          "Eine Frucht mit Samen",
+          "Eine Wurzel",
+          "Ein neuer Stamm"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Äpfel und Kirschen sind Beispiele"
+      ],
+      "feedbackCorrect": "Richtig! Eine Frucht mit Samen!",
+      "feedbackIncorrect": "Nach der Befruchtung entwickelt sich aus der Blüte eine Frucht, die Samen enthält."
+    },
+    {
+      "id": "ahs-bio-k1-pfl-007",
+      "type": "multiple-choice",
+      "areaId": "pflanzen",
+      "themeId": "pflgruppen",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Wie heißt der Farbstoff, der Blätter grün macht?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Grüner Farbstoff:",
+        "options": [
+          "Melanin",
+          "Chlorophyll",
+          "Hämoglobin",
+          "Karotin"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Er ist wichtig für die Photosynthese"
+      ],
+      "feedbackCorrect": "Richtig! Chlorophyll!",
+      "feedbackIncorrect": "Chlorophyll ist der grüne Blattfarbstoff und spielt eine zentrale Rolle bei der Photosynthese."
+    },
+    {
+      "id": "ahs-bio-k1-pfl-008",
+      "type": "fill-blank",
+      "areaId": "pflanzen",
+      "themeId": "pflgruppen",
+      "level": 1,
+      "difficulty": 2,
+      "instruction": "Ergänze den fehlenden Begriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die Bestäubung von Blüten erfolgt oft durch {{blank}} oder Wind.",
+        "correctAnswer": "Insekten",
+        "acceptableAnswers": [
+          "Bienen"
+        ]
+      },
+      "hints": [
+        "Bienen sind wichtige Helfer dabei"
+      ],
+      "feedbackCorrect": "Richtig! Insekten!",
+      "feedbackIncorrect": "Insekten wie Bienen tragen Pollen von Blüte zu Blüte und ermöglichen so die Befruchtung."
+    },
+    {
+      "id": "ahs-bio-k2-pfl-001",
+      "type": "multiple-choice",
+      "areaId": "pflanzen",
+      "themeId": "pflgruppen",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Was ist der Unterschied zwischen einkeimblättrigen und zweikeimblättrigen Pflanzen?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Keimblätter:",
+        "options": [
+          "Blütenfarbe",
+          "Anzahl der Keimblätter beim Keimen",
+          "Wurzeltiefe",
+          "Blattform"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Gräser haben eines, Bohnen haben zwei"
+      ],
+      "feedbackCorrect": "Richtig! Die Anzahl der Keimblätter!",
+      "feedbackIncorrect": "Einkeimblättrige (z. B. Gräser) haben ein Keimblatt, zweikeimblättrige (z. B. Bohnen) haben zwei."
+    },
+    {
+      "id": "ahs-bio-k2-pfl-002",
+      "type": "matching",
+      "areaId": "pflanzen",
+      "themeId": "pflgruppen",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die Pflanzen ihren Gruppen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Rose",
+            "right": "Blütenpflanze"
+          },
+          {
+            "left": "Farn",
+            "right": "Sporenpflanze"
+          },
+          {
+            "left": "Moos",
+            "right": "Moospflanze"
+          },
+          {
+            "left": "Fichte",
+            "right": "Nadelbaum"
+          }
+        ]
+      },
+      "hints": [
+        "Nicht alle Pflanzen bilden Blüten"
+      ],
+      "feedbackCorrect": "Toll zugeordnet!",
+      "feedbackIncorrect": "Rose = Blütenpflanze, Farn = Sporenpflanze, Moos = Moospflanze, Fichte = Nadelbaum."
+    },
+    {
+      "id": "ahs-bio-k2-pfl-003",
+      "type": "sorting",
+      "areaId": "pflanzen",
+      "themeId": "pflgruppen",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Sortiere die Verbreitungsarten von Samen.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Windverbreitung",
+            "items": [
+              "Löwenzahn",
+              "Ahorn",
+              "Birke"
+            ]
+          },
+          {
+            "label": "Tierverbreitung",
+            "items": [
+              "Klette",
+              "Kirsche",
+              "Eichel"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Manche Samen fliegen, andere werden von Tieren getragen oder gefressen"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Löwenzahn, Ahorn, Birke = Wind; Klette, Kirsche, Eichel = Tiere."
+    },
+    {
+      "id": "ahs-bio-k2-pfl-004",
+      "type": "fill-blank",
+      "areaId": "pflanzen",
+      "themeId": "pflgruppen",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ergänze den fehlenden Begriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Pflanzen nehmen {{blank}} über die Spaltöffnungen der Blätter auf.",
+        "correctAnswer": "Kohlendioxid",
+        "acceptableAnswers": [
+          "CO2",
+          "Kohlenstoffdioxid"
+        ]
+      },
+      "hints": [
+        "Dieses Gas atmen wir aus"
+      ],
+      "feedbackCorrect": "Richtig! Kohlendioxid!",
+      "feedbackIncorrect": "Pflanzen nehmen CO₂ über die Spaltöffnungen auf und nutzen es für die Photosynthese."
+    },
+    {
+      "id": "ahs-bio-k2-pfl-005",
+      "type": "multiple-choice",
+      "areaId": "pflanzen",
+      "themeId": "pflgruppen",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Was ist die Aufgabe des Stängels bei krautigen Pflanzen?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Stängel:",
+        "options": [
+          "Photosynthese",
+          "Wasser- und Nährstofftransport",
+          "Bestäubung",
+          "Samenbildung"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Er verbindet Wurzel und Blätter"
+      ],
+      "feedbackCorrect": "Richtig! Wasser- und Nährstofftransport!",
+      "feedbackIncorrect": "Der Stängel transportiert Wasser und Nährstoffe zwischen Wurzel und Blättern."
+    },
+    {
+      "id": "ahs-bio-k2-photo-002",
+      "type": "multiple-choice",
+      "areaId": "pflanzen",
+      "themeId": "photosynthese",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Wo findet die Photosynthese hauptsächlich statt?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Ort der Photosynthese:",
+        "options": [
+          "In der Wurzel",
+          "Im Blatt",
+          "Im Stamm",
+          "In der Blüte"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Dieser Teil ist grün"
+      ],
+      "feedbackCorrect": "Richtig! Im Blatt!",
+      "feedbackIncorrect": "Die Photosynthese findet hauptsächlich in den grünen Blättern statt."
+    },
+    {
+      "id": "ahs-bio-k2-photo-003",
+      "type": "fill-blank",
+      "areaId": "pflanzen",
+      "themeId": "photosynthese",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ergänze den fehlenden Begriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Bei der Photosynthese wird {{blank}} als Energiequelle genutzt.",
+        "correctAnswer": "Licht",
+        "acceptableAnswers": [
+          "Sonnenlicht",
+          "Lichtenergie"
+        ]
+      },
+      "hints": [
+        "Es kommt von der Sonne"
+      ],
+      "feedbackCorrect": "Richtig! Licht!",
+      "feedbackIncorrect": "Pflanzen nutzen Lichtenergie, um aus CO₂ und Wasser Zucker und Sauerstoff herzustellen."
+    },
+    {
+      "id": "ahs-bio-k2-photo-004",
+      "type": "matching",
+      "areaId": "pflanzen",
+      "themeId": "photosynthese",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die Stoffe zu: Was braucht die Pflanze, was gibt sie ab?",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Kohlendioxid",
+            "right": "Wird aufgenommen"
+          },
+          {
+            "left": "Wasser",
+            "right": "Wird aufgenommen"
+          },
+          {
+            "left": "Sauerstoff",
+            "right": "Wird abgegeben"
+          },
+          {
+            "left": "Glucose",
+            "right": "Wird hergestellt"
+          }
+        ]
+      },
+      "hints": [
+        "Überlege die Gleichung der Photosynthese"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "CO₂ und Wasser werden aufgenommen, Sauerstoff wird abgegeben und Glucose hergestellt."
+    },
+    {
+      "id": "ahs-bio-k2-photo-005",
+      "type": "multiple-choice",
+      "areaId": "pflanzen",
+      "themeId": "photosynthese",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Welcher Farbstoff fängt das Licht für die Photosynthese ein?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Lichtfänger:",
+        "options": [
+          "Hämoglobin",
+          "Melanin",
+          "Chlorophyll",
+          "Karotin"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Er macht die Blätter grün"
+      ],
+      "feedbackCorrect": "Richtig! Chlorophyll!",
+      "feedbackIncorrect": "Chlorophyll absorbiert Lichtenergie und ist für die grüne Farbe der Blätter verantwortlich."
+    },
+    {
+      "id": "ahs-bio-k2-photo-006",
+      "type": "sorting",
+      "areaId": "pflanzen",
+      "themeId": "photosynthese",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Sortiere: Edukte oder Produkte der Photosynthese?",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Edukte (Ausgangsstoffe)",
+            "items": [
+              "Kohlendioxid",
+              "Wasser"
+            ]
+          },
+          {
+            "label": "Produkte",
+            "items": [
+              "Sauerstoff",
+              "Glucose"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Was wird verbraucht, was entsteht?"
+      ],
+      "feedbackCorrect": "Super sortiert!",
+      "feedbackIncorrect": "Kohlendioxid und Wasser sind Edukte; Sauerstoff und Glucose sind Produkte."
+    },
+    {
+      "id": "ahs-bio-k2-photo-007",
+      "type": "fill-blank",
+      "areaId": "pflanzen",
+      "themeId": "photosynthese",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ergänze den fehlenden Begriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die Photosynthese findet in den {{blank}} der Pflanzenzellen statt.",
+        "correctAnswer": "Chloroplasten",
+        "acceptableAnswers": [
+          "Blattgrünkörperchen"
+        ]
+      },
+      "hints": [
+        "In ihnen befindet sich das Chlorophyll"
+      ],
+      "feedbackCorrect": "Richtig! Chloroplasten!",
+      "feedbackIncorrect": "Chloroplasten sind die Zellorganellen, in denen die Photosynthese abläuft."
+    },
+    {
+      "id": "ahs-bio-k3-photo-001",
+      "type": "multiple-choice",
+      "areaId": "pflanzen",
+      "themeId": "photosynthese",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Wie lautet die vereinfachte Gleichung der Photosynthese?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Photosynthese-Gleichung:",
+        "options": [
+          "CO₂ + H₂O → C₆H₁₂O₆ + O₂",
+          "O₂ + C₆H₁₂O₆ → CO₂ + H₂O",
+          "N₂ + H₂ → NH₃",
+          "CO₂ → C + O₂"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Kohlendioxid und Wasser werden zu Zucker und Sauerstoff"
+      ],
+      "feedbackCorrect": "Richtig! CO₂ + H₂O → Glucose + O₂!",
+      "feedbackIncorrect": "Die Photosynthese wandelt Kohlendioxid und Wasser mithilfe von Licht in Glucose und Sauerstoff um."
+    },
+    {
+      "id": "ahs-bio-k3-photo-002",
+      "type": "multiple-choice",
+      "areaId": "pflanzen",
+      "themeId": "photosynthese",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Warum sind Pflanzen für das Leben auf der Erde essentiell?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Pflanzen sind wichtig, weil:",
+        "options": [
+          "Sie schön aussehen",
+          "Sie Sauerstoff produzieren und CO₂ binden",
+          "Sie nur Nahrung liefern",
+          "Sie Wasser speichern"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Denke an die Photosynthese"
+      ],
+      "feedbackCorrect": "Richtig! Sauerstoff und CO₂-Bindung!",
+      "feedbackIncorrect": "Pflanzen produzieren den Sauerstoff, den wir atmen, und binden das Treibhausgas CO₂."
+    },
+    {
+      "id": "ahs-bio-k3-photo-003",
+      "type": "fill-blank",
+      "areaId": "pflanzen",
+      "themeId": "photosynthese",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Ergänze den fehlenden Begriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die Lichtreaktion der Photosynthese findet an den {{blank}} der Chloroplasten statt.",
+        "correctAnswer": "Thylakoiden",
+        "acceptableAnswers": [
+          "Thylakoidmembranen"
+        ]
+      },
+      "hints": [
+        "Es sind Membransysteme in den Chloroplasten"
+      ],
+      "feedbackCorrect": "Richtig! Thylakoiden!",
+      "feedbackIncorrect": "Die Lichtreaktion findet an den Thylakoidmembranen statt, wo Lichtenergie eingefangen wird."
+    },
+    {
+      "id": "ahs-bio-k3-photo-004",
+      "type": "matching",
+      "areaId": "pflanzen",
+      "themeId": "photosynthese",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Ordne die Teilprozesse der Photosynthese zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Lichtreaktion",
+            "right": "Spaltung von Wasser, Energiegewinnung"
+          },
+          {
+            "left": "Dunkelreaktion",
+            "right": "CO₂-Fixierung, Glucoseaufbau"
+          }
+        ]
+      },
+      "hints": [
+        "Die Photosynthese besteht aus zwei Hauptphasen"
+      ],
+      "feedbackCorrect": "Toll zugeordnet!",
+      "feedbackIncorrect": "Lichtreaktion = Wasserspaltung; Dunkelreaktion (Calvin-Zyklus) = CO₂-Fixierung und Glucoseaufbau."
+    },
+    {
+      "id": "ahs-bio-k3-photo-005",
+      "type": "multiple-choice",
+      "areaId": "pflanzen",
+      "themeId": "photosynthese",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Was passiert bei der Dunkelreaktion (Calvin-Zyklus)?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Dunkelreaktion:",
+        "options": [
+          "Wasser wird gespalten",
+          "CO₂ wird in Glucose umgewandelt",
+          "Sauerstoff wird aufgenommen",
+          "Chlorophyll wird gebildet"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Hier wird der Kohlenstoff fixiert"
+      ],
+      "feedbackCorrect": "Richtig! CO₂ wird in Glucose umgewandelt!",
+      "feedbackIncorrect": "Im Calvin-Zyklus wird CO₂ fixiert und schrittweise zu Glucose aufgebaut."
+    },
+    {
+      "id": "ahs-bio-k3-photo-006",
+      "type": "sorting",
+      "areaId": "pflanzen",
+      "themeId": "photosynthese",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Sortiere die Prozesse: Photosynthese oder Zellatmung?",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Photosynthese",
+            "items": [
+              "CO₂-Aufnahme",
+              "Glucoseproduktion",
+              "O₂-Abgabe"
+            ]
+          },
+          {
+            "label": "Zellatmung",
+            "items": [
+              "O₂-Verbrauch",
+              "Energiefreisetzung",
+              "CO₂-Abgabe"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Diese Prozesse sind gegenläufig"
+      ],
+      "feedbackCorrect": "Perfekt sortiert!",
+      "feedbackIncorrect": "Photosynthese nimmt CO₂ auf und gibt O₂ ab; Zellatmung verbraucht O₂ und gibt CO₂ ab."
+    },
+    {
+      "id": "ahs-bio-k2-oeko-002",
+      "type": "multiple-choice",
+      "areaId": "oekologie",
+      "themeId": "oekosysteme",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Was ist eine Nahrungskette?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Nahrungskette:",
+        "options": [
+          "Eine Kette aus Metall",
+          "Die Abfolge wer wen frisst",
+          "Eine Pflanze",
+          "Ein Fluss"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Es zeigt Fressbeziehungen"
+      ],
+      "feedbackCorrect": "Richtig! Die Abfolge wer wen frisst!",
+      "feedbackIncorrect": "Eine Nahrungskette zeigt, wer von wem gefressen wird, z. B. Gras → Hase → Fuchs."
+    },
+    {
+      "id": "ahs-bio-k2-oeko-003",
+      "type": "fill-blank",
+      "areaId": "oekologie",
+      "themeId": "oekosysteme",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Ergänze den fehlenden Begriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Tiere, die andere Tiere fressen, nennt man {{blank}}.",
+        "correctAnswer": "Räuber",
+        "acceptableAnswers": [
+          "Raubtiere",
+          "Prädatoren",
+          "Konsumenten"
+        ]
+      },
+      "hints": [
+        "Der Fuchs ist ein Beispiel"
+      ],
+      "feedbackCorrect": "Richtig! Räuber!",
+      "feedbackIncorrect": "Räuber (Prädatoren) ernähren sich von anderen Tieren."
+    },
+    {
+      "id": "ahs-bio-k2-oeko-004",
+      "type": "matching",
+      "areaId": "oekologie",
+      "themeId": "oekosysteme",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die Lebewesen ihrer Rolle im Ökosystem zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Pflanze",
+            "right": "Produzent"
+          },
+          {
+            "left": "Hase",
+            "right": "Konsument"
+          },
+          {
+            "left": "Pilz",
+            "right": "Destruent"
+          }
+        ]
+      },
+      "hints": [
+        "Produzenten stellen Nahrung her, Konsumenten fressen, Destruenten zersetzen"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Pflanzen = Produzenten, Hasen = Konsumenten, Pilze = Destruenten."
+    },
+    {
+      "id": "ahs-bio-k2-oeko-005",
+      "type": "sorting",
+      "areaId": "oekologie",
+      "themeId": "oekosysteme",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Sortiere die Lebewesen in die richtige Nahrungsketten-Ebene.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Produzenten",
+            "items": [
+              "Gras",
+              "Algen",
+              "Baum"
+            ]
+          },
+          {
+            "label": "Konsumenten",
+            "items": [
+              "Reh",
+              "Habicht",
+              "Marienkäfer"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Wer stellt Nahrung her, wer frisst?"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Gras, Algen, Baum = Produzenten; Reh, Habicht, Marienkäfer = Konsumenten."
+    },
+    {
+      "id": "ahs-bio-k2-oeko-006",
+      "type": "multiple-choice",
+      "areaId": "oekologie",
+      "themeId": "oekosysteme",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Was sind Destruenten?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Destruenten:",
+        "options": [
+          "Raubtiere",
+          "Pflanzen",
+          "Zersetzer von totem Material",
+          "Parasiten"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Pilze und Bakterien gehören dazu"
+      ],
+      "feedbackCorrect": "Richtig! Zersetzer!",
+      "feedbackIncorrect": "Destruenten wie Pilze und Bakterien zersetzen totes organisches Material und recyceln Nährstoffe."
+    },
+    {
+      "id": "ahs-bio-k2-oeko-007",
+      "type": "fill-blank",
+      "areaId": "oekologie",
+      "themeId": "oekosysteme",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ergänze den fehlenden Begriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Der Lebensraum eines Tieres wird auch als {{blank}} bezeichnet.",
+        "correctAnswer": "Habitat",
+        "acceptableAnswers": [
+          "Biotop",
+          "Lebensraum"
+        ]
+      },
+      "hints": [
+        "Ein anderes Wort für Lebensraum"
+      ],
+      "feedbackCorrect": "Richtig! Habitat!",
+      "feedbackIncorrect": "Das Habitat ist der natürliche Lebensraum einer Art."
+    },
+    {
+      "id": "ahs-bio-k3-oeko-001",
+      "type": "multiple-choice",
+      "areaId": "oekologie",
+      "themeId": "oekosysteme",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Was versteht man unter Biodiversität?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Biodiversität:",
+        "options": [
+          "Viele Menschen",
+          "Vielfalt der Arten und Ökosysteme",
+          "Große Wälder",
+          "Viel Wasser"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Bio = Leben, Diversität = Vielfalt"
+      ],
+      "feedbackCorrect": "Richtig! Vielfalt der Arten und Ökosysteme!",
+      "feedbackIncorrect": "Biodiversität bezeichnet die Vielfalt der Arten, Gene und Ökosysteme."
+    },
+    {
+      "id": "ahs-bio-k3-oeko-002",
+      "type": "matching",
+      "areaId": "oekologie",
+      "themeId": "oekosysteme",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Ordne die Ökosysteme den Beschreibungen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Wald",
+            "right": "Bäume dominieren, viele Schichten"
+          },
+          {
+            "left": "See",
+            "right": "Stehendes Süßwasser"
+          },
+          {
+            "left": "Wiese",
+            "right": "Gräser und Kräuter dominieren"
+          },
+          {
+            "left": "Moor",
+            "right": "Nasser, saurer Boden mit Torfbildung"
+          }
+        ]
+      },
+      "hints": [
+        "Jedes Ökosystem hat typische Merkmale"
+      ],
+      "feedbackCorrect": "Super zugeordnet!",
+      "feedbackIncorrect": "Wald = Bäume, See = stehendes Wasser, Wiese = Gräser, Moor = nasser Torfboden."
+    },
+    {
+      "id": "ahs-bio-k3-oeko-003",
+      "type": "multiple-choice",
+      "areaId": "oekologie",
+      "themeId": "oekosysteme",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Was ist eine ökologische Nische?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Ökologische Nische:",
+        "options": [
+          "Ein Versteck",
+          "Die Gesamtheit der Umweltbeziehungen einer Art",
+          "Ein Nest",
+          "Ein Biotop"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Es beschreibt die Rolle einer Art im Ökosystem"
+      ],
+      "feedbackCorrect": "Richtig! Die Gesamtheit der Umweltbeziehungen!",
+      "feedbackIncorrect": "Die ökologische Nische beschreibt alle Umweltfaktoren und Beziehungen, die eine Art zum Überleben braucht."
+    },
+    {
+      "id": "ahs-bio-k3-oeko-004",
+      "type": "fill-blank",
+      "areaId": "oekologie",
+      "themeId": "oekosysteme",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Ergänze den fehlenden Begriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "In einem {{blank}} leben verschiedene Arten in Wechselbeziehungen miteinander.",
+        "correctAnswer": "Ökosystem",
+        "acceptableAnswers": [
+          "Biotop"
+        ]
+      },
+      "hints": [
+        "Es ist ein Zusammenspiel von Lebewesen und Umwelt"
+      ],
+      "feedbackCorrect": "Richtig! Ökosystem!",
+      "feedbackIncorrect": "Ein Ökosystem ist die Einheit aus Lebensgemeinschaft (Biozönose) und Lebensraum (Biotop)."
+    },
+    {
+      "id": "ahs-bio-k3-oeko-005",
+      "type": "sorting",
+      "areaId": "oekologie",
+      "themeId": "oekosysteme",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Sortiere die Beziehungen zwischen Arten.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Symbiose (beide profitieren)",
+            "items": [
+              "Biene und Blüte",
+              "Clownfisch und Anemone"
+            ]
+          },
+          {
+            "label": "Parasitismus (einer schadet)",
+            "items": [
+              "Zecke und Reh",
+              "Bandwurm und Mensch"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Bei Symbiose gewinnen beide, beim Parasitismus nur einer"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Biene-Blüte, Clownfisch-Anemone = Symbiose; Zecke-Reh, Bandwurm-Mensch = Parasitismus."
+    },
+    {
+      "id": "ahs-bio-k3-oeko-006",
+      "type": "multiple-choice",
+      "areaId": "oekologie",
+      "themeId": "oekosysteme",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Was passiert mit der Energie in einer Nahrungskette?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Energie in der Nahrungskette:",
+        "options": [
+          "Wird mehr",
+          "Nimmt von Stufe zu Stufe ab",
+          "Bleibt gleich",
+          "Verdoppelt sich"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Nur ca. 10% werden weitergegeben"
+      ],
+      "feedbackCorrect": "Richtig! Sie nimmt ab!",
+      "feedbackIncorrect": "Bei jeder Stufe der Nahrungskette geht etwa 90% der Energie als Wärme verloren."
+    },
+    {
+      "id": "ahs-bio-k3-umwelt-002",
+      "type": "multiple-choice",
+      "areaId": "oekologie",
+      "themeId": "umwelt",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Was ist die Hauptursache des menschengemachten Klimawandels?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Hauptursache:",
+        "options": [
+          "Vulkanausbrüche",
+          "Verbrennung fossiler Brennstoffe",
+          "Sonnenflecken",
+          "Mondphasen"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Es geht um CO₂-Ausstoß"
+      ],
+      "feedbackCorrect": "Richtig! Verbrennung fossiler Brennstoffe!",
+      "feedbackIncorrect": "Die Verbrennung von Kohle, Erdöl und Erdgas erhöht den CO₂-Gehalt in der Atmosphäre."
+    },
+    {
+      "id": "ahs-bio-k3-umwelt-003",
+      "type": "fill-blank",
+      "areaId": "oekologie",
+      "themeId": "umwelt",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Ergänze den fehlenden Begriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Das Gas {{blank}} ist das wichtigste Treibhausgas, das der Mensch freisetzt.",
+        "correctAnswer": "CO₂",
+        "acceptableAnswers": [
+          "Kohlendioxid",
+          "Kohlenstoffdioxid"
+        ]
+      },
+      "hints": [
+        "Es entsteht bei der Verbrennung von fossilen Brennstoffen"
+      ],
+      "feedbackCorrect": "Richtig! CO₂!",
+      "feedbackIncorrect": "Kohlendioxid (CO₂) ist das wichtigste vom Menschen verursachte Treibhausgas."
+    },
+    {
+      "id": "ahs-bio-k3-umwelt-004",
+      "type": "matching",
+      "areaId": "oekologie",
+      "themeId": "umwelt",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Ordne die Umweltprobleme den Ursachen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Klimawandel",
+            "right": "CO₂-Ausstoß"
+          },
+          {
+            "left": "Ozonloch",
+            "right": "FCKW-Gase"
+          },
+          {
+            "left": "Waldsterben",
+            "right": "Luftverschmutzung"
+          },
+          {
+            "left": "Artensterben",
+            "right": "Lebensraumzerstörung"
+          }
+        ]
+      },
+      "hints": [
+        "Jedes Umweltproblem hat eine Hauptursache"
+      ],
+      "feedbackCorrect": "Perfekt zugeordnet!",
+      "feedbackIncorrect": "Klimawandel = CO₂, Ozonloch = FCKW, Waldsterben = Luftverschmutzung, Artensterben = Lebensraumzerstörung."
+    },
+    {
+      "id": "ahs-bio-k3-umwelt-005",
+      "type": "sorting",
+      "areaId": "oekologie",
+      "themeId": "umwelt",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Sortiere: Erneuerbare oder fossile Energiequelle?",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Erneuerbar",
+            "items": [
+              "Solarenergie",
+              "Windkraft",
+              "Wasserkraft"
+            ]
+          },
+          {
+            "label": "Fossil",
+            "items": [
+              "Kohle",
+              "Erdöl",
+              "Erdgas"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Fossile Brennstoffe sind endlich"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Solarenergie, Windkraft, Wasserkraft = erneuerbar; Kohle, Erdöl, Erdgas = fossil."
+    },
+    {
+      "id": "ahs-bio-k3-umwelt-006",
+      "type": "multiple-choice",
+      "areaId": "oekologie",
+      "themeId": "umwelt",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Was bedeutet Nachhaltigkeit?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Nachhaltigkeit:",
+        "options": [
+          "Alles verbrauchen",
+          "So leben, dass auch zukünftige Generationen gut leben können",
+          "Schnell wachsen",
+          "Viel produzieren"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Es geht um die Zukunft"
+      ],
+      "feedbackCorrect": "Richtig! Für zukünftige Generationen sorgen!",
+      "feedbackIncorrect": "Nachhaltigkeit bedeutet, natürliche Ressourcen so zu nutzen, dass sie auch für kommende Generationen erhalten bleiben."
+    },
+    {
+      "id": "ahs-bio-k3-umwelt-007",
+      "type": "fill-blank",
+      "areaId": "oekologie",
+      "themeId": "umwelt",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Ergänze den fehlenden Begriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die Rote {{blank}} ist ein Verzeichnis gefährdeter Tier- und Pflanzenarten.",
+        "correctAnswer": "Liste",
+        "acceptableAnswers": [
+          "Rote Liste"
+        ]
+      },
+      "hints": [
+        "Sie wird von der IUCN herausgegeben"
+      ],
+      "feedbackCorrect": "Richtig! Rote Liste!",
+      "feedbackIncorrect": "Die Rote Liste der IUCN dokumentiert den Gefährdungsstatus von Tier- und Pflanzenarten weltweit."
+    },
+    {
+      "id": "ahs-bio-k4-umwelt-001",
+      "type": "multiple-choice",
+      "areaId": "oekologie",
+      "themeId": "umwelt",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Was ist der ökologische Fußabdruck?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Ökologischer Fußabdruck:",
+        "options": [
+          "Schuhgröße",
+          "Maß für den Ressourcenverbrauch einer Person",
+          "Fläche eines Waldes",
+          "Bevölkerungsdichte"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Er misst, wie viel Natur wir verbrauchen"
+      ],
+      "feedbackCorrect": "Richtig! Maß für den Ressourcenverbrauch!",
+      "feedbackIncorrect": "Der ökologische Fußabdruck misst, wie viel Fläche benötigt wird, um den Lebensstil einer Person zu tragen."
+    },
+    {
+      "id": "ahs-bio-k4-umwelt-002",
+      "type": "matching",
+      "areaId": "oekologie",
+      "themeId": "umwelt",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Ordne die Schutzmaßnahmen den Umweltproblemen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Energiesparen",
+            "right": "Klimawandel"
+          },
+          {
+            "left": "Recycling",
+            "right": "Müllproblem"
+          },
+          {
+            "left": "Naturschutzgebiete",
+            "right": "Artensterben"
+          },
+          {
+            "left": "Kläranlagen",
+            "right": "Wasserverschmutzung"
+          }
+        ]
+      },
+      "hints": [
+        "Welche Maßnahme hilft bei welchem Problem?"
+      ],
+      "feedbackCorrect": "Super zugeordnet!",
+      "feedbackIncorrect": "Energiesparen → Klima, Recycling → Müll, Naturschutzgebiete → Arten, Kläranlagen → Wasser."
+    },
+    {
+      "id": "ahs-bio-k4-umwelt-003",
+      "type": "sorting",
+      "areaId": "oekologie",
+      "themeId": "umwelt",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Sortiere die Abfälle nach Verrottungsdauer.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Schnell (Wochen bis Monate)",
+            "items": [
+              "Bananenschale",
+              "Papiertuch",
+              "Apfelgehäuse"
+            ]
+          },
+          {
+            "label": "Langsam (Jahre bis Jahrhunderte)",
+            "items": [
+              "Plastikflasche",
+              "Aludose",
+              "Glasflasche"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Natürliche Stoffe verrotten schneller als künstliche"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Bananenschale, Papier, Apfel verrotten schnell; Plastik, Alu, Glas brauchen sehr lange."
+    },
+    {
+      "id": "ahs-bio-k4-umwelt-004",
+      "type": "fill-blank",
+      "areaId": "oekologie",
+      "themeId": "umwelt",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Ergänze den fehlenden Begriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Der Verlust von {{blank}} durch Abholzung bedroht viele Arten weltweit.",
+        "correctAnswer": "Regenwald",
+        "acceptableAnswers": [
+          "Tropischem Regenwald",
+          "Wäldern",
+          "Lebensraum"
+        ]
+      },
+      "hints": [
+        "In den Tropen wird besonders viel abgeholzt"
+      ],
+      "feedbackCorrect": "Richtig! Regenwald!",
+      "feedbackIncorrect": "Die Abholzung tropischer Regenwälder zerstört wertvolle Lebensräume und beschleunigt das Artensterben."
+    },
+    {
+      "id": "ahs-bio-k4-umwelt-005",
+      "type": "multiple-choice",
+      "areaId": "oekologie",
+      "themeId": "umwelt",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was versteht man unter Mikroplastik?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Mikroplastik:",
+        "options": [
+          "Kleine Tiere",
+          "Winzige Kunststoffteilchen kleiner als 5 mm",
+          "Mikroorganismen",
+          "Kleine Steine"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Es entsteht durch Zerfall von Plastik"
+      ],
+      "feedbackCorrect": "Richtig! Winzige Kunststoffteilchen!",
+      "feedbackIncorrect": "Mikroplastik sind Kunststoffteilchen kleiner als 5 mm, die in Gewässer, Böden und Nahrungsketten gelangen."
+    },
+    {
+      "id": "ahs-bio-k4-umwelt-006",
+      "type": "multiple-choice",
+      "areaId": "oekologie",
+      "themeId": "umwelt",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was ist das Pariser Klimaabkommen?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Pariser Abkommen:",
+        "options": [
+          "Ein Handelsvertrag",
+          "Internationale Vereinbarung zur Begrenzung der Erderwärmung",
+          "Ein Friedensvertrag",
+          "Eine EU-Richtlinie"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Es wurde 2015 beschlossen"
+      ],
+      "feedbackCorrect": "Richtig! Vereinbarung zur Begrenzung der Erderwärmung!",
+      "feedbackIncorrect": "Das Pariser Klimaabkommen von 2015 zielt darauf ab, die Erderwärmung auf deutlich unter 2°C zu begrenzen."
+    },
+    {
+      "id": "ahs-bio-k4-gen-003",
+      "type": "multiple-choice",
+      "areaId": "genetik",
+      "themeId": "vererbung",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Wo befindet sich die DNA in einer menschlichen Zelle?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "DNA-Ort:",
+        "options": [
+          "Im Zellplasma",
+          "Im Zellkern",
+          "In der Zellwand",
+          "In den Ribosomen"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "In einem bestimmten Zellorganell"
+      ],
+      "feedbackCorrect": "Richtig! Im Zellkern!",
+      "feedbackIncorrect": "Die DNA befindet sich hauptsächlich im Zellkern, organisiert in Chromosomen."
+    },
+    {
+      "id": "ahs-bio-k4-gen-004",
+      "type": "fill-blank",
+      "areaId": "genetik",
+      "themeId": "vererbung",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Ergänze den fehlenden Begriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Der Mensch hat {{blank}} Chromosomenpaare in jeder Körperzelle.",
+        "correctAnswer": "23",
+        "acceptableAnswers": [
+          "dreiundzwanzig"
+        ]
+      },
+      "hints": [
+        "Es sind weniger als 25"
+      ],
+      "feedbackCorrect": "Richtig! 23 Chromosomenpaare!",
+      "feedbackIncorrect": "Jede menschliche Körperzelle enthält 23 Chromosomenpaare, also 46 Chromosomen."
+    },
+    {
+      "id": "ahs-bio-k4-gen-005",
+      "type": "matching",
+      "areaId": "genetik",
+      "themeId": "vererbung",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Ordne die Begriffe der Genetik ihren Definitionen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Gen",
+            "right": "Abschnitt der DNA für ein Merkmal"
+          },
+          {
+            "left": "Chromosom",
+            "right": "Verpackte DNA-Struktur"
+          },
+          {
+            "left": "Allel",
+            "right": "Variante eines Gens"
+          },
+          {
+            "left": "Genom",
+            "right": "Gesamte Erbinformation"
+          }
+        ]
+      },
+      "hints": [
+        "Jeder Begriff beschreibt eine andere Ebene der Vererbung"
+      ],
+      "feedbackCorrect": "Perfekt zugeordnet!",
+      "feedbackIncorrect": "Gen = DNA-Abschnitt, Chromosom = verpackte DNA, Allel = Gen-Variante, Genom = gesamte Erbinfo."
+    },
+    {
+      "id": "ahs-bio-k4-gen-006",
+      "type": "multiple-choice",
+      "areaId": "genetik",
+      "themeId": "vererbung",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Was bedeutet 'dominant' in der Genetik?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Dominant:",
+        "options": [
+          "Schwächer",
+          "Setzt sich im Erscheinungsbild durch",
+          "Gleich stark",
+          "Unsichtbar"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Mendels Erbsen hatten dominante und rezessive Merkmale"
+      ],
+      "feedbackCorrect": "Richtig! Setzt sich durch!",
+      "feedbackIncorrect": "Ein dominantes Allel bestimmt das Erscheinungsbild, auch wenn ein rezessives Allel vorhanden ist."
+    },
+    {
+      "id": "ahs-bio-k4-gen-007",
+      "type": "fill-blank",
+      "areaId": "genetik",
+      "themeId": "vererbung",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Ergänze den fehlenden Begriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die DNA hat die Form einer {{blank}}, also einer Doppelhelix.",
+        "correctAnswer": "Doppelhelix",
+        "acceptableAnswers": [
+          "Spirale",
+          "Doppelspirale"
+        ]
+      },
+      "hints": [
+        "Watson und Crick entdeckten diese Struktur"
+      ],
+      "feedbackCorrect": "Richtig! Doppelhelix!",
+      "feedbackIncorrect": "Die DNA besteht aus zwei umeinander gewundenen Strängen – der Doppelhelix."
+    },
+    {
+      "id": "ahs-bio-k4-gen-008",
+      "type": "sorting",
+      "areaId": "genetik",
+      "themeId": "vererbung",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Sortiere: Genotyp oder Phänotyp?",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Genotyp (Erbanlage)",
+            "items": [
+              "AA",
+              "Aa",
+              "aa"
+            ]
+          },
+          {
+            "label": "Phänotyp (Erscheinungsbild)",
+            "items": [
+              "Braune Augen",
+              "Blonde Haare",
+              "Große Körpergröße"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Genotyp = genetische Information, Phänotyp = sichtbares Merkmal"
+      ],
+      "feedbackCorrect": "Super sortiert!",
+      "feedbackIncorrect": "AA, Aa, aa = Genotyp; braune Augen, blonde Haare, große Körpergröße = Phänotyp."
+    },
+    {
+      "id": "ahs-bio-k4-gen-009",
+      "type": "multiple-choice",
+      "areaId": "genetik",
+      "themeId": "vererbung",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was entdeckte Gregor Mendel?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Mendel entdeckte:",
+        "options": [
+          "DNA-Struktur",
+          "Grundregeln der Vererbung",
+          "Impfungen",
+          "Evolution"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Er experimentierte mit Erbsenpflanzen"
+      ],
+      "feedbackCorrect": "Richtig! Grundregeln der Vererbung!",
+      "feedbackIncorrect": "Gregor Mendel entdeckte durch Kreuzungsversuche mit Erbsen die Grundgesetze der Vererbung."
+    },
+    {
+      "id": "ahs-bio-k4-gen-010",
+      "type": "matching",
+      "areaId": "genetik",
+      "themeId": "vererbung",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Ordne die Mendelschen Regeln zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Uniformitätsregel",
+            "right": "F1-Generation ist einheitlich"
+          },
+          {
+            "left": "Spaltungsregel",
+            "right": "F2 spaltet in bestimmtem Verhältnis auf"
+          },
+          {
+            "left": "Unabhängigkeitsregel",
+            "right": "Merkmale werden unabhängig vererbt"
+          }
+        ]
+      },
+      "hints": [
+        "Mendel formulierte drei Regeln"
+      ],
+      "feedbackCorrect": "Toll zugeordnet!",
+      "feedbackIncorrect": "1. Regel: F1 einheitlich, 2. Regel: F2 spaltet auf, 3. Regel: unabhängige Vererbung."
+    },
+    {
+      "id": "ahs-bio-k4-gen-011",
+      "type": "fill-blank",
+      "areaId": "genetik",
+      "themeId": "vererbung",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Ergänze den fehlenden Begriff.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Bei der {{blank}} wird die Erbinformation vor der Zellteilung verdoppelt.",
+        "correctAnswer": "Replikation",
+        "acceptableAnswers": [
+          "DNA-Replikation"
+        ]
+      },
+      "hints": [
+        "Die DNA wird kopiert"
+      ],
+      "feedbackCorrect": "Richtig! Replikation!",
+      "feedbackIncorrect": "Bei der Replikation wird die DNA-Doppelhelix aufgetrennt und jeder Strang dient als Vorlage für einen neuen."
+    },
+    {
+      "id": "ahs-bio-k4-gen-012",
+      "type": "multiple-choice",
+      "areaId": "genetik",
+      "themeId": "vererbung",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was ist eine Mutation?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Mutation:",
+        "options": [
+          "Normale Zellteilung",
+          "Veränderung der DNA-Sequenz",
+          "Impfreaktion",
+          "Reifeprozess"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Es ist eine dauerhafte Veränderung des Erbguts"
+      ],
+      "feedbackCorrect": "Richtig! Veränderung der DNA-Sequenz!",
+      "feedbackIncorrect": "Eine Mutation ist eine dauerhafte Veränderung in der Basenabfolge der DNA."
+    },
+    {
+      "id": "ahs-bio-k4-gen-013",
+      "type": "sorting",
+      "areaId": "genetik",
+      "themeId": "vererbung",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Sortiere die Zellteilungsarten.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Mitose (Körperzellen)",
+            "items": [
+              "Wachstum",
+              "Wundheilung",
+              "Erneuerung"
+            ]
+          },
+          {
+            "label": "Meiose (Keimzellen)",
+            "items": [
+              "Eizellbildung",
+              "Spermienbildung",
+              "Rekombination"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Mitose für Wachstum, Meiose für Fortpflanzung"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Mitose = Wachstum, Heilung, Erneuerung; Meiose = Eizellen, Spermien, Rekombination."
+    },
+    {
+      "id": "ahs-bio-k4-gen-014",
+      "type": "multiple-choice",
+      "areaId": "genetik",
+      "themeId": "vererbung",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Wie viele Chromosomen enthält eine menschliche Keimzelle?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Chromosomen in Keimzelle:",
+        "options": [
+          "46",
+          "23",
+          "12",
+          "92"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Die Hälfte einer normalen Körperzelle"
+      ],
+      "feedbackCorrect": "Richtig! 23 Chromosomen!",
+      "feedbackIncorrect": "Keimzellen (Ei- und Samenzellen) enthalten den halben Chromosomensatz, also 23 Chromosomen."
     }
   ]
 }
