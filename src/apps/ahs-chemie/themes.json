@@ -1,0 +1,11 @@
+{
+    "themes": [
+        {"id": "eigenschaften", "areaId": "stoffe", "name": "Stoffeigenschaften", "description": "Aggregatzustände", "levels": [4]},
+        {"id": "atome", "areaId": "atombau", "name": "Atome", "description": "Aufbau von Atomen", "levels": [4]},
+        {"id": "elemente", "areaId": "periodensystem", "name": "Elemente", "description": "Grundlagen Periodensystem", "levels": [4]},
+        {"id": "bindungen", "areaId": "atombau", "name": "Chemische Bindungen", "description": "Ionenbindung, Metallbindung", "levels": [4]},
+        {"id": "reaktionen", "areaId": "chemische-reaktionen", "name": "Reaktionen", "description": "Oxidation, Reduktion", "levels": [4]},
+        {"id": "saeuren", "areaId": "saeuren-basen", "name": "Säuren", "description": "Saurer pH-Wert", "levels": [4]},
+        {"id": "basen", "areaId": "saeuren-basen", "name": "Basen", "description": "Alkalischer pH-Wert", "levels": [4]}
+    ]
+}

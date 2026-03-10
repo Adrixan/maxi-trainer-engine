@@ -1,0 +1,8 @@
+{
+    "badges": [
+        {"id": "rhythm-k1", "name": "Rhythmus-König", "description": "Takt und Noten", "icon": "🥁", "level": 1, "requirement": {"type": "exercises", "count": 8, "areaId": "rhythmus"}},
+        {"id": "instr-k2", "name": "Instrumenten-Experte", "description": "Instrumente kennen", "icon": "🎸", "level": 2, "requirement": {"type": "exercises", "count": 8, "areaId": "instrumente"}},
+        {"id": "geschichte-k3", "name": "Musikhistoriker", "description": "Musikepochen", "icon": "🎼", "level": 3, "requirement": {"type": "exercises", "count": 8, "areaId": "geschichte"}},
+        {"id": "harmonie-k4", "name": "Harmonie-Profi", "description": "Akkorde und Musiktheorie", "icon": "🎹", "level": 4, "requirement": {"type": "exercises", "count": 8, "areaId": "harmonie"}}
+    ]
+}

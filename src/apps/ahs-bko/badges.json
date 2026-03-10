@@ -1,0 +1,7 @@
+{
+    "badges": [
+        {"id": "beruf-k3", "name": "Berufs-Entdecker", "description": "Verschiedene Berufe kennen", "icon": "💼", "level": 3, "requirement": {"type": "exercises", "count": 5, "areaId": "berufswahl"}},
+        {"id": "bewerb-k4", "name": "Bewerbungs-Profi", "description": "Bewerbung schreiben", "icon": "📝", "level": 4, "requirement": {"type": "exercises", "count": 5, "areaId": "arbeitswelt"}},
+        {"id": "bildung-k4", "name": "Bildungsweg-Planer", "description": "Bildungswege kennen", "icon": "🎓", "level": 4, "requirement": {"type": "exercises", "count": 5, "areaId": "bildung"}}
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "areas": [
+        {"id": "vokabular", "name": "Vokabular", "description": "Wortschatz", "color": "#78350f"},
+        {"id": "grammatik", "name": "Grammatik", "description": "Formenlehre", "color": "#b45309"},
+        {"id": "satzlehre", "name": "Satzlehre", "description": "Syntax", "color": "#a16207"},
+        {"id": "kultur", "name": "Kultur", "description": "Römische Kultur", "color": "#7c2d12"},
+        {"id": "uebersetzung", "name": "Übersetzung", "description": "Deutsch-Latein", "color": "#15803d"}
+    ]
+}

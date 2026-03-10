@@ -1,0 +1,490 @@
+{
+  "exercises": [
+    {
+      "id": "ahs-lat-k3-vok-001",
+      "type": "multiple-choice",
+      "areaId": "vokabular",
+      "themeId": "basis-vocab",
+      "level": 3,
+      "difficulty": 1,
+      "instruction": "Übersetze ins Deutsche",
+      "content": {
+        "type": "multiple-choice",
+        "question": "puer",
+        "options": [
+          "Munge",
+          "Frau",
+          "Mannädchen",
+          "J"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Ein männliches Kind"
+      ],
+      "feedbackCorrect": "Richtig! Puer = Junge!",
+      "feedbackIncorrect": "puer = der Junge"
+    },
+    {
+      "id": "ahs-lat-k3-vok-002",
+      "type": "multiple-choice",
+      "areaId": "vokabular",
+      "themeId": "basis-vocab",
+      "level": 3,
+      "difficulty": 1,
+      "instruction": "Übersetze ins Deutsche",
+      "content": {
+        "type": "multiple-choice",
+        "question": "puella",
+        "options": [
+          "Junge",
+          "Mädchen",
+          "Sklave",
+          "Freier"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Ein weibliches Kind"
+      ],
+      "feedbackCorrect": "Richtig! Puella = Mädchen!",
+      "feedbackIncorrect": "puella = das Mädchen"
+    },
+    {
+      "id": "ahs-lat-k3-vok-003",
+      "type": "matching",
+      "areaId": "vokabular",
+      "themeId": "basis-vocab",
+      "level": 3,
+      "difficulty": 1,
+      "instruction": "Verbinde die Wörter",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "puer",
+            "right": "Junge"
+          },
+          {
+            "left": "puella",
+            "right": "Mädchen"
+          },
+          {
+            "left": "vir",
+            "right": "Mann"
+          },
+          {
+            "left": "femina",
+            "right": "Frau"
+          }
+        ]
+      },
+      "hints": [
+        "Geschlecht beachten"
+      ],
+      "feedbackCorrect": "Sehr gut!",
+      "feedbackIncorrect": "Versuche es noch einmal!"
+    },
+    {
+      "id": "ahs-lat-k3-vok-004",
+      "type": "multiple-choice",
+      "areaId": "vokabular",
+      "themeId": "alltag",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Übersetze ins Deutsche",
+      "content": {
+        "type": "multiple-choice",
+        "question": "domus",
+        "options": [
+          "Schule",
+          "Haus",
+          "Tempel",
+          "Markt"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Wo wohnt man?"
+      ],
+      "feedbackCorrect": "Richtig! Domus = Haus!",
+      "feedbackIncorrect": "domus = das Haus"
+    },
+    {
+      "id": "ahs-lat-k3-vok-005",
+      "type": "multiple-choice",
+      "areaId": "vokabular",
+      "themeId": "alltag",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Übersetze ins Deutsche",
+      "content": {
+        "type": "multiple-choice",
+        "question": "liber",
+        "options": [
+          "Brief",
+          "Buch",
+          "Tisch",
+          "Stuhl"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Wissen"
+      ],
+      "feedbackCorrect": "Richtig! Liber = Buch!",
+      "feedbackIncorrect": "liber = das Buch"
+    },
+    {
+      "id": "ahs-lat-k3-dek1-001",
+      "type": "multiple-choice",
+      "areaId": "grammatik",
+      "themeId": "deklin-1",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Welcher Kasus ist 'puellae'?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "puellae",
+        "options": [
+          "Nominativ",
+          "Genitiv",
+          "Dativ",
+          "Akkusativ"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Wem?"
+      ],
+      "feedbackCorrect": "Richtig! Dativ!",
+      "feedbackIncorrect": "puellae = der (zugeteilten) Mädchen"
+    },
+    {
+      "id": "ahs-lat-k3-dek1-002",
+      "type": "fill-blank",
+      "areaId": "grammatik",
+      "themeId": "deklin-1",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Setze die richtige Form ein",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die (puella) singt. → {{blank}}",
+        "correctAnswer": "puella"
+      },
+      "hints": [
+        "Nominativ Singular"
+      ],
+      "feedbackCorrect": "Richtig!",
+      "feedbackIncorrect": "puella = Nominativ Singular"
+    },
+    {
+      "id": "ahs-lat-k3-dek2-001",
+      "type": "multiple-choice",
+      "areaId": "grammatik",
+      "themeId": "deklin-2",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Welcher Numerus ist 'pueri'?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "pueri",
+        "options": [
+          "Singular",
+          "Plural",
+          "Dual",
+          "Keiner"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Mehrere"
+      ],
+      "feedbackCorrect": "Richtig! Plural!",
+      "feedbackIncorrect": "pueri = der Jungen (Plural)"
+    },
+    {
+      "id": "ahs-lat-k3-dek2-002",
+      "type": "fill-blank",
+      "areaId": "grammatik",
+      "themeId": "deklin-2",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Setze die richtige Form ein",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die (puer) kommen. → {{blank}}",
+        "correctAnswer": "pueri"
+      },
+      "hints": [
+        "Nominativ Plural"
+      ],
+      "feedbackCorrect": "Richtig!",
+      "feedbackIncorrect": "pueri = Nominativ Plural"
+    },
+    {
+      "id": "ahs-lat-k3-konj1-001",
+      "type": "multiple-choice",
+      "areaId": "grammatik",
+      "themeId": "konjug-1",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Welche Person ist 'amamus'?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "amamus",
+        "options": [
+          "ich liebe",
+          "du liebst",
+          "er/sie liebt",
+          "wir lieben"
+        ],
+        "correctIndex": 3
+      },
+      "hints": [
+        "Mehrere Personen"
+      ],
+      "feedbackCorrect": "Richtig! Wir lieben!",
+      "feedbackIncorrect": "amamus = wir lieben"
+    },
+    {
+      "id": "ahs-lat-k3-konj1-002",
+      "type": "fill-blank",
+      "areaId": "grammatik",
+      "themeId": "konjug-1",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Konjugiere 'amo' im Präsens",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "ich liebe → {{blank}}",
+        "correctAnswer": "amo"
+      },
+      "hints": [
+        "1. Person Singular"
+      ],
+      "feedbackCorrect": "Richtig! amo!",
+      "feedbackIncorrect": "amo = ich liebe"
+    },
+    {
+      "id": "ahs-lat-k3-konj2-001",
+      "type": "multiple-choice",
+      "areaId": "grammatik",
+      "themeId": "konjug-2",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Was bedeutet 'moneo'?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "moneo",
+        "options": [
+          "ich bleibe",
+          "ich rate/warnen",
+          "ich höre",
+          "ich fürchte"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Eine Warnung"
+      ],
+      "feedbackCorrect": "Richtig! Ich rate/warnen!",
+      "feedbackIncorrect": "moneo = ich rate, warne"
+    },
+    {
+      "id": "ahs-lat-k3-akk-001",
+      "type": "multiple-choice",
+      "areaId": "satzlehre",
+      "themeId": "akkusativ",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Welcher Satz zeigt Akkusativ?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Akkusativ",
+        "options": [
+          "Der Junge schläft.",
+          "Der Vater sieht den Sohn.",
+          "Die Mutter gibt dem Kind Brot.",
+          "Das Haus gehört dem Mann."
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Wen?"
+      ],
+      "feedbackCorrect": "Richtig! 'den Sohn'!",
+      "feedbackIncorrect": "'Den Sohn' ist Akkusativ (Wen?)"
+    },
+    {
+      "id": "ahs-lat-k3-nom-001",
+      "type": "multiple-choice",
+      "areaId": "satzlehre",
+      "themeId": "nominativ",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Welcher Satz zeigt Nominativ?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Nominativ",
+        "options": [
+          "Der Lehrer gibt dem Schüler ein Buch.",
+          "Der Schüler lernt Latein.",
+          "Das Buch liegt auf dem Tisch.",
+          "Der Vater hat drei Söhne."
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Wer?"
+      ],
+      "feedbackCorrect": "Richtig! 'Der Schüler'!",
+      "feedbackIncorrect": "'Der Schüler' ist Nominativ (Wer?)"
+    },
+    {
+      "id": "ahs-lat-k3-rom-001",
+      "type": "multiple-choice",
+      "areaId": "kultur",
+      "themeId": "rom-leben",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Wo lebten die Römer?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Hauptstadt des Römischen Reiches:",
+        "options": [
+          "Athen",
+          "Rom",
+          "Karthago",
+          "Alexandria"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Die Ewige Stadt"
+      ],
+      "feedbackCorrect": "Richtig! Rom!",
+      "feedbackIncorrect": "Rom war die Hauptstadt des Römischen Reiches."
+    },
+    {
+      "id": "ahs-lat-k3-rom-002",
+      "type": "multiple-choice",
+      "areaId": "kultur",
+      "themeId": "rom-leben",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Was ist ein 'Forum'?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Forum",
+        "options": [
+          "Tempel",
+          "Marktplatz/Rathaus",
+          "Theater",
+          " Stadion"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Öffentlicher Platz"
+      ],
+      "feedbackCorrect": "Richtig! Marktplatz!",
+      "feedbackIncorrect": "Das Forum war der Markt- und Versammlungsplatz."
+    },
+    {
+      "id": "ahs-lat-k4-gesch-001",
+      "type": "multiple-choice",
+      "areaId": "kultur",
+      "themeId": "geschichte",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Wann wurde Rom gegründet?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Gründung Roms:",
+        "options": [
+          "1000 v. Chr.",
+          "753 v. Chr.",
+          "500 v. Chr.",
+          "100 v. Chr."
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Nach König Romulus"
+      ],
+      "feedbackCorrect": "Richtig! 753 v. Chr.!",
+      "feedbackIncorrect": "Rom wurde 753 v. Chr. gegründet."
+    },
+    {
+      "id": "ahs-lat-k4-gesch-002",
+      "type": "multiple-choice",
+      "areaId": "kultur",
+      "themeId": "geschichte",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Wer war Julius Cäsar?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Julius Cäsar:",
+        "options": [
+          "Der erste König",
+          "Ein Diktator",
+          "Ein Philosoph",
+          "Ein Gott"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Politischer Führer"
+      ],
+      "feedbackCorrect": "Richtig! Ein Diktator!",
+      "feedbackIncorrect": "Julius Cäsar war ein Diktator."
+    },
+    {
+      "id": "ahs-lat-k4-aktiv-001",
+      "type": "multiple-choice",
+      "areaId": "uebersetzung",
+      "themeId": "aktiv",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Übersetze ins Lateinische",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Der Junge lernt.",
+        "options": [
+          "Puer discit.",
+          "Puer docet.",
+          "Puella discit.",
+          "Puer dormit."
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "discere = lernen"
+      ],
+      "feedbackCorrect": "Richtig! Puer discit!",
+      "feedbackIncorrect": "Puer discit = Der Junge lernt."
+    },
+    {
+      "id": "ahs-lat-k4-aktiv-002",
+      "type": "fill-blank",
+      "areaId": "uebersetzung",
+      "themeId": "aktiv",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Übersetze ins Lateinische",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die Frau gibt dem Mann das Geld. → {{blank}}",
+        "correctAnswer": "Femina viro pecuniam dat"
+      },
+      "hints": [
+        "femina, vir, pecunia, dare"
+      ],
+      "feedbackCorrect": "Richtig!",
+      "feedbackIncorrect": "Femina viro pecuniam dat."
+    }
+  ]
+}

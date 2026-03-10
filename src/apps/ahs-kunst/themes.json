@@ -1,0 +1,13 @@
+{
+    "themes": [
+        {"id": "farben", "areaId": "grundlagen", "name": "Farbenlehre", "description": "Primär-, Sekundärfarben", "levels": [1, 2]},
+        {"id": "formen", "areaId": "grundlagen", "name": "Formenlehre", "description": "Geometrische Formen", "levels": [1, 2]},
+        {"id": "zeichnen", "areaId": "techniken", "name": "Zeichnen", "description": "Stifttechniken", "levels": [1, 2, 3]},
+        {"id": "malen", "areaId": "techniken", "name": "Malen", "description": "Aquarell, Acryl", "levels": [2, 3]},
+        {"id": "antik", "areaId": "geschichte", "name": "Antike", "description": "Griechische Kunst", "levels": [2, 3]},
+        {"id": "mittelalter", "areaId": "geschichte", "name": "Mittelalter", "description": "Gotik, Romanik", "levels": [2, 3]},
+        {"id": "renaissance", "areaId": "geschichte", "name": "Renaissance", "description": "Da Vinci, Michelangelo", "levels": [3, 4]},
+        {"id": "moderne", "areaId": "geschichte", "name": "Moderne", "description": "20. Jahrhundert", "levels": [3, 4]},
+        {"id": "beschreiben", "areaId": "analyse", "name": "Bildbeschreibung", "description": "Kunstwerke analysieren", "levels": [3, 4]}
+    ]
+}

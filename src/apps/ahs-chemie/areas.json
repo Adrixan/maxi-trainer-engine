@@ -1,0 +1,9 @@
+{
+    "areas": [
+        {"id": "stoffe", "name": "Stoffe", "description": "Materialien und Eigenschaften", "color": "#9333ea"},
+        {"id": "atombau", "name": "Atombau", "description": "Aufbau der Materie", "color": "#0891b2"},
+        {"id": "periodensystem", "name": "Periodensystem", "description": "Chemische Elemente", "color": "#ea580c"},
+        {"id": "chemische-reaktionen", "name": "Reaktionen", "description": "Chemische Prozesse", "color": "#16a34a"},
+        {"id": "saeuren-basen", "name": "Säuren & Basen", "description": "Acidität", "color": "#dc2626"}
+    ]
+}

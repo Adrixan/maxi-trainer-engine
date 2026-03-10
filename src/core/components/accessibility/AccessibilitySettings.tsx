@@ -3,6 +3,7 @@
  * 
  * Provides UI controls for accessibility features including:
  * - High contrast mode toggle
+ * - Theme selector
  * - Font size selector
  * - Animation toggle
  * - Screen reader mode toggle
@@ -11,7 +12,7 @@
  */
 
 import { useTranslation } from 'react-i18next';
-import { useAppStore, type FontSize } from '@core/stores';
+import { useAppStore, type FontSize, type Theme } from '@core/stores';
 
 /**
  * Font size options for the selector.
@@ -20,6 +21,14 @@ const FONT_SIZE_OPTIONS: { value: FontSize; labelKey: string }[] = [
     { value: 'normal', labelKey: 'accessibility.fontSizeNormal' },
     { value: 'large', labelKey: 'accessibility.fontSizeLarge' },
     { value: 'extra-large', labelKey: 'accessibility.fontSizeExtraLarge' },
+];
+
+/**
+ * Theme options for the selector.
+ */
+const THEME_OPTIONS: { value: Theme; labelKey: string }[] = [
+    { value: 'default', labelKey: 'accessibility.themeDefault' },
+    { value: 'noir', labelKey: 'accessibility.themeNoir' },
 ];
 
 /**
@@ -78,18 +87,18 @@ function ToggleSwitch({
 }
 
 /**
- * Radio group component for font size selection.
+ * Generic option selector component.
  */
-function FontSizeSelector({
+function OptionSelector<T extends string>({
     label,
     value,
     options,
     onChange,
 }: {
     label: string;
-    value: FontSize;
-    options: typeof FONT_SIZE_OPTIONS;
-    onChange: (size: FontSize) => void;
+    value: T;
+    options: { value: T; labelKey: string }[];
+    onChange: (value: T) => void;
 }) {
     const { t } = useTranslation();
 
@@ -135,6 +144,7 @@ export function AccessibilitySettings() {
         toggleHighContrast,
         toggleAnimations,
         setFontSize,
+        setTheme,
     } = useAppStore();
 
     return (
@@ -163,8 +173,16 @@ export function AccessibilitySettings() {
                     onChange={toggleHighContrast}
                 />
 
+                {/* Theme Selector */}
+                <OptionSelector<Theme>
+                    label={t('accessibility.theme', 'Theme')}
+                    value={settings.theme}
+                    options={THEME_OPTIONS}
+                    onChange={setTheme}
+                />
+
                 {/* Font Size */}
-                <FontSizeSelector
+                <OptionSelector<FontSize>
                     label={t('accessibility.fontSize', 'Font Size')}
                     value={settings.fontSize}
                     options={FONT_SIZE_OPTIONS}

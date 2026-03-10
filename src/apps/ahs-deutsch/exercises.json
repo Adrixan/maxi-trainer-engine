@@ -1,0 +1,953 @@
+{
+  "exercises": [
+    {
+      "id": "ahs-deu-k1-wort-001",
+      "type": "multiple-choice",
+      "areaId": "linguistik",
+      "themeId": "wortschatz",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Welches Wort passt nicht in die Gruppe?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Apfel, Birne, Karotte, Orange",
+        "options": [
+          "Apfel",
+          "Birne",
+          "Karotte",
+          "Orange"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Drei davon sind Obst"
+      ],
+      "feedbackCorrect": "Richtig! Karotte ist ein Gemüse!",
+      "feedbackIncorrect": "Karotte ist ein Gemüse, die anderen sind Obst."
+    },
+    {
+      "id": "ahs-deu-k1-wort-002",
+      "type": "matching",
+      "areaId": "linguistik",
+      "themeId": "wortschatz",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Verbinde die Wörter mit den richtigen Bildern",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Hund",
+            "right": "🐕"
+          },
+          {
+            "left": "Katze",
+            "right": "🐈"
+          },
+          {
+            "left": "Vogel",
+            "right": "🐦"
+          },
+          {
+            "left": "Fisch",
+            "right": "🐟"
+          }
+        ]
+      },
+      "hints": [
+        "Achte auf die Tiernamen"
+      ],
+      "feedbackCorrect": "Sehr gut gemacht!",
+      "feedbackIncorrect": "Versuche es noch einmal!"
+    },
+    {
+      "id": "ahs-deu-k1-gram-001",
+      "type": "multiple-choice",
+      "areaId": "linguistik",
+      "themeId": "grammatik",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Welches Wort ist ein Verb (Tunwort)?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "laufen, rot, Haus, schön",
+        "options": [
+          "laufen",
+          "rot",
+          "Haus",
+          "schön"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Ein Verb beschreibt eine Tätigkeit"
+      ],
+      "feedbackCorrect": "Richtig! Laufen ist ein Verb!",
+      "feedbackIncorrect": "Laufen ist ein Verb (Tunwort)."
+    },
+    {
+      "id": "ahs-deu-k1-gram-002",
+      "type": "multiple-choice",
+      "areaId": "linguistik",
+      "themeId": "grammatik",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Welches Wort ist ein Substantiv (Namenwort)?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "springen, blau, Schule, schnell",
+        "options": [
+          "springen",
+          "blau",
+          "Schule",
+          "schnell"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Ein Substantiv ist ein Ding oder Lebewesen"
+      ],
+      "feedbackCorrect": "Richtig! Schule ist ein Substantiv!",
+      "feedbackIncorrect": "Schule ist ein Substantiv (Namenwort)."
+    },
+    {
+      "id": "ahs-deu-k1-gram-003",
+      "type": "fill-blank",
+      "areaId": "linguistik",
+      "themeId": "grammatik",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Setze das passende Wort ein",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Der Hund läuft {{blank}}.",
+        "correctAnswer": "schnell"
+      },
+      "hints": [
+        "Wie bewegt sich der Hund?"
+      ],
+      "feedbackCorrect": "Sehr gut!",
+      "feedbackIncorrect": "Die Antwort ist 'schnell'."
+    },
+    {
+      "id": "ahs-deu-k1-text-001",
+      "type": "multiple-choice",
+      "areaId": "lesen",
+      "themeId": "textverstaendnis",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Lies den Text und beantworte die Frage",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Maria hat einen roten Ball. Ihr Ball ist rot. Tom hat einen blauen Ball.\n\nWelche Farbe hat Marias Ball?",
+        "options": [
+          "blau",
+          "rot",
+          "grün",
+          "gelb"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Der Text sagt, Maria hat einen roten Ball"
+      ],
+      "feedbackCorrect": "Richtig! Marias Ball ist rot!",
+      "feedbackIncorrect": "Der Text sagt, Maria hat einen roten Ball."
+    },
+    {
+      "id": "ahs-deu-k1-schr-001",
+      "type": "fill-blank",
+      "areaId": "linguistik",
+      "themeId": "rechtschreibung",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Schreibe die Wörter richtig",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Der ({{blank}}) (hund) bellt laut.",
+        "correctAnswer": "Hund"
+      },
+      "hints": [
+        "Substantive werden großgeschrieben"
+      ],
+      "feedbackCorrect": "Richtig! Hund wird großgeschrieben!",
+      "feedbackIncorrect": "Hund wird großgeschrieben."
+    },
+    {
+      "id": "ahs-deu-k1-erz-001",
+      "type": "multiple-choice",
+      "areaId": "schreiben",
+      "themeId": "erzaehlen",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Was gehört zu einer Erzählung?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Was ist KEIN typischer Teil einer Erzählung?",
+        "options": [
+          "Einleitung",
+          "Höhepunkt",
+          "Rechenaufgabe",
+          "Schluss"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Erzählungen handeln von Ereignissen"
+      ],
+      "feedbackCorrect": "Richtig! Eine Erzählung hat keinen mathematischen Teil!",
+      "feedbackIncorrect": "Eine Erzählung besteht aus Einleitung, Hauptteil und Schluss."
+    },
+    {
+      "id": "ahs-deu-k1-komm-001",
+      "type": "multiple-choice",
+      "areaId": "sprechen",
+      "themeId": "kommunikation",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Wie grüßt man jemanden höflich?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Was ist eine höfliche Begrüßung?",
+        "options": [
+          "Hallo!",
+          "Guten Tag!",
+          "He!",
+          "Na?"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Eine förmliche Begrüßung"
+      ],
+      "feedbackCorrect": "Richtig! Guten Tag ist höflich!",
+      "feedbackIncorrect": "'Guten Tag!' ist eine höfliche Begrüßung."
+    },
+    {
+      "id": "ahs-deu-k2-wort-001",
+      "type": "multiple-choice",
+      "areaId": "linguistik",
+      "themeId": "wortschatz",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Welches Wort ist ein Synonym (相同的词) für 'glücklich'?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "glücklich",
+        "options": [
+          "traurig",
+          "froh",
+          "müde",
+          "krank"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Ein Synonym hat dieselbe Bedeutung"
+      ],
+      "feedbackCorrect": "Richtig! Froh ist ein Synym für glücklich!",
+      "feedbackIncorrect": "Froh bedeutet dasselbe wie glücklich."
+    },
+    {
+      "id": "ahs-deu-k2-wort-002",
+      "type": "multiple-choice",
+      "areaId": "linguistik",
+      "themeId": "wortschatz",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Welches Wort ist ein Antonym (反义词) für 'groß'?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "groß",
+        "options": [
+          "klein",
+          "breit",
+          "hoch",
+          "lang"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Ein Antonym hat die opposite Bedeutung"
+      ],
+      "feedbackCorrect": "Richtig! Klein ist das Antonym von groß!",
+      "feedbackIncorrect": "Klein ist das Gegenteil von groß."
+    },
+    {
+      "id": "ahs-deu-k2-gram-001",
+      "type": "multiple-choice",
+      "areaId": "linguistik",
+      "themeId": "grammatik",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Welche Zeitform ist 'ich ging'?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "ich ging",
+        "options": [
+          "Präsens",
+          "Präteritum",
+          "Perfekt",
+          "Futur"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "'Ging' ist eine Vergangenheitsform"
+      ],
+      "feedbackCorrect": "Richtig! Präteritum ist die Vergangenheit!",
+      "feedbackIncorrect": "Präteritum beschreibt Handlungen in der Vergangenheit."
+    },
+    {
+      "id": "ahs-deu-k2-gram-002",
+      "type": "fill-blank",
+      "areaId": "linguistik",
+      "themeId": "grammatik",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Setze das Verb in die richtige Form",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Er {{blank}} (spielen) gestern Fußball.",
+        "correctAnswer": "spielte"
+      },
+      "hints": [
+        "Präteritum von spielen"
+      ],
+      "feedbackCorrect": "Sehr gut!",
+      "feedbackIncorrect": "Die Antwort ist 'spielte'."
+    },
+    {
+      "id": "ahs-deu-k2-gram-003",
+      "type": "multiple-choice",
+      "areaId": "linguistik",
+      "themeId": "grammatik",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Welcher Satz ist korrekt?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Welcher Satz ist richtig geschrieben?",
+        "options": [
+          "Der hund läuft schnell.",
+          "Der Hund läuft schnell.",
+          "Der Hund läuft schnell",
+          "der Hund läuft schnell."
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Substantive werden großgeschrieben, Sätze enden mit Punkt"
+      ],
+      "feedbackCorrect": "Richtig! So schreibt man den Satz korrekt!",
+      "feedbackIncorrect": "Großschreibung und Zeichensetzung beachten!"
+    },
+    {
+      "id": "ahs-deu-k2-text-001",
+      "type": "multiple-choice",
+      "areaId": "lesen",
+      "themeId": "textverstaendnis",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Lies den Text und beantworte die Frage",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Anna liest ein Buch über Tiere. Sie liest besonders gern über Löwen. Am Wochenende will sie mit ihren Eltern in den Zoo gehen, um Löwen zu sehen.\n\nWas will Anna am Wochenende tun?",
+        "options": [
+          "Ein Buch lesen",
+          "In den Zoo gehen",
+          "Löwen zeichnen",
+          "Im Wald spazieren"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Der Text sagt, Anna will in den Zoo gehen"
+      ],
+      "feedbackCorrect": "Richtig! Anna will in den Zoo!",
+      "feedbackIncorrect": "Anna will mit ihren Eltern in den Zoo."
+    },
+    {
+      "id": "ahs-deu-k2-int-001",
+      "type": "multiple-choice",
+      "areaId": "lesen",
+      "themeId": "interpretation",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Was versteht man unter dem 'Wortlaut' eines Textes?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Wortlaut",
+        "options": [
+          "Die tiefere Bedeutung",
+          "Der genaue Textinhalt",
+          "Die Meinung des Autors",
+          "Die Zusammenfassung"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Wortlaut bedeutet den buchstäblichen Text"
+      ],
+      "feedbackCorrect": "Richtig!",
+      "feedbackIncorrect": "Wortlaut ist der buchstäbliche Textinhalt."
+    },
+    {
+      "id": "ahs-deu-k2-beschr-001",
+      "type": "fill-blank",
+      "areaId": "schreiben",
+      "themeId": "beschreiben",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ergänze eine Eigenschaft",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Der alte Baum hatte ({{blank}}).",
+        "correctAnswer": "große"
+      },
+      "hints": [
+        "Wie war der Baum?"
+      ],
+      "feedbackCorrect": "Sehr gut!",
+      "feedbackIncorrect": "Eine passende Eigenschaft wäre z.B. 'große Äste'."
+    },
+    {
+      "id": "ahs-deu-k2-recht-001",
+      "type": "multiple-choice",
+      "areaId": "linguistik",
+      "themeId": "rechtschreibung",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Welches Wort ist falsch geschrieben?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Apfel, Bild, Schwimmbad, Lieblings",
+        "options": [
+          "Apfel",
+          "Bild",
+          "Schwimmbad",
+          "Lieblings"
+        ],
+        "correctIndex": 3
+      },
+      "hints": [
+        "Es heißt 'Lieblings...' mit Doppel-s"
+      ],
+      "feedbackCorrect": "Richtig! Es heißt 'Lieblings' mit ß!",
+      "feedbackIncorrect": "Richtig geschrieben: Lieblings."
+    },
+    {
+      "id": "ahs-deu-k3-wort-001",
+      "type": "multiple-choice",
+      "areaId": "linguistik",
+      "themeId": "wortschatz",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Welches Wort ist ein Fremdwort?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Computer, Haus, Auto, Berg",
+        "options": [
+          "Computer",
+          "Haus",
+          "Auto",
+          "Berg"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Fremdwörter kommen aus anderen Sprachen"
+      ],
+      "feedbackCorrect": "Richtig! Computer ist ein Fremdwort!",
+      "feedbackIncorrect": "Computer kommt aus dem Englischen."
+    },
+    {
+      "id": "ahs-deu-k3-gram-001",
+      "type": "multiple-choice",
+      "areaId": "linguistik",
+      "themeId": "grammatik",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Welcher Kasus (Fall) ist 'dem Mann'?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "dem Mann",
+        "options": [
+          "Nominativ",
+          "Genitiv",
+          "Dativ",
+          "Akkusativ"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Dativ ist der 'Wem'-Fall"
+      ],
+      "feedbackCorrect": "Richtig! Dativ ist der Wem-Fall!",
+      "feedbackIncorrect": "Dativ beantwortet die Frage 'wem?'."
+    },
+    {
+      "id": "ahs-deu-k3-gram-002",
+      "type": "fill-blank",
+      "areaId": "linguistik",
+      "themeId": "grammatik",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Setze den Artikel im Akkusativ ein",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Ich sehe {{blank}} (der) Hund.",
+        "correctAnswer": "den"
+      },
+      "hints": [
+        "Akkusativ ist der 'Wen'-Fall"
+      ],
+      "feedbackCorrect": "Sehr gut!",
+      "feedbackIncorrect": "Die Antwort ist 'den'."
+    },
+    {
+      "id": "ahs-deu-k3-gram-003",
+      "type": "multiple-choice",
+      "areaId": "linguistik",
+      "themeId": "stilmittel",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Welches ist ein Beispiel für eine Metapher?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Er ist ein Löwe.",
+        "options": [
+          "Er ist stark wie ein Löwe.",
+          "Er ist ein Löwe.",
+          "Er läuft schnell.",
+          "Er hat Angst."
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Eine Metapher ist ein direkter Vergleich ohne 'wie'"
+      ],
+      "feedbackCorrect": "Richtig! 'Er ist ein Löwe' ist eine Metapher!",
+      "feedbackIncorrect": "Bei einer Metapher wird etwas direkt mit etwas anderem gleichgesetzt."
+    },
+    {
+      "id": "ahs-deu-k3-stil-001",
+      "type": "multiple-choice",
+      "areaId": "linguistik",
+      "themeId": "stilmittel",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Was ist ein 'Personifikation'?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Personifikation",
+        "options": [
+          "Sachen werden wie Menschen behandelt",
+          "Dinge werden verglichen",
+          "Wörter werden wiederholt",
+          "Übertreibung"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Personifikation gibt Dingen menschliche Eigenschaften"
+      ],
+      "feedbackCorrect": "Richtig!",
+      "feedbackIncorrect": "Z.B. 'Die Sonne lacht' - die Sonne wird als Person dargestellt."
+    },
+    {
+      "id": "ahs-deu-k3-int-001",
+      "type": "multiple-choice",
+      "areaId": "lesen",
+      "themeId": "interpretation",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Was ist die 'Hauptperson' in einer Geschichte?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Hauptperson",
+        "options": [
+          "Die wichtigste Figur",
+          "Eine Nebenfigur",
+          "Der Erzähler",
+          "Der Autor"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Die Hauptperson steht im Mittelpunkt der Geschichte"
+      ],
+      "feedbackCorrect": "Richtig!",
+      "feedbackIncorrect": "Die Hauptperson ist die wichtigste Figur der Geschichte."
+    },
+    {
+      "id": "ahs-deu-k3-int-002",
+      "type": "multiple-choice",
+      "areaId": "lesen",
+      "themeId": "interpretation",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Was bedeutet 'die Moral der Geschichte'?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Moral",
+        "options": [
+          "Die Hauptperson",
+          "Die Lehre aus der Geschichte",
+          "Der Schauplatz",
+          "Die Zeit der Handlung"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Die Moral vermittelt eine Botschaft"
+      ],
+      "feedbackCorrect": "Richtig!",
+      "feedbackIncorrect": "Die Moral ist die Lehre oder Botschaft der Geschichte."
+    },
+    {
+      "id": "ahs-deu-k3-arg-001",
+      "type": "multiple-choice",
+      "areaId": "schreiben",
+      "themeId": "argumentation",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Was gehört NICHT zu einem Argumentationsaufbau?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Argumentation",
+        "options": [
+          "Einleitung",
+          "Thesen",
+          "Argumente",
+          "Rechenaufgabe"
+        ],
+        "correctIndex": 3
+      },
+      "hints": [
+        "Argumentation besteht aus textlichen Elementen"
+      ],
+      "feedbackCorrect": "Richtig!",
+      "feedbackIncorrect": "Eine Argumentation besteht aus Einleitung, These, Argumenten und Schluss."
+    },
+    {
+      "id": "ahs-deu-k3-arg-002",
+      "type": "fill-blank",
+      "areaId": "schreiben",
+      "themeId": "argumentation",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Ergänze den Satzanfang",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "{{blank}} meiner Meinung nach ist Lesen wichtig.",
+        "correctAnswer": "Nach"
+      },
+      "hints": [
+        "Eine typische Einleitung für eine Meinung"
+      ],
+      "feedbackCorrect": "Sehr gut!",
+      "feedbackIncorrect": "Die Antwort ist 'Nach'."
+    },
+    {
+      "id": "ahs-deu-k3-liter-001",
+      "type": "multiple-choice",
+      "areaId": "lesen",
+      "themeId": "literatur",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Was ist eine 'Ballade'?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Ballade",
+        "options": [
+          "Ein lustiges Theaterstück",
+          "Ein erzählendes Gedicht",
+          "Ein Liebesbrief",
+          "Ein Kochrezept"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Eine Ballade erzählt eine Geschichte in Gedichtform"
+      ],
+      "feedbackCorrect": "Richtig!",
+      "feedbackIncorrect": "Eine Ballade ist ein erzählendes Gedicht, oft mit musicalischer Qualität."
+    },
+    {
+      "id": "ahs-deu-k3-liter-002",
+      "type": "multiple-choice",
+      "areaId": "lesen",
+      "themeId": "literatur",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Wer ist der Autor von 'Die Räuber'?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Die Räuber",
+        "options": [
+          "Johann Wolfgang von Goethe",
+          "Friedrich Schiller",
+          "Heinrich von Kleist",
+          "Thomas Mann"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Ein deutscher Klassiker"
+      ],
+      "feedbackCorrect": "Richtig! Friedrich Schiller!",
+      "feedbackIncorrect": "Friedrich Schiller schrieb 'Die Räuber'."
+    },
+    {
+      "id": "ahs-deu-k4-gram-001",
+      "type": "multiple-choice",
+      "areaId": "linguistik",
+      "themeId": "grammatik",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was ist ein 'Relativsatz'?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Relativsatz",
+        "options": [
+          "Ein Satz mit einer Frage",
+          "Ein Nebensatz, der etwas näher erklärt",
+          "Ein Befehlssatz",
+          "Ein Ausrufesatz"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Relativsätze beginnen mit 'der, die, das' oder 'welcher'"
+      ],
+      "feedbackCorrect": "Richtig!",
+      "feedbackIncorrect": "Z.B.: 'Der Mann, der dort steht, ist mein Vater.'"
+    },
+    {
+      "id": "ahs-deu-k4-gram-002",
+      "type": "multiple-choice",
+      "areaId": "linguistik",
+      "themeId": "grammatik",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Welcher Satz enthält einen Konjunktiv II?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Konjunktiv II",
+        "options": [
+          "Ich gehe nach Hause.",
+          "Ich ging nach Hause.",
+          "Ich würde gern nach Hause gehen.",
+          "Ich bin nach Hause gegangen."
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Konjunktiv II drückt Wünsche oder Hypothesen aus"
+      ],
+      "feedbackCorrect": "Richtig! 'Würde' zeigt Konjunktiv II!",
+      "feedbackIncorrect": "Konjunktiv II verwendet 'würde', 'hätte', 'wäre'."
+    },
+    {
+      "id": "ahs-deu-k4-wort-001",
+      "type": "multiple-choice",
+      "areaId": "linguistik",
+      "themeId": "wortschatz",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was bedeutet das Wort 'ambivalent'?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "ambivalent",
+        "options": [
+          "eindeutig",
+          "zwei gegensätzliche Empfindungen habend",
+          "sehr glücklich",
+          "komplett falsch"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Es kommt von 'ambi' = beide"
+      ],
+      "feedbackCorrect": "Richtig!",
+      "feedbackIncorrect": "Ambivalent bedeutet, zwei widersprüchliche Gefühle zugleich zu haben."
+    },
+    {
+      "id": "ahs-deu-k4-wort-002",
+      "type": "multiple-choice",
+      "areaId": "linguistik",
+      "themeId": "wortschatz",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was ist ein 'Paradoxon'?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Paradoxon",
+        "options": [
+          "Ein Widerspruch",
+          "Eine Wiederholung",
+          "Eine Frage",
+          "Eine Erklärung"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Es klingt widersprüchlich, ist aber wahr"
+      ],
+      "feedbackCorrect": "Richtig!",
+      "feedbackIncorrect": "Z.B.: 'Weniger ist mehr' ist ein Paradoxon."
+    },
+    {
+      "id": "ahs-deu-k4-int-001",
+      "type": "multiple-choice",
+      "areaId": "lesen",
+      "themeId": "interpretation",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was versteht man unter 'innerer Monolog'?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "innerer Monolog",
+        "options": [
+          "Ein Gespräch zwischen zwei Personen",
+          "Gedanken einer Figur werden direkt wiedergegeben",
+          "Eine Rede vor Publikum",
+          "Ein Briefwechsel"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Man liest die Gedanken einer Figur"
+      ],
+      "feedbackCorrect": "Richtig!",
+      "feedbackIncorrect": "Der innere Monolog zeigt die Gedankenwelt einer Figur."
+    },
+    {
+      "id": "ahs-deu-k4-int-002",
+      "type": "multiple-choice",
+      "areaId": "lesen",
+      "themeId": "interpretation",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was ist ein 'Symbol'?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Symbol",
+        "options": [
+          "Ein Bild ohne Bedeutung",
+          "Etwas, das für etwas anderes steht",
+          "Ein Wort mit mehreren Bedeutungen",
+          "Eine蓋 Geschichte"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Ein Symbol steht stellvertretend für etwas anderes"
+      ],
+      "feedbackCorrect": "Richtig!",
+      "feedbackIncorrect": "Z.B. ist die Taube ein Symbol für Frieden."
+    },
+    {
+      "id": "ahs-deu-k4-liter-001",
+      "type": "multiple-choice",
+      "areaId": "lesen",
+      "themeId": "literatur",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "In welcher Epoche wurde Goethes 'Faust' geschrieben?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Faust",
+        "options": [
+          "Romantik",
+          "Aufklärung",
+          "Sturm und Drang",
+          "Biedermeier"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Goethe war ein wichtiger Dichter dieser Zeit"
+      ],
+      "feedbackCorrect": "Richtig! Die Romantik!",
+      "feedbackIncorrect": "'Faust' wurde in der Epoche der Romantik verfasst."
+    },
+    {
+      "id": "ahs-deu-k4-liter-002",
+      "type": "multiple-choice",
+      "areaId": "lesen",
+      "themeId": "literatur",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was ist eine 'Tragödie'?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Tragödie",
+        "options": [
+          "Ein lustiges Theaterstück",
+          "Ein ernstes Drama mit unglücklichem Ende",
+          "Ein Musikstück",
+          "Ein Gedicht"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Tragödien enden oft traurig"
+      ],
+      "feedbackCorrect": "Richtig!",
+      "feedbackIncorrect": "Eine Tragödie ist ein ernstes Drama mit unglücklichem Ausgang."
+    },
+    {
+      "id": "ahs-deu-k4-arg-001",
+      "type": "multiple-choice",
+      "areaId": "schreiben",
+      "themeId": "argumentation",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was ist ein 'Pro-Argument'?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Pro-Argument",
+        "options": [
+          "Ein Argument gegen etwas",
+          "Ein Argument für etwas",
+          "Ein Gegenbeispiel",
+          "Eine Frage"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Pro bedeutet 'für'"
+      ],
+      "feedbackCorrect": "Richtig!",
+      "feedbackIncorrect": "Pro-Argumente sprechen für eine Sache."
+    },
+    {
+      "id": "ahs-deu-k4-arg-002",
+      "type": "multiple-choice",
+      "areaId": "schreiben",
+      "themeId": "argumentation",
+      "level": 4,
+      "difficulty": 2,
+      "instruction": "Was zeichnet ein überzeugendes Argument aus?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Überzeugendes Argument",
+        "options": [
+          "Es ist lang und kompliziert",
+          "Es ist klar und einleuchtend",
+          "Es ist immer richtig",
+          "Es braucht keine Begründung"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Ein gutes Argument ist einfach zu verstehen"
+      ],
+      "feedbackCorrect": "Richtig!",
+      "feedbackIncorrect": "Ein überzeugendes Argument ist klar und einleuchtend."
+    }
+  ]
+}

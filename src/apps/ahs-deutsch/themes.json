@@ -1,0 +1,123 @@
+{
+    "themes": [
+        {
+            "id": "erzaehlen",
+            "areaId": "schreiben",
+            "name": "Erzählen",
+            "description": "Erzähltexte verfassen",
+            "levels": [
+                1,
+                2
+            ]
+        },
+        {
+            "id": "beschreiben",
+            "areaId": "schreiben",
+            "name": "Beschreiben",
+            "description": "Beschreibende Texte schreiben",
+            "levels": [
+                1,
+                2
+            ]
+        },
+        {
+            "id": "wortschatz",
+            "areaId": "linguistik",
+            "name": "Wortschatz",
+            "description": "Wortschatzerweiterung",
+            "levels": [
+                1,
+                2,
+                3,
+                4
+            ]
+        },
+        {
+            "id": "rechtschreibung",
+            "areaId": "linguistik",
+            "name": "Rechtschreibung",
+            "description": "Orthografie und Schreibregeln",
+            "levels": [
+                1,
+                2
+            ]
+        },
+        {
+            "id": "grammatik",
+            "areaId": "linguistik",
+            "name": "Grammatik",
+            "description": "Satzbau und Wortarten",
+            "levels": [
+                1,
+                2,
+                3,
+                4
+            ]
+        },
+        {
+            "id": "textverstaendnis",
+            "areaId": "lesen",
+            "name": "Textverständnis",
+            "description": "Leseverstehen üben",
+            "levels": [
+                1,
+                2,
+                3,
+                4
+            ]
+        },
+        {
+            "id": "interpretation",
+            "areaId": "lesen",
+            "name": "Textinterpretation",
+            "description": "Literarische Texte analysieren",
+            "levels": [
+                2,
+                3,
+                4
+            ]
+        },
+        {
+            "id": "argumentation",
+            "areaId": "schreiben",
+            "name": "Argumentieren",
+            "description": "Argumentative Texte schreiben",
+            "levels": [
+                3,
+                4
+            ]
+        },
+        {
+            "id": "literatur",
+            "areaId": "lesen",
+            "name": "Literatur",
+            "description": "Literaturgeschichte und -analyse",
+            "levels": [
+                3,
+                4
+            ]
+        },
+        {
+            "id": "stilmittel",
+            "areaId": "linguistik",
+            "name": "Stilmittel",
+            "description": "Rhetorische Figuren",
+            "levels": [
+                3,
+                4
+            ]
+        },
+        {
+            "id": "kommunikation",
+            "areaId": "sprechen",
+            "name": "Kommunikation",
+            "description": "Mündliche Ausdrucksfähigkeit",
+            "levels": [
+                1,
+                2,
+                3,
+                4
+            ]
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "badges": [
+        {"id": "vocab-k1", "name": "Word Collector", "description": "30 new words learned", "icon": "📝", "level": 1, "requirement": {"type": "exercises", "count": 30, "areaId": "vocabulary"}},
+        {"id": "grammar-k2", "name": "Grammar Guru", "description": "20 grammar exercises", "icon": "📚", "level": 2, "requirement": {"type": "exercises", "count": 20, "areaId": "grammar"}},
+        {"id": "reader-k3", "name": "Eager Reader", "description": "15 reading exercises", "icon": "📖", "level": 3, "requirement": {"type": "exercises", "count": 15, "areaId": "reading"}},
+        {"id": "writer-k4", "name": "Pro Writer", "description": "Complete all writing tasks", "icon": "✍️", "level": 4, "requirement": {"type": "exercises", "count": 15, "areaId": "writing"}},
+        {"id": "fluent-k4", "name": "Fluency Star", "description": "All conversation exercises", "icon": "⭐", "level": 4, "requirement": {"type": "exercises", "count": 20, "areaId": "listening"}}
+    ]
+}

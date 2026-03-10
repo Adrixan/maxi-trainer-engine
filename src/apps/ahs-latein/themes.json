@@ -1,0 +1,16 @@
+{
+    "themes": [
+        {"id": "basis-vocab", "areaId": "vokabular", "name": "Grundwortschatz", "description": "Basis vocabular", "levels": [3]},
+        {"id": "alltag", "areaId": "vokabular", "name": "Alltagswörter", "description": "Wörter des täglichen Lebens", "levels": [3]},
+        {"id": "deklin-1", "areaId": "grammatik", "name": "1. Deklination", "description": "a-Deklination", "levels": [3]},
+        {"id": "deklin-2", "areaId": "grammatik", "name": "2. Deklination", "description": "o-Deklination", "levels": [3]},
+        {"id": "konjug-1", "areaId": "grammatik", "name": "1. Konjugation", "description": "a-Konjugation", "levels": [3]},
+        {"id": "konjug-2", "areaId": "grammatik", "name": "2. Konjugation", "description": "e-Konjugation", "levels": [3]},
+        {"id": "akkusativ", "areaId": "satzlehre", "name": "Akkusativ", "description": "Wen-Fall", "levels": [3]},
+        {"id": "nominativ", "areaId": "satzlehre", "name": "Nominativ", "description": "Wer-Fall", "levels": [3]},
+        {"id": "rom-leben", "areaId": "kultur", "name": "Römisches Leben", "description": "Alltag in Rom", "levels": [3, 4]},
+        {"id": "geschichte", "areaId": "kultur", "name": "Römische Geschichte", "description": "Geschichte Roms", "levels": [4]},
+        {"id": "aktiv", "areaId": "uebersetzung", "name": "Aktiv-Übersetzung", "description": "Deutsch-Latein", "levels": [3, 4]},
+        {"id": "passiv", "areaId": "uebersetzung", "name": "Passiv-Übersetzung", "description": "Passivformen", "levels": [4]}
+    ]
+}

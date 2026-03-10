@@ -1,0 +1,8 @@
+{
+    "badges": [
+        {"id": "antike-k1", "name": "Antiken-Forscher", "description": "Antike Themen gemeistert", "icon": "🏛️", "level": 1, "requirement": {"type": "exercises", "count": 10, "areaId": "antike"}},
+        {"id": "mittelalter-k2", "name": "mittelalter-Experte", "description": "mittelalter-Aufgaben gelöst", "icon": "⚔️", "level": 2, "requirement": {"type": "exercises", "count": 10, "areaId": "mittelalter"}},
+        {"id": "neuzeit-k3", "name": "Neuzeit-Kenner", "description": "Neuzeit-Aufgaben", "icon": "🏭", "level": 3, "requirement": {"type": "exercises", "count": 10, "areaId": "neuzeit"}},
+        {"id": "gegenwart-k4", "name": "Zeitgeschichte-Profi", "description": "Gegenwartsgeschichte", "icon": "🌍", "level": 4, "requirement": {"type": "exercises", "count": 10, "areaId": "gegenwart"}}
+    ]
+}

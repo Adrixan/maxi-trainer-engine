@@ -1,0 +1,7 @@
+{
+    "badges": [
+        {"id": "werkstoff-k1", "name": "Werkstoff-Experte", "description": "Holz und Metall", "icon": "🔨", "level": 1, "requirement": {"type": "exercises", "count": 6, "areaId": "werkstoffe"}},
+        {"id": "zeichnung-k2", "name": "Zeichner", "description": "Technisches Zeichnen", "icon": "📐", "level": 2, "requirement": {"type": "exercises", "count": 6, "areaId": "technisches-zeichnen"}},
+        {"id": "energie-k2", "name": "Energie-Experte", "description": "Maschinen und Strom", "icon": "⚡", "level": 2, "requirement": {"type": "exercises", "count": 6, "areaId": "energie"}}
+    ]
+}

@@ -1,0 +1,856 @@
+{
+  "exercises": [
+    {
+      "id": "ahs-mathe-k1-nat-001",
+      "type": "multiple-choice",
+      "areaId": "arithmetik",
+      "themeId": "natuerliche-zahlen",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Wie heißt die Zahl 345 in Worten?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "345",
+        "options": [
+          "dreihundertvierzig",
+          "dreihundertfünfundvierzig",
+          "drei vier fünf",
+          "drei hundert fünf"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Hunderter + Zehner + Einer"
+      ],
+      "feedbackCorrect": "Richtig! Dreihundertfünfundvierzig!",
+      "feedbackIncorrect": "345 = dreihundertfünfundvierzig"
+    },
+    {
+      "id": "ahs-mathe-k1-grund-001",
+      "type": "fill-blank",
+      "areaId": "arithmetik",
+      "themeId": "grundrechnen",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Berechne",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "25 + 17 = {{blank}}",
+        "correctAnswer": "42"
+      },
+      "hints": [
+        "Addiere die Zahlen"
+      ],
+      "feedbackCorrect": "Richtig! 42!",
+      "feedbackIncorrect": "25 + 17 = 42"
+    },
+    {
+      "id": "ahs-mathe-k1-grund-002",
+      "type": "fill-blank",
+      "areaId": "arithmetik",
+      "themeId": "grundrechnen",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Berechne",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "83 - 27 = {{blank}}",
+        "correctAnswer": "56"
+      },
+      "hints": [
+        "Subtrahiere"
+      ],
+      "feedbackCorrect": "Richtig! 56!",
+      "feedbackIncorrect": "83 - 27 = 56"
+    },
+    {
+      "id": "ahs-mathe-k1-grund-003",
+      "type": "fill-blank",
+      "areaId": "arithmetik",
+      "themeId": "grundrechnen",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Berechne",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "12 × 5 = {{blank}}",
+        "correctAnswer": "60"
+      },
+      "hints": [
+        "Multipliziere"
+      ],
+      "feedbackCorrect": "Richtig! 60!",
+      "feedbackIncorrect": "12 × 5 = 60"
+    },
+    {
+      "id": "ahs-mathe-k1-grund-004",
+      "type": "fill-blank",
+      "areaId": "arithmetik",
+      "themeId": "grundrechnen",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Berechne",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "48 ÷ 6 = {{blank}}",
+        "correctAnswer": "8"
+      },
+      "hints": [
+        "Teile"
+      ],
+      "feedbackCorrect": "Richtig! 8!",
+      "feedbackIncorrect": "48 ÷ 6 = 8"
+    },
+    {
+      "id": "ahs-mathe-k1-bruch-001",
+      "type": "multiple-choice",
+      "areaId": "arithmetik",
+      "themeId": "brueche",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Welcher Bruch ist größer?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "1/2 oder 1/4",
+        "options": [
+          "1/2",
+          "1/4",
+          "Sie sind gleich",
+          "Man kann nicht vergleichen"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Bei gleichem Zähler: größerer Nenner = kleinerer Bruch"
+      ],
+      "feedbackCorrect": "Richtig! 1/2 ist größer!",
+      "feedbackIncorrect": "1/2 = 0,5 > 1/4 = 0,25"
+    },
+    {
+      "id": "ahs-mathe-k1-dez-001",
+      "type": "fill-blank",
+      "areaId": "arithmetik",
+      "themeId": "dezimalzahlen",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Verwandle in Dezimalzahl",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "3/10 = {{blank}}",
+        "correctAnswer": "0,3"
+      },
+      "hints": [
+        "Zehntel = Komma nach einer Stelle"
+      ],
+      "feedbackCorrect": "Richtig! 0,3!",
+      "feedbackIncorrect": "3/10 = 0,3"
+    },
+    {
+      "id": "ahs-mathe-k1-winkel-001",
+      "type": "multiple-choice",
+      "areaId": "geometrie",
+      "themeId": "winkel",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Wie heißt ein Winkel mit genau 90°?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "90°",
+        "options": [
+          "Spitzer Winkel",
+          "Rechter Winkel",
+          "Stumpfer Winkel",
+          "Überstumpfer Winkel"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Ein Winkel, der wie ein L aussieht"
+      ],
+      "feedbackCorrect": "Richtig! Rechter Winkel!",
+      "feedbackIncorrect": "Ein Winkel von 90° ist ein rechter Winkel."
+    },
+    {
+      "id": "ahs-mathe-k1-flaechen-001",
+      "type": "fill-blank",
+      "areaId": "geometrie",
+      "themeId": "flaechen",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Berechne den Umfang eines Rechtecks",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Rechteck: a=5cm, b=3cm. U = {{blank}} cm",
+        "correctAnswer": "16"
+      },
+      "hints": [
+        "U = 2×(a+b)"
+      ],
+      "feedbackCorrect": "Richtig! 16 cm!",
+      "feedbackIncorrect": "U = 2×(5+3) = 16 cm"
+    },
+    {
+      "id": "ahs-mathe-k1-daten-001",
+      "type": "multiple-choice",
+      "areaId": "statistik",
+      "themeId": "daten",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Was ist der Mittelwert von 2, 4, 6?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "2, 4, 6",
+        "options": [
+          "4",
+          "3",
+          "5",
+          "6"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Summe durch Anzahl teilen"
+      ],
+      "feedbackCorrect": "Richtig! Der Durchschnitt ist 4!",
+      "feedbackIncorrect": "(2+4+6)/3 = 4"
+    },
+    {
+      "id": "ahs-mathe-k2-bruch-001",
+      "type": "fill-blank",
+      "areaId": "arithmetik",
+      "themeId": "brueche",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Erweitere den Bruch",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "2/3 = {{blank}}/9",
+        "correctAnswer": "6"
+      },
+      "hints": [
+        "Mit welcher Zahl multiplizierst du 3 um 9 zu erhalten?"
+      ],
+      "feedbackCorrect": "Richtig! 6/9!",
+      "feedbackIncorrect": "2/3 × 3/3 = 6/9"
+    },
+    {
+      "id": "ahs-mathe-k2-bruch-002",
+      "type": "fill-blank",
+      "areaId": "arithmetik",
+      "themeId": "brueche",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Addiere die Brüche",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "1/4 + 1/4 = {{blank}}",
+        "correctAnswer": "1/2"
+      },
+      "hints": [
+        "Gleichnamige Brüche addieren"
+      ],
+      "feedbackCorrect": "Richtig! 1/2!",
+      "feedbackIncorrect": "1/4 + 1/4 = 2/4 = 1/2"
+    },
+    {
+      "id": "ahs-mathe-k2-dez-001",
+      "type": "fill-blank",
+      "areaId": "arithmetik",
+      "themeId": "dezimalzahlen",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Berechne",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "2,5 + 1,3 = {{blank}}",
+        "correctAnswer": "3,8"
+      },
+      "hints": [
+        "Addiere die Dezimalzahlen"
+      ],
+      "feedbackCorrect": "Richtig! 3,8!",
+      "feedbackIncorrect": "2,5 + 1,3 = 3,8"
+    },
+    {
+      "id": "ahs-mathe-k2-dez-002",
+      "type": "fill-blank",
+      "areaId": "arithmetik",
+      "themeId": "dezimalzahlen",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Multipliziere",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "3,2 × 10 = {{blank}}",
+        "correctAnswer": "32"
+      },
+      "hints": [
+        "Mit 10 multiplizieren = Komma nach rechts"
+      ],
+      "feedbackCorrect": "Richtig! 32!",
+      "feedbackIncorrect": "3,2 × 10 = 32"
+    },
+    {
+      "id": "ahs-mathe-k2-proz-001",
+      "type": "fill-blank",
+      "areaId": "arithmetik",
+      "themeId": "prozent",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Berechne den Prozentwert",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "20% von 150 = {{blank}}",
+        "correctAnswer": "30"
+      },
+      "hints": [
+        "20% = 20/100 = 1/5"
+      ],
+      "feedbackCorrect": "Richtig! 30!",
+      "feedbackIncorrect": "20% von 150 = 0,2 × 150 = 30"
+    },
+    {
+      "id": "ahs-mathe-k2-proz-002",
+      "type": "fill-blank",
+      "areaId": "arithmetik",
+      "themeId": "prozent",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Wie viel Prozent sind 25 von 200?",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "25 von 200 = {{blank}}%",
+        "correctAnswer": "12,5"
+      },
+      "hints": [
+        "(25/200) × 100"
+      ],
+      "feedbackCorrect": "Richtig! 12,5%!",
+      "feedbackIncorrect": "25/200 = 0,125 = 12,5%"
+    },
+    {
+      "id": "ahs-mathe-k2-term-001",
+      "type": "fill-blank",
+      "areaId": "algebra",
+      "themeId": "terme",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Berechne den Term",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "3 × (4 + 5) = {{blank}}",
+        "correctAnswer": "27"
+      },
+      "hints": [
+        "Punkt vor Strich"
+      ],
+      "feedbackCorrect": "Richtig! 27!",
+      "feedbackIncorrect": "3 × 9 = 27"
+    },
+    {
+      "id": "ahs-mathe-k2-term-002",
+      "type": "fill-blank",
+      "areaId": "algebra",
+      "themeId": "terme",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Vereinfache den Term",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "2a + 3a = {{blank}}",
+        "correctAnswer": "5a"
+      },
+      "hints": [
+        "Gleichartige Terme zusammenfassen"
+      ],
+      "feedbackCorrect": "Richtig! 5a!",
+      "feedbackIncorrect": "2a + 3a = (2+3)a = 5a"
+    },
+    {
+      "id": "ahs-mathe-k2-gl-001",
+      "type": "fill-blank",
+      "areaId": "algebra",
+      "themeId": "gleichungen",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Löse die Gleichung",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "x + 7 = 15 → x = {{blank}}",
+        "correctAnswer": "8"
+      },
+      "hints": [
+        "Bringe 7 auf die andere Seite"
+      ],
+      "feedbackCorrect": "Richtig! x = 8!",
+      "feedbackIncorrect": "x = 15 - 7 = 8"
+    },
+    {
+      "id": "ahs-mathe-k2-gl-002",
+      "type": "fill-blank",
+      "areaId": "algebra",
+      "themeId": "gleichungen",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Löse die Gleichung",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "3x = 21 → x = {{blank}}",
+        "correctAnswer": "7"
+      },
+      "hints": [
+        "Teile durch 3"
+      ],
+      "feedbackCorrect": "Richtig! x = 7!",
+      "feedbackIncorrect": "x = 21 / 3 = 7"
+    },
+    {
+      "id": "ahs-mathe-k2-koerper-001",
+      "type": "multiple-choice",
+      "areaId": "geometrie",
+      "themeId": "koerper",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Wie viele Ecken hat ein Würfel?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Würfel",
+        "options": [
+          "6",
+          "8",
+          "12",
+          "4"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Ein Würfel hat 8 Ecken"
+      ],
+      "feedbackCorrect": "Richtig! 8 Ecken!",
+      "feedbackIncorrect": "Ein Würfel hat 8 Ecken."
+    },
+    {
+      "id": "ahs-mathe-k2-funk-001",
+      "type": "multiple-choice",
+      "areaId": "funktionen",
+      "themeId": "funktionen-grundlagen",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Welcher Wert gehört zur Funktion f(x) = 2x für x=3?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "f(x) = 2x, x = 3",
+        "options": [
+          "5",
+          "6",
+          "8",
+          "2"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Setze x=3 ein"
+      ],
+      "feedbackCorrect": "Richtig! f(3) = 6!",
+      "feedbackIncorrect": "f(3) = 2 × 3 = 6"
+    },
+    {
+      "id": "ahs-mathe-k3-bruch-001",
+      "type": "fill-blank",
+      "areaId": "arithmetik",
+      "themeId": "brueche",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Multipliziere die Brüche",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "2/3 × 3/4 = {{blank}}",
+        "correctAnswer": "1/2"
+      },
+      "hints": [
+        "Zähler × Zähler, Nenner × Nenner"
+      ],
+      "feedbackCorrect": "Richtig! 1/2!",
+      "feedbackIncorrect": "2/3 × 3/4 = 6/12 = 1/2"
+    },
+    {
+      "id": "ahs-mathe-k3-bruch-002",
+      "type": "fill-blank",
+      "areaId": "arithmetik",
+      "themeId": "brueche",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Dividiere die Brüche",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "1/2 ÷ 1/4 = {{blank}}",
+        "correctAnswer": "2"
+      },
+      "hints": [
+        "Mit dem Kehrwert multiplizieren"
+      ],
+      "feedbackCorrect": "Richtig! 2!",
+      "feedbackIncorrect": "1/2 ÷ 1/4 = 1/2 × 4/1 = 4/2 = 2"
+    },
+    {
+      "id": "ahs-mathe-k3-proz-001",
+      "type": "fill-blank",
+      "areaId": "arithmetik",
+      "themeId": "prozent",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Berechne den neuen Preis",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "50 € + 20% = {{blank}} €",
+        "correctAnswer": "60"
+      },
+      "hints": [
+        "Erst den Prozentwert addieren"
+      ],
+      "feedbackCorrect": "Richtig! 60 €!",
+      "feedbackIncorrect": "50 + 20% von 50 = 50 + 10 = 60 €"
+    },
+    {
+      "id": "ahs-mathe-k3-term-001",
+      "type": "fill-blank",
+      "areaId": "algebra",
+      "themeId": "terme",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Multipliziere aus",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "3(x + 4) = {{blank}}",
+        "correctAnswer": "3x+12"
+      },
+      "hints": [
+        "Jeden Summanden multiplizieren"
+      ],
+      "feedbackCorrect": "Richtig! 3x + 12!",
+      "feedbackIncorrect": "3x + 12"
+    },
+    {
+      "id": "ahs-mathe-k3-term-002",
+      "type": "fill-blank",
+      "areaId": "algebra",
+      "themeId": "terme",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Faktorisiere",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "5x + 10 = 5({{blank}})",
+        "correctAnswer": "x+2"
+      },
+      "hints": [
+        "5 ausklammern"
+      ],
+      "feedbackCorrect": "Richtig! x + 2!",
+      "feedbackIncorrect": "5(x + 2)"
+    },
+    {
+      "id": "ahs-mathe-k3-gl-001",
+      "type": "fill-blank",
+      "areaId": "algebra",
+      "themeId": "gleichungen",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Löse die Gleichung",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "2x + 3 = 11 → x = {{blank}}",
+        "correctAnswer": "4"
+      },
+      "hints": [
+        "Zuerst -3, dann ÷2"
+      ],
+      "feedbackCorrect": "Richtig! x = 4!",
+      "feedbackIncorrect": "2x = 8, x = 4"
+    },
+    {
+      "id": "ahs-mathe-k3-gl-002",
+      "type": "fill-blank",
+      "areaId": "algebra",
+      "themeId": "gleichungen",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Löse die Gleichung mit Klammern",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "2(x + 3) = 10 → x = {{blank}}",
+        "correctAnswer": "2"
+      },
+      "hints": [
+        "Zuerst die Klammer auflösen"
+      ],
+      "feedbackCorrect": "Richtig! x = 2!",
+      "feedbackIncorrect": "2x + 6 = 10, 2x = 4, x = 2"
+    },
+    {
+      "id": "ahs-mathe-k3-ungl-001",
+      "type": "multiple-choice",
+      "areaId": "algebra",
+      "themeId": "ungleichungen",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Was ist die Lösung von x + 5 > 8?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "x + 5 > 8",
+        "options": [
+          "x > 3",
+          "x < 3",
+          "x = 3",
+          "x ≥ 3"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "5 auf die andere Seite bringen"
+      ],
+      "feedbackCorrect": "Richtig! x > 3!",
+      "feedbackIncorrect": "x > 8 - 5 = 3"
+    },
+    {
+      "id": "ahs-mathe-k3-flaechen-001",
+      "type": "fill-blank",
+      "areaId": "geometrie",
+      "themeId": "flaechen",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Berechne den Flächeninhalt eines Dreiecks",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "g=6cm, h=4cm. A = {{blank}} cm²",
+        "correctAnswer": "12"
+      },
+      "hints": [
+        "A = ½ × g × h"
+      ],
+      "feedbackCorrect": "Richtig! 12 cm²!",
+      "feedbackIncorrect": "A = ½ × 6 × 4 = 12 cm²"
+    },
+    {
+      "id": "ahs-mathe-k3-flaechen-002",
+      "type": "fill-blank",
+      "areaId": "geometrie",
+      "themeId": "flaechen",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Berechne den Flächeninhalt eines Kreises",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "r=5cm. A = {{blank}} cm² (π≈3,14)",
+        "correctAnswer": "78,5"
+      },
+      "hints": [
+        "A = π × r²"
+      ],
+      "feedbackCorrect": "Richtig! 78,5 cm²!",
+      "feedbackIncorrect": "A = 3,14 × 25 = 78,5 cm²"
+    },
+    {
+      "id": "ahs-mathe-k3-koerper-001",
+      "type": "fill-blank",
+      "areaId": "geometrie",
+      "themeId": "koerper",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Berechne das Volumen eines Quaders",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "a=3cm, b=4cm, h=5cm. V = {{blank}} cm³",
+        "correctAnswer": "60"
+      },
+      "hints": [
+        "V = a × b × h"
+      ],
+      "feedbackCorrect": "Richtig! 60 cm³!",
+      "feedbackIncorrect": "V = 3 × 4 × 5 = 60 cm³"
+    },
+    {
+      "id": "ahs-mathe-k3-funk-001",
+      "type": "fill-blank",
+      "areaId": "funktionen",
+      "themeId": "lineare-funktionen",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Bestimme die Steigung",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "f(x) = 2x + 1. Steigung m = {{blank}}",
+        "correctAnswer": "2"
+      },
+      "hints": [
+        "Vor dem x"
+      ],
+      "feedbackCorrect": "Richtig! m = 2!",
+      "feedbackIncorrect": "Die Form ist y = mx + b, also m = 2"
+    },
+    {
+      "id": "ahs-mathe-k3-funk-002",
+      "type": "multiple-choice",
+      "areaId": "funktionen",
+      "themeId": "lineare-funktionen",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Wo schneidet die Gerade die y-Achse?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "f(x) = 2x + 3",
+        "options": [
+          "(0,3)",
+          "(3,0)",
+          "(0,2)",
+          "(2,0)"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Setze x = 0"
+      ],
+      "feedbackCorrect": "Richtig! Bei y = 3!",
+      "feedbackIncorrect": "f(0) = 3, also (0,3)"
+    },
+    {
+      "id": "ahs-mathe-k3-wahrschein-001",
+      "type": "fill-blank",
+      "areaId": "statistik",
+      "themeId": "wahrscheinlichkeit",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Berechne die Wahrscheinlichkeit",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Würfel: Wahrscheinlichkeit für 6 = {{blank}}",
+        "correctAnswer": "1/6"
+      },
+      "hints": [
+        "Günstige / Mögliche"
+      ],
+      "feedbackCorrect": "Richtig! 1/6!",
+      "feedbackIncorrect": "1 günstiges von 6 möglichen = 1/6"
+    },
+    {
+      "id": "ahs-mathe-k4-gl-001",
+      "type": "fill-blank",
+      "areaId": "algebra",
+      "themeId": "quadratisch",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Löse die quadratische Gleichung",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "x² = 16 → x = {{blank}} oder {{blank}}",
+        "correctAnswer": "4;-4"
+      },
+      "hints": [
+        "Wurzel ziehen, beide Vorzeichen"
+      ],
+      "feedbackCorrect": "Richtig! x = 4 oder x = -4!",
+      "feedbackIncorrect": "x² = 16 → x = ±4"
+    },
+    {
+      "id": "ahs-mathe-k4-gl-002",
+      "type": "fill-blank",
+      "areaId": "algebra",
+      "themeId": "quadratisch",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Wende die pq-Formel an",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "x² + 5x + 6 = 0. Lösungen: x1 = {{blank}}, x2 = {{blank}}",
+        "correctAnswer": "-2;-3"
+      },
+      "hints": [
+        "(x+2)(x+3)"
+      ],
+      "feedbackCorrect": "Richtig! x1 = -2, x2 = -3!",
+      "feedbackIncorrect": "x1 = -2, x2 = -3"
+    },
+    {
+      "id": "ahs-mathe-k4-trig-001",
+      "type": "fill-blank",
+      "areaId": "geometrie",
+      "themeId": "trigonometrie",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Berechne den Sinus",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Gegenkathete=3, Hypotenuse=5. sin(α) = {{blank}}",
+        "correctAnswer": "0,6"
+      },
+      "hints": [
+        "sin = Gegenkathete / Hypotenuse"
+      ],
+      "feedbackCorrect": "Richtig! 0,6!",
+      "feedbackIncorrect": "sin(α) = 3/5 = 0,6"
+    },
+    {
+      "id": "ahs-mathe-k4-trig-002",
+      "type": "fill-blank",
+      "areaId": "geometrie",
+      "themeId": "trigonometrie",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Berechne den Winkel",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "tan(α) = 1. α = {{blank}}°",
+        "correctAnswer": "45"
+      },
+      "hints": [
+        "tan 45° = 1"
+      ],
+      "feedbackCorrect": "Richtig! 45°!",
+      "feedbackIncorrect": "tan(45°) = 1"
+    },
+    {
+      "id": "ahs-mathe-k4-funk-001",
+      "type": "multiple-choice",
+      "areaId": "funktionen",
+      "themeId": "lineare-funktionen",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Welche Gerade ist parallel zu y = 2x + 1?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "parallel zu y = 2x + 1",
+        "options": [
+          "y = 2x - 3",
+          "y = -2x + 1",
+          "y = x + 2",
+          "y = 3x + 1"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Gleiche Steigung"
+      ],
+      "feedbackCorrect": "Richtig! Gleiche Steigung = parallel!",
+      "feedbackIncorrect": "Parallele Geraden haben dieselbe Steigung."
+    },
+    {
+      "id": "ahs-mathe-k4-wahrschein-001",
+      "type": "fill-blank",
+      "areaId": "statistik",
+      "themeId": "wahrscheinlichkeit",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Berechne die Wahrscheinlichkeit (Oder)",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "P(A)=0,3, P(B)=0,4, P(A oder B)=? = {{blank}}",
+        "correctAnswer": "0,7"
+      },
+      "hints": [
+        "Addieren wenn unabhängig"
+      ],
+      "feedbackCorrect": "Richtig! 0,7!",
+      "feedbackIncorrect": "0,3 + 0,4 = 0,7"
+    }
+  ]
+}

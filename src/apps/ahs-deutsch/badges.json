@@ -1,0 +1,52 @@
+{
+    "badges": [
+        {
+            "id": "wortschatz-k1",
+            "name": "Wortschatz-Wächter",
+            "description": "20 Wortschatzübungen in Klasse 1 abgeschlossen",
+            "icon": "📚",
+            "level": 1,
+            "requirement": {"type": "exercises", "count": 20, "themeId": "wortschatz"}
+        },
+        {
+            "id": "grammatik-k1",
+            "name": "Grammatik-Ass",
+            "description": "15 Grammatikübungen in Klasse 1 abgeschlossen",
+            "icon": "✏️",
+            "level": 1,
+            "requirement": {"type": "exercises", "count": 15, "themeId": "grammatik"}
+        },
+        {
+            "id": "leser-k2",
+            "name": "Leseratte",
+            "description": "25 Leseverständnisübungen in Klasse 2",
+            "icon": "📖",
+            "level": 2,
+            "requirement": {"type": "exercises", "count": 25, "themeId": "textverstaendnis"}
+        },
+        {
+            "id": "schreiber-k3",
+            "name": "Schreibprofi",
+            "description": "20 Aufsatzübungen in Klasse 3 gemeistert",
+            "icon": "📝",
+            "level": 3,
+            "requirement": {"type": "exercises", "count": 20, "themeId": "argumentation"}
+        },
+        {
+            "id": "literat-k4",
+            "name": " Literatur-Kenner",
+            "description": "Alle Literaturübungen in Klasse 4 abgeschlossen",
+            "icon": "🎭",
+            "level": 4,
+            "requirement": {"type": "exercises", "count": 20, "themeId": "literatur"}
+        },
+        {
+            "id": "rede-gewinner",
+            "name": "Rede-Gewinner",
+            "description": "15 Kommunikationsübungen gemeistert",
+            "icon": "🎤",
+            "level": 2,
+            "requirement": {"type": "exercises", "count": 15, "themeId": "kommunikation"}
+        }
+    ]
+}

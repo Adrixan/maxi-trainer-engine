@@ -1,0 +1,176 @@
+// themes.json - Auto-generated for dev
+window.__TRAINER_THEMES__ = {
+  "themes": [
+    {
+      "id": "natuerliche-zahlen",
+      "areaId": "arithmetik",
+      "name": "Natürliche Zahlen",
+      "description": "Grundlagen der Zahlen",
+      "levels": [
+        1
+      ]
+    },
+    {
+      "id": "grundrechnen",
+      "areaId": "arithmetik",
+      "name": "Grundrechnungsarten",
+      "description": "Addieren, Subtrahieren, Multiplizieren, Dividieren",
+      "levels": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "brueche",
+      "areaId": "arithmetik",
+      "name": "Brüche",
+      "description": "Bruchrechnung",
+      "levels": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "dezimalzahlen",
+      "areaId": "arithmetik",
+      "name": "Dezimalzahlen",
+      "description": "Dezimalbruchrechnung",
+      "levels": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "prozent",
+      "areaId": "arithmetik",
+      "name": "Prozentrechnung",
+      "description": "Prozente und Zinsen",
+      "levels": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "terme",
+      "areaId": "algebra",
+      "name": "Terme",
+      "description": "Termberechnungen",
+      "levels": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "gleichungen",
+      "areaId": "algebra",
+      "name": "Gleichungen",
+      "description": "Lineare Gleichungen",
+      "levels": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "ungleichungen",
+      "areaId": "algebra",
+      "name": "Ungleichungen",
+      "description": "Ungleichungen lösen",
+      "levels": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "quadratisch",
+      "areaId": "algebra",
+      "name": "Quadratische Gleichungen",
+      "description": "Quadratische Gleichungen",
+      "levels": [
+        4
+      ]
+    },
+    {
+      "id": "winkel",
+      "areaId": "geometrie",
+      "name": "Winkel",
+      "description": "Winkelberechnung",
+      "levels": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "flaechen",
+      "areaId": "geometrie",
+      "name": "Flächen",
+      "description": "Flächenberechnung",
+      "levels": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "koerper",
+      "areaId": "geometrie",
+      "name": "Körper",
+      "description": "Raumgeometrie",
+      "levels": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "trigonometrie",
+      "areaId": "geometrie",
+      "name": "Trigonometrie",
+      "description": "Winkelfunktionen",
+      "levels": [
+        4
+      ]
+    },
+    {
+      "id": "funktionen-grundlagen",
+      "areaId": "funktionen",
+      "name": "Funktionen Grundlagen",
+      "description": "Zuordnungen",
+      "levels": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "lineare-funktionen",
+      "areaId": "funktionen",
+      "name": "Lineare Funktionen",
+      "description": "Geraden",
+      "levels": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "daten",
+      "areaId": "statistik",
+      "name": "Daten",
+      "description": "Statistik",
+      "levels": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "wahrscheinlichkeit",
+      "areaId": "statistik",
+      "name": "Wahrscheinlichkeit",
+      "description": "Stochastik",
+      "levels": [
+        3,
+        4
+      ]
+    }
+  ]
+};

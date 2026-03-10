@@ -1,0 +1,254 @@
+{
+  "exercises": [
+    {
+      "id": "ahs-chem-k4-stoff-001",
+      "type": "multiple-choice",
+      "areaId": "stoffe",
+      "themeId": "eigenschaften",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Welcher Aggregatzustand hat Eis?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Aggregatzustand von Eis:",
+        "options": [
+          "flüssig",
+          "fest",
+          "gasförmig",
+          "plasma"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Kalt und hart"
+      ],
+      "feedbackCorrect": "Richtig! Fest!",
+      "feedbackIncorrect": "Eis ist Wasser im festen Aggregatzustand."
+    },
+    {
+      "id": "ahs-chem-k4-atom-001",
+      "type": "multiple-choice",
+      "areaId": "atombau",
+      "themeId": "atome",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was befindet sich im Atomkern?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Im Kern:",
+        "options": [
+          "Nur Elektronen",
+          "Protonen und Neutronen",
+          "Nur Neutronen",
+          "Nichts"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Positiv geladen"
+      ],
+      "feedbackCorrect": "Richtig! Protonen und Neutronen!",
+      "feedbackIncorrect": "Der Kern besteht aus Protonen (+) und Neutronen."
+    },
+    {
+      "id": "ahs-chem-k4-atom-002",
+      "type": "multiple-choice",
+      "areaId": "atombau",
+      "themeId": "atome",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was ist die Ordnungszahl?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Ordnungszahl:",
+        "options": [
+          "Anzahl der Neutronen",
+          "Anzahl der Protonen",
+          "Anzahl der Elektronen",
+          "Masse"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Im Periodensystem"
+      ],
+      "feedbackCorrect": "Richtig! Die Anzahl der Protonen!",
+      "feedbackIncorrect": "Die Ordnungszahl gibt die Protonenzahl an."
+    },
+    {
+      "id": "ahs-chem-k4-ps-001",
+      "type": "multiple-choice",
+      "areaId": "periodensystem",
+      "themeId": "elemente",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was ist Wasserstoff (H)?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Wasserstoff ist:",
+        "options": [
+          "Ein Metall",
+          "Ein Edelgas",
+          "Das leichteste Element",
+          "Ein Halbmetall"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Die Ordnungszahl ist 1"
+      ],
+      "feedbackCorrect": "Richtig! Das leichteste Element!",
+      "feedbackIncorrect": "Wasserstoff hat die Ordnungszahl 1."
+    },
+    {
+      "id": "ahs-chem-k4-ps-002",
+      "type": "multiple-choice",
+      "areaId": "periodensystem",
+      "themeId": "elemente",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Welches Element hat die chemische Formel O?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "O:",
+        "options": [
+          "Gold",
+          "Sauerstoff",
+          "Osmium",
+          "Oganesson"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Lebensnotwendig"
+      ],
+      "feedbackCorrect": "Richtig! Sauerstoff!",
+      "feedbackIncorrect": "O = Sauerstoff (Oxygenium)."
+    },
+    {
+      "id": "ahs-chem-k4-reak-001",
+      "type": "multiple-choice",
+      "areaId": "chemische-reaktionen",
+      "themeId": "reaktionen",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was ist eine Oxidation?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Oxidation:",
+        "options": [
+          "Elektronenaufnahme",
+          "Elektronenabgabe",
+          "Neutralisation",
+          "Fällung"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Rosten"
+      ],
+      "feedbackCorrect": "Richtig! Elektronenabgabe!",
+      "feedbackIncorrect": "Oxidation bedeutet Abgabe von Elektronen."
+    },
+    {
+      "id": "ahs-chem-k4-reak-002",
+      "type": "multiple-choice",
+      "areaId": "chemische-reaktionen",
+      "themeId": "reaktionen",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was ist eine Reduktion?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Reduktion:",
+        "options": [
+          "Elektronenabgabe",
+          "Elektronenaufnahme",
+          "Säurebildung",
+          "Basebildung"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Gegenteil von Oxidation"
+      ],
+      "feedbackCorrect": "Richtig! Elektronenaufnahme!",
+      "feedbackIncorrect": "Reduktion bedeutet Aufnahme von Elektronen."
+    },
+    {
+      "id": "ahs-chem-k4-saeur-001",
+      "type": "multiple-choice",
+      "areaId": "saeuren-basen",
+      "themeId": "saeuren",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Welcher Stoff ist sauer?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Sauer:",
+        "options": [
+          "Seife",
+          "Zitronensaft",
+          "Natron",
+          "Lauge"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Sauer schmeckend"
+      ],
+      "feedbackCorrect": "Richtig! Zitronensaft!",
+      "feedbackIncorrect": "Zitronensaft hat einen pH-Wert unter 7."
+    },
+    {
+      "id": "ahs-chem-k4-base-001",
+      "type": "multiple-choice",
+      "areaId": "saeuren-basen",
+      "themeId": "basen",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Welcher pH-Wert ist basisch?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Basisch:",
+        "options": [
+          "pH 3",
+          "pH 5",
+          "pH 9",
+          "pH 7"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Über 7"
+      ],
+      "feedbackCorrect": "Richtig! pH 9!",
+      "feedbackIncorrect": "pH-Werte über 7 sind basisch/alkalisch."
+    },
+    {
+      "id": "ahs-chem-k4-neut-001",
+      "type": "multiple-choice",
+      "areaId": "saeuren-basen",
+      "themeId": "saeuren",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was passiert bei einer Neutralisation?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Neutralisation:",
+        "options": [
+          "Säure + Base = Salz + Wasser",
+          "Wasser wird sauer",
+          "Salz wird basisch",
+          "Nichts"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Säure und Base heben sich auf"
+      ],
+      "feedbackCorrect": "Richtig! Säure + Base = Salz + Wasser!",
+      "feedbackIncorrect": "Bei Neutralisation entsteht Salz und Wasser."
+    }
+  ]
+}

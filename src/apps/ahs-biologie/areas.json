@@ -1,0 +1,9 @@
+{
+    "areas": [
+        {"id": "menschen", "name": "Mensch", "description": "Der menschliche Körper", "color": "#991b1b"},
+        {"id": "tiere", "name": "Tiere", "description": "Tierwelt", "color": "#9a3412"},
+        {"id": "pflanzen", "name": "Pflanzen", "description": "Pflanzenkunde", "color": "#166534"},
+        {"id": "oekologie", "name": "Ökologie", "description": "Umwelt und Ökosysteme", "color": "#0e7490"},
+        {"id": "genetik", "name": "Genetik", "description": "Vererbung", "color": "#5b21b6"}
+    ]
+}

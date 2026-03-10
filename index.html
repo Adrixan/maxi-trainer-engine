@@ -6,13 +6,13 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description"
-        content="Mini Trainer Engine - A configurable learning platform for educational exercises" />
+        content="Maxi Trainer Engine - A configurable learning platform for educational exercises" />
 
     <!-- PWA Meta Tags -->
     <meta name="theme-color" content="#4F46E5" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-    <meta name="apple-mobile-web-app-title" content="MiniTrainer" />
+    <meta name="apple-mobile-web-app-title" content="MaxiTrainer" />
     <meta name="mobile-web-app-capable" content="yes" />
 
     <!-- PWA Manifest -->
@@ -27,12 +27,13 @@
 
     <!-- 
         Dynamic page title is injected by Vite's titleInjectionPlugin.
-        - In development: "Mini Trainer" 
-        - In production build: "Mini Trainer {subjectName}" from subject.json
+        - In development: "Maxi Trainer" 
+        - In production build: "Maxi Trainer {subjectName}" from subject.json
     -->
-    <title>Mini Trainer</title>
+    <title>Maxi Trainer</title>
 
-    <!-- Config data will be loaded as IIFE scripts (order matters: subject -> areas -> themes -> badges) -->
+    <!-- Config data will be loaded as IIFE scripts (order matters: app -> subject -> areas -> themes -> badges) -->
+    <script src="./config/app.js" defer></script>
     <script src="./config/subject.js" defer></script>
     <script src="./config/areas.js" defer></script>
     <script src="./config/themes.js" defer></script>

@@ -1,0 +1,14 @@
+{
+    "themes": [
+        {"id": "koerper", "areaId": "menschen", "name": "Körperbau", "description": "Organsysteme", "levels": [1, 2], "symbol": "⚡"},
+        {"id": "ernaehrung", "areaId": "menschen", "name": "Ernährung", "description": "Gesunde Ernährung", "levels": [1, 2], "symbol": "🖤"},
+        {"id": "gesundheit", "areaId": "menschen", "name": "Gesundheit", "description": "Krankheiten und Prävention", "levels": [2, 3], "symbol": "💀"},
+        {"id": "sinne", "areaId": "menschen", "name": "Sinne", "description": "Sinnesorgane", "levels": [2], "symbol": "🔮"},
+        {"id": "tiergruppen", "areaId": "tiere", "name": "Tiergruppen", "description": "Wirbeltiere und Wirbellose", "levels": [1, 2], "symbol": "🎭"},
+        {"id": "pflgruppen", "areaId": "pflanzen", "name": "Pflanzengruppen", "description": "Bäume, Blütenpflanzen", "levels": [1, 2], "symbol": "🌿"},
+        {"id": "photosynthese", "areaId": "pflanzen", "name": "Photosynthese", "description": "Pflanzenernährung", "levels": [2, 3], "symbol": "☀️"},
+        {"id": "oekosysteme", "areaId": "oekologie", "name": "Ökosysteme", "description": "Lebensräume", "levels": [2, 3], "symbol": "🌑"},
+        {"id": "umwelt", "areaId": "oekologie", "name": "Umweltschutz", "description": "Ökologische Probleme", "levels": [3, 4], "symbol": "🩸"},
+        {"id": "vererbung", "areaId": "genetik", "name": "Vererbung", "description": "Gene und Merkmale", "levels": [4], "symbol": "🧬"}
+    ]
+}

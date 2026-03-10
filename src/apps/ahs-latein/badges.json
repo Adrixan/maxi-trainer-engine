@@ -1,0 +1,8 @@
+{
+    "badges": [
+        {"id": "vocab-k3", "name": "Vokabel-Meister", "description": "30 lateinische Vokabeln", "icon": "📚", "level": 3, "requirement": {"type": "exercises", "count": 15, "areaId": "vokabular"}},
+        {"id": "grammatik-k3", "name": "Formen-Fuchs", "description": "Deklinationen und Konjugationen", "icon": "✏️", "level": 3, "requirement": {"type": "exercises", "count": 15, "areaId": "grammatik"}},
+        {"id": "kultur-k4", "name": "Rom-Kenner", "description": "Römische Kultur verstanden", "icon": "🏛️", "level": 4, "requirement": {"type": "exercises", "count": 10, "areaId": "kultur"}},
+        {"id": "uebersetz-k4", "name": "Übersetzer", "description": "Latein-Deutsch übersetzen", "icon": "📜", "level": 4, "requirement": {"type": "exercises", "count": 10, "areaId": "uebersetzung"}}
+    ]
+}

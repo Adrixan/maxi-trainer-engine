@@ -507,6 +507,7 @@ function buildExerciseData(args) {
         exercises,
         metadata: {
             generatedAt: new Date().toISOString(),
+            appId: args.app,
             version: '1.0.0',
             count: exercises.length,
             stats,
@@ -525,11 +526,6 @@ function buildExerciseData(args) {
 
 // Global exercise data object
 window.__TRAINER_EXERCISES__ = ${JSON.stringify(outputData, null, 2)};
-
-// Also export for ES modules if needed
-if (typeof module !== 'undefined' && module.exports) {
-    module.exports = outputData;
-}
 `;
 
     // Write output file

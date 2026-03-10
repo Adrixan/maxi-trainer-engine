@@ -1,0 +1,13 @@
+{
+    "themes": [
+        {"id": "holz", "areaId": "werkstoffe", "name": "Holz", "description": "Holzbearbeitung", "levels": [1, 2]},
+        {"id": "metall", "areaId": "werkstoffe", "name": "Metall", "description": "Metallbearbeitung", "levels": [1, 2]},
+        {"id": "kunststoff", "areaId": "werkstoffe", "name": "Kunststoff", "description": "Kunststoffverarbeitung", "levels": [1, 2]},
+        {"id": "skizze", "areaId": "technisches-zeichnen", "name": "Skizze", "description": "Freihandzeichnen", "levels": [1, 2]},
+        {"id": "techn zeichn", "areaId": "technisches-zeichnen", "name": "Technische Zeichnung", "description": "Normgerecht", "levels": [2]},
+        {"id": "maschinen", "areaId": "energie", "name": "Maschinen", "description": "Getriebe, Hebel", "levels": [2]},
+        {"id": "elektro", "areaId": "energie", "name": "Elektrotechnik", "description": "Stromkreise", "levels": [2]},
+        {"id": "steuerung", "areaId": "digital", "name": "Steuerung", "description": "Grundlagen Steuerung", "levels": [2]},
+        {"id": "robotik", "areaId": "digital", "name": "Robotik", "description": "Einfache Roboter", "levels": [2]}
+    ]
+}

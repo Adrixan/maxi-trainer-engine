@@ -1,0 +1,204 @@
+{
+  "exercises": [
+    {
+      "id": "ahs-rel-k1-bibel-001",
+      "type": "multiple-choice",
+      "areaId": "christentum",
+      "themeId": "bibel",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Aus wie vielen Teilen besteht die Bibel?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Bibel:",
+        "options": [
+          "1 Teil",
+          "2 Teile",
+          "3 Teile",
+          "4 Teile"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "AT und NT"
+      ],
+      "feedbackCorrect": "Richtig! 2 Teile!",
+      "feedbackIncorrect": "Die Bibel hat 2 Teile: AT + NT"
+    },
+    {
+      "id": "ahs-rel-k1-jesus-001",
+      "type": "multiple-choice",
+      "areaId": "christentum",
+      "themeId": "jesus",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Wo wurde Jesus geboren?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Geburt Jesu:",
+        "options": [
+          "Rom",
+          "Jerusalem",
+          "Bethlehem",
+          "Nazareth"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Stall"
+      ],
+      "feedbackCorrect": "Richtig! Bethlehem!",
+      "feedbackIncorrect": "Jesus wurde in Bethlehem geboren."
+    },
+    {
+      "id": "ahs-rel-k2-islam-001",
+      "type": "multiple-choice",
+      "areaId": "andere-religionen",
+      "themeId": "islam",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Wie heißt das heilige Buch des Islam?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Heiliges Buch Islam:",
+        "options": [
+          "Bibel",
+          "Koran",
+          "Thora",
+          "Vedas"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Auf Arabisch"
+      ],
+      "feedbackCorrect": "Richtig! Der Koran!",
+      "feedbackIncorrect": "Der Koran ist das heilige Buch der Muslime."
+    },
+    {
+      "id": "ahs-rel-k2-judentum-001",
+      "type": "multiple-choice",
+      "areaId": "andere-religionen",
+      "themeId": "judentum",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Was ist die Thora?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Thora:",
+        "options": [
+          "Ein Gebet",
+          "Die jüdische Bibel",
+          "Ein Feiertag",
+          "Ein Rabbi"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Die 5 Bücher Mose"
+      ],
+      "feedbackCorrect": "Richtig! Die jüdische Bibel!",
+      "feedbackIncorrect": "Die Thora sind die 5 Bücher Mose."
+    },
+    {
+      "id": "ahs-rel-k3-bibel-001",
+      "type": "multiple-choice",
+      "areaId": "christentum",
+      "themeId": "bibel",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Was bedeuten die 10 Gebote?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "10 Gebote:",
+        "options": [
+          "Gesetze für Gläubige",
+          "Nur für Juden",
+          "Nur für Christen",
+          "Ein Rat"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Von Gott"
+      ],
+      "feedbackCorrect": "Richtig! Gesetze für Gläubige!",
+      "feedbackIncorrect": "Die 10 Gebote sind Gesetze von Gott."
+    },
+    {
+      "id": "ahs-rel-k3-ethik-001",
+      "type": "multiple-choice",
+      "areaId": "ethik",
+      "themeId": "ethik-themen",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Was ist Ethik?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Ethik:",
+        "options": [
+          "Eine Religion",
+          "Moral und Werte",
+          "Ein Sport",
+          "Eine Wissenschaft"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Richtig und falsch"
+      ],
+      "feedbackCorrect": "Richtig! Moral und Werte!",
+      "feedbackIncorrect": "Ethik ist die Lehre von Moral und Werten."
+    },
+    {
+      "id": "ahs-rel-k4-oekum-001",
+      "type": "multiple-choice",
+      "areaId": "geschichte",
+      "themeId": "oekumene",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was bedeutet Ökumene?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Ökumene:",
+        "options": [
+          "Weltliche Politik",
+          "Zusammenarbeit der Kirchen",
+          "Ein Konzil",
+          "Eine Sekte"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Einheit"
+      ],
+      "feedbackCorrect": "Richtig! Zusammenarbeit der Kirchen!",
+      "feedbackIncorrect": "Ökumene = Zusammenarbeit aller Christen."
+    },
+    {
+      "id": "ahs-rel-k4-ethik-001",
+      "type": "multiple-choice",
+      "areaId": "ethik",
+      "themeId": "ethik-themen",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was ist Goldene Regel?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Goldene Regel:",
+        "options": [
+          "Goldene Münze",
+          "Behandle andere wie du behandelt werden willst",
+          "Nur für Reiche",
+          "Ein Gesetz"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Respekt"
+      ],
+      "feedbackCorrect": "Richtig! Wie du behandelt werden willst!",
+      "feedbackIncorrect": "Behandle andere so, wie du behandelt werden willst."
+    }
+  ]
+}

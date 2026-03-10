@@ -1,0 +1,14 @@
+{
+    "themes": [
+        {"id": "bewegung", "areaId": "mechanik", "name": "Bewegung", "description": "Geschwindigkeit, Beschleunigung", "levels": [2, 3]},
+        {"id": "kraft", "areaId": "mechanik", "name": "Kraft", "description": "Newtonsche Gesetze", "levels": [2, 3]},
+        {"id": "arbeit", "areaId": "mechanik", "name": "Arbeit und Energie", "description": "Energieerhaltung", "levels": [3, 4]},
+        {"id": "temperatur", "areaId": "waerme", "name": "Temperatur", "description": "Temperaturskalen", "levels": [2, 3]},
+        {"id": "waermeleitung", "areaId": "waerme", "name": "Wärmeleitung", "description": "Wärmeübertragung", "levels": [3]},
+        {"id": "strom", "areaId": "elektrik", "name": "Elektrischer Strom", "description": "Stromkreise", "levels": [2, 3]},
+        {"id": "magnet", "areaId": "elektrik", "name": "Magnetismus", "description": "Magnetische Felder", "levels": [2, 3]},
+        {"id": "licht", "areaId": "optik", "name": "Licht", "description": "Lichtausbreitung", "levels": [3, 4]},
+        {"id": "linse", "areaId": "optik", "name": "Linsen", "description": "Optische Geräte", "levels": [4]},
+        {"id": "schall", "areaId": "wellen", "name": "Schall", "description": "Akustik", "levels": [3, 4]}
+    ]
+}

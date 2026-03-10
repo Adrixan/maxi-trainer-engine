@@ -1,6 +1,6 @@
 {
-    "name": "Mini Trainer Engine",
-    "short_name": "MiniTrainer",
+    "name": "Maxi Trainer Engine",
+    "short_name": "MaxiTrainer",
     "description": "A configurable learning platform for educational exercises",
     "start_url": "/",
     "display": "standalone",

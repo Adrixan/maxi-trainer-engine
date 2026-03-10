@@ -1,0 +1,229 @@
+{
+  "exercises": [
+    {
+      "id": "ahs-tech-k1-holz-001",
+      "type": "multiple-choice",
+      "areaId": "werkstoffe",
+      "themeId": "holz",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Welches Holz ist weich?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Weiches Holz:",
+        "options": [
+          "Eiche",
+          "Buche",
+          "Fichte",
+          "Nussbaum"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Nadelbaum"
+      ],
+      "feedbackCorrect": "Richtig! Fichte!",
+      "feedbackIncorrect": "Fichte ist ein weiches Nadelholz."
+    },
+    {
+      "id": "ahs-tech-k1-metall-001",
+      "type": "multiple-choice",
+      "areaId": "werkstoffe",
+      "themeId": "metall",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Welches Metall rostet nicht?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Rostet nicht:",
+        "options": [
+          "Eisen",
+          "Stahl",
+          "Edelstahl",
+          "Kupfer"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Legierung"
+      ],
+      "feedbackCorrect": "Richtig! Edelstahl!",
+      "feedbackIncorrect": "Edelstahl rostet nicht (rostfrei)."
+    },
+    {
+      "id": "ahs-tech-k1-skizz-001",
+      "type": "multiple-choice",
+      "areaId": "technisches-zeichnen",
+      "themeId": "skizze",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Was ist eine Skizze?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Skizze:",
+        "options": [
+          "Genau maßstabsgetreu",
+          "Freihand-Zeichnung",
+          "Computerzeichnung",
+          "Foto"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Schnell"
+      ],
+      "feedbackCorrect": "Richtig! Freihand-Zeichnung!",
+      "feedbackIncorrect": "Eine Skizze ist eine freihand gezeichnete Vorzeichnung."
+    },
+    {
+      "id": "ahs-tech-k2-kunst-001",
+      "type": "multiple-choice",
+      "areaId": "werkstoffe",
+      "themeId": "kunststoff",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Welcher Kunststoff ist thermoplastisch?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Thermoplast:",
+        "options": [
+          "PU",
+          "PE",
+          "Bakelit",
+          "Melamin"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Wird weich bei Hitze"
+      ],
+      "feedbackCorrect": "Richtig! PE (Polyethylen)!",
+      "feedbackIncorrect": "PE wird bei Hitze weich."
+    },
+    {
+      "id": "ahs-tech-k2-zeich-001",
+      "type": "multiple-choice",
+      "areaId": "technisches-zeichnen",
+      "themeId": "techn zeichn",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Was bedeutet eine durchgehende Linie?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Durchgehende Linie:",
+        "options": [
+          "Verdeckte Kante",
+          "Sichtbare Kante",
+          "Maßlinie",
+          "Schraffur"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Kontur"
+      ],
+      "feedbackCorrect": "Richtig! Sichtbare Kante!",
+      "feedbackIncorrect": "Durchgehende = sichtbare Kante"
+    },
+    {
+      "id": "ahs-tech-k2-hebel-001",
+      "type": "multiple-choice",
+      "areaId": "energie",
+      "themeId": "maschinen",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Was ist ein Hebel?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Hebel:",
+        "options": [
+          "Eine Rampe",
+          "Eine drehbare Stange",
+          "Ein Rad",
+          "Eine Schraube"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Drehpunkt"
+      ],
+      "feedbackCorrect": "Richtig! Eine drehbare Stange!",
+      "feedbackIncorrect": "Ein Hebel ist eine drehbare Stange um einen Drehpunkt."
+    },
+    {
+      "id": "ahs-tech-k2-elek-001",
+      "type": "multiple-choice",
+      "areaId": "energie",
+      "themeId": "elektro",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Was ist ein Stromkreis?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Stromkreis:",
+        "options": [
+          "Ein Draht",
+          "Geschlossener Weg für Strom",
+          "Eine Batterie",
+          "Ein Schalter"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Geschlossener"
+      ],
+      "feedbackCorrect": "Richtig! Geschlossener Weg!",
+      "feedbackIncorrect": "Ein Stromkreis ist ein geschlossener Weg."
+    },
+    {
+      "id": "ahs-tech-k2-steu-001",
+      "type": "multiple-choice",
+      "areaId": "digital",
+      "themeId": "steuerung",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Was ist eine Steuerung?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Steuerung:",
+        "options": [
+          "Energie erzeugen",
+          "Gerät kontrollieren",
+          "Transportieren",
+          "Messen"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Kontrollieren"
+      ],
+      "feedbackCorrect": "Richtig! Gerät kontrollieren!",
+      "feedbackIncorrect": "Steuerung = Gerät/Befehl kontrollieren"
+    },
+    {
+      "id": "ahs-tech-k2-robot-001",
+      "type": "multiple-choice",
+      "areaId": "digital",
+      "themeId": "robotik",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Was ist ein Roboter?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Roboter:",
+        "options": [
+          "Eine Maschine die programmiert ist",
+          "Ein Computer",
+          "Ein Motor",
+          "Eine Lampe"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Programmierbar"
+      ],
+      "feedbackCorrect": "Richtig! Programmierbare Maschine!",
+      "feedbackIncorrect": "Ein Roboter ist eine programmierbare Maschine."
+    }
+  ]
+}

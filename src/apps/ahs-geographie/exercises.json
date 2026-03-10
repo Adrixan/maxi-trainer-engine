@@ -1,0 +1,464 @@
+{
+  "exercises": [
+    {
+      "id": "ahs-geo-k1-bund-001",
+      "type": "multiple-choice",
+      "areaId": "oesterreich",
+      "themeId": "bundeslaender",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Wie viele Bundesländer hat Österreich?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Anzahl der Bundesländer:",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "correctIndex": 3
+      },
+      "hints": [
+        "Es sind neun"
+      ],
+      "feedbackCorrect": "Richtig! 9 Bundesländer!",
+      "feedbackIncorrect": "Österreich hat 9 Bundesländer."
+    },
+    {
+      "id": "ahs-geo-k1-bund-002",
+      "type": "matching",
+      "areaId": "oesterreich",
+      "themeId": "bundeslaender",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ordne die Bundesländer zu",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Wien",
+            "right": "W"
+          },
+          {
+            "left": "Niederösterreich",
+            "right": "NÖ"
+          },
+          {
+            "left": "Oberösterreich",
+            "right": "OÖ"
+          },
+          {
+            "left": "Salzburg",
+            "right": "S"
+          }
+        ]
+      },
+      "hints": [
+        "Die Kürzel"
+      ],
+      "feedbackCorrect": "Richtig!",
+      "feedbackIncorrect": "W=Wien, NÖ=Niederösterreich, OÖ=Oberösterreich, S=Salzburg"
+    },
+    {
+      "id": "ahs-geo-k1-lh-001",
+      "type": "multiple-choice",
+      "areaId": "oesterreich",
+      "themeId": "landeshauptstaedte",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Was ist die Hauptstadt von Österreich?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Die Bundeshauptstadt ist:",
+        "options": [
+          "Salzburg",
+          "Wien",
+          "Graz",
+          "Innsbruck"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Die größte Stadt"
+      ],
+      "feedbackCorrect": "Richtig! Wien!",
+      "feedbackIncorrect": "Wien ist die Bundeshauptstadt."
+    },
+    {
+      "id": "ahs-geo-k1-alp-001",
+      "type": "multiple-choice",
+      "areaId": "oesterreich",
+      "themeId": "alpen",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Der höchste Berg Österreichs ist:",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Höchster Berg:",
+        "options": [
+          "Grossglockner",
+          "Wildspitze",
+          "Matterhorn",
+          "Kleinwalsertal"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Er liegt in den Ötztaler Alpen"
+      ],
+      "feedbackCorrect": "Richtig! Die Wildspitze!",
+      "feedbackIncorrect": "Die Wildspitze ist 3.798 m hoch."
+    },
+    {
+      "id": "ahs-geo-k1-fluss-001",
+      "type": "multiple-choice",
+      "areaId": "oesterreich",
+      "themeId": "flusse",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Welcher Fluss fließt durch Wien?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Fluss durch Wien:",
+        "options": [
+          "Donau",
+          "Inn",
+          "Salzach",
+          "Drau"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Der zweitlängste Fluss Europas"
+      ],
+      "feedbackCorrect": "Richtig! Die Donau!",
+      "feedbackIncorrect": "Die Donau fließt durch Wien."
+    },
+    {
+      "id": "ahs-geo-k1-kont-001",
+      "type": "multiple-choice",
+      "areaId": "welt",
+      "themeId": "kontinente",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Wie viele Kontinente gibt es?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Anzahl der Kontinente:",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Europa, Asien, Afrika, Amerika, Ozeanien, Antarktika"
+      ],
+      "feedbackCorrect": "Richtig! 7 Kontinente!",
+      "feedbackIncorrect": "Es gibt 7 Kontinente."
+    },
+    {
+      "id": "ahs-geo-k2-eu-001",
+      "type": "multiple-choice",
+      "areaId": "europa",
+      "themeId": "eu-laender",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Wie viele EU-Mitglieder gibt es (aktuell)?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Anzahl der EU-Länder:",
+        "options": [
+          "25",
+          "27",
+          "30",
+          "32"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Nach dem Brexit"
+      ],
+      "feedbackCorrect": "Richtig! 27!",
+      "feedbackIncorrect": "Die EU hat 27 Mitgliedsländer."
+    },
+    {
+      "id": "ahs-geo-k2-eu-002",
+      "type": "multiple-choice",
+      "areaId": "europa",
+      "themeId": "eu-laender",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Welches Land ist NICHT in der EU?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Nicht in der EU:",
+        "options": [
+          "Schweiz",
+          "Frankreich",
+          "Italien",
+          "Spanien"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Ein neutrales Alpenland"
+      ],
+      "feedbackCorrect": "Richtig! Die Schweiz!",
+      "feedbackIncorrect": "Die Schweiz ist nicht in der EU."
+    },
+    {
+      "id": "ahs-geo-k2-klima-001",
+      "type": "multiple-choice",
+      "areaId": "umwelt",
+      "themeId": "klima",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Welches Klima herrscht in Österreich?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Klima in Österreich:",
+        "options": [
+          "Tropisch",
+          "Kontinental",
+          "Wüste",
+          "Polar"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Mitteleuropäisches Klima"
+      ],
+      "feedbackCorrect": "Richtig! Kontinentales Klima!",
+      "feedbackIncorrect": "Österreich hat kontinentales Klima mit kalten Wintern."
+    },
+    {
+      "id": "ahs-geo-k2-fluss-001",
+      "type": "multiple-choice",
+      "areaId": "oesterreich",
+      "themeId": "flusse",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Welcher Fluss ist der längste in Österreich?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Längster Fluss:",
+        "options": [
+          "Salzach",
+          "Inn",
+          "Donau",
+          "Drau"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Er fließt auch durch Wien"
+      ],
+      "feedbackCorrect": "Richtig! Die Donau!",
+      "feedbackIncorrect": "Die Donau ist der längste Fluss (350 km in Österreich)."
+    },
+    {
+      "id": "ahs-geo-k3-entw-001",
+      "type": "multiple-choice",
+      "areaId": "welt",
+      "themeId": "entwicklung-laender",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Was bedeutet 'Globaler Süden'?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Globaler Süden:",
+        "options": [
+          "Südhalbkugel",
+          "Entwicklungsländer",
+          "Südliche Länder",
+          "Europa"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Wirtschaftlich ärmere Länder"
+      ],
+      "feedbackCorrect": "Richtig! Entwicklungsländer!",
+      "feedbackIncorrect": "Der Globale Süden umfasst wirtschaftlich schwächere Länder."
+    },
+    {
+      "id": "ahs-geo-k3-ress-001",
+      "type": "multiple-choice",
+      "areaId": "wirtschaft",
+      "themeId": "ressourcen",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Welches ist ein nachhaltiger Energieträger?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Nachhaltige Energie:",
+        "options": [
+          "Kohle",
+          "Solarenergie",
+          "Erdöl",
+          "Erdgas"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Sonne"
+      ],
+      "feedbackCorrect": "Richtig! Solarenergie!",
+      "feedbackIncorrect": "Solarenergie ist erneuerbar und nachhaltig."
+    },
+    {
+      "id": "ahs-geo-k3-welt-001",
+      "type": "multiple-choice",
+      "areaId": "welt",
+      "themeId": "weltmeere",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Welcher ist der größte Ozean?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Größter Ozean:",
+        "options": [
+          "Atlantik",
+          "Indischer Ozean",
+          "Pazifik",
+          "Arktischer Ozean"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Der größte"
+      ],
+      "feedbackCorrect": "Richtig! Der Pazifik!",
+      "feedbackIncorrect": "Der Pazifische Ozean ist der größte."
+    },
+    {
+      "id": "ahs-geo-k3-glob-001",
+      "type": "multiple-choice",
+      "areaId": "wirtschaft",
+      "themeId": "globalisierung",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Was ist Globalisierung?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Globalisierung bedeutet:",
+        "options": [
+          "Nur lokal einkaufen",
+          "Weltweite Vernetzung",
+          "Abschottung",
+          "Krieg"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Verbindung weltweit"
+      ],
+      "feedbackCorrect": "Richtig! Weltweite Vernetzung!",
+      "feedbackIncorrect": "Globalisierung ist die weltweite Verflechtung von Wirtschaft und Kommunikation."
+    },
+    {
+      "id": "ahs-geo-k4-umw-001",
+      "type": "multiple-choice",
+      "areaId": "umwelt",
+      "themeId": "umweltprobleme",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was ist der Treibhauseffekt?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Treibhauseffekt:",
+        "options": [
+          "Schutz der Erde",
+          "Erwärmung durch Gase",
+          "Kühlung",
+          "Natürliches Phänomen"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Die Erde wird wärmer"
+      ],
+      "feedbackCorrect": "Richtig! Erwärmung durch Gase!",
+      "feedbackIncorrect": "Treibhausgase verstärken die natürliche Erwärmung."
+    },
+    {
+      "id": "ahs-geo-k4-umw-002",
+      "type": "multiple-choice",
+      "areaId": "umwelt",
+      "themeId": "umweltprobleme",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Welches Land hat die größten CO2-Emissionen?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Größter Emittent:",
+        "options": [
+          "USA",
+          "Indien",
+          "China",
+          "Russland"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Das bevölkerungsreichste Land"
+      ],
+      "feedbackCorrect": "Richtig! China!",
+      "feedbackIncorrect": "China hat die höchsten CO2-Emissionen weltweit."
+    },
+    {
+      "id": "ahs-geo-k4-nach-001",
+      "type": "multiple-choice",
+      "areaId": "umwelt",
+      "themeId": "nachhaltigkeit",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was bedeutet 'nachhaltig'?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Nachhaltigkeit:",
+        "options": [
+          "Wegwerfen",
+          "Ressourcen schonen für die Zukunft",
+          "Nur wirtschaftliches Wachstum",
+          "Kurzfristig denken"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Für die Zukunft"
+      ],
+      "feedbackCorrect": "Richtig! Ressourcen schonen!",
+      "feedbackIncorrect": "Nachhaltig bedeutet, Ressourcen so zu nutzen, dass sie erhalten bleiben."
+    },
+    {
+      "id": "ahs-geo-k4-sdg-001",
+      "type": "multiple-choice",
+      "areaId": "umwelt",
+      "themeId": "nachhaltigkeit",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Wie viele SDGs gibt es?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Anzahl der SDGs:",
+        "options": [
+          "10",
+          "12",
+          "15",
+          "17"
+        ],
+        "correctIndex": 3
+      },
+      "hints": [
+        "17 Ziele"
+      ],
+      "feedbackCorrect": "Richtig! 17 SDGs!",
+      "feedbackIncorrect": "Es gibt 17 Ziele für nachhaltige Entwicklung (SDGs)."
+    }
+  ]
+}

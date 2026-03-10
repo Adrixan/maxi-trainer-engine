@@ -1,0 +1,18 @@
+{
+    "themes": [
+        {"id": "hardware", "areaId": "computer", "name": "Hardware", "description": "Geräte und Komponenten", "levels": [1, 2]},
+        {"id": "software", "areaId": "computer", "name": "Software", "description": "Betriebssysteme, Anwendungen", "levels": [1, 2]},
+        {"id": "bueroprogramme", "areaId": "computer", "name": "Büroprogramme", "description": "Word, Excel, PowerPoint", "levels": [2, 3]},
+        {"id": "algorithmus", "areaId": "programmieren", "name": "Algorithmen", "description": "Problemlösungsschritte", "levels": [2, 3]},
+        {"id": "scratch", "areaId": "programmieren", "name": "Programmierung", "description": "Visuelle Programmierung", "levels": [2, 3]},
+        {"id": "python", "areaId": "programmieren", "name": "Python", "description": "Textbasierte Programmierung", "levels": [3, 4]},
+        {"id": "netze", "areaId": "internet", "name": "Netzwerke", "description": "Internet Grundlagen", "levels": [2, 3]},
+        {"id": "www", "areaId": "internet", "name": "WWW", "description": "World Wide Web", "levels": [2, 3]},
+        {"id": "passwort", "areaId": "datenschutz", "name": "Passwörter", "description": "Sichere Passwörter", "levels": [1, 2, 3]},
+        {"id": "phishing", "areaId": "datenschutz", "name": "Betrug", "description": "Online-Betrug erkennen", "levels": [2, 3, 4]},
+        {"id": "datenschutz", "areaId": "datenschutz", "name": "Datensparsamkeit", "description": "Persönliche Daten schützen", "levels": [2, 3, 4]},
+        {"id": "social-media", "areaId": "medien", "name": "Soziale Medien", "description": "Nutzung und Risiken", "levels": [3, 4]},
+        {"id": "cybermobbing", "areaId": "medien", "name": "Cybermobbing", "description": "Prävention und Reaktion", "levels": [3, 4]},
+        {"id": "quellen", "areaId": "medien", "name": "Quellenarbeit", "description": "Recherche und Zitieren", "levels": [3, 4]}
+    ]
+}

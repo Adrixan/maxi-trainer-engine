@@ -1,0 +1,16 @@
+{
+    "themes": [
+        {"id": "noten", "areaId": "rhythmus", "name": "Notenlesen", "description": "Grundlagen Noten", "levels": [1, 2]},
+        {"id": "takt", "areaId": "rhythmus", "name": "Taktarten", "description": "4/4, 3/4, 6/8", "levels": [1, 2, 3]},
+        {"id": "tonleitern", "areaId": "melodie", "name": "Tonleitern", "description": "Dur und Moll", "levels": [2, 3]},
+        {"id": "intervalle", "areaId": "melodie", "name": "Intervalle", "description": "Tonabstände", "levels": [2, 3]},
+        {"id": "dreiklang", "areaId": "harmonie", "name": "Dreiklänge", "description": "Dur, Moll, vermindert", "levels": [3, 4]},
+        {"id": "saiten", "areaId": "instrumente", "name": "Streichinstrumente", "description": "Geige, Cello", "levels": [1, 2]},
+        {"id": "blasinstr", "areaId": "instrumente", "name": "Blasinstrumente", "description": "Holz- und Blechbläser", "levels": [1, 2]},
+        {"id": "schlagzeug", "areaId": "instrumente", "name": "Schlagzeug", "description": "Percussion", "levels": [1, 2]},
+        {"id": "barock", "areaId": "geschichte", "name": "Barock", "description": "Bach, Händel", "levels": [2, 3]},
+        {"id": "klassik", "areaId": "geschichte", "name": "Klassik", "description": "Mozart, Beethoven", "levels": [2, 3]},
+        {"id": "pop", "areaId": "geschichte", "name": "Pop und Rock", "description": "Moderne Musik", "levels": [3, 4]},
+        {"id": "jazz", "areaId": "geschichte", "name": "Jazz", "description": "Jazz und Blues", "levels": [3, 4]}
+    ]
+}

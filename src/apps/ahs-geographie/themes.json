@@ -1,0 +1,18 @@
+{
+    "themes": [
+        {"id": "bundeslaender", "areaId": "oesterreich", "name": "Bundesländer", "description": "Österreichs Bundesländer", "levels": [1]},
+        {"id": "landeshauptstaedte", "areaId": "oesterreich", "name": "Landeshauptstädte", "description": "Die Landeshauptstädte", "levels": [1]},
+        {"id": "alpen", "areaId": "oesterreich", "name": "Alpen", "description": "Gebirge in Österreich", "levels": [1, 2]},
+        {"id": "flusse", "areaId": "oesterreich", "name": "Flüsse", "description": "Große Flüsse", "levels": [1, 2]},
+        {"id": "eu-laender", "areaId": "europa", "name": "EU-Länder", "description": "Mitgliedsländer der EU", "levels": [2]},
+        {"id": "europa-landschaften", "areaId": "europa", "name": "Landschaften", "description": "Europäische Landschaften", "levels": [2, 3]},
+        {"id": "kontinente", "areaId": "welt", "name": "Kontinente", "description": "Die Kontinente", "levels": [1, 2]},
+        {"id": "weltmeere", "areaId": "welt", "name": "Weltmeere", "description": "Ozeane", "levels": [1, 2]},
+        {"id": "entwicklung-laender", "areaId": "welt", "name": "Entwicklungsländer", "description": "Nord-Süd-Gefälle", "levels": [3, 4]},
+        {"id": "globalisierung", "areaId": "wirtschaft", "name": "Globalisierung", "description": "Weltwirtschaft", "levels": [3, 4]},
+        {"id": "ressourcen", "areaId": "wirtschaft", "name": "Ressourcen", "description": "Energie und Rohstoffe", "levels": [3]},
+        {"id": "klima", "areaId": "umwelt", "name": "Klima", "description": "Klimazonen", "levels": [2, 3]},
+        {"id": "umweltprobleme", "areaId": "umwelt", "name": "Umweltprobleme", "description": "Ökologische Herausforderungen", "levels": [3, 4]},
+        {"id": "nachhaltigkeit", "areaId": "umwelt", "name": "Nachhaltigkeit", "description": "SDG und Umweltschutz", "levels": [4]}
+    ]
+}

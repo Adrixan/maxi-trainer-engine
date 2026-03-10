@@ -1,0 +1,9 @@
+{
+    "areas": [
+        {"id": "urgeschichte", "name": "Urgeschichte", "description": "Frühgeschichte", "color": "#7c2d12"},
+        {"id": "antike", "name": "Antike", "description": "Griechische und Römische Welt", "color": "#b45309"},
+        {"id": "mittelalter", "name": "Mittelalter", "description": "Frühmittelalter bis Renaissance", "color": "#a16207"},
+        {"id": "neuzeit", "name": "Neuzeit", "description": "16. bis 19. Jahrhundert", "color": "#15803d"},
+        {"id": "gegenwart", "name": "Gegenwart", "description": "20./21. Jahrhundert", "color": "#0891b2"}
+    ]
+}

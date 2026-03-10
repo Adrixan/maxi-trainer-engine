@@ -20,6 +20,7 @@ export type {
     AppSettings,
     AppState,
     FontSize,
+    Theme,
 } from './appStore';
 
 // Profile store

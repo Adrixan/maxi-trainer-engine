@@ -19,13 +19,18 @@ import type { SupportedLocale } from '@core/i18n';
 export type FontSize = 'normal' | 'large' | 'extra-large';
 
 /**
+ * Available themes.
+ */
+export type Theme = 'default' | 'noir';
+
+/**
  * Application settings interface.
  */
 export interface AppSettings {
     /** Current locale */
     locale: SupportedLocale;
     /** Theme identifier */
-    theme: string;
+    theme: Theme;
     /** Font size for accessibility */
     fontSize: FontSize;
     /** High contrast mode for visibility */
@@ -53,7 +58,7 @@ export interface AppState {
     /** Set the locale */
     setLocale: (locale: SupportedLocale) => void;
     /** Set the theme */
-    setTheme: (theme: string) => void;
+    setTheme: (theme: Theme) => void;
     /** Set the font size */
     setFontSize: (size: FontSize) => void;
     /** Toggle high contrast mode */
@@ -83,7 +88,7 @@ export interface AppState {
  */
 const DEFAULT_SETTINGS: AppSettings = {
     locale: 'de',
-    theme: 'default',
+    theme: 'noir',
     fontSize: 'normal',
     highContrastMode: false,
     animationsEnabled: true,

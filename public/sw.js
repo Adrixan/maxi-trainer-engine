@@ -1,13 +1,13 @@
 /**
- * Service Worker for Mini Trainer Engine
+ * Service Worker for Maxi Trainer Engine
  * Provides offline support and caching for PWA functionality.
  * 
  * Version: 1.0.0
  */
 
-const CACHE_NAME = 'mini-trainer-v1';
-const STATIC_CACHE_NAME = 'mini-trainer-static-v1';
-const DATA_CACHE_NAME = 'mini-trainer-data-v1';
+const CACHE_NAME = 'maxi-trainer-v1';
+const STATIC_CACHE_NAME = 'maxi-trainer-static-v1';
+const DATA_CACHE_NAME = 'maxi-trainer-data-v1';
 
 // Static assets to cache immediately on install
 const STATIC_ASSETS = [
@@ -106,7 +106,7 @@ self.addEventListener('activate', (event) => {
                     cacheNames
                         .filter((name) => {
                             // Delete old versions of our caches
-                            return name.startsWith('mini-trainer-') &&
+                            return name.startsWith('maxi-trainer-') &&
                                 name !== STATIC_CACHE_NAME &&
                                 name !== DATA_CACHE_NAME;
                         })

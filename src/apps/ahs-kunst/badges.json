@@ -1,0 +1,7 @@
+{
+    "badges": [
+        {"id": "farbe-k1", "name": "Farben-Experte", "description": "Farbenlehre", "icon": "🎨", "level": 1, "requirement": {"type": "exercises", "count": 6, "areaId": "grundlagen"}},
+        {"id": "geschichte-k3", "name": "Kunsthistoriker", "description": "Kunstepochen", "icon": "🖼️", "level": 3, "requirement": {"type": "exercises", "count": 6, "areaId": "geschichte"}},
+        {"id": "analyse-k4", "name": "Kunstanalytiker", "description": "Bildanalyse", "icon": "🔍", "level": 4, "requirement": {"type": "exercises", "count": 6, "areaId": "analyse"}}
+    ]
+}

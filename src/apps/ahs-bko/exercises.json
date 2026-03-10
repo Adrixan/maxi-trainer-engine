@@ -1,0 +1,204 @@
+{
+  "exercises": [
+    {
+      "id": "ahs-bko-k3-inter-001",
+      "type": "multiple-choice",
+      "areaId": "berufswahl",
+      "themeId": "interessen",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Was hilft bei der Berufswahl?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Berufswahl:",
+        "options": [
+          "Zufall",
+          "Interessen und Stärken",
+          "Nur das Gehalt",
+          "Was die Eltern wollen"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Eigene Stärken"
+      ],
+      "feedbackCorrect": "Richtig! Interessen und Stärken!",
+      "feedbackIncorrect": "Interessen und Stärken sind wichtig für die Berufswahl."
+    },
+    {
+      "id": "ahs-bko-k3-beruf-001",
+      "type": "multiple-choice",
+      "areaId": "berufswahl",
+      "themeId": "berufe",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Was ist ein 'MINT'-Beruf?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "MINT:",
+        "options": [
+          "Marketing",
+          "Mathematik, Informatik, Naturwissenschaft, Technik",
+          "Musik",
+          "Medizin"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Technische Berufe"
+      ],
+      "feedbackCorrect": "Richtig! MINT = Technische Berufe!",
+      "feedbackIncorrect": "MINT = Mathematik, Informatik, Naturwissenschaft, Technik"
+    },
+    {
+      "id": "ahs-bko-k3-bewerb-001",
+      "type": "multiple-choice",
+      "areaId": "arbeitswelt",
+      "themeId": "bewerbung",
+      "level": 3,
+      "difficulty": 2,
+      "instruction": "Was gehört NICHT in einen Lebenslauf?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Nicht in den Lebenslauf:",
+        "options": [
+          "Ausbildung",
+          "Hobbys",
+          "Religiöse Überzeugung",
+          "Berufserfahrung"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Persönliche Daten"
+      ],
+      "feedbackCorrect": "Richtig! Religiöse Überzeugung!",
+      "feedbackIncorrect": "Religiöse Daten gehören nicht in den Lebenslauf."
+    },
+    {
+      "id": "ahs-bko-k4-arbeits-001",
+      "type": "multiple-choice",
+      "areaId": "arbeitswelt",
+      "themeId": "arbeitsrecht",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was ist der Mindestlohn?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Mindestlohn:",
+        "options": [
+          "Kein Limit",
+          "Gesetzlich festgelegter Mindestlohn",
+          "Nach Verhandlung",
+          "Keine Regelung"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Gesetzlich"
+      ],
+      "feedbackCorrect": "Richtig! Gesetzlich festgelegt!",
+      "feedbackIncorrect": "Der Mindestlohn ist gesetzlich festgelegt."
+    },
+    {
+      "id": "ahs-bko-k4-lehre-001",
+      "type": "multiple-choice",
+      "areaId": "bildung",
+      "themeId": "lehre",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was ist eine Lehre?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Lehre:",
+        "options": [
+          "Nur Theorie",
+          "Praktische Ausbildung im Betrieb + Berufsschule",
+          "Universitätsstudium",
+          "Fernstudium"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Lernen im Betrieb"
+      ],
+      "feedbackCorrect": "Richtig! Betrieb + Berufsschule!",
+      "feedbackIncorrect": "Eine Lehre = duale Ausbildung (Betrieb + Schule)."
+    },
+    {
+      "id": "ahs-bko-k4-matura-001",
+      "type": "multiple-choice",
+      "areaId": "bildung",
+      "themeId": "matura",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was ermöglicht die Matura?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Matura berechtigt zu:",
+        "options": [
+          "Nur Arbeiten",
+          "Universitätsstudium und Berufseinstieg",
+          "Nur Lehre",
+          "Nichts"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Weiterbildung"
+      ],
+      "feedbackCorrect": "Richtig! Studium und Beruf!",
+      "feedbackIncorrect": "Matura = Zugang zu Universität und vielen Berufen."
+    },
+    {
+      "id": "ahs-bko-k4-skills-001",
+      "type": "multiple-choice",
+      "areaId": "kompetenzen",
+      "themeId": "softskills",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was ist Teamwork?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Teamwork:",
+        "options": [
+          "Alleinarbeit",
+          "Gemeinsam mit anderen Ziele erreichen",
+          "Andere dirigieren",
+          "Nur zuhören"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Gemeinsam"
+      ],
+      "feedbackCorrect": "Richtig! Gemeinsam Ziele erreichen!",
+      "feedbackIncorrect": "Teamwork = Zusammenarbeit für gemeinsame Ziele."
+    },
+    {
+      "id": "ahs-bko-k4-digital-001",
+      "type": "multiple-choice",
+      "areaId": "kompetenzen",
+      "themeId": "digital",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was gehört zu digitaler Kompetenz?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Digitale Kompetenz:",
+        "options": [
+          "Nur Computer nutzen",
+          "Sicherheit, Datenschutz, Mediennutzung",
+          "Spielen",
+          "Nur Programmieren"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Umfassend"
+      ],
+      "feedbackCorrect": "Richtig! Sicherheit + Mediennutzung!",
+      "feedbackIncorrect": "Digitale Kompetenz = sicherer, kritischer Umgang mit Medien."
+    }
+  ]
+}

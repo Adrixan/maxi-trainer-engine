@@ -23,8 +23,14 @@ import { SkipToContent } from '@core/components/accessibility';
 function App() {
     const { i18n } = useTranslation();
     const fontSize = useAppStore((s) => s.settings.fontSize);
+    const theme = useAppStore((s) => s.settings.theme);
     const highContrast = useAppStore((s) => s.settings.highContrastMode);
     const animationsEnabled = useAppStore((s) => s.settings.animationsEnabled);
+
+    // Sync theme attribute on <html> so global CSS can respond
+    useEffect(() => {
+        document.documentElement.setAttribute('data-theme', theme);
+    }, [theme]);
 
     // Sync data-attributes on <html> so global CSS can respond
     useEffect(() => {

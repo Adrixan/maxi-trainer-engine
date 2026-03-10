@@ -291,7 +291,7 @@ export const useProfileStore = create<ProfileState>()(
             },
         }),
         {
-            name: 'mini-trainer-profile',
+            name: 'maxi-trainer-profile',
             version: 1,
             onRehydrateStorage: () => (_state) => {
                 // Profile rehydration complete

@@ -1,0 +1,14 @@
+{
+    "themes": [
+        {"id": "laufen", "areaId": "leichtathletik", "name": "Laufen", "description": "Sprint, Ausdauer", "levels": [1, 2, 3, 4]},
+        {"id": "springen", "areaId": "leichtathletik", "name": "Springen", "description": "Weit, Hoch", "levels": [1, 2, 3, 4]},
+        {"id": "werfen", "areaId": "leichtathletik", "name": "Werfen", "description": "Ball, Speer", "levels": [2, 3, 4]},
+        {"id": "fussball", "areaId": "spiele", "name": "Fußbal", "description": "Mannschafts": [1,spiel", "levels 2, 3, 4]},
+        {"id": "volleyball", "areaId": "spiele", "name": "Volleyball", "description": "Mannschaftsspiel", "levels": [2, 3, 4]},
+        {"id": "basketball", "areaId": "spiele", "name": "Basketball", "description": "Mannschaftsspiel", "levels": [2, 3, 4]},
+        {"id": "turnen", "areaId": "gymnastik", "name": "Turnen", "description": "Geräteturnen", "levels": [1, 2, 3, 4]},
+        {"id": "schwimmen", "areaId": "gymnastik", "name": "Schwimmen", "description": "Wassersport", "levels": [1, 2, 3, 4]},
+        {"id": "ernaehrung", "areaId": "gesundheit", "name": "Ernährung", "description": "Sportlerernährung", "levels": [2, 3, 4]},
+        {"id": "regeln", "areaId": "gesundheit", "name": "Regeln", "description": "Fairplay, Sicherheit", "levels": [1, 2, 3, 4]}
+    ]
+}

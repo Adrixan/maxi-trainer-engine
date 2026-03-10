@@ -1,0 +1,7 @@
+{
+    "badges": [
+        {"id": "atome-k4", "name": "Atom-Experte", "description": "Atombau verstanden", "icon": "⚛️", "level": 4, "requirement": {"type": "exercises", "count": 8, "areaId": "atombau"}},
+        {"id": "ps-k4", "name": "Periodensystem-Meister", "description": "Elemente kennen", "icon": "📊", "level": 4, "requirement": {"type": "exercises", "count": 8, "areaId": "periodensystem"}},
+        {"id": "reaktion-k4", "name": "Reaktions-Chemiker", "description": "Chemische Reaktionen", "icon": "⚗️", "level": 4, "requirement": {"type": "exercises", "count": 8, "areaId": "chemische-reaktionen"}}
+    ]
+}

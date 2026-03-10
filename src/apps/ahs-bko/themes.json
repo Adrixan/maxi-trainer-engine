@@ -1,0 +1,12 @@
+{
+    "themes": [
+        {"id": "interessen", "areaId": "berufswahl", "name": "Interessen", "description": "Eigene Interessen erkennen", "levels": [3, 4]},
+        {"id": "berufe", "areaId": "berufswahl", "name": "Berufsfelder", "description": "Verschiedene Berufe", "levels": [3, 4]},
+        {"id": "bewerbung", "areaId": "arbeitswelt", "name": "Bewerbung", "description": "Lebenslauf, Vorstellungsgespräch", "levels": [3, 4]},
+        {"id": "arbeitsrecht", "areaId": "arbeitswelt", "name": "Arbeitsrecht", "description": "Rechte und Pflichten", "levels": [3, 4]},
+        {"id": "lehre", "areaId": "bildung", "name": "Lehre", "description": "Duale Ausbildung", "levels": [3, 4]},
+        {"id": "matura", "areaId": "bildung", "name": "Matura", "description": "Abitur, Studium", "levels": [3, 4]},
+        {"id": "softskills", "areaId": "kompetenzen", "name": "Soft Skills", "description": "Kommunikation, Teamwork", "levels": [3, 4]},
+        {"id": "digital", "areaId": "kompetenzen", "name": "Digitale Kompetenzen", "description": "Medienkompetenz", "levels": [3, 4]}
+    ]
+}

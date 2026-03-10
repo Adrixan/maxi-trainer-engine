@@ -1,0 +1,236 @@
+{
+  "exercises": [
+    {
+      "id": "ahs-phy-k2-bew-001",
+      "type": "multiple-choice",
+      "areaId": "mechanik",
+      "themeId": "bewegung",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Was ist Geschwindigkeit?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Geschwindigkeit:",
+        "options": [
+          "Kraft pro Fläche",
+          "Weg pro Zeit",
+          "Masse mal Beschleunigung",
+          "Arbeit pro Zeit"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Wie schnell etwas ist"
+      ],
+      "feedbackCorrect": "Richtig! Weg pro Zeit!",
+      "feedbackIncorrect": "Geschwindigkeit = Weg / Zeit (m/s)"
+    },
+    {
+      "id": "ahs-phy-k2-kraft-001",
+      "type": "multiple-choice",
+      "areaId": "mechanik",
+      "themeId": "kraft",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Was ist die Einheit der Kraft?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Einheit der Kraft:",
+        "options": [
+          "Joule",
+          "Watt",
+          "Newton",
+          "Pascal"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Nach einem berühmten Physiker benannt"
+      ],
+      "feedbackCorrect": "Richtig! Newton!",
+      "feedbackIncorrect": "Die Einheit ist Newton (N)."
+    },
+    {
+      "id": "ahs-phy-k2-strom-001",
+      "type": "multiple-choice",
+      "areaId": "elektrik",
+      "themeId": "strom",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Was ist elektrischer Strom?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Elektrischer Strom:",
+        "options": [
+          "Elektronenbewegung",
+          "Spannung",
+          "Widerstand",
+          "Leistung"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Fließen von Ladungen"
+      ],
+      "feedbackCorrect": "Richtig! Elektronenbewegung!",
+      "feedbackIncorrect": "Strom ist die gerichtete Bewegung von Elektronen."
+    },
+    {
+      "id": "ahs-phy-k2-magnet-001",
+      "type": "multiple-choice",
+      "areaId": "elektrik",
+      "themeId": "magnet",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Welche Pole stoßen sich ab?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Abstoßung:",
+        "options": [
+          "Nord und Nord",
+          "Nord und Süd",
+          "Süd und Süd",
+          "Alle"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Gleichnamige Pole"
+      ],
+      "feedbackCorrect": "Richtig! Nord und Nord!",
+      "feedbackIncorrect": "Gleichnamige Pole (Nord-Nord, Süd-Süd) stoßen sich ab."
+    },
+    {
+      "id": "ahs-phy-k3-bew-001",
+      "type": "fill-blank",
+      "areaId": "mechanik",
+      "themeId": "bewegung",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Berechne die Geschwindigkeit",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "100m in 10s = {{blank}} m/s",
+        "correctAnswer": "10"
+      },
+      "hints": [
+        "v = s/t"
+      ],
+      "feedbackCorrect": "Richtig! 10 m/s!",
+      "feedbackIncorrect": "v = 100m / 10s = 10 m/s"
+    },
+    {
+      "id": "ahs-phy-k3-kraft-001",
+      "type": "fill-blank",
+      "areaId": "mechanik",
+      "themeId": "kraft",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Berechne die Kraft",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "m=10kg, a=5m/s² → F = {{blank}} N",
+        "correctAnswer": "50"
+      },
+      "hints": [
+        "F = m × a"
+      ],
+      "feedbackCorrect": "Richtig! 50 N!",
+      "feedbackIncorrect": "F = 10kg × 5m/s² = 50 N"
+    },
+    {
+      "id": "ahs-phy-k3-strom-001",
+      "type": "fill-blank",
+      "areaId": "elektrik",
+      "themeId": "strom",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Berechne die Leistung",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "U=230V, I=2A → P = {{blank}} W",
+        "correctAnswer": "460"
+      },
+      "hints": [
+        "P = U × I"
+      ],
+      "feedbackCorrect": "Richtig! 460 W!",
+      "feedbackIncorrect": "P = 230V × 2A = 460 W"
+    },
+    {
+      "id": "ahs-phy-k3-licht-001",
+      "type": "multiple-choice",
+      "areaId": "optik",
+      "themeId": "licht",
+      "level": 3,
+      "difficulty": 3,
+      "instruction": "Wie breitet sich Licht aus?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Licht:",
+        "options": [
+          "Gekrümmt",
+          "Geradlinig",
+          "Zickzack",
+          "Kreisförmig"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Eine gerade Linie"
+      ],
+      "feedbackCorrect": "Richtig! Geradlinig!",
+      "feedbackIncorrect": "Licht breitet sich geradlinig aus."
+    },
+    {
+      "id": "ahs-phy-k4-linse-001",
+      "type": "multiple-choice",
+      "areaId": "optik",
+      "themeId": "linse",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was macht eine Sammellinse?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Sammellinse:",
+        "options": [
+          "Zerstreut Licht",
+          "Sammelt Licht",
+          "Lässt Licht durch",
+          "Blockiert Licht"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Bringt Licht zusammen"
+      ],
+      "feedbackCorrect": "Richtig! Sammelt Licht!",
+      "feedbackIncorrect": "Eine Sammellinse (Konvex) bricht Licht so, dass es zusammenläuft."
+    },
+    {
+      "id": "ahs-phy-k4-schall-001",
+      "type": "multiple-choice",
+      "areaId": "wellen",
+      "themeId": "schall",
+      "level": 4,
+      "difficulty": 3,
+      "instruction": "Was ist Schall?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Schall:",
+        "options": [
+          "Lichtwellen",
+          "Elektromagnetische Wellen",
+          "Mechanische Wellen",
+          "Wärmestrahlung"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Braucht ein Medium"
+      ],
+      "feedbackCorrect": "Richtig! Mechanische Wellen!",
+      "feedbackIncorrect": "Schall ist eine mechanische Welle, die sich in Luft, Wasser oder Festkörpern ausbreitet."
+    }
+  ]
+}

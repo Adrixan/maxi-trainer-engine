@@ -6,20 +6,21 @@
 
 /**
  * Available avatar emojis for profile creation.
+ * Neutral options (no cute animals).
  */
 export const AVATAR_EMOJIS = [
-    '🦊', // Fox
-    '🐻', // Bear
-    '🐰', // Bunny
-    '🦁', // Lion
-    '🐸', // Frog
-    '🐼', // Panda
-    '🦄', // Unicorn
-    '🐕', // Dog
-    '🐱', // Cat
-    '🐵', // Monkey
-    '🦋', // Butterfly
-    '🌟', // Star
+    '⭐', // Star
+    '🔷', // Diamond
+    '🔶', // Orange diamond
+    '🟢', // Green circle
+    '🔵', // Blue circle
+    '🟣', // Purple circle
+    '📚', // Books
+    '✏️', // Pencil
+    '🎓', // Graduation cap
+    '🏅', // Medal
+    '💡', // Light bulb
+    '🔑', // Key
 ] as const;
 
 /**

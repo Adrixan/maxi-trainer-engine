@@ -1,0 +1,8 @@
+{
+    "badges": [
+        {"id": "pc-k1", "name": "PC-Experte", "description": "Computer-Grundlagen", "icon": "💻", "level": 1, "requirement": {"type": "exercises", "count": 8, "areaId": "computer"}},
+        {"id": "code-k2", "name": "Coder", "description": "Erste Programmierübungen", "icon": "🤖", "level": 2, "requirement": {"type": "exercises", "count": 8, "areaId": "programmieren"}},
+        {"id": " sicher-k3", "name": "Sicherheits-Experte", "description": "Datenschutz verstanden", "icon": "🔒", "level": 3, "requirement": {"type": "exercises", "count": 8, "areaId": "datenschutz"}},
+        {"id": "medien-k4", "name": "Medien-Profi", "description": "Medienkompetenz", "icon": "📱", "level": 4, "requirement": {"type": "exercises", "count": 8, "areaId": "medien"}}
+    ]
+}

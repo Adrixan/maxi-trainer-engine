@@ -1,0 +1,8 @@
+{
+    "badges": [
+        {"id": "koerper-k1", "name": "Körper-Experte", "description": "Körperbau gelernt", "icon": "🫀", "level": 1, "requirement": {"type": "exercises", "count": 10, "areaId": "menschen"}},
+        {"id": "natur-k2", "name": "Natur-Forscher", "description": "Tiere und Pflanzen", "icon": "🌿", "level": 2, "requirement": {"type": "exercises", "count": 10, "areaId": "pflanzen"}},
+        {"id": "oeko-k3", "name": "Öko-Champion", "description": "Ökologie-Aufgaben", "icon": "🌍", "level": 3, "requirement": {"type": "exercises", "count": 10, "areaId": "oekologie"}},
+        {"id": "genetik-k4", "name": "Genetik-Profi", "description": "Vererbung verstehen", "icon": "🧬", "level": 4, "requirement": {"type": "exercises", "count": 10, "areaId": "genetik"}}
+    ]
+}

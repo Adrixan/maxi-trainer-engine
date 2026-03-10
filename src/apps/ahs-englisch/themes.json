@@ -1,0 +1,17 @@
+{
+    "themes": [
+        {"id": "everyday", "areaId": "vocabulary", "name": "Everyday Life", "description": "Daily vocabulary", "levels": [1, 2]},
+        {"id": "school", "areaId": "vocabulary", "name": "School", "description": "School vocabulary", "levels": [1, 2]},
+        {"id": "family", "areaId": "vocabulary", "name": "Family", "description": "Family and friends", "levels": [1, 2, 3]},
+        {"id": "travel", "areaId": "vocabulary", "name": "Travel", "description": "Travel and transport", "levels": [2, 3, 4]},
+        {"id": "present", "areaId": "grammar", "name": "Present Tense", "description": "Present Simple/Continuous", "levels": [1, 2]},
+        {"id": "past", "areaId": "grammar", "name": "Past Tense", "description": "Past Simple", "levels": [1, 2, 3]},
+        {"id": "future", "areaId": "grammar", "name": "Future Tense", "description": "Will/Going to", "levels": [2, 3]},
+        {"id": "perfect", "areaId": "grammar", "name": "Perfect Tense", "description": "Present Perfect", "levels": [3, 4]},
+        {"id": "conditionals", "areaId": "grammar", "name": "Conditionals", "description": "If-clauses", "levels": [4]},
+        {"id": "texts", "areaId": "reading", "name": "Reading Comprehension", "description": "Understand texts", "levels": [1, 2, 3, 4]},
+        {"id": "conversation", "areaId": "listening", "name": "Conversation", "description": "Listening practice", "levels": [1, 2, 3, 4]},
+        {"id": "informal", "areaId": "writing", "name": "Informal Writing", "description": "Emails, letters", "levels": [2, 3]},
+        {"id": "formal", "areaId": "writing", "name": "Formal Writing", "description": "Essays, reports", "levels": [3, 4]}
+    ]
+}

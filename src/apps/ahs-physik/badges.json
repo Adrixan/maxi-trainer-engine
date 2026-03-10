@@ -1,0 +1,7 @@
+{
+    "badges": [
+        {"id": "mech-k3", "name": "Mechanik-Meister", "description": "Bewegung und Kraft", "icon": "⚙️", "level": 3, "requirement": {"type": "exercises", "count": 8, "areaId": "mechanik"}},
+        {"id": "elek-k3", "name": "Elektro-Experte", "description": "Strom und Magnetismus", "icon": "⚡", "level": 3, "requirement": {"type": "exercises", "count": 8, "areaId": "elektrik"}},
+        {"id": "optik-k4", "name": "Optik-Profi", "description": "Licht und Linsen", "icon": "💡", "level": 4, "requirement": {"type": "exercises", "count": 8, "areaId": "optik"}}
+    ]
+}

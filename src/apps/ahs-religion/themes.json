@@ -1,0 +1,11 @@
+{
+    "themes": [
+        {"id": "bibel", "areaId": "christentum", "name": "Bibel", "description": "Altes und Neues Testament", "levels": [1, 2, 3, 4]},
+        {"id": "jesus", "areaId": "christentum", "name": "Jesus", "description": "Leben Jesu", "levels": [1, 2, 3, 4]},
+        {"id": "kirche", "areaId": "christentum", "name": "Kirche", "description": "Katholisch, Evangelisch", "levels": [2, 3, 4]},
+        {"id": "islam", "areaId": "andere-religionen", "name": "Islam", "description": "Moslems, Islam", "levels": [2, 3, 4]},
+        {"id": "judentum", "areaId": "andere-religionen", "name": "Judentum", "description": "Jüdische Religion", "levels": [2, 3, 4]},
+        {"id": "ethik-themen", "areaId": "ethik", "name": "Ethik", "description": "Moralische Fragen", "levels": [3, 4]},
+        {"id": "oekumene", "areaId": "geschichte", "name": "Ökumene", "description": "Kirchengeschichte", "levels": [3, 4]}
+    ]
+}

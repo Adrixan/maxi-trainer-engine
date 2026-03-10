@@ -1,0 +1,18 @@
+{
+    "themes": [
+        {"id": "eiszeit", "areaId": "urgeschichte", "name": "Eiszeit", "description": "Leben in der Eiszeit", "levels": [1]},
+        {"id": "aegypten", "areaId": "urgeschichte", "name": "Ägypten", "description": "Hochkultur am Nil", "levels": [1]},
+        {"id": "griechen", "areaId": "antike", "name": "Griechen", "description": "Antikes Griechenland", "levels": [1, 2]},
+        {"id": "roemer", "areaId": "antike", "name": "Römer", "description": "Römisches Reich", "levels": [1, 2]},
+        {"id": "mittelalter", "areaId": "mittelalter", "name": "Feudalismus", "description": "Lehenswesen", "levels": [2]},
+        {"id": "kreuzzuege", "areaId": "mittelalter", "name": "Kreuzzüge", "description": "Religion und Krieg", "levels": [2]},
+        {"id": "renaissance", "areaId": "mittelalter", "name": "Renaissance", "description": "Kulturelle Blüte", "levels": [2]},
+        {"id": "reformation", "areaId": "neuzeit", "name": "Reformation", "description": "Kirchenreform", "levels": [2, 3]},
+        {"id": "revolution", "areaId": "neuzeit", "name": "Revolutionen", "description": "Französische Revolution", "levels": [3]},
+        {"id": "industrialisierung", "areaId": "neuzeit", "name": "Industrialisierung", "description": "Maschinenzeitalter", "levels": [3]},
+        {"id": "weltkrieg1", "areaId": "gegenwart", "name": "1. Weltkrieg", "description": "Erster Weltkrieg", "levels": [3]},
+        {"id": "weltkrieg2", "areaId": "gegenwart", "name": "2. Weltkrieg", "description": "Zweiter Weltkrieg", "levels": [3, 4]},
+        {"id": "kaltekrieg", "areaId": "gegenwart", "name": "Kalter Krieg", "description": "Ost-West-Konflikt", "levels": [4]},
+        {"id": "europa", "areaId": "gegenwart", "name": "Europäische Union", "description": "EU und Österreich", "levels": [4]}
+    ]
+}

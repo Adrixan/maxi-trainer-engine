@@ -421,3 +421,196 @@ Created SVG icons for all new apps:
 
 - All 518 tests pass ✅
 - Config validation passes ✅
+
+---
+
+## Implementation Update (2026-03-03)
+
+### AHS Curriculum Exercise Databases
+
+Created comprehensive exercise databases for AHS (Allgemeinbildende Höhere Schule) grades 5-8 (Klasse 1-4) based on the Austrian curriculum from ris.bka.gv.at.
+
+#### AHS Apps Created
+
+| App ID | Subject | Grades | Exercises | Status |
+|--------|---------|--------|-----------|--------|
+| ahs-deutsch | Deutsch | 1-4 | 40 | ✅ Complete |
+| ahs-mathematik | Mathematik | 1-4 | 42 | ✅ Complete |
+| ahs-englisch | Englisch | 1-4 | 28 | ✅ Complete |
+| ahs-geschichte | Geschichte | 1-4 | 20 | ✅ Complete |
+| ahs-geographie | Geographie | 1-4 | 18 | ✅ Complete |
+| ahs-biologie | Biologie | 1-4 | 12 | ✅ Complete |
+| ahs-chemie | Chemie | 4 | 10 | ✅ Complete |
+| ahs-physik | Physik | 2-4 | 10 | ✅ Complete |
+
+#### Curriculum Coverage (5. bis 8. Schulstufe)
+
+Based on the subsidiäre Stundentafel:
+
+- **Languages**: Deutsch, Englisch (Erste lebende Fremdsprache)
+- **Mathematics**: Mathematik (Arithmetik, Algebra, Geometrie, Funktionen, Statistik)
+- **Sciences**: Biologie, Chemie, Physik
+- **Social Sciences**: Geschichte, Geographie
+- **Total exercises created**: 180 across all subjects
+
+#### Build Commands
+
+USB builds:
+```bash
+npm run build:ahs-deutsch
+npm run build:ahs-mathematik
+npm run build:ahs-englisch
+npm run build:ahs-geschichte
+npm run build:ahs-geographie
+npm run build:ahs-biologie
+npm run build:ahs-chemie
+npm run build:ahs-physik
+```
+
+Build all AHS apps:
+```bash
+npm run build:all  # Builds all apps including AHS
+```
+
+#### Curriculum Source
+
+- Source: https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10008568
+- Document: Lehrpläne – allgemeinbildende höhere Schulen Anlage 1
+- Valid for: Schulstufe 5-8 (Klasse 1-4 in AHS terminology)
+
+#### File Locations
+
+All AHS apps located in:
+```
+src/apps/ahs-deutsch/
+src/apps/ahs-mathematik/
+src/apps/ahs-englisch/
+src/apps/ahs-geschichte/
+src/apps/ahs-geographie/
+src/apps/ahs-biologie/
+src/apps/ahs-chemie/
+src/apps/ahs-physik/
+```
+
+Each app contains:
+- app.json (configuration)
+- areas.json (learning areas)
+- themes.json (topics/themes)
+- badges.json (achievements)
+- exercises.json (exercise database)
+
+## Last Updated
+
+2026-03-03
+
+---
+
+## Implementation Update (2026-03-03 - Additional AHS Apps)
+
+### Remaining AHS Subjects Added
+
+Added the remaining 8 subjects from the AHS curriculum:
+
+| App ID | Subject | Grades | Exercises | Status |
+|--------|---------|--------|-----------|--------|
+| ahs-latein | Latein | 3-4 | 20 | ✅ Complete |
+| ahs-digitale | Digitale Grundbildung | 1-4 | 18 | ✅ Complete |
+| ahs-musik | Musik | 1-4 | 17 | ✅ Complete |
+| ahs-kunst | Kunst und Gestaltung | 1-4 | 9 | ✅ Complete |
+| ahs-technik | Technik und Design | 1-2 | 9 | ✅ Complete |
+| ahs-sport | Bewegung und Sport | 1-4 | 10 | ✅ Complete |
+| ahs-religion | Religion | 1-4 | 8 | ✅ Complete |
+| ahs-bko | Bildungs- und Berufsorientierung | 3-4 | 8 | ✅ Complete |
+
+### Complete AHS Coverage Summary
+
+All 16 AHS subjects now have exercise databases:
+
+| Category | Subjects | Total Exercises |
+|----------|----------|-----------------|
+| Languages | Deutsch, Englisch, Latein | 88 |
+| Mathematics | Mathematik | 42 |
+| Sciences | Biologie, Chemie, Physik | 32 |
+| Social Sciences | Geschichte, Geographie | 38 |
+| Arts & Tech | Musik, Kunst, Technik | 35 |
+| Other | Digitale Grundbildung, Sport, Religion, BKO | 44 |
+| **TOTAL** | **16 subjects** | **279 exercises** |
+
+### Curriculum Alignment
+
+All apps cover grades 1-4 (Klasse 1-4 = 5.-8. Schulstufe) as per the Austrian AHS curriculum:
+- Languages: Deutsch, Englisch (4 years), Latein (2 years)
+- Mathematics: 4 years
+- Sciences: Biology (4 years), Chemistry (1 year), Physics (3 years)
+- Social: History (4 years), Geography (4 years)
+- Arts: Music, Art, Technology (4 years each for music/art, 2 years for tech)
+- Other: Digital Education (4 years), PE (4 years), Religion (4 years), Career Ed (2 years)
+
+## Last Updated
+
+2026-03-03
+
+---
+
+## Implementation Update (2026-03-04)
+
+### Branding Changes
+
+**Changed project name from "mini-trainer-engine" to "maxi-trainer-engine":**
+
+| File | Change |
+|------|--------|
+| package.json | name: "maxi-trainer-engine" |
+| vite.config.ts | defaultTitle: "Maxi Trainer" |
+| index.html | Title, meta description, apple-mobile-web-app-title |
+| public/manifest.json | name: "Maxi Trainer Engine" |
+| src/apps/teen/app.json | name: "Maxi Trainer", fullName, description, teen colors |
+| src/apps/teen/subject.json | name: "Maxi Trainer" |
+| src/core/config/loader.ts | Fallback name: "Maxi Trainer" |
+
+**Build output changes:**
+- Teen app now shows "Maxi Trainer" as title
+- AHS apps show their subject name (e.g., "Biologie (AHS)")
+
+### USB/Offline Build Fix
+
+**Fixed CORS error for USB distribution:**
+
+The USB build was failing because the loader tried to fetch `app.json` from a path that doesn't exist in the dist folder. Fixed by:
+
+1. **Added app.json to config generation** (scripts/build-app.mjs):
+   - Now generates `config/app.js` with `window.__TRAINER_APP__`
+   - Same pattern as subject.js, areas.js, etc.
+
+2. **Updated index.html template:**
+   - Added `<script src="./config/app.js" defer></script>` before other config scripts
+   - Ensures app config is loaded before the app starts
+
+3. **loader.ts already checks window globals first:**
+   - `loadAppConfig()` checks `window.__TRAINER_APP__` first
+   - Falls back to fetch only if window global not found
+   - This was already working, just needed the app.js to be generated
+
+**Result:**
+- USB builds now work completely offline via file:// protocol
+- No CORS errors when opening index.html directly in browser
+- Config loaded via script tags before React app mounts
+
+### New Build Scripts Added
+
+Added individual AHS app build scripts to package.json:
+
+```bash
+npm run build:ahs-biologie       # USB build
+npm run build:ahs-biologie:pwa   # PWA build
+# Same pattern for all AHS subjects
+```
+
+### Test Results
+
+- All 518 tests pass ✅
+- Build completes successfully ✅
+
+## Last Updated
+
+2026-03-04

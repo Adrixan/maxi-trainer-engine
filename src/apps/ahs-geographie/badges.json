@@ -1,0 +1,8 @@
+{
+    "badges": [
+        {"id": "oesterreich-k1", "name": "Österreich-Experte", "description": "Österreichs Geographie", "icon": "🇦🇹", "level": 1, "requirement": {"type": "exercises", "count": 10, "areaId": "oesterreich"}},
+        {"id": "europa-k2", "name": "Europa-Kenner", "description": "Europäische Geographie", "icon": "🇪🇺", "level": 2, "requirement": {"type": "exercises", "count": 10, "areaId": "europa"}},
+        {"id": "welt-k3", "name": "Weltentdecker", "description": "Globale Geographie", "icon": "🌍", "level": 3, "requirement": {"type": "exercises", "count": 10, "areaId": "welt"}},
+        {"id": "umwelt-k4", "name": "Umwelt-Champion", "description": "Umwelt und Nachhaltigkeit", "icon": "🌱", "level": 4, "requirement": {"type": "exercises", "count": 10, "areaId": "umwelt"}}
+    ]
+}

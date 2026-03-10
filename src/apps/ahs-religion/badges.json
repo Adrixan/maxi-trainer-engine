@@ -1,0 +1,7 @@
+{
+    "badges": [
+        {"id": "bibel-k1", "name": "Bibel-Kenner", "description": "Bibelwissen", "icon": "📖", "level": 1, "requirement": {"type": "exercises", "count": 5, "areaId": "christentum"}},
+        {"id": "welt-k3", "name": "Religionsforscher", "description": "Weltreligionen", "icon": "🌍", "level": 3, "requirement": {"type": "exercises", "count": 5, "areaId": "andere-religionen"}},
+        {"id": "ethik-k4", "name": "Ethik-Experte", "description": "Moralische Fragen", "icon": "⚖️", "level": 4, "requirement": {"type": "exercises", "count": 5, "areaId": "ethik"}}
+    ]
+}
