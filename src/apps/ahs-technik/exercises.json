@@ -224,6 +224,3183 @@
       ],
       "feedbackCorrect": "Richtig! Programmierbare Maschine!",
       "feedbackIncorrect": "Ein Roboter ist eine programmierbare Maschine."
+    },
+    {
+      "id": "ahs-tech-k1-holz-002",
+      "type": "multiple-choice",
+      "areaId": "werkstoffe",
+      "themeId": "holz",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Welches Holz ist ein Hartholz?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Hartholz:",
+        "options": [
+          "Fichte",
+          "Tanne",
+          "Buche",
+          "Kiefer"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Laubbaum"
+      ],
+      "feedbackCorrect": "Richtig! Buche ist ein Hartholz!",
+      "feedbackIncorrect": "Buche ist ein typisches Hartholz (Laubholz)."
+    },
+    {
+      "id": "ahs-tech-k1-holz-003",
+      "type": "fill-blank",
+      "areaId": "werkstoffe",
+      "themeId": "holz",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ergänze den Satz über Holzarten.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Fichte ist ein {{blank}} und zählt zu den Weichhölzern.",
+        "correctAnswer": "Nadelholz",
+        "acceptableAnswers": [
+          "Nadelbaum"
+        ]
+      },
+      "hints": [
+        "Nadel oder Laub?"
+      ],
+      "feedbackCorrect": "Richtig! Fichte ist ein Nadelholz!",
+      "feedbackIncorrect": "Fichte ist ein Nadelholz (Weichholz)."
+    },
+    {
+      "id": "ahs-tech-k1-holz-004",
+      "type": "matching",
+      "areaId": "werkstoffe",
+      "themeId": "holz",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ordne die Holzarten richtig zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Fichte",
+            "right": "Weichholz"
+          },
+          {
+            "left": "Buche",
+            "right": "Hartholz"
+          },
+          {
+            "left": "Eiche",
+            "right": "Hartholz"
+          },
+          {
+            "left": "Tanne",
+            "right": "Weichholz"
+          }
+        ]
+      },
+      "hints": [
+        "Nadelbäume = weich"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Nadelhölzer (Fichte, Tanne) sind weich, Laubhölzer (Buche, Eiche) sind hart."
+    },
+    {
+      "id": "ahs-tech-k1-holz-005",
+      "type": "sorting",
+      "areaId": "werkstoffe",
+      "themeId": "holz",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Sortiere die Hölzer in die richtigen Kategorien.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Weichholz",
+            "items": [
+              "Fichte",
+              "Tanne",
+              "Kiefer"
+            ]
+          },
+          {
+            "label": "Hartholz",
+            "items": [
+              "Buche",
+              "Eiche",
+              "Birke"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Nadelbäume sind weich"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Nadelhölzer sind Weichhölzer, Laubhölzer sind Harthölzer."
+    },
+    {
+      "id": "ahs-tech-k1-holz-006",
+      "type": "multiple-choice",
+      "areaId": "werkstoffe",
+      "themeId": "holz",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Wie erkennt man das Alter eines Baumes?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Baumalter:",
+        "options": [
+          "An der Höhe",
+          "An den Jahresringen",
+          "An der Rinde",
+          "An den Blättern"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Querschnitt"
+      ],
+      "feedbackCorrect": "Richtig! An den Jahresringen!",
+      "feedbackIncorrect": "Man zählt die Jahresringe im Querschnitt des Stammes."
+    },
+    {
+      "id": "ahs-tech-k1-holz-007",
+      "type": "fill-blank",
+      "areaId": "werkstoffe",
+      "themeId": "holz",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ergänze den Satz über Holzeigenschaften.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Holz ist ein {{blank}} Rohstoff, weil Bäume nachwachsen.",
+        "correctAnswer": "nachwachsender",
+        "acceptableAnswers": [
+          "erneuerbarer",
+          "nachhaltiger"
+        ]
+      },
+      "hints": [
+        "Bäume wachsen nach"
+      ],
+      "feedbackCorrect": "Richtig! Holz ist nachwachsend!",
+      "feedbackIncorrect": "Holz ist ein nachwachsender (erneuerbarer) Rohstoff."
+    },
+    {
+      "id": "ahs-tech-k2-holz-008",
+      "type": "multiple-choice",
+      "areaId": "werkstoffe",
+      "themeId": "holz",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Welches Werkzeug verwendet man zum Glätten von Holz?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Glätten von Holz:",
+        "options": [
+          "Feile",
+          "Schleifpapier",
+          "Zange",
+          "Bohrer"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Oberfläche"
+      ],
+      "feedbackCorrect": "Richtig! Schleifpapier!",
+      "feedbackIncorrect": "Schleifpapier wird zum Glätten von Holzoberflächen verwendet."
+    },
+    {
+      "id": "ahs-tech-k2-holz-009",
+      "type": "matching",
+      "areaId": "werkstoffe",
+      "themeId": "holz",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die Werkzeuge ihrer Funktion zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Säge",
+            "right": "Trennen"
+          },
+          {
+            "left": "Hobel",
+            "right": "Glätten"
+          },
+          {
+            "left": "Bohrer",
+            "right": "Löcher erzeugen"
+          },
+          {
+            "left": "Raspel",
+            "right": "Formen"
+          }
+        ]
+      },
+      "hints": [
+        "Was macht das Werkzeug?"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Säge=Trennen, Hobel=Glätten, Bohrer=Löcher, Raspel=Formen."
+    },
+    {
+      "id": "ahs-tech-k2-holz-010",
+      "type": "fill-blank",
+      "areaId": "werkstoffe",
+      "themeId": "holz",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ergänze den Satz über Holzverbindungen.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Eine {{blank}} ist eine lösbare Holzverbindung mit Gewinde.",
+        "correctAnswer": "Schraubverbindung",
+        "acceptableAnswers": [
+          "Schraube",
+          "Schraubung"
+        ]
+      },
+      "hints": [
+        "Gewinde"
+      ],
+      "feedbackCorrect": "Richtig! Schraubverbindung!",
+      "feedbackIncorrect": "Schraubverbindungen sind lösbare Verbindungen mit Gewinde."
+    },
+    {
+      "id": "ahs-tech-k2-holz-011",
+      "type": "sorting",
+      "areaId": "werkstoffe",
+      "themeId": "holz",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Sortiere die Verbindungsarten.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Lösbar",
+            "items": [
+              "Schraubverbindung",
+              "Steckverbindung"
+            ]
+          },
+          {
+            "label": "Unlösbar",
+            "items": [
+              "Leimverbindung",
+              "Nagelverbindung"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Kann man es zerstörungsfrei lösen?"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Schrauben und Stecken sind lösbar, Leimen und Nageln sind unlösbar."
+    },
+    {
+      "id": "ahs-tech-k2-holz-012",
+      "type": "multiple-choice",
+      "areaId": "werkstoffe",
+      "themeId": "holz",
+      "level": 2,
+      "difficulty": 3,
+      "instruction": "Was versteht man unter der Holzfeuchte?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Holzfeuchte:",
+        "options": [
+          "Die Farbe des Holzes",
+          "Den Wassergehalt im Holz",
+          "Die Dicke der Rinde",
+          "Die Anzahl der Jahresringe"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Wasser"
+      ],
+      "feedbackCorrect": "Richtig! Wassergehalt!",
+      "feedbackIncorrect": "Holzfeuchte bezeichnet den prozentualen Wassergehalt im Holz."
+    },
+    {
+      "id": "ahs-tech-k2-holz-013",
+      "type": "matching",
+      "areaId": "werkstoffe",
+      "themeId": "holz",
+      "level": 2,
+      "difficulty": 3,
+      "instruction": "Ordne die Holzwerkstoffe richtig zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Sperrholz",
+            "right": "Mehrere verleimte Schichten"
+          },
+          {
+            "left": "Spanplatte",
+            "right": "Gepresste Holzspäne"
+          },
+          {
+            "left": "MDF",
+            "right": "Mitteldichte Faserplatte"
+          }
+        ]
+      },
+      "hints": [
+        "Wie wird es hergestellt?"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Sperrholz=Schichten, Spanplatte=Späne, MDF=Fasern."
+    },
+    {
+      "id": "ahs-tech-k2-holz-014",
+      "type": "sorting",
+      "areaId": "werkstoffe",
+      "themeId": "holz",
+      "level": 2,
+      "difficulty": 3,
+      "instruction": "Ordne die Begriffe den Kategorien zu.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Vollholz",
+            "items": [
+              "Fichtenbrett",
+              "Eichenbohle",
+              "Buchenleiste"
+            ]
+          },
+          {
+            "label": "Holzwerkstoff",
+            "items": [
+              "Spanplatte",
+              "Sperrholz",
+              "MDF"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Natur vs. verarbeitet"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Vollholz ist naturbelassen, Holzwerkstoffe sind industriell hergestellt."
+    },
+    {
+      "id": "ahs-tech-k1-metall-002",
+      "type": "multiple-choice",
+      "areaId": "werkstoffe",
+      "themeId": "metall",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Welches Metall ist magnetisch?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Magnetisch:",
+        "options": [
+          "Aluminium",
+          "Kupfer",
+          "Eisen",
+          "Zinn"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Kühlschrank"
+      ],
+      "feedbackCorrect": "Richtig! Eisen ist magnetisch!",
+      "feedbackIncorrect": "Eisen (und Stahl) sind magnetisch."
+    },
+    {
+      "id": "ahs-tech-k1-metall-003",
+      "type": "fill-blank",
+      "areaId": "werkstoffe",
+      "themeId": "metall",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ergänze den Satz über Metalle.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Kupfer leitet besonders gut {{blank}} und Wärme.",
+        "correctAnswer": "Strom",
+        "acceptableAnswers": [
+          "Elektrizität",
+          "elektrischen Strom"
+        ]
+      },
+      "hints": [
+        "Leitung"
+      ],
+      "feedbackCorrect": "Richtig! Kupfer leitet Strom!",
+      "feedbackIncorrect": "Kupfer ist ein sehr guter Leiter für Strom und Wärme."
+    },
+    {
+      "id": "ahs-tech-k1-metall-004",
+      "type": "matching",
+      "areaId": "werkstoffe",
+      "themeId": "metall",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ordne die Metalle ihren Eigenschaften zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Eisen",
+            "right": "Magnetisch"
+          },
+          {
+            "left": "Kupfer",
+            "right": "Guter Stromleiter"
+          },
+          {
+            "left": "Aluminium",
+            "right": "Leicht"
+          },
+          {
+            "left": "Gold",
+            "right": "Korrosionsbeständig"
+          }
+        ]
+      },
+      "hints": [
+        "Typische Eigenschaft"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Eisen=magnetisch, Kupfer=Stromleiter, Alu=leicht, Gold=korrosionsbeständig."
+    },
+    {
+      "id": "ahs-tech-k1-metall-005",
+      "type": "sorting",
+      "areaId": "werkstoffe",
+      "themeId": "metall",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Sortiere die Metalle nach ihrer Art.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Eisenmetall",
+            "items": [
+              "Eisen",
+              "Stahl",
+              "Gusseisen"
+            ]
+          },
+          {
+            "label": "Nichteisenmetall",
+            "items": [
+              "Kupfer",
+              "Aluminium",
+              "Zinn"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Enthält es Eisen?"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Eisenmetalle enthalten Eisen, Nichteisenmetalle nicht."
+    },
+    {
+      "id": "ahs-tech-k1-metall-006",
+      "type": "multiple-choice",
+      "areaId": "werkstoffe",
+      "themeId": "metall",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Was ist eine Legierung?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Legierung:",
+        "options": [
+          "Ein reines Metall",
+          "Eine Mischung aus Metallen",
+          "Ein Kunststoff",
+          "Ein Holzwerkstoff"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Mischung"
+      ],
+      "feedbackCorrect": "Richtig! Eine Metallmischung!",
+      "feedbackIncorrect": "Eine Legierung ist eine Mischung aus zwei oder mehr Metallen."
+    },
+    {
+      "id": "ahs-tech-k1-metall-007",
+      "type": "fill-blank",
+      "areaId": "werkstoffe",
+      "themeId": "metall",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ergänze den Satz über Metallbearbeitung.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Das Biegen von Metall nennt man {{blank}}.",
+        "correctAnswer": "Umformen",
+        "acceptableAnswers": [
+          "umformen",
+          "Biegen"
+        ]
+      },
+      "hints": [
+        "Formänderung"
+      ],
+      "feedbackCorrect": "Richtig! Umformen!",
+      "feedbackIncorrect": "Das Biegen von Metall ist ein Umformverfahren."
+    },
+    {
+      "id": "ahs-tech-k2-metall-008",
+      "type": "multiple-choice",
+      "areaId": "werkstoffe",
+      "themeId": "metall",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Welches Metall hat die höchste Dichte?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Höchste Dichte:",
+        "options": [
+          "Aluminium",
+          "Eisen",
+          "Blei",
+          "Kupfer"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Schwer"
+      ],
+      "feedbackCorrect": "Richtig! Blei hat die höchste Dichte!",
+      "feedbackIncorrect": "Blei hat eine Dichte von ca. 11,3 g/cm³."
+    },
+    {
+      "id": "ahs-tech-k2-metall-009",
+      "type": "matching",
+      "areaId": "werkstoffe",
+      "themeId": "metall",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die Bearbeitungsverfahren zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Feilen",
+            "right": "Trennen"
+          },
+          {
+            "left": "Biegen",
+            "right": "Umformen"
+          },
+          {
+            "left": "Löten",
+            "right": "Fügen"
+          },
+          {
+            "left": "Härten",
+            "right": "Stoffeigenschaft ändern"
+          }
+        ]
+      },
+      "hints": [
+        "Hauptgruppen der Fertigungsverfahren"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Feilen=Trennen, Biegen=Umformen, Löten=Fügen, Härten=Eigenschaftsänderung."
+    },
+    {
+      "id": "ahs-tech-k2-metall-010",
+      "type": "fill-blank",
+      "areaId": "werkstoffe",
+      "themeId": "metall",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ergänze den Satz über Korrosion.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Wenn Eisen mit Wasser und Sauerstoff reagiert, entsteht {{blank}}.",
+        "correctAnswer": "Rost",
+        "acceptableAnswers": [
+          "Eisenoxid"
+        ]
+      },
+      "hints": [
+        "Oxidation"
+      ],
+      "feedbackCorrect": "Richtig! Es entsteht Rost!",
+      "feedbackIncorrect": "Rost (Eisenoxid) entsteht durch die Reaktion von Eisen mit Wasser und Sauerstoff."
+    },
+    {
+      "id": "ahs-tech-k2-metall-011",
+      "type": "sorting",
+      "areaId": "werkstoffe",
+      "themeId": "metall",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Sortiere die Verfahren in die richtigen Kategorien.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Trennende Verfahren",
+            "items": [
+              "Sägen",
+              "Feilen",
+              "Bohren"
+            ]
+          },
+          {
+            "label": "Fügende Verfahren",
+            "items": [
+              "Löten",
+              "Schweißen",
+              "Nieten"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Trennt oder verbindet man?"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Sägen/Feilen/Bohren trennen, Löten/Schweißen/Nieten verbinden."
+    },
+    {
+      "id": "ahs-tech-k2-metall-012",
+      "type": "multiple-choice",
+      "areaId": "werkstoffe",
+      "themeId": "metall",
+      "level": 2,
+      "difficulty": 3,
+      "instruction": "Was passiert beim Härten von Stahl?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Stahl härten:",
+        "options": [
+          "Er wird weicher",
+          "Er wird erhitzt und schnell abgekühlt",
+          "Er wird geschmolzen",
+          "Er wird gebogen"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Temperatur"
+      ],
+      "feedbackCorrect": "Richtig! Erhitzen und schnell Abkühlen!",
+      "feedbackIncorrect": "Beim Härten wird Stahl erhitzt und dann schnell abgekühlt (abgeschreckt)."
+    },
+    {
+      "id": "ahs-tech-k2-metall-013",
+      "type": "matching",
+      "areaId": "werkstoffe",
+      "themeId": "metall",
+      "level": 2,
+      "difficulty": 3,
+      "instruction": "Ordne die Legierungen ihren Bestandteilen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Bronze",
+            "right": "Kupfer + Zinn"
+          },
+          {
+            "left": "Messing",
+            "right": "Kupfer + Zink"
+          },
+          {
+            "left": "Stahl",
+            "right": "Eisen + Kohlenstoff"
+          }
+        ]
+      },
+      "hints": [
+        "Welche Metalle werden gemischt?"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Bronze=Kupfer+Zinn, Messing=Kupfer+Zink, Stahl=Eisen+Kohlenstoff."
+    },
+    {
+      "id": "ahs-tech-k2-metall-014",
+      "type": "fill-blank",
+      "areaId": "werkstoffe",
+      "themeId": "metall",
+      "level": 2,
+      "difficulty": 3,
+      "instruction": "Ergänze den Satz über Schmelzpunkte.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Aluminium hat einen Schmelzpunkt von etwa {{blank}} °C.",
+        "correctAnswer": "660",
+        "acceptableAnswers": [
+          "660°C"
+        ]
+      },
+      "hints": [
+        "Unter 1000°C"
+      ],
+      "feedbackCorrect": "Richtig! Ca. 660 °C!",
+      "feedbackIncorrect": "Aluminium schmilzt bei ca. 660 °C."
+    },
+    {
+      "id": "ahs-tech-k1-kunst-002",
+      "type": "multiple-choice",
+      "areaId": "werkstoffe",
+      "themeId": "kunststoff",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Woraus wird Kunststoff hauptsächlich hergestellt?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Kunststoff-Rohstoff:",
+        "options": [
+          "Holz",
+          "Erdöl",
+          "Wasser",
+          "Sand"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Fossiler Rohstoff"
+      ],
+      "feedbackCorrect": "Richtig! Aus Erdöl!",
+      "feedbackIncorrect": "Die meisten Kunststoffe werden aus Erdöl hergestellt."
+    },
+    {
+      "id": "ahs-tech-k1-kunst-003",
+      "type": "fill-blank",
+      "areaId": "werkstoffe",
+      "themeId": "kunststoff",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ergänze den Satz über Kunststoffe.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "PET steht für {{blank}} und wird oft für Flaschen verwendet.",
+        "correctAnswer": "Polyethylenterephthalat",
+        "acceptableAnswers": [
+          "Polyethylenterephtalat"
+        ]
+      },
+      "hints": [
+        "Flaschen"
+      ],
+      "feedbackCorrect": "Richtig! Polyethylenterephthalat!",
+      "feedbackIncorrect": "PET = Polyethylenterephthalat, häufig für Getränkeflaschen."
+    },
+    {
+      "id": "ahs-tech-k1-kunst-004",
+      "type": "matching",
+      "areaId": "werkstoffe",
+      "themeId": "kunststoff",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ordne die Kunststoffkürzel den Produkten zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "PET",
+            "right": "Getränkeflaschen"
+          },
+          {
+            "left": "PE",
+            "right": "Plastiktüten"
+          },
+          {
+            "left": "PS",
+            "right": "Joghurtbecher"
+          },
+          {
+            "left": "PP",
+            "right": "Flaschenverschlüsse"
+          }
+        ]
+      },
+      "hints": [
+        "Alltagsgegenstände"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "PET=Flaschen, PE=Tüten, PS=Becher, PP=Verschlüsse."
+    },
+    {
+      "id": "ahs-tech-k1-kunst-005",
+      "type": "sorting",
+      "areaId": "werkstoffe",
+      "themeId": "kunststoff",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Sortiere die Materialien.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Kunststoff",
+            "items": [
+              "PET-Flasche",
+              "Plastiktüte",
+              "Styropor"
+            ]
+          },
+          {
+            "label": "Kein Kunststoff",
+            "items": [
+              "Glasflasche",
+              "Holzbrett",
+              "Eisennagel"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Aus welchem Material?"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "PET, Plastik und Styropor sind Kunststoffe."
+    },
+    {
+      "id": "ahs-tech-k1-kunst-006",
+      "type": "multiple-choice",
+      "areaId": "werkstoffe",
+      "themeId": "kunststoff",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Welchen Recycling-Code hat PET?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "PET Recycling-Code:",
+        "options": [
+          "01",
+          "02",
+          "03",
+          "04"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Nummer eins"
+      ],
+      "feedbackCorrect": "Richtig! Code 01!",
+      "feedbackIncorrect": "PET hat den Recycling-Code 01."
+    },
+    {
+      "id": "ahs-tech-k1-kunst-007",
+      "type": "fill-blank",
+      "areaId": "werkstoffe",
+      "themeId": "kunststoff",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ergänze den Satz über Recycling.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Das Dreieck mit Pfeilen auf Kunststoffprodukten heißt {{blank}}.",
+        "correctAnswer": "Recycling-Code",
+        "acceptableAnswers": [
+          "Recyclingcode",
+          "Recycling-Symbol",
+          "Recyclingsymbol"
+        ]
+      },
+      "hints": [
+        "Wiederverwertung"
+      ],
+      "feedbackCorrect": "Richtig! Recycling-Code!",
+      "feedbackIncorrect": "Das Pfeildreieck ist der Recycling-Code zur Identifikation des Kunststoffs."
+    },
+    {
+      "id": "ahs-tech-k2-kunst-008",
+      "type": "multiple-choice",
+      "areaId": "werkstoffe",
+      "themeId": "kunststoff",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Was ist ein Duroplast?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Duroplast:",
+        "options": [
+          "Wird bei Wärme weich",
+          "Bleibt nach dem Aushärten formstabil",
+          "Ist elastisch wie Gummi",
+          "Löst sich in Wasser"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Nicht schmelzbar"
+      ],
+      "feedbackCorrect": "Richtig! Formstabil nach dem Aushärten!",
+      "feedbackIncorrect": "Duroplaste bleiben auch bei Wärme formstabil und sind nicht schmelzbar."
+    },
+    {
+      "id": "ahs-tech-k2-kunst-009",
+      "type": "sorting",
+      "areaId": "werkstoffe",
+      "themeId": "kunststoff",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Sortiere die Kunststoffe in die richtigen Gruppen.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Thermoplast",
+            "items": [
+              "PE",
+              "PP",
+              "PET",
+              "PS"
+            ]
+          },
+          {
+            "label": "Duroplast",
+            "items": [
+              "Bakelit",
+              "Epoxidharz",
+              "Melamin"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Wird es bei Hitze weich?"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Thermoplaste werden bei Hitze weich, Duroplaste nicht."
+    },
+    {
+      "id": "ahs-tech-k2-kunst-010",
+      "type": "matching",
+      "areaId": "werkstoffe",
+      "themeId": "kunststoff",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die Kunststoffgruppen ihren Eigenschaften zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Thermoplast",
+            "right": "Bei Erwärmung verformbar"
+          },
+          {
+            "left": "Duroplast",
+            "right": "Nach Aushärtung nicht verformbar"
+          },
+          {
+            "left": "Elastomer",
+            "right": "Gummiartig elastisch"
+          }
+        ]
+      },
+      "hints": [
+        "Drei Hauptgruppen"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Thermoplaste=verformbar, Duroplaste=starr, Elastomere=elastisch."
+    },
+    {
+      "id": "ahs-tech-k2-kunst-011",
+      "type": "fill-blank",
+      "areaId": "werkstoffe",
+      "themeId": "kunststoff",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ergänze den Satz über Elastomere.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Ein typisches Elastomer ist {{blank}}, es wird für Reifen verwendet.",
+        "correctAnswer": "Gummi",
+        "acceptableAnswers": [
+          "Kautschuk",
+          "Naturkautschuk"
+        ]
+      },
+      "hints": [
+        "Reifen"
+      ],
+      "feedbackCorrect": "Richtig! Gummi (Kautschuk)!",
+      "feedbackIncorrect": "Gummi (Kautschuk) ist ein Elastomer und wird für Reifen verwendet."
+    },
+    {
+      "id": "ahs-tech-k2-kunst-012",
+      "type": "multiple-choice",
+      "areaId": "werkstoffe",
+      "themeId": "kunststoff",
+      "level": 2,
+      "difficulty": 3,
+      "instruction": "Welches Verfahren wird zum Herstellen von PET-Flaschen verwendet?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "PET-Flaschen Herstellung:",
+        "options": [
+          "Spritzgießen",
+          "Blasformen",
+          "Pressen",
+          "Gießen"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Luft"
+      ],
+      "feedbackCorrect": "Richtig! Blasformen!",
+      "feedbackIncorrect": "PET-Flaschen werden im Blasformverfahren hergestellt."
+    },
+    {
+      "id": "ahs-tech-k2-kunst-013",
+      "type": "matching",
+      "areaId": "werkstoffe",
+      "themeId": "kunststoff",
+      "level": 2,
+      "difficulty": 3,
+      "instruction": "Ordne die Recycling-Codes den Kunststoffen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "01",
+            "right": "PET"
+          },
+          {
+            "left": "02",
+            "right": "PE-HD"
+          },
+          {
+            "left": "04",
+            "right": "PE-LD"
+          },
+          {
+            "left": "05",
+            "right": "PP"
+          }
+        ]
+      },
+      "hints": [
+        "Nummerierung"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "01=PET, 02=PE-HD, 04=PE-LD, 05=PP."
+    },
+    {
+      "id": "ahs-tech-k2-kunst-014",
+      "type": "sorting",
+      "areaId": "werkstoffe",
+      "themeId": "kunststoff",
+      "level": 2,
+      "difficulty": 3,
+      "instruction": "Sortiere die Kunststoffverarbeitungsverfahren.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Urformen",
+            "items": [
+              "Spritzgießen",
+              "Blasformen",
+              "Extrudieren"
+            ]
+          },
+          {
+            "label": "Umformen",
+            "items": [
+              "Tiefziehen",
+              "Biegen"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Neu formen vs. bereits vorhandenes umformen"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Spritzgießen/Blasformen/Extrudieren sind Urformen; Tiefziehen/Biegen sind Umformen."
+    },
+    {
+      "id": "ahs-tech-k1-skizz-002",
+      "type": "multiple-choice",
+      "areaId": "technisches-zeichnen",
+      "themeId": "skizze",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Welches Werkzeug braucht man für eine Skizze?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Werkzeug für Skizze:",
+        "options": [
+          "Lineal",
+          "Bleistift",
+          "Zirkel",
+          "Computer"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Freihand"
+      ],
+      "feedbackCorrect": "Richtig! Einen Bleistift!",
+      "feedbackIncorrect": "Für eine Freihandskizze benötigt man vor allem einen Bleistift."
+    },
+    {
+      "id": "ahs-tech-k1-skizz-003",
+      "type": "fill-blank",
+      "areaId": "technisches-zeichnen",
+      "themeId": "skizze",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ergänze den Satz über Skizzen.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Eine Skizze wird {{blank}} ohne Lineal gezeichnet.",
+        "correctAnswer": "freihand",
+        "acceptableAnswers": [
+          "freihändig",
+          "Freihand"
+        ]
+      },
+      "hints": [
+        "Ohne Hilfsmittel"
+      ],
+      "feedbackCorrect": "Richtig! Freihand!",
+      "feedbackIncorrect": "Skizzen werden freihand (ohne Lineal) gezeichnet."
+    },
+    {
+      "id": "ahs-tech-k1-skizz-004",
+      "type": "matching",
+      "areaId": "technisches-zeichnen",
+      "themeId": "skizze",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ordne die Begriffe den Beschreibungen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Skizze",
+            "right": "Freihandzeichnung"
+          },
+          {
+            "left": "Technische Zeichnung",
+            "right": "Normgerecht mit Maßen"
+          },
+          {
+            "left": "Stückliste",
+            "right": "Auflistung aller Bauteile"
+          }
+        ]
+      },
+      "hints": [
+        "Darstellungsarten"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Skizze=Freihand, Techn. Zeichnung=normgerecht, Stückliste=Bauteilliste."
+    },
+    {
+      "id": "ahs-tech-k1-skizz-005",
+      "type": "sorting",
+      "areaId": "technisches-zeichnen",
+      "themeId": "skizze",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Sortiere die Schritte beim Skizzieren in die richtige Reihenfolge.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Zuerst",
+            "items": [
+              "Grundform zeichnen",
+              "Proportionen festlegen"
+            ]
+          },
+          {
+            "label": "Danach",
+            "items": [
+              "Details ergänzen",
+              "Beschriften"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Vom Groben zum Feinen"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Erst Grundform und Proportionen, dann Details und Beschriftung."
+    },
+    {
+      "id": "ahs-tech-k1-skizz-006",
+      "type": "multiple-choice",
+      "areaId": "technisches-zeichnen",
+      "themeId": "skizze",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Was ist der Zweck einer Skizze?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Zweck einer Skizze:",
+        "options": [
+          "Endgültige Bauzeichnung erstellen",
+          "Ideen schnell festhalten",
+          "Einen Gegenstand fotografieren",
+          "Einen Bericht schreiben"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Schnell"
+      ],
+      "feedbackCorrect": "Richtig! Ideen schnell festhalten!",
+      "feedbackIncorrect": "Mit einer Skizze hält man Ideen schnell und einfach fest."
+    },
+    {
+      "id": "ahs-tech-k1-skizz-007",
+      "type": "fill-blank",
+      "areaId": "technisches-zeichnen",
+      "themeId": "skizze",
+      "level": 1,
+      "difficulty": 1,
+      "instruction": "Ergänze den Satz über Proportionen.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Bei einer Skizze ist es wichtig, die {{blank}} des Gegenstands richtig darzustellen.",
+        "correctAnswer": "Proportionen",
+        "acceptableAnswers": [
+          "Proportionen",
+          "Verhältnisse"
+        ]
+      },
+      "hints": [
+        "Größenverhältnisse"
+      ],
+      "feedbackCorrect": "Richtig! Proportionen!",
+      "feedbackIncorrect": "Die Proportionen (Größenverhältnisse) müssen bei einer Skizze stimmen."
+    },
+    {
+      "id": "ahs-tech-k2-skizz-008",
+      "type": "multiple-choice",
+      "areaId": "technisches-zeichnen",
+      "themeId": "skizze",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Welche Ansicht zeigt ein Objekt von vorne?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Ansicht von vorne:",
+        "options": [
+          "Draufsicht",
+          "Vorderansicht",
+          "Seitenansicht",
+          "Perspektive"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Frontal"
+      ],
+      "feedbackCorrect": "Richtig! Die Vorderansicht!",
+      "feedbackIncorrect": "Die Vorderansicht zeigt das Objekt frontal von vorne."
+    },
+    {
+      "id": "ahs-tech-k2-skizz-009",
+      "type": "matching",
+      "areaId": "technisches-zeichnen",
+      "themeId": "skizze",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die Ansichten richtig zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Vorderansicht",
+            "right": "Blick von vorne"
+          },
+          {
+            "left": "Draufsicht",
+            "right": "Blick von oben"
+          },
+          {
+            "left": "Seitenansicht",
+            "right": "Blick von der Seite"
+          }
+        ]
+      },
+      "hints": [
+        "Blickrichtung"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Vorderansicht=vorne, Draufsicht=oben, Seitenansicht=Seite."
+    },
+    {
+      "id": "ahs-tech-k2-skizz-010",
+      "type": "fill-blank",
+      "areaId": "technisches-zeichnen",
+      "themeId": "skizze",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ergänze den Satz über dreidimensionale Darstellungen.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Eine {{blank}} zeigt ein Objekt räumlich in einer einzigen Ansicht.",
+        "correctAnswer": "Isometrie",
+        "acceptableAnswers": [
+          "isometrische Darstellung",
+          "Isometrische Ansicht",
+          "Kavalierperspektive"
+        ]
+      },
+      "hints": [
+        "3D-Darstellung"
+      ],
+      "feedbackCorrect": "Richtig! Isometrie!",
+      "feedbackIncorrect": "Eine isometrische Darstellung zeigt ein Objekt dreidimensional."
+    },
+    {
+      "id": "ahs-tech-k2-skizz-011",
+      "type": "sorting",
+      "areaId": "technisches-zeichnen",
+      "themeId": "skizze",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Sortiere die Darstellungsarten.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "2D-Darstellung",
+            "items": [
+              "Vorderansicht",
+              "Draufsicht",
+              "Seitenansicht"
+            ]
+          },
+          {
+            "label": "3D-Darstellung",
+            "items": [
+              "Isometrie",
+              "Kavalierperspektive"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Flach oder räumlich?"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Ansichten sind 2D, Isometrie und Kavalierperspektive sind 3D."
+    },
+    {
+      "id": "ahs-tech-k2-skizz-012",
+      "type": "multiple-choice",
+      "areaId": "technisches-zeichnen",
+      "themeId": "skizze",
+      "level": 2,
+      "difficulty": 3,
+      "instruction": "Wie viele Standardansichten gibt es in der Dreitafelprojektion?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Dreitafelprojektion:",
+        "options": [
+          "Zwei",
+          "Drei",
+          "Vier",
+          "Sechs"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Name sagt es"
+      ],
+      "feedbackCorrect": "Richtig! Drei Ansichten!",
+      "feedbackIncorrect": "Die Dreitafelprojektion zeigt drei Ansichten: Vorder-, Seiten- und Draufsicht."
+    },
+    {
+      "id": "ahs-tech-k2-skizz-013",
+      "type": "fill-blank",
+      "areaId": "technisches-zeichnen",
+      "themeId": "skizze",
+      "level": 2,
+      "difficulty": 3,
+      "instruction": "Ergänze den Satz über die Kavalierperspektive.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Bei der Kavalierperspektive werden die Tiefenlinien im Winkel von {{blank}} Grad gezeichnet.",
+        "correctAnswer": "45",
+        "acceptableAnswers": [
+          "45°"
+        ]
+      },
+      "hints": [
+        "Halbierter rechter Winkel"
+      ],
+      "feedbackCorrect": "Richtig! 45 Grad!",
+      "feedbackIncorrect": "In der Kavalierperspektive verlaufen die Tiefenlinien unter 45°."
+    },
+    {
+      "id": "ahs-tech-k2-skizz-014",
+      "type": "matching",
+      "areaId": "technisches-zeichnen",
+      "themeId": "skizze",
+      "level": 2,
+      "difficulty": 3,
+      "instruction": "Ordne die Projektionsarten zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Dreitafelprojektion",
+            "right": "Drei orthogonale Ansichten"
+          },
+          {
+            "left": "Kavalierperspektive",
+            "right": "45°-Tiefenlinien, Tiefe halbiert"
+          },
+          {
+            "left": "Isometrie",
+            "right": "Alle Achsen 120° zueinander"
+          }
+        ]
+      },
+      "hints": [
+        "Art der Darstellung"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Dreitafel=3 Ansichten, Kavalier=45°/halbiert, Isometrie=120°."
+    },
+    {
+      "id": "ahs-tech-k2-zeich-002",
+      "type": "fill-blank",
+      "areaId": "technisches-zeichnen",
+      "themeId": "techn zeichn",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Ergänze den Satz über Linienarten.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Eine {{blank}} Linie stellt eine verdeckte Kante dar.",
+        "correctAnswer": "gestrichelte",
+        "acceptableAnswers": [
+          "strichlierte"
+        ]
+      },
+      "hints": [
+        "Nicht sichtbar"
+      ],
+      "feedbackCorrect": "Richtig! Gestrichelte Linie!",
+      "feedbackIncorrect": "Verdeckte Kanten werden mit gestrichelten Linien dargestellt."
+    },
+    {
+      "id": "ahs-tech-k2-zeich-003",
+      "type": "multiple-choice",
+      "areaId": "technisches-zeichnen",
+      "themeId": "techn zeichn",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Welcher Maßstab verkleinert ein Objekt?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Verkleinerung:",
+        "options": [
+          "1:1",
+          "2:1",
+          "1:2",
+          "5:1"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Kleiner als 1"
+      ],
+      "feedbackCorrect": "Richtig! 1:2 verkleinert!",
+      "feedbackIncorrect": "1:2 bedeutet: Das Objekt ist in der Zeichnung halb so groß wie in Wirklichkeit."
+    },
+    {
+      "id": "ahs-tech-k2-zeich-004",
+      "type": "matching",
+      "areaId": "technisches-zeichnen",
+      "themeId": "techn zeichn",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Ordne die Linienarten ihren Bedeutungen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Volllinie (breit)",
+            "right": "Sichtbare Kante"
+          },
+          {
+            "left": "Strichlinie",
+            "right": "Verdeckte Kante"
+          },
+          {
+            "left": "Strichpunktlinie",
+            "right": "Mittellinie/Symmetrieachse"
+          },
+          {
+            "left": "Dünne Volllinie",
+            "right": "Maßlinie"
+          }
+        ]
+      },
+      "hints": [
+        "Linienstärke und -art"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Breit=sichtbar, Strich=verdeckt, Strichpunkt=Mitte, Dünn=Maß."
+    },
+    {
+      "id": "ahs-tech-k2-zeich-005",
+      "type": "sorting",
+      "areaId": "technisches-zeichnen",
+      "themeId": "techn zeichn",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Sortiere die Maßstäbe.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Verkleinerung",
+            "items": [
+              "1:2",
+              "1:5",
+              "1:10"
+            ]
+          },
+          {
+            "label": "Vergrößerung",
+            "items": [
+              "2:1",
+              "5:1",
+              "10:1"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Größer oder kleiner als die Wirklichkeit?"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "1:X verkleinert, X:1 vergrößert (bei X>1)."
+    },
+    {
+      "id": "ahs-tech-k2-zeich-006",
+      "type": "multiple-choice",
+      "areaId": "technisches-zeichnen",
+      "themeId": "techn zeichn",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Was bedeutet der Maßstab 1:1?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Maßstab 1:1:",
+        "options": [
+          "Vergrößerung",
+          "Originalgröße",
+          "Verkleinerung",
+          "Halbierung"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Gleich"
+      ],
+      "feedbackCorrect": "Richtig! Originalgröße!",
+      "feedbackIncorrect": "1:1 bedeutet, dass die Zeichnung genau in Originalgröße ist."
+    },
+    {
+      "id": "ahs-tech-k2-zeich-007",
+      "type": "fill-blank",
+      "areaId": "technisches-zeichnen",
+      "themeId": "techn zeichn",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ergänze den Satz über Normschrift.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "In technischen Zeichnungen wird die {{blank}} verwendet, damit alles einheitlich lesbar ist.",
+        "correctAnswer": "Normschrift",
+        "acceptableAnswers": [
+          "ISO-Normschrift"
+        ]
+      },
+      "hints": [
+        "Standard-Schrift"
+      ],
+      "feedbackCorrect": "Richtig! Normschrift!",
+      "feedbackIncorrect": "Die Normschrift sorgt für einheitliche und gute Lesbarkeit in Zeichnungen."
+    },
+    {
+      "id": "ahs-tech-k2-zeich-008",
+      "type": "matching",
+      "areaId": "technisches-zeichnen",
+      "themeId": "techn zeichn",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die Zeichnungselemente zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Schriftfeld",
+            "right": "Enthält Titel, Maßstab, Name"
+          },
+          {
+            "left": "Maßlinie",
+            "right": "Zeigt Abmessungen"
+          },
+          {
+            "left": "Maßhilfslinie",
+            "right": "Begrenzt die Maßlinie"
+          }
+        ]
+      },
+      "hints": [
+        "Teile einer technischen Zeichnung"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Schriftfeld=Informationen, Maßlinie=Abmessungen, Maßhilfslinie=Begrenzung."
+    },
+    {
+      "id": "ahs-tech-k2-zeich-009",
+      "type": "multiple-choice",
+      "areaId": "technisches-zeichnen",
+      "themeId": "techn zeichn",
+      "level": 2,
+      "difficulty": 3,
+      "instruction": "Welche Projektion wird in Europa standardmäßig verwendet?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Europäische Projektion:",
+        "options": [
+          "Amerikanische Projektion",
+          "Erste-Winkel-Projektion",
+          "Dritte-Winkel-Projektion",
+          "Zentralprojektion"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Erster Winkel"
+      ],
+      "feedbackCorrect": "Richtig! Erste-Winkel-Projektion!",
+      "feedbackIncorrect": "In Europa wird die Erste-Winkel-Projektion (Europäische Projektion) verwendet."
+    },
+    {
+      "id": "ahs-tech-k2-zeich-010",
+      "type": "sorting",
+      "areaId": "technisches-zeichnen",
+      "themeId": "techn zeichn",
+      "level": 2,
+      "difficulty": 3,
+      "instruction": "Sortiere die Angaben im Schriftfeld.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Immer enthalten",
+            "items": [
+              "Maßstab",
+              "Zeichnungsnummer",
+              "Name des Zeichners"
+            ]
+          },
+          {
+            "label": "Zusätzlich möglich",
+            "items": [
+              "Werkstoff",
+              "Oberfläche",
+              "Gewicht"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Pflicht vs. Optional"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Maßstab, Nummer und Name sind Pflicht; Werkstoff, Oberfläche und Gewicht sind optional."
+    },
+    {
+      "id": "ahs-tech-k2-zeich-011",
+      "type": "fill-blank",
+      "areaId": "technisches-zeichnen",
+      "themeId": "techn zeichn",
+      "level": 2,
+      "difficulty": 3,
+      "instruction": "Ergänze den Satz über Bemaßung.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Maße werden in technischen Zeichnungen immer in {{blank}} angegeben.",
+        "correctAnswer": "Millimeter",
+        "acceptableAnswers": [
+          "mm"
+        ]
+      },
+      "hints": [
+        "Kleine Einheit"
+      ],
+      "feedbackCorrect": "Richtig! In Millimeter!",
+      "feedbackIncorrect": "In technischen Zeichnungen werden Maße standardmäßig in Millimeter (mm) angegeben."
+    },
+    {
+      "id": "ahs-tech-k2-zeich-012",
+      "type": "matching",
+      "areaId": "technisches-zeichnen",
+      "themeId": "techn zeichn",
+      "level": 2,
+      "difficulty": 3,
+      "instruction": "Ordne die Schnittdarstellungen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Vollschnitt",
+            "right": "Gesamtes Objekt geschnitten"
+          },
+          {
+            "left": "Halbschnitt",
+            "right": "Hälfte geschnitten, Hälfte Ansicht"
+          },
+          {
+            "left": "Teilschnitt",
+            "right": "Nur ein Bereich geschnitten"
+          }
+        ]
+      },
+      "hints": [
+        "Wie viel wird geschnitten?"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Vollschnitt=komplett, Halbschnitt=halb, Teilschnitt=Bereich."
+    },
+    {
+      "id": "ahs-tech-k2-hebel-002",
+      "type": "multiple-choice",
+      "areaId": "energie",
+      "themeId": "maschinen",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Was ist ein Flaschenzug?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Flaschenzug:",
+        "options": [
+          "Ein Werkzeug zum Bohren",
+          "Ein Seilsystem mit Rollen zum Heben von Lasten",
+          "Ein Steckschlüssel",
+          "Ein Messinstrument"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Rollen und Seil"
+      ],
+      "feedbackCorrect": "Richtig! Ein Seilsystem mit Rollen!",
+      "feedbackIncorrect": "Ein Flaschenzug besteht aus Rollen und einem Seil zum Heben schwerer Lasten."
+    },
+    {
+      "id": "ahs-tech-k2-hebel-003",
+      "type": "fill-blank",
+      "areaId": "energie",
+      "themeId": "maschinen",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Ergänze den Satz über einfache Maschinen.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Ein Keil wandelt eine kleine Kraft in eine große {{blank}} um.",
+        "correctAnswer": "Spaltkraft",
+        "acceptableAnswers": [
+          "Kraft"
+        ]
+      },
+      "hints": [
+        "Holz spalten"
+      ],
+      "feedbackCorrect": "Richtig! Spaltkraft!",
+      "feedbackIncorrect": "Ein Keil wandelt die Schlagkraft in eine große Spaltkraft um."
+    },
+    {
+      "id": "ahs-tech-k2-hebel-004",
+      "type": "matching",
+      "areaId": "energie",
+      "themeId": "maschinen",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Ordne die einfachen Maschinen den Beispielen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Hebel",
+            "right": "Wippe"
+          },
+          {
+            "left": "Keil",
+            "right": "Axt"
+          },
+          {
+            "left": "Schraube",
+            "right": "Wagenheber"
+          },
+          {
+            "left": "Rad und Achse",
+            "right": "Türklinke"
+          }
+        ]
+      },
+      "hints": [
+        "Alltagsbeispiele"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Wippe=Hebel, Axt=Keil, Wagenheber=Schraube, Türklinke=Rad+Achse."
+    },
+    {
+      "id": "ahs-tech-k2-hebel-005",
+      "type": "sorting",
+      "areaId": "energie",
+      "themeId": "maschinen",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Sortiere die Beispiele zu den einfachen Maschinen.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Hebel",
+            "items": [
+              "Wippe",
+              "Schere",
+              "Zange"
+            ]
+          },
+          {
+            "label": "Schiefe Ebene",
+            "items": [
+              "Rampe",
+              "Treppe",
+              "Wendeltreppe"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Prinzip der Maschine"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Wippe/Schere/Zange sind Hebel; Rampe/Treppe sind schiefe Ebenen."
+    },
+    {
+      "id": "ahs-tech-k2-hebel-006",
+      "type": "multiple-choice",
+      "areaId": "energie",
+      "themeId": "maschinen",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Was bewirkt ein längerer Hebelarm?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Längerer Hebelarm:",
+        "options": [
+          "Mehr Kraft nötig",
+          "Weniger Kraft nötig",
+          "Gleiche Kraft nötig",
+          "Kein Unterschied"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Kraftvorteil"
+      ],
+      "feedbackCorrect": "Richtig! Weniger Kraft nötig!",
+      "feedbackIncorrect": "Je länger der Hebelarm, desto weniger Kraft wird benötigt (Hebelgesetz)."
+    },
+    {
+      "id": "ahs-tech-k2-hebel-007",
+      "type": "fill-blank",
+      "areaId": "energie",
+      "themeId": "maschinen",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ergänze das Hebelgesetz.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Kraft mal Kraftarm ist gleich Last mal {{blank}}.",
+        "correctAnswer": "Lastarm",
+        "acceptableAnswers": [
+          "Lastarm"
+        ]
+      },
+      "hints": [
+        "Gleichgewicht"
+      ],
+      "feedbackCorrect": "Richtig! Lastarm!",
+      "feedbackIncorrect": "Das Hebelgesetz: Kraft × Kraftarm = Last × Lastarm."
+    },
+    {
+      "id": "ahs-tech-k2-hebel-008",
+      "type": "matching",
+      "areaId": "energie",
+      "themeId": "maschinen",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die Zahnradpaare den Effekten zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Großes treibt kleines Zahnrad",
+            "right": "Drehzahl wird erhöht"
+          },
+          {
+            "left": "Kleines treibt großes Zahnrad",
+            "right": "Drehzahl wird verringert"
+          },
+          {
+            "left": "Gleich große Zahnräder",
+            "right": "Drehzahl bleibt gleich"
+          }
+        ]
+      },
+      "hints": [
+        "Übersetzung"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Groß→Klein=schneller, Klein→Groß=langsamer, Gleich=gleich."
+    },
+    {
+      "id": "ahs-tech-k2-hebel-009",
+      "type": "multiple-choice",
+      "areaId": "energie",
+      "themeId": "maschinen",
+      "level": 2,
+      "difficulty": 3,
+      "instruction": "Wie viele feste Rollen hat ein Flaschenzug mit 4-facher Kraftersparnis?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Flaschenzug Rollen:",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Hälfte der Seile"
+      ],
+      "feedbackCorrect": "Richtig! 2 feste Rollen!",
+      "feedbackIncorrect": "Für 4-fache Kraftersparnis braucht man 2 feste und 2 lose Rollen."
+    },
+    {
+      "id": "ahs-tech-k2-hebel-010",
+      "type": "sorting",
+      "areaId": "energie",
+      "themeId": "maschinen",
+      "level": 2,
+      "difficulty": 3,
+      "instruction": "Sortiere die Getriebearten.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Formschlüssig",
+            "items": [
+              "Zahnradgetriebe",
+              "Kettengetriebe"
+            ]
+          },
+          {
+            "label": "Kraftschlüssig",
+            "items": [
+              "Riemengetriebe",
+              "Reibradgetriebe"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Wie wird die Kraft übertragen?"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Zahnrad/Kette=formschlüssig, Riemen/Reibrad=kraftschlüssig."
+    },
+    {
+      "id": "ahs-tech-k2-hebel-011",
+      "type": "fill-blank",
+      "areaId": "energie",
+      "themeId": "maschinen",
+      "level": 2,
+      "difficulty": 3,
+      "instruction": "Ergänze den Satz über die Goldene Regel der Mechanik.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Was man an Kraft spart, muss man an {{blank}} zusetzen.",
+        "correctAnswer": "Weg",
+        "acceptableAnswers": [
+          "Strecke"
+        ]
+      },
+      "hints": [
+        "Energieerhaltung"
+      ],
+      "feedbackCorrect": "Richtig! An Weg!",
+      "feedbackIncorrect": "Die Goldene Regel: Was man an Kraft spart, muss man an Weg zusetzen."
+    },
+    {
+      "id": "ahs-tech-k2-hebel-012",
+      "type": "matching",
+      "areaId": "energie",
+      "themeId": "maschinen",
+      "level": 2,
+      "difficulty": 3,
+      "instruction": "Ordne die Hebelarten den Beispielen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Einseitiger Hebel",
+            "right": "Schubkarre"
+          },
+          {
+            "left": "Zweiseitiger Hebel",
+            "right": "Wippe"
+          },
+          {
+            "left": "Winkelhebel",
+            "right": "Bremspedal"
+          }
+        ]
+      },
+      "hints": [
+        "Drehpunkt und Kräfte"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Schubkarre=einseitig, Wippe=zweiseitig, Bremspedal=Winkelhebel."
+    },
+    {
+      "id": "ahs-tech-k2-elek-002",
+      "type": "multiple-choice",
+      "areaId": "energie",
+      "themeId": "elektro",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Was ist die Einheit der elektrischen Spannung?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Einheit Spannung:",
+        "options": [
+          "Ampere",
+          "Volt",
+          "Ohm",
+          "Watt"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "U = ..."
+      ],
+      "feedbackCorrect": "Richtig! Volt!",
+      "feedbackIncorrect": "Die elektrische Spannung wird in Volt (V) gemessen."
+    },
+    {
+      "id": "ahs-tech-k2-elek-003",
+      "type": "fill-blank",
+      "areaId": "energie",
+      "themeId": "elektro",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Ergänze den Satz über Stromstärke.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Die elektrische Stromstärke wird in {{blank}} gemessen.",
+        "correctAnswer": "Ampere",
+        "acceptableAnswers": [
+          "A"
+        ]
+      },
+      "hints": [
+        "I = ..."
+      ],
+      "feedbackCorrect": "Richtig! Ampere!",
+      "feedbackIncorrect": "Die Stromstärke wird in Ampere (A) gemessen."
+    },
+    {
+      "id": "ahs-tech-k2-elek-004",
+      "type": "matching",
+      "areaId": "energie",
+      "themeId": "elektro",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Ordne die elektrischen Größen ihren Einheiten zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Spannung",
+            "right": "Volt (V)"
+          },
+          {
+            "left": "Stromstärke",
+            "right": "Ampere (A)"
+          },
+          {
+            "left": "Widerstand",
+            "right": "Ohm (Ω)"
+          },
+          {
+            "left": "Leistung",
+            "right": "Watt (W)"
+          }
+        ]
+      },
+      "hints": [
+        "SI-Einheiten"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Spannung=Volt, Strom=Ampere, Widerstand=Ohm, Leistung=Watt."
+    },
+    {
+      "id": "ahs-tech-k2-elek-005",
+      "type": "sorting",
+      "areaId": "energie",
+      "themeId": "elektro",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Sortiere die Bauteile nach Schaltungsart.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Reihenschaltung",
+            "items": [
+              "Lichterkette",
+              "Sicherung im Stromkreis"
+            ]
+          },
+          {
+            "label": "Parallelschaltung",
+            "items": [
+              "Steckdosen im Haushalt",
+              "Lampen in verschiedenen Räumen"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Hintereinander oder nebeneinander?"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Lichterkette=Reihe, Steckdosen/Raumlampen=Parallel."
+    },
+    {
+      "id": "ahs-tech-k2-elek-006",
+      "type": "multiple-choice",
+      "areaId": "energie",
+      "themeId": "elektro",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Was besagt das Ohmsche Gesetz?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Ohmsches Gesetz:",
+        "options": [
+          "P = U × I",
+          "U = R × I",
+          "E = m × c²",
+          "F = m × a"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Spannung, Widerstand, Strom"
+      ],
+      "feedbackCorrect": "Richtig! U = R × I!",
+      "feedbackIncorrect": "Das Ohmsche Gesetz lautet: U = R × I (Spannung = Widerstand × Strom)."
+    },
+    {
+      "id": "ahs-tech-k2-elek-007",
+      "type": "fill-blank",
+      "areaId": "energie",
+      "themeId": "elektro",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ergänze den Satz über Sicherheit.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Bei Arbeiten an elektrischen Anlagen muss immer zuerst der {{blank}} ausgeschaltet werden.",
+        "correctAnswer": "Strom",
+        "acceptableAnswers": [
+          "Hauptschalter",
+          "Stromkreis"
+        ]
+      },
+      "hints": [
+        "Sicherheit"
+      ],
+      "feedbackCorrect": "Richtig! Strom ausschalten!",
+      "feedbackIncorrect": "Vor Arbeiten an elektrischen Anlagen muss der Strom abgeschaltet werden."
+    },
+    {
+      "id": "ahs-tech-k2-elek-008",
+      "type": "matching",
+      "areaId": "energie",
+      "themeId": "elektro",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die Schaltzeichen den Bauteilen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Kreis mit Kreuz",
+            "right": "Glühlampe"
+          },
+          {
+            "left": "Zwei parallele Striche",
+            "right": "Kondensator"
+          },
+          {
+            "left": "Zickzack-Linie",
+            "right": "Widerstand"
+          },
+          {
+            "left": "Langer und kurzer Strich",
+            "right": "Batterie"
+          }
+        ]
+      },
+      "hints": [
+        "Schaltplansymbole"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Kreis+Kreuz=Lampe, Parallele Striche=Kondensator, Zickzack=Widerstand, Lang+Kurz=Batterie."
+    },
+    {
+      "id": "ahs-tech-k2-elek-009",
+      "type": "multiple-choice",
+      "areaId": "energie",
+      "themeId": "elektro",
+      "level": 2,
+      "difficulty": 3,
+      "instruction": "Was passiert mit dem Gesamtwiderstand bei einer Reihenschaltung?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Reihenschaltung Widerstand:",
+        "options": [
+          "Er wird kleiner",
+          "Er ist die Summe der Einzelwiderstände",
+          "Er bleibt gleich",
+          "Er halbiert sich"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Addieren"
+      ],
+      "feedbackCorrect": "Richtig! Die Summe der Einzelwiderstände!",
+      "feedbackIncorrect": "In der Reihenschaltung addieren sich die Widerstände: R_ges = R₁ + R₂ + ..."
+    },
+    {
+      "id": "ahs-tech-k2-elek-010",
+      "type": "sorting",
+      "areaId": "energie",
+      "themeId": "elektro",
+      "level": 2,
+      "difficulty": 3,
+      "instruction": "Sortiere die Bauteile nach ihrer Funktion.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Leiter",
+            "items": [
+              "Kupferdraht",
+              "Aluminiumkabel",
+              "Silberdraht"
+            ]
+          },
+          {
+            "label": "Isolator",
+            "items": [
+              "Gummi",
+              "Kunststoff",
+              "Keramik"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Leitet Strom oder nicht?"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Kupfer/Aluminium/Silber leiten; Gummi/Kunststoff/Keramik isolieren."
+    },
+    {
+      "id": "ahs-tech-k2-elek-011",
+      "type": "fill-blank",
+      "areaId": "energie",
+      "themeId": "elektro",
+      "level": 2,
+      "difficulty": 3,
+      "instruction": "Ergänze den Satz über die Parallelschaltung.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "In einer Parallelschaltung ist die {{blank}} an allen Bauteilen gleich.",
+        "correctAnswer": "Spannung",
+        "acceptableAnswers": []
+      },
+      "hints": [
+        "Was bleibt gleich?"
+      ],
+      "feedbackCorrect": "Richtig! Die Spannung!",
+      "feedbackIncorrect": "In der Parallelschaltung liegt an allen Bauteilen die gleiche Spannung an."
+    },
+    {
+      "id": "ahs-tech-k2-elek-012",
+      "type": "matching",
+      "areaId": "energie",
+      "themeId": "elektro",
+      "level": 2,
+      "difficulty": 3,
+      "instruction": "Ordne die Begriffe den Schaltungsarten zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Reihenschaltung",
+            "right": "Strom ist überall gleich"
+          },
+          {
+            "left": "Parallelschaltung",
+            "right": "Spannung ist überall gleich"
+          }
+        ]
+      },
+      "hints": [
+        "Kirchhoffsche Regeln"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Reihe=gleicher Strom, Parallel=gleiche Spannung (Kirchhoff)."
+    },
+    {
+      "id": "ahs-tech-k2-steu-002",
+      "type": "multiple-choice",
+      "areaId": "digital",
+      "themeId": "steuerung",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Was ist ein Sensor?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Sensor:",
+        "options": [
+          "Ein Motor",
+          "Ein Bauteil das Umgebungswerte misst",
+          "Ein Schalter",
+          "Ein Bildschirm"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Messen"
+      ],
+      "feedbackCorrect": "Richtig! Ein messendes Bauteil!",
+      "feedbackIncorrect": "Ein Sensor misst physikalische Größen wie Temperatur, Licht oder Abstand."
+    },
+    {
+      "id": "ahs-tech-k2-steu-003",
+      "type": "fill-blank",
+      "areaId": "digital",
+      "themeId": "steuerung",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Ergänze den Satz über Aktoren.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Ein {{blank}} setzt ein Signal in eine Bewegung oder Aktion um.",
+        "correctAnswer": "Aktor",
+        "acceptableAnswers": [
+          "Aktuator"
+        ]
+      },
+      "hints": [
+        "Ausführendes Bauteil"
+      ],
+      "feedbackCorrect": "Richtig! Ein Aktor!",
+      "feedbackIncorrect": "Aktoren (Aktuatoren) setzen Signale in physische Aktionen um."
+    },
+    {
+      "id": "ahs-tech-k2-steu-004",
+      "type": "matching",
+      "areaId": "digital",
+      "themeId": "steuerung",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Ordne die Bauteile richtig zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Temperatursensor",
+            "right": "Sensor"
+          },
+          {
+            "left": "Motor",
+            "right": "Aktor"
+          },
+          {
+            "left": "Lichtsensor",
+            "right": "Sensor"
+          },
+          {
+            "left": "LED",
+            "right": "Aktor"
+          }
+        ]
+      },
+      "hints": [
+        "Misst es oder führt es aus?"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Sensoren messen (Temperatur, Licht), Aktoren handeln (Motor, LED)."
+    },
+    {
+      "id": "ahs-tech-k2-steu-005",
+      "type": "sorting",
+      "areaId": "digital",
+      "themeId": "steuerung",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Sortiere die Bauteile in die richtigen Kategorien.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Sensor",
+            "items": [
+              "Temperaturfühler",
+              "Ultraschallsensor",
+              "Taster"
+            ]
+          },
+          {
+            "label": "Aktor",
+            "items": [
+              "Elektromotor",
+              "Lautsprecher",
+              "LED"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Eingabe oder Ausgabe?"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Sensoren=Eingabe (Temperatur, Ultraschall, Taster), Aktoren=Ausgabe (Motor, Lautsprecher, LED)."
+    },
+    {
+      "id": "ahs-tech-k2-steu-006",
+      "type": "multiple-choice",
+      "areaId": "digital",
+      "themeId": "steuerung",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Wofür steht die Abkürzung SPS?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "SPS:",
+        "options": [
+          "Speicherprogrammierbare Steuerung",
+          "Schnelles Programm System",
+          "Standard-Programmier-Software",
+          "Sicherheitsprüfungs-System"
+        ],
+        "correctIndex": 0
+      },
+      "hints": [
+        "Industrie-Steuerung"
+      ],
+      "feedbackCorrect": "Richtig! Speicherprogrammierbare Steuerung!",
+      "feedbackIncorrect": "SPS = Speicherprogrammierbare Steuerung, wird in der Industrie eingesetzt."
+    },
+    {
+      "id": "ahs-tech-k2-steu-007",
+      "type": "fill-blank",
+      "areaId": "digital",
+      "themeId": "steuerung",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ergänze den Satz über den Steuerungsablauf.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Bei einer Steuerung wird zuerst die Eingabe vom {{blank}} erfasst.",
+        "correctAnswer": "Sensor",
+        "acceptableAnswers": [
+          "Sensoren"
+        ]
+      },
+      "hints": [
+        "Was liefert die Information?"
+      ],
+      "feedbackCorrect": "Richtig! Vom Sensor!",
+      "feedbackIncorrect": "Der Sensor erfasst die Eingabewerte, die dann verarbeitet werden."
+    },
+    {
+      "id": "ahs-tech-k2-steu-008",
+      "type": "matching",
+      "areaId": "digital",
+      "themeId": "steuerung",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die Steuerungsbegriffe zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Eingabe",
+            "right": "Sensor erfasst Werte"
+          },
+          {
+            "left": "Verarbeitung",
+            "right": "Steuerung wertet Daten aus"
+          },
+          {
+            "left": "Ausgabe",
+            "right": "Aktor führt Aktion aus"
+          }
+        ]
+      },
+      "hints": [
+        "EVA-Prinzip"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Eingabe=Sensor, Verarbeitung=Steuerung, Ausgabe=Aktor (EVA-Prinzip)."
+    },
+    {
+      "id": "ahs-tech-k2-steu-009",
+      "type": "multiple-choice",
+      "areaId": "digital",
+      "themeId": "steuerung",
+      "level": 2,
+      "difficulty": 3,
+      "instruction": "Was ist der Unterschied zwischen Steuern und Regeln?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Steuern vs. Regeln:",
+        "options": [
+          "Kein Unterschied",
+          "Regeln hat eine Rückmeldung, Steuern nicht",
+          "Steuern ist schneller",
+          "Regeln braucht keinen Sensor"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Rückkopplung"
+      ],
+      "feedbackCorrect": "Richtig! Regeln hat eine Rückmeldung!",
+      "feedbackIncorrect": "Beim Regeln gibt es eine Rückmeldung (Regelkreis), beim Steuern nicht."
+    },
+    {
+      "id": "ahs-tech-k2-steu-010",
+      "type": "sorting",
+      "areaId": "digital",
+      "themeId": "steuerung",
+      "level": 2,
+      "difficulty": 3,
+      "instruction": "Sortiere die Beispiele.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Steuerung (ohne Rückmeldung)",
+            "items": [
+              "Ampelschaltung",
+              "Zeitschaltuhr"
+            ]
+          },
+          {
+            "label": "Regelung (mit Rückmeldung)",
+            "items": [
+              "Heizungsthermostat",
+              "Tempomat"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Gibt es eine Rückkopplung?"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Ampel/Zeitschaltuhr=Steuerung, Thermostat/Tempomat=Regelung."
+    },
+    {
+      "id": "ahs-tech-k2-steu-011",
+      "type": "fill-blank",
+      "areaId": "digital",
+      "themeId": "steuerung",
+      "level": 2,
+      "difficulty": 3,
+      "instruction": "Ergänze den Satz über den Regelkreis.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Im Regelkreis vergleicht der Regler den Sollwert mit dem {{blank}}.",
+        "correctAnswer": "Istwert",
+        "acceptableAnswers": [
+          "Ist-Wert"
+        ]
+      },
+      "hints": [
+        "Aktueller Zustand"
+      ],
+      "feedbackCorrect": "Richtig! Mit dem Istwert!",
+      "feedbackIncorrect": "Der Regler vergleicht Soll- und Istwert und korrigiert bei Abweichung."
+    },
+    {
+      "id": "ahs-tech-k2-steu-012",
+      "type": "matching",
+      "areaId": "digital",
+      "themeId": "steuerung",
+      "level": 2,
+      "difficulty": 3,
+      "instruction": "Ordne die Regelkreis-Elemente zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Führungsgröße",
+            "right": "Sollwert"
+          },
+          {
+            "left": "Regelgröße",
+            "right": "Istwert"
+          },
+          {
+            "left": "Stellgröße",
+            "right": "Eingriff des Reglers"
+          },
+          {
+            "left": "Störgröße",
+            "right": "Ungewollte Einflüsse"
+          }
+        ]
+      },
+      "hints": [
+        "Regelungstechnik"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Führung=Soll, Regel=Ist, Stell=Eingriff, Stör=Einflüsse."
+    },
+    {
+      "id": "ahs-tech-k2-robot-002",
+      "type": "multiple-choice",
+      "areaId": "digital",
+      "themeId": "robotik",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Welcher Bestandteil eines Roboters greift Gegenstände?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Greifer:",
+        "options": [
+          "Sensor",
+          "Greifer",
+          "Prozessor",
+          "Batterie"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Greifen"
+      ],
+      "feedbackCorrect": "Richtig! Der Greifer!",
+      "feedbackIncorrect": "Der Greifer (Endeffektor) ist das Werkzeug am Roboterarm zum Greifen."
+    },
+    {
+      "id": "ahs-tech-k2-robot-003",
+      "type": "fill-blank",
+      "areaId": "digital",
+      "themeId": "robotik",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Ergänze den Satz über Roboter.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Ein Roboter braucht {{blank}}, um seine Umgebung wahrzunehmen.",
+        "correctAnswer": "Sensoren",
+        "acceptableAnswers": [
+          "Sensor"
+        ]
+      },
+      "hints": [
+        "Wahrnehmung"
+      ],
+      "feedbackCorrect": "Richtig! Sensoren!",
+      "feedbackIncorrect": "Roboter brauchen Sensoren (z.B. Kamera, Ultraschall), um ihre Umgebung zu erfassen."
+    },
+    {
+      "id": "ahs-tech-k2-robot-004",
+      "type": "matching",
+      "areaId": "digital",
+      "themeId": "robotik",
+      "level": 2,
+      "difficulty": 1,
+      "instruction": "Ordne die Roboter-Bestandteile zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Sensoren",
+            "right": "Umgebung wahrnehmen"
+          },
+          {
+            "left": "Aktoren",
+            "right": "Bewegungen ausführen"
+          },
+          {
+            "left": "Steuerung",
+            "right": "Programm verarbeiten"
+          },
+          {
+            "left": "Greifer",
+            "right": "Objekte aufnehmen"
+          }
+        ]
+      },
+      "hints": [
+        "Funktion der Bauteile"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Sensoren=wahrnehmen, Aktoren=bewegen, Steuerung=verarbeiten, Greifer=aufnehmen."
+    },
+    {
+      "id": "ahs-tech-k2-robot-005",
+      "type": "sorting",
+      "areaId": "digital",
+      "themeId": "robotik",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Sortiere die Roboterarten.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Industrieroboter",
+            "items": [
+              "Schweißroboter",
+              "Montageroboter",
+              "Lackierroboter"
+            ]
+          },
+          {
+            "label": "Serviceroboter",
+            "items": [
+              "Staubsaugerroboter",
+              "Rasenmähroboter",
+              "Pflegeroboter"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Fabrik oder Alltag?"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Schweiß-/Montage-/Lackierroboter in der Industrie; Staubsauger-/Rasenmäh-/Pflegeroboter im Alltag."
+    },
+    {
+      "id": "ahs-tech-k2-robot-006",
+      "type": "multiple-choice",
+      "areaId": "digital",
+      "themeId": "robotik",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Was versteht man unter einem Freiheitsgrad bei Robotern?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Freiheitsgrad:",
+        "options": [
+          "Die Geschwindigkeit",
+          "Eine unabhängige Bewegungsachse",
+          "Die Tragfähigkeit",
+          "Die Reichweite"
+        ],
+        "correctIndex": 1
+      },
+      "hints": [
+        "Achse"
+      ],
+      "feedbackCorrect": "Richtig! Eine unabhängige Bewegungsachse!",
+      "feedbackIncorrect": "Jeder Freiheitsgrad entspricht einer unabhängigen Bewegungsachse des Roboters."
+    },
+    {
+      "id": "ahs-tech-k2-robot-007",
+      "type": "fill-blank",
+      "areaId": "digital",
+      "themeId": "robotik",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ergänze den Satz über Roboterprogrammierung.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Beim {{blank}} wird der Roboter manuell in die gewünschten Positionen geführt und speichert diese.",
+        "correctAnswer": "Teach-in",
+        "acceptableAnswers": [
+          "Teachen",
+          "Teaching",
+          "Teach-In-Verfahren"
+        ]
+      },
+      "hints": [
+        "Manuelle Programmierung"
+      ],
+      "feedbackCorrect": "Richtig! Teach-in!",
+      "feedbackIncorrect": "Beim Teach-in-Verfahren wird der Roboter manuell geführt und speichert die Positionen."
+    },
+    {
+      "id": "ahs-tech-k2-robot-008",
+      "type": "matching",
+      "areaId": "digital",
+      "themeId": "robotik",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Ordne die Sensoren den Messgrößen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Kamera",
+            "right": "Bilderkennung"
+          },
+          {
+            "left": "Ultraschallsensor",
+            "right": "Abstandsmessung"
+          },
+          {
+            "left": "Drucksensor",
+            "right": "Greifkraft"
+          },
+          {
+            "left": "Encoder",
+            "right": "Drehwinkel"
+          }
+        ]
+      },
+      "hints": [
+        "Was wird gemessen?"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Kamera=Bild, Ultraschall=Abstand, Druck=Kraft, Encoder=Winkel."
+    },
+    {
+      "id": "ahs-tech-k2-robot-009",
+      "type": "multiple-choice",
+      "areaId": "digital",
+      "themeId": "robotik",
+      "level": 2,
+      "difficulty": 3,
+      "instruction": "Wie viele Freiheitsgrade hat ein typischer Industrieroboter?",
+      "content": {
+        "type": "multiple-choice",
+        "question": "Freiheitsgrade Industrieroboter:",
+        "options": [
+          "3",
+          "4",
+          "6",
+          "8"
+        ],
+        "correctIndex": 2
+      },
+      "hints": [
+        "Wie der menschliche Arm"
+      ],
+      "feedbackCorrect": "Richtig! 6 Freiheitsgrade!",
+      "feedbackIncorrect": "Ein typischer Industrieroboter hat 6 Freiheitsgrade (wie der menschliche Arm)."
+    },
+    {
+      "id": "ahs-tech-k2-robot-010",
+      "type": "sorting",
+      "areaId": "digital",
+      "themeId": "robotik",
+      "level": 2,
+      "difficulty": 3,
+      "instruction": "Sortiere die Programmierarten.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Online-Programmierung",
+            "items": [
+              "Teach-in",
+              "Handführung"
+            ]
+          },
+          {
+            "label": "Offline-Programmierung",
+            "items": [
+              "CAD-basiert",
+              "Simulation am Computer"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Am Roboter oder am Computer?"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Teach-in/Handführung=Online (am Roboter), CAD/Simulation=Offline (am Computer)."
+    },
+    {
+      "id": "ahs-tech-k2-robot-011",
+      "type": "fill-blank",
+      "areaId": "digital",
+      "themeId": "robotik",
+      "level": 2,
+      "difficulty": 3,
+      "instruction": "Ergänze den Satz über kollaborative Roboter.",
+      "content": {
+        "type": "fill-blank",
+        "sentence": "Ein {{blank}} ist ein Roboter, der sicher direkt mit Menschen zusammenarbeiten kann.",
+        "correctAnswer": "Cobot",
+        "acceptableAnswers": [
+          "kollaborativer Roboter",
+          "Kollaborativer Roboter"
+        ]
+      },
+      "hints": [
+        "Zusammenarbeit"
+      ],
+      "feedbackCorrect": "Richtig! Cobot!",
+      "feedbackIncorrect": "Cobots (kollaborative Roboter) sind für die sichere Zusammenarbeit mit Menschen konzipiert."
+    },
+    {
+      "id": "ahs-tech-k2-robot-012",
+      "type": "matching",
+      "areaId": "digital",
+      "themeId": "robotik",
+      "level": 2,
+      "difficulty": 3,
+      "instruction": "Ordne die Sicherheitsmaßnahmen zu.",
+      "content": {
+        "type": "matching",
+        "pairs": [
+          {
+            "left": "Schutzzaun",
+            "right": "Physische Barriere um den Roboter"
+          },
+          {
+            "left": "Lichtschranke",
+            "right": "Unterbricht bei Durchgang"
+          },
+          {
+            "left": "Not-Aus-Schalter",
+            "right": "Sofortige Abschaltung"
+          }
+        ]
+      },
+      "hints": [
+        "Sicherheit bei Robotern"
+      ],
+      "feedbackCorrect": "Richtig zugeordnet!",
+      "feedbackIncorrect": "Schutzzaun=Barriere, Lichtschranke=Unterbrechung, Not-Aus=Abschaltung."
+    },
+    {
+      "id": "ahs-tech-k2-holz-015",
+      "type": "sorting",
+      "areaId": "werkstoffe",
+      "themeId": "holz",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Sortiere die Werkzeuge nach Bearbeitungsart.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Spanende Bearbeitung",
+            "items": [
+              "Säge",
+              "Hobel",
+              "Bohrer"
+            ]
+          },
+          {
+            "label": "Nicht-spanende Bearbeitung",
+            "items": [
+              "Hammer",
+              "Schraubzwinge",
+              "Leim"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Wird Material abgetragen?"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Säge/Hobel/Bohrer tragen Späne ab, Hammer/Zwinge/Leim nicht."
+    },
+    {
+      "id": "ahs-tech-k2-metall-015",
+      "type": "sorting",
+      "areaId": "werkstoffe",
+      "themeId": "metall",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Sortiere die Metalle nach ihrer Eigenschaft.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Magnetisch",
+            "items": [
+              "Eisen",
+              "Stahl",
+              "Nickel"
+            ]
+          },
+          {
+            "label": "Nicht magnetisch",
+            "items": [
+              "Kupfer",
+              "Aluminium",
+              "Messing"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Reagiert es auf einen Magneten?"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Eisen/Stahl/Nickel sind magnetisch, Kupfer/Alu/Messing nicht."
+    },
+    {
+      "id": "ahs-tech-k2-elek-013",
+      "type": "sorting",
+      "areaId": "energie",
+      "themeId": "elektro",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Sortiere die Begriffe zur Elektrotechnik.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Elektrische Größe",
+            "items": [
+              "Spannung",
+              "Stromstärke",
+              "Widerstand"
+            ]
+          },
+          {
+            "label": "Elektrisches Bauteil",
+            "items": [
+              "Widerstand (Bauteil)",
+              "Kondensator",
+              "Spule"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Messgröße oder Bauteil?"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Spannung/Strom/Widerstand sind Größen; Widerstand(Bauteil)/Kondensator/Spule sind Bauteile."
+    },
+    {
+      "id": "ahs-tech-k2-steu-013",
+      "type": "sorting",
+      "areaId": "digital",
+      "themeId": "steuerung",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Sortiere die Begriffe zum EVA-Prinzip.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Eingabe",
+            "items": [
+              "Temperatursensor",
+              "Taster",
+              "Lichtschranke"
+            ]
+          },
+          {
+            "label": "Ausgabe",
+            "items": [
+              "Motor",
+              "Lampe",
+              "Summer"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Wird gemessen oder ausgeführt?"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Sensor/Taster/Lichtschranke=Eingabe, Motor/Lampe/Summer=Ausgabe."
+    },
+    {
+      "id": "ahs-tech-k2-robot-013",
+      "type": "sorting",
+      "areaId": "digital",
+      "themeId": "robotik",
+      "level": 2,
+      "difficulty": 2,
+      "instruction": "Sortiere die Begriffe zum Thema Robotik.",
+      "content": {
+        "type": "sorting",
+        "categories": [
+          {
+            "label": "Sensorik",
+            "items": [
+              "Kamera",
+              "Abstandssensor",
+              "Drucksensor"
+            ]
+          },
+          {
+            "label": "Aktorik",
+            "items": [
+              "Servomotor",
+              "Greifer",
+              "Hydraulikzylinder"
+            ]
+          }
+        ]
+      },
+      "hints": [
+        "Wahrnehmen oder Handeln?"
+      ],
+      "feedbackCorrect": "Richtig sortiert!",
+      "feedbackIncorrect": "Kamera/Abstand/Druck=Sensorik, Servo/Greifer/Hydraulik=Aktorik."
     }
   ]
 }
