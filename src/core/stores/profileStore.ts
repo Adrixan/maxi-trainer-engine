@@ -10,6 +10,7 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import { adoptLegacyStore, scopedStoreName } from '@core/appId';
+import { generateId } from '@core/utils/id';
 import {
     exportSaveGame,
     importSaveGame,
@@ -121,7 +122,7 @@ export const useProfileStore = create<ProfileState>()(
 
             createProfile: (nickname, avatarId, areaIds = []) => {
                 const profile: UserProfile = {
-                    id: crypto.randomUUID(),
+                    id: generateId(),
                     nickname: nickname.trim(),
                     avatarId,
                     createdAt: new Date().toISOString(),

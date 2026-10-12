@@ -4,13 +4,20 @@
  * Handles save game export/import and IndexedDB synchronization.
  * Separated from profileStore to maintain single responsibility.
  * 
- * Security features:
- * - Trainer isolation via trainerId
- * - Save file integrity via SHA-256 checksum
- * - Value range validation on import
+ * What the import checks protect against:
+ * - importing a save file of another trainer (trainerId)
+ * - damaged or hand-edited files (SHA-256 checksum, see below)
+ * - implausible values (range checks)
+ *
+ * What they do not do: stop a determined user from creating a valid save file.
+ * The checksum is unkeyed, so anyone who can read this code can recompute it,
+ * and a secret embedded in a client-side app would be just as readable. Save
+ * games are a convenience for moving progress between devices, and the stars
+ * and badges in them are motivational, not a certificate.
  */
 
 import type { UserProfile, ExerciseResult } from '@/types';
+import { sha256Hex } from '@core/utils/hash';
 import {
     saveProfile,
     clearAllExerciseResults,
@@ -42,7 +49,7 @@ export interface SaveGamePayload {
     savedAt: string;
     /** Trainer ID for isolation (e.g., 'mathematik', 'daz') */
     trainerId: string;
-    /** SHA-256 checksum of the profile and results for integrity verification */
+    /** Unkeyed SHA-256 of the profile and results; detects damage and edits, not forgery */
     checksum: string;
     profile: UserProfile;
     exerciseResults: ExerciseResult[];
@@ -60,7 +67,7 @@ export type ImportResult =
 // ============================================================================
 
 /**
- * Valid ranges for imported values to prevent tampering.
+ * Plausible ranges for imported values (guards against corrupt or careless edits).
  */
 const VALIDATION_LIMITS = {
     totalStars: { min: 0, max: 1000000 },
@@ -79,18 +86,6 @@ const VALIDATION_LIMITS = {
 // ============================================================================
 
 /**
- * Compute SHA-256 checksum of data.
- * Used to verify save file integrity.
- */
-async function computeChecksum(data: string): Promise<string> {
-    const encoder = new TextEncoder();
-    const dataBuffer = encoder.encode(data);
-    const hashBuffer = await crypto.subtle.digest('SHA-256', dataBuffer);
-    const hashArray = Array.from(new Uint8Array(hashBuffer));
-    return hashArray.map((b) => b.toString(16).padStart(2, '0')).join('');
-}
-
-/**
  * Compute checksum for a save game payload (without the checksum field itself).
  */
 async function computePayloadChecksum(
@@ -99,7 +94,7 @@ async function computePayloadChecksum(
     exerciseResults: ExerciseResult[]
 ): Promise<string> {
     const data = JSON.stringify({ trainerId, profile, exerciseResults });
-    return computeChecksum(data);
+    return sha256Hex(data);
 }
 
 // ============================================================================
@@ -121,7 +116,7 @@ function validateNumeric(value: unknown, fieldName: string, limits: { min: numbe
 
 /**
  * Validate a profile's numeric values are within valid ranges.
- * This prevents tampered save files from setting unrealistic values.
+ * Rejects save files with implausible values.
  */
 function validateProfileValues(profile: unknown): string[] {
     const errors: string[] = [];
@@ -338,7 +333,7 @@ export async function validateAndVerifySaveGame(
     if (payload.checksum !== expectedChecksum) {
         return {
             valid: false,
-            error: 'Invalid save game: checksum mismatch - file may have been tampered with',
+            error: 'Invalid save game: checksum mismatch - the file is damaged or was modified',
         };
     }
 
