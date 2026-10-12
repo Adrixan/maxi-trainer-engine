@@ -2,6 +2,10 @@ import { defineConfig } from 'vitest/config';
 import react from '@vitejs/plugin-react';
 import { fileURLToPath, URL } from 'node:url';
 
+// The apps target Austrian schools. Date logic is tested in a zone with DST and a
+// positive UTC offset, where UTC-based day calculations are visibly wrong.
+process.env.TZ = 'Europe/Vienna';
+
 export default defineConfig({
     plugins: [react()],
     test: {

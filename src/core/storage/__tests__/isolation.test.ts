@@ -317,8 +317,8 @@ describe('Persisted store scoping', () => {
         expect(Object.keys(created.currentLevels)).toEqual(['numbers', 'geometry']);
 
         const store = localStorageMock._getStore();
-        expect(JSON.parse(store['maxi-trainer-profile:ahs-deutsch']!).state.activeProfile.nickname).toBe('Anna');
-        expect(JSON.parse(store['maxi-trainer-profile:ahs-mathematik']!).state.activeProfile.nickname).toBe('Ben');
+        expect(JSON.parse(String(store['maxi-trainer-profile:ahs-deutsch'])).state.activeProfile.nickname).toBe('Anna');
+        expect(JSON.parse(String(store['maxi-trainer-profile:ahs-mathematik'])).state.activeProfile.nickname).toBe('Ben');
     });
 });
 

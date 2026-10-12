@@ -15,6 +15,7 @@ import { Modal } from '@core/components/ui';
 import { useThemes, useAppConfig } from '@core/config';
 import { calculateGlobalLevel } from '@core/utils/gamification';
 import { parseSaveGameFile, validateSaveGame, type SaveGamePayload } from '@core/stores/profilePersistence';
+import { localDateKey } from '@core/utils/date';
 
 /**
  * Get fire emoji count based on streak length.
@@ -64,7 +65,7 @@ function Dashboard() {
         try {
             const data = await exportSaveGame();
             if (data) {
-                const date = new Date().toISOString().split('T')[0];
+                const date = localDateKey();
                 const nickname = profile?.nickname ?? 'player';
                 const filename = `${appConfig.id}-spielstand-${nickname}-${date}.json`;
                 downloadSaveGame(data, filename);

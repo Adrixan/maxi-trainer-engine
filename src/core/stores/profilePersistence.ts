@@ -18,6 +18,7 @@ import {
     getAllExerciseResults,
     getTrainerId,
 } from '@core/storage';
+import { localDateKey } from '@core/utils/date';
 
 // ============================================================================
 // Constants
@@ -410,7 +411,7 @@ export async function exportSaveGame(profile: UserProfile): Promise<SaveGamePayl
  */
 export function downloadSaveGame(payload: SaveGamePayload): void {
     const nickname = payload.profile.nickname || 'player';
-    const date = new Date().toISOString().split('T')[0];
+    const date = localDateKey();
     const filename = `spielstand-${nickname}-${date}.json`;
 
     const json = JSON.stringify(payload, null, 2);

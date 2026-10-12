@@ -39,6 +39,7 @@ import type {
     ThemeId,
     ThemeProgress,
 } from '@/types';
+import { addDays, localDateKey } from '@core/utils/date';
 
 // ============================================================================
 // Constants (imported from profileConstants.ts)
@@ -192,16 +193,14 @@ export const useProfileStore = create<ProfileState>()(
             incrementStreak: () =>
                 set((state) => {
                     if (!state.activeProfile) return state;
-                    const today = new Date().toISOString().split('T')[0] ?? '';
+                    const today = localDateKey();
                     const lastActive = state.activeProfile.lastActiveDate;
 
                     // If already active today, no change
                     if (lastActive === today) return state;
 
                     // Check if yesterday
-                    const yesterday = new Date();
-                    yesterday.setDate(yesterday.getDate() - 1);
-                    const yesterdayStr = yesterday.toISOString().split('T')[0] ?? '';
+                    const yesterdayStr = localDateKey(addDays(new Date(), -1));
 
                     const newStreak = lastActive === yesterdayStr
                         ? state.activeProfile.currentStreak + 1
