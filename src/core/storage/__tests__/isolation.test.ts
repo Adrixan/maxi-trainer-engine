@@ -4,7 +4,7 @@
  * Verifies that different apps (DAZ, Mathematik) maintain separate storage:
  * - IndexedDB databases are app-specific
  * - localStorage keys are namespaced per app
- * - Migration only affects DAZ app
+ * - persisted stores are scoped per app
  */
 
 import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest';
@@ -149,7 +149,7 @@ describe('localStorage Isolation', () => {
             expect(keys).toContain('mte:mathematik:app:theme');
         });
 
-        it('default app ID falls back to daz', async () => {
+        it('default app ID falls back to ahs-deutsch', async () => {
             // Use vi.stubEnv to mock undefined
             vi.stubEnv('VITE_APP_ID', undefined);
 
@@ -162,8 +162,8 @@ describe('localStorage Isolation', () => {
             const store = localStorageMock._getStore();
             const keys = Object.keys(store);
 
-            // Should use daz as default
-            expect(keys).toContain('mte:daz:app:locale');
+            // Should use the engine default app
+            expect(keys).toContain('mte:ahs-deutsch:app:locale');
         });
     });
 
@@ -243,180 +243,82 @@ describe('localStorage Isolation', () => {
 });
 
 // ============================================================================
-// Migration Logic Tests
+// Persisted store scoping
 // ============================================================================
 
-describe('Migration Logic', () => {
+describe('Persisted store scoping', () => {
     let localStorageMock: ReturnType<typeof createLocalStorageMock>;
 
     beforeEach(() => {
         localStorageMock = createLocalStorageMock();
         vi.stubGlobal('localStorage', localStorageMock);
-        // Stub indexedDB to prevent errors
-        vi.stubGlobal('indexedDB', {
-            databases: () => Promise.resolve([]),
-            open: () => Promise.resolve({}),
-            deleteDatabase: () => Promise.resolve(),
-        });
-    });
-
-    afterEach(() => {
-        vi.unstubAllGlobals();
-        vi.clearAllMocks();
         vi.resetModules();
     });
 
-    describe('isMigrationNeeded', () => {
-        it('returns false for non-DAZ apps', async () => {
-            vi.stubEnv('VITE_APP_ID', 'mathematik');
-
-            const { isMigrationNeeded } = await import('../migration');
-
-            expect(isMigrationNeeded()).toBe(false);
-        });
-
-        it('returns false if migration already completed', async () => {
-            vi.stubEnv('VITE_APP_ID', 'daz');
-
-            // Mark migration as complete
-            localStorageMock.setItem('mte:daz:app:migrationComplete', '2024-01-15T00:00:00Z');
-
-            vi.resetModules();
-
-            const { isMigrationNeeded } = await import('../migration');
-
-            expect(isMigrationNeeded()).toBe(false);
-        });
-
-        it('returns true if old localStorage keys exist', async () => {
-            vi.stubEnv('VITE_APP_ID', 'daz');
-
-            // Set up old format keys (without app prefix)
-            localStorageMock.setItem('mte:app:locale', JSON.stringify({ value: 'de', version: 1, updatedAt: '2024-01-01' }));
-            localStorageMock.setItem('mte:app:theme', JSON.stringify({ value: 'forest', version: 1, updatedAt: '2024-01-01' }));
-
-            vi.resetModules();
-
-            const { isMigrationNeeded } = await import('../migration');
-
-            expect(isMigrationNeeded()).toBe(true);
-        });
-
-        it('returns false if no old keys exist', async () => {
-            vi.stubEnv('VITE_APP_ID', 'daz');
-
-            // Only new format keys
-            localStorageMock.setItem('mte:daz:app:locale', JSON.stringify({ value: 'de', version: 1, updatedAt: '2024-01-01' }));
-
-            vi.resetModules();
-
-            const { isMigrationNeeded } = await import('../migration');
-
-            expect(isMigrationNeeded()).toBe(false);
-        });
+    afterEach(() => {
+        vi.unstubAllEnvs();
+        vi.unstubAllGlobals();
+        vi.resetModules();
     });
 
-    describe('runMigration', () => {
-        it('migrates localStorage keys from old to new format', async () => {
-            vi.stubEnv('VITE_APP_ID', 'daz');
+    it('scopes store names by app id', async () => {
+        vi.stubEnv('VITE_APP_ID', 'ahs-mathematik');
+        const { scopedStoreName } = await import('../../appId');
+        expect(scopedStoreName('maxi-trainer-profile')).toBe('maxi-trainer-profile:ahs-mathematik');
+    });
 
-            // Set up old format keys
-            localStorageMock.setItem('mte:app:locale', JSON.stringify({ value: 'de', version: 1, updatedAt: '2024-01-01' }));
-            localStorageMock.setItem('mte:app:theme', JSON.stringify({ value: 'forest', version: 1, updatedAt: '2024-01-01' }));
-            localStorageMock.setItem('mte:app:currentProfileId', JSON.stringify({ value: 'profile-1', version: 1, updatedAt: '2024-01-01' }));
+    it('copies a legacy unscoped store into the app scope once', async () => {
+        vi.stubEnv('VITE_APP_ID', 'ahs-mathematik');
+        localStorageMock.setItem('maxi-trainer-profile', '{"state":{"activeProfile":null}}');
 
-            vi.resetModules();
+        const { adoptLegacyStore } = await import('../../appId');
+        adoptLegacyStore('maxi-trainer-profile');
 
-            const { runMigration } = await import('../migration');
+        const store = localStorageMock._getStore();
+        expect(store['maxi-trainer-profile:ahs-mathematik']).toBe('{"state":{"activeProfile":null}}');
+        // Legacy key stays so other apps on the same origin can adopt it too
+        expect(store['maxi-trainer-profile']).toBeDefined();
+    });
 
-            const result = await runMigration();
+    it('never overwrites data the app already has', async () => {
+        vi.stubEnv('VITE_APP_ID', 'ahs-mathematik');
+        localStorageMock.setItem('maxi-trainer-profile', 'legacy');
+        localStorageMock.setItem('maxi-trainer-profile:ahs-mathematik', 'current');
 
-            expect(result.success).toBe(true);
-            expect(result.migrated).toBe(true);
-            expect(result.localStorageKeysMigrated).toBe(3);
+        const { adoptLegacyStore } = await import('../../appId');
+        adoptLegacyStore('maxi-trainer-profile');
 
-            // Verify keys were migrated
-            const store = localStorageMock._getStore();
-            expect(store['mte:daz:app:locale']).toBeDefined();
-            expect(store['mte:daz:app:theme']).toBeDefined();
-            expect(store['mte:daz:app:currentProfileId']).toBeDefined();
+        expect(localStorageMock._getStore()['maxi-trainer-profile:ahs-mathematik']).toBe('current');
+    });
 
-            // Old keys should be removed
-            expect(store['mte:app:locale']).toBeUndefined();
-            expect(store['mte:app:theme']).toBeUndefined();
-            expect(store['mte:app:currentProfileId']).toBeUndefined();
+    it('does not touch the keys of other apps', async () => {
+        vi.stubEnv('VITE_APP_ID', 'ahs-deutsch');
+        localStorageMock.setItem('mte:ahs-mathematik:app:theme', 'x');
+        localStorageMock.setItem('maxi-trainer-profile:ahs-mathematik', 'math profile');
 
-            // Migration marker should be set
-            expect(store['mte:daz:app:migrationComplete']).toBeDefined();
-        });
+        const { adoptLegacyStore } = await import('../../appId');
+        adoptLegacyStore('maxi-trainer-profile');
 
-        it('does not migrate for non-DAZ apps', async () => {
-            vi.stubEnv('VITE_APP_ID', 'mathematik');
+        const store = localStorageMock._getStore();
+        expect(Object.keys(store).sort()).toEqual(['maxi-trainer-profile:ahs-mathematik', 'mte:ahs-mathematik:app:theme']);
+    });
 
-            // Set up old format keys (shouldn't be migrated for mathematik)
-            localStorageMock.setItem('mte:app:locale', JSON.stringify({ value: 'de', version: 1, updatedAt: '2024-01-01' }));
+    it('keeps the profile of two apps separate', async () => {
+        vi.stubEnv('VITE_APP_ID', 'ahs-deutsch');
+        const first = await import('../../stores/profileStore');
+        first.useProfileStore.getState().createProfile('Anna', '🦊', ['grammar']);
 
-            vi.resetModules();
+        vi.stubEnv('VITE_APP_ID', 'ahs-mathematik');
+        vi.resetModules();
+        const math = await import('../../stores/profileStore');
+        expect(math.useProfileStore.getState().activeProfile).toBeNull();
 
-            const { runMigration } = await import('../migration');
+        const created = math.useProfileStore.getState().createProfile('Ben', '🐻', ['numbers', 'geometry']);
+        expect(Object.keys(created.currentLevels)).toEqual(['numbers', 'geometry']);
 
-            const result = await runMigration();
-
-            expect(result.success).toBe(true);
-            expect(result.migrated).toBe(false);
-            expect(result.localStorageKeysMigrated).toBe(0);
-
-            // Keys should remain unchanged
-            const store = localStorageMock._getStore();
-            expect(store['mte:app:locale']).toBeDefined();
-            expect(store['mte:mathematik:app:locale']).toBeUndefined();
-        });
-
-        it('only runs migration once', async () => {
-            vi.stubEnv('VITE_APP_ID', 'daz');
-
-            // Set up old format keys
-            localStorageMock.setItem('mte:app:locale', JSON.stringify({ value: 'de', version: 1, updatedAt: '2024-01-01' }));
-
-            vi.resetModules();
-
-            const { runMigration } = await import('../migration');
-
-            // First migration
-            const result1 = await runMigration();
-            expect(result1.migrated).toBe(true);
-            expect(result1.localStorageKeysMigrated).toBe(1);
-
-            vi.resetModules();
-
-            const { runMigration: runMigration2 } = await import('../migration');
-
-            // Second migration should be skipped
-            const result2 = await runMigration2();
-            expect(result2.migrated).toBe(false);
-            expect(result2.localStorageKeysMigrated).toBe(0);
-        });
-
-        it('preserves data integrity during migration', async () => {
-            vi.stubEnv('VITE_APP_ID', 'daz');
-
-            // Set up old format key with specific data
-            const originalData = { value: 'forest-theme', version: 1, updatedAt: '2024-01-15T10:30:00Z' };
-            localStorageMock.setItem('mte:app:theme', JSON.stringify(originalData));
-
-            vi.resetModules();
-
-            const { runMigration } = await import('../migration');
-
-            await runMigration();
-
-            // Verify data was preserved
-            const store = localStorageMock._getStore();
-            const migratedData = JSON.parse(store['mte:daz:app:theme']!);
-            expect(migratedData.value).toBe('forest-theme');
-            expect(migratedData.version).toBe(1);
-            expect(migratedData.updatedAt).toBe('2024-01-15T10:30:00Z');
-        });
+        const store = localStorageMock._getStore();
+        expect(JSON.parse(store['maxi-trainer-profile:ahs-deutsch']!).state.activeProfile.nickname).toBe('Anna');
+        expect(JSON.parse(store['maxi-trainer-profile:ahs-mathematik']!).state.activeProfile.nickname).toBe('Ben');
     });
 });
 

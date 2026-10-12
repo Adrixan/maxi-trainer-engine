@@ -20,6 +20,7 @@ import type {
     ValidationWarning,
     Exercise,
 } from '@/types';
+import { getAppId } from '@core/appId';
 import {
     validateSubjectConfig,
     validateAreas,
@@ -54,18 +55,6 @@ export interface AppConfig {
         exercise: string;
         exercisePlural: string;
     };
-}
-
-// ============================================================================
-// App ID Detection
-// ============================================================================
-
-/**
- * Get the current app ID from environment variable.
- * Defaults to 'ahs-deutsch' if not set.
- */
-function getAppId(): string {
-    return import.meta.env.VITE_APP_ID || 'ahs-deutsch';
 }
 
 // ============================================================================

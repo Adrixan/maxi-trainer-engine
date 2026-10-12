@@ -8,6 +8,7 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import type { SupportedLocale } from '@core/i18n';
+import { adoptLegacyStore, scopedStoreName } from '@core/appId';
 
 // ============================================================================
 // Types
@@ -101,6 +102,10 @@ const DEFAULT_SETTINGS: AppSettings = {
 // Store
 // ============================================================================
 
+/** Name of the persisted store (scoped per app, see appId.ts). */
+const SETTINGS_STORE_BASE = 'mini-trainer-settings';
+adoptLegacyStore(SETTINGS_STORE_BASE);
+
 /**
  * Application settings store.
  * 
@@ -176,7 +181,7 @@ export const useAppStore = create<AppState>()(
                 set({ settings: DEFAULT_SETTINGS }),
         }),
         {
-            name: 'mini-trainer-settings',
+            name: scopedStoreName(SETTINGS_STORE_BASE),
             version: 1,
             migrate: (persisted: unknown, version: number) => {
                 const state = persisted as Partial<AppState>;

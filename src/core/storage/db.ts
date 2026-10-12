@@ -10,6 +10,7 @@
  */
 
 import { openDB, type DBSchema, type IDBPDatabase } from 'idb';
+import { getAppId } from '@core/appId';
 import type {
     UserProfile,
     ExerciseResult,
@@ -27,8 +28,7 @@ import type {
  * This ensures each trainer (mathematik, daz, etc.) has isolated storage.
  */
 function getTrainerId(): string {
-    const envTrainerId = import.meta.env?.VITE_APP_ID as string | undefined;
-    return envTrainerId || 'daz';
+    return getAppId();
 }
 
 /**

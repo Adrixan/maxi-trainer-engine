@@ -6,6 +6,7 @@
  */
 
 import type { StorageKey } from '@/types';
+import { getAppId } from '@core/appId';
 
 // ============================================================================
 // Types
@@ -46,18 +47,6 @@ interface StorageEntry<T> {
  * Current storage schema version.
  */
 const STORAGE_VERSION = 1;
-
-/**
- * Default app ID used when VITE_APP_ID is not set.
- */
-const DEFAULT_APP_ID = 'daz';
-
-/**
- * Get the current app ID from the build-time environment variable.
- */
-function getAppId(): string {
-    return import.meta.env.VITE_APP_ID || DEFAULT_APP_ID;
-}
 
 /**
  * Prefix for all storage keys to avoid collisions.
