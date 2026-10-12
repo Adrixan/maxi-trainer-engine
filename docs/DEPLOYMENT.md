@@ -183,56 +183,48 @@ Progressive Web App (PWA) deployment enables offline use, installation on device
 ### Build Command
 
 ```bash
-npm run build:pwa
+npm run build:pwa -- --app <id>
 ```
 
-This generates the standard build plus PWA-specific files.
+This generates the standard build plus PWA-specific files in `dist/<id>-pwa`.
 
 ### PWA Files
 
 | File | Purpose |
 |------|---------|
-| `manifest.json` | PWA manifest for installation |
-| `sw.js` | Service worker for offline support |
-| Icons | App icons in various sizes |
+| `manifest.json` | Web app manifest, generated from the app's `app.json` |
+| `sw.js` | Service worker, generated from `scripts/templates/sw.js` |
+| `icon.svg` | App icon (`public/<id>-icon.svg`, else the engine icon) |
 
 ### PWA Manifest
 
-The manifest is located at [`public/manifest.json`](../public/manifest.json):
+The manifest is generated per app, with relative URLs so the app works below any path (`https://host/trainer/`):
 
 ```json
 {
-  "name": "Mini Trainer Engine",
-  "short_name": "MiniTrainer",
-  "description": "A configurable learning platform",
-  "start_url": "/",
+  "name": "Mathematik Grundstufe",
+  "short_name": "Mathematik",
+  "lang": "de",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#4F46E5",
-  "icons": [
-    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
-  ]
+  "theme_color": "#10b981",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
 }
 ```
 
-### Customizing PWA Settings
+Name, short name (`shortName` in `app.json`), description and color come from `src/apps/<id>/app.json` (`name`, `description`, `display.primaryColor`).
+Icons are SVG; iOS home-screen icons need PNG, which the build does not generate yet.
 
-1. **Edit manifest.json**:
-   - Update `name` and `short_name`
-   - Set your `theme_color`
-   - Add appropriate icons
+### Service Worker
 
-2. **Add app icons**:
-   - Create 192x192 and 512x512 PNG icons
-   - Place in `public/` directory
-   - Reference in manifest
+Every build gets its own cache (`trainer-<app>-<build time>`). On install the worker caches all files of the build; installation fails if any file is missing, so a broken deployment never leaves a half-cached app. Hashed bundles are served cache-first, config and exercises network-first with the cache as offline fallback. Old caches of the same app are removed on activation; other apps on the same origin are not touched.
 
 ### PWA Installation
 
 Users can install the PWA:
 
-- **Chrome**: Menu > "Install Mini Trainer Engine"
+- **Chrome**: Menu > "Install app"
 - **iOS Safari**: Share > "Add to Home Screen"
 - **Android Chrome**: Menu > "Add to Home Screen"
 
@@ -453,7 +445,7 @@ The application escapes user input by default. For USB distribution:
 | Issue | Solution |
 |-------|----------|
 | Build fails | Run `npm run validate` first |
-| Missing exercises | Run `npm run build:data` |
+| Missing exercises | Run `npm run validate`; invalid content fails the build |
 | Type errors | Run `npm run typecheck` |
 
 ## Next Steps

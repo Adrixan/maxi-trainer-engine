@@ -15,6 +15,7 @@ import { Modal } from '@core/components/ui';
 import { useThemes, useAppConfig } from '@core/config';
 import { calculateGlobalLevel } from '@core/utils/gamification';
 import { parseSaveGameFile, validateSaveGame, type SaveGamePayload } from '@core/stores/profilePersistence';
+import { getAppId } from '@core/appId';
 import { localDateKey } from '@core/utils/date';
 
 /**
@@ -67,7 +68,7 @@ function Dashboard() {
             if (data) {
                 const date = localDateKey();
                 const nickname = profile?.nickname ?? 'player';
-                const filename = `${appConfig.id}-spielstand-${nickname}-${date}.json`;
+                const filename = `${getAppId()}-spielstand-${nickname}-${date}.json`;
                 downloadSaveGame(data, filename);
             }
         } finally {

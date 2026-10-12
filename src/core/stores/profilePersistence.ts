@@ -47,7 +47,7 @@ export const SAVE_GAME_VERSION = 3;
 export interface SaveGamePayload {
     version: 3;
     savedAt: string;
-    /** Trainer ID for isolation (e.g., 'mathematik', 'daz') */
+    /** Trainer ID for isolation (e.g. 'mathematik') */
     trainerId: string;
     /** Unkeyed SHA-256 of the profile and results; detects damage and edits, not forgery */
     checksum: string;

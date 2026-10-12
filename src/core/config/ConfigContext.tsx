@@ -29,6 +29,7 @@ import {
     loadConfigSafe,
     loadExercises,
     loadAppConfig,
+    defaultAppConfig,
     type AppConfig,
 } from './loader';
 
@@ -456,22 +457,6 @@ export function useAppConfig(): AppConfig {
         loadAppConfig().then(setAppConfig);
     }, []);
 
-    // Return default config while loading or if load fails
-    const defaultConfig: AppConfig = {
-        id: 'daz',
-        name: 'Maxi Trainer',
-        version: '1.0.0',
-        build: { pwaEnabled: true, usbDistribution: true },
-        display: { primaryColor: '#3b82f6', icon: '/icon.svg' },
-        terminology: {
-            level: 'Level',
-            levelPlural: 'Level',
-            theme: 'Theme',
-            themePlural: 'Themes',
-            exercise: 'Exercise',
-            exercisePlural: 'Exercises',
-        },
-    };
-
-    return appConfig ?? defaultConfig;
+    // Defaults while loading or if loading fails
+    return appConfig ?? defaultAppConfig();
 }

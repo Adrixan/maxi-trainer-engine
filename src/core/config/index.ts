@@ -18,6 +18,7 @@ export {
     resetConfigCache,
     getCurrentAppId,
     loadAppConfig,
+    defaultAppConfig,
     type ConfigLoadResult,
     type AppConfig,
 } from './loader';

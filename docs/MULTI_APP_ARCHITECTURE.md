@@ -634,7 +634,7 @@ export default defineConfig(({ mode }) => {
  * 
  * Usage:
  *   node scripts/build-app.mjs --app daz
- *   node scripts/build-app.mjs --app mathematik --pwa
+ *   node scripts/build-app.mjs --app ahs-mathematik --pwa
  */
 
 import { execSync } from 'child_process';
@@ -725,7 +725,7 @@ console.log('\n✅ All apps built successfully');
     
     "build": "node scripts/build-app.mjs --app daz",
     "build:daz": "node scripts/build-app.mjs --app daz",
-    "build:mathematik": "node scripts/build-app.mjs --app mathematik",
+    "build:mathematik": "node scripts/build-app.mjs --app ahs-mathematik",
     "build:englisch": "node scripts/build-app.mjs --app englisch",
     "build:all": "node scripts/build-all-apps.mjs",
     
@@ -1068,7 +1068,7 @@ node scripts/bump-version.mjs --app daz --type minor
 8. **Package for release:**
 
    ```bash
-   npm run package -- --app mathematik
+   npm run package -- --app ahs-mathematik
    ```
 
 ---

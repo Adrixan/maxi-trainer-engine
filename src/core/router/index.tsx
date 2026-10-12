@@ -89,6 +89,15 @@ export const routes: RouteObject[] = [
     },
 ];
 
+/** Opt in to React Router v7 behaviour now, so the v7 upgrade changes nothing. */
+const ROUTER_FUTURE = {
+    v7_relativeSplatPath: true,
+    v7_fetcherPersist: true,
+    v7_normalizeFormMethod: true,
+    v7_partialHydration: true,
+    v7_skipActionErrorRevalidation: true,
+} as const;
+
 /**
  * Create and configure the hash router.
  * 
@@ -97,7 +106,7 @@ export const routes: RouteObject[] = [
  * part that works without a server.
  */
 export function createRouter() {
-    return createHashRouter(routes);
+    return createHashRouter(routes, { future: ROUTER_FUTURE });
 }
 
 /**

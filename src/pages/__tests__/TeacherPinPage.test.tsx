@@ -29,7 +29,7 @@ function renderApp(initialPath: string) {
         ],
         { initialEntries: [initialPath] },
     );
-    render(<RouterProvider router={router} />);
+    render(<RouterProvider router={router} future={{ v7_startTransition: true }} />);
     return router;
 }
 

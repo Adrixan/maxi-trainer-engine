@@ -1,173 +1,92 @@
-# Mini Trainer Engine
+# Maxi Trainer Engine
 
-A reusable, configurable trainer application shell for creating web-based learning applications. Build subject-specific trainers with exercise types, gamification, and accessibility features that can be distributed via USB or as a Progressive Web App (PWA).
+A configurable engine for learning apps: exercises, gamification and accessibility, driven by JSON content.
+Each app (a subject, such as Physik or Latein for the AHS Unterstufe) is a folder of JSON under `src/apps/<id>`; the engine in `src/core` stays the same for all of them.
+Apps are distributed as a **USB build** (open `index.html` from the stick, works from `file://`) or as an installable **PWA**.
 
 ## Features
 
-- **🎯 10 Exercise Types**: Multiple choice, fill-in-the-blank, matching, sentence builder, word order, category sorting, conjugation tables, connector insertion, writing exercises, and picture vocabulary
-- **🎮 Gamification System**: Stars, levels, badges, and streak tracking to motivate learners
-- **♿ WCAG 2.1 AA Accessibility**: Full keyboard navigation, screen reader support, high contrast mode, and customizable font sizes
-- **📱 Multiple Distribution Options**: Build for USB (file:// protocol) or PWA deployment
-- **🌍 Internationalization**: Built-in i18n support with German and English translations
-- **⚙️ Highly Configurable**: Customize subjects, themes, badges, and exercise content via JSON configuration
+- **10 exercise types**: multiple choice, fill in the blank, matching, sentence builder, word order, category sorting, conjugation tables, connector insertion, writing, picture vocabulary
+- **Gamification**: stars, levels, badges and streaks (calendar days in local time)
+- **Accessibility**: keyboard operation, screen reader support, high contrast, font sizes
+- **Offline**: USB builds need no server; PWA builds cache everything for offline use
+- **Per-app storage**: profiles, settings and progress are separated per app, so several apps can share one origin
+- **Content validation**: every exercise of every app is checked against a schema in CI and on every build
 
-## Quick Start
+## Quick start
 
-```bash
-# Clone the repository
-git clone https://github.com/your-org/mini-trainer-engine.git
-cd mini-trainer-engine
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-```
-
-Open [http://localhost:5173](http://localhost:5173) to view the application.
-
-## Installation
-
-### Prerequisites
-
-- **Node.js**: v18.0.0 or higher (v20+ recommended)
-- **npm**: v9.0.0 or higher
-
-### Setup
+Requires Node.js 20 or newer.
 
 ```bash
-# Install dependencies
 npm install
-
-# Validate configuration files
-npm run validate
-
-# Build exercise data
-npm run build:data
+npm run dev                         # default app (see trainer.config.json)
+npm run dev -- --app ahs-mathematik     # any app under src/apps
 ```
 
-## Development Commands
+Open [http://localhost:5173](http://localhost:5173).
+
+## Commands
 
 | Command | Description |
 |---------|-------------|
-| `npm run dev` | Start development server with hot reload |
-| `npm run build` | Build for production (includes data build) |
-| `npm run build:data` | Build exercise data from JSON sources |
-| `npm run build:pwa` | Build for PWA distribution |
-| `npm run preview` | Preview production build locally |
-| `npm run test` | Run tests once |
-| `npm run test:watch` | Run tests in watch mode |
-| `npm run test:coverage` | Run tests with coverage report |
-| `npm run lint` | Run ESLint |
-| `npm run lint:fix` | Fix linting issues automatically |
-| `npm run typecheck` | Run TypeScript type checking |
-| `npm run validate` | Validate configuration files |
-| `npm run add-exercise` | Interactive exercise creation tool |
+| `npm run dev [-- --app <id>]` | Generate the app's files and start the dev server |
+| `npm run build [-- --app <id>]` | USB build in `dist/<id>` (validates content, type-checks) |
+| `npm run build:pwa [-- --app <id>]` | PWA build in `dist/<id>-pwa` |
+| `npm run build:all` | Every app, USB and PWA (`build:all:usb`, `build:all:pwa` for one kind) |
+| `npm run validate [-- --app <id>]` | Validate the default config and the content of every app |
+| `npm test` | Run the tests (`test:watch`, `test:coverage`) |
+| `npm run lint` / `npm run typecheck` | ESLint / TypeScript |
+| `npm run add-exercise` | Interactive exercise creator |
 
-## Project Structure
+## Project structure
 
 ```
-mini-trainer-engine/
+├── trainer.config.json      # What differs between engine variants: name, default app, store prefix
 ├── src/
-│   ├── core/                    # Core engine (unchanged between trainers)
-│   │   ├── components/          # React components
-│   │   │   ├── exercises/       # Exercise type components
-│   │   │   ├── gamification/    # Stars, badges, progress components
-│   │   │   └── accessibility/   # Accessibility settings and utilities
-│   │   ├── hooks/               # Custom React hooks
-│   │   ├── stores/              # Zustand state management
-│   │   ├── storage/             # IndexedDB and localStorage utilities
-│   │   ├── utils/               # Utility functions
-│   │   ├── i18n/                # Internationalization
-│   │   └── config/              # Configuration loading and validation
-│   │
-│   ├── config/                  # Configuration files (customize per trainer)
-│   │   ├── subject.json         # Subject/domain definition
-│   │   ├── areas.json           # Observation/diagnostic areas
-│   │   ├── themes.json          # Content themes
-│   │   └── badges.json          # Achievement definitions
-│   │
-│   ├── types/                   # TypeScript type definitions
-│   ├── pages/                   # Page components
-│   └── data/                    # Exercise content data
-│
-├── public/
-│   ├── data/                    # Generated exercise data
-│   └── fonts/                   # Custom fonts
-│
-├── scripts/                     # Build and utility scripts
-│   ├── add-exercise.mjs         # Interactive exercise creator
-│   ├── build-exercise-data.mjs  # Data build script
-│   └── validate-config.mjs      # Configuration validator
-│
-└── docs/                        # Documentation
-```
-
-## Configuration
-
-Mini Trainer Engine is designed to be customized through configuration files. The core engine code remains unchanged between different trainers.
-
-### Key Configuration Files
-
-| File | Purpose |
-|------|---------|
-| [`src/config/subject.json`](src/config/subject.json) | Defines the subject, target audience, and enabled exercise types |
-| [`src/config/areas.json`](src/config/areas.json) | Observation/diagnostic areas for progress tracking |
-| [`src/config/themes.json`](src/config/themes.json) | Content themes that group related exercises |
-| [`src/config/badges.json`](src/config/badges.json) | Achievement badge definitions |
-| [`src/data/exercises.json`](src/data/exercises.json) | Exercise content data |
-
-### Example: Subject Configuration
-
-```json
-{
-  "id": "generic-trainer",
-  "name": "Generic Trainer",
-  "description": "A configurable trainer for any subject",
-  "targetAudience": "Learners of all ages and skill levels",
-  "primarySkillArea": "comprehension",
-  "enabledExerciseTypes": [
-    "fill-blank",
-    "multiple-choice",
-    "matching",
-    "sentence-builder"
-  ]
-}
+│   ├── apps/<id>/           # One app: app.json, subject.json, areas.json, themes.json, badges.json, exercises.json
+│   ├── core/                # The engine: components, hooks, stores, storage, config loading, i18n
+│   ├── config/              # Default config used when an app does not provide a file
+│   ├── pages/               # Route components
+│   └── types/
+├── scripts/
+│   ├── build-app.mjs        # Build one app
+│   ├── build-all-apps.mjs   # Build all apps
+│   ├── prepare-dev.mjs      # Dev server for one app
+│   ├── validate-config.mjs  # Content validation
+│   ├── templates/sw.js      # Service worker template
+│   └── lib/                 # Exercise schema, app validation, build helpers
+├── public/                  # Static assets (icons, fonts); config and data are generated and untracked
+└── docs/
 ```
 
 ## Documentation
 
-- **[Getting Started](docs/GETTING_STARTED.md)** - Prerequisites, installation, and running the application
-- **[Configuration Guide](docs/CONFIGURATION.md)** - Detailed configuration options
-- **[Creating Exercises](docs/EXERCISES.md)** - Exercise types and content creation
-- **[Gamification System](docs/GAMIFICATION.md)** - Stars, levels, badges, and streaks
-- **[Accessibility](docs/ACCESSIBILITY.md)** - WCAG compliance and accessibility features
-- **[Deployment](docs/DEPLOYMENT.md)** - Building for USB and PWA distribution
-- **[Extending the Engine](docs/EXTENDING.md)** - Adding new exercise types and customizing behavior
+- [Getting started](docs/GETTING_STARTED.md)
+- [Configuration](docs/CONFIGURATION.md)
+- [Creating an app](docs/CREATING_APPS.md)
+- [Creating exercises](docs/EXERCISES.md)
+- [Gamification](docs/GAMIFICATION.md)
+- [Accessibility](docs/ACCESSIBILITY.md)
+- [Deployment](docs/DEPLOYMENT.md)
+- [Extending the engine](docs/EXTENDING.md)
+- [Multi-app architecture](docs/MULTI_APP_ARCHITECTURE.md)
 
-## Architecture
+## Design decisions and limits
 
-For a detailed technical overview, see the [Architecture Document](plans/ARCHITECTURE.md).
-
-### Key Design Principles
-
-1. **Separation of Core and Config**: The `src/core/` directory contains engine code that never changes between trainers. All customization happens in `src/config/`.
-
-2. **Component Registry Pattern**: Exercise types are mapped to components via a registry, enabling easy addition of new types.
-
-3. **Dual Storage Strategy**: Settings in localStorage, user data in IndexedDB for robust offline support.
-
-4. **file:// Protocol Compatibility**: Built output works without a web server, enabling USB distribution.
+- **Content is data.** `exercises.json` is validated by `scripts/lib/exercise-schema.mjs`; add a field to the schema and the TypeScript type together.
+- **`file://` compatibility.** The bundle is an IIFE and config and exercises are classic scripts that set `window.__TRAINER_*__` globals. Consequently route-level code splitting does not apply.
+- **Teacher PIN.** The PIN keeps children out of the teacher area. It is stored (hashed) in the browser and is not access control: anyone with access to the device can bypass it. Five wrong attempts block login for 30 seconds, doubling up to 15 minutes. Clearing the browser data removes the PIN together with all progress.
+- **Save games.** Exported save games carry an unkeyed SHA-256 checksum. It detects damaged or hand-edited files but does not prevent forged ones; stars and badges are motivational, not a certificate.
+- **PWA icons** are SVG. Home-screen icons on iOS need PNG, which the build does not generate.
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for development setup, code style guidelines, and pull request process.
+See [CONTRIBUTING.md](CONTRIBUTING.md). CI runs lint, type check, content validation, tests and a build of every app.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+GNU Affero General Public License v3.0, see [LICENSE](LICENSE).
 
 ## Changelog
 
-See [CHANGELOG.md](CHANGELOG.md) for version history and changes.
+See [CHANGELOG.md](CHANGELOG.md).
