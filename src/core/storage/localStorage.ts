@@ -23,8 +23,6 @@ interface StorageKeyMap {
     'app:animationsEnabled': boolean;
     'app:soundEnabled': boolean;
     'app:currentProfileId': string;
-    'app:teacherPin': string;
-    'app:teacherPinEnabled': boolean;
     'app:hasSeenOnboarding': boolean;
     'app:lastVersion': string;
     'app:installPromptDismissed': boolean;

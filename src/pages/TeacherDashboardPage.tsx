@@ -10,6 +10,7 @@ import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { ROUTES } from '@core/router';
 import { getAllProfiles, deleteProfile } from '@core/storage';
+import { useAppStore } from '@core/stores';
 import type { UserProfile } from '@/types';
 
 /**
@@ -29,6 +30,10 @@ interface StudentStats {
 export function TeacherDashboardPage() {
     const { t } = useTranslation();
     const navigate = useNavigate();
+    const logoutTeacher = useAppStore((s) => s.logoutTeacher);
+
+    // Leaving the dashboard by any route locks the teacher area again.
+    useEffect(() => logoutTeacher, [logoutTeacher]);
     const [profiles, setProfiles] = useState<UserProfile[]>([]);
     const [stats, setStats] = useState<Record<string, StudentStats>>({});
     const [isLoading, setIsLoading] = useState(true);
@@ -134,6 +139,7 @@ export function TeacherDashboardPage() {
      * Navigate back to PIN page.
      */
     const handleBack = () => {
+        logoutTeacher();
         navigate(ROUTES.TEACHER_PIN);
     };
 

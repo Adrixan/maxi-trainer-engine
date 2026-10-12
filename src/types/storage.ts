@@ -24,8 +24,6 @@ export type StorageKey =
     | 'app:animationsEnabled'
     | 'app:soundEnabled'
     | 'app:currentProfileId'
-    | 'app:teacherPin'
-    | 'app:teacherPinEnabled'
     | 'app:hasSeenOnboarding'
     | 'app:lastVersion'
     | 'app:installPromptDismissed';

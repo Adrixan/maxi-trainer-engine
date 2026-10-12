@@ -421,7 +421,17 @@
         "resetConfirmTitle": "Reset Progress?",
         "resetConfirmMessage": "This will permanently delete all exercise results for this student. This action cannot be undone.",
         "noExercises": "No exercises completed yet",
-        "dashboardSections": "Dashboard sections"
+        "dashboardSections": "Dashboard sections",
+        "login": "Login",
+        "wrongPinAttempts": "Incorrect PIN. Attempts left: {{count}}",
+        "locked": "Too many wrong attempts. Try again in {{count}} s.",
+        "pinLength": "PIN must be 4 digits.",
+        "pinNotice": "The PIN only keeps children out of this area. It is stored on this device and does not replace access control.",
+        "pinForgotten": "Forgot the PIN? Clearing the browser data of this app removes it (and the saved progress).",
+        "newPinInput": "New PIN",
+        "confirmPinInput": "Confirm PIN",
+        "pinInput": "PIN input",
+        "teacher": "Teacher"
     },
     "areas": {
         "woerter-und-saetze": "Words and Sentences",

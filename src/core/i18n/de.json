@@ -426,7 +426,17 @@
         "resetConfirmTitle": "Fortschritt zurücksetzen?",
         "resetConfirmMessage": "Dies wird alle Übungsergebnisse für diesen Schüler dauerhaft löschen. Diese Aktion kann nicht rückgängig gemacht werden.",
         "noExercises": "Noch keine Übungen abgeschlossen",
-        "dashboardSections": "Dashboard-Bereiche"
+        "dashboardSections": "Dashboard-Bereiche",
+        "login": "Anmelden",
+        "wrongPinAttempts": "Falscher PIN. Verbleibende Versuche: {{count}}",
+        "locked": "Zu viele Fehlversuche. Bitte in {{count}} s erneut versuchen.",
+        "pinLength": "Der PIN muss aus 4 Ziffern bestehen.",
+        "pinNotice": "Der PIN hält Kinder aus diesem Bereich fern. Er wird auf diesem Gerät gespeichert und ersetzt keine Zugriffskontrolle.",
+        "pinForgotten": "PIN vergessen? Das Löschen der Browserdaten dieser App entfernt ihn (und den gespeicherten Fortschritt).",
+        "newPinInput": "Neuer PIN",
+        "confirmPinInput": "PIN bestätigen",
+        "pinInput": "PIN-Eingabe",
+        "teacher": "Lehrkraft"
     },
     "areas": {
         "woerter-und-saetze": "Wörter und Sätze",
