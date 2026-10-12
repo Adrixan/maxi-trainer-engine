@@ -2714,17 +2714,9 @@
         "type": "fill-blank",
         "sentence": "Sichtbares Licht hat Wellenlängen von ca. 380 nm bis {{blank}} nm.",
         "correctAnswer": "780",
-        "acceptableAnswers": [
-          "750",
-          "760",
-          "770",
-          "780",
-          "700"
-        ]
+        "acceptableAnswers": ["750", "760", "770", "700"]
       },
-      "hints": [
-        "Rot hat die längste sichtbare Wellenlänge"
-      ],
+      "hints": ["Rot hat die längste sichtbare Wellenlänge"],
       "feedbackCorrect": "Richtig! Etwa 780 nm!",
       "feedbackIncorrect": "Sichtbares Licht reicht von ca. 380 nm (violett) bis 780 nm (rot)."
     },

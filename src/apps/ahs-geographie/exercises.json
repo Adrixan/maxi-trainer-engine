@@ -3798,16 +3798,9 @@
         "type": "fill-blank",
         "sentence": "Das Pariser Klimaabkommen von 2015 hat das Ziel, die Erderwärmung auf unter {{blank}} Grad zu begrenzen.",
         "correctAnswer": "2",
-        "acceptableAnswers": [
-          "2",
-          "zwei",
-          "1,5",
-          "1.5"
-        ]
+        "acceptableAnswers": ["zwei", "1,5", "1.5"]
       },
-      "hints": [
-        "Ein internationales Abkommen"
-      ],
+      "hints": ["Ein internationales Abkommen"],
       "feedbackCorrect": "Richtig! 2 Grad (Ziel 1,5 Grad)!",
       "feedbackIncorrect": "Das Pariser Abkommen will die Erderwärmung auf unter 2 °C, idealerweise 1,5 °C begrenzen."
     },

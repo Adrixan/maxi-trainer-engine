@@ -4,7 +4,7 @@
     "description": "Lerne Technik für die AHS Unterstufe - Technologie und Design",
     "targetAudience": "Schülerinnen und Schüler der AHS Unterstufe (10-14 Jahre)",
     "primarySkillArea": "technology",
-    "enabledExerciseTypes": ["multiple-choice"],
+    "enabledExerciseTypes": ["multiple-choice", "fill-blank", "matching", "sorting"],
     "exerciseTypeConfig": {
         "multiple-choice": {"hintsEnabled": false, "maxAttempts": 1}
     }

@@ -4,7 +4,14 @@
     "description": "Learn English for AHS Lower Level - Vocabulary, Grammar, and Communication",
     "targetAudience": "Schülerinnen und Schüler der AHS Unterstufe (10-14 Jahre)",
     "primarySkillArea": "language",
-    "enabledExerciseTypes": ["multiple-choice", "fill-blank", "matching"],
+    "enabledExerciseTypes": [
+        "multiple-choice",
+        "fill-blank",
+        "matching",
+        "sorting",
+        "word-order",
+        "sentence-builder"
+    ],
     "exerciseTypeConfig": {
         "multiple-choice": {"hintsEnabled": false, "maxAttempts": 1},
         "fill-blank": {"hintsEnabled": true, "maxAttempts": 3},

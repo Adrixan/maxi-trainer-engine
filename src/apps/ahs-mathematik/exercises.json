@@ -742,12 +742,11 @@
       "instruction": "Löse die quadratische Gleichung",
       "content": {
         "type": "fill-blank",
-        "sentence": "x² = 16 → x = {{blank}} oder {{blank}}",
-        "correctAnswer": "4;-4"
+        "sentence": "x² = 16 → x = 4 oder x = {{blank}}",
+        "correctAnswer": "-4",
+        "acceptableAnswers": ["−4"]
       },
-      "hints": [
-        "Wurzel ziehen, beide Vorzeichen"
-      ],
+      "hints": ["Wurzel ziehen, beide Vorzeichen"],
       "feedbackCorrect": "Richtig! x = 4 oder x = -4!",
       "feedbackIncorrect": "x² = 16 → x = ±4"
     },
@@ -761,12 +760,11 @@
       "instruction": "Wende die pq-Formel an",
       "content": {
         "type": "fill-blank",
-        "sentence": "x² + 5x + 6 = 0. Lösungen: x1 = {{blank}}, x2 = {{blank}}",
-        "correctAnswer": "-2;-3"
+        "sentence": "x² + 5x + 6 = 0. Lösungen: x1 = -2, x2 = {{blank}}",
+        "correctAnswer": "-3",
+        "acceptableAnswers": ["−3"]
       },
-      "hints": [
-        "(x+2)(x+3)"
-      ],
+      "hints": ["(x+2)(x+3)"],
       "feedbackCorrect": "Richtig! x1 = -2, x2 = -3!",
       "feedbackIncorrect": "x1 = -2, x2 = -3"
     },

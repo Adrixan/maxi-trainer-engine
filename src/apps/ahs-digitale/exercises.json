@@ -2528,36 +2528,26 @@
     },
     {
       "id": "ahs-dig-k2-pass-006",
-      "type": "matching",
+      "type": "sorting",
       "areaId": "datenschutz",
       "themeId": "passwort",
       "level": 2,
       "difficulty": 2,
       "instruction": "Ordne die Passwort-Tipps richtig zu.",
       "content": {
-        "type": "matching",
-        "pairs": [
+        "type": "sorting",
+        "categories": [
           {
-            "left": "Gut",
-            "right": "Für jeden Dienst ein eigenes Passwort"
+            "label": "Gut",
+            "items": ["Für jeden Dienst ein eigenes Passwort", "Passwort-Manager verwenden"]
           },
           {
-            "left": "Gut",
-            "right": "Passwort-Manager verwenden"
-          },
-          {
-            "left": "Schlecht",
-            "right": "Passwort auf einen Zettel schreiben"
-          },
-          {
-            "left": "Schlecht",
-            "right": "Überall das gleiche Passwort"
+            "label": "Schlecht",
+            "items": ["Passwort auf einen Zettel schreiben", "Überall das gleiche Passwort"]
           }
         ]
       },
-      "hints": [
-        "Gute vs. schlechte Gewohnheiten"
-      ],
+      "hints": ["Gute vs. schlechte Gewohnheiten"],
       "feedbackCorrect": "Richtig! Alle Zuordnungen stimmen!",
       "feedbackIncorrect": "Gute Tipps: einzigartige Passwörter, Passwort-Manager. Schlecht: aufschreiben, wiederverwenden."
     },

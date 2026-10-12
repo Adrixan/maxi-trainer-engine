@@ -747,27 +747,11 @@
       "content": {
         "type": "sorting",
         "categories": [
-          {
-            "label": "Singular",
-            "items": [
-              "puella",
-              "puellae",
-              "puellam"
-            ]
-          },
-          {
-            "label": "Plural",
-            "items": [
-              "puellae",
-              "puellarum",
-              "puellas"
-            ]
-          }
+          {"label": "Singular", "items": ["puella", "puellam", "puellā"]},
+          {"label": "Plural", "items": ["puellae", "puellarum", "puellas"]}
         ]
       },
-      "hints": [
-        "Beachte die Endungen"
-      ],
+      "hints": ["Beachte die Endungen"],
       "feedbackCorrect": "Richtig sortiert!",
       "feedbackIncorrect": "Singular: -a, -ae, -ae, -am; Plural: -ae, -arum, -is, -as"
     },
@@ -1011,27 +995,11 @@
       "content": {
         "type": "sorting",
         "categories": [
-          {
-            "label": "Singular",
-            "items": [
-              "dominus",
-              "domini",
-              "dominum"
-            ]
-          },
-          {
-            "label": "Plural",
-            "items": [
-              "domini",
-              "dominorum",
-              "dominos"
-            ]
-          }
+          {"label": "Singular", "items": ["dominus", "domini", "dominum"]},
+          {"label": "Plural", "items": ["dominī", "dominorum", "dominos"]}
         ]
       },
-      "hints": [
-        "Beachte die Endungen der o-Deklination"
-      ],
+      "hints": ["Beachte die Endungen der o-Deklination"],
       "feedbackCorrect": "Richtig sortiert!",
       "feedbackIncorrect": "Singular: -us, -i, -o, -um; Plural: -i, -orum, -is, -os"
     },
