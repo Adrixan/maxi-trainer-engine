@@ -24,12 +24,12 @@ const FONT_SIZE_OPTIONS: { value: FontSize; labelKey: string }[] = [
 ];
 
 /**
- * Theme options for the selector.
+ * Theme options for the selector (themes listed in trainer.config.json).
  */
-const THEME_OPTIONS: { value: Theme; labelKey: string }[] = [
-    { value: 'default', labelKey: 'accessibility.themeDefault' },
-    { value: 'noir', labelKey: 'accessibility.themeNoir' },
-];
+const THEME_OPTIONS: { value: Theme; labelKey: string }[] = __TRAINER__.themes.map((theme) => ({
+    value: theme,
+    labelKey: `accessibility.themeOptions.${theme}`,
+}));
 
 /**
  * Toggle switch component for accessibility settings.
@@ -173,13 +173,15 @@ export function AccessibilitySettings() {
                     onChange={toggleHighContrast}
                 />
 
-                {/* Theme Selector */}
-                <OptionSelector<Theme>
-                    label={t('accessibility.theme', 'Theme')}
-                    value={settings.theme}
-                    options={THEME_OPTIONS}
-                    onChange={setTheme}
-                />
+                {/* Theme Selector (only when the variant offers more than one theme) */}
+                {THEME_OPTIONS.length > 1 && (
+                    <OptionSelector<Theme>
+                        label={t('accessibility.theme', 'Theme')}
+                        value={settings.theme}
+                        options={THEME_OPTIONS}
+                        onChange={setTheme}
+                    />
+                )}
 
                 {/* Font Size */}
                 <OptionSelector<FontSize>

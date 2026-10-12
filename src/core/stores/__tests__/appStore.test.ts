@@ -34,7 +34,7 @@ describe('appStore', () => {
         useAppStore.setState({
             settings: {
                 locale: 'de',
-                theme: 'noir',
+                theme: __TRAINER__.defaultTheme,
                 fontSize: 'normal',
                 highContrastMode: false,
                 animationsEnabled: true,
@@ -54,7 +54,7 @@ describe('appStore', () => {
             const state = useAppStore.getState();
 
             expect(state.settings.locale).toBe('de');
-            expect(state.settings.theme).toBe('noir');
+            expect(state.settings.theme).toBe(__TRAINER__.defaultTheme);
             expect(state.settings.fontSize).toBe('normal');
             expect(state.settings.highContrastMode).toBe(false);
             expect(state.settings.animationsEnabled).toBe(true);
@@ -298,7 +298,7 @@ describe('appStore', () => {
 
             const state = useAppStore.getState();
             expect(state.settings.locale).toBe('de');
-            expect(state.settings.theme).toBe('noir');
+            expect(state.settings.theme).toBe(__TRAINER__.defaultTheme);
             expect(state.settings.fontSize).toBe('normal');
             expect(state.settings.highContrastMode).toBe(false);
             expect(state.settings.animationsEnabled).toBe(true);
@@ -320,7 +320,7 @@ describe('appStore', () => {
         });
 
         it('selectTheme returns theme', () => {
-            expect(selectTheme(useAppStore.getState())).toBe('noir');
+            expect(selectTheme(useAppStore.getState())).toBe(__TRAINER__.defaultTheme);
         });
 
         it('selectFontSize returns font size', () => {

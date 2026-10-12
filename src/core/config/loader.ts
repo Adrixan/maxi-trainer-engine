@@ -210,7 +210,7 @@ export async function loadAppConfig(): Promise<AppConfig> {
  * @returns The loaded JSON data
  */
 async function loadConfigJson<T>(filename: string, _appId: string, useFallback = true): Promise<T> {
-    // Map filename to window key for USB/offline mode
+    // Map filename to window key for USB/offline and dev mode (set via script tags)
     const windowKeyMap: Record<string, string> = {
         'subject.json': '__TRAINER_SUBJECT__',
         'areas.json': '__TRAINER_AREAS__',
@@ -218,43 +218,54 @@ async function loadConfigJson<T>(filename: string, _appId: string, useFallback =
         'badges.json': '__TRAINER_BADGES__',
     };
 
-    // Check window object first for USB/offline mode (script tag loading)
+    // JSON files wrap arrays in objects (e.g., { "areas": [...] }). Unwrap when needed.
+    const unwrapKeyMap: Record<string, string> = {
+        'areas.json': 'areas',
+        'themes.json': 'themes',
+    };
+
+    const unwrapIfNeeded = (data: unknown): T => {
+        const unwrapKey = unwrapKeyMap[filename];
+        if (unwrapKey && data && typeof data === 'object' && !Array.isArray(data) && unwrapKey in data) {
+            return (data as Record<string, unknown>)[unwrapKey] as T;
+        }
+        return data as T;
+    };
+
+    // Priority 1: Check window globals (most reliable — set by <script> tags in index.html)
     const windowObj = window as unknown as Record<string, unknown>;
     const windowKey = windowKeyMap[filename];
     if (windowKey && windowObj[windowKey]) {
-        return windowObj[windowKey] as T;
+        return unwrapIfNeeded(windowObj[windowKey]);
     }
 
-    // Fall back to fetch for HTTP/PWA mode
-    // In production, config files are copied to /config/ directory
-    // Try app-specific path first (works in both dev and production)
+    // Priority 2: Try to fetch JSON config (works in PWA mode where .json files exist)
     const appPath = `./config/${filename}`;
-
-    // Skip file:// protocol check since we now check window first
-    // If window data wasn't available, try fetch anyway (might work with local server)
-
     try {
         const response = await fetch(appPath);
-        if (!response.ok) {
-            throw new Error(`HTTP ${response.status}`);
+        if (response.ok) {
+            const data = await response.json();
+            return unwrapIfNeeded(data);
         }
-        return await response.json() as T;
     } catch {
-        // If app-specific doesn't exist and fallback is enabled, try default path
-        if (useFallback) {
-            const defaultPath = `./config/${filename}`;
-            try {
-                const response = await fetch(defaultPath);
-                if (!response.ok) {
-                    throw new Error(`HTTP ${response.status}`);
-                }
-                return await response.json() as T;
-            } catch {
-                throw new Error(`Failed to load ${filename} from both app-specific and default paths`);
-            }
-        }
-        throw new Error(`Failed to load ${filename} from app-specific path: ${appPath}`);
+        // Fetch failed, continue to fallback
     }
+
+    // Priority 3: Try default config directory
+    if (useFallback) {
+        const defaultConfigPath = `./config/defaults/${filename}`;
+        try {
+            const response = await fetch(defaultConfigPath);
+            if (response.ok) {
+                const data = await response.json();
+                return unwrapIfNeeded(data);
+            }
+        } catch {
+            // Ignore
+        }
+    }
+
+    throw new Error(`Failed to load ${filename} for app: ${_appId}`);
 }
 
 /**
@@ -269,49 +280,51 @@ async function loadConfigJson<T>(filename: string, _appId: string, useFallback =
  * @returns The loaded exercises data
  */
 async function loadExercisesJson(_appId: string, useFallback = true): Promise<Exercise[]> {
-    // Check window object first for USB/offline mode (script tag loading)
+    // Priority 1: Check window global (most reliable — set by <script> tag in index.html)
+    // In both dev and production, the exercises.js script tag sets this before React loads.
     const windowObj = window as unknown as Record<string, unknown>;
     if (windowObj.__TRAINER_EXERCISES__) {
         const exercisesData = windowObj.__TRAINER_EXERCISES__;
         if (Array.isArray(exercisesData)) {
             return exercisesData as Exercise[];
         }
-        // Handle object format { exercises: [...] }
         if (exercisesData && typeof exercisesData === 'object' && 'exercises' in exercisesData) {
-            return (exercisesData as { exercises: Exercise[] }).exercises || [];
-        }
-    }
-
-    // Fall back to fetch for HTTP/PWA mode
-    // In production, exercises are loaded via script tag (window.__TRAINER_EXERCISES__)
-    // This function is for loading exercises via fetch if needed
-    // Try app-specific path first
-    const appPath = `./data/exercises.js`;
-
-    try {
-        const response = await fetch(appPath);
-        if (!response.ok) {
-            throw new Error(`HTTP ${response.status}`);
-        }
-        const data = await response.json();
-        return data.exercises || [];
-    } catch {
-        // If app-specific doesn't exist and fallback is enabled, try default path
-        if (useFallback) {
-            const defaultPath = `./data/exercises.js`;
-            try {
-                const response = await fetch(defaultPath);
-                if (!response.ok) {
-                    throw new Error(`HTTP ${response.status}`);
-                }
-                const data = await response.json();
-                return data.exercises || [];
-            } catch {
-                throw new Error('Failed to load exercises from all possible paths');
+            const data = exercisesData as { exercises: Exercise[]; metadata?: { appId?: string } };
+            if (data.metadata?.appId && data.metadata.appId !== _appId) {
+                // Mismatched app ID — warn but still use if no better source available
+                console.warn(
+                    `Exercise data is for app "${data.metadata.appId}" but current app is "${_appId}". ` +
+                    'Restart the dev server with: npm run dev -- --app ' + _appId
+                );
             }
+            return data.exercises || [];
         }
-        throw new Error(`Failed to load exercises from app-specific path: ${appPath}`);
     }
+
+    // Priority 2: Try fetching JSON (works in PWA mode where .json files are generated)
+    const jsonPaths = [
+        `./data/${_appId}/exercises.json`,
+        useFallback ? './data/exercises.json' : null,
+    ].filter(Boolean) as string[];
+
+    for (const path of jsonPaths) {
+        try {
+            const response = await fetch(path);
+            if (response.ok) {
+                const data = await response.json();
+                if (data.exercises && Array.isArray(data.exercises)) {
+                    return data.exercises;
+                }
+                if (Array.isArray(data)) {
+                    return data as Exercise[];
+                }
+            }
+        } catch {
+            // Fetch failed, try next path
+        }
+    }
+
+    throw new Error(`Failed to load exercises for app: ${_appId}`);
 }
 
 // ============================================================================
@@ -325,13 +338,31 @@ async function loadExercisesJson(_appId: string, useFallback = true): Promise<Ex
  * @returns Transformed badge definitions
  */
 function transformBadges(badgesData: {
-    badges: Array<{ badge: BadgeDefinition['badge']; type: string; threshold: number }>;
+    badges: Array<Record<string, unknown>>;
     gamification?: Partial<GamificationConfig>;
 }): BadgeDefinition[] {
-    return badgesData.badges.map((item) => ({
-        badge: item.badge,
-        checkExpression: `${item.type}:${item.threshold}`,
-    }));
+    return badgesData.badges.map((item) => {
+        // Nested format: {badge: {id, name, ...}, type, threshold}
+        if (item.badge && typeof item.badge === 'object') {
+            return {
+                badge: item.badge as BadgeDefinition['badge'],
+                checkExpression: `${item.type}:${item.threshold}`,
+            };
+        }
+        // Flat format: {id, name, description, icon, level, requirement: {type, count}}
+        const requirement = item.requirement as Record<string, unknown> | undefined;
+        return {
+            badge: {
+                id: item.id as string,
+                name: item.name as string,
+                description: (item.description as string) || '',
+                icon: (item.icon as string) || '🏆',
+            },
+            checkExpression: requirement
+                ? `${requirement.type}:${requirement.count}`
+                : `level:${item.level ?? 1}`,
+        };
+    });
 }
 
 // ============================================================================
@@ -500,11 +531,17 @@ async function loadAndCacheAllConfig(): Promise<{
     // Load exercises
     const exercises = await loadExercisesJson(appId);
 
+    // Normalize themes: derive minLevel from levels array if not set
+    const normalizedThemes = themesJson.map((theme: Theme) => ({
+        ...theme,
+        minLevel: theme.minLevel ?? (theme.levels && theme.levels.length > 0 ? Math.min(...theme.levels) : 1),
+    }));
+
     // Update cache
     configCache = {
         subject: subjectJson,
         areas: areasJson,
-        themes: themesJson,
+        themes: normalizedThemes,
         badges,
         gamification,
         exercises,
@@ -514,7 +551,7 @@ async function loadAndCacheAllConfig(): Promise<{
     return {
         subject: subjectJson,
         areas: areasJson,
-        themes: themesJson,
+        themes: normalizedThemes,
         badges,
         gamification,
         exercises,

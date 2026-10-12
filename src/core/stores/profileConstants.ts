@@ -5,23 +5,9 @@
  */
 
 /**
- * Available avatar emojis for profile creation.
- * Neutral options (no cute animals).
+ * Available avatar emojis for profile creation (trainer.config.json).
  */
-export const AVATAR_EMOJIS = [
-    '⭐', // Star
-    '🔷', // Diamond
-    '🔶', // Orange diamond
-    '🟢', // Green circle
-    '🔵', // Blue circle
-    '🟣', // Purple circle
-    '📚', // Books
-    '✏️', // Pencil
-    '🎓', // Graduation cap
-    '🏅', // Medal
-    '💡', // Light bulb
-    '🔑', // Key
-] as const;
+export const AVATAR_EMOJIS: readonly string[] = __TRAINER__.avatars;
 
 /**
  * Maximum nickname length for user profiles.

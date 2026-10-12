@@ -21,10 +21,12 @@ export const alias = {
     '@types': path('./src/types'),
 };
 
-/** `import.meta.env` values derived from trainer.config.json. */
-export const trainerEnv = {
-    VITE_DEFAULT_APP_ID: trainerConfig.defaultAppId,
-    VITE_STORE_PREFIX: trainerConfig.storePrefix,
+/**
+ * Compile-time constants: trainer.config.json is exposed to the app as the
+ * global `__TRAINER__` (typed in src/vite-env.d.ts).
+ */
+export const trainerDefine = {
+    __TRAINER__: JSON.stringify(trainerConfig),
 };
 
 const escapeHtml = (value: string) =>

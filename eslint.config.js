@@ -8,7 +8,7 @@ export default [
     js.configs.recommended,
     {
         files: ['**/*.ts', '**/*.tsx'],
-        ignores: ['vite.config.ts', 'vite.shared.ts', 'vitest.config.ts'],
+        ignores: ['vite.config.ts', 'vite.shared.ts', 'vitest.config.ts', 'playwright.config.ts', 'e2e/**'],
         languageOptions: {
             parser: tsParser,
             parserOptions: {

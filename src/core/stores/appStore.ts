@@ -16,14 +16,15 @@ import { randomHex, sha256HexSync } from '@core/utils/hash';
 // ============================================================================
 
 /**
+ * Theme identifier. The available themes are listed in trainer.config.json
+ * and styled in index.css (`[data-theme="..."]`).
+ */
+export type Theme = string;
+
+/**
  * Font size options for accessibility.
  */
 export type FontSize = 'normal' | 'large' | 'extra-large';
-
-/**
- * Available themes.
- */
-export type Theme = 'default' | 'noir';
 
 /**
  * Application settings interface.
@@ -140,7 +141,7 @@ export interface AppState {
  */
 const DEFAULT_SETTINGS: AppSettings = {
     locale: 'de',
-    theme: 'noir',
+    theme: __TRAINER__.defaultTheme,
     fontSize: 'normal',
     highContrastMode: false,
     animationsEnabled: true,

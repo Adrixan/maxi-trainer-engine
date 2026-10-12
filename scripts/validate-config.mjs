@@ -11,6 +11,7 @@
  *   --config-dir   Directory containing config files (default: src/config)
  *   --data-dir     Directory containing data files (default: src/data)
  *   --app <id>     Validate only this app (default: default config + all apps)
+ *   --coverage     List themes/levels with too few exercises, per app
  *   --strict       Treat warnings as errors (default: false)
  *   --help         Show help message
  */
@@ -19,7 +20,7 @@ import { readFileSync, existsSync, readdirSync } from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join, resolve, extname } from 'path';
 import { listAppIds } from './lib/app-files.mjs';
-import { validateAppDir } from './lib/app-validation.mjs';
+import { contentCoverage, MIN_EXERCISES_PER_BUCKET, validateAppDir } from './lib/app-validation.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -58,6 +59,7 @@ function parseArgs() {
         strict: false,
         help: false,
         app: null,
+        coverage: false,
     };
 
     const argv = process.argv.slice(2);
@@ -71,6 +73,9 @@ function parseArgs() {
                 break;
             case '--data-dir':
                 args.dataDir = resolve(rootDir, argv[++i]);
+                break;
+            case '--coverage':
+                args.coverage = true;
                 break;
             case '--app':
                 args.app = argv[++i];
@@ -111,6 +116,7 @@ ${colors.bright}Options:${colors.reset}
                        (default: src/data)
   --app <id>           Validate only one app under src/apps
                        (default: the default config and every app)
+  --coverage           List themes/levels with fewer than 3 exercises, per app
   --strict             Treat warnings as errors
   --help, -h           Show this help message
 
@@ -519,6 +525,19 @@ function printResults(result, strict) {
 }
 
 /**
+ * Print the theme/level combinations with too little content.
+ */
+function printCoverage(appIds) {
+    log.header(`Content coverage (fewer than ${MIN_EXERCISES_PER_BUCKET} exercises)`);
+    for (const appId of appIds) {
+        const thin = contentCoverage(rootDir, appId).filter((b) => b.count < MIN_EXERCISES_PER_BUCKET);
+        if (thin.length === 0) continue;
+        console.log(`  ${colors.bright}${appId}${colors.reset} (${thin.length})`);
+        thin.forEach((b) => console.log(`    ${b.themeId.padEnd(32)} level ${b.level}: ${b.count}`));
+    }
+}
+
+/**
  * Main validation function
  */
 function validateConfig(args) {
@@ -556,6 +575,8 @@ function validateConfig(args) {
         errors.forEach((e) => result.addError(e.file, e.path, e.message));
         warnings.forEach((w) => result.addWarning(w.file, w.path, w.message));
     }
+
+    if (args.coverage) printCoverage(appIds);
 
     // Print results
     printResults(result, args.strict);

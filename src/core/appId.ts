@@ -7,10 +7,10 @@
  */
 
 /** App used by the dev server and by tests when no VITE_APP_ID is provided (trainer.config.json). */
-export const DEFAULT_APP_ID: string = import.meta.env?.VITE_DEFAULT_APP_ID || 'daz';
+export const DEFAULT_APP_ID: string = __TRAINER__.defaultAppId;
 
 /** Prefix of persisted store names (trainer.config.json), e.g. "mini-trainer". */
-export const STORE_PREFIX: string = import.meta.env?.VITE_STORE_PREFIX || 'mini-trainer';
+export const STORE_PREFIX: string = __TRAINER__.storePrefix;
 
 /** The id of the current app. */
 export function getAppId(): string {

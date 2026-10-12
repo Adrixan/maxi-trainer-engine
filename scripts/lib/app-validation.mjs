@@ -114,3 +114,22 @@ export function validateAppDir(rootDir, appId, defaultConfigDir) {
         exercises: readJson(join(dir, 'exercises.json')),
     });
 }
+
+/**
+ * Exercise counts per theme and level, to see where an app needs more content.
+ * @returns {{ themeId: string, level: number, count: number }[]} sorted by theme and level
+ */
+export function contentCoverage(rootDir, appId) {
+    const exercises = unwrap(readJson(join(rootDir, 'src', 'apps', appId, 'exercises.json')), 'exercises') ?? [];
+    const counts = new Map();
+    for (const e of exercises) {
+        const key = `${e.themeId}\u0000${e.level}`;
+        counts.set(key, (counts.get(key) ?? 0) + 1);
+    }
+    return [...counts]
+        .map(([key, count]) => {
+            const [themeId, level] = key.split('\u0000');
+            return { themeId, level: Number(level), count };
+        })
+        .sort((a, b) => a.themeId.localeCompare(b.themeId) || a.level - b.level);
+}

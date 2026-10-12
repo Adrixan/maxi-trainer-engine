@@ -11,10 +11,15 @@
         "loading": "Wird geladen...",
         "error": "Ein Fehler ist aufgetreten",
         "retry": "Erneut versuchen",
-        "or": "oder"
+        "or": "oder",
+        "createProfile": "Profil erstellen",
+        "digit": "Ziffer",
+        "goHome": "Zur Startseite",
+        "home": "Zur Startseite",
+        "warning": "Warnung"
     },
     "app": {
-        "title": "Maxi Trainer"
+        "title": "Trainer"
     },
     "home": {
         "welcome": "Willkommen",
@@ -37,7 +42,9 @@
         "selectFile": "Spielstand-Datei auswählen",
         "fileHelp": "Wähle eine zuvor exportierte Spielstand-Datei (.json)",
         "fileValid": "Gültige Spielstand-Datei ausgewählt",
-        "loadConfirm": "Spiel laden"
+        "loadConfirm": "Spiel laden",
+        "badges": "Abzeichen",
+        "dailyChallenge": "Tages-Challenge"
     },
     "progress": {
         "title": "Fortschritt",
@@ -81,7 +88,8 @@
         "stars": "Sterne",
         "streak": "Serie",
         "totalStars": "Sterne gesamt",
-        "dayStreak": "Tage-Serie"
+        "dayStreak": "Tage-Serie",
+        "level": "Level"
     },
     "exercise": {
         "title": "Übung",
@@ -106,7 +114,10 @@
         "levelFailed": "Level fehlgeschlagen",
         "levelFailedDescription": "Du hast alle 3 Versuche verbraucht. Du musst von vorne beginnen.",
         "restartLevel": "Level neu starten",
-        "exitLevel": "Beenden"
+        "exitLevel": "Beenden",
+        "contactSupport": "Bitte wende dich an deine Lehrkraft.",
+        "unknownType": "Unbekannter Übungstyp",
+        "progressAria": "Übung {{current}} von {{total}}"
     },
     "profile": {
         "title": "Profil",
@@ -180,12 +191,16 @@
     "badges": {
         "title": "Abzeichen",
         "earned": "Verdient",
-        "locked": "Noch nicht verdient"
+        "locked": "Noch nicht verdient",
+        "gallery": "Erfolge-Galerie",
+        "noProfile": "Bitte erstelle ein Profil, um Erfolge zu sehen.",
+        "progress": "{{earned}} von {{total}} Erfolgen freigeschaltet",
+        "recent": "Kürzlich verdient"
     },
     "theme": {
-        "title": "Mission wählen",
-        "subtitle": "Wähle deine Herausforderung. Meistere Aufgaben, verdiene Sterne und schalte neue Missionen frei!",
-        "vocabularyLevel": "Level",
+        "title": "Thema wählen",
+        "subtitle": "Wähle ein Thema zum Üben. Bearbeite Übungen, um Sterne zu sammeln und neue Themen freizuschalten!",
+        "vocabularyLevel": "Wortschatz-Level",
         "levelLabel": "Level {{level}}",
         "themeList": "Verfügbare Themen",
         "selectTheme": "{{name}} Thema auswählen",
@@ -246,7 +261,10 @@
         "badgeEarned": "Abzeichen verdient!",
         "continue": "Weiter",
         "starsEarned": "Sterne verdient",
-        "newBadge": "Neues Abzeichen!"
+        "newBadge": "Neues Abzeichen!",
+        "totalStars": "{{count}} Sterne gesammelt",
+        "currentStreak": "{{count}} Tage in Folge",
+        "currentLevel": "Level {{level}}"
     },
     "accessibility": {
         "title": "Barrierefreiheit",
@@ -262,9 +280,14 @@
         "soundDesc": "Sound-Effekte ein- oder ausschalten",
         "screenReaderNote": "Screenreader-Information",
         "screenReaderInfo": "Diese Anwendung ist für die Nutzung mit Screenreadern konzipiert. Verwende Tab zum Navigieren zwischen Steuerelementen und Enter oder Leertaste zum Aktivieren von Schaltflächen.",
-        "themeDefault": "Hell",
-        "themeNoir": "Noir (Dunkel)",
-        "theme": "Design"
+        "theme": "Design",
+        "themeOptions": {
+            "default": "Hell",
+            "noir": "Noir (Dunkel)"
+        },
+        "skipToContent": "Zum Hauptinhalt springen",
+        "soundOff": "Ton ausschalten",
+        "soundOn": "Ton einschalten"
     },
     "levelTitles": {
         "beginner": "Anfänger",
@@ -322,7 +345,11 @@
             "dragOrTap": "Ziehe oder tippe, um Wörter zuzuordnen",
             "allSorted": "Alle zugeordnet",
             "categories": "Kategorien",
-            "correctSorting": "Richtige Zuordnung!"
+            "correctSorting": "Richtige Zuordnung!",
+            "dropHere": "Hier ablegen",
+            "selected": "ausgewählt",
+            "wrongCategory": "falsche Gruppe",
+            "category": "Gruppe {{name}}"
         },
         "pictureVocabulary": {
             "whatIsThis": "Was ist das?",
@@ -365,7 +392,8 @@
         "sentenceBuilder": {
             "instruction": "Bilde einen sinnvollen Satz aus den Wörtern",
             "yourSentence": "Dein Satz:",
-            "selectWord": "Wähle Wörter aus"
+            "selectWord": "Wähle Wörter aus",
+            "possibleSentences": "Mögliche Sätze:"
         }
     },
     "teacher": {
@@ -436,7 +464,19 @@
         "newPinInput": "Neuer PIN",
         "confirmPinInput": "PIN bestätigen",
         "pinInput": "PIN-Eingabe",
-        "teacher": "Lehrkraft"
+        "teacher": "Lehrkraft",
+        "actions": "Aktionen",
+        "avgStreak": "⌀ Serie",
+        "dashboardSubtitle": "Lernfortschritt verwalten",
+        "noStudents": "Keine Lernenden gefunden",
+        "noStudentsHint": "Lernende erscheinen hier, sobald sie Profile angelegt haben",
+        "reset": "Zurücksetzen",
+        "resetWarning": "Soll der Fortschritt dieses Profils wirklich zurückgesetzt werden? Das kann nicht rückgängig gemacht werden.",
+        "stars": "Sterne",
+        "student": "Lernende/r",
+        "studentList": "Lernendenliste",
+        "students": "Lernende",
+        "totalStars": "Sterne gesamt"
     },
     "areas": {
         "woerter-und-saetze": "Wörter und Sätze",
@@ -463,5 +503,30 @@
             "nichtGanz": "Nicht ganz.",
             "versuchsNochmal": "Versuch's nochmal!"
         }
+    },
+    "dailyChallenge": {
+        "bonus": "Bonus-Sterne",
+        "bonusCompleted": "Bonus abgeschlossen! +{{stars}} Sterne",
+        "bonusDesc": "Mache noch mehr Übungen für 3 Extra-Sterne!",
+        "bonusTitle": "Bonus-Challenge!",
+        "comeBack": "Komm morgen wieder für eine neue Herausforderung!",
+        "completed": "Heute schon gemeistert!",
+        "completedStars": "Du hast heute {{stars}} Sterne verdient!",
+        "date": "Datum",
+        "description": "Stelle dich 5 Übungen aus verschiedenen Themen. Verdiene 5 Bonus-Sterne!",
+        "exercises": "Übungen",
+        "noProfile": "Bitte erstelle ein Profil, um an der Tages-Challenge teilzunehmen.",
+        "start": "Jetzt starten",
+        "startBonus": "Bonus starten",
+        "subtitle": "Tägliche Herausforderung",
+        "title": "Tages-Challenge"
+    },
+    "error": {
+        "component": "Bereich",
+        "navigation": "Navigationsfehler",
+        "navigationMessage": "Diese Seite konnte nicht geladen werden. Bitte gehe zurück zur Startseite.",
+        "retry": "Erneut versuchen",
+        "title": "Etwas ist schiefgelaufen",
+        "unknown": "Ein unerwarteter Fehler ist aufgetreten"
     }
 }

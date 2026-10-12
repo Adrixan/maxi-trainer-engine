@@ -1,0 +1,36 @@
+{
+    "description": "Files that must be identical in mini-trainer-engine and maxi-trainer-engine. Checked and synced by scripts/sync-engine.mjs. Everything else (src/apps, public, trainer.config.json, README, docs, package.json name/version) belongs to one variant.",
+    "shared": [
+        ".github/workflows/ci.yml",
+        ".gitignore",
+        "agents.md",
+        "e2e",
+        "eslint.config.js",
+        "index.html",
+        "playwright.config.ts",
+        "postcss.config.js",
+        "scripts",
+        "src/config",
+        "src/core",
+        "src/index.css",
+        "src/main.tsx",
+        "src/pages",
+        "src/registerServiceWorker.ts",
+        "src/test",
+        "src/types",
+        "src/vite-env.d.ts",
+        "tailwind.config.js",
+        "tsconfig.json",
+        "tsconfig.node.json",
+        "vite.config.ts",
+        "vite.shared.ts",
+        "vitest.config.ts"
+    ],
+    "packageJsonSections": [
+        "scripts",
+        "dependencies",
+        "devDependencies",
+        "engines",
+        "type"
+    ]
+}

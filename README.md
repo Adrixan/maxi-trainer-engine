@@ -33,8 +33,9 @@ Open [http://localhost:5173](http://localhost:5173).
 | `npm run build [-- --app <id>]` | USB build in `dist/<id>` (validates content, type-checks) |
 | `npm run build:pwa [-- --app <id>]` | PWA build in `dist/<id>-pwa` |
 | `npm run build:all` | Every app, USB and PWA (`build:all:usb`, `build:all:pwa` for one kind) |
-| `npm run validate [-- --app <id>]` | Validate the default config and the content of every app |
-| `npm test` | Run the tests (`test:watch`, `test:coverage`) |
+| `npm run validate [-- --app <id>]` | Validate the default config and the content of every app (`-- --coverage` lists themes/levels with too few exercises) |
+| `npm test` | Unit and content tests (`test:watch`, `test:coverage`) |
+| `npm run test:e2e` | Browser tests (Playwright): builds the default app, opens the USB build via `file://` and the PWA over http (`E2E_APP=<id>` for another app) |
 | `npm run lint` / `npm run typecheck` | ESLint / TypeScript |
 | `npm run add-exercise` | Interactive exercise creator |
 
@@ -48,16 +49,34 @@ Open [http://localhost:5173](http://localhost:5173).
 │   ├── config/              # Default config used when an app does not provide a file
 │   ├── pages/               # Route components
 │   └── types/
+├── e2e/                     # Playwright browser tests
 ├── scripts/
 │   ├── build-app.mjs        # Build one app
 │   ├── build-all-apps.mjs   # Build all apps
 │   ├── prepare-dev.mjs      # Dev server for one app
 │   ├── validate-config.mjs  # Content validation
+│   ├── sync-engine.mjs      # Keep the engine identical across variants
 │   ├── templates/sw.js      # Service worker template
 │   └── lib/                 # Exercise schema, app validation, build helpers
 ├── public/                  # Static assets (icons, fonts); config and data are generated and untracked
 └── docs/
 ```
+
+## Two variants, one engine
+
+`mini-trainer-engine` (Volksschule) and `maxi-trainer-engine` (AHS Unterstufe) share the same engine code. What differs lives in two places only:
+
+- `trainer.config.json`: engine name, default app, store prefix, themes, avatars and translation overrides
+- `src/apps/`: the apps (content)
+
+`scripts/engine-files.json` lists the files that must be identical in both repositories. Check or copy them with
+
+```bash
+node scripts/sync-engine.mjs --from ../mini-trainer-engine --check   # report drift
+node scripts/sync-engine.mjs --from ../mini-trainer-engine           # copy the other side's engine files
+```
+
+Change engine files in one repository, then sync the other. Do not add variant-specific code to engine files; extend `trainer.config.json` instead.
 
 ## Documentation
 

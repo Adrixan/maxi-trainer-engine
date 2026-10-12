@@ -92,7 +92,7 @@ export function ProfileCreation() {
                 id="profile-creation-title"
                 className="text-3xl font-bold text-gray-900 mb-2"
             >
-                {t('app.title', 'Maxi Trainer')}
+                {t('app.title', __TRAINER__.engineName)}
             </h1>
             <p className="text-gray-600 mb-8 text-center max-w-md">
                 {t('profile.createSubtitle', 'Create your profile to start learning')}

@@ -1,6 +1,6 @@
 import { defineConfig, type Plugin } from 'vite';
 import react from '@vitejs/plugin-react';
-import { alias, htmlVariables, trainerConfig, trainerEnv } from './vite.shared';
+import { alias, htmlVariables, trainerConfig, trainerDefine } from './vite.shared';
 
 /**
  * Fill the `{{placeholders}}` of index.html (title, language, description,
@@ -51,8 +51,7 @@ export default defineConfig(({ command }) => {
         define: {
             'import.meta.env.VITE_APP_ID': JSON.stringify(process.env.VITE_APP_ID || ''),
             'import.meta.env.VITE_PWA': JSON.stringify(pwa ? '1' : ''),
-            'import.meta.env.VITE_DEFAULT_APP_ID': JSON.stringify(trainerEnv.VITE_DEFAULT_APP_ID),
-            'import.meta.env.VITE_STORE_PREFIX': JSON.stringify(trainerEnv.VITE_STORE_PREFIX),
+            ...trainerDefine,
         },
         resolve: { alias },
         // The build scripts copy exactly the files a build needs (config, data,

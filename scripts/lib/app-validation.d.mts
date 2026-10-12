@@ -16,3 +16,7 @@ export function validateContent(input: {
     exercises: unknown;
 }): ValidationOutcome;
 export function validateAppDir(rootDir: string, appId: string, defaultConfigDir: string): ValidationOutcome;
+export function contentCoverage(
+    rootDir: string,
+    appId: string,
+): { themeId: string; level: number; count: number }[];

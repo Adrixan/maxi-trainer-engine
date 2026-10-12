@@ -39,3 +39,7 @@ public/data/
 public/icon.svg
 /vite.config.d.ts*
 /vitest.config.d.ts*
+
+# Playwright
+test-results/
+playwright-report/
