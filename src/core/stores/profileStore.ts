@@ -97,9 +97,8 @@ export interface ProfileState {
 // Store
 // ============================================================================
 
-/** Name of the persisted store (scoped per app, see appId.ts). */
-const PROFILE_STORE_BASE = 'maxi-trainer-profile';
-adoptLegacyStore(PROFILE_STORE_BASE);
+// Persisted per app (see appId.ts)
+adoptLegacyStore('profile');
 
 /**
  * Create initial levels: every observation area of the app starts at level 1.
@@ -292,7 +291,7 @@ export const useProfileStore = create<ProfileState>()(
             },
         }),
         {
-            name: scopedStoreName(PROFILE_STORE_BASE),
+            name: scopedStoreName('profile'),
             version: 1,
             onRehydrateStorage: () => (_state) => {
                 // Profile rehydration complete

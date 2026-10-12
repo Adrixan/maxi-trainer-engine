@@ -27,6 +27,8 @@
         "noUncheckedIndexedAccess": true
     },
     "include": [
-        "vite.config.ts"
+        "vite.config.ts",
+        "vite.shared.ts",
+        "vitest.config.ts"
     ]
 }

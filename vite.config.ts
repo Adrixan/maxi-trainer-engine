@@ -1,118 +1,73 @@
 import { defineConfig, type Plugin } from 'vite';
 import react from '@vitejs/plugin-react';
-import { fileURLToPath, URL } from 'node:url';
+import { alias, htmlVariables, trainerConfig, trainerEnv } from './vite.shared';
 
 /**
- * Vite plugin for file:// protocol compatibility.
- * 
- * When the app is opened directly via file:// protocol (e.g., from a local file),
- * ES modules don't work properly. This plugin transforms the built HTML to:
- * - Strip type="module" from script tags
- * - Remove crossorigin attributes (with or without quotes)
- * - Convert scripts to defer instead of async
- * - Convert absolute paths to relative paths for file:// protocol
- * 
- * This enables the app to work when opened as a local file.
+ * Fill the `{{placeholders}}` of index.html (title, language, description,
+ * theme color, manifest link) from the configuration of the app.
+ */
+function appHtmlPlugin(appId: string, pwa: boolean): Plugin {
+    return {
+        name: 'app-html',
+        transformIndexHtml(html) {
+            const variables = htmlVariables(appId, pwa);
+            return html.replace(/\{\{(\w+)\}\}/g, (_match, key: string) => variables[key] ?? '');
+        },
+    };
+}
+
+/**
+ * file:// compatibility for the built HTML.
+ *
+ * Browsers refuse to load ES modules from file:// URLs, so the bundle is built
+ * as an IIFE and its script tag is turned into a plain deferred script.
  */
 function fileProtocolPlugin(): Plugin {
     return {
         name: 'file-protocol-compat',
         enforce: 'post',
         transformIndexHtml(html, { bundle }) {
-            // Only apply in build mode
-            if (!bundle) return html;
-
-            // Transform script tags for file:// protocol compatibility
+            if (!bundle) return html; // dev server
             return html
-                .replace(/type="module"\s*/g, '')
-                // Remove crossorigin with quotes: crossorigin="anonymous"
-                .replace(/crossorigin\s*=\s*"[^"]*"\s*/g, ' ')
-                // Remove crossorigin without quotes: crossorigin
-                .replace(/\s+crossorigin(?=\s|>)/g, '')
-                .replace(/<script\s+src=/g, '<script defer src=')
-                // Convert absolute paths to relative paths for file:// protocol
-                .replace(/href="\/([^"]*)"/g, 'href="./$1"')
-                .replace(/src="\/([^"]*)"/g, 'src="./$1"')
-                // Fix service worker path in inline script
-                .replace(/register\('\/sw\.js'\)/g, "register('./sw.js')");
-        },
-    };
-}
-
-/**
- * Vite plugin to inject dynamic page title based on subject.
- * Replaces the title in HTML with the subject name from environment variable.
- */
-function titleInjectionPlugin(): Plugin {
-    return {
-        name: 'title-injection',
-        enforce: 'post',
-        transformIndexHtml(html) {
-            // Get subject name from environment variable (set during build)
-            const subjectName = process.env.VITE_SUBJECT_NAME || '';
-            const defaultTitle = 'Maxi Trainer';
-
-            // Set the full title
-            const fullTitle = subjectName.trim() || defaultTitle;
-
-            // Replace the title in HTML
-            return html.replace(
-                /<title>[^<]*<\/title>/,
-                `<title>${fullTitle}</title>`
-            );
+                .replace(/\stype="module"/g, '')
+                .replace(/\scrossorigin(?:="[^"]*")?/g, '')
+                .replace(/<script(?![^>]*\sdefer)([^>]*\ssrc=)/g, '<script defer$1')
+                .replace(/(href|src)="\/([^"]*)"/g, '$1="./$2"');
         },
     };
 }
 
 // https://vite.dev/config/
-export default defineConfig({
-    plugins: [react(), titleInjectionPlugin(), fileProtocolPlugin()],
-    // Define compile-time constants for VITE_APP_ID
-    // This allows the app to know its ID at build time without runtime config
-    define: {
-        'import.meta.env.VITE_APP_ID': JSON.stringify(process.env.VITE_APP_ID || 'ahs-deutsch'),
-    },
-    resolve: {
-        alias: {
-            '@': fileURLToPath(new URL('./src', import.meta.url)),
-            '@core': fileURLToPath(new URL('./src/core', import.meta.url)),
-            '@config': fileURLToPath(new URL('./src/config', import.meta.url)),
-            '@types': fileURLToPath(new URL('./src/types', import.meta.url)),
+export default defineConfig(({ command }) => {
+    const appId = process.env.VITE_APP_ID || trainerConfig.defaultAppId;
+    const pwa = process.env.VITE_PWA === '1';
+
+    if (command === 'build' && !process.env.VITE_APP_ID) {
+        throw new Error('VITE_APP_ID is not set. Build with `npm run build -- --app <id>` (scripts/build-app.mjs).');
+    }
+
+    return {
+        plugins: [react(), appHtmlPlugin(appId, pwa), fileProtocolPlugin()],
+        define: {
+            'import.meta.env.VITE_APP_ID': JSON.stringify(process.env.VITE_APP_ID || ''),
+            'import.meta.env.VITE_PWA': JSON.stringify(pwa ? '1' : ''),
+            'import.meta.env.VITE_DEFAULT_APP_ID': JSON.stringify(trainerEnv.VITE_DEFAULT_APP_ID),
+            'import.meta.env.VITE_STORE_PREFIX': JSON.stringify(trainerEnv.VITE_STORE_PREFIX),
         },
-    },
-    build: {
-        // Ensure compatibility with file:// protocol for local file usage
-        target: 'esnext',
-        // Increase chunk size warning limit
-        chunkSizeWarningLimit: 1000,
-        // Use IIFE format for file:// protocol compatibility
-        // This wraps the code in immediately invoked function expressions
-        // which work better with file:// protocol than ES modules
-        rollupOptions: {
-            // External scripts that should not be bundled
-            external: [
-                './config/subject.js',
-                './config/areas.js',
-                './config/themes.js',
-                './config/badges.js',
-                '/data/exercises.js',
-            ],
-            output: {
-                format: 'iife' as const,
-                // Inline dynamic imports to avoid module loading issues
-                inlineDynamicImports: true,
+        resolve: { alias },
+        // The build scripts copy exactly the files a build needs (config, data,
+        // icon); only the dev server serves public/ directly.
+        publicDir: command === 'build' ? false : 'public',
+        build: {
+            // IIFE output so the app also runs from file:// (USB distribution).
+            // Dynamic imports are inlined, so route-level lazy() cannot split the bundle.
+            target: 'esnext',
+            chunkSizeWarningLimit: 1000,
+            rollupOptions: {
+                output: { format: 'iife' as const, inlineDynamicImports: true },
             },
         },
-    },
-    server: {
-        // Allow serving from file:// protocol in development
-        fs: {
-            allow: ['..'],
-        },
-    },
-    preview: {
-        // Preview server configuration
-        // Serves via HTTP for proper functionality
-        port: 4173,
-    },
+        server: { fs: { allow: ['..'] } },
+        preview: { port: 4173 },
+    };
 });

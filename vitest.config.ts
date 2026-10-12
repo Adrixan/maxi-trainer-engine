@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitest/config';
 import react from '@vitejs/plugin-react';
-import { fileURLToPath, URL } from 'node:url';
+import { alias, trainerEnv } from './vite.shared';
 
 // The apps target Austrian schools. Date logic is tested in a zone with DST and a
 // positive UTC offset, where UTC-based day calculations are visibly wrong.
@@ -11,6 +11,7 @@ export default defineConfig({
     test: {
         globals: true,
         environment: 'jsdom',
+        env: trainerEnv,
         setupFiles: ['./src/test/setup.ts'],
         include: ['src/**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}'],
         coverage: {
@@ -25,12 +26,5 @@ export default defineConfig({
             ],
         },
     },
-    resolve: {
-        alias: {
-            '@': fileURLToPath(new URL('./src', import.meta.url)),
-            '@core': fileURLToPath(new URL('./src/core', import.meta.url)),
-            '@config': fileURLToPath(new URL('./src/config', import.meta.url)),
-            '@types': fileURLToPath(new URL('./src/types', import.meta.url)),
-        },
-    },
+    resolve: { alias },
 });

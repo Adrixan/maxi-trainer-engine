@@ -11,6 +11,7 @@ import '@core/i18n';
 import '@/index.css';
 import { createRouter } from '@core/router';
 import { ConfigProvider } from '@core/config';
+import { registerServiceWorker } from './registerServiceWorker';
 
 // Create the router instance
 const router = createRouter();
@@ -29,3 +30,5 @@ createRoot(rootElement).render(
         </ConfigProvider>
     </StrictMode>
 );
+
+registerServiceWorker();

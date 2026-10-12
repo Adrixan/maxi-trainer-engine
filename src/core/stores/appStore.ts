@@ -151,9 +151,8 @@ const DEFAULT_SETTINGS: AppSettings = {
 // Store
 // ============================================================================
 
-/** Name of the persisted store (scoped per app, see appId.ts). */
-const SETTINGS_STORE_BASE = 'mini-trainer-settings';
-adoptLegacyStore(SETTINGS_STORE_BASE);
+// Persisted per app (see appId.ts)
+adoptLegacyStore('settings');
 
 /**
  * Application settings store.
@@ -250,7 +249,7 @@ export const useAppStore = create<AppState>()(
                 set({ settings: DEFAULT_SETTINGS }),
         }),
         {
-            name: scopedStoreName(SETTINGS_STORE_BASE),
+            name: scopedStoreName('settings'),
             version: 2,
             // Only settings and PIN credentials are stored; the unlocked flag is per session.
             partialize: (state) => ({ settings: state.settings, teacherAuth: state.teacherAuth }),

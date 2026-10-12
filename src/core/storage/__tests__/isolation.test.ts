@@ -264,7 +264,7 @@ describe('Persisted store scoping', () => {
     it('scopes store names by app id', async () => {
         vi.stubEnv('VITE_APP_ID', 'ahs-mathematik');
         const { scopedStoreName } = await import('../../appId');
-        expect(scopedStoreName('maxi-trainer-profile')).toBe('maxi-trainer-profile:ahs-mathematik');
+        expect(scopedStoreName('profile')).toBe('maxi-trainer-profile:ahs-mathematik');
     });
 
     it('copies a legacy unscoped store into the app scope once', async () => {
@@ -272,7 +272,7 @@ describe('Persisted store scoping', () => {
         localStorageMock.setItem('maxi-trainer-profile', '{"state":{"activeProfile":null}}');
 
         const { adoptLegacyStore } = await import('../../appId');
-        adoptLegacyStore('maxi-trainer-profile');
+        adoptLegacyStore('profile');
 
         const store = localStorageMock._getStore();
         expect(store['maxi-trainer-profile:ahs-mathematik']).toBe('{"state":{"activeProfile":null}}');
@@ -286,7 +286,7 @@ describe('Persisted store scoping', () => {
         localStorageMock.setItem('maxi-trainer-profile:ahs-mathematik', 'current');
 
         const { adoptLegacyStore } = await import('../../appId');
-        adoptLegacyStore('maxi-trainer-profile');
+        adoptLegacyStore('profile');
 
         expect(localStorageMock._getStore()['maxi-trainer-profile:ahs-mathematik']).toBe('current');
     });
@@ -297,7 +297,7 @@ describe('Persisted store scoping', () => {
         localStorageMock.setItem('maxi-trainer-profile:ahs-mathematik', 'math profile');
 
         const { adoptLegacyStore } = await import('../../appId');
-        adoptLegacyStore('maxi-trainer-profile');
+        adoptLegacyStore('profile');
 
         const store = localStorageMock._getStore();
         expect(Object.keys(store).sort()).toEqual(['maxi-trainer-profile:ahs-mathematik', 'mte:ahs-mathematik:app:theme']);

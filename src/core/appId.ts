@@ -6,20 +6,31 @@
  * that several trainers served from the same origin never share data.
  */
 
-/** App used by `vite` dev server / tests when no VITE_APP_ID is provided. */
-export const DEFAULT_APP_ID = 'ahs-deutsch';
+/** App used by the dev server and by tests when no VITE_APP_ID is provided (trainer.config.json). */
+export const DEFAULT_APP_ID: string = import.meta.env?.VITE_DEFAULT_APP_ID || 'daz';
+
+/** Prefix of persisted store names (trainer.config.json), e.g. "mini-trainer". */
+export const STORE_PREFIX: string = import.meta.env?.VITE_STORE_PREFIX || 'mini-trainer';
 
 /** The id of the current app. */
 export function getAppId(): string {
     return import.meta.env?.VITE_APP_ID || DEFAULT_APP_ID;
 }
 
+/** Persisted Zustand stores. */
+export type StoreKind = 'profile' | 'settings';
+
 /**
  * Name under which a persisted store keeps its data for the current app,
- * e.g. `maxi-trainer-profile:ahs-deutsch`.
+ * e.g. `mini-trainer-profile:daz`.
  */
-export function scopedStoreName(base: string): string {
-    return `${base}:${getAppId()}`;
+export function scopedStoreName(kind: StoreKind): string {
+    return `${STORE_PREFIX}-${kind}:${getAppId()}`;
+}
+
+/** Unscoped names earlier versions used, newest first. */
+function legacyStoreNames(kind: StoreKind): string[] {
+    return [...new Set([`${STORE_PREFIX}-${kind}`, `mini-trainer-${kind}`])];
 }
 
 /**
@@ -30,12 +41,17 @@ export function scopedStoreName(base: string): string {
  *
  * Must run before the store is created.
  */
-export function adoptLegacyStore(base: string): void {
+export function adoptLegacyStore(kind: StoreKind): void {
     try {
-        const scoped = scopedStoreName(base);
+        const scoped = scopedStoreName(kind);
         if (localStorage.getItem(scoped) !== null) return;
-        const legacy = localStorage.getItem(base);
-        if (legacy !== null) localStorage.setItem(scoped, legacy);
+        for (const name of legacyStoreNames(kind)) {
+            const legacy = localStorage.getItem(name);
+            if (legacy !== null) {
+                localStorage.setItem(scoped, legacy);
+                return;
+            }
+        }
     } catch {
         // localStorage unavailable (private mode, blocked): the store starts empty.
     }
