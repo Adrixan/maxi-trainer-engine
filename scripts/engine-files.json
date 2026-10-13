@@ -20,6 +20,7 @@
         "src/types",
         "src/vite-env.d.ts",
         "tailwind.config.js",
+        "tsconfig.e2e.json",
         "tsconfig.json",
         "tsconfig.node.json",
         "vite.config.ts",

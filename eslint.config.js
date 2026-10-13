@@ -8,13 +8,13 @@ export default [
     js.configs.recommended,
     {
         files: ['**/*.ts', '**/*.tsx'],
-        ignores: ['vite.config.ts', 'vite.shared.ts', 'vitest.config.ts', 'playwright.config.ts', 'e2e/**'],
+        ignores: ['vite.config.ts', 'vite.shared.ts', 'vitest.config.ts'],
         languageOptions: {
             parser: tsParser,
             parserOptions: {
                 ecmaVersion: 'latest',
                 sourceType: 'module',
-                project: ['./tsconfig.json'],
+                project: ['./tsconfig.json', './tsconfig.e2e.json'],
             },
             globals: {
                 ...globals.browser,

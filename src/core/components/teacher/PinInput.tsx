@@ -47,9 +47,11 @@ export function PinInput({ value, onChange, label, digitLabel, disabled = false,
     const handleChange = (index: number, raw: string) => {
         const digit = raw.replace(/\D/g, '').slice(-1);
         if (digit === '') return;
-        const next = (value.slice(0, index) + digit + value.slice(index + 1)).slice(0, PIN_LENGTH);
+        // The value is a dense string: a digit typed into a later empty box lands in the first empty one
+        const position = Math.min(index, value.length);
+        const next = (value.slice(0, position) + digit + value.slice(position + 1)).slice(0, PIN_LENGTH);
         update(next);
-        focusBox(index + 1);
+        focusBox(position + 1);
     };
 
     const handleKeyDown = (index: number, event: KeyboardEvent<HTMLInputElement>) => {

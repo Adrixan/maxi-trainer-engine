@@ -97,6 +97,15 @@ describe('content validator', () => {
         );
     });
 
+    it('rejects a theme that points to an unknown area', () => {
+        const { errors } = validateContent({
+            ...base,
+            themes: [{ id: 't', areaId: 'nope' }],
+            exercises: [exercise({ type: 'multiple-choice', question: 'q', options: ['a', 'b'], correctIndex: 0 })],
+        });
+        expect(errors.map((e) => e.message)).toContain("unknown areaId 'nope'");
+    });
+
     it('requires enabledExerciseTypes to cover the used types', () => {
         const { errors } = validateContent({
             ...base,

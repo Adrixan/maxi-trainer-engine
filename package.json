@@ -16,7 +16,7 @@
     "test:e2e": "playwright test",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "typecheck": "tsc --noEmit",
+    "typecheck": "tsc --noEmit && tsc -p tsconfig.e2e.json",
     "validate": "node scripts/validate-config.mjs",
     "add-exercise": "node scripts/add-exercise.mjs",
     "clean": "rm -rf dist node_modules/.vite"

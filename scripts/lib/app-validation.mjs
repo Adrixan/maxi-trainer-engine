@@ -110,6 +110,13 @@ export function validateContent({ label, areas, themes, subject, badges, exercis
         }
     });
 
+    // A theme's areaId is optional, but must point to an existing area when given
+    for (const theme of themeList ?? []) {
+        if (theme?.areaId !== undefined && areaIds.size > 0 && !areaIds.has(theme.areaId)) {
+            error(`themes (${theme.id})`, `unknown areaId '${theme.areaId}'`);
+        }
+    }
+
     for (const [, ids] of questions) {
         if (ids.length > 1) warn('exercises', `identical prompt in ${ids.join(', ')}`);
     }
