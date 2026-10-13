@@ -528,20 +528,9 @@ This checks:
 
 ## Exercise Data Storage
 
-Exercises are stored in [`src/data/exercises.json`](../src/data/exercises.json) and built into [`public/data/exercises.js`](../public/data/exercises.js) during the build process.
+The exercises of an app are stored in `src/apps/<id>/exercises.json`. Builds and the dev server turn them into `data/exercises.js` (a classic script that sets `window.__TRAINER_EXERCISES__`, so the app also works from file://).
 
-### Build Process
-
-```bash
-npm run build:data
-```
-
-This:
-
-1. Reads `src/data/exercises.json`
-2. Validates all exercises
-3. Generates optimized IIFE format for file:// protocol compatibility
-4. Writes to `public/data/exercises.js`
+Every exercise is validated against the schema in `scripts/lib/exercise-schema.mjs` by `npm run validate`, by the content tests and by every build. Invalid content never reaches a distribution.
 
 ## Next Steps
 

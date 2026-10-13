@@ -10,6 +10,8 @@
  * Options:
  *   --config-dir   Directory containing config files (default: src/config)
  *   --data-dir     Directory containing data files (default: src/data)
+ *   --app <id>     Validate only this app (default: default config + all apps)
+ *   --coverage     List themes/levels with too few exercises, per app
  *   --strict       Treat warnings as errors (default: false)
  *   --help         Show help message
  */
@@ -17,6 +19,8 @@
 import { readFileSync, existsSync, readdirSync } from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join, resolve, extname } from 'path';
+import { listAppIds } from './lib/app-files.mjs';
+import { contentCoverage, MIN_EXERCISES_PER_BUCKET, validateAppDir } from './lib/app-validation.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -54,6 +58,8 @@ function parseArgs() {
         dataDir: join(rootDir, 'src', 'data'),
         strict: false,
         help: false,
+        app: null,
+        coverage: false,
     };
 
     const argv = process.argv.slice(2);
@@ -67,6 +73,12 @@ function parseArgs() {
                 break;
             case '--data-dir':
                 args.dataDir = resolve(rootDir, argv[++i]);
+                break;
+            case '--coverage':
+                args.coverage = true;
+                break;
+            case '--app':
+                args.app = argv[++i];
                 break;
             case '--strict':
                 args.strict = true;
@@ -102,6 +114,9 @@ ${colors.bright}Options:${colors.reset}
                        (default: src/config)
   --data-dir <path>    Directory containing data files
                        (default: src/data)
+  --app <id>           Validate only one app under src/apps
+                       (default: the default config and every app)
+  --coverage           List themes/levels with fewer than 3 exercises, per app
   --strict             Treat warnings as errors
   --help, -h           Show this help message
 
@@ -111,6 +126,7 @@ ${colors.bright}Validates:${colors.reset}
   - badges.json: Badge definitions
   - subject.json: Subject configuration
   - exercises.json: Exercise data (cross-references areas/themes)
+  - every app in src/apps: schema of each exercise, references, solvability
 
 ${colors.bright}Exit Codes:${colors.reset}
   0 - All validations passed
@@ -509,6 +525,19 @@ function printResults(result, strict) {
 }
 
 /**
+ * Print the theme/level combinations with too little content.
+ */
+function printCoverage(appIds) {
+    log.header(`Content coverage (fewer than ${MIN_EXERCISES_PER_BUCKET} exercises)`);
+    for (const appId of appIds) {
+        const thin = contentCoverage(rootDir, appId).filter((b) => b.count < MIN_EXERCISES_PER_BUCKET);
+        if (thin.length === 0) continue;
+        console.log(`  ${colors.bright}${appId}${colors.reset} (${thin.length})`);
+        thin.forEach((b) => console.log(`    ${b.themeId.padEnd(32)} level ${b.level}: ${b.count}`));
+    }
+}
+
+/**
  * Main validation function
  */
 function validateConfig(args) {
@@ -516,35 +545,38 @@ function validateConfig(args) {
 
     const result = new ValidationResult();
 
-    // Load and validate areas.json
-    log.info('Checking areas.json...');
-    result.filesChecked++;
-    const areas = loadJSON(join(args.configDir, 'areas.json'));
-    const areaIds = validateAreas(areas, result);
+    if (!args.app) {
+        // Default config (src/config + src/data)
+        log.info('Checking default config...');
+        result.filesChecked++;
+        const areas = loadJSON(join(args.configDir, 'areas.json'));
+        const areaIds = validateAreas(areas, result);
 
-    // Load and validate themes.json
-    log.info('Checking themes.json...');
-    result.filesChecked++;
-    const themes = loadJSON(join(args.configDir, 'themes.json'));
-    const themeIds = validateThemes(themes, result);
+        result.filesChecked++;
+        const themes = loadJSON(join(args.configDir, 'themes.json'));
+        const themeIds = validateThemes(themes, result);
 
-    // Load and validate badges.json
-    log.info('Checking badges.json...');
-    result.filesChecked++;
-    const badges = loadJSON(join(args.configDir, 'badges.json'));
-    validateBadges(badges, result);
+        result.filesChecked++;
+        validateBadges(loadJSON(join(args.configDir, 'badges.json')), result);
 
-    // Load and validate subject.json
-    log.info('Checking subject.json...');
-    result.filesChecked++;
-    const subject = loadJSON(join(args.configDir, 'subject.json'));
-    validateSubject(subject, result, areaIds);
+        result.filesChecked++;
+        validateSubject(loadJSON(join(args.configDir, 'subject.json')), result, areaIds);
 
-    // Load and validate exercises.json
-    log.info('Checking exercises.json...');
-    result.filesChecked++;
-    const exercises = loadJSON(join(args.dataDir, 'exercises.json'));
-    validateExercises(exercises, result, areaIds, themeIds);
+        result.filesChecked++;
+        validateExercises(loadJSON(join(args.dataDir, 'exercises.json')), result, areaIds, themeIds);
+    }
+
+    // Every app: this is where the shipped content lives.
+    const appIds = args.app ? [args.app] : listAppIds(rootDir);
+    for (const appId of appIds) {
+        log.info(`Checking app '${appId}'...`);
+        result.filesChecked++;
+        const { errors, warnings } = validateAppDir(rootDir, appId, args.configDir);
+        errors.forEach((e) => result.addError(e.file, e.path, e.message));
+        warnings.forEach((w) => result.addWarning(w.file, w.path, w.message));
+    }
+
+    if (args.coverage) printCoverage(appIds);
 
     // Print results
     printResults(result, args.strict);

@@ -1,315 +1,98 @@
 /**
- * Teacher PIN entry page.
- * 
- * Allows teachers to enter their PIN to access the teacher dashboard.
- * PIN is verified against the stored teacher PIN in localStorage.
+ * Teacher PIN page.
+ *
+ * Creates the teacher PIN on first use and asks for it afterwards. The PIN is a
+ * classroom lock that keeps children out of the teacher area. It is checked in
+ * the browser and is therefore not a security boundary (see appStore.ts).
  */
 
-import { useState, useRef, useEffect } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { ROUTES } from '@core/router';
-import { getStorageItem, setStorageItem } from '@core/storage/localStorage';
+import { useAppStore, selectHasTeacherPin } from '@core/stores';
+import { PinInput, PIN_LENGTH, type PinInputHandle } from '@core/components/teacher/PinInput';
 
-/**
- * Teacher PIN page component.
- */
+/** Remaining whole seconds until `lockedUntil`, re-evaluated every second. */
+function useLockCountdown(lockedUntil: number): number {
+    const [now, setNow] = useState(() => Date.now());
+
+    useEffect(() => {
+        if (lockedUntil <= Date.now()) return;
+        setNow(Date.now());
+        const timer = setInterval(() => {
+            setNow(Date.now());
+            if (Date.now() >= lockedUntil) clearInterval(timer);
+        }, 1000);
+        return () => clearInterval(timer);
+    }, [lockedUntil]);
+
+    return Math.max(0, Math.ceil((lockedUntil - now) / 1000));
+}
+
 export function TeacherPinPage() {
     const { t } = useTranslation();
     const navigate = useNavigate();
-    const [pin, setPin] = useState<string[]>(['', '', '', '']);
+    const hasPin = useAppStore(selectHasTeacherPin);
+    const lockedUntil = useAppStore((s) => s.teacherAuth.lockedUntil);
+    const verifyPin = useAppStore((s) => s.verifyPin);
+    const setTeacherPin = useAppStore((s) => s.setTeacherPin);
+    const lockSeconds = useLockCountdown(lockedUntil);
+
+    // The page shows the setup form only if no PIN existed when it opened.
+    const [isSetup] = useState(!hasPin);
+    const [pin, setPin] = useState('');
+    const [newPin, setNewPin] = useState('');
+    const [confirmPin, setConfirmPin] = useState('');
     const [error, setError] = useState<string | null>(null);
-    const [isLoading, setIsLoading] = useState(false);
-    const [isSettingPin, setIsSettingPin] = useState(false);
-    const [newPin, setNewPin] = useState<string[]>(['', '', '', '']);
-    const [confirmPin, setConfirmPin] = useState<string[]>(['', '', '', '']);
-    const inputRefs = useRef<(HTMLInputElement | null)[]>([]);
-    const newPinRefs = useRef<(HTMLInputElement | null)[]>([]);
-    const confirmPinRefs = useRef<(HTMLInputElement | null)[]>([]);
 
-    // Check if PIN is already set
-    useEffect(() => {
-        const storedPin = getStorageItem('app:teacherPin');
-        setIsSettingPin(!storedPin);
-    }, []);
+    const loginRef = useRef<PinInputHandle>(null);
+    const newRef = useRef<PinInputHandle>(null);
+    const confirmRef = useRef<PinInputHandle>(null);
 
-    // Focus first input on mount - conditional based on mode
     useEffect(() => {
-        if (isSettingPin) {
-            // Focus first new PIN input when setting up
-            newPinRefs.current[0]?.focus();
+        (isSetup ? newRef : loginRef).current?.focus();
+    }, [isSetup]);
+
+    const isLocked = lockSeconds > 0;
+
+    useEffect(() => {
+        if (!isLocked) loginRef.current?.focus();
+    }, [isLocked]);
+
+    const handleLogin = (entered: string) => {
+        const result = verifyPin(entered);
+        if (result.status === 'ok') {
+            navigate(ROUTES.TEACHER_DASHBOARD, { replace: true });
+            return;
+        }
+        setPin('');
+        if (result.status === 'locked') {
+            setError(null);
+        } else if (result.status === 'wrong') {
+            setError(t('teacher.wrongPinAttempts', { count: result.attemptsLeft, defaultValue: 'Incorrect PIN. Attempts left: {{count}}' }));
+            loginRef.current?.focus();
         } else {
-            // Focus first login PIN input when logging in
-            inputRefs.current[0]?.focus();
-        }
-    }, [isSettingPin]);
-
-    /**
-     * Handle PIN digit input.
-     */
-    const handlePinChange = (index: number, value: string) => {
-        if (!/^\d*$/.test(value)) return;
-
-        const newPinArray = [...pin];
-        newPinArray[index] = value.slice(-1);
-        setPin(newPinArray);
-        setError(null);
-
-        // Move to next input - use setTimeout to ensure state update completes
-        if (newPinArray[index] && index < 3) {
-            setTimeout(() => {
-                inputRefs.current[index + 1]?.focus();
-            }, 0);
-        }
-
-        // Auto-submit when 4 digits entered
-        if (newPinArray.every((d) => d) && !isSettingPin) {
-            handleSubmit(newPinArray.join(''));
+            setError(t('teacher.wrongPin', 'Incorrect PIN. Please try again.'));
         }
     };
 
-    /**
-     * Handle new PIN setup change.
-     * Auto-advances within the 4 digits, and jumps to confirm field when all 4 digits entered.
-     */
-    const handleNewPinChange = (index: number, value: string) => {
-        if (!/^\d*$/.test(value)) return;
-
-        const newPinArray = [...newPin];
-        newPinArray[index] = value.slice(-1);
-        setNewPin(newPinArray);
-        setError(null);
-
-        // Auto-advance within the 4 digits - use setTimeout to ensure state update completes
-        if (newPinArray[index] && index < 3) {
-            setTimeout(() => {
-                newPinRefs.current[index + 1]?.focus();
-            }, 0);
+    const handleSetup = (confirmed: string) => {
+        if (confirmed !== newPin) {
+            setError(t('teacher.pinMismatch', 'PINs do not match. Please try again.'));
+            setNewPin('');
+            setConfirmPin('');
+            newRef.current?.focus();
+            return;
         }
-
-        // Auto-jump to confirm field when 4 digits entered
-        if (newPinArray.every((d) => d)) {
-            setTimeout(() => {
-                confirmPinRefs.current[0]?.focus();
-            }, 0);
+        if (!setTeacherPin(confirmed)) {
+            setError(t('teacher.pinLength', 'PIN must be 4 digits.'));
+            return;
         }
+        navigate(ROUTES.TEACHER_DASHBOARD, { replace: true });
     };
 
-    /**
-     * Handle confirm PIN change.
-     * Auto-advances within the 4 digits.
-     */
-    const handleConfirmPinChange = (index: number, value: string) => {
-        if (!/^\d*$/.test(value)) return;
-
-        const confirmPinArray = [...confirmPin];
-        confirmPinArray[index] = value.slice(-1);
-        setConfirmPin(confirmPinArray);
-        setError(null);
-
-        // Auto-advance within the 4 digits - use setTimeout to ensure state update completes
-        if (confirmPinArray[index] && index < 3) {
-            setTimeout(() => {
-                confirmPinRefs.current[index + 1]?.focus();
-            }, 0);
-        }
-
-        // Auto-submit when 4 digits entered
-        if (confirmPinArray.every((d) => d) && isSettingPin) {
-            handleSetupPin(confirmPinArray.join(''));
-        }
-    };
-
-    /**
-     * Handle key press for navigation in login PIN.
-     */
-    const handleKeyDown = (
-        index: number,
-        e: React.KeyboardEvent<HTMLInputElement>,
-    ) => {
-        if (e.key === 'Backspace' && index > 0) {
-            inputRefs.current[index - 1]?.focus();
-        }
-    };
-
-    /**
-     * Handle key press for navigation in new PIN.
-     */
-    const handleNewPinKeyDown = (
-        index: number,
-        e: React.KeyboardEvent<HTMLInputElement>,
-    ) => {
-        if (e.key === 'Backspace' && index > 0) {
-            newPinRefs.current[index - 1]?.focus();
-        }
-    };
-
-    /**
-     * Handle key press for navigation in confirm PIN.
-     */
-    const handleConfirmPinKeyDown = (
-        index: number,
-        e: React.KeyboardEvent<HTMLInputElement>,
-    ) => {
-        if (e.key === 'Backspace' && index > 0) {
-            confirmPinRefs.current[index - 1]?.focus();
-        }
-    };
-
-    /**
-     * Verify the entered PIN.
-     */
-    const handleSubmit = async (enteredPin: string) => {
-        setIsLoading(true);
-        setError(null);
-
-        try {
-            const storedPin = getStorageItem('app:teacherPin');
-
-            if (storedPin === enteredPin) {
-                navigate(ROUTES.TEACHER_DASHBOARD);
-            } else {
-                setError(t('teacher.wrongPin', 'Incorrect PIN. Please try again.'));
-                setPin(['', '', '', '']);
-                inputRefs.current[0]?.focus();
-            }
-        } finally {
-            setIsLoading(false);
-        }
-    };
-
-    /**
-     * Set up a new PIN.
-     */
-    const handleSetupPin = async (confirmedPin: string) => {
-        setIsLoading(true);
-        setError(null);
-
-        try {
-            // First check if new PIN matches
-            const enteredNewPin = newPin.join('');
-            const confirmed = confirmedPin;
-
-            if (enteredNewPin !== confirmed) {
-                setError(t('teacher.pinMismatch', 'PINs do not match. Please try again.'));
-                setNewPin(['', '', '', '']);
-                setConfirmPin(['', '', '', '']);
-                inputRefs.current[0]?.focus();
-                return;
-            }
-
-            // Validate PIN length
-            if (enteredNewPin.length !== 4) {
-                setError(t('teacher.pinLength', 'PIN must be 4 digits.'));
-                return;
-            }
-
-            // Save the PIN
-            setStorageItem('app:teacherPin', enteredNewPin);
-            setStorageItem('app:teacherPinEnabled', true);
-
-            // Navigate to dashboard
-            navigate(ROUTES.TEACHER_DASHBOARD);
-        } finally {
-            setIsLoading(false);
-        }
-    };
-
-    /**
-     * Render PIN input digits for login.
-     */
-    const renderPinInputs = (
-        value: string[],
-        onChange: (index: number, value: string) => void,
-        disabled: boolean
-    ) => {
-        return (
-            <div className="flex justify-center gap-3" role="group" aria-label={t('teacher.pinInput', 'PIN input')}>
-                {value.map((digit, index) => (
-                    <input
-                        key={index}
-                        ref={(el) => {
-                            inputRefs.current[index] = el;
-                        }}
-                        type="password"
-                        inputMode="numeric"
-                        maxLength={1}
-                        value={digit}
-                        onChange={(e) => onChange(index, e.target.value)}
-                        onKeyDown={(e) => handleKeyDown(index, e)}
-                        disabled={disabled}
-                        className="w-16 h-16 text-center text-2xl font-bold border-2 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
-                        aria-label={`${t('common.digit', 'Digit')} ${index + 1}`}
-                        autoComplete="one-time-code"
-                    />
-                ))}
-            </div>
-        );
-    };
-
-    /**
-     * Render PIN input digits for setup (new PIN).
-     */
-    const renderNewPinInputs = (
-        value: string[],
-        onChange: (index: number, value: string) => void,
-        disabled: boolean
-    ) => {
-        return (
-            <div className="flex justify-center gap-3" role="group" aria-label={t('teacher.newPinInput', 'New PIN input')}>
-                {value.map((digit, index) => (
-                    <input
-                        key={index}
-                        ref={(el) => {
-                            newPinRefs.current[index] = el;
-                        }}
-                        type="password"
-                        inputMode="numeric"
-                        maxLength={1}
-                        value={digit}
-                        onChange={(e) => onChange(index, e.target.value)}
-                        onKeyDown={(e) => handleNewPinKeyDown(index, e)}
-                        disabled={disabled}
-                        className="w-16 h-16 text-center text-2xl font-bold border-2 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
-                        aria-label={`${t('common.digit', 'Digit')} ${index + 1}`}
-                        autoComplete="one-time-code"
-                    />
-                ))}
-            </div>
-        );
-    };
-
-    /**
-     * Render PIN input digits for setup (confirm PIN).
-     */
-    const renderConfirmPinInputs = (
-        value: string[],
-        onChange: (index: number, value: string) => void,
-        disabled: boolean
-    ) => {
-        return (
-            <div className="flex justify-center gap-3" role="group" aria-label={t('teacher.confirmPinInput', 'Confirm PIN input')}>
-                {value.map((digit, index) => (
-                    <input
-                        key={index}
-                        ref={(el) => {
-                            confirmPinRefs.current[index] = el;
-                        }}
-                        type="password"
-                        inputMode="numeric"
-                        maxLength={1}
-                        value={digit}
-                        onChange={(e) => onChange(index, e.target.value)}
-                        onKeyDown={(e) => handleConfirmPinKeyDown(index, e)}
-                        disabled={disabled}
-                        className="w-16 h-16 text-center text-2xl font-bold border-2 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
-                        aria-label={`${t('common.digit', 'Digit')} ${index + 1}`}
-                        autoComplete="one-time-code"
-                    />
-                ))}
-            </div>
-        );
-    };
+    const digitLabel = t('common.digit', 'Digit');
 
     return (
         <div
@@ -318,27 +101,33 @@ export function TeacherPinPage() {
             aria-labelledby="teacher-title"
         >
             <div className="w-full max-w-md">
-                {/* Header */}
                 <div className="text-center mb-8">
                     <span className="text-6xl mb-4 block" role="img" aria-label={t('teacher.teacher', 'Teacher')}>
                         👩‍🏫
                     </span>
                     <h1 id="teacher-title" className="text-2xl font-bold text-gray-900 mb-2">
-                        {isSettingPin ? t('teacher.pinSetup', 'Create PIN') : t('teacher.pinTitle', 'Teacher Login')}
+                        {isSetup ? t('teacher.pinSetup', 'Create PIN') : t('teacher.pinTitle', 'Teacher Login')}
                     </h1>
                     <p className="text-gray-600">
-                        {isSettingPin
+                        {isSetup
                             ? t('teacher.pinSetupHint', 'Create a 4-digit PIN to protect the teacher area')
                             : t('teacher.pinSubtitle', 'Enter your PIN to access the teacher area')}
                     </p>
                 </div>
 
-                {/* Error Message */}
-                {error && (
-                    <div
-                        className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg"
-                        role="alert"
-                    >
+                {isLocked && !isSetup && (
+                    <div className="mb-6 p-4 bg-amber-50 border border-amber-200 rounded-lg" role="alert">
+                        <span className="text-sm text-amber-800">
+                            {t('teacher.locked', {
+                                count: lockSeconds,
+                                defaultValue: 'Too many wrong attempts. Try again in {{count}} s.',
+                            })}
+                        </span>
+                    </div>
+                )}
+
+                {error && !isLocked && (
+                    <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg" role="alert">
                         <div className="flex items-center gap-2">
                             <span className="text-red-600">⚠️</span>
                             <span className="text-sm text-red-700">{error}</span>
@@ -346,47 +135,56 @@ export function TeacherPinPage() {
                     </div>
                 )}
 
-                {/* PIN Entry Form */}
-                {!isSettingPin ? (
-                    <form
-                        onSubmit={(e) => {
-                            e.preventDefault();
-                            handleSubmit(pin.join(''));
-                        }}
-                        className="space-y-6"
-                    >
-                        {renderPinInputs(pin, handlePinChange, isLoading)}
-
-                        <button
-                            type="submit"
-                            disabled={!pin.every((d) => d) || isLoading}
-                            className="w-full py-3 px-4 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed"
-                        >
-                            {isLoading ? t('common.loading', 'Loading...') : t('teacher.login', 'Login')}
-                        </button>
-                    </form>
-                ) : (
-                    /* PIN Setup Form */
+                {isSetup ? (
                     <div className="space-y-8">
-                        {/* New PIN */}
                         <div>
-                            <label className="block text-sm font-medium text-gray-700 mb-3 text-center">
+                            <p className="block text-sm font-medium text-gray-700 mb-3 text-center">
                                 {t('teacher.newPin', 'Enter new PIN')}
-                            </label>
-                            {renderNewPinInputs(newPin, handleNewPinChange, isLoading)}
+                            </p>
+                            <PinInput
+                                ref={newRef}
+                                value={newPin}
+                                onChange={(v) => { setNewPin(v); setError(null); }}
+                                onComplete={() => confirmRef.current?.focus()}
+                                label={t('teacher.newPinInput', 'New PIN input')}
+                                digitLabel={digitLabel}
+                            />
                         </div>
-
-                        {/* Confirm PIN */}
                         <div>
-                            <label className="block text-sm font-medium text-gray-700 mb-3 text-center">
+                            <p className="block text-sm font-medium text-gray-700 mb-3 text-center">
                                 {t('teacher.confirmPin', 'Confirm PIN')}
-                            </label>
-                            {renderConfirmPinInputs(confirmPin, handleConfirmPinChange, isLoading)}
+                            </p>
+                            <PinInput
+                                ref={confirmRef}
+                                value={confirmPin}
+                                onChange={(v) => { setConfirmPin(v); setError(null); }}
+                                onComplete={handleSetup}
+                                label={t('teacher.confirmPinInput', 'Confirm PIN input')}
+                                digitLabel={digitLabel}
+                                disabled={newPin.length < PIN_LENGTH}
+                            />
                         </div>
+                        <p className="text-xs text-gray-500 text-center">
+                            {t('teacher.pinNotice', 'The PIN only keeps children out of this area. It is stored on this device and does not replace access control.')}
+                        </p>
+                    </div>
+                ) : (
+                    <div className="space-y-6">
+                        <PinInput
+                            ref={loginRef}
+                            value={pin}
+                            onChange={(v) => { setPin(v); setError(null); }}
+                            onComplete={handleLogin}
+                            label={t('teacher.pinInput', 'PIN input')}
+                            digitLabel={digitLabel}
+                            disabled={isLocked}
+                        />
+                        <p className="text-xs text-gray-500 text-center">
+                            {t('teacher.pinForgotten', 'Forgot the PIN? Clearing the browser data of this app removes it (and the saved progress).')}
+                        </p>
                     </div>
                 )}
 
-                {/* Back to Home */}
                 <div className="mt-8 text-center">
                     <button
                         onClick={() => navigate(ROUTES.HOME)}

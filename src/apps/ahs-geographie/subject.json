@@ -4,7 +4,7 @@
     "description": "Lerne Geographie für die AHS Unterstufe - Erde, Klima, Wirtschaft und Europa",
     "targetAudience": "Schülerinnen und Schüler der AHS Unterstufe (10-14 Jahre)",
     "primarySkillArea": "geography",
-    "enabledExerciseTypes": ["multiple-choice", "fill-blank"],
+    "enabledExerciseTypes": ["multiple-choice", "fill-blank", "matching", "sorting"],
     "exerciseTypeConfig": {
         "multiple-choice": {"hintsEnabled": false, "maxAttempts": 1},
         "fill-blank": {"hintsEnabled": true, "maxAttempts": 3}

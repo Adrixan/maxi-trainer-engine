@@ -5,6 +5,7 @@
  */
 
 import type { Streak } from '@/types/gamification';
+import { daysBetweenKeys, localDateKey } from '@core/utils/date';
 
 // ============================================================================
 // Types
@@ -38,16 +39,9 @@ export interface StreakResult {
  * @returns Streak update result
  */
 export function updateStreak(currentStreak: number, lastActivity: Date): StreakResult {
-    const today = new Date();
-    today.setHours(0, 0, 0, 0);
-
-    const lastActive = new Date(lastActivity);
-    lastActive.setHours(0, 0, 0, 0);
-
-    const diffTime = today.getTime() - lastActive.getTime();
-    const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
-
-    const todayStr = today.toISOString().split('T')[0] ?? '';
+    const todayStr = localDateKey();
+    // Calendar-day difference (a plain ms/24h division breaks on DST changes)
+    const diffDays = daysBetweenKeys(localDateKey(lastActivity), todayStr);
 
     // Same day - no change
     if (diffDays === 0) {
@@ -89,8 +83,7 @@ export function updateStreak(currentStreak: number, lastActivity: Date): StreakR
  * @returns Whether the streak is at risk
  */
 export function isStreakAtRisk(lastActiveDate: string): boolean {
-    const today = new Date().toISOString().split('T')[0];
-    return lastActiveDate !== today;
+    return lastActiveDate !== localDateKey();
 }
 
 /**

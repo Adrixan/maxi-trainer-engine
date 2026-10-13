@@ -9,6 +9,8 @@
 
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
+import { adoptLegacyStore, scopedStoreName } from '@core/appId';
+import { generateId } from '@core/utils/id';
 import {
     exportSaveGame,
     importSaveGame,
@@ -38,6 +40,7 @@ import type {
     ThemeId,
     ThemeProgress,
 } from '@/types';
+import { addDays, localDateKey } from '@core/utils/date';
 
 // ============================================================================
 // Constants (imported from profileConstants.ts)
@@ -59,8 +62,11 @@ export interface ProfileState {
     // Actions
     /** Set the active profile */
     setActiveProfile: (profile: UserProfile | null) => void;
-    /** Create a new profile with nickname and avatar */
-    createProfile: (nickname: string, avatarId: string) => UserProfile;
+    /**
+     * Create a new profile with nickname and avatar.
+     * `areaIds` are the observation areas of the running app; each starts at level 1.
+     */
+    createProfile: (nickname: string, avatarId: string, areaIds?: readonly string[]) => UserProfile;
     /** Update the nickname */
     setNickname: (nickname: string) => void;
     /** Update the avatar */
@@ -91,18 +97,14 @@ export interface ProfileState {
 // Store
 // ============================================================================
 
+// Persisted per app (see appId.ts)
+adoptLegacyStore('profile');
+
 /**
- * Create initial levels for all observation areas.
+ * Create initial levels: every observation area of the app starts at level 1.
  */
-function createInitialLevels(): Record<ObservationAreaId, number> {
-    return {
-        'woerter-und-saetze': 1,
-        'klaenge-und-silben': 1,
-        'kommunikation': 1,
-        'textkompetenz': 1,
-        'sprachbetrachtung': 1,
-        'rechtschreibung': 1,
-    };
+function createInitialLevels(areaIds: readonly string[]): Record<ObservationAreaId, number> {
+    return Object.fromEntries(areaIds.map((id) => [id, 1]));
 }
 
 /**
@@ -117,13 +119,13 @@ export const useProfileStore = create<ProfileState>()(
 
             setActiveProfile: (profile) => set({ activeProfile: profile }),
 
-            createProfile: (nickname, avatarId) => {
+            createProfile: (nickname, avatarId, areaIds = []) => {
                 const profile: UserProfile = {
-                    id: crypto.randomUUID(),
+                    id: generateId(),
                     nickname: nickname.trim(),
                     avatarId,
                     createdAt: new Date().toISOString(),
-                    currentLevels: createInitialLevels(),
+                    currentLevels: createInitialLevels(areaIds),
                     totalStars: 0,
                     currentStreak: 0,
                     longestStreak: 0,
@@ -191,16 +193,14 @@ export const useProfileStore = create<ProfileState>()(
             incrementStreak: () =>
                 set((state) => {
                     if (!state.activeProfile) return state;
-                    const today = new Date().toISOString().split('T')[0] ?? '';
+                    const today = localDateKey();
                     const lastActive = state.activeProfile.lastActiveDate;
 
                     // If already active today, no change
                     if (lastActive === today) return state;
 
                     // Check if yesterday
-                    const yesterday = new Date();
-                    yesterday.setDate(yesterday.getDate() - 1);
-                    const yesterdayStr = yesterday.toISOString().split('T')[0] ?? '';
+                    const yesterdayStr = localDateKey(addDays(new Date(), -1));
 
                     const newStreak = lastActive === yesterdayStr
                         ? state.activeProfile.currentStreak + 1
@@ -291,7 +291,7 @@ export const useProfileStore = create<ProfileState>()(
             },
         }),
         {
-            name: 'maxi-trainer-profile',
+            name: scopedStoreName('profile'),
             version: 1,
             onRehydrateStorage: () => (_state) => {
                 // Profile rehydration complete

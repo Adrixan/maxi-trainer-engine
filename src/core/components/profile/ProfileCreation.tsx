@@ -13,6 +13,7 @@ import {
     MAX_NICKNAME_LENGTH,
     parseSaveGameFile,
 } from '@core/stores';
+import { useAreas } from '@core/config';
 
 /**
  * Profile creation component.
@@ -22,6 +23,7 @@ export function ProfileCreation() {
     const { t } = useTranslation();
     const createProfile = useProfileStore((state) => state.createProfile);
     const importSaveGame = useProfileStore((state) => state.importSaveGame);
+    const areas = useAreas();
 
     const [nickname, setNickname] = useState('');
     const [selectedAvatar, setSelectedAvatar] = useState<string | null>(null);
@@ -46,8 +48,8 @@ export function ProfileCreation() {
 
     const handleCreateProfile = useCallback(() => {
         if (!isValid || !selectedAvatar) return;
-        createProfile(trimmedNickname, selectedAvatar);
-    }, [createProfile, trimmedNickname, selectedAvatar, isValid]);
+        createProfile(trimmedNickname, selectedAvatar, areas.map((area) => area.id));
+    }, [createProfile, areas, trimmedNickname, selectedAvatar, isValid]);
 
     const handleFileSelect = useCallback(async (e: React.ChangeEvent<HTMLInputElement>) => {
         const file = e.target.files?.[0];
@@ -90,7 +92,7 @@ export function ProfileCreation() {
                 id="profile-creation-title"
                 className="text-3xl font-bold text-gray-900 mb-2"
             >
-                {t('app.title', 'Maxi Trainer')}
+                {t('app.title', __TRAINER__.engineName)}
             </h1>
             <p className="text-gray-600 mb-8 text-center max-w-md">
                 {t('profile.createSubtitle', 'Create your profile to start learning')}

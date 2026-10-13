@@ -37,3 +37,4 @@ export type { UseExercisePageStateReturn } from './useExercisePageState';
 // Sound effects hook
 export { useSoundEffects } from './useSoundEffects';
 export type { UseSoundEffectsReturn } from './useSoundEffects';
+export { useDocumentSettings } from './useDocumentSettings';

@@ -1482,14 +1482,9 @@
         "type": "fill-blank",
         "sentence": "Bei einer Skizze ist es wichtig, die {{blank}} des Gegenstands richtig darzustellen.",
         "correctAnswer": "Proportionen",
-        "acceptableAnswers": [
-          "Proportionen",
-          "Verhältnisse"
-        ]
+        "acceptableAnswers": ["Verhältnisse"]
       },
-      "hints": [
-        "Größenverhältnisse"
-      ],
+      "hints": ["Größenverhältnisse"],
       "feedbackCorrect": "Richtig! Proportionen!",
       "feedbackIncorrect": "Die Proportionen (Größenverhältnisse) müssen bei einer Skizze stimmen."
     },
@@ -2147,13 +2142,9 @@
         "type": "fill-blank",
         "sentence": "Kraft mal Kraftarm ist gleich Last mal {{blank}}.",
         "correctAnswer": "Lastarm",
-        "acceptableAnswers": [
-          "Lastarm"
-        ]
+        "acceptableAnswers": []
       },
-      "hints": [
-        "Gleichgewicht"
-      ],
+      "hints": ["Gleichgewicht"],
       "feedbackCorrect": "Richtig! Lastarm!",
       "feedbackIncorrect": "Das Hebelgesetz: Kraft × Kraftarm = Last × Lastarm."
     },

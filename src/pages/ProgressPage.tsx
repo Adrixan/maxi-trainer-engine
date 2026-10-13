@@ -15,6 +15,7 @@ import { useProfileStore, selectActiveProfile } from '@core/stores/profileStore'
 import { getAllExerciseResults } from '@core/storage';
 import { useThemes, useAreas } from '@core/config';
 import type { ExerciseResult, ThemeId, ObservationAreaId } from '@/types';
+import { addDays, localDateKey, localDateKeyOf } from '@core/utils/date';
 
 // ============================================================================
 // Types
@@ -133,9 +134,7 @@ export function ProgressPage() {
         // Initialize last 30 days
         const today = new Date();
         for (let i = 29; i >= 0; i--) {
-            const date = new Date(today);
-            date.setDate(date.getDate() - i);
-            const dateStr = date.toISOString().split('T')[0];
+            const dateStr = localDateKey(addDays(today, -i));
             if (dateStr) {
                 dayMap.set(dateStr, {
                     date: dateStr,
@@ -149,7 +148,7 @@ export function ProgressPage() {
 
         // Aggregate results by day
         for (const result of results) {
-            const dateStr = result.completedAt.split('T')[0];
+            const dateStr = localDateKeyOf(result.completedAt);
             if (!dateStr) continue;
             const dayData = dayMap.get(dateStr);
             if (dayData) {
@@ -297,18 +296,15 @@ export function ProgressPage() {
         const today = new Date();
 
         for (let w = 3; w >= 0; w--) {
-            const weekEnd = new Date(today);
-            weekEnd.setDate(weekEnd.getDate() - w * 7);
-            const weekStart = new Date(weekEnd);
-            weekStart.setDate(weekStart.getDate() - 7);
+            const weekEnd = addDays(today, -w * 7);
+            const weekStart = addDays(weekEnd, -7);
 
-            const startStr = weekStart.toISOString().split('T')[0] ?? '';
-            const endStr = weekEnd.toISOString().split('T')[0] ?? '';
+            const startStr = localDateKey(weekStart);
+            const endStr = localDateKey(weekEnd);
 
             const weekResults = results.filter(r => {
-                const dateParts = r.completedAt.split('T');
-                const dateStr = dateParts[0];
-                return dateStr && dateStr >= startStr && dateStr <= endStr;
+                const dateStr = localDateKeyOf(r.completedAt);
+                return dateStr !== '' && dateStr >= startStr && dateStr <= endStr;
             });
 
             const correctCount = weekResults.filter(r => r.correct).length;

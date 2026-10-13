@@ -10,10 +10,16 @@
         "loading": "Loading...",
         "error": "An error occurred",
         "retry": "Try again",
-        "or": "or"
+        "or": "or",
+        "createProfile": "Create profile",
+        "digit": "Digit",
+        "goHome": "Go home",
+        "home": "Home",
+        "warning": "Warning",
+        "back": "Back"
     },
     "app": {
-        "title": "Maxi Trainer"
+        "title": "Trainer"
     },
     "home": {
         "welcome": "Welcome",
@@ -36,7 +42,9 @@
         "selectFile": "Select save file",
         "fileHelp": "Select a previously exported save game file (.json)",
         "fileValid": "Valid save file selected",
-        "loadConfirm": "Load Game"
+        "loadConfirm": "Load Game",
+        "badges": "Badges",
+        "dailyChallenge": "Daily challenge"
     },
     "progress": {
         "title": "Progress",
@@ -80,7 +88,8 @@
         "stars": "Stars",
         "streak": "Streak",
         "totalStars": "Total Stars",
-        "dayStreak": "Day Streak"
+        "dayStreak": "Day Streak",
+        "level": "Level"
     },
     "exercise": {
         "title": "Exercise",
@@ -107,7 +116,8 @@
         "levelFailed": "Level Failed",
         "levelFailedDescription": "You've used all 3 attempts. You need to restart from the beginning.",
         "restartLevel": "Restart Level",
-        "exitLevel": "Exit"
+        "exitLevel": "Exit",
+        "progressAria": "Exercise {{current}} of {{total}}"
     },
     "profile": {
         "title": "Profile",
@@ -181,12 +191,16 @@
     "badges": {
         "title": "Badges",
         "earned": "Earned",
-        "locked": "Not yet earned"
+        "locked": "Not yet earned",
+        "gallery": "Badge gallery",
+        "noProfile": "Please create a profile to see badges.",
+        "progress": "{{earned}} of {{total}} badges unlocked",
+        "recent": "Recently earned"
     },
     "theme": {
         "title": "Choose a Theme",
         "subtitle": "Select a theme to practice. Complete exercises to earn stars and unlock new themes!",
-        "vocabularyLevel": "Level",
+        "vocabularyLevel": "Vocabulary Level",
         "levelLabel": "Level {{level}}",
         "themeList": "Available themes",
         "selectTheme": "Select {{name}} theme",
@@ -247,7 +261,10 @@
         "badgeEarned": "Badge earned!",
         "continue": "Continue",
         "starsEarned": "Stars earned",
-        "newBadge": "New badge!"
+        "newBadge": "New badge!",
+        "totalStars": "{{count}} stars earned",
+        "currentStreak": "{{count}} day streak",
+        "currentLevel": "Level {{level}}"
     },
     "accessibility": {
         "title": "Accessibility",
@@ -263,9 +280,14 @@
         "soundDesc": "Enable or disable sound effects",
         "screenReaderNote": "Screen Reader Information",
         "screenReaderInfo": "This application is designed for use with screen readers. Use Tab to navigate between controls and Enter or Space to activate buttons.",
-        "themeDefault": "Light",
-        "themeNoir": "Noir (Dark)",
-        "theme": "Theme"
+        "theme": "Theme",
+        "themeOptions": {
+            "default": "Light",
+            "noir": "Noir (Dark)"
+        },
+        "skipToContent": "Skip to main content",
+        "soundOff": "Turn sound off",
+        "soundOn": "Turn sound on"
     },
     "levelTitles": {
         "beginner": "Beginner",
@@ -323,7 +345,11 @@
             "dragOrTap": "Drag or tap to assign words",
             "allSorted": "All assigned",
             "categories": "Categories",
-            "correctSorting": "Correct assignment!"
+            "correctSorting": "Correct assignment!",
+            "dropHere": "Drop here",
+            "selected": "selected",
+            "wrongCategory": "wrong group",
+            "category": "Group {{name}}"
         },
         "pictureVocabulary": {
             "whatIsThis": "What is this?",
@@ -366,7 +392,8 @@
         "sentenceBuilder": {
             "instruction": "Build a meaningful sentence from the words",
             "yourSentence": "Your sentence:",
-            "selectWord": "Select words"
+            "selectWord": "Select words",
+            "possibleSentences": "Possible sentences:"
         }
     },
     "teacher": {
@@ -421,7 +448,35 @@
         "resetConfirmTitle": "Reset Progress?",
         "resetConfirmMessage": "This will permanently delete all exercise results for this student. This action cannot be undone.",
         "noExercises": "No exercises completed yet",
-        "dashboardSections": "Dashboard sections"
+        "dashboardSections": "Dashboard sections",
+        "login": "Login",
+        "wrongPinAttempts": "Incorrect PIN. Attempts left: {{count}}",
+        "locked": "Too many wrong attempts. Try again in {{count}} s.",
+        "pinLength": "PIN must be 4 digits.",
+        "pinNotice": "The PIN only keeps children out of this area. It is stored on this device and does not replace access control.",
+        "pinForgotten": "Forgot the PIN? Clearing the browser data of this app removes it (and the saved progress).",
+        "newPinInput": "New PIN",
+        "confirmPinInput": "Confirm PIN",
+        "pinInput": "PIN input",
+        "teacher": "Teacher",
+        "actions": "Actions",
+        "avgStreak": "Avg. streak",
+        "dashboardSubtitle": "Manage student progress",
+        "noStudents": "No students found",
+        "noStudentsHint": "Students appear here after they create profiles",
+        "reset": "Reset",
+        "resetWarning": "Really reset this student's progress? This cannot be undone.",
+        "stars": "Stars",
+        "student": "Student",
+        "studentList": "Student list",
+        "students": "Students",
+        "totalStars": "Total stars",
+        "pinSuccess": "PIN set",
+        "wrongPin": "Incorrect PIN",
+        "newPin": "New PIN",
+        "confirmPin": "Confirm PIN",
+        "enterPin": "Enter PIN",
+        "enterNewPin": "Enter new PIN"
     },
     "areas": {
         "woerter-und-saetze": "Words and Sentences",
@@ -448,5 +503,30 @@
             "nichtGanz": "Not quite.",
             "versuchsNochmal": "Try again!"
         }
+    },
+    "dailyChallenge": {
+        "bonus": "Bonus stars",
+        "bonusCompleted": "Bonus completed! +{{stars}} stars",
+        "bonusDesc": "Do more exercises for 3 extra stars!",
+        "bonusTitle": "Bonus challenge!",
+        "comeBack": "Come back tomorrow for a new challenge!",
+        "completed": "Mastered for today!",
+        "completedStars": "You earned {{stars}} stars today!",
+        "date": "Date",
+        "description": "Take on 5 exercises from different themes. Earn 5 bonus stars!",
+        "exercises": "Exercises",
+        "noProfile": "Please create a profile to take part in the daily challenge.",
+        "start": "Start now",
+        "startBonus": "Start bonus",
+        "subtitle": "Daily challenge",
+        "title": "Daily challenge"
+    },
+    "error": {
+        "component": "Component",
+        "navigation": "Navigation error",
+        "navigationMessage": "We couldn't load this page. Please go back to the start page.",
+        "retry": "Try again",
+        "title": "Something went wrong",
+        "unknown": "An unexpected error occurred"
     }
 }

@@ -1,0 +1,41 @@
+{
+    "engineName": "Maxi Trainer",
+    "defaultAppId": "ahs-deutsch",
+    "storePrefix": "maxi-trainer",
+    "language": "de",
+    "defaultTheme": "noir",
+    "themes": [
+        "default",
+        "noir"
+    ],
+    "avatars": [
+        "⭐",
+        "🔷",
+        "🔶",
+        "🟢",
+        "🔵",
+        "🟣",
+        "📚",
+        "✏️",
+        "🎓",
+        "🏅",
+        "💡",
+        "🔑"
+    ],
+    "i18n": {
+        "de": {
+            "app": {
+                "title": "Maxi Trainer"
+            },
+            "theme": {
+                "title": "Mission wählen",
+                "subtitle": "Wähle deine Herausforderung. Meistere Aufgaben, verdiene Sterne und schalte neue Missionen frei!"
+            }
+        },
+        "en": {
+            "app": {
+                "title": "Maxi Trainer"
+            }
+        }
+    }
+}

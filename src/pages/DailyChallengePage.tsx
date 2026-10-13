@@ -10,6 +10,7 @@ import { useState, useEffect, useCallback, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { ROUTES } from '@core/router';
+import { getAppId } from '@core/appId';
 import { useProfileStore, selectActiveProfile } from '@core/stores/profileStore';
 
 export function DailyChallengePage() {
@@ -24,9 +25,9 @@ export function DailyChallengePage() {
     const [totalStars, setTotalStars] = useState(0);
     const [bonusStars, setBonusStars] = useState(0);
 
-    // Daily challenge storage keys
-    const DAILY_KEY = 'daily-challenge';
-    const BONUS_KEY = 'bonus-challenge';
+    // Daily challenge storage keys, scoped per app (several trainers can share one origin)
+    const DAILY_KEY = `mte:${getAppId()}:daily-challenge`;
+    const BONUS_KEY = `mte:${getAppId()}:bonus-challenge`;
 
     // Get today's date as a string
     const today = useMemo(() => {

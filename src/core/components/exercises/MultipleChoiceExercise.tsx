@@ -83,14 +83,16 @@ export function MultipleChoiceExercise({ content, hints, onSubmit, showSolution 
 
     return (
         <div className="space-y-4">
-            {/* Question */}
-            <div
-                className="bg-white rounded-xl shadow-sm p-4"
-                role="region"
-                aria-label={t('exercises.multipleChoice.question')}
-            >
-                <p className="text-lg font-bold text-gray-800">{content.question}</p>
-            </div>
+            {/* Question (omitted when the exercise instruction already carries it) */}
+            {content.question.trim() !== '' && (
+                <div
+                    className="bg-white rounded-xl shadow-sm p-4"
+                    role="region"
+                    aria-label={t('exercises.multipleChoice.question')}
+                >
+                    <p className="text-lg font-bold text-gray-800">{content.question}</p>
+                </div>
+            )}
 
             {/* Options */}
             <div

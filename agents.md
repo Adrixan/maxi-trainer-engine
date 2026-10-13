@@ -1,125 +1,25 @@
-# agents.md — GLM-5 Project Configuration
+# Project guide for coding agents
 
-This file configures GLM-5 behavior for this project. Place in project root.
+A configurable trainer engine for school learning apps (exercises, gamification, accessibility).
+Each app is a folder of JSON under `src/apps/<id>`; the engine in `src/core` does not change per app.
+Variant-specific settings (name, default app, store prefix) live in `trainer.config.json`.
 
-## Project Context
+## Commands
 
-<!-- Describe your project here -->
-- **Type**: Web Application / API / CLI / Library
-- **Stack**: <!-- e.g., Python/FastAPI, Node/Express, Java/Spring -->
-- **Deployment**: <!-- e.g., Docker, Kubernetes, Serverless -->
+- `npm run dev -- --app <id>`: generate the app's files and start the dev server
+- `npm run build -- --app <id> [--pwa]`: build `dist/<id>` (USB, works from `file://`) or `dist/<id>-pwa`
+- `npm run build:all`: build every app as USB and PWA
+- `npm run validate`: validate the config and **every app's content** (schema in `scripts/lib/exercise-schema.mjs`)
+- `npm run lint`, `npm run typecheck`, `npm test`
 
-## Coding Standards
+CI runs all of the above plus `build:all`; run them before committing.
 
-### Language-Specific
+## Rules
 
-<!-- Uncomment and fill in as needed -->
-
-<!--
-#### Python
-- Version: 3.12+
-- Linter: Ruff
-- Type hints: mandatory
-- Testing: pytest
-
-#### TypeScript
-- Version: 5.6+
-- Strict mode: enabled
-- Testing: Vitest
-
-#### Java
-- Version: 21 LTS
-- Framework: Spring Boot 3.3+
-- Testing: JUnit 5 + AssertJ
-
-#### PHP
-- Version: 8.3+
-- Framework: Laravel 11 / Symfony 7
-- Strict types: `declare(strict_types=1);`
--->
-
-### General
-
-- Max function length: 50 lines
-- Max class length: 300 lines
-- Documentation: Public APIs must have docstrings
-- Commits: Conventional format (`feat:`, `fix:`, `docs:`, `refactor:`)
-
-## File Organization
-
-```
-src/
-├── api/           # API endpoints/routes
-├── services/      # Business logic
-├── models/        # Data models/entities
-├── repositories/  # Data access
-└── utils/         # Shared utilities
-
-tests/
-├── unit/          # Fast, isolated tests
-├── integration/   # Database/external services
-└── e2e/           # End-to-end flows
-```
-
-## Security Rules
-
-### Restricted Files
-
-GLM-5 MUST NOT read or modify:
-
-```
-.env
-.env.*
-credentials.json
-*.pem
-*.key
-secrets.*
-```
-
-### Required Checks
-
-- [ ] All inputs validated before processing
-- [ ] Parameterized queries for all database operations
-- [ ] No hardcoded secrets
-- [ ] Dependencies scanned for CVEs
-- [ ] Error messages sanitized for users
-
-## Testing Requirements
-
-- **Coverage**: 80% minimum for business logic
-- **Critical paths**: 100% (auth, payments, data mutations)
-- **Framework**: Project-specific (pytest, Jest, JUnit, PHPUnit)
-
-## Documentation
-
-- API endpoints: OpenAPI/Swagger spec
-- Complex logic: Inline comments explaining "why"
-- README: Setup, usage, deployment instructions
-
-## Deployment
-
-<!-- Customize for your deployment target -->
-
-### Docker
-
-- Base image: Use specific version tags (not `:latest`)
-- User: Non-root (e.g., `USER app`)
-- Health check: Required
-
-### Kubernetes
-
-- Resource limits: Required for all containers
-- Readiness/liveness probes: Required
-- Secrets: From Kubernetes Secrets or External Secrets Operator
-
-## Project-Specific Rules
-
-<!-- Add custom rules below -->
-
-1.
-2.
-3.
-
----
-
-*This file is loaded automatically by Kilo Code when present in project root.*
+- Content errors must fail `npm run validate`. When adding an exercise type or field, extend the schema and the TypeScript type together.
+- Dates for streaks and daily progress use the local calendar day (`src/core/utils/date.ts`), never `toISOString()`.
+- Persisted stores are scoped per app (`src/core/appId.ts`); do not add unscoped `localStorage` keys.
+- The teacher PIN is a classroom lock, not access control. Do not describe it as security.
+- `public/config`, `public/data` and `dist` are generated and untracked.
+- The bundle is an IIFE so it runs from `file://`; route-level code splitting does not apply.
+- Commits follow the Conventional Commits format (`feat:`, `fix:`, `refactor:`, ...).

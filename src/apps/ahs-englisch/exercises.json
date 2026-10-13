@@ -459,12 +459,11 @@
       "instruction": "Complete the sentence",
       "content": {
         "type": "fill-blank",
-        "sentence": "{{blank}}_ you ever {{blank}}_ (eat) sushi?",
-        "correctAnswer": "Have; eaten"
+        "sentence": "{{blank}} you ever eaten sushi?",
+        "correctAnswer": "Have",
+        "acceptableAnswers": []
       },
-      "hints": [
-        "Have + you + past participle"
-      ],
+      "hints": ["Have + you + past participle"],
       "feedbackCorrect": "Correct! Have you ever eaten!",
       "feedbackIncorrect": "Have you ever eaten? = Present Perfect"
     },

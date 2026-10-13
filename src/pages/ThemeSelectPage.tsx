@@ -68,8 +68,10 @@ export function ThemeSelectPage() {
     const location = useLocation();
 
     // Get themes, exercises, and app config
-    const themes = useThemes();
+    const allThemes = useThemes();
     const { getExercisesByTheme } = useConfig();
+    // A theme without exercises would open an empty screen and could never be completed
+    const themes = allThemes.filter((theme) => getExercisesByTheme(theme.id).length > 0);
     const appConfig = useAppConfig();
 
     // Get profile data

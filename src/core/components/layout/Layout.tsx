@@ -6,19 +6,24 @@
 
 import { Outlet } from 'react-router-dom';
 import { GameHeader } from './GameHeader';
-import { LiveRegionProvider } from '@core/components/accessibility';
+import { LiveRegionProvider, SkipToContent } from '@core/components/accessibility';
+import { useDocumentSettings } from '@core/hooks/useDocumentSettings';
 
 /**
  * Layout component that wraps all pages.
  * 
  * Includes:
+ * - Skip link for keyboard users
  * - GameHeader with gamification stats and audio toggle
  * - Main content area with proper accessibility attributes
  * - Live region for screen reader announcements
  */
 export function Layout() {
+    useDocumentSettings();
+
     return (
         <LiveRegionProvider>
+            <SkipToContent />
             <div className="min-h-screen bg-gray-50 flex flex-col">
                 {/* Persistent header */}
                 <GameHeader />

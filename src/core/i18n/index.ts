@@ -14,9 +14,27 @@ import en from './en.json';
  * Supported locales with their translations.
  */
 const resources = {
-    de: { translation: de },
-    en: { translation: en },
+    de: { translation: withOverrides(de, 'de') },
+    en: { translation: withOverrides(en, 'en') },
 } as const;
+
+/**
+ * Variant-specific translation overrides (trainer.config.json), deep-merged over the base translations.
+ */
+function withOverrides<T extends object>(base: T, locale: string): T {
+    const merge = (target: Record<string, unknown>, source: Record<string, unknown>): Record<string, unknown> => {
+        const result = { ...target };
+        for (const [key, value] of Object.entries(source)) {
+            const existing = result[key];
+            result[key] =
+                value && typeof value === 'object' && existing && typeof existing === 'object'
+                    ? merge(existing as Record<string, unknown>, value as Record<string, unknown>)
+                    : value;
+        }
+        return result;
+    };
+    return merge(base as Record<string, unknown>, __TRAINER__.i18n[locale] ?? {}) as T;
+}
 
 /**
  * Default locale.

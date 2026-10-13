@@ -32,6 +32,7 @@ import type { Badge } from '@/types/profile';
 import type { LevelProgress, Score } from '@/types/gamification';
 import type { BadgeDefinition } from '@/types/config';
 import { useGamificationNotifications } from './useGamificationNotifications';
+import { localDateKey } from '@core/utils/date';
 
 // ============================================================================
 // Types
@@ -378,7 +379,7 @@ export function useStreak(): {
         current: profile?.currentStreak ?? 0,
         longest: profile?.longestStreak ?? 0,
         lastActiveDate: profile?.lastActiveDate ?? '',
-        atRisk: profile ? profile.lastActiveDate !== new Date().toISOString().split('T')[0] : true,
+        atRisk: profile ? profile.lastActiveDate !== localDateKey() : true,
     }), [profile]);
 }
 

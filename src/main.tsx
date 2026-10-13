@@ -11,6 +11,7 @@ import '@core/i18n';
 import '@/index.css';
 import { createRouter } from '@core/router';
 import { ConfigProvider } from '@core/config';
+import { registerServiceWorker } from './registerServiceWorker';
 
 // Create the router instance
 const router = createRouter();
@@ -25,7 +26,9 @@ if (!rootElement) {
 createRoot(rootElement).render(
     <StrictMode>
         <ConfigProvider>
-            <RouterProvider router={router} />
+            <RouterProvider router={router} future={{ v7_startTransition: true }} />
         </ConfigProvider>
     </StrictMode>
 );
+
+registerServiceWorker();

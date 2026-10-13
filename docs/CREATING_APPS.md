@@ -574,71 +574,38 @@ The `exercises.json` file contains all exercise content.
 
 For complete schemas, see [EXERCISES.md](EXERCISES.md).
 
-## Step 8: Add Build Scripts
+## Step 8: Validate and Build
 
-Add build scripts to `package.json` for your app:
+No `package.json` changes are needed; every command takes the app id.
 
-```json
-{
-  "scripts": {
-    "dev:my-app": "VITE_APP_ID=my-app vite",
-    "build:my-app": "node scripts/build-app.mjs --app my-app",
-    "build:my-app:pwa": "node scripts/build-app.mjs --app my-app --pwa",
-    "build:data:my-app": "node scripts/build-exercise-data.mjs --app my-app",
-    "validate:my-app": "node scripts/validate-config.mjs --app my-app",
-    "package:my-app": "node scripts/package-release.mjs --app my-app --format zip",
-    "package:my-app:pwa": "node scripts/package-release.mjs --app my-app --format pwa",
-    "release:my-app": "npm run build:my-app && npm run package:my-app && npm run package:my-app:pwa"
-  }
-}
-```
-
-## Step 9: Validate and Build
-
-### Validate Configuration
+### Validate
 
 ```bash
-# Validate your app configuration
-npm run validate:my-app
-
-# Or with explicit app ID
-node scripts/validate-config.mjs --app my-app
+npm run validate                   # default config and every app
+npm run validate -- --app my-app   # one app
 ```
 
 The validator checks:
 
 - JSON syntax validity
-- Required fields presence
-- Cross-references (areas, themes, exercise types)
-- Content schema compliance
+- Required fields
+- References (areas, themes, exercise types in `subject.json`)
+- The schema of every exercise (`scripts/lib/exercise-schema.mjs`), including solvability rules such as unique left-hand items in matching exercises
 
-### Build Exercise Data
-
-```bash
-# Build exercise data for your app
-npm run build:data:my-app
-```
-
-### Build for Production
+### Build
 
 ```bash
-# Build your app
-npm run build:my-app
-
-# Build with PWA support
-npm run build:my-app:pwa
+npm run build -- --app my-app        # USB build: dist/my-app
+npm run build:pwa -- --app my-app    # PWA build: dist/my-app-pwa
 ```
+
+Builds fail on invalid content or type errors.
 
 ### Create Release Package
 
 ```bash
-# Full release (build + package)
-npm run release:my-app
-
-# Or step by step
-npm run build:my-app
-npm run package:my-app
-npm run package:my-app:pwa
+node scripts/package-release.mjs --app my-app --format zip   # USB archive
+node scripts/package-release.mjs --app my-app --format pwa   # PWA archive
 ```
 
 ## Testing Your App
@@ -647,7 +614,7 @@ npm run package:my-app:pwa
 
 ```bash
 # Start development server for your app
-npm run dev:my-app
+npm run dev -- --app my-app
 ```
 
 Open [http://localhost:5173](http://localhost:5173) to test.
@@ -656,8 +623,8 @@ Open [http://localhost:5173](http://localhost:5173) to test.
 
 ```bash
 # Build and preview
-npm run build:my-app
-npm run preview
+npm run build:pwa -- --app my-app
+npx vite preview --outDir dist/my-app-pwa
 ```
 
 ### Checklist

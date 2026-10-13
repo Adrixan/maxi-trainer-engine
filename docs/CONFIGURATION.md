@@ -401,7 +401,6 @@ After each configuration change:
 
 ```bash
 npm run validate
-npm run build:data
 npm run dev
 ```
 

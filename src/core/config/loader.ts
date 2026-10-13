@@ -20,6 +20,7 @@ import type {
     ValidationWarning,
     Exercise,
 } from '@/types';
+import { getAppId } from '@core/appId';
 import {
     validateSubjectConfig,
     validateAreas,
@@ -54,18 +55,6 @@ export interface AppConfig {
         exercise: string;
         exercisePlural: string;
     };
-}
-
-// ============================================================================
-// App ID Detection
-// ============================================================================
-
-/**
- * Get the current app ID from environment variable.
- * Defaults to 'ahs-deutsch' if not set.
- */
-function getAppId(): string {
-    return import.meta.env.VITE_APP_ID || 'ahs-deutsch';
 }
 
 // ============================================================================
@@ -159,43 +148,13 @@ export function getCurrentAppId(): string {
 }
 
 /**
- * Load app configuration (app.json).
- * Falls back to defaults if not available.
- *
- * @returns AppConfig with primary color and terminology
+ * Fallback app configuration, used while app.json is loading or missing.
+ * Real builds always ship app.json (see scripts/lib/app-build.mjs).
  */
-export async function loadAppConfig(): Promise<AppConfig> {
-    const appId = getAppId();
-    const windowObj = window as unknown as Record<string, unknown>;
-
-    // Check window object first for USB/offline mode
-    if (windowObj.__TRAINER_APP__) {
-        return windowObj.__TRAINER_APP__ as AppConfig;
-    }
-
-    // Try to fetch app.json from apps directory
-    const appPath = `./apps/${appId}/app.json`;
-
-    try {
-        const response = await fetch(appPath);
-        if (response.ok) {
-            return await response.json() as AppConfig;
-        }
-    } catch {
-        // Ignore fetch errors, use defaults
-    }
-
-    // Return default config based on appId
-    return getDefaultAppConfig(appId);
-}
-
-/**
- * Get default app config for known apps.
- */
-function getDefaultAppConfig(appId: string): AppConfig {
+export function defaultAppConfig(appId: string = getAppId()): AppConfig {
     return {
         id: appId,
-        name: 'Maxi Trainer',
+        name: appId,
         version: '1.0.0',
         build: { pwaEnabled: true, usbDistribution: true },
         display: { primaryColor: '#3b82f6', icon: '/icon.svg' },
@@ -208,6 +167,29 @@ function getDefaultAppConfig(appId: string): AppConfig {
             exercisePlural: 'Übungen',
         },
     };
+}
+
+/**
+ * Load the app configuration (app.json).
+ *
+ * USB builds provide it as `window.__TRAINER_APP__`; PWA builds and the dev
+ * server also serve `config/app.json`.
+ */
+export async function loadAppConfig(): Promise<AppConfig> {
+    const fromWindow = (window as unknown as Record<string, unknown>).__TRAINER_APP__;
+    if (fromWindow) {
+        return { ...defaultAppConfig(), ...(fromWindow as Partial<AppConfig>) };
+    }
+
+    try {
+        const response = await fetch('./config/app.json');
+        if (response.ok) {
+            return { ...defaultAppConfig(), ...(await response.json() as Partial<AppConfig>) };
+        }
+    } catch {
+        // Not available: fall through to the defaults.
+    }
+    return defaultAppConfig();
 }
 
 // ============================================================================
@@ -312,7 +294,7 @@ async function loadExercisesJson(_appId: string, useFallback = true): Promise<Ex
                 // Mismatched app ID — warn but still use if no better source available
                 console.warn(
                     `Exercise data is for app "${data.metadata.appId}" but current app is "${_appId}". ` +
-                    'Run: node scripts/generate-dev-config.mjs --app ' + _appId
+                    'Restart the dev server with: npm run dev -- --app ' + _appId
                 );
             }
             return data.exercises || [];

@@ -6,8 +6,17 @@
  * because it doesn't require server-side URL rewriting.
  */
 
-import { createHashRouter, type RouteObject } from 'react-router-dom';
+import { createHashRouter, redirect, type RouteObject } from 'react-router-dom';
+import { useAppStore } from '@core/stores';
 import { Layout } from '@core/components/layout';
+
+/**
+ * Route guard for the teacher area: without an unlocked session the visitor is
+ * sent to the PIN page, whatever URL they typed.
+ */
+export function requireTeacher() {
+    return useAppStore.getState().teacherAuthenticated ? null : redirect('/teacher/pin');
+}
 
 /**
  * Route definitions for the application.
@@ -73,11 +82,21 @@ export const routes: RouteObject[] = [
             },
             {
                 path: '/teacher/dashboard',
+                loader: requireTeacher,
                 lazy: () => import('@/pages/TeacherDashboardPage').then((m) => ({ Component: m.TeacherDashboardPage })),
             },
         ],
     },
 ];
+
+/** Opt in to React Router v7 behaviour now, so the v7 upgrade changes nothing. */
+const ROUTER_FUTURE = {
+    v7_relativeSplatPath: true,
+    v7_fetcherPersist: true,
+    v7_normalizeFormMethod: true,
+    v7_partialHydration: true,
+    v7_skipActionErrorRevalidation: true,
+} as const;
 
 /**
  * Create and configure the hash router.
@@ -87,7 +106,7 @@ export const routes: RouteObject[] = [
  * part that works without a server.
  */
 export function createRouter() {
-    return createHashRouter(routes);
+    return createHashRouter(routes, { future: ROUTER_FUTURE });
 }
 
 /**

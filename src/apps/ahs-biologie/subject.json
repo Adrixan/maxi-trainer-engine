@@ -7,7 +7,8 @@
     "enabledExerciseTypes": [
         "multiple-choice",
         "fill-blank",
-        "matching"
+        "matching",
+        "sorting"
     ],
     "exerciseTypeConfig": {
         "multiple-choice": {

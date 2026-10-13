@@ -64,25 +64,20 @@ This checks:
 - Required fields presence
 - Cross-reference integrity (e.g., exercises reference valid themes and areas)
 
-### 4. Build Exercise Data
+### 4. Choose an App
 
-Generate the optimized exercise data file:
-
-```bash
-npm run build:data
-```
-
-This processes `src/data/exercises.json` and generates `public/data/exercises.js` in IIFE format for file:// protocol compatibility.
+Every app lives in `src/apps/<id>` (see [CREATING_APPS.md](CREATING_APPS.md)). Commands take the app with `--app <id>`; without it the default app from `trainer.config.json` is used.
 
 ## Running the Development Server
 
 Start the development server with hot module replacement:
 
 ```bash
-npm run dev
+npm run dev                       # default app
+npm run dev -- --app ahs-mathematik   # another app
 ```
 
-The application will be available at [http://localhost:5173](http://localhost:5173).
+This generates the app's config and exercise files in `public/` (untracked) and starts Vite. The application will be available at [http://localhost:5173](http://localhost:5173).
 
 ### Development Server Features
 
@@ -135,42 +130,44 @@ npm run lint:fix
 
 ### Standard Build
 
-Build the application for production deployment:
+Build one app for production deployment:
 
 ```bash
-npm run build
+npm run build -- --app ahs-mathematik        # USB build: dist/ahs-mathematik
+npm run build:pwa -- --app ahs-mathematik    # PWA build: dist/ahs-mathematik-pwa
+npm run build:all                        # every app, USB and PWA
 ```
 
-This command:
+A build
 
-1. Builds exercise data (`npm run build:data`)
-2. Compiles TypeScript (`tsc -b`)
-3. Bundles with Vite (`vite build`)
-
-The output is placed in the `dist/` directory.
+1. validates the app's content and fails on any error,
+2. type-checks the code and fails on any error,
+3. bundles with Vite and writes config, exercises, icon and (PWA) manifest and service worker.
 
 ### Build Output Structure
 
 ```
-dist/
+dist/<app>/
 ├── index.html              # Entry point
+├── icon.svg
 ├── assets/
-│   ├── index-[hash].js     # Bundled JavaScript (IIFE format)
-│   └── index-[hash].css    # Bundled styles
-├── data/
-│   └── exercises.js        # Exercise data (IIFE)
-└── fonts/                  # Custom fonts
+│   └── index-[hash].js     # Bundled application (IIFE, includes styles)
+├── config/                 # app, subject, areas, themes, badges (*.js; PWA builds also *.json)
+└── data/
+    └── exercises.js        # Exercises (PWA builds also exercises.json)
 ```
+
+PWA builds add `manifest.json` and `sw.js`.
 
 ### Preview Production Build
 
 Test the production build locally:
 
 ```bash
-npm run preview
+npx vite preview --outDir dist/ahs-mathematik-pwa
 ```
 
-This serves the `dist/` directory at [http://localhost:4173](http://localhost:4173).
+This serves the build at [http://localhost:4173](http://localhost:4173).
 
 ## Building for USB Distribution
 
@@ -179,7 +176,7 @@ Mini Trainer Engine is designed to work from USB drives using the file:// protoc
 ### USB-Compatible Build
 
 ```bash
-npm run build
+npm run build -- --app <id>
 ```
 
 The build is already configured for file:// protocol compatibility:
@@ -193,10 +190,10 @@ The build is already configured for file:// protocol compatibility:
 1. Build the application:
 
    ```bash
-   npm run build
+   npm run build -- --app <id>
    ```
 
-2. Copy the `dist/` directory contents to your USB drive
+2. Copy the contents of `dist/<id>/` to your USB drive
 
 3. Users can open `index.html` directly from the USB drive
 
@@ -211,14 +208,16 @@ The build is already configured for file:// protocol compatibility:
 For web deployment with offline support:
 
 ```bash
-npm run build:pwa
+npm run build:pwa -- --app <id>
 ```
 
 This generates:
 
-- Service worker (`sw.js`)
-- PWA manifest (`manifest.json`)
-- App icons
+- Service worker (`sw.js`), versioned per build and pre-caching every file of the build
+- PWA manifest (`manifest.json`), generated from the app's `app.json`
+- The app icon (`icon.svg`)
+
+PWA features need https (or localhost).
 
 See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed PWA configuration.
 
@@ -245,11 +244,11 @@ rm -rf tsconfig.tsbuildinfo tsconfig.node.tsbuildinfo
 npm run typecheck
 ```
 
-#### Build Fails with "exercises.js not found"
+#### Build Fails with Content Errors
 
 ```bash
-# Build exercise data first
-npm run build:data
+# Lists every problem with the exercise id and field
+npm run validate
 ```
 
 #### Vite Cache Issues

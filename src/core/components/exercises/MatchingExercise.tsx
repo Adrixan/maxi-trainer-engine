@@ -1,11 +1,10 @@
-import { useState, useMemo, useRef, useCallback, useEffect } from 'react';
+import { useState, useMemo, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import { HintButton } from './HintButton';
 import { ExerciseFeedback } from './ExerciseFeedback';
 import { optionStyles } from '@core/utils/exerciseStyles';
 import type { MatchingContent } from '@/types/exercise';
 import { shuffle } from '@core/utils/shuffle';
-import { useKeyboardNavigation } from '@core/hooks/useKeyboardNavigation';
 
 interface Props {
     content: MatchingContent;
@@ -15,81 +14,45 @@ interface Props {
 }
 
 /**
- * Matching exercise: match items from left column to right column.
- * Supports tap-to-select and keyboard navigation.
- * Cross-column keyboard navigation: selecting left switches focus to right and vice versa.
+ * Matching exercise: match items from the left column to the right column.
+ *
+ * Matches are tracked by position (left index -> index in the shuffled right
+ * column), not by text, so several left items may share the same right-hand
+ * answer. All controls are native buttons, which gives keyboard operation
+ * (Tab, Enter, Space) for free.
  */
 export function MatchingExercise({ content, hints, onSubmit, showSolution }: Props) {
     const { t } = useTranslation();
 
-    // Shuffle the right-hand side once on mount
+    // Shuffle the right-hand side once per exercise
     const shuffledRight = useMemo(
         () => shuffle(content.pairs.map((p) => p.right)),
-        // content.pairs is stable from props, only shuffle once on mount
-        [],
+        [content.pairs],
     );
 
     const [selectedLeft, setSelectedLeft] = useState<number | null>(null);
-    const [matches, setMatches] = useState<Record<number, string>>({});
+    /** left index -> index into shuffledRight */
+    const [matches, setMatches] = useState<Record<number, number>>({});
 
-    // Refs for both columns
-    const leftColumnRef = useRef<HTMLDivElement>(null);
-    const rightColumnRef = useRef<HTMLDivElement>(null);
     const leftButtonRefs = useRef<(HTMLButtonElement | null)[]>([]);
     const rightButtonRefs = useRef<(HTMLButtonElement | null)[]>([]);
     const checkButtonRef = useRef<HTMLButtonElement>(null);
 
-    // Keyboard navigation for left column
-    const leftNav = useKeyboardNavigation<number>({
-        items: content.pairs.map((_, i) => i),
-        onSelect: useCallback((item: number) => {
-            handleLeftSelect(item);
-        }, [showSolution]),
-        onCancel: useCallback(() => {
-            setSelectedLeft(null);
-        }, []),
-        enabled: !showSolution,
-        wrap: true,
-        initialIndex: -1,
-    });
+    const matchCount = Object.keys(matches).length;
+    const allMatched = matchCount === content.pairs.length;
+    const rightUsed = new Set(Object.values(matches));
 
-    // Get available right items (not already used)
-    const availableRightItems = useMemo(() => {
-        return shuffledRight
-            .map((rightValue, rIdx) => ({ rightValue, rIdx }))
-            .filter(({ rightValue }) => !Object.values(matches).includes(rightValue));
-    }, [shuffledRight, matches]);
+    const textOf = (rightIdx: number | undefined): string | undefined =>
+        rightIdx === undefined ? undefined : shuffledRight[rightIdx];
 
-    // Keyboard navigation for right column
-    const rightNav = useKeyboardNavigation<{ rightValue: string; rIdx: number }>({
-        items: availableRightItems,
-        onSelect: useCallback((item: { rightValue: string; rIdx: number }) => {
-            handleRightSelect(item.rightValue);
-        }, [selectedLeft, showSolution]),
-        onCancel: useCallback(() => {
-            // Return focus to left column
-            setSelectedLeft(null);
-        }, []),
-        enabled: !showSolution && selectedLeft !== null,
-        wrap: true,
-        initialIndex: -1,
-    });
+    const focusSoon = (focus: () => void) => {
+        setTimeout(focus, 0);
+    };
 
-    // Sync button refs for left column
-    useEffect(() => {
-        leftNav.itemRefs.current = leftButtonRefs.current;
-    }, [leftNav]);
-
-    // Sync button refs for right column
-    useEffect(() => {
-        rightNav.itemRefs.current = rightButtonRefs.current;
-    }, [rightNav]);
-
-    // Handle left column selection (keyboard or click)
+    // Left column: select an item, or unmatch an already matched one
     const handleLeftSelect = (idx: number) => {
         if (showSolution) return;
 
-        // If this left item already has a match, unmatch it
         if (matches[idx] !== undefined) {
             setMatches((prev) => {
                 const next = { ...prev };
@@ -100,56 +63,26 @@ export function MatchingExercise({ content, hints, onSubmit, showSolution }: Pro
             return;
         }
 
-        // Select this left item and switch focus to right column
         setSelectedLeft(idx);
-
-        // Focus the first available (not used) item in the right column
-        setTimeout(() => {
-            const firstAvailableIdx = rightButtonRefs.current.findIndex((btn) => btn && !btn.disabled);
-            if (firstAvailableIdx !== -1 && rightButtonRefs.current[firstAvailableIdx]) {
-                rightButtonRefs.current[firstAvailableIdx]?.focus();
-            }
-        }, 10);
-    };
-
-    const handleLeftClick = (idx: number) => {
-        handleLeftSelect(idx);
-    };
-
-    const handleRightClick = (rightValue: string) => {
-        handleRightSelect(rightValue);
-    };
-
-    // Handle right column selection (keyboard or click)
-    const handleRightSelect = (rightValue: string) => {
-        if (showSolution || selectedLeft === null) return;
-
-        // Get the match before updating state
-        const currentSelectedLeft = selectedLeft;
-
-        setMatches((prev) => {
-            const newMatches = { ...prev, [currentSelectedLeft]: rightValue };
-            const isAllMatched = Object.keys(newMatches).length === content.pairs.length;
-
-            // If all pairs are matched, focus the check button
-            if (isAllMatched) {
-                setTimeout(() => {
-                    checkButtonRef.current?.focus();
-                }, 10);
-            }
-
-            return newMatches;
+        focusSoon(() => {
+            const firstFree = shuffledRight.findIndex((_, rIdx) => !rightUsed.has(rIdx));
+            rightButtonRefs.current[firstFree]?.focus();
         });
+    };
+
+    // Right column: pair the selected left item with this right item
+    const handleRightSelect = (rightIdx: number) => {
+        if (showSolution || selectedLeft === null || rightUsed.has(rightIdx)) return;
+
+        const next = { ...matches, [selectedLeft]: rightIdx };
+        setMatches(next);
         setSelectedLeft(null);
 
-        // Switch focus back to left column - find first unmatched item (only if not all matched)
-        if (Object.keys(matches).length < content.pairs.length - 1) {
-            setTimeout(() => {
-                const firstUnmatchedIdx = content.pairs.findIndex((_, idx) => matches[idx] === undefined);
-                if (firstUnmatchedIdx !== -1 && leftButtonRefs.current[firstUnmatchedIdx]) {
-                    leftButtonRefs.current[firstUnmatchedIdx]?.focus();
-                }
-            }, 10);
+        if (Object.keys(next).length === content.pairs.length) {
+            focusSoon(() => checkButtonRef.current?.focus());
+        } else {
+            const firstUnmatched = content.pairs.findIndex((_, i) => next[i] === undefined);
+            focusSoon(() => leftButtonRefs.current[firstUnmatched]?.focus());
         }
     };
 
@@ -158,18 +91,15 @@ export function MatchingExercise({ content, hints, onSubmit, showSolution }: Pro
         setSelectedLeft(null);
     };
 
-    const allMatched = Object.keys(matches).length === content.pairs.length;
-    const hasAnyMatch = Object.keys(matches).length > 0;
-
     const handleCheck = () => {
         if (!allMatched) return;
         const allCorrect = content.pairs.every(
-            (pair, idx) => matches[idx] === pair.right,
+            (pair, idx) => textOf(matches[idx]) === pair.right,
         );
         onSubmit(allCorrect);
     };
 
-    const rightUsed = new Set(Object.values(matches));
+    const hasAnyMatch = matchCount > 0;
 
     return (
         <div className="space-y-4">
@@ -179,10 +109,10 @@ export function MatchingExercise({ content, hints, onSubmit, showSolution }: Pro
 
             <div className="grid grid-cols-2 gap-3" role="group" aria-labelledby="matching-instruction">
                 {/* Left column */}
-                <div className="space-y-2" ref={leftColumnRef} role="radiogroup" aria-label={t('exercises.matching.leftColumn')}>
+                <div className="space-y-2" role="radiogroup" aria-label={t('exercises.matching.leftColumn')}>
                     {content.pairs.map((pair, idx) => {
                         const isSelected = selectedLeft === idx;
-                        const matchedValue = matches[idx];
+                        const matchedValue = textOf(matches[idx]);
                         const isCorrect = showSolution && matchedValue === pair.right;
                         const isWrong = showSolution && matchedValue !== undefined && matchedValue !== pair.right;
 
@@ -199,7 +129,7 @@ export function MatchingExercise({ content, hints, onSubmit, showSolution }: Pro
                             <button
                                 key={idx}
                                 ref={(el) => { leftButtonRefs.current[idx] = el; }}
-                                onClick={() => handleLeftClick(idx)}
+                                onClick={() => handleLeftSelect(idx)}
                                 disabled={showSolution}
                                 aria-pressed={isSelected}
                                 aria-label={`${pair.left}${matchedValue ? `, matched with ${matchedValue}` : ''}`}
@@ -228,19 +158,17 @@ export function MatchingExercise({ content, hints, onSubmit, showSolution }: Pro
                 </div>
 
                 {/* Right column (shuffled) */}
-                <div className="space-y-2" ref={rightColumnRef} role="group" aria-label={t('exercises.matching.rightColumn')}>
+                <div className="space-y-2" role="group" aria-label={t('exercises.matching.rightColumn')}>
                     {shuffledRight.map((rightValue, rIdx) => {
-                        const used = rightUsed.has(rightValue);
+                        const used = rightUsed.has(rIdx);
 
                         // Determine option variant for styling
                         const getVariant = (): 'default' | 'selected' | 'correct' | 'incorrect' | 'disabled' => {
                             if (used && !showSolution) return 'disabled';
                             if (showSolution) {
-                                const matchEntries = Object.entries(matches);
-                                const matchedIdx = matchEntries.find(([, v]) => v === rightValue);
-                                if (matchedIdx) {
-                                    const idx = Number(matchedIdx[0]);
-                                    const correct = content.pairs[idx]?.right === rightValue;
+                                const matchedLeft = Object.entries(matches).find(([, v]) => v === rIdx);
+                                if (matchedLeft) {
+                                    const correct = content.pairs[Number(matchedLeft[0])]?.right === rightValue;
                                     return correct ? 'correct' : 'incorrect';
                                 }
                             }
@@ -251,7 +179,7 @@ export function MatchingExercise({ content, hints, onSubmit, showSolution }: Pro
                             <button
                                 key={`right-${rIdx}`}
                                 ref={(el) => { rightButtonRefs.current[rIdx] = el; }}
-                                onClick={() => handleRightClick(rightValue)}
+                                onClick={() => handleRightSelect(rIdx)}
                                 disabled={showSolution || used}
                                 aria-disabled={used && !showSolution}
                                 aria-label={rightValue}
