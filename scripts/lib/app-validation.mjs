@@ -11,6 +11,19 @@ import { readJson, unwrap } from './app-files.mjs';
 /** Minimum number of exercises per theme and level before a warning is raised. */
 export const MIN_EXERCISES_PER_BUCKET = 3;
 
+/** Every item needs a non-empty string id, unique within the file. */
+function checkIds(file, list, getId, error) {
+    if (!list) return;
+    if (list.length === 0) error(file, 'must not be empty');
+    const seen = new Set();
+    list.forEach((item, index) => {
+        const id = getId(item);
+        if (typeof id !== 'string' || id.trim() === '') error(`${file}[${index}]`, "missing required field 'id'");
+        else if (seen.has(id)) error(`${file}[${index}]`, `duplicate id '${id}'`);
+        else seen.add(id);
+    });
+}
+
 const idsOf = (list) => new Set((list ?? []).map((item) => item?.id).filter(Boolean));
 
 /**
@@ -19,9 +32,10 @@ const idsOf = (list) => new Set((list ?? []).map((item) => item?.id).filter(Bool
  * @param {unknown} input.areas       Parsed areas.json
  * @param {unknown} input.themes      Parsed themes.json
  * @param {unknown} input.subject     Parsed subject.json (may be null)
+ * @param {unknown} [input.badges]    Parsed badges.json (checked when given)
  * @param {unknown} input.exercises   Parsed exercises.json
  */
-export function validateContent({ label, areas, themes, subject, exercises }) {
+export function validateContent({ label, areas, themes, subject, badges, exercises }) {
     const errors = [];
     const warnings = [];
     const error = (path, message) => errors.push({ file: label, path, message });
@@ -33,6 +47,28 @@ export function validateContent({ label, areas, themes, subject, exercises }) {
 
     if (!areaList) error('areas.json', 'missing or not an array');
     if (!themeList) error('themes.json', 'missing or not an array');
+
+    checkIds('areas.json', areaList, (item) => item?.id, error);
+    checkIds('themes.json', themeList, (item) => item?.id, error);
+    if (badges !== undefined) {
+        const badgeList = unwrap(badges, 'badges');
+        if (!badgeList) error('badges.json', 'missing or not an array');
+        // Nested ({ badge: { id } }) and flat ({ id }) badge formats are both in use
+        else checkIds('badges.json', badgeList, (item) => item?.badge?.id ?? item?.id, error);
+    }
+    if (subject !== undefined && subject !== null) {
+        if (typeof subject !== 'object' || Array.isArray(subject)) error('subject.json', 'must be an object');
+        else {
+            for (const field of ['id', 'name']) {
+                if (typeof subject[field] !== 'string' || subject[field].trim() === '') {
+                    error('subject.json', `missing required field '${field}'`);
+                }
+            }
+            if (subject.enabledExerciseTypes !== undefined && !Array.isArray(subject.enabledExerciseTypes)) {
+                error('subject.json', 'enabledExerciseTypes must be an array');
+            }
+        }
+    }
     if (!exerciseList) {
         error('exercises.json', 'missing or not an array');
         return { errors, warnings };
@@ -111,6 +147,7 @@ export function validateAppDir(rootDir, appId, defaultConfigDir) {
         areas: read('areas.json'),
         themes: read('themes.json'),
         subject: read('subject.json'),
+        badges: read('badges.json'),
         exercises: readJson(join(dir, 'exercises.json')),
     });
 }

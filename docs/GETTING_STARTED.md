@@ -133,8 +133,8 @@ npm run lint:fix
 Build one app for production deployment:
 
 ```bash
-npm run build -- --app ahs-mathematik        # USB build: dist/mathematik
-npm run build:pwa -- --app ahs-mathematik    # PWA build: dist/mathematik-pwa
+npm run build -- --app ahs-mathematik        # USB build: dist/ahs-mathematik
+npm run build:pwa -- --app ahs-mathematik    # PWA build: dist/ahs-mathematik-pwa
 npm run build:all                        # every app, USB and PWA
 ```
 
@@ -164,7 +164,7 @@ PWA builds add `manifest.json` and `sw.js`.
 Test the production build locally:
 
 ```bash
-npx vite preview --outDir dist/mathematik-pwa
+npx vite preview --outDir dist/ahs-mathematik-pwa
 ```
 
 This serves the build at [http://localhost:4173](http://localhost:4173).

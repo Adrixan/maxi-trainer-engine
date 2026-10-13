@@ -17,7 +17,8 @@ describe('sha256HexSync', () => {
     });
 
     it('hashes UTF-8 and long inputs', () => {
-        expect(sha256HexSync('Größe 🦊')).toBe(sha256HexSync('Größe 🦊'));
+        // Reference digest from Node's crypto module (UTF-8 input)
+        expect(sha256HexSync('Größe 🦊')).toBe('8056c41830f91f7f94dbd7bdacc56791363abffc52bbbf9a7e72715011f63289');
         expect(sha256HexSync('a'.repeat(1_000_000))).toBe(
             'cdc76e5c9914fb9281a1c7e284d73e67f1809a48a497200e046d39ccc7112cd0',
         );

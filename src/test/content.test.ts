@@ -26,7 +26,7 @@ describe('content validator', () => {
         label: 'test',
         areas: [{ id: 'a' }],
         themes: [{ id: 't' }],
-        subject: { enabledExerciseTypes: ['matching', 'fill-blank', 'multiple-choice'] },
+        subject: { id: 's', name: 'Subject', enabledExerciseTypes: ['matching', 'fill-blank', 'multiple-choice'] },
     };
     const exercise = (content: Record<string, unknown>, extra: Record<string, unknown> = {}) => ({
         id: 'x1', type: content.type, areaId: 'a', themeId: 't', level: 1, difficulty: 1,
@@ -74,10 +74,33 @@ describe('content validator', () => {
         expect(messages).toContain("duplicate id 'x1'");
     });
 
+    it('checks the shape of areas, themes, badges and subject', () => {
+        const { errors } = validateContent({
+            ...base,
+            areas: [{ name: 'no id' }, { id: 'a' }, { id: 'a' }],
+            themes: [],
+            badges: [{ badge: { id: 'b1' } }, { id: 'b1' }, { name: 'x' }],
+            subject: {},
+            exercises: [],
+        });
+        const messages = errors.map((e) => `${e.path}: ${e.message}`);
+        expect(messages).toEqual(
+            expect.arrayContaining([
+                "areas.json[0]: missing required field 'id'",
+                "areas.json[2]: duplicate id 'a'",
+                'themes.json: must not be empty',
+                "badges.json[1]: duplicate id 'b1'",
+                "badges.json[2]: missing required field 'id'",
+                "subject.json: missing required field 'id'",
+                "subject.json: missing required field 'name'",
+            ]),
+        );
+    });
+
     it('requires enabledExerciseTypes to cover the used types', () => {
         const { errors } = validateContent({
             ...base,
-            subject: { enabledExerciseTypes: ['multiple-choice'] },
+            subject: { id: 's', name: 'Subject', enabledExerciseTypes: ['multiple-choice'] },
             exercises: [exercise({ type: 'matching', pairs: [{ left: 'a', right: 'x' }, { left: 'b', right: 'y' }] })],
         });
         expect(errors.map((e) => e.message).join()).toContain('lacks types used by exercises: matching');

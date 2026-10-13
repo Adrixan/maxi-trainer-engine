@@ -24,6 +24,9 @@ interface StudentStats {
     themesCompleted: number;
 }
 
+/** Pending "lock after leaving" timer, shared across mounts (see the effect in the component). */
+let pendingLock: ReturnType<typeof setTimeout> | undefined;
+
 /**
  * Teacher dashboard page component.
  */
@@ -32,8 +35,14 @@ export function TeacherDashboardPage() {
     const navigate = useNavigate();
     const logoutTeacher = useAppStore((s) => s.logoutTeacher);
 
-    // Leaving the dashboard by any route locks the teacher area again.
-    useEffect(() => logoutTeacher, [logoutTeacher]);
+    // Leaving the dashboard locks the teacher area again. The lock is deferred by one tick so that
+    // React StrictMode's development-only unmount/remount replay does not lock it on arrival.
+    useEffect(() => {
+        clearTimeout(pendingLock);
+        return () => {
+            pendingLock = setTimeout(logoutTeacher, 0);
+        };
+    }, [logoutTeacher]);
     const [profiles, setProfiles] = useState<UserProfile[]>([]);
     const [stats, setStats] = useState<Record<string, StudentStats>>({});
     const [isLoading, setIsLoading] = useState(true);

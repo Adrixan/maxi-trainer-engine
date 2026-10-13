@@ -753,7 +753,7 @@
       },
       "hints": ["Beachte die Endungen"],
       "feedbackCorrect": "Richtig sortiert!",
-      "feedbackIncorrect": "Singular: -a, -ae, -ae, -am; Plural: -ae, -arum, -is, -as"
+      "feedbackIncorrect": "Singular: -a, -am, -ā; Plural: -ae, -arum, -as"
     },
     {
       "id": "ahs-lat-k3-dek1-009",
@@ -995,13 +995,13 @@
       "content": {
         "type": "sorting",
         "categories": [
-          {"label": "Singular", "items": ["dominus", "domini", "dominum"]},
-          {"label": "Plural", "items": ["dominī", "dominorum", "dominos"]}
+          {"label": "Singular", "items": ["dominus", "dominum", "domino"]},
+          {"label": "Plural", "items": ["dominorum", "dominos", "dominis"]}
         ]
       },
       "hints": ["Beachte die Endungen der o-Deklination"],
       "feedbackCorrect": "Richtig sortiert!",
-      "feedbackIncorrect": "Singular: -us, -i, -o, -um; Plural: -i, -orum, -is, -os"
+      "feedbackIncorrect": "Singular: -us, -um, -o; Plural: -orum, -os, -is"
     },
     {
       "id": "ahs-lat-k3-dek2-009",

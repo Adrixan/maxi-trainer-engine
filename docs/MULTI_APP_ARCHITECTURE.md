@@ -1,3 +1,5 @@
+> **Note:** parts of this design document predate the current scripts (`prepare-dev.mjs`, `build-app.mjs`, `trainer.config.json`). See the README for the commands in use.
+
 # Multi-App Architecture Design
 
 ## Overview
@@ -716,33 +718,23 @@ console.log('\n✅ All apps built successfully');
 
 ### 5.3 Package.json Scripts
 
+The scripts take the app as an argument, so adding an app needs no `package.json` change:
+
 ```json
 {
   "scripts": {
-    "dev": "VITE_APP_ID=daz vite",
-    "dev:mathematik": "VITE_APP_ID=mathematik vite",
-    "dev:englisch": "VITE_APP_ID=englisch vite",
-    
-    "build": "node scripts/build-app.mjs --app daz",
-    "build:daz": "node scripts/build-app.mjs --app daz",
-    "build:mathematik": "node scripts/build-app.mjs --app ahs-mathematik",
-    "build:englisch": "node scripts/build-app.mjs --app englisch",
-    "build:all": "node scripts/build-all-apps.mjs",
-    
-    "build:pwa": "node scripts/build-app.mjs --app daz --pwa",
-    "build:pwa:daz": "node scripts/build-app.mjs --app daz --pwa",
-    "build:pwa:all": "node scripts/build-all-apps.mjs --pwa",
-    
-    "package": "node scripts/package-release.mjs --app daz",
-    "package:all": "node scripts/package-release.mjs --all",
-    
-    "validate": "node scripts/validate-config.mjs --app daz",
-    "validate:all": "node scripts/validate-config.mjs --all"
+    "dev": "node scripts/prepare-dev.mjs",
+    "build": "node scripts/build-app.mjs",
+    "build:pwa": "node scripts/build-app.mjs --pwa",
+    "build:all": "node scripts/build-all-apps.mjs --both",
+    "build:all:usb": "node scripts/build-all-apps.mjs",
+    "build:all:pwa": "node scripts/build-all-apps.mjs --pwa",
+    "validate": "node scripts/validate-config.mjs"
   }
 }
 ```
 
----
+Usage: `npm run dev -- --app <id>`, `npm run build -- --app <id>`, `npm run build:pwa -- --app <id>`. Without `--app` the default app from `trainer.config.json` is used.
 
 ## 6. Release Process
 

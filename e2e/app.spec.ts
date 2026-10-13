@@ -94,7 +94,8 @@ test.describe('PWA build (http)', () => {
         await page.goto('/');
         await expect(page.getByText('Profil erstellen').first()).toBeVisible();
         await page.evaluate(() => navigator.serviceWorker.ready);
-        await expect.poll(() => page.evaluate(() => navigator.serviceWorker.controller !== null || true)).toBe(true);
+        // clients.claim() makes the worker control this page without a reload
+        await expect.poll(() => page.evaluate(() => navigator.serviceWorker.controller !== null)).toBe(true);
 
         // The worker pre-caches the whole build during install
         const cached = await page.evaluate(async () => {

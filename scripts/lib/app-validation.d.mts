@@ -13,6 +13,7 @@ export function validateContent(input: {
     areas: unknown;
     themes: unknown;
     subject: unknown;
+    badges?: unknown;
     exercises: unknown;
 }): ValidationOutcome;
 export function validateAppDir(rootDir: string, appId: string, defaultConfigDir: string): ValidationOutcome;

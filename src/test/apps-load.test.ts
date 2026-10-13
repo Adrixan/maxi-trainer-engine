@@ -46,11 +46,14 @@ describe.each(listAppIds(rootDir))('app %s', (appId) => {
         expect(config?.badges.length).toBeGreaterThan(0);
         expect(exercises.length).toBeGreaterThan(0);
 
-        // Every theme the learner can open has exercises
+        // Theme ids are unique and no exercise points at an unknown theme
         const themeIds = new Set(config?.themes.map((theme) => theme.id));
         expect(themeIds.size).toBe(config?.themes.length);
         const used = new Set(exercises.map((exercise) => exercise.themeId));
         expect([...used].filter((id) => !themeIds.has(id))).toEqual([]);
+
+        // At least one theme has content (themes without exercises are hidden from learners)
+        expect([...themeIds].filter((id) => used.has(id)).length).toBeGreaterThan(0);
         for (const theme of config?.themes ?? []) {
             expect(typeof theme.minLevel).toBe('number');
         }
